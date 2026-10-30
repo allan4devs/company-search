@@ -1,0 +1,36 @@
+{
+  "target": 1000,
+  "checkedOn": "2026-10-29",
+  "totalCompanies": 1000,
+  "startingCompanies": 367,
+  "importedProfiles": 671,
+  "addedCompanies": 633,
+  "candidatesReviewed": 1024,
+  "candidatesWithReachablePages": 839,
+  "eligibleCompanyPool": 1023,
+  "nearshore": 50,
+  "withCareersLinks": 605,
+  "withTargetTechnology": 878,
+  "technologies": {
+    "Java": 426,
+    "React": 635,
+    "Python": 457,
+    "Node.js": 322,
+    "JavaScript": 620,
+    "TypeScript": 332
+  },
+  "roles": {
+    "Full stack": 403,
+    "Backend": 193,
+    "Frontend": 143
+  },
+  "levels": {
+    "Mid-level": 33,
+    "Junior": 30,
+    "Senior": 467
+  },
+  "employerBoardsWithRoleEvidence": 155,
+  "source": "https://github.com/remoteintech/remote-jobs",
+  "sourceCommit": "fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189",
+  "limitations": "Company and career links were checked, not every vacancy or country eligibility. Directory technology and geography may be historical. Seniority signals are not guarantees of a current matching opening."
+}
