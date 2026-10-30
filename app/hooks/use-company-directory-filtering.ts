@@ -67,7 +67,7 @@ export function useCompanyDirectoryFiltering(
       }
     }, query ? 180 : 0);
     return () => { window.clearTimeout(timer); controller.abort(); };
-  }, [tab, page, pageSize, companyFilters, researchOnly, preferences, retryKey, setCompanies]);
+  }, [tab, page, pageSize, companyFilters, researchOnly, preferences, retryKey, setCompanies, query]);
 
   const currentPage = result?.page || page;
   const pageCount = result?.pageCount || 1;

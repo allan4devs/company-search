@@ -61,7 +61,7 @@ export function useCompanyDirectoryPreferences(
       return true;
     } catch (error) { setNotice(error instanceof Error ? error.message : "Changes could not be saved. Please retry."); return false; }
     finally { setReaction(null); setReady(true); }
-  }, [ready, companies, tab, canSync, preferences, setReady, setNotice]);
+  }, [ready, companies, tab, canSync, preferences, setReady, setNotice, setPreferences]);
 
   const saveCareers = useCallback(async (company: CompanyCard, draft: string) => {
     const url = safeCareersUrl(draft.trim());
@@ -86,7 +86,7 @@ export function useCompanyDirectoryPreferences(
       channel.close();
       if (preferenceChannel.current === channel) preferenceChannel.current = null;
     };
-  }, [canSync]);
+  }, [canSync, setPreferences]);
 
   useEffect(() => {
     function syncBrowserStorage(event: StorageEvent) {
@@ -101,7 +101,7 @@ export function useCompanyDirectoryPreferences(
     }
     window.addEventListener("storage", syncBrowserStorage);
     return () => window.removeEventListener("storage", syncBrowserStorage);
-  }, [canSync]);
+  }, [canSync, setPreferences]);
 
   return { preferences, setPreferences, copied, setCopied, reaction, setReaction, updatePreference, saveCareers, clearNotice };
 }

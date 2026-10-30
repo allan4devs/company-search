@@ -14,7 +14,7 @@ import styles from "./CompanyDirectoryView.module.css";
 type Props = CompanyDirectoryViewData;
 
 export function CompanyDirectoryView({ data, preferences, filtering }: Props) {
-  const handleCopyError = useCallback(() => data.setNotice("Could not copy. Check clipboard permissions and try again."), [data.setNotice]);
+  const handleCopyError = useCallback(() => data.setNotice("Could not copy. Check clipboard permissions and try again."), [data]);
 
   return <main className={`min-h-screen bg-zinc-950 text-zinc-100 ${styles.directory}`}>
     <CompanyDirectoryTopbar />
