@@ -1,0 +1,37 @@
+@keyframes reaction-pop {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  45% {
+    transform: scale(1.14);
+  }
+
+  75% {
+    transform: scale(0.97);
+  }
+}
+
+@keyframes card-vanish {
+  to {
+    opacity: 0;
+    transform: translateY(16px) scale(0.94);
+  }
+}
+
+.directory :global(.reaction-pop) {
+  animation: reaction-pop 240ms ease-out;
+}
+
+.directory :global(.card-vanish) {
+  animation: card-vanish 280ms ease-in forwards;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .directory :global(.reaction-pop),
+  .directory :global(.card-vanish) {
+    animation: none;
+  }
+}
