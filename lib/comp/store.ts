@@ -9,12 +9,14 @@ import type { CompanyEnrichmentInput } from "./enrichment";
 
 type CompanyRecord = CompanyCard & { _id: string; categories: string[] };
 type PreferenceRecord = CompanyPreference & { _id: string; ownerId: string; companyKey: string; categories: string[]; updatedAt: Date };
+export const SHARED_COMPANY_PREFERENCES_OWNER_ID = "__shared_company_directory__";
 let indexPromise: Promise<void> | null = null;
 
 async function ensureIndexes() {
   const db = await getDb();
   indexPromise ??= Promise.all([
     db.collection(COLLECTIONS.COMP_COMPANIES).createIndex({ name: 1, _id: 1 }, { name: "comp_company_name_order" }),
+    db.collection(COLLECTIONS.COMP_COMPANIES).createIndex({ model: 1, name: 1, _id: 1 }, { name: "comp_company_model_name_order" }),
     db.collection(COLLECTIONS.COMP_COMPANIES).createIndex({ "fit.status": 1, name: 1 }, { name: "comp_company_fit_status" }),
     db.collection(COLLECTIONS.COMP_CATEGORIES).createIndex({ order: 1, _id: 1 }, { name: "comp_category_order" }),
     db.collection(COLLECTIONS.COMP_PREFERENCES).createIndex({ ownerId: 1 }, { name: "comp_preferences_owner" }),
@@ -31,7 +33,7 @@ function companyCategories(company: CompanyCard): string[] {
 function preferenceCategories(preference: CompanyPreference): string[] {
   return preference.liked ? ["likes"] : preference.disliked ? ["dislikes"] : [];
 }
-export async function getCompanies(): Promise<CompanyCard[]> {
+export async function getCompanies(model?: string): Promise<CompanyCard[]> {
   const db = await getDb();
   await ensureIndexes();
   const collection = db.collection<CompanyRecord>(COLLECTIONS.COMP_COMPANIES);
@@ -56,7 +58,7 @@ export async function getCompanies(): Promise<CompanyCard[]> {
     }
     await migrations.updateOne({ _id: categoriesMigrationId }, { $set: { completedAt: new Date() } }, { upsert: true });
   }
-  return collection.find({}, { projection: { _id: 0 } }).sort({ name: 1, _id: 1 }).toArray();
+  return collection.find(model ? { model } : {}, { projection: { _id: 0 } }).sort({ name: 1, _id: 1 }).toArray();
 }
 
 function unique(values: string[]) { return [...new Set(values.filter(Boolean))]; }
@@ -179,6 +181,21 @@ export async function getPreferences(ownerId: string): Promise<Record<string, Co
   await ensureIndexes();
   const rows = await (await preferences()).find({ ownerId }).toArray();
   return Object.fromEntries(rows.map(row => [row.companyKey, { liked: row.liked, disliked: row.disliked, careersUrl: row.careersUrl }]));
+}
+export async function copyPreferencesToOwner(sourceOwnerId: string, targetOwnerId: string) {
+  if (sourceOwnerId === targetOwnerId) return;
+  const collection = await preferences();
+  const rows = await collection.find({ ownerId: sourceOwnerId }).toArray();
+  if (!rows.length) return;
+  const operations: AnyBulkWriteOperation<PreferenceRecord>[] = rows.map(row => {
+    const targetId = JSON.stringify([targetOwnerId, row.companyKey]);
+    return { updateOne: {
+      filter: { _id: targetId },
+      update: { $setOnInsert: { ...row, _id: targetId, ownerId: targetOwnerId } },
+      upsert: true,
+    } };
+  });
+  await collection.bulkWrite(operations, { ordered: false });
 }
 export async function savePreference(ownerId: string, companyKey: string, change: CompanyPreference, importOnly = false) {
   const reaction = { ...change, ...(change.liked ? { disliked: false } : change.disliked ? { liked: false } : {}) };

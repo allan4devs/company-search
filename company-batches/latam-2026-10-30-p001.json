@@ -1,0 +1,260 @@
+{
+  "batchId": "latam-engineering-2026-10-30-p001",
+  "companies": [
+    {
+      "name": "Capchase",
+      "website": "https://www.capchase.com/",
+      "careersUrl": "https://www.capchase.com/careers",
+      "model": "direct",
+      "tracks": ["Software Engineering", "Fintech"],
+      "locations": ["Argentina; remote role listed on the employer ATS"],
+      "jobs": [
+        {
+          "id": "6c31e1e5-b1ca-4f39-8a95-30f12198d400",
+          "title": "Tech Generalist (Software Engineer)",
+          "location": "Argentina",
+          "url": "https://jobs.ashbyhq.com/capchase/6c31e1e5-b1ca-4f39-8a95-30f12198d400",
+          "workMode": "Remote",
+          "eligibility": "Argentina, as stated in the employer ATS job feed; Costa Rica is not listed for this role.",
+          "listingStatus": "Present in the employer's Ashby job board on 2026-10-30; no closing date stated.",
+          "checkedOn": "2026-10-30",
+          "roles": ["Software Engineering"]
+        }
+      ],
+      "sourceEvidence": [
+        { "kind": "official-site", "url": "https://www.capchase.com/", "checkedOn": "2026-10-30" },
+        { "kind": "careers-page", "url": "https://www.capchase.com/careers", "checkedOn": "2026-10-30", "note": "Official page links to the Ashby board and says Capchase is hiring across areas." },
+        { "kind": "job-posting", "url": "https://jobs.ashbyhq.com/capchase/6c31e1e5-b1ca-4f39-8a95-30f12198d400", "checkedOn": "2026-10-30" }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": ["Active remote software engineering role is listed for Argentina; the posting does not list Costa Rica."],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-10-30"
+      }
+    },
+    {
+      "name": "G2i",
+      "website": "https://www.g2i.co/",
+      "careersUrl": "https://jobs.ashbyhq.com/g2i",
+      "model": "outsourcing",
+      "tracks": ["Software Engineering", "Contract Engineering"],
+      "locations": ["LATAM"],
+      "jobs": [
+        {
+          "id": "d9a764c2-b471-4006-8da1-42f67874fd04",
+          "title": "Software Engineer",
+          "location": "LATAM",
+          "url": "https://jobs.ashbyhq.com/g2i/d9a764c2-b471-4006-8da1-42f67874fd04",
+          "eligibility": "LATAM, as stated in the employer ATS job feed.",
+          "listingStatus": "Present in the employer's Ashby job board on 2026-10-30; no closing date stated.",
+          "checkedOn": "2026-10-30",
+          "roles": ["Software Engineering"]
+        },
+        {
+          "id": "6f5d8b62-52c7-48cb-9362-1dfcf8d815c0",
+          "title": "Senior Software Engineer, AI Training - LATAM",
+          "location": "Remote",
+          "url": "https://jobs.ashbyhq.com/g2i/6f5d8b62-52c7-48cb-9362-1dfcf8d815c0",
+          "workMode": "Remote",
+          "eligibility": "LATAM, as stated in the job title.",
+          "listingStatus": "Present in the employer's Ashby job board on 2026-10-30; no closing date stated.",
+          "checkedOn": "2026-10-30",
+          "roles": ["Software Engineering", "AI Engineering"]
+        }
+      ],
+      "sourceEvidence": [
+        { "kind": "official-site", "url": "https://www.g2i.co/", "checkedOn": "2026-10-30", "note": "G2i describes its service as a hiring platform for contract or full-time engineers and says it hires in LATAM." },
+        { "kind": "careers-page", "url": "https://jobs.ashbyhq.com/g2i", "checkedOn": "2026-10-30", "note": "Official Ashby job board linked from the company site." },
+        { "kind": "job-posting", "url": "https://jobs.ashbyhq.com/g2i/d9a764c2-b471-4006-8da1-42f67874fd04", "checkedOn": "2026-10-30" },
+        { "kind": "job-posting", "url": "https://jobs.ashbyhq.com/g2i/6f5d8b62-52c7-48cb-9362-1dfcf8d815c0", "checkedOn": "2026-10-30" }
+      ],
+      "fit": {
+        "status": "strong",
+        "reasons": ["The employer's official site serves engineering hires in LATAM, and its ATS lists software engineering roles for LATAM."],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-10-30"
+      }
+    },
+    {
+      "name": "Outpost",
+      "website": "https://outpost.red/",
+      "careersUrl": "https://outpost.red/careers",
+      "model": "unknown",
+      "tracks": ["Software Engineering"],
+      "locations": ["Americas - Remote; country eligibility not stated individually"],
+      "jobs": [
+        {
+          "id": "eb67ab0f-f073-4afb-94e1-3574afa739e2",
+          "title": "Founding Staff Engineer",
+          "location": "Americas - Remote",
+          "url": "https://jobs.ashbyhq.com/outpost-red/eb67ab0f-f073-4afb-94e1-3574afa739e2",
+          "workMode": "Remote",
+          "eligibility": "Americas; Costa Rica eligibility is not listed individually.",
+          "listingStatus": "Present in the employer's Ashby job board on 2026-10-30; no closing date stated.",
+          "checkedOn": "2026-10-30",
+          "roles": ["Software Engineering"]
+        }
+      ],
+      "sourceEvidence": [
+        { "kind": "official-site", "url": "https://outpost.red/careers", "checkedOn": "2026-10-30", "note": "Official Outpost.red career page." },
+        { "kind": "careers-page", "url": "https://outpost.red/careers", "checkedOn": "2026-10-30" },
+        { "kind": "job-posting", "url": "https://jobs.ashbyhq.com/outpost-red/eb67ab0f-f073-4afb-94e1-3574afa739e2", "checkedOn": "2026-10-30" }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": ["The official ATS lists a remote engineering position for the Americas; country-level eligibility is not stated."],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-10-30"
+      }
+    },
+    {
+      "name": "Homeward",
+      "website": "https://www.homeward.com/",
+      "careersUrl": "https://job-boards.greenhouse.io/homeward",
+      "model": "direct",
+      "tracks": ["Backend", "Software Engineering"],
+      "locations": ["Latin America; fully remote company"],
+      "jobs": [
+        {
+          "id": "8191859002",
+          "title": "Senior Software Engineer, Back-end (LatAm)",
+          "location": "Latin America",
+          "url": "https://job-boards.greenhouse.io/homeward/jobs/8191859002",
+          "workMode": "Remote",
+          "eligibility": "Candidates based in Latin America; employer describes itself as fully remote.",
+          "listingStatus": "Present in the employer's Greenhouse job board on 2026-10-30; no closing date stated.",
+          "checkedOn": "2026-10-30",
+          "roles": ["Backend", "Software Engineering"],
+          "levels": ["Senior"]
+        }
+      ],
+      "sourceEvidence": [
+        { "kind": "official-site", "url": "https://www.homeward.com/", "checkedOn": "2026-10-30", "note": "Homeward describes its homebuying and selling financial products." },
+        { "kind": "careers-page", "url": "https://job-boards.greenhouse.io/homeward", "checkedOn": "2026-10-30", "note": "Official Greenhouse board linked to Homeward; its current board includes an engineering role." },
+        { "kind": "job-posting", "url": "https://job-boards.greenhouse.io/homeward/jobs/8191859002", "checkedOn": "2026-10-30", "note": "Posting says candidates must be based in Latin America and describes Homeward as fully remote." }
+      ],
+      "fit": {
+        "status": "strong",
+        "reasons": ["Active senior backend engineering role explicitly accepts candidates based in Latin America; the employer describes its team as fully remote."],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-10-30"
+      }
+    },
+    {
+      "name": "Cresteo",
+      "website": "https://www.cresteo.com/",
+      "careersUrl": "https://www.cresteo.com/careers",
+      "model": "outsourcing",
+      "tracks": ["Go", "Java", "Backend", "Software Engineering"],
+      "locations": ["Remote - Latam"],
+      "jobs": [
+        {
+          "id": "4739276005",
+          "title": "Software Engineer (Go/Java)",
+          "location": "Remote - Latam",
+          "url": "https://job-boards.greenhouse.io/cresteo/jobs/4739276005",
+          "workMode": "Remote",
+          "stack": "Go or Java; distributed services and cloud applications",
+          "eligibility": "LATAM, as stated in the employer ATS posting.",
+          "listingStatus": "Present in the employer's Greenhouse job board on 2026-10-30; no closing date stated.",
+          "checkedOn": "2026-10-30",
+          "technologies": ["Go", "Java"],
+          "roles": ["Backend", "Software Engineering"]
+        }
+      ],
+      "sourceEvidence": [
+        { "kind": "official-site", "url": "https://www.cresteo.com/", "checkedOn": "2026-10-30", "note": "Cresteo describes delivering bespoke technology solutions for clients." },
+        { "kind": "careers-page", "url": "https://www.cresteo.com/careers", "checkedOn": "2026-10-30", "note": "Official careers page describes 100% remote work." },
+        { "kind": "job-posting", "url": "https://job-boards.greenhouse.io/cresteo/jobs/4739276005", "checkedOn": "2026-10-30", "note": "Official posting identifies Cresteo as a nearshore technology services company and lists Remote - Latam." }
+      ],
+      "fit": {
+        "status": "strong",
+        "reasons": ["Active Go/Java software engineering role is explicitly remote in LATAM; the employer provides nearshore technology services."],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-10-30"
+      }
+    },
+    {
+      "name": "Sixsense Labs",
+      "website": "https://www.sixsenselabs.com/",
+      "careersUrl": "https://www.sixsenselabs.com/careers",
+      "model": "direct",
+      "tracks": ["Backend", "AWS", "Software Engineering"],
+      "locations": ["Remote, LATAM; some countries excluded"],
+      "jobs": [
+        {
+          "id": "back-end-developer-aws",
+          "title": "Back-End Developer AWS",
+          "location": "Remote, LATAM",
+          "url": "https://www.sixsenselabs.com/careers-1/back-end-developer-aws",
+          "workMode": "Remote",
+          "stack": "AWS; backend services and IoT integrations",
+          "eligibility": "Remote LATAM; posting excludes Bolivia, Cuba, Haiti, Nicaragua, Suriname, Trinidad and Tobago, and Venezuela.",
+          "listingStatus": "Listed on the official careers page and role page when checked on 2026-10-30; no closing date stated.",
+          "checkedOn": "2026-10-30",
+          "technologies": ["AWS"],
+          "roles": ["Backend", "Software Engineering"]
+        }
+      ],
+      "sourceEvidence": [
+        { "kind": "official-site", "url": "https://www.sixsenselabs.com/", "checkedOn": "2026-10-30", "note": "Sixsense Labs describes its connected dosing platform and hardware products." },
+        { "kind": "careers-page", "url": "https://www.sixsenselabs.com/careers", "checkedOn": "2026-10-30", "note": "Official page lists three current engineering roles marked Remote, LATAM." },
+        { "kind": "job-posting", "url": "https://www.sixsenselabs.com/careers-1/back-end-developer-aws", "checkedOn": "2026-10-30" }
+      ],
+      "fit": {
+        "status": "strong",
+        "reasons": ["The official role page lists backend engineering work as remote in LATAM, with a specific list of excluded countries that does not include Costa Rica."],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-10-30"
+      }
+    },
+    {
+      "name": "SimSpace",
+      "website": "https://simspace.com/",
+      "careersUrl": "https://simspace.com/careers/",
+      "model": "direct",
+      "tracks": ["Full Stack", "Backend", "TypeScript", "React", "Kotlin", "Spring Boot"],
+      "locations": ["Remote - Costa Rica"],
+      "jobs": [
+        {
+          "id": "19881e6f-44bb-4da7-8227-719fa999000b",
+          "title": "Software Engineer - Fullstack",
+          "location": "Remote - Costa Rica",
+          "url": "https://jobs.ashbyhq.com/simspace-corporation/19881e6f-44bb-4da7-8227-719fa999000b",
+          "workMode": "Remote",
+          "stack": "TypeScript, React, Kotlin, Spring Boot, PostgreSQL",
+          "eligibility": "Costa Rica, as stated in the employer ATS posting.",
+          "listingStatus": "Present in the employer's Ashby job board on 2026-10-30; no closing date stated.",
+          "checkedOn": "2026-10-30",
+          "technologies": ["TypeScript", "React", "Kotlin", "Spring Boot", "PostgreSQL"],
+          "roles": ["Full Stack", "Software Engineering"]
+        },
+        {
+          "id": "b618a458-8976-4579-848d-22d66fc71d5d",
+          "title": "Senior Software Engineer, Backend",
+          "location": "Remote - Costa Rica",
+          "url": "https://jobs.ashbyhq.com/simspace-corporation/b618a458-8976-4579-848d-22d66fc71d5d",
+          "workMode": "Remote",
+          "eligibility": "Costa Rica, as stated in the employer ATS posting.",
+          "listingStatus": "Present in the employer's Ashby job board on 2026-10-30; no closing date stated.",
+          "checkedOn": "2026-10-30",
+          "roles": ["Backend", "Software Engineering"],
+          "levels": ["Senior"]
+        }
+      ],
+      "sourceEvidence": [
+        { "kind": "official-site", "url": "https://simspace.com/", "checkedOn": "2026-10-30" },
+        { "kind": "careers-page", "url": "https://simspace.com/careers/", "checkedOn": "2026-10-30", "note": "Official careers page links to the Ashby job board and lists a Costa Rica office." },
+        { "kind": "job-posting", "url": "https://jobs.ashbyhq.com/simspace-corporation/19881e6f-44bb-4da7-8227-719fa999000b", "checkedOn": "2026-10-30" },
+        { "kind": "job-posting", "url": "https://jobs.ashbyhq.com/simspace-corporation/b618a458-8976-4579-848d-22d66fc71d5d", "checkedOn": "2026-10-30" }
+      ],
+      "fit": {
+        "status": "strong",
+        "reasons": ["Multiple active software engineering roles are listed as remote in Costa Rica."],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-10-30"
+      }
+    }
+  ]
+}

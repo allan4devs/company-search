@@ -6,13 +6,13 @@ import type { CompanyCard } from "@/lib/comp/catalog";
 import { validatePreference, type CompanyPreference } from "@/lib/comp/types";
 import { COMPANY_PREFERENCES_CACHE_KEY, COMPANY_PREFERENCES_KEY } from "../company-directory.constants";
 import { matchesCompanyCategory, safeCareersUrl } from "../company-directory.helpers";
-import type { CompanyDirectoryCategory } from "../company-directory.constants";
+import type { CompanyDirectoryMainFilter } from "../company-directory.constants";
 
 export function useCompanyDirectoryPreferences(
   companies: CompanyCard[],
   preferences: Record<string, CompanyPreference>,
   setPreferences: Dispatch<SetStateAction<Record<string, CompanyPreference>>>,
-  tab: CompanyDirectoryCategory,
+  tab: CompanyDirectoryMainFilter,
   ready: boolean,
   canSync: boolean,
   setReady: Dispatch<SetStateAction<boolean>>,
@@ -49,19 +49,14 @@ export function useCompanyDirectoryPreferences(
         const next = { ...preferences, [key]: { ...preferences[key], ...change } };
         localStorage.setItem(COMPANY_PREFERENCES_KEY, JSON.stringify(next));
         await applyPreferences(next);
-        setNotice("Saved in this browser. Sign in as admin to sync across devices.");
+        setNotice("Saved in this browser. Shared sync is unavailable.");
         return true;
       }
       const response = await fetch("/api/comp", { method: "PUT", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ preferences: { [key]: change } }) });
       const data = await response.json();
       if (!response.ok) throw new Error(data.error);
       try {
-        const cached = JSON.parse(localStorage.getItem(COMPANY_PREFERENCES_CACHE_KEY) || "null");
-        if (typeof data.adminId === "string") {
-          localStorage.setItem(COMPANY_PREFERENCES_CACHE_KEY, JSON.stringify({ ownerId: data.adminId, preferences: data.preferences }));
-        } else if (typeof cached?.ownerId === "string") {
-          localStorage.setItem(COMPANY_PREFERENCES_CACHE_KEY, JSON.stringify({ ownerId: cached.ownerId, preferences: data.preferences }));
-        }
+        if (typeof data.ownerId === "string") localStorage.setItem(COMPANY_PREFERENCES_CACHE_KEY, JSON.stringify({ ownerId: data.ownerId, preferences: data.preferences }));
       } catch { /* MongoDB remains the source of truth. */ }
       await applyPreferences(data.preferences);
       preferenceChannel.current?.postMessage({ type: "preferences", preferences: data.preferences });

@@ -1,27 +1,27 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getCategories, getCompanies, getPreferences, savePreference } from "@/lib/comp/store";
+import { getCategories, getCompanies, getPreferences, savePreference, SHARED_COMPANY_PREFERENCES_OWNER_ID } from "@/lib/comp/store";
 import { validatePreference } from "@/lib/comp/types";
-import { getAdminFromRequest } from "@/lib/admin-auth";
 import { companies as catalogCompanies } from "@/lib/comp/companies";
 import { COMPANY_CATEGORIES, companyCategoryKeys } from "@/lib/comp/categories";
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
-export async function GET(request: NextRequest) {
+export async function GET() {
   try {
-    const admin = getAdminFromRequest(request);
-    const [companies, categories] = await Promise.all([getCompanies(), getCategories()]);
-    return NextResponse.json({ companies, categories, preferences: admin ? await getPreferences(admin.id) : {}, canEdit: !!admin, storage: "mongodb" }, { headers: { "Cache-Control": "private, no-store" } });
+    const [companies, categories, preferences] = await Promise.all([
+      getCompanies(),
+      getCategories(),
+      getPreferences(SHARED_COMPANY_PREFERENCES_OWNER_ID),
+    ]);
+    return NextResponse.json({ companies, categories, preferences, ownerId: SHARED_COMPANY_PREFERENCES_OWNER_ID, canSync: true, storage: "mongodb" }, { headers: { "Cache-Control": "private, no-store" } });
   } catch {
     // Keep the researched directory usable before a database connection is configured.
-    // Saving remains disabled; this does not claim that account preferences were loaded.
-    return NextResponse.json({ companies: catalogCompanies.map(company => ({ ...company, categories: companyCategoryKeys(company) })), categories: COMPANY_CATEGORIES, preferences: {}, canEdit: false, storage: "catalog" }, { headers: { "Cache-Control": "private, no-store" } });
+    // The browser keeps working, while the client reports that shared sync is unavailable.
+    return NextResponse.json({ companies: catalogCompanies.map(company => ({ ...company, categories: companyCategoryKeys(company) })), categories: COMPANY_CATEGORIES, preferences: {}, ownerId: SHARED_COMPANY_PREFERENCES_OWNER_ID, canSync: false, storage: "catalog" }, { headers: { "Cache-Control": "private, no-store" } });
   }
 }
 export async function PUT(request: NextRequest) {
-  const admin = getAdminFromRequest(request);
-  if (!admin) return NextResponse.json({ error: "Sign in as admin to save company preferences." }, { status: 401 });
   const origin = request.headers.get("origin");
-  if (origin && origin !== request.nextUrl.origin) return NextResponse.json({ error: "Invalid origin." }, { status: 403 });
+  if (origin !== request.nextUrl.origin) return NextResponse.json({ error: "Invalid origin." }, { status: 403 });
   let changes: [string, ReturnType<typeof validatePreference>][];
   let importOnly = false;
   try {
@@ -42,9 +42,9 @@ export async function PUT(request: NextRequest) {
     const batchSize = 32;
     for (let start = 0; start < writes.length; start += batchSize) {
       await Promise.all(writes.slice(start, start + batchSize).map(([companyKey, preference]) =>
-        savePreference(admin.id, companyKey, preference, importOnly),
+        savePreference(SHARED_COMPANY_PREFERENCES_OWNER_ID, companyKey, preference, importOnly),
       ));
     }
-    return NextResponse.json({ adminId: admin.id, preferences: await getPreferences(admin.id) });
+    return NextResponse.json({ ownerId: SHARED_COMPANY_PREFERENCES_OWNER_ID, preferences: await getPreferences(SHARED_COMPANY_PREFERENCES_OWNER_ID) });
   } catch { return NextResponse.json({ error: "Changes could not be saved. Please retry." }, { status: 503 }); }
 }

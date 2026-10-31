@@ -1,52 +1,81 @@
 "use client";
 
-import { useCallback } from "react";
-import { TARGET_COMPANIES, type CompanyCard } from "@/lib/comp/catalog";
-import type { CompanyDirectoryViewData } from "../hooks/company-directory-view-types";
+import { useCallback, useMemo, useState } from "react";
+import { TARGET_COMPANIES } from "@/lib/comp/catalog";
+import type { CompanyDirectoryCategory, CompanyDirectoryGroupKey, CompanyDirectoryMainFilter } from "../company-directory.constants";
+import { COMPANY_GROUPS } from "../company-directory.constants";
+import type { CompanyDirectoryGroupSummaries, CompanyDirectoryGroupSummary, CompanyDirectoryViewData } from "../hooks/company-directory-view-types";
 import { CompanyDirectoryHeader, CompanyDirectoryTopbar } from "./CompanyDirectoryHeader";
 import { CompanyDirectoryTabs } from "./CompanyDirectoryTabs";
 import { CompanyDirectoryStats } from "./CompanyDirectoryStats";
-import { CompanyDirectoryPagination } from "./CompanyDirectoryPagination";
-import { CompanyDirectoryCard } from "./CompanyDirectoryCard";
+import { DirectEmployersDirectorySection } from "./DirectEmployersDirectorySection";
+import { MoreEngineeringDirectorySection } from "./MoreEngineeringDirectorySection";
+import { OutsourcingDirectorySection } from "./OutsourcingDirectorySection";
 import styles from "./CompanyDirectoryView.module.css";
 
 type Props = CompanyDirectoryViewData;
 
-export function CompanyDirectoryView({ data, preferences, filtering }: Props) {
-  const handleCopyError = useCallback(() => data.setNotice("Could not copy. Check clipboard permissions and try again."), [data]);
+const emptyStats: CompanyDirectoryGroupSummary["stats"] = { total: 0, linked: 0, nearshore: 0, researched: 0, midLevel: 0 };
 
+export function CompanyDirectoryView({ data, preferences, tab, setTab }: Props) {
+  const [groupSummaries, setGroupSummaries] = useState<CompanyDirectoryGroupSummaries>({});
+  const hasAllSummaries = COMPANY_GROUPS.every(group => groupSummaries[group.key]);
+  const groupCounts = useMemo(() => {
+    const counts: Partial<Record<CompanyDirectoryMainFilter, number>> = {};
+    const savedViews: CompanyDirectoryCategory[] = ["all", "likes", "dislikes"];
+    for (const group of COMPANY_GROUPS) {
+      const summary = groupSummaries[group.key];
+      if (!summary) continue;
+      counts[group.key] = summary.stats.total;
+    }
+    if (hasAllSummaries) {
+      for (const savedView of savedViews) {
+        counts[savedView] = COMPANY_GROUPS.reduce((total, group) => total + (groupSummaries[group.key]?.categoryCounts[savedView] || 0), 0);
+      }
+    }
+    return counts;
+  }, [groupSummaries, hasAllSummaries]);
+  const stats = useMemo(() => {
+    if (!hasAllSummaries) return emptyStats;
+    return COMPANY_GROUPS.reduce((total, group) => {
+      const current = groupSummaries[group.key]?.stats;
+      if (!current) return total;
+      return {
+        total: total.total + current.total,
+        linked: total.linked + current.linked,
+        nearshore: total.nearshore + current.nearshore,
+        researched: total.researched + current.researched,
+        midLevel: total.midLevel + current.midLevel,
+      };
+    }, emptyStats);
+  }, [groupSummaries, hasAllSummaries]);
+  const handleSummary = useCallback((key: CompanyDirectoryGroupKey, summary: CompanyDirectoryGroupSummary) => {
+    setGroupSummaries(current => {
+      const previous = current[key];
+      if (previous
+        && previous.total === summary.total
+        && JSON.stringify(previous.categoryCounts) === JSON.stringify(summary.categoryCounts)
+        && JSON.stringify(previous.stats) === JSON.stringify(summary.stats)) return current;
+      return { ...current, [key]: summary };
+    });
+  }, []);
+  const showAllGroups = tab === "all" || tab === "likes" || tab === "dislikes";
   return <main className={`min-h-screen bg-zinc-950 text-zinc-100 ${styles.directory}`}>
     <CompanyDirectoryTopbar />
     <div className="mx-auto max-w-[1500px] px-4 py-10 sm:px-8">
-      <CompanyDirectoryHeader companyCount={filtering.stats?.total || filtering.total} homepageCount={filtering.stats?.linked || 0} />
-      <CompanyDirectoryStats companyCount={filtering.stats?.total || filtering.total} targetCount={TARGET_COMPANIES} midLevelCount={filtering.stats?.midLevel || 0} nearshoreCount={filtering.nearshoreCount} />
-      <CompanyDirectoryTabs tab={filtering.tab} setTab={filtering.setTab} categoryCounts={filtering.categoryCounts} />
-      <div className="mb-3 text-sm text-zinc-400" aria-live="polite">
-        <p>{filtering.filtering ? "Updating results…" : `Showing ${filtering.total ? ((filtering.currentPage - 1) * filtering.pageSize + 1).toLocaleString() : 0}–${Math.min(filtering.currentPage * filtering.pageSize, filtering.total).toLocaleString()} of ${filtering.total.toLocaleString()} companies`}</p>
-      </div>
-      <p className="mb-5 text-xs leading-5 text-zinc-500">Likes, dislikes, and careers links are saved {data.canSync ? "to your account" : "in this browser"}. Company sources and role boards were checked October 29, 2026. A company listing or seniority signal does not guarantee a current vacancy or country eligibility.</p>
+      <CompanyDirectoryHeader companyCount={stats.total} homepageCount={stats.linked} />
+      <CompanyDirectoryStats companyCount={stats.total} targetCount={TARGET_COMPANIES} midLevelCount={stats.midLevel} nearshoreCount={stats.nearshore} />
+      <CompanyDirectoryTabs tab={tab} setTab={setTab} groupCounts={groupCounts} />
+      <p className="mb-5 text-xs leading-5 text-zinc-500">Likes, dislikes, and careers links use a shared profile visible to every visitor and sync across devices when MongoDB is available. If sync is unavailable, changes are saved in this browser. Company sources and role boards were checked October 29, 2026. A company listing or seniority signal does not guarantee a current vacancy or country eligibility.</p>
       <p role="status" className="mb-4 text-sm text-amber-300">{data.notice}</p>
-      {filtering.filterError ? <p role="alert" className="mb-4 text-sm text-amber-300">{filtering.filterError}</p> : null}
-      {filtering.filterError ? <button type="button" onClick={filtering.retry} className="mb-4 rounded-lg bg-teal-400 px-4 py-2 text-zinc-950">Retry results</button> : null}
       <span role="status" className="sr-only">{preferences.copied ? "Copied to clipboard." : ""}</span>
-      {data.loading ? <p role="status" className="mb-5 text-zinc-400">Loading companies…</p> : null}
+      {data.loading ? <p role="status" className="mb-5 text-zinc-400">Loading preferences…</p> : null}
       {data.loadError ? <button type="button" onClick={() => data.setReload(value => value + 1)} className="mb-5 rounded-lg bg-teal-400 px-4 py-2 text-zinc-950">Retry loading</button> : null}
-      <div role="tabpanel" id="company-panel" aria-labelledby={`${filtering.tab}-tab`}>
-        {filtering.tab === "all" && !filtering.filtering && !data.loadError && !filtering.total ? <p className="mb-8 text-sm text-zinc-400">No companies to show.</p> : null}
-        {filtering.tab === "likes" && !filtering.filtering && !data.loadError && !filtering.total ? <p className="mb-8 text-sm text-zinc-400">No liked companies yet. Like a company in All to save it here.</p> : null}
-        {filtering.tab === "dislikes" && !filtering.filtering && !data.loadError && !filtering.total ? <p className="mb-8 text-sm text-zinc-400">No disliked companies yet. Dislike a company in All to save it here.</p> : null}
-        {filtering.groupResults.map(({ group, members, totalMembers }) => <section key={group.key} aria-labelledby={`${group.key}-heading`} className="mb-12">
-          <div className="mb-5 border-b border-zinc-800 pb-5"><h2 id={`${group.key}-heading`} className="text-2xl font-semibold">{group.title} <span className="ml-2 text-base text-teal-300">{members.length} / {totalMembers}</span></h2><p className="mt-2 text-sm text-zinc-400">{group.description}</p></div>
-          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">{members.map((company: CompanyCard) => <CompanyDirectoryCard
-            key={company.key} company={company} preference={preferences.preferences[company.key] || company.legacyKeys?.map(key => preferences.preferences[key]).find(Boolean)}
-            copied={preferences.copied} ready={data.ready}
-            reaction={preferences.reaction?.key === company.key ? { type: preferences.reaction.type, leaving: preferences.reaction.leaving } : null}
-            onCopied={preferences.setCopied} onCopyError={handleCopyError} onPreferenceChange={preferences.updatePreference}
-            onSaveCareers={preferences.saveCareers} onCancel={preferences.clearNotice}
-          />)}</div>
-        </section>)}
+      <div role="tabpanel" id="company-panel" aria-labelledby={`${tab}-tab`}>
+        <OutsourcingDirectorySection filter={tab} active={showAllGroups || tab === "outsourcing"} data={data} preferences={preferences} onSummary={handleSummary} />
+        <MoreEngineeringDirectorySection filter={tab} active={showAllGroups || tab === "unknown"} data={data} preferences={preferences} onSummary={handleSummary} />
+        <DirectEmployersDirectorySection filter={tab} active={showAllGroups || tab === "direct"} data={data} preferences={preferences} onSummary={handleSummary} />
       </div>
-      {filtering.total > filtering.pageSize ? <CompanyDirectoryPagination currentPage={filtering.currentPage} pageCount={filtering.pageCount} onPageChange={filtering.changePage} /> : null}
       <footer className="border-t border-zinc-800 py-5 text-xs text-zinc-500">Additional company profiles: <a href="https://remoteintech.company/" target="_blank" rel="noopener noreferrer" className="text-teal-300 underline">Remote In Tech</a>. Profile information is attributed on each card; employer feeds provide role evidence.</footer>
     </div>
   </main>;

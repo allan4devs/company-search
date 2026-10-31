@@ -20,9 +20,9 @@ npm.cmd run dev
 
 Open <http://localhost:3000>. The public catalog and browser-local preferences work without a database configuration.
 
-## Optional account sync
+## Shared preference sync
 
-MongoDB-backed admin preferences require `MONGODB_URI` and an `ADMIN_JWT_SECRET` used by the host application to sign the `b2b_admin_token` cookie. `MONGODB_DB` is optional and defaults to `lva`. Without MongoDB or an admin token, preferences stay in the current browser.
+Shared preferences require `MONGODB_URI`. `MONGODB_DB` is optional and defaults to `lva`. Likes, dislikes, and careers links are shared with all visitors and sync across devices; without MongoDB, preferences stay in the current browser.
 
 ## Company research batches
 

@@ -23,3 +23,7 @@ export const COMPANY_GROUPS = [
       "Companies hiring for their own products, platforms, or internal operations.",
   },
 ] as const;
+
+export type CompanyDirectoryGroup = (typeof COMPANY_GROUPS)[number];
+export type CompanyDirectoryGroupKey = CompanyDirectoryGroup["key"];
+export type CompanyDirectoryMainFilter = CompanyDirectoryCategory | CompanyDirectoryGroupKey;

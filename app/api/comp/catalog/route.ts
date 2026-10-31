@@ -10,13 +10,15 @@ export const dynamic = "force-dynamic";
 
 const fallbackCatalog = sourceCompanies.map(company => ({ ...company, categories: companyCategoryKeys(company) }));
 const knownCategories = new Set(COMPANY_CATEGORIES.map(category => category.key));
+const companyGroupKeys = ["outsourcing", "unknown", "direct"] as const;
+type CompanyGroupKey = typeof companyGroupKeys[number];
 
 function matchesCategory(company: CompanyCard, category: string, preference?: CompanyPreference) {
   if (category === "all") return !preference?.liked && !preference?.disliked;
   if (category === "dislikes") return !!preference?.disliked;
+  if (category === "companies") return true;
   if (preference?.disliked) return false;
   if (category === "likes") return !!preference?.liked;
-  if (category === "companies") return !preference?.liked;
   return company.categories?.includes(category) || false;
 }
 
@@ -25,12 +27,17 @@ function readPreferenceKeys(params: URLSearchParams, name: string) {
 }
 
 async function searchCatalog(params: URLSearchParams) {
-  let catalog = fallbackCatalog;
+  const requestedGroup = params.get("group");
+  if (!companyGroupKeys.some(key => key === requestedGroup)) {
+    return NextResponse.json({ error: "Choose a valid company group." }, { status: 400 });
+  }
+  const group = requestedGroup as CompanyGroupKey;
+  let catalog = fallbackCatalog.filter(company => company.model === group);
   try {
-    const savedCompanies = await getCompanies();
-    if (savedCompanies.length) catalog = savedCompanies.map(company => ({ ...company, categories: companyCategoryKeys(company) }));
+    const savedCompanies = await getCompanies(group);
+    catalog = savedCompanies.map(company => ({ ...company, categories: companyCategoryKeys(company) }));
   } catch {
-    // Keep the bundled directory searchable when MongoDB is not configured.
+    // Keep this category searchable when MongoDB is not configured.
   }
   const jobCounts = catalog.reduce<Record<string, number>>((counts, company) => {
     for (const job of company.jobs) {
@@ -47,7 +54,7 @@ async function searchCatalog(params: URLSearchParams) {
     midLevel: catalog.filter(company => companySignals(company).levels.includes("Mid-level")).length,
   };
   const canonicalKeys = new Map(catalog.flatMap(company => [company.key, ...(company.legacyKeys || [])].map(key => [key, company.key] as const)));
-  const page = Math.max(1, Math.min(100_000, Number(params.get("page")) || 1));
+  const page = Math.max(1, Math.min(100_000, Math.floor(Number(params.get("page")) || 1)));
   const pageSize = [12, 24, 48].includes(Number(params.get("pageSize"))) ? Number(params.get("pageSize")) : 24;
   const category = params.get("tab") || "all";
   if (!knownCategories.has(category)) return NextResponse.json({ error: "Unknown company category." }, { status: 400 });
@@ -76,10 +83,6 @@ async function searchCatalog(params: URLSearchParams) {
   const pageCount = Math.max(1, Math.ceil(matched.length / pageSize));
   const currentPage = Math.min(page, pageCount);
   const pageCompanies = matched.slice((currentPage - 1) * pageSize, currentPage * pageSize);
-  const groupCounts = matched.reduce<Record<string, number>>((counts, company) => {
-    counts[company.model] = (counts[company.model] || 0) + 1;
-    return counts;
-  }, {});
   return NextResponse.json({
     companies: pageCompanies,
     total: matched.length,
@@ -88,7 +91,6 @@ async function searchCatalog(params: URLSearchParams) {
     pageSize,
     categoryCounts,
     jobCounts,
-    groupCounts,
     stats: totalStats,
   }, { headers: { "Cache-Control": "private, no-store" } });
 }
@@ -102,7 +104,7 @@ export async function POST(request: NextRequest) {
     if (Number(request.headers.get("content-length")) > 300_000) return NextResponse.json({ error: "Search request is too large." }, { status: 413 });
     const body = await request.json();
     const params = new URLSearchParams();
-    for (const key of ["tab", "page", "pageSize", "query", "technology", "role", "level", "region", "researchOnly"]) {
+    for (const key of ["group", "tab", "page", "pageSize", "query", "technology", "role", "level", "region", "researchOnly"]) {
       if (typeof body[key] === "string" || typeof body[key] === "number" || typeof body[key] === "boolean") params.set(key, String(body[key]));
     }
     if (Array.isArray(body.liked)) for (const key of body.liked.slice(0, 1000)) if (typeof key === "string" && key.length <= 160) params.append("liked", key);

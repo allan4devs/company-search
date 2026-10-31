@@ -62,11 +62,11 @@ export function useCompanyDirectoryData(initialCompanies: CompanyCard[], initial
           setCanSync(false);
           setPreferences(fallbackPreferences);
           const detail = typeof data.error === "string" ? ` ${data.error}` : "";
-          setNotice(`Account sync is unavailable. Changes will be saved in this browser until sync returns.${detail}`);
-        } else if (data.canEdit) {
+          setNotice(`Shared sync is unavailable. Changes will be saved in this browser until sync returns.${detail}`);
+        } else if (data.canSync) {
           setCanSync(true);
           let nextPreferences = (data.preferences || {}) as Record<string, CompanyPreference>;
-          const ownerId = typeof data.adminId === "string" ? data.adminId : "";
+          const ownerId = typeof data.ownerId === "string" ? data.ownerId : "";
           let cacheCanUpdate = true;
           setNotice("");
           try {
@@ -92,7 +92,7 @@ export function useCompanyDirectoryData(initialCompanies: CompanyCard[], initial
           setPreferences(fallbackPreferences);
           setNotice(storageReadError
             ? "Some browser preferences could not be loaded. Check browser storage settings before saving changes."
-            : "Preferences are saved in this browser. Sign in as admin to sync across devices.");
+            : "Preferences are saved in this browser. Shared sync is unavailable.");
         }
         if (active) setReady(true);
       } catch (error) {
@@ -100,7 +100,7 @@ export function useCompanyDirectoryData(initialCompanies: CompanyCard[], initial
           setCanSync(false);
           setPreferences(fallbackPreferences);
           const detail = error instanceof Error ? ` ${error.message}` : "";
-          setNotice(`Account sync is unavailable. Changes will be saved in this browser until sync returns.${detail}`);
+          setNotice(`Shared sync is unavailable. Changes will be saved in this browser until sync returns.${detail}`);
           setReady(true);
         }
       } finally { if (active) setLoading(false); }

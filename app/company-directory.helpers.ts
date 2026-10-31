@@ -54,6 +54,8 @@ export function matchesCompanyCategory(
   category: string,
   preference?: CompanyPreference,
 ) {
+  if (category === "outsourcing" || category === "direct") return company.model === category;
+  if (category === "unknown") return company.model === "unknown";
   if (category === "all") return !preference?.liked && !preference?.disliked;
   if (category === "dislikes") return !!preference?.disliked;
   if (preference?.disliked) return false;

@@ -1,0 +1,142 @@
+{
+  "batchId": "latam-engineering-2026-10-30-p002",
+  "companies": [
+    {
+      "name": "Newsela",
+      "website": "https://www.newsela.com/",
+      "careersUrl": "https://www.newsela.com/careers",
+      "model": "direct",
+      "tracks": ["Software Engineering", "Education Technology"],
+      "locations": ["Remote - Argentina; Brazil; Chile; Colombia; Costa Rica"],
+      "jobs": [
+        {
+          "id": "8249272",
+          "title": "Contractor: Senior Software Engineer",
+          "location": "Remote - Argentina; Brazil; Chile; Colombia; Costa Rica",
+          "url": "https://job-boards.greenhouse.io/newsela/jobs/8249272",
+          "workMode": "Remote",
+          "eligibility": "Candidate must be located in Argentina, Brazil, Chile, Colombia, or Costa Rica; contract estimated at 12 months with possible extension.",
+          "listingStatus": "Present in the employer's Greenhouse job board on 2026-10-30; no closing date stated.",
+          "checkedOn": "2026-10-30",
+          "roles": ["Software Engineering"],
+          "levels": ["Senior"]
+        }
+      ],
+      "sourceEvidence": [
+        { "kind": "official-site", "url": "https://www.newsela.com/", "checkedOn": "2026-10-30", "note": "Newsela describes its K-12 learning products." },
+        { "kind": "careers-page", "url": "https://www.newsela.com/careers", "checkedOn": "2026-10-30", "note": "Official company careers page links to open positions." },
+        { "kind": "job-posting", "url": "https://job-boards.greenhouse.io/newsela/jobs/8249272", "checkedOn": "2026-10-30", "note": "Employer posting names Costa Rica among the eligible countries and calls the company fully remote." }
+      ],
+      "fit": {
+        "status": "strong",
+        "reasons": ["The active remote senior software engineering contract explicitly accepts candidates in Costa Rica."],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-10-30"
+      }
+    },
+    {
+      "name": "Muttdata",
+      "website": "https://www.muttdata.ai/",
+      "careersUrl": "https://jobs.lever.co/muttdata",
+      "model": "outsourcing",
+      "tracks": ["Python", "FastAPI", "Backend", "Data Engineering", "Databricks", "Azure"],
+      "locations": ["Remote - Latam; listing location Ciudad de Mexico"],
+      "jobs": [
+        {
+          "id": "adf2654e-dc04-49d7-8b17-83660c321b01",
+          "title": "#5 - Senior Backend Engineer - Python & Databricks",
+          "location": "Ciudad de Mexico; Remote - Latam",
+          "url": "https://jobs.lever.co/muttdata/adf2654e-dc04-49d7-8b17-83660c321b01",
+          "workMode": "Remote",
+          "stack": "Python, FastAPI, Microsoft Azure, Azure SQL, Databricks",
+          "eligibility": "Remote - Latam, as stated in the employer's Lever job board; the listing location is Ciudad de Mexico.",
+          "listingStatus": "Present in the employer's Lever job board on 2026-10-30; no closing date stated.",
+          "checkedOn": "2026-10-30",
+          "technologies": ["Python", "FastAPI", "Microsoft Azure", "Azure SQL", "Databricks"],
+          "roles": ["Backend", "Software Engineering"],
+          "levels": ["Senior"]
+        }
+      ],
+      "sourceEvidence": [
+        { "kind": "official-site", "url": "https://www.muttdata.ai/", "checkedOn": "2026-10-30", "note": "Muttdata describes AI, data platform, and data engineering consulting for client companies." },
+        { "kind": "careers-page", "url": "https://jobs.lever.co/muttdata", "checkedOn": "2026-10-30", "note": "Official company page links to this Lever job board; the board lists remote LATAM engineering roles." },
+        { "kind": "job-posting", "url": "https://jobs.lever.co/muttdata/adf2654e-dc04-49d7-8b17-83660c321b01", "checkedOn": "2026-10-30" }
+      ],
+      "fit": {
+        "status": "strong",
+        "reasons": ["The active backend engineering posting is remote in LATAM and names Python, FastAPI, Azure, and Databricks; Muttdata provides data and AI technology services."],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-10-30"
+      }
+    },
+    {
+      "name": "Podium",
+      "website": "https://www.podium.com/",
+      "careersUrl": "https://www.podium.com/careers",
+      "model": "direct",
+      "tracks": ["Full Stack", "Elixir", "React", "PostgreSQL", "Software Engineering"],
+      "locations": ["Remote, Brazil"],
+      "jobs": [
+        {
+          "id": "8214820",
+          "title": "Senior Software Engineer",
+          "location": "Remote, Brazil",
+          "url": "https://job-boards.greenhouse.io/podium81/jobs/8214820",
+          "workMode": "Remote",
+          "eligibility": "Brazil, as stated in the employer ATS posting.",
+          "listingStatus": "Present in the employer's Greenhouse job board on 2026-10-30; no closing date stated.",
+          "checkedOn": "2026-10-30",
+          "technologies": ["Elixir", "Phoenix", "React", "PostgreSQL"],
+          "roles": ["Full Stack", "Software Engineering"],
+          "levels": ["Senior"]
+        }
+      ],
+      "sourceEvidence": [
+        { "kind": "official-site", "url": "https://www.podium.com/", "checkedOn": "2026-10-30", "note": "Podium describes its AI communications products for local businesses." },
+        { "kind": "careers-page", "url": "https://www.podium.com/careers", "checkedOn": "2026-10-30", "note": "Official careers page links to the Greenhouse openings board." },
+        { "kind": "job-posting", "url": "https://job-boards.greenhouse.io/podium81/jobs/8214820", "checkedOn": "2026-10-30", "note": "Active senior software engineering posting marked Remote, Brazil; role description names Elixir/Phoenix, React, and PostgreSQL." }
+      ],
+      "fit": {
+        "status": "strong",
+        "reasons": ["The active senior software engineering role is remote in Brazil, with full-stack work and a stated product stack."],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-10-30"
+      }
+    },
+    {
+      "name": "Jeeves",
+      "website": "https://www.tryjeeves.com/",
+      "careersUrl": "https://jobs.lever.co/tryjeeves",
+      "model": "direct",
+      "tracks": ["Backend", "Go", "Python", "Node.js", "TypeScript", "PostgreSQL", "MongoDB"],
+      "locations": ["Remote - Brazil; the Lever board also lists roles in Colombia, Mexico, and Argentina"],
+      "jobs": [
+        {
+          "id": "6cfaf109-e538-45cd-bd0f-ed0bc360fc7f",
+          "title": "Senior Backend Engineer",
+          "location": "Brazil",
+          "url": "https://jobs.lever.co/tryjeeves/6cfaf109-e538-45cd-bd0f-ed0bc360fc7f",
+          "workMode": "Remote",
+          "stack": "Go, Python, Node.js/TypeScript, REST APIs, PostgreSQL, MongoDB",
+          "eligibility": "Brazil, as stated in this posting; other LATAM country-specific postings are separately listed on the employer board.",
+          "listingStatus": "Present in the employer's Lever job board on 2026-10-30; no closing date stated.",
+          "checkedOn": "2026-10-30",
+          "technologies": ["Go", "Python", "Node.js", "TypeScript", "PostgreSQL", "MongoDB"],
+          "roles": ["Backend", "Software Engineering"],
+          "levels": ["Senior"]
+        }
+      ],
+      "sourceEvidence": [
+        { "kind": "official-site", "url": "https://www.tryjeeves.com/", "checkedOn": "2026-10-30", "note": "Jeeves describes its cross-border spend management, payments, and corporate card platform." },
+        { "kind": "careers-page", "url": "https://jobs.lever.co/tryjeeves", "checkedOn": "2026-10-30", "note": "Employer Lever board lists remote engineering positions across LATAM countries." },
+        { "kind": "job-posting", "url": "https://jobs.lever.co/tryjeeves/6cfaf109-e538-45cd-bd0f-ed0bc360fc7f", "checkedOn": "2026-10-30", "note": "Senior backend role is remote in Brazil and part of the LATAM engineering team." }
+      ],
+      "fit": {
+        "status": "strong",
+        "reasons": ["The employer's active Lever board lists remote senior backend engineering roles across LATAM, including a current Brazil posting."],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-10-30"
+      }
+    }
+  ]
+}
