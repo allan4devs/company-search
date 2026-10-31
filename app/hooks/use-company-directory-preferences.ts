@@ -4,7 +4,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import type { Dispatch, SetStateAction } from "react";
 import type { CompanyCard } from "@/lib/comp/catalog";
 import { validatePreference, type CompanyPreference } from "@/lib/comp/types";
-import { COMPANY_PREFERENCES_KEY } from "../company-directory.constants";
+import { COMPANY_PREFERENCES_CACHE_KEY, COMPANY_PREFERENCES_KEY } from "../company-directory.constants";
 import { matchesCompanyCategory, safeCareersUrl } from "../company-directory.helpers";
 import type { CompanyDirectoryCategory } from "../company-directory.constants";
 
@@ -55,6 +55,14 @@ export function useCompanyDirectoryPreferences(
       const response = await fetch("/api/comp", { method: "PUT", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ preferences: { [key]: change } }) });
       const data = await response.json();
       if (!response.ok) throw new Error(data.error);
+      try {
+        const cached = JSON.parse(localStorage.getItem(COMPANY_PREFERENCES_CACHE_KEY) || "null");
+        if (typeof data.adminId === "string") {
+          localStorage.setItem(COMPANY_PREFERENCES_CACHE_KEY, JSON.stringify({ ownerId: data.adminId, preferences: data.preferences }));
+        } else if (typeof cached?.ownerId === "string") {
+          localStorage.setItem(COMPANY_PREFERENCES_CACHE_KEY, JSON.stringify({ ownerId: cached.ownerId, preferences: data.preferences }));
+        }
+      } catch { /* MongoDB remains the source of truth. */ }
       await applyPreferences(data.preferences);
       preferenceChannel.current?.postMessage({ type: "preferences", preferences: data.preferences });
       setNotice("");
@@ -77,7 +85,14 @@ export function useCompanyDirectoryPreferences(
       const message = event.data as { type?: string; preferences?: unknown };
       if (message?.type !== "preferences" || !message.preferences || typeof message.preferences !== "object" || Array.isArray(message.preferences)) return;
       try {
-        setPreferences(Object.fromEntries(Object.entries(message.preferences).map(([key, value]) => [key, validatePreference(value)])));
+        const nextPreferences = Object.fromEntries(Object.entries(message.preferences).map(([key, value]) => [key, validatePreference(value)]));
+        setPreferences(nextPreferences);
+        try {
+          const cached = JSON.parse(localStorage.getItem(COMPANY_PREFERENCES_CACHE_KEY) || "null");
+          if (typeof cached?.ownerId === "string") {
+            localStorage.setItem(COMPANY_PREFERENCES_CACHE_KEY, JSON.stringify({ ownerId: cached.ownerId, preferences: nextPreferences }));
+          }
+        } catch { /* MongoDB remains the source of truth. */ }
       } catch {
         // Ignore invalid messages and keep the current preference state.
       }

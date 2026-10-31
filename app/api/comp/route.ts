@@ -45,6 +45,6 @@ export async function PUT(request: NextRequest) {
         savePreference(admin.id, companyKey, preference, importOnly),
       ));
     }
-    return NextResponse.json({ preferences: await getPreferences(admin.id) });
+    return NextResponse.json({ adminId: admin.id, preferences: await getPreferences(admin.id) });
   } catch { return NextResponse.json({ error: "Changes could not be saved. Please retry." }, { status: 503 }); }
 }

@@ -12,7 +12,7 @@ import { CompanyDirectoryView } from "./components/CompanyDirectoryView";
 type Props = { initialCompanies: CompanyCard[]; initialCategories: CompanyCategory[] };
 
 export function CompanyDirectory({ initialCompanies, initialCategories }: Props) {
-  const [tab, setTab] = useState<CompanyDirectoryCategory>("companies");
+  const [tab, setTab] = useState<CompanyDirectoryCategory>("all");
   const data = useCompanyDirectoryData(initialCompanies, initialCategories);
   const preferences = useCompanyDirectoryPreferences(data.companies, data.preferences, data.setPreferences, tab, data.ready, data.canSync, data.setReady, data.setNotice);
   const filtering = useCompanyDirectoryFiltering(data.companies, data.setCompanies, preferences.preferences, tab, setTab);

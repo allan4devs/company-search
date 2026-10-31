@@ -17,6 +17,26 @@ export type CompanyDiscovery = {
   modelSource?: string;
 };
 
+export type CompanySourceEvidence = {
+  kind: "official-site" | "careers-page" | "job-posting" | "other";
+  url: string;
+  checkedOn: string;
+  note?: string;
+};
+
+export type CompanyFitAssessment = {
+  status: "strong" | "possible" | "not-fit" | "unverified";
+  reasons: string[];
+  profileVersion: string;
+  evaluatedOn: string;
+};
+
+export type CompanyExtraction = {
+  status: "pending" | "sourced";
+  batchId?: string;
+  updatedAt: string;
+};
+
 export type CompanyCard = {
   key: string; name: string; names: string[]; website?: string; careersUrl?: string;
   tracks: string[]; locations: string[]; records: number; model: string;
@@ -25,6 +45,9 @@ export type CompanyCard = {
   nearshore?: NearshoreCompany; discovery?: CompanyDiscovery;
   roleEvidence?: { source: string; checkedOn: string };
   research?: { region: string; workMode: string; notes: string; role: string; source: string; checkedOn: string };
+  sourceEvidence?: CompanySourceEvidence[];
+  fit?: CompanyFitAssessment;
+  extraction?: CompanyExtraction;
 };
 
 export const TARGET_COMPANIES = 1000;
@@ -197,7 +220,7 @@ function companySearchText(company: CompanyCard, signals: CompanySignals) {
   if (cached) return cached;
   const text = [company.name, ...company.names, company.website || "", ...company.tracks, ...company.locations,
     ...signals.technologies, ...signals.roles, ...signals.levels, ...company.jobs.flatMap(job => [job.title, job.stack || ""]),
-    company.discovery?.region || "", company.nearshore ? "nearshore" : ""].join(" ").toLowerCase();
+    company.discovery?.region || "", ...(company.fit?.reasons || []), company.nearshore ? "nearshore" : ""].join(" ").toLowerCase();
   companySearchTextCache.set(company, text);
   return text;
 }

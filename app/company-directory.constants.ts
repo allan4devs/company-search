@@ -1,8 +1,7 @@
 export const COMPANY_PREFERENCES_KEY = "cv-company-preferences-v1";
+export const COMPANY_PREFERENCES_CACHE_KEY = "cv-company-preferences-cache-v1";
 export const COMPANY_DIRECTORY_CACHE_KEY = "company-directory-cache-v1";
-export const COMPANY_PAGE_SIZES = [12, 24, 48] as const;
-
-export type CompanyDirectoryCategory = string;
+export type CompanyDirectoryCategory = "all" | "likes" | "dislikes";
 
 export const COMPANY_GROUPS = [
   {

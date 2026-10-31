@@ -3,18 +3,16 @@ import { memo } from "react";
 import type { CompanyCard } from "@/lib/comp/catalog";
 import { companySignals } from "@/lib/comp/catalog";
 import type { CompanyPreference } from "@/lib/comp/types";
-import type { CompanyDirectoryCategory } from "../company-directory.constants";
 
 type Props = {
   company: CompanyCard;
   preference?: CompanyPreference;
-  tab: CompanyDirectoryCategory;
   copied: string | null;
   onCopied: (id: string) => void;
   onCopyError: () => void;
 };
 
-function CompanyProfileCardView({ company, preference, tab, copied, onCopied, onCopyError }: Props) {
+function CompanyProfileCardView({ company, preference, copied, onCopied, onCopyError }: Props) {
   const signals = companySignals(company);
   const tags = signals.technologies.length ? signals.technologies : company.tracks;
   const roleNote = [company.research?.notes, company.jobs[0]?.sourceNotes, company.jobs[0]?.matchReason]
@@ -29,8 +27,7 @@ function CompanyProfileCardView({ company, preference, tab, copied, onCopied, on
     company.research?.role || company.jobs.map(job => job.title).filter(Boolean).join(" · "),
     roleNote,
   ].filter(Boolean).join("\n");
-  const note = (tab === "nearshore" ? company.nearshore?.notes : undefined)
-    || roleNote
+  const note = roleNote
     || (!company.discovery ? company.nearshore?.notes : undefined);
 
   function copyButton(field: string, text: string) {
@@ -68,7 +65,7 @@ function CompanyProfileCardView({ company, preference, tab, copied, onCopied, on
       {note ? <p className="line-clamp-3 text-zinc-400">{note}</p> : null}
       <p className="line-clamp-2 text-zinc-300">{company.research?.role || [...new Set(company.jobs.map(job => job.title).filter(Boolean))].join(" · ")}</p>
     </div>
-    <div className="mt-auto flex items-center justify-between gap-3 border-t border-zinc-800 pt-5 text-xs"><span className="text-zinc-500">{company.records ? `${company.jobs.length} role ${company.jobs.length === 1 ? "link" : "links"}` : "Researched employer"}</span><span className={company.website ? "font-semibold text-teal-300" : "text-zinc-500"}>{company.website ? "Visit company" : "Homepage not identified"}</span></div>
+    <div className="mt-auto flex items-center justify-between gap-3 border-t border-zinc-800 pt-5 text-xs"><span className="text-zinc-500">{company.records ? `${company.jobs.length} role ${company.jobs.length === 1 ? "link" : "links"}` : "Company directory entry"}</span><span className={company.website ? "font-semibold text-teal-300" : "text-zinc-500"}>{company.website ? "Visit company" : "Homepage not identified"}</span></div>
   </>;
 }
 
@@ -76,7 +73,6 @@ function arePropsEqual(previous: Props, next: Props) {
   if (
     previous.company !== next.company
     || previous.preference !== next.preference
-    || (previous.tab === "nearshore") !== (next.tab === "nearshore")
     || previous.onCopied !== next.onCopied
     || previous.onCopyError !== next.onCopyError
   ) return false;

@@ -1,31 +1,18 @@
 import { NextRequest, NextResponse } from "next/server";
 import { companies as sourceCompanies } from "@/lib/comp/companies";
+import { getCompanies } from "@/lib/comp/store";
 import { companyCategoryKeys, COMPANY_CATEGORIES } from "@/lib/comp/categories";
 import { companyJobCategory, companySignals, matchesCompanyFilters, type CompanyCard, type CompanyFilters } from "@/lib/comp/catalog";
 import type { CompanyPreference } from "@/lib/comp/types";
 
 export const runtime = "nodejs";
-export const revalidate = 3600;
+export const dynamic = "force-dynamic";
 
-const catalog = sourceCompanies.map(company => ({ ...company, categories: companyCategoryKeys(company) }));
-const jobCounts = catalog.reduce<Record<string, number>>((counts, company) => {
-  for (const job of company.jobs) {
-    const key = companyJobCategory(job);
-    counts[key] = (counts[key] || 0) + 1;
-  }
-  return counts;
-}, {});
-const totalStats = {
-  total: catalog.length,
-  linked: catalog.filter(company => company.website).length,
-  nearshore: catalog.filter(company => company.nearshore).length,
-  researched: catalog.filter(company => company.research).length,
-  midLevel: catalog.filter(company => companySignals(company).levels.includes("Mid-level")).length,
-};
+const fallbackCatalog = sourceCompanies.map(company => ({ ...company, categories: companyCategoryKeys(company) }));
 const knownCategories = new Set(COMPANY_CATEGORIES.map(category => category.key));
-const canonicalKeys = new Map(catalog.flatMap(company => [company.key, ...(company.legacyKeys || [])].map(key => [key, company.key] as const)));
 
 function matchesCategory(company: CompanyCard, category: string, preference?: CompanyPreference) {
+  if (category === "all") return !preference?.liked && !preference?.disliked;
   if (category === "dislikes") return !!preference?.disliked;
   if (preference?.disliked) return false;
   if (category === "likes") return !!preference?.liked;
@@ -37,10 +24,32 @@ function readPreferenceKeys(params: URLSearchParams, name: string) {
   return params.getAll(name).flatMap(value => value.split(",")).filter(key => key.length > 0 && key.length <= 160).slice(0, 1000);
 }
 
-function searchCatalog(params: URLSearchParams) {
+async function searchCatalog(params: URLSearchParams) {
+  let catalog = fallbackCatalog;
+  try {
+    const savedCompanies = await getCompanies();
+    if (savedCompanies.length) catalog = savedCompanies.map(company => ({ ...company, categories: companyCategoryKeys(company) }));
+  } catch {
+    // Keep the bundled directory searchable when MongoDB is not configured.
+  }
+  const jobCounts = catalog.reduce<Record<string, number>>((counts, company) => {
+    for (const job of company.jobs) {
+      const key = companyJobCategory(job);
+      counts[key] = (counts[key] || 0) + 1;
+    }
+    return counts;
+  }, {});
+  const totalStats = {
+    total: catalog.length,
+    linked: catalog.filter(company => company.website).length,
+    nearshore: catalog.filter(company => company.nearshore).length,
+    researched: catalog.filter(company => company.research).length,
+    midLevel: catalog.filter(company => companySignals(company).levels.includes("Mid-level")).length,
+  };
+  const canonicalKeys = new Map(catalog.flatMap(company => [company.key, ...(company.legacyKeys || [])].map(key => [key, company.key] as const)));
   const page = Math.max(1, Math.min(100_000, Number(params.get("page")) || 1));
   const pageSize = [12, 24, 48].includes(Number(params.get("pageSize"))) ? Number(params.get("pageSize")) : 24;
-  const category = params.get("tab") || "companies";
+  const category = params.get("tab") || "all";
   if (!knownCategories.has(category)) return NextResponse.json({ error: "Unknown company category." }, { status: 400 });
   const liked = new Set(readPreferenceKeys(params, "liked").map(key => canonicalKeys.get(key) || key));
   const disliked = new Set(readPreferenceKeys(params, "disliked").map(key => canonicalKeys.get(key) || key));
@@ -98,7 +107,7 @@ export async function POST(request: NextRequest) {
     }
     if (Array.isArray(body.liked)) for (const key of body.liked.slice(0, 1000)) if (typeof key === "string" && key.length <= 160) params.append("liked", key);
     if (Array.isArray(body.disliked)) for (const key of body.disliked.slice(0, 1000)) if (typeof key === "string" && key.length <= 160) params.append("disliked", key);
-    return searchCatalog(params);
+    return await searchCatalog(params);
   } catch {
     return NextResponse.json({ error: "Invalid company search request." }, { status: 400 });
   }

@@ -24,6 +24,18 @@ Open <http://localhost:3000>. The public catalog and browser-local preferences w
 
 MongoDB-backed admin preferences require `MONGODB_URI` and an `ADMIN_JWT_SECRET` used by the host application to sign the `b2b_admin_token` cookie. `MONGODB_DB` is optional and defaults to `lva`. Without MongoDB or an admin token, preferences stay in the current browser.
 
+## Company research batches
+
+Follow [COMPANY_SEARCH_PROFILE.md](./COMPANY_SEARCH_PROFILE.md) for the dedupe-first discovery and evidence workflow. Large JSON files can be previewed and imported in safe chunks; the importer honors the endpoint's 100-company limit, stays below the request-size limit, retries temporary failures, and can be rerun safely after an interrupted upload.
+
+```powershell
+$env:COMPANY_IMPORT_BASE_URL = "https://your-app.example"
+node scripts/import-company-batches.mjs .\company-batch.json --dry-run
+node scripts/import-company-batches.mjs .\company-batch.json
+```
+
+The `POST /api/comp/enrich` endpoint validates source and job URLs, upserts repeated companies by domain or normalized name, and preserves prior evidence. Mongo-backed batches appear in the catalog when MongoDB is configured; the bundled catalog remains available as a fallback.
+
 ## Checks
 
 ```bash

@@ -9,8 +9,9 @@ export type CompanyCategory = {
 };
 
 export const COMPANY_CATEGORIES: CompanyCategory[] = [
+  { key: "all", label: "All", group: "Browse", order: 0 },
   { key: "companies", label: "Companies", group: "Browse", order: 0 },
-  { key: "nearshore", label: "Nearshore", group: "Browse", order: 1 },
+  { key: "nearshore", label: "Nearshore", group: "Browse", order: 2 },
   { key: "java", label: "Java", group: "Technology", order: 2 },
   { key: "react", label: "React", group: "Technology", order: 3 },
   { key: "python", label: "Python", group: "Technology", order: 4 },

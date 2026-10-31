@@ -1,9 +1,11 @@
+import type { AnyBulkWriteOperation } from "mongodb";
 import { getDb } from "@/lib/helpers/mongodb";
 import { COLLECTIONS } from "@/lib/constants/db";
 import { companies as seedCompanies } from "./companies";
 import { COMPANY_CATEGORIES, companyCategoryKeys, type CompanyCategory } from "./categories";
-import type { CompanyCard } from "./catalog";
+import { companyDomain, mergeCompanyJobs, normalizeCompanyName, type CompanyCard, type CompanySourceEvidence } from "./catalog";
 import type { CompanyPreference } from "./types";
+import type { CompanyEnrichmentInput } from "./enrichment";
 
 type CompanyRecord = CompanyCard & { _id: string; categories: string[] };
 type PreferenceRecord = CompanyPreference & { _id: string; ownerId: string; companyKey: string; categories: string[]; updatedAt: Date };
@@ -13,6 +15,7 @@ async function ensureIndexes() {
   const db = await getDb();
   indexPromise ??= Promise.all([
     db.collection(COLLECTIONS.COMP_COMPANIES).createIndex({ name: 1, _id: 1 }, { name: "comp_company_name_order" }),
+    db.collection(COLLECTIONS.COMP_COMPANIES).createIndex({ "fit.status": 1, name: 1 }, { name: "comp_company_fit_status" }),
     db.collection(COLLECTIONS.COMP_CATEGORIES).createIndex({ order: 1, _id: 1 }, { name: "comp_category_order" }),
     db.collection(COLLECTIONS.COMP_PREFERENCES).createIndex({ ownerId: 1 }, { name: "comp_preferences_owner" }),
   ]).then(() => undefined).catch(error => {
@@ -34,7 +37,7 @@ export async function getCompanies(): Promise<CompanyCard[]> {
   const collection = db.collection<CompanyRecord>(COLLECTIONS.COMP_COMPANIES);
   // Stable IDs make the initial import safe across concurrent requests and retries.
   const migrations = db.collection<{ _id: string; completedAt: Date }>(COLLECTIONS.COMP_MIGRATIONS);
-  const migrationId = "catalog-v1";
+  const migrationId = "catalog-v3";
   if (!await migrations.findOne({ _id: migrationId })) {
     await collection.bulkWrite(seedCompanies.map(company => ({ updateOne: {
       filter: { _id: company.key }, update: { $setOnInsert: { ...company, categories: companyCategories(company) } }, upsert: true,
@@ -55,6 +58,108 @@ export async function getCompanies(): Promise<CompanyCard[]> {
   }
   return collection.find({}, { projection: { _id: 0 } }).sort({ name: 1, _id: 1 }).toArray();
 }
+
+function unique(values: string[]) { return [...new Set(values.filter(Boolean))]; }
+
+function mergeSourceEvidence(...sources: (CompanySourceEvidence[] | undefined)[]): CompanySourceEvidence[] {
+  const merged = new Map<string, CompanySourceEvidence>();
+  for (const source of sources.flatMap(items => items || [])) {
+    const key = `${source.kind}:${source.url}`;
+    const existing = merged.get(key);
+    if (!existing || source.checkedOn >= existing.checkedOn) merged.set(key, source);
+  }
+  return [...merged.values()];
+}
+
+function pendingCompanyKey(name: string) {
+  const normalized = normalizeCompanyName(name);
+  const fallback = encodeURIComponent(name.trim().toLowerCase()).replace(/%/g, "").slice(0, 80);
+  return `company-${normalized || fallback || "unknown"}`;
+}
+
+export async function upsertCompanyEnrichments(companies: CompanyEnrichmentInput[], batchId?: string) {
+  await getCompanies();
+  const db = await getDb();
+  const collection = db.collection<CompanyRecord>(COLLECTIONS.COMP_COMPANIES);
+  const existingCompanies = await collection.find({}).toArray();
+  const byDomain = new Map<string, CompanyRecord>();
+  const byName = new Map<string, CompanyRecord>();
+  for (const company of existingCompanies) {
+    const domain = companyDomain(company.website);
+    if (domain && !byDomain.has(domain)) byDomain.set(domain, company);
+    for (const name of [company.name, ...company.names]) {
+      const normalized = normalizeCompanyName(name);
+      if (normalized && !byName.has(normalized)) byName.set(normalized, company);
+    }
+  }
+
+  const writes: AnyBulkWriteOperation<CompanyRecord>[] = [];
+  const resultRows: { key: string; name: string; sourceCount: number; operationIndex: number }[] = [];
+  for (const input of companies) {
+    const domain = companyDomain(input.website);
+    const normalizedName = normalizeCompanyName(input.name);
+    const existing = (domain ? byDomain.get(domain) : undefined) || (normalizedName ? byName.get(normalizedName) : undefined);
+    const key = existing?._id || domain || pendingCompanyKey(input.name);
+    const newJobs = input.jobs || [];
+    const jobs = mergeCompanyJobs(existing?.jobs || [], newJobs);
+    const sourceEvidence = mergeSourceEvidence(existing?.sourceEvidence, input.sourceEvidence);
+    const hasEvidence = sourceEvidence.length > 0 || jobs.some(job => job.checkedOn)
+      || !!input.discovery || !!input.research || !!input.roleEvidence
+      || !!existing?.discovery || !!existing?.research || !!existing?.roleEvidence;
+    const company: CompanyCard = {
+      key,
+      name: existing?.name || input.name,
+      names: unique([...(existing?.names || []), input.name]),
+      website: input.website || existing?.website,
+      careersUrl: input.careersUrl || existing?.careersUrl,
+      tracks: unique([...(existing?.tracks || []), ...(input.tracks || [])]),
+      locations: unique([...(existing?.locations || []), ...(input.locations || [])]),
+      records: jobs.length,
+      model: input.model === "unknown" && existing?.model && existing.model !== "unknown" ? existing.model : input.model || existing?.model || "unknown",
+      jobs,
+      legacyKeys: unique([...(existing?.legacyKeys || [])]),
+      nearshore: existing?.nearshore,
+      discovery: input.discovery || existing?.discovery,
+      research: input.research || existing?.research,
+      roleEvidence: input.roleEvidence || existing?.roleEvidence,
+      sourceEvidence,
+      fit: input.fit || existing?.fit,
+      extraction: {
+        status: hasEvidence ? "sourced" : "pending",
+        ...(batchId ? { batchId } : existing?.extraction?.batchId ? { batchId: existing.extraction.batchId } : {}),
+        updatedAt: new Date().toISOString(),
+      },
+    };
+    const operationIndex = writes.length;
+    writes.push({ updateOne: {
+      filter: { _id: key },
+      update: { $set: { ...company, categories: companyCategories(company) } },
+      upsert: true,
+    } });
+    const saved: CompanyRecord = { ...company, _id: key, categories: companyCategories(company) };
+    const savedDomain = companyDomain(saved.website);
+    if (savedDomain) byDomain.set(savedDomain, saved);
+    for (const name of [saved.name, ...saved.names]) {
+      const normalized = normalizeCompanyName(name);
+      if (normalized) byName.set(normalized, saved);
+    }
+    const sourceCount = new Set([
+      ...sourceEvidence.map(source => source.url),
+      ...jobs.filter(job => job.checkedOn).map(job => job.url),
+    ]).size;
+    resultRows.push({ key, name: company.name, sourceCount, operationIndex });
+  }
+  const write = writes.length ? await collection.bulkWrite(writes) : undefined;
+  const upsertedIndexes = new Set(Object.keys(write?.upsertedIds || {}).map(Number));
+  const results = resultRows.map(({ operationIndex, ...result }) => ({ ...result, created: upsertedIndexes.has(operationIndex) }));
+  return {
+    imported: results.length,
+    created: results.filter(result => result.created).length,
+    updated: results.filter(result => !result.created).length,
+    companies: results,
+  };
+}
+
 export async function getCategories(): Promise<CompanyCategory[]> {
   const db = await getDb();
   await ensureIndexes();

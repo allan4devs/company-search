@@ -10,7 +10,7 @@ export async function GET(request: NextRequest) {
   if (!admin) return NextResponse.json({ canEdit: false, preferences: {} }, { headers: { "Cache-Control": "private, no-store" } });
   try {
     const preferences = await getPreferences(admin.id);
-    return NextResponse.json({ canEdit: true, preferences }, { headers: { "Cache-Control": "private, no-store" } });
+    return NextResponse.json({ canEdit: true, adminId: admin.id, preferences }, { headers: { "Cache-Control": "private, no-store" } });
   } catch {
     return NextResponse.json({ canEdit: false, preferences: {}, error: "Admin preferences could not be loaded." }, { status: 503 });
   }
