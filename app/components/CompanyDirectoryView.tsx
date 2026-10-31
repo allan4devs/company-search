@@ -62,12 +62,15 @@ export function CompanyDirectoryView({ data, preferences, tab, setTab }: Props) 
   const showAllGroups = tab === "all" || tab === "likes" || tab === "dislikes";
   return <main className={`min-h-screen bg-zinc-950 text-zinc-100 ${styles.directory}`}>
     <CompanyDirectoryTopbar />
-    <div className="mx-auto max-w-[1500px] px-4 py-10 sm:px-8">
+    <div className={styles.layout} style={{ display: "grid", gridTemplateColumns: "clamp(180px, 23vw, 280px) minmax(280px, 1fr)", alignItems: "start", gap: "24px", maxWidth: "1800px", margin: "0 auto", padding: "24px 16px" }}>
+      <aside aria-label="Company directory navigation" className={`${styles.sidebar} rounded-2xl border border-zinc-800 bg-zinc-900/30 p-4`} style={{ position: "sticky", top: "16px", maxHeight: "calc(100dvh - 32px)", overflowY: "auto", minWidth: 0, padding: "16px" }}>
       <CompanyDirectoryHeader companyCount={stats.total} homepageCount={stats.linked} />
       <CompanyDirectoryStats companyCount={stats.total} targetCount={TARGET_COMPANIES} midLevelCount={stats.midLevel} nearshoreCount={stats.nearshore} />
       <CompanyDirectoryTabs tab={tab} setTab={setTab} groupCounts={groupCounts} />
       <p className="mb-5 text-xs leading-5 text-zinc-500">Likes, dislikes, and careers links use a shared profile visible to every visitor and sync across devices when MongoDB is available. If sync is unavailable, changes are saved in this browser. Company sources and role boards were checked October 29, 2026. A company listing or seniority signal does not guarantee a current vacancy or country eligibility.</p>
-      <p role="status" className="mb-4 text-sm text-amber-300">{data.notice}</p>
+      </aside>
+      <div className="min-w-0">
+      {data.notice ? <p role="status" className="mb-4 text-sm text-amber-300">{data.notice}</p> : null}
       <span role="status" className="sr-only">{preferences.copied ? "Copied to clipboard." : ""}</span>
       {data.loading ? <p role="status" className="mb-5 text-zinc-400">Loading preferences…</p> : null}
       {data.loadError ? <button type="button" onClick={() => data.setReload(value => value + 1)} className="mb-5 rounded-lg bg-teal-400 px-4 py-2 text-zinc-950">Retry loading</button> : null}
@@ -77,6 +80,7 @@ export function CompanyDirectoryView({ data, preferences, tab, setTab }: Props) 
         <DirectEmployersDirectorySection filter={tab} active={showAllGroups || tab === "direct"} data={data} preferences={preferences} onSummary={handleSummary} />
       </div>
       <footer className="border-t border-zinc-800 py-5 text-xs text-zinc-500">Additional company profiles: <a href="https://remoteintech.company/" target="_blank" rel="noopener noreferrer" className="text-teal-300 underline">Remote In Tech</a>. Profile information is attributed on each card; employer feeds provide role evidence.</footer>
+      </div>
     </div>
   </main>;
 }

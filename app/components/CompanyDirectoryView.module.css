@@ -35,3 +35,21 @@
     animation: none;
   }
 }
+
+.layout {
+  display: grid;
+  grid-template-columns: clamp(180px, 24vw, 300px) minmax(0, 1fr);
+  align-items: start;
+  gap: clamp(12px, 2vw, 32px);
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+.sidebar {
+  position: sticky;
+  top: 16px;
+  max-height: calc(100dvh - 32px);
+  overflow-y: auto;
+  min-width: 0;
+}

@@ -3,7 +3,7 @@ import { memo } from "react";
 type Props = { companyCount: number; targetCount: number; midLevelCount: number; nearshoreCount: number };
 
 function CompanyDirectoryStatsView({ companyCount, targetCount, midLevelCount, nearshoreCount }: Props) {
-  return <div className="mb-6 grid gap-4 rounded-2xl border border-teal-900 bg-teal-950/20 p-5 sm:grid-cols-3">
+  return <div className="mb-6 grid gap-4 rounded-2xl border border-teal-900 bg-teal-950/20 p-4">
     <div>
       <p className="text-sm font-semibold text-teal-200">{companyCount.toLocaleString()} / {targetCount.toLocaleString()} companies</p>
       <progress aria-label="Company collection goal" value={companyCount} max={targetCount} className="mt-3 h-2 w-full accent-teal-400" />

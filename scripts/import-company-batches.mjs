@@ -117,7 +117,7 @@ async function main() {
 
   const batches = splitIntoBatches(input.companies, baseId);
   console.log(`${input.companies.length} companies in ${batches.length} request${batches.length === 1 ? "" : "s"}.`);
-  batches.forEach((batch, index) => console.log(`  ${batch.batchId}: ${batch.companies.length} companies, ${batch.bytes.toLocaleString()} bytes`));
+  batches.forEach(batch => console.log(`  ${batch.batchId}: ${batch.companies.length} companies, ${batch.bytes.toLocaleString()} bytes`));
 
   if (dryRun) return;
 

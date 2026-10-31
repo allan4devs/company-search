@@ -1,85 +1,162 @@
-import { ArrowUpRight, Building2, Check, Copy } from "lucide-react";
+import { Check, Copy } from "lucide-react";
+
 import { memo } from "react";
+
 import type { CompanyCard } from "@/lib/comp/catalog";
+
 import { companySignals } from "@/lib/comp/catalog";
+
 import type { CompanyPreference } from "@/lib/comp/types";
 
+
+
 type Props = {
+
   company: CompanyCard;
+
   preference?: CompanyPreference;
+
   copied: string | null;
+
   onCopied: (id: string) => void;
+
   onCopyError: () => void;
+
 };
 
+
+
 function CompanyProfileCardView({ company, preference, copied, onCopied, onCopyError }: Props) {
+
+  const careersUrl = preference?.careersUrl || company.careersUrl || company.nearshore?.careersUrl;
+
+  const destinationUrl = careersUrl || company.website;
+
   const signals = companySignals(company);
-  const tags = signals.technologies.length ? signals.technologies : company.tracks;
+
+  const tags = signals.technologies;
+
   const roleNote = [company.research?.notes, company.jobs[0]?.sourceNotes, company.jobs[0]?.matchReason]
+
     .find(note => note && !/\bcv\b|tailored/i.test(note));
+
   const details = [
+
     company.name,
+
     company.website,
+
     preference?.careersUrl || company.careersUrl || company.nearshore?.careersUrl,
+
     tags.join(", "),
+
     company.research?.region || company.locations.join(" · "),
+
     company.research?.workMode || company.discovery?.remotePolicy,
+
     company.research?.role || company.jobs.map(job => job.title).filter(Boolean).join(" · "),
+
     roleNote,
+
   ].filter(Boolean).join("\n");
+
   const note = roleNote
+
     || (!company.discovery ? company.nearshore?.notes : undefined);
 
+
+
   function copyButton(field: string, text: string) {
+
     const id = `${company.key}-${field}`;
+
     const label = `Copy ${field} for ${company.name}`;
+
     return <button type="button" aria-label={label} title={copied === id ? "Copied!" : label}
+
       onClick={async () => {
+
         try {
+
           await navigator.clipboard.writeText(text);
+
           onCopied(id);
+
         } catch { onCopyError(); }
+
       }}
+
       className="relative z-10 inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-md text-zinc-500 transition hover:bg-zinc-800 hover:text-teal-300 focus-visible:outline-2 focus-visible:outline-teal-300">
+
       {copied === id ? <Check aria-hidden="true" size={14} className="text-teal-300" /> : <Copy aria-hidden="true" size={14} />}
+
     </button>;
+
   }
 
+
+
   return <>
-    <div className="flex items-start justify-between gap-4">
-      <span aria-hidden="true" className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl border border-teal-300/15 bg-teal-400/10 text-xl font-bold text-teal-200">{company.name.slice(0, 2).toUpperCase()}</span>
-      <div className="flex items-center gap-2">{copyButton("details", details)}{company.website ? <ArrowUpRight aria-hidden="true" size={24} className="text-zinc-500 transition group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:text-teal-300" /> : <Building2 aria-hidden="true" size={22} className="text-zinc-600" />}</div>
+
+    <div className="flex items-start gap-3">
+
+      <span title={company.name} aria-hidden="true" className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-teal-300/20 bg-teal-400/10 text-sm font-bold text-teal-200">{company.name.slice(0, 2).toUpperCase()}</span>
+
+      <h3 className="min-w-0 flex-1 break-words pt-1 text-lg font-semibold text-white">{destinationUrl ? <a href={destinationUrl} target="_blank" rel="noopener noreferrer" aria-label={`${company.name} ${careersUrl ? "careers page" : "company homepage"} (opens in a new tab)`} className="after:absolute after:inset-0 after:rounded-2xl focus-visible:outline-none focus-visible:after:outline-2 focus-visible:after:outline-teal-300">{company.name}</a> : company.name}</h3>
+
+      <span className="shrink-0 rounded-full border border-zinc-700 bg-zinc-800 px-2 py-1 text-[11px] font-medium text-zinc-300">{preference?.liked ? "Saved" : "To review"}</span>
+
     </div>
-    <div className="mt-6 flex items-center gap-2">
-      <h3 className="min-w-0 break-words text-2xl font-semibold tracking-tight text-white">{company.website ? <a href={company.website} target="_blank" rel="noopener noreferrer" aria-label={`${company.name} company homepage (opens in a new tab)`} className="after:absolute after:inset-0 after:rounded-2xl focus-visible:outline-none focus-visible:after:outline-2 focus-visible:after:outline-teal-300">{company.name}</a> : company.name}</h3>
-      {copyButton("name", company.name)}
+
+    <p className="line-clamp-2 min-h-10 text-[15px] font-semibold leading-5 text-zinc-100">{company.research?.role || company.jobs.map(job => job.title).filter(Boolean).join(" · ") || "Role not stated"}</p>
+
+    <p className="text-xs leading-5 text-zinc-300">{[company.research?.workMode || company.discovery?.remotePolicy || [...new Set(company.jobs.map(job => job.workMode).filter(Boolean))].join(" / "), company.research?.region || company.discovery?.region || company.locations.join(" / ")].filter(Boolean).join(" · ") || "Location to verify"}</p>
+
+    {tags.length ? <div className="flex flex-wrap gap-2">{tags.slice(0, 4).map(value => <span key={value} className="rounded-md border border-zinc-700 bg-zinc-800/60 px-2 py-1 text-xs text-zinc-200">{value}</span>)}{tags.length > 4 ? <span className="py-1 text-xs text-zinc-400">+{tags.length - 4}</span> : null}</div> : null}
+
+    {signals.roles.length ? <p className="text-xs font-medium text-teal-200">{signals.roles.join(" · ")}</p> : null}
+
+    {note ? <details className="group/notes relative z-10 text-xs leading-5 text-zinc-300"><summary className="cursor-pointer list-none rounded focus-visible:outline-2 focus-visible:outline-teal-300"><span className="line-clamp-2 group-open/notes:hidden">{note}</span><span className="mt-1 inline-block text-teal-200 underline underline-offset-2"><span className="group-open/notes:hidden">Show more</span><span className="hidden group-open/notes:inline">Show less</span></span></summary><p className="mt-2 whitespace-pre-line">{note}</p></details> : null}
+
+    <div className="mt-auto flex items-center justify-between border-t border-zinc-800 pt-3">
+
+      <span className="rounded-md bg-zinc-800 px-2 py-1 text-[11px] text-zinc-300">{company.jobs.length ? `Role links (${company.jobs.length})` : "Company directory"}</span>
+
+      <div className="flex">{copyButton("details", details)}{copyButton("name", company.name)}</div>
+
     </div>
-    <div className="mt-2 flex items-center gap-2"><p className="min-w-0 break-all text-sm text-zinc-400">{company.website ? new URL(company.website).hostname.replace(/^www\./, "") : "Company website needed"}</p>{company.website ? copyButton("website", company.website) : null}</div>
-    <div className="mt-5 flex flex-wrap gap-2">{tags.slice(0, 4).map(value => <span key={value} className="rounded-md border border-zinc-700/70 px-2 py-1 text-xs text-zinc-400">{value}</span>)}{tags.length > 4 ? <span className="py-1 text-xs text-zinc-500">+{tags.length - 4}</span> : null}</div>
-    <div className="flex flex-wrap gap-2 text-xs">{signals.roles.map(value => <span key={value} className="rounded bg-zinc-800 px-2 py-1 text-zinc-300">{value}</span>)}{signals.levels.includes("Mid-level") ? <span className="rounded bg-amber-400/10 px-2 py-1 text-amber-200">Mid-level signal</span> : null}</div>
-    <div className="space-y-2 text-xs leading-5">
-      {!company.discovery ? <>
-        <p className="text-teal-200">{company.research?.region || company.locations.join(" · ") || "Location not saved"}</p>
-        <p className="text-teal-200">{company.research?.workMode || [...new Set(company.jobs.map(job => job.workMode).filter(Boolean))].join(" · ") || "Work mode not saved"}</p>
-      </> : null}
-      {note ? <p className="line-clamp-3 text-zinc-400">{note}</p> : null}
-      <p className="line-clamp-2 text-zinc-300">{company.research?.role || [...new Set(company.jobs.map(job => job.title).filter(Boolean))].join(" · ")}</p>
-    </div>
-    <div className="mt-auto flex items-center justify-between gap-3 border-t border-zinc-800 pt-5 text-xs"><span className="text-zinc-500">{company.records ? `${company.jobs.length} role ${company.jobs.length === 1 ? "link" : "links"}` : "Company directory entry"}</span><span className={company.website ? "font-semibold text-teal-300" : "text-zinc-500"}>{company.website ? "Visit company" : "Homepage not identified"}</span></div>
+
   </>;
+
 }
+
+
 
 function arePropsEqual(previous: Props, next: Props) {
+
   if (
+
     previous.company !== next.company
+
     || previous.preference !== next.preference
+
     || previous.onCopied !== next.onCopied
+
     || previous.onCopyError !== next.onCopyError
+
   ) return false;
 
+
+
   const key = `${next.company.key}-`;
+
   return (previous.copied?.startsWith(key) ? previous.copied : null)
+
     === (next.copied?.startsWith(key) ? next.copied : null);
+
 }
 
+
+
 export const CompanyProfileCard = memo(CompanyProfileCardView, arePropsEqual);
+

@@ -32,20 +32,22 @@ export function CompanyDirectoryGroupSection({ group, filter, active, data, pref
     all: 1, likes: 1, dislikes: 1, outsourcing: 1, unknown: 1, direct: 1,
   });
   const [resultState, setResultState] = useState<{ filter: CompanyDirectoryMainFilter; result: CatalogGroupResult } | null>(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState("");
+  const [requestState, setRequestState] = useState<{ key: string; error: string } | null>(null);
+  const { setCompanies, setNotice } = data;
   const [retryKey, setRetryKey] = useState(0);
   const page = pages[filter];
   const result = resultState?.filter === filter ? resultState.result : null;
   const queryTab = filter === "outsourcing" || filter === "unknown" || filter === "direct" ? "companies" : filter;
+
+  const requestKey = JSON.stringify([group.key, filter, page, preferences.preferences, retryKey]);
+  const loading = requestState?.key !== requestKey;
+  const error = requestState?.key === requestKey ? requestState.error : "";
 
   useEffect(() => {
     const controller = new AbortController();
     const savedPreferences = preferences.preferences;
     const liked = Object.entries(savedPreferences).filter(([, preference]) => preference.liked).map(([key]) => key);
     const disliked = Object.entries(savedPreferences).filter(([, preference]) => preference.disliked).map(([key]) => key);
-    setLoading(true);
-    setError("");
     fetch("/api/comp/catalog", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -58,21 +60,20 @@ export function CompanyDirectoryGroupSection({ group, filter, active, data, pref
     }).then(next => {
       if (controller.signal.aborted) return;
       setResultState({ filter, result: next });
-      data.setCompanies(current => [
+      setCompanies(current => [
         ...current.filter(company => company.model !== group.key),
         ...next.companies,
       ]);
+      setRequestState({ key: requestKey, error: "" });
       onSummary(group.key, { total: next.total, categoryCounts: next.categoryCounts, stats: next.stats });
       setPages(current => current[filter] === next.page ? current : { ...current, [filter]: next.page });
     }).catch(requestError => {
-      if (!controller.signal.aborted) setError(requestError instanceof Error ? requestError.message : "Company results could not be loaded.");
-    }).finally(() => {
-      if (!controller.signal.aborted) setLoading(false);
+      if (!controller.signal.aborted) setRequestState({ key: requestKey, error: requestError instanceof Error ? requestError.message : "Company results could not be loaded." });
     });
     return () => controller.abort();
-  }, [data.setCompanies, filter, group.key, onSummary, page, preferences.preferences, queryTab, retryKey]);
+  }, [setCompanies, filter, group.key, onSummary, page, preferences.preferences, queryTab, requestKey]);
 
-  const handleCopyError = useCallback(() => data.setNotice("Could not copy. Check clipboard permissions and try again."), [data.setNotice]);
+  const handleCopyError = useCallback(() => setNotice("Could not copy. Check clipboard permissions and try again."), [setNotice]);
   const changePage = (nextPage: number) => {
     setPages(current => ({
       ...current,
@@ -96,7 +97,7 @@ export function CompanyDirectoryGroupSection({ group, filter, active, data, pref
       <button type="button" onClick={() => setRetryKey(value => value + 1)} className="rounded-lg bg-teal-400 px-4 py-2 text-zinc-950">Retry {group.title.toLowerCase()}</button>
     </div> : null}
     {result && !result.total && !loading ? <p className="mb-5 text-sm text-zinc-400">No companies match this view.</p> : null}
-    {result?.companies.length ? <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
+    {result?.companies.length ? <div className="grid gap-4" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 280px), 1fr))" }}>
       {result.companies.map(company => <CompanyDirectoryCard
         key={company.key}
         company={company}
