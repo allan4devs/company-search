@@ -12,6 +12,8 @@ This is the working brief for future company discovery and enrichment batches. I
 ## Geography and work arrangement
 
 - Prioritize roles explicitly open to Costa Rica. Also keep Latin America or worldwide remote roles when the employer's location policy supports them.
+- **Hard location gate for the active directory:** a company must have an explicit `Costa Rica`, `LATAM`, or `Latin America` term in its displayed `locations` or in a saved job's `title`, `location`, or `eligibility`. Do not keep a broad region such as `Americas`, `Worldwide`, or `Remote` as a substitute. If the catalog record lacks the explicit term, exclude it from new batches and mark an existing record disliked or archived; preserve it in the catalog for recovery and audit.
+- **Use the catalog as the exclusion base before every batch:** fetch every catalog page, build a set of normalized company names/aliases and official root domains, and remove duplicates before research/import. Also run the location gate against the actual fields that render on the company card and its saved jobs. Do not decide from a job search result alone or infer Costa Rica eligibility from global remote wording.
 - Remote or hybrid work is useful only when the posting or employer careers source states it. “Remote” without country eligibility remains unverified.
 - Keep the source's location wording and distinguish an office location from a candidate's eligible work location.
 - Seniority is useful context, not a hard filter. Preserve the title and the source's wording; do not infer seniority from years of experience unless the source says so.

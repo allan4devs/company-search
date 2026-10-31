@@ -5,8 +5,10 @@ import {
   ArrowUpRight,
   BriefcaseBusiness,
   Heart,
+  Pencil,
   MapPin,
   Share2,
+  Trash2,
   X,
 } from "lucide-react";
 import type { CompanyCard } from "@/lib/comp/catalog";
@@ -55,6 +57,7 @@ export function CompanyDirectoryView({
   const [jobTitle, setJobTitle] = useState("");
   const [jobUrl, setJobUrl] = useState("");
   const [jobLocation, setJobLocation] = useState("");
+  const [editingJobId, setEditingJobId] = useState<string | null>(null);
   const [addingJob, setAddingJob] = useState(false);
   const [sharingJobId, setSharingJobId] = useState<string | null>(null);
   const [shareLink, setShareLink] = useState("");
@@ -193,23 +196,38 @@ export function CompanyDirectoryView({
     event.preventDefault();
     if (!selectedCompany) return;
     setAddingJob(true);
-    const addedJobs = [
-      ...(selectedPreference?.addedJobs || []),
-      {
-        id: `manual-${Date.now()}`,
+    const job = {
+        id: editingJobId || `manual-${Date.now()}`,
         title: jobTitle.trim(),
         url: jobUrl.trim(),
         location: jobLocation.trim(),
-      },
-    ];
+      };
+    const addedJobs = editingJobId
+      ? (selectedPreference?.addedJobs || []).map((item) => item.id === editingJobId ? { ...item, ...job } : item)
+      : [...(selectedPreference?.addedJobs || []), job];
     if (
       await preferences.updatePreference(selectedCompany.key, { addedJobs })
     ) {
       setJobTitle("");
       setJobUrl("");
       setJobLocation("");
+      setEditingJobId(null);
     }
     setAddingJob(false);
+  };
+  const editJob = (job: CompanyCard["jobs"][number]) => {
+    setEditingJobId(job.id || null);
+    setJobTitle(job.title || "");
+    setJobUrl(job.url || "");
+    setJobLocation(job.location || "");
+    document.getElementById("job-editor")?.scrollIntoView({ behavior: "smooth", block: "center" });
+  };
+  const removeJob = async (jobId: string) => {
+    if (!selectedCompany || !window.confirm("Remove this job?")) return;
+    await preferences.updatePreference(selectedCompany.key, {
+      addedJobs: (selectedPreference?.addedJobs || []).filter((job) => job.id !== jobId),
+      likedJobIds: (selectedPreference?.likedJobIds || []).filter((id) => id !== jobId),
+    });
   };
   const shareJob = async (job: CompanyCard["jobs"][number], fallbackId: string) => {
     if (!selectedCompany) return;
@@ -288,7 +306,7 @@ export function CompanyDirectoryView({
             <AllCompaniesDirectorySection
               filter={tab}
               keywordQuery={keywordQuery}
-              active={showAllGroups || tab === "companies"}
+              active={showAllGroups || tab === "companies" || tab === "saved-jobs"}
               data={data}
               preferences={preferences}
               onSummary={handleSummary}
@@ -473,6 +491,10 @@ export function CompanyDirectoryView({
                               ) || false;
                             return (
                               <span className="flex shrink-0 items-center gap-1">
+                                {selectedPreference?.addedJobs?.some((item) => item.id === jobId) ? <>
+                                  <button type="button" disabled={!data.ready} aria-label={`Edit ${job.title || "job"}`} title="Edit job" onClick={() => editJob(job)} className="rounded-lg p-2 text-zinc-400 hover:bg-zinc-800 hover:text-teal-300 disabled:opacity-50"><Pencil size={16} /></button>
+                                  <button type="button" disabled={!data.ready} aria-label={`Remove ${job.title || "job"}`} title="Remove job" onClick={() => void removeJob(jobId)} className="rounded-lg p-2 text-zinc-400 hover:bg-red-950/50 hover:text-red-300 disabled:opacity-50"><Trash2 size={16} /></button>
+                                </> : null}
                                 <button
                                   type="button"
                                   disabled={sharingJobId === jobId}
@@ -522,10 +544,11 @@ export function CompanyDirectoryView({
                 )}
                 {shareLink ? <p role="status" className="mt-3 break-all text-xs text-teal-300">Copied share link: <a className="underline" href={shareLink} target="_blank" rel="noopener noreferrer">{shareLink}</a></p> : null}
                 <form
+                  id="job-editor"
                   onSubmit={addJob}
                   className="mt-4 space-y-3 rounded-xl border border-zinc-800 bg-zinc-900/40 p-4"
                 >
-                  <p className="text-sm font-medium text-zinc-200">Add a job</p>
+                  <p className="text-sm font-medium text-zinc-200">{editingJobId ? "Edit job" : "Add a job"}</p>
                   <input
                     required
                     value={jobTitle}
@@ -551,8 +574,9 @@ export function CompanyDirectoryView({
                     disabled={!data.ready || addingJob}
                     className="rounded-lg bg-teal-300 px-4 py-2 text-sm font-semibold text-zinc-950 disabled:opacity-50"
                   >
-                    {addingJob ? "Saving…" : "Save job"}
+                    {addingJob ? "Saving…" : editingJobId ? "Save changes" : "Save job"}
                   </button>
+                  {editingJobId ? <button type="button" onClick={() => { setEditingJobId(null); setJobTitle(""); setJobUrl(""); setJobLocation(""); }} className="ml-2 rounded-lg px-4 py-2 text-sm text-zinc-300 hover:bg-zinc-800">Cancel</button> : null}
                 </form>
               </section>
             </div>

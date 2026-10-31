@@ -121,11 +121,23 @@ async function searchCatalog(params: URLSearchParams) {
       (key) => canonicalKeys.get(key) || key,
     ),
   );
-  const savedJobs = new Set(
-    readPreferenceKeys(params, "savedJobs").map(
-      (key) => canonicalKeys.get(key) || key,
-    ),
-  );
+  let savedJobPreferences: { key: string; likedJobIds: string[]; addedJobs: CompanyCard["jobs"] }[] = [];
+  try {
+    const parsed = JSON.parse(params.get("savedJobs") || "[]");
+    if (Array.isArray(parsed)) {
+      savedJobPreferences = parsed.flatMap((item) =>
+        item && typeof item.key === "string" && Array.isArray(item.likedJobIds)
+          ? [{
+              key: canonicalKeys.get(item.key) || item.key,
+              likedJobIds: item.likedJobIds.filter((id: unknown): id is string => typeof id === "string"),
+              addedJobs: Array.isArray(item.addedJobs) ? item.addedJobs : [],
+            }]
+          : [],
+      );
+    }
+  } catch {
+    savedJobPreferences = [];
+  }
   const preferences: Record<string, CompanyPreference> = {};
   for (const key of liked)
     preferences[key] = { ...(preferences[key] || {}), liked: true };
@@ -133,8 +145,12 @@ async function searchCatalog(params: URLSearchParams) {
     preferences[key] = { ...(preferences[key] || {}), disliked: true };
   for (const key of archived)
     preferences[key] = { ...(preferences[key] || {}), archived: true };
-  for (const key of savedJobs)
-    preferences[key] = { ...(preferences[key] || {}), likedJobIds: ["saved"] };
+  for (const saved of savedJobPreferences)
+    preferences[saved.key] = {
+      ...(preferences[saved.key] || {}),
+      likedJobIds: saved.likedJobIds,
+      addedJobs: saved.addedJobs,
+    };
   const filters: CompanyFilters = {
     query: (params.get("query") || "").slice(0, 160),
     technology: params.get("technology") || "all",
@@ -164,12 +180,28 @@ async function searchCatalog(params: URLSearchParams) {
   categoryCounts["saved-jobs"] = catalog.filter((company) =>
     matchesCategory(company, "saved-jobs", preferences[company.key]),
   ).length;
-  const matched = catalog.filter(
-    (company) =>
-      (!researchOnly || category === "nearshore" || !!company.research) &&
-      matchesCategory(company, category, preferences[company.key]) &&
-      matchesCompanyFilters(company, filters),
-  );
+  const matched = category === "saved-jobs"
+    ? savedJobPreferences.flatMap((saved) => {
+        const company = catalog.find(
+          (candidate) => candidate.key === saved.key || candidate.legacyKeys?.includes(saved.key),
+        ) || catalog.find((candidate) =>
+          candidate.jobs.some((job) => saved.likedJobIds.includes(job.id)),
+        );
+        if (!company) return [];
+        const wanted = new Set(saved.likedJobIds);
+        const isSaved = (job: CompanyCard["jobs"][number]) =>
+          wanted.has(job.id) || wanted.has(job.url);
+        const jobs = [...company.jobs, ...saved.addedJobs].filter(isSaved);
+        return jobs.length && matchesCompanyFilters(company, filters)
+          ? [{ ...company, jobs }]
+          : [];
+      })
+    : catalog.filter(
+        (company) =>
+          (!researchOnly || category === "nearshore" || !!company.research) &&
+          matchesCategory(company, category, preferences[company.key]) &&
+          matchesCompanyFilters(company, filters),
+      );
   const pageCount = Math.max(1, Math.ceil(matched.length / pageSize));
   const currentPage = Math.min(page, pageCount);
   const pageCompanies = matched.slice(
@@ -236,9 +268,7 @@ export async function POST(request: NextRequest) {
         if (typeof key === "string" && key.length <= 160)
           params.append("archived", key);
     if (Array.isArray(body.savedJobs))
-      for (const key of body.savedJobs.slice(0, 1000))
-        if (typeof key === "string" && key.length <= 160)
-          params.append("savedJobs", key);
+      params.set("savedJobs", JSON.stringify(body.savedJobs.slice(0, 1000)));
     return await searchCatalog(params);
   } catch {
     return NextResponse.json(

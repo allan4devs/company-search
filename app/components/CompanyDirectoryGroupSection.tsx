@@ -59,6 +59,7 @@ export function CompanyDirectoryGroupSection({
     dislikes: 1,
     archived: 1,
     companies: 1,
+    "saved-jobs": 1,
   });
   const [resultState, setResultState] = useState<{
     filter: CompanyDirectoryMainFilter;
@@ -98,7 +99,7 @@ export function CompanyDirectoryGroupSection({
       .map(([key]) => key);
     const savedJobs = Object.entries(savedPreferences)
       .filter(([, preference]) => (preference.likedJobIds || []).length > 0)
-      .map(([key]) => key);
+      .map(([key, preference]) => ({ key, likedJobIds: preference.likedJobIds, addedJobs: preference.addedJobs || [] }));
     fetch("/api/comp/catalog", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -186,6 +187,7 @@ export function CompanyDirectoryGroupSection({
       company.legacyKeys
         ?.map((key) => preferences.preferences[key])
         .find(Boolean);
+    if (queryTab === "saved-jobs") return company.jobs.length > 0;
     return matchesCompanyCategory(company, queryTab, preference);
   });
 
@@ -257,7 +259,22 @@ export function CompanyDirectoryGroupSection({
         </div>
       ) : visibleCompanies?.length ? (
         <div className="mx-auto grid w-full max-w-2xl grid-cols-1 gap-4">
-          {visibleCompanies.map((company) => (
+          {filter === "saved-jobs"
+            ? visibleCompanies.flatMap((company) =>
+                company.jobs.map((job) => (
+                  <article
+                    key={`${company.key}:${job.id}`}
+                    className="flex items-center gap-4 rounded-xl border border-zinc-800 bg-zinc-900/60 px-4 py-3 transition hover:border-teal-400/60"
+                  >
+                    <div className="min-w-0 flex-1">
+                      <h3 className="truncate font-semibold text-zinc-100">{job.title || "Open role"}</h3>
+                      <p className="mt-1 truncate text-xs text-zinc-400">{company.name}{job.location ? ` · ${job.location}` : ""}{job.workMode ? ` · ${job.workMode}` : ""}</p>
+                    </div>
+                    <a href={job.url} target="_blank" rel="noopener noreferrer" aria-label={`Open ${job.title || "job"} at ${company.name}`} className="shrink-0 rounded-lg bg-teal-300 px-3 py-2 text-xs font-semibold text-zinc-950 hover:bg-teal-200">Open</a>
+                  </article>
+                )),
+              )
+            : visibleCompanies.map((company) => (
             <CompanyDirectoryCard
               key={company.key}
               company={company}
