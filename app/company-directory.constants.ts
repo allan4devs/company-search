@@ -1,29 +1,18 @@
 export const COMPANY_PREFERENCES_KEY = "cv-company-preferences-v1";
 export const COMPANY_PREFERENCES_CACHE_KEY = "cv-company-preferences-cache-v1";
 export const COMPANY_DIRECTORY_CACHE_KEY = "company-directory-cache-v1";
-export type CompanyDirectoryCategory = "all" | "likes" | "dislikes";
+export type CompanyDirectoryCategory =
+  "all" | "likes" | "dislikes" | "archived" | "saved-jobs";
 
 export const COMPANY_GROUPS = [
   {
-    key: "outsourcing",
-    title: "Outsourcing & consulting",
-    description:
-      "Development agencies, staff augmentation, recruiters, and consulting firms hiring for client teams.",
-  },
-  {
-    key: "unknown",
-    title: "More engineering employers",
-    description:
-      "Additional software companies and technology teams. Review the company source for its business model.",
-  },
-  {
-    key: "direct",
-    title: "Direct employers",
-    description:
-      "Companies hiring for their own products, platforms, or internal operations.",
+    key: "companies",
+    title: "Companies",
+    description: "Browse every company in one list.",
   },
 ] as const;
 
 export type CompanyDirectoryGroup = (typeof COMPANY_GROUPS)[number];
 export type CompanyDirectoryGroupKey = CompanyDirectoryGroup["key"];
-export type CompanyDirectoryMainFilter = CompanyDirectoryCategory | CompanyDirectoryGroupKey;
+export type CompanyDirectoryMainFilter =
+  CompanyDirectoryCategory | CompanyDirectoryGroupKey;

@@ -48,11 +48,17 @@ export function useCompanyDirectoryPreferences(
       if (!canSync) {
         const next = { ...preferences, [key]: { ...preferences[key], ...change } };
         localStorage.setItem(COMPANY_PREFERENCES_KEY, JSON.stringify(next));
+        setPreferences(next);
         await applyPreferences(next);
         setNotice("Saved in this browser. Shared sync is unavailable.");
         return true;
       }
-      const response = await fetch("/api/comp", { method: "PUT", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ preferences: { [key]: change } }) });
+      const previous = preferences;
+      const optimisticChange = { ...change };
+      if (reactionType === "like" && change.liked) optimisticChange.disliked = false;
+      if (reactionType === "dislike" && change.disliked) optimisticChange.liked = false;
+      setPreferences({ ...preferences, [key]: { ...preferences[key], ...optimisticChange } });
+      const response = await fetch("/api/comp", { method: "PUT", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ preferences: { [key]: optimisticChange } }) });
       const data = await response.json();
       if (!response.ok) throw new Error(data.error);
       try {
@@ -62,7 +68,7 @@ export function useCompanyDirectoryPreferences(
       preferenceChannel.current?.postMessage({ type: "preferences", preferences: data.preferences });
       setNotice("");
       return true;
-    } catch (error) { setNotice(error instanceof Error ? error.message : "Changes could not be saved. Please retry."); return false; }
+    } catch (error) { setPreferences(preferences); setNotice(error instanceof Error ? error.message : "Changes could not be saved. Please retry."); return false; }
     finally { setReaction(null); setReady(true); }
   }, [ready, companies, tab, canSync, preferences, setReady, setNotice, setPreferences]);
 

@@ -15,9 +15,26 @@ export function readCompanyDirectoryCache(): CompanyDirectoryCache | null {
     const raw = localStorage.getItem(COMPANY_DIRECTORY_CACHE_KEY);
     if (!raw) return null;
     const value = JSON.parse(raw) as Partial<CompanyDirectoryCache>;
-    if (!Array.isArray(value.companies) || !Array.isArray(value.categories)) return null;
-    if (!value.companies.every(company => company && typeof company.key === "string" && Array.isArray(company.jobs))) return null;
-    if (!value.categories.every(category => category && typeof category.key === "string" && typeof category.label === "string")) return null;
+    if (!Array.isArray(value.companies) || !Array.isArray(value.categories))
+      return null;
+    if (
+      !value.companies.every(
+        (company) =>
+          company &&
+          typeof company.key === "string" &&
+          Array.isArray(company.jobs),
+      )
+    )
+      return null;
+    if (
+      !value.categories.every(
+        (category) =>
+          category &&
+          typeof category.key === "string" &&
+          typeof category.label === "string",
+      )
+    )
+      return null;
     return {
       companies: value.companies as CompanyCard[],
       categories: value.categories as CompanyCategory[],
@@ -28,9 +45,16 @@ export function readCompanyDirectoryCache(): CompanyDirectoryCache | null {
   }
 }
 
-export function writeCompanyDirectoryCache(companies: CompanyCard[], categories: CompanyCategory[]) {
+export function writeCompanyDirectoryCache(
+  companies: CompanyCard[],
+  categories: CompanyCategory[],
+) {
   try {
-    const cache: CompanyDirectoryCache = { companies, categories, savedAt: Date.now() };
+    const cache: CompanyDirectoryCache = {
+      companies,
+      categories,
+      savedAt: Date.now(),
+    };
     localStorage.setItem(COMPANY_DIRECTORY_CACHE_KEY, JSON.stringify(cache));
   } catch {
     // Keep browsing available if storage is disabled or full.
@@ -54,13 +78,14 @@ export function matchesCompanyCategory(
   category: string,
   preference?: CompanyPreference,
 ) {
-  if (category === "outsourcing" || category === "direct") return company.model === category;
-  if (category === "unknown") return company.model === "unknown";
+  if (category === "archived") return !!preference?.archived;
+  if (category === "saved-jobs") return !!preference?.likedJobIds?.length;
+  if (preference?.archived) return false;
+  if (category === "companies") return !preference?.archived;
   if (category === "all") return !preference?.liked && !preference?.disliked;
   if (category === "dislikes") return !!preference?.disliked;
   if (preference?.disliked) return false;
   if (category === "likes") return !!preference?.liked;
-  if (category === "companies") return !preference?.liked;
   return company.categories?.includes(category) || false;
 }
 
@@ -71,11 +96,15 @@ export function filterCompanyKeys(
   filters: CompanyFilters,
   researchOnly: boolean,
 ) {
-  const source = researchOnly && category !== "nearshore"
-    ? companies.filter(company => company.research)
-    : companies;
-  return source.filter(company =>
-    matchesCompanyCategory(company, category, preferences[company.key])
-      && matchesCompanyFilters(company, filters),
-  ).map(company => company.key);
+  const source =
+    researchOnly && category !== "nearshore"
+      ? companies.filter((company) => company.research)
+      : companies;
+  return source
+    .filter(
+      (company) =>
+        matchesCompanyCategory(company, category, preferences[company.key]) &&
+        matchesCompanyFilters(company, filters),
+    )
+    .map((company) => company.key);
 }
