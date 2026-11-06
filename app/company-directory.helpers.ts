@@ -81,7 +81,7 @@ export function matchesCompanyCategory(
   if (category === "archived") return !!preference?.archived;
   if (category === "saved-jobs") return !!preference?.likedJobIds?.length;
   if (preference?.archived) return false;
-  if (category === "companies") return !preference?.archived;
+  if (category === "companies") return !preference?.liked && !preference?.disliked;
   if (category === "all") return !preference?.liked && !preference?.disliked;
   if (category === "dislikes") return !!preference?.disliked;
   if (preference?.disliked) return false;

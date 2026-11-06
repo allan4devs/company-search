@@ -187,7 +187,7 @@ export function CompanyDirectoryView({
     reactionType?: "like" | "dislike",
   ) => {
     const saved = await preferences.updatePreference(key, change, reactionType);
-    if (saved && reactionType === "dislike" && change.disliked) {
+    if (saved && ((reactionType === "dislike" && change.disliked) || (reactionType === "like" && change.liked))) {
       setSelectedCompany(null);
     }
     return saved;

@@ -34,7 +34,7 @@ function matchesCategory(
   if (preference?.archived) return false;
   if (category === "all") return !preference?.liked && !preference?.disliked;
   if (category === "dislikes") return !!preference?.disliked;
-  if (category === "companies") return true;
+  if (category === "companies") return !preference?.liked && !preference?.disliked;
   if (preference?.disliked) return false;
   if (category === "likes") return !!preference?.liked;
   return company.categories?.includes(category) || false;

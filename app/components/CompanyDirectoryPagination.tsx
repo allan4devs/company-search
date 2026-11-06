@@ -15,58 +15,42 @@ function CompanyDirectoryPaginationView({
   onPageChange,
 }: Props) {
   if (pageCount <= 1) return null;
-  const quickPages = [1, 2, 3, 8, 24].filter(
-    (page) => page <= pageCount,
-  );
   const goToPage = (page: number) => {
     onPageChange(page);
     document
       .getElementById("company-panel")
       ?.scrollIntoView({ behavior: "smooth", block: "start" });
   };
+  const buttonClass = "inline-flex size-9 items-center justify-center rounded-md text-zinc-400 transition hover:bg-zinc-900 hover:text-zinc-100 focus-visible:outline-2 focus-visible:outline-teal-300 disabled:pointer-events-none disabled:opacity-25";
 
   return (
     <nav
       aria-label={ariaLabel}
-      className="sticky top-0 z-20 mx-auto mb-4 flex w-full max-w-2xl flex-wrap items-center justify-center gap-2 rounded-xl border border-zinc-800 bg-zinc-950/95 px-3 py-3 shadow-lg shadow-black/20 backdrop-blur"
+      className="sticky top-2 z-20 mx-auto mb-4 flex w-fit items-center justify-center gap-2 rounded-full bg-zinc-950/90 px-1 backdrop-blur"
     >
       <button
         type="button"
-        disabled={currentPage === 1}
+        aria-label="Previous page"
+        disabled={currentPage <= 1}
         onClick={() => goToPage(currentPage - 1)}
-        className="inline-flex min-h-10 items-center gap-1 rounded-lg border border-zinc-700 px-3 text-sm text-zinc-200 hover:bg-zinc-800 disabled:cursor-not-allowed disabled:opacity-40"
+        className={buttonClass}
       >
         <ChevronLeft size={16} />
-        Previous
       </button>
-      <div className="flex flex-wrap items-center justify-center gap-1">
-        {quickPages.map((page) => (
-          <button
-            key={page}
-            type="button"
-            aria-label={`Go to page ${page}`}
-            aria-current={currentPage === page ? "page" : undefined}
-            onClick={() => goToPage(page)}
-            className={`min-h-10 min-w-10 rounded-lg border px-3 text-sm ${
-              currentPage === page
-                ? "border-teal-300 bg-teal-300 text-zinc-950"
-                : "border-zinc-700 text-zinc-200 hover:bg-zinc-800"
-            }`}
-          >
-            {page}
-          </button>
-        ))}
-      </div>
-      <span className="px-2 text-sm text-zinc-400">
-        Page {currentPage} of {pageCount}
+      <span aria-live="polite" aria-atomic="true" className="min-w-12 text-center text-xs tabular-nums text-zinc-500">
+        <span className="sr-only">Page </span>
+        <span className="text-zinc-300">{currentPage}</span>
+        <span aria-hidden="true"> / </span>
+        <span className="sr-only"> of </span>
+        {pageCount}
       </span>
       <button
         type="button"
-        disabled={currentPage === pageCount}
+        aria-label="Next page"
+        disabled={currentPage >= pageCount}
         onClick={() => goToPage(currentPage + 1)}
-        className="inline-flex min-h-10 items-center gap-1 rounded-lg border border-zinc-700 px-3 text-sm text-zinc-200 hover:bg-zinc-800 disabled:cursor-not-allowed disabled:opacity-40"
+        className={buttonClass}
       >
-        Next
         <ChevronRight size={16} />
       </button>
     </nav>

@@ -1,5 +1,7 @@
 "use client";
 
+// @refresh reset
+
 import { useEffect, useState } from "react";
 import type { CompanyCard } from "@/lib/comp/catalog";
 import type {
@@ -75,19 +77,32 @@ export function CompanyDirectoryGroupSection({
   const result = resultState?.filter === filter ? resultState.result : null;
   const queryTab = filter === "companies" ? "companies" : filter;
 
+  const catalogPreferencesKey = JSON.stringify(
+    Object.entries(preferences.preferences)
+      .filter(([, preference]) => preference.liked || preference.disliked || preference.archived || preference.likedJobIds?.length)
+      .sort(([a], [b]) => a.localeCompare(b))
+      .map(([key, preference]) => [key, {
+        liked: !!preference.liked,
+        disliked: !!preference.disliked,
+        archived: !!preference.archived,
+        likedJobIds: [...(preference.likedJobIds || [])].sort(),
+        addedJobs: preference.likedJobIds?.length ? preference.addedJobs || [] : [],
+      }]),
+  );
   const requestKey = JSON.stringify([
     group.key,
     filter,
     page,
     keywordQuery,
     retryKey,
+    catalogPreferencesKey,
   ]);
   const loading = requestState?.key !== requestKey;
   const error = requestState?.key === requestKey ? requestState.error : "";
 
   useEffect(() => {
     const controller = new AbortController();
-    const savedPreferences = preferences.preferences;
+    const savedPreferences = Object.fromEntries(JSON.parse(catalogPreferencesKey)) as Record<string, import("@/lib/comp/types").CompanyPreference>;
     const liked = Object.entries(savedPreferences)
       .filter(([, preference]) => preference.liked)
       .map(([key]) => key);
@@ -168,6 +183,7 @@ export function CompanyDirectoryGroupSection({
     keywordQuery,
     queryTab,
     requestKey,
+    catalogPreferencesKey,
   ]);
 
   const changePage = (nextPage: number) => {
