@@ -1,0 +1,1658 @@
+{
+  "cohortId": "likes-based-2026-11-07-p016",
+  "checkedOn": "2026-11-07",
+  "inputFiles": [
+    "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+    "company-batches\\historyc\\2026-11-07\\reporting\\p013-manifest-official-verified.json",
+    "company-batches\\historyc\\2026-11-07\\reporting\\p016-manifest-official-verified.json"
+  ],
+  "inputCount": 145,
+  "uniqueCount": 130,
+  "outputCount": 130,
+  "duplicateCount": 2,
+  "missingIdentityCount": 13,
+  "catalog": {
+    "source": "MongoDB + bundled files",
+    "mongoCompanies": 1520,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 0,
+    "indexedNames": 1667,
+    "indexedDomains": 1612
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 65,
+    "topTracks": [
+      {
+        "track": "Engineering",
+        "count": 36
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Software Engineering",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Node.js",
+        "count": 2
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        47
+      ],
+      [
+        "direct",
+        16
+      ],
+      [
+        "unknown",
+        2
+      ]
+    ]
+  },
+  "dislikeBaseline": {
+    "activeDislikedWithCostaRicaOrLatamEvidence": 92,
+    "dislikedTracks": [
+      {
+        "track": "Engineering",
+        "count": 64
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 8
+      },
+      {
+        "track": "Software Engineering",
+        "count": 7
+      },
+      {
+        "track": "Backend",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 5
+      },
+      {
+        "track": "Java Backend",
+        "count": 3
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 3
+      },
+      {
+        "track": "Python",
+        "count": 3
+      },
+      {
+        "track": "Nearshore",
+        "count": 3
+      },
+      {
+        "track": "Full Stack",
+        "count": 3
+      },
+      {
+        "track": "Go",
+        "count": 1
+      },
+      {
+        "track": "Node.js",
+        "count": 1
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        53
+      ],
+      [
+        "direct",
+        35
+      ],
+      [
+        "unknown",
+        4
+      ]
+    ]
+  },
+  "queryLanes": [
+    {
+      "lane": "Nearshore Hub Latin America software provider directory",
+      "leads": 20,
+      "unique": 20,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Guia TIC Costa Rica technology supplier directory",
+      "leads": 11,
+      "unique": 11,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "The Manifest Costa Rica software directory",
+      "leads": 6,
+      "unique": 6,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Sortlist software development directory — Colombia",
+      "leads": 6,
+      "unique": 6,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Enterprise League software directory — Central America",
+      "leads": 5,
+      "unique": 5,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "The Manifest Costa Rica software directory — page 2",
+      "leads": 5,
+      "unique": 5,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Sortlist software development directory — Argentina",
+      "leads": 4,
+      "unique": 4,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Enterprise League software directory — Argentina",
+      "leads": 3,
+      "unique": 3,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "The Manifest Costa Rica software directory — page 4",
+      "leads": 3,
+      "unique": 3,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "The Manifest Costa Rica software directory — page 0",
+      "leads": 3,
+      "unique": 3,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Sortlist software development directory — Chile",
+      "leads": 3,
+      "unique": 3,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Find Remote Jobs current software-engineering LATAM feed",
+      "leads": 3,
+      "unique": 3,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Alpunto Costa Rica software developer directory",
+      "leads": 2,
+      "unique": 2,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Sortlist software development directory — Uruguay",
+      "leads": 2,
+      "unique": 2,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Enterprise League software directory — Mexico",
+      "leads": 1,
+      "unique": 1,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Enterprise League software directory — Colombia",
+      "leads": 1,
+      "unique": 1,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Sortlist software development directory — Mexico",
+      "leads": 1,
+      "unique": 1,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Sortlist software development directory — Brazil",
+      "leads": 1,
+      "unique": 1,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official Costa Rica employer job pages — software/engineering roles",
+      "leads": 1,
+      "unique": 1,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "GoodFirms Costa Rica software development directory",
+      "leads": 1,
+      "unique": 1,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official Costa Rica software companies",
+      "leads": 1,
+      "unique": 1,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "CAMTIC Costa Rica ICT member directory",
+      "leads": 1,
+      "unique": 1,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "The Manifest Latin America software developers — page 3",
+      "leads": 12,
+      "unique": 11,
+      "duplicateRate": 0.083,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "The Manifest Latin America software developers — page 4",
+      "leads": 17,
+      "unique": 15,
+      "duplicateRate": 0.118,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "The Manifest Latin America software developers — page 5",
+      "leads": 6,
+      "unique": 4,
+      "duplicateRate": 0.333,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "The Manifest Latin America software developers — page 2",
+      "leads": 13,
+      "unique": 8,
+      "duplicateRate": 0.385,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "The Manifest Latin America software developers — page 5 ranks 166-180",
+      "leads": 13,
+      "unique": 8,
+      "duplicateRate": 0.385,
+      "recommendation": "continue or expand this lane"
+    }
+  ],
+  "entries": [
+    {
+      "company": "SECSA",
+      "domain": "secsacr.net",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://secsacr.net/"
+    },
+    {
+      "company": "321 Solutions",
+      "domain": "321solutions.net",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://321solutions.net/"
+    },
+    {
+      "company": "APPSUS SAS",
+      "domain": "appsus.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.appsus.co/ecosistema/talent"
+    },
+    {
+      "company": "ARCHIVOS Y SISTEMAS AYS SAS",
+      "domain": "siged.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.siged.co/"
+    },
+    {
+      "company": "BIOFILE SAS BIC",
+      "domain": "biofile.com.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.biofile.com.co/es-co/"
+    },
+    {
+      "company": "Digital Consulting Group",
+      "domain": "digitalcg.com.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://digitalcg.com.co/index.php/trabaja-con-nosotros/"
+    },
+    {
+      "company": "DISEÑO Y APLICACIONES",
+      "domain": "scorpiosoftware.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.scorpiosoftware.com/dya/index.php"
+    },
+    {
+      "company": "E-TakeOff SAS",
+      "domain": "e-takeoff.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "http://www.e-takeoff.com/"
+    },
+    {
+      "company": "EL CREATIVO WEB S.A.S",
+      "domain": "elcreativoweb.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://elcreativoweb.com/"
+    },
+    {
+      "company": "GCON4",
+      "domain": "gcon4.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://gcon4.com/es/home-es/"
+    },
+    {
+      "company": "Lyntik",
+      "domain": "lyntik.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.lyntik.co/"
+    },
+    {
+      "company": "RC Cloud Tech",
+      "domain": "rccloudtech.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.rccloudtech.com/"
+    },
+    {
+      "company": "TIQAL S.A.S.",
+      "domain": "darumasoftware.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.darumasoftware.com/"
+    },
+    {
+      "company": "Dappsco",
+      "domain": "dappsco.io",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://dappsco.io/"
+    },
+    {
+      "company": "Kirana Labs",
+      "domain": "kiranalabs.com",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.kiranalabs.com/"
+    },
+    {
+      "company": "VEscape Labs",
+      "domain": "vescapelabs.com",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.vescapelabs.com/careers"
+    },
+    {
+      "company": "BeepQuest",
+      "domain": "beepquest.com",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.beepquest.com/trabaja-con-nosotros/"
+    },
+    {
+      "company": "TailorSoft S.A.S.",
+      "domain": "tailorsoft.co",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.tailorsoft.co/"
+    },
+    {
+      "company": "Azdeyc Software",
+      "domain": "azdeyc.com",
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "http://azdeyc.com/"
+    },
+    {
+      "company": "CodeBranch",
+      "domain": "codebranch.co",
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://codebranch.co/careers/"
+    },
+    {
+      "company": "DEVELO",
+      "domain": "develo.software",
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://develo.software/"
+    },
+    {
+      "company": "Fersys",
+      "domain": "fersys.cloud",
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://fersys.cloud/"
+    },
+    {
+      "company": "Syloper",
+      "domain": "syloper.com",
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://syloper.com/"
+    },
+    {
+      "company": "Cabana Data",
+      "domain": "cabanadata.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://cabanadata.com/ai-first-move#principio"
+    },
+    {
+      "company": "Broccoli Studios",
+      "domain": "broccolistudios.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://broccolistudios.com/"
+    },
+    {
+      "company": "PilotCore",
+      "domain": "pilotcore.net",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.pilotcore.net/#proceso"
+    },
+    {
+      "company": "IT-iCO",
+      "domain": "it-ico.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.it-ico.com/"
+    },
+    {
+      "company": "MDG Developers Group",
+      "domain": "mdgdevelopers.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://mdgdevelopers.com/careers/"
+    },
+    {
+      "company": "Udersol",
+      "domain": "udersol.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://udersol.com/staffing"
+    },
+    {
+      "company": "PCMASTERCR",
+      "domain": "pcmastercr.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://pcmastercr.com/"
+    },
+    {
+      "company": "Grupo Argus",
+      "domain": "grupoargus.co.cr",
+      "queryLane": "The Manifest Costa Rica software directory — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://grupoargus.co.cr/"
+    },
+    {
+      "company": "ITOS Cloud",
+      "domain": "itoscloud.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.itoscloud.com/"
+    },
+    {
+      "company": "Synapptica",
+      "domain": "synapptica.net",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://synapptica.net/"
+    },
+    {
+      "company": "Asystec",
+      "domain": "asystec.io",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://asystec.io/"
+    },
+    {
+      "company": "Hiopos Costa Rica",
+      "domain": "hiopos.co.cr",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://hiopos.co.cr/"
+    },
+    {
+      "company": "NearshoreWorks",
+      "domain": "nearshoreworks.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://nearshoreworks.com/nearshore-talent-guide/"
+    },
+    {
+      "company": "deLaGuayaba",
+      "domain": "delaguayaba.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://delaguayaba.com/career/"
+    },
+    {
+      "company": "Fundamentl Partners",
+      "domain": "fundamentlpartners.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.fundamentlpartners.com/"
+    },
+    {
+      "company": "Brandy Creativity & Technology",
+      "domain": "brandy.la",
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://brandy.la/"
+    },
+    {
+      "company": "ColibriCode",
+      "domain": "colibricode.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://colibricode.com/careers"
+    },
+    {
+      "company": "Bridge Studio",
+      "domain": "bridgestudio.mx",
+      "queryLane": "Sortlist software development directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://bridgestudio.mx/contacto/"
+    },
+    {
+      "company": "Kivio sas",
+      "domain": "kivio.com.co",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.kivio.com.co/es"
+    },
+    {
+      "company": "Tree Immersion Technologies",
+      "domain": "treeimmersion.com",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://treeimmersion.com/"
+    },
+    {
+      "company": "Drunel Labs",
+      "domain": "drunel.com",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://drunel.com/"
+    },
+    {
+      "company": "HardBoxs",
+      "domain": "hardboxs.com",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://hardboxs.com/"
+    },
+    {
+      "company": "Creasotol Diseño Web",
+      "domain": "creasotol.com",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://creasotol.com/trabaje-con-nosotros"
+    },
+    {
+      "company": "Kubo S.A.S.",
+      "domain": "kubo.co",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.kubo.co/"
+    },
+    {
+      "company": "Joel Di Costa",
+      "domain": "joeldicosta.com",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://joeldicosta.com/"
+    },
+    {
+      "company": "Upway Digital - Agencia de Marketing Digital",
+      "domain": "upwaydigitalsolutions.com",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://upwaydigitalsolutions.com/nosotros"
+    },
+    {
+      "company": "Tupaca",
+      "domain": "tupaca.com",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://jobs.tupaca.com/"
+    },
+    {
+      "company": "PSIWARE ™",
+      "domain": "psiware.com.ar",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.psiware.com.ar/careers"
+    },
+    {
+      "company": "Tecnomark Agency",
+      "domain": "tecnomark.cl",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://tecnomark.cl/carreras"
+    },
+    {
+      "company": "RESOLUTOR Consultores",
+      "domain": "resolutor-ti.cl",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://resolutor-ti.cl/#servicios"
+    },
+    {
+      "company": "twgroup",
+      "domain": "twgroup.cl",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://twgroup.cl/"
+    },
+    {
+      "company": "AlphaCorp AI",
+      "domain": "alphacorp.ai",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alphacorp.ai/"
+    },
+    {
+      "company": "Solcre Software & Staff Augmentation",
+      "domain": "solcre.com",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.solcre.com/en/work-with-us/"
+    },
+    {
+      "company": "SpaceDev",
+      "domain": "spacedev.io",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://spacedev.io/careers"
+    },
+    {
+      "company": "Publicis Groupe",
+      "domain": "publicisgroupe.com",
+      "queryLane": "Official Costa Rica employer job pages — software/engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://careers.publicisgroupe.com/jobs/180186?lang=en-US"
+    },
+    {
+      "company": "WAM Digital",
+      "domain": "wamdigital.com",
+      "queryLane": "GoodFirms Costa Rica software development directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://wamdigital.com/careers"
+    },
+    {
+      "company": "Link Design",
+      "domain": "linkdesign.cr",
+      "queryLane": "Official Costa Rica software companies",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://linkdesign.cr/en/desarrollo-de-software-costa-rica"
+    },
+    {
+      "company": "Foundever",
+      "domain": "foundever.com",
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://jobs.foundever.com/?utm_source=corpwebsite&#038;utm_medium=CTAtopbar"
+    },
+    {
+      "company": "Airalo",
+      "domain": "airalo.com",
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.airalo.com/airalo-careers/job-vacancies"
+    },
+    {
+      "company": "Hire Overseas",
+      "domain": "hireoverseas.com",
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.hireoverseas.com/services/managed-talent-hire"
+    },
+    {
+      "company": "Coral",
+      "domain": "coralcr.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.coralcr.com/"
+    },
+    {
+      "company": "Practia",
+      "domain": "practia.global",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://practia.global/Recruiting/"
+    },
+    {
+      "company": "Interfell",
+      "domain": "interfell.com",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.interfell.com/spk-talento"
+    },
+    {
+      "company": "Sofka Technologies",
+      "domain": "sofka.com.co",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://oportunidades.sofka.com.co/jobs"
+    },
+    {
+      "company": "Stefanini",
+      "domain": "stefanini.com",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://stefanini.com/es/"
+    },
+    {
+      "company": "Elaniin",
+      "domain": "elaniin.com",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.elaniin.com/contact-us"
+    },
+    {
+      "company": "Compass UOL",
+      "domain": "aircompany.ai",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://aircompany.ai/en/aws/"
+    },
+    {
+      "company": "Making Sense",
+      "domain": "makingsense.com",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://makingsense.com/careers"
+    },
+    {
+      "company": "Neoris",
+      "domain": "epamneoris.com",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://epamneoris.com/web/guest/-/neoris-lanza-la-cuarta-edici%C3%B3n-de-impulsando-talento-para-formar-a-j%C3%B3venes-en-tecnolog%C3%ADa?redirect=%2F"
+    },
+    {
+      "company": "Intraway",
+      "domain": "intraway.com",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.intraway.com/work-with-us/"
+    },
+    {
+      "company": "Eagerworks",
+      "domain": "eagerworks.com",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://eagerworks.com/careers"
+    },
+    {
+      "company": "Ingenious",
+      "domain": "ingenious.agency",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://ingenious.agency/"
+    },
+    {
+      "company": "Pyxis",
+      "domain": "pyxis.tech",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://pyxis.tech/"
+    },
+    {
+      "company": "Baufest",
+      "domain": "baufest.com",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.baufest.com/en"
+    },
+    {
+      "company": "Eryx",
+      "domain": "eryx.co",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://eryx.co/"
+    },
+    {
+      "company": "Unosquare",
+      "domain": "unosquare.com",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.unosquare.com/careers/"
+    },
+    {
+      "company": "Ceiba Software",
+      "domain": "ceiba.com.co",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.ceiba.com.co/vacantes/"
+    },
+    {
+      "company": "Cidenet",
+      "domain": "cidenet.com.co",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://cidenet.com.co/ofertas-laborales/"
+    },
+    {
+      "company": "Continuum",
+      "domain": "continuumhq.com",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.continuumhq.com/"
+    },
+    {
+      "company": "ArcTouch",
+      "domain": "arctouch.com",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://arctouch.com/careers"
+    },
+    {
+      "company": "Objective",
+      "domain": "objective.com.br",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p011-shaped-all.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.objective.com.br/"
+    },
+    {
+      "company": "10Pines",
+      "domain": "10pines.com",
+      "queryLane": "The Manifest Latin America software developers — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p013-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=2"
+    },
+    {
+      "company": "Itransition",
+      "domain": "itransition.com",
+      "queryLane": "The Manifest Latin America software developers — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p013-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=2"
+    },
+    {
+      "company": "Ancient",
+      "domain": "ancient.global",
+      "queryLane": "The Manifest Latin America software developers — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p013-manifest-official-verified.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Ancient - The Wisdom of Technology",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=2"
+    },
+    {
+      "company": "ABstract Solutions",
+      "domain": "abstractsolutions.com.ar",
+      "queryLane": "The Manifest Latin America software developers — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p013-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=2"
+    },
+    {
+      "company": "Protos Technology LLC",
+      "domain": "protostech.com",
+      "queryLane": "The Manifest Latin America software developers — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p013-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=2"
+    },
+    {
+      "company": "Divisio",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p013-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=2"
+    },
+    {
+      "company": "Axented",
+      "domain": "axented.com",
+      "queryLane": "The Manifest Latin America software developers — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p013-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=2"
+    },
+    {
+      "company": "Inflexium",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p013-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=2"
+    },
+    {
+      "company": "MAS Global Consulting",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p013-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=2"
+    },
+    {
+      "company": "MWDN",
+      "domain": "mwdn.com",
+      "queryLane": "The Manifest Latin America software developers — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p013-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=2"
+    },
+    {
+      "company": "INNOVANT",
+      "domain": "innovant.us",
+      "queryLane": "The Manifest Latin America software developers — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p013-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=2"
+    },
+    {
+      "company": "eCloud Agency",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p013-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=2"
+    },
+    {
+      "company": "SECL Group",
+      "domain": "seclgroup.com",
+      "queryLane": "The Manifest Latin America software developers — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p013-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=2"
+    },
+    {
+      "company": "Perficient Latin America",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p013-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=3"
+    },
+    {
+      "company": "Amalgama",
+      "domain": "amalgama.co",
+      "queryLane": "The Manifest Latin America software developers — page 3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p013-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=3"
+    },
+    {
+      "company": "Intuitio Labs",
+      "domain": "rightshift.co",
+      "queryLane": "The Manifest Latin America software developers — page 3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p013-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=3"
+    },
+    {
+      "company": "GlobalUY",
+      "domain": "globaluy.com",
+      "queryLane": "The Manifest Latin America software developers — page 3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p013-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=3"
+    },
+    {
+      "company": "Bombieri",
+      "domain": "bombieri.com.ar",
+      "queryLane": "The Manifest Latin America software developers — page 3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p013-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=3"
+    },
+    {
+      "company": "Softo",
+      "domain": "sof.to",
+      "queryLane": "The Manifest Latin America software developers — page 3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p013-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=3"
+    },
+    {
+      "company": "Kruger Corporation",
+      "domain": "krugercorp.com",
+      "queryLane": "The Manifest Latin America software developers — page 3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p013-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=3"
+    },
+    {
+      "company": "Ateliware",
+      "domain": "ateliware.com",
+      "queryLane": "The Manifest Latin America software developers — page 3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p013-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=3"
+    },
+    {
+      "company": "TowerHouse Studio",
+      "domain": "towerhousestudio.com",
+      "queryLane": "The Manifest Latin America software developers — page 3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p013-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=3"
+    },
+    {
+      "company": "Clarika",
+      "domain": "clarikagroup.com",
+      "queryLane": "The Manifest Latin America software developers — page 3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p013-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=3"
+    },
+    {
+      "company": "The App Master",
+      "domain": "tamevolution.com",
+      "queryLane": "The Manifest Latin America software developers — page 3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p013-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=3"
+    },
+    {
+      "company": "Bertoni Solutions",
+      "domain": "bertonisolutions.com",
+      "queryLane": "The Manifest Latin America software developers — page 3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p013-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=3"
+    },
+    {
+      "company": "Sprint Studios",
+      "domain": "sprintmode.ai",
+      "queryLane": "The Manifest Latin America software developers — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p016-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=4"
+    },
+    {
+      "company": "UDS Technology",
+      "domain": "udstechnology.com",
+      "queryLane": "The Manifest Latin America software developers — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p016-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=4"
+    },
+    {
+      "company": "Serfe",
+      "domain": "serfe.com",
+      "queryLane": "The Manifest Latin America software developers — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p016-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=4"
+    },
+    {
+      "company": "Somnio Software",
+      "domain": "somniosoftware.com",
+      "queryLane": "The Manifest Latin America software developers — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p016-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=4"
+    },
+    {
+      "company": "Zallpy Digital",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p016-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=4"
+    },
+    {
+      "company": "Seta Workshop",
+      "domain": "setaworkshop.com",
+      "queryLane": "The Manifest Latin America software developers — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p016-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=4"
+    },
+    {
+      "company": "Rocket Code",
+      "domain": "therocketcode.com",
+      "queryLane": "The Manifest Latin America software developers — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p016-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=4"
+    },
+    {
+      "company": "Crombie",
+      "domain": "crombie.dev",
+      "queryLane": "The Manifest Latin America software developers — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p016-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=4"
+    },
+    {
+      "company": "Activeone",
+      "domain": "activeone.co",
+      "queryLane": "The Manifest Latin America software developers — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p016-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=4"
+    },
+    {
+      "company": "Nybble Group",
+      "domain": "nybblegroup.com",
+      "queryLane": "The Manifest Latin America software developers — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p016-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=4"
+    },
+    {
+      "company": "Prion Software",
+      "domain": "prionsoftware.com",
+      "queryLane": "The Manifest Latin America software developers — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p016-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=4"
+    },
+    {
+      "company": "We Are The Robots Inc",
+      "domain": "watr.mx",
+      "queryLane": "The Manifest Latin America software developers — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p016-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=4"
+    },
+    {
+      "company": "Cavepot",
+      "domain": "cavepot.com",
+      "queryLane": "The Manifest Latin America software developers — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p016-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=4"
+    },
+    {
+      "company": "NextAge",
+      "domain": "nextage.com.br",
+      "queryLane": "The Manifest Latin America software developers — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p016-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=4"
+    },
+    {
+      "company": "Revolt",
+      "domain": "revolt.digital",
+      "queryLane": "The Manifest Latin America software developers — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p016-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=4"
+    },
+    {
+      "company": "Morean",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p016-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=4"
+    },
+    {
+      "company": "THE BLUE BOX",
+      "domain": "thebluebox.dev",
+      "queryLane": "The Manifest Latin America software developers — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p016-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=4"
+    },
+    {
+      "company": "WiserBrand",
+      "domain": "wiserbrand.com",
+      "queryLane": "The Manifest Latin America software developers — page 5",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p016-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=5"
+    },
+    {
+      "company": "Paisanos.io",
+      "domain": "paisanos.io",
+      "queryLane": "The Manifest Latin America software developers — page 5",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p016-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=5"
+    },
+    {
+      "company": "Arkano",
+      "domain": "arkanosoft.com",
+      "queryLane": "The Manifest Latin America software developers — page 5",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p016-manifest-official-verified.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Arkano Software",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=5"
+    },
+    {
+      "company": "GM2",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 5",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p016-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=5"
+    },
+    {
+      "company": "Wawandco",
+      "domain": "wawand.co",
+      "queryLane": "The Manifest Latin America software developers — page 5",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p016-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=5"
+    },
+    {
+      "company": "Devlights",
+      "domain": "devlights.com",
+      "queryLane": "The Manifest Latin America software developers — page 5",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p016-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=5"
+    },
+    {
+      "company": "DVelop Software Solutions",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 5 ranks 166-180",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p016-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=5"
+    },
+    {
+      "company": "VenturiX Solutions",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 5 ranks 166-180",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p016-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=5"
+    },
+    {
+      "company": "FOONKIE MONKEY",
+      "domain": "foonkiemonkey.co.uk",
+      "queryLane": "The Manifest Latin America software developers — page 5 ranks 166-180",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p016-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=5"
+    },
+    {
+      "company": "Visionnaire Technologies",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 5 ranks 166-180",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p016-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=5"
+    },
+    {
+      "company": "Deepsea Developments",
+      "domain": "deepseadev.com",
+      "queryLane": "The Manifest Latin America software developers — page 5 ranks 166-180",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p016-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=5"
+    },
+    {
+      "company": "Adviters",
+      "domain": "adviters.com",
+      "queryLane": "The Manifest Latin America software developers — page 5 ranks 166-180",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p016-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=5"
+    },
+    {
+      "company": "Flux IT",
+      "domain": "fluxitsoft.com",
+      "queryLane": "The Manifest Latin America software developers — page 5 ranks 166-180",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p016-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=5"
+    },
+    {
+      "company": "Moka",
+      "domain": "wearemoka.com",
+      "queryLane": "The Manifest Latin America software developers — page 5 ranks 166-180",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p016-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=5"
+    },
+    {
+      "company": "Effectus Software",
+      "domain": "effectussoftware.com",
+      "queryLane": "The Manifest Latin America software developers — page 5 ranks 166-180",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p016-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=5"
+    },
+    {
+      "company": "3XM Group",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 5 ranks 166-180",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p016-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=5"
+    },
+    {
+      "company": "Inferencia AI Solutions",
+      "domain": "inferencia.io",
+      "queryLane": "The Manifest Latin America software developers — page 5 ranks 166-180",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p016-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=5"
+    },
+    {
+      "company": "SENSO Mx.",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 5 ranks 166-180",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p016-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=5"
+    },
+    {
+      "company": "IT4W",
+      "domain": "it4w.net",
+      "queryLane": "The Manifest Latin America software developers — page 5 ranks 166-180",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p016-manifest-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=5"
+    }
+  ]
+}

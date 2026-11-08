@@ -1,0 +1,1561 @@
+{
+  "cohortId": "likes-based-2026-11-07-p013",
+  "checkedOn": "2026-11-07",
+  "sourceInput": "company-batches\\historyc\\2026-11-07\\reporting\\p013-manifest-site-leads.json",
+  "inputCandidateCount": 25,
+  "candidateOffset": 0,
+  "candidateCount": 25,
+  "remainingCandidateCount": 0,
+  "elapsedMs": 10683,
+  "officialPagesChecked": 50,
+  "verifierOptions": {
+    "concurrency": 24,
+    "maxFollowupPages": 2
+  },
+  "queryLanes": [
+    {
+      "lane": "The Manifest Latin America software developers — page 2",
+      "checked": 13,
+      "reachable": 9,
+      "regionAndFit": 3,
+      "localOrEligibleAndFit": 3,
+      "regionAndFitRate": 0.231,
+      "localOrEligibleAndFitRate": 0.231,
+      "recommendation": "continue, then compare against the next batch"
+    },
+    {
+      "lane": "The Manifest Latin America software developers — page 3",
+      "checked": 12,
+      "reachable": 11,
+      "regionAndFit": 4,
+      "localOrEligibleAndFit": 2,
+      "regionAndFitRate": 0.333,
+      "localOrEligibleAndFitRate": 0.167,
+      "recommendation": "continue, then compare against the next batch"
+    }
+  ],
+  "candidates": [
+    {
+      "name": "10Pines",
+      "queryLane": "The Manifest Latin America software developers — page 2",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=2",
+      "directoryLocation": "Latin America software development listing",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "https://www.10pines.com/",
+      "websiteResolutionSource": "The Manifest official Visit Site link; candidate URL only",
+      "website": "https://www.10pines.com/",
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 1,
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.10pines.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialRegionalPresenceSnippets": [],
+      "regionalPresenceCountries": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://www.10pines.com/",
+          "snippet": "--> 10Pines • Software Development Services - Argentina You need to enable JavaScript to run this app."
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": false
+    },
+    {
+      "name": "Itransition",
+      "queryLane": "The Manifest Latin America software developers — page 2",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=2",
+      "directoryLocation": "Latin America software development listing",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "https://www.itransition.com/",
+      "websiteResolutionSource": "The Manifest official Visit Site link; candidate URL only",
+      "website": "https://www.itransition.com/",
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 3,
+      "careersUrl": "https://www.itransition.com/careers",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.itransition.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.itransition.com/company/about",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.itransition.com/careers",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialRegionalPresenceSnippets": [],
+      "regionalPresenceCountries": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://www.itransition.com/",
+          "snippet": "Itransition | Software Engineering & Digital Transformation Company Services Industries Case studies Insights Company Contact us Services Industries Case studies Insights C"
+        },
+        {
+          "url": "https://www.itransition.com/",
+          "snippet": "Itransition | Software Engineering & Digital Transformation Company Services Industries Case studies Insights Company Contact us Services Industries Case studies Insights Company Conta"
+        },
+        {
+          "url": "https://www.itransition.com/",
+          "snippet": " Contact us Services Digital transformation Digital transformation strategy ERP CRM Portals HR management BPM Software engineering Technology consulting Custom software development Product engineering Application services System integration Legacy modernization Qualit"
+        },
+        {
+          "url": "https://www.itransition.com/",
+          "snippet": "us Services Digital transformation Digital transformation strategy ERP CRM Portals HR management BPM Software engineering Technology consulting Custom software development Product engineering Application services System integration Legacy modernization Quality engineerin"
+        },
+        {
+          "url": "https://www.itransition.com/company/about",
+          "snippet": "stries Case studies Insights Company Services Digital transformation Artificial intelligence Data & analytics Software engineering Cloud & devops Technology platforms Industries Healthcare Finance Manufacturing Retail Insurance Professional services Insights Trending "
+        },
+        {
+          "url": "https://www.itransition.com/company/about",
+          "snippet": "se studies Insights Company Services Digital transformation Artificial intelligence Data & analytics Software engineering Cloud & devops Technology platforms Industries Healthcare Finance Manufacturing Retail Insurance Professional services Insights Trending topics Indus"
+        },
+        {
+          "url": "https://www.itransition.com/company/about",
+          "snippet": "nsights Company Services Digital transformation Artificial intelligence Data & analytics Software engineering Cloud & devops Technology platforms Industries Healthcare Finance Manufacturing Retail Insurance Professional services Insights Trending topics Industry-re"
+        },
+        {
+          "url": "https://www.itransition.com/company/about",
+          "snippet": "ion Generative AI Computer vision AI agents AI chatbots Data & analytics Business intelligence Data analytics Software engineering Technology consulting Custom software development Product engineering Application services System integration Legacy modernization Qualit"
+        },
+        {
+          "url": "https://www.itransition.com/careers",
+          "snippet": "ion offers a certification support program, which enables our employees to pass exams (e.g. Microsoft, Google Cloud, AWS, Adobe, Salesforce, Atlassian, UiPath, SAP, Odoo, Scrum.org, etc.) at the company’s expense. Conferences & events We hold an annual practical IT"
+        },
+        {
+          "url": "https://www.itransition.com/careers",
+          "snippet": "pation in international events for expertise exchange. We also have internal workshops, webinars, UX, BA, and developer meetups, during which our experts share technology and methodology findings. Benefits We are focused on the engagement and motivation of our employee"
+        },
+        {
+          "url": "https://www.itransition.com/careers",
+          "snippet": " is very light and people are very easy-going. Rogelio Grow your career Learn with us Technologies We deliver software solutions using both established technologies and tools like C++, .NET, RoR, Python, PHP, and Java, as well as technology trends like Robotic Process"
+        },
+        {
+          "url": "https://www.itransition.com/careers",
+          "snippet": "ies independently and in interest groups, and practice their skills on real projects. You will not just write software with us. You will be part of teams that help customers digitally transform their businesses. Selected customers During 20+ years on the market, Itran"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": false
+    },
+    {
+      "name": "Ancient",
+      "queryLane": "The Manifest Latin America software developers — page 2",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=2",
+      "directoryLocation": "Latin America software development listing",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "https://ancient.global/en/",
+      "websiteResolutionSource": "The Manifest official Visit Site link; candidate URL only",
+      "website": "https://www.ancient.global/en",
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 1,
+      "careersUrl": "https://www.ancient.global/en/employment-opportunities",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.ancient.global/en",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "LATAM",
+        "Latin America"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://www.ancient.global/en",
+          "snippet": "nd drive growth. Explore software outsourcing Our solutions Areas of expertise 01 IT Staffing Add specialized LATAM engineers to your team and expand your development capacity without the limitations of traditional hiring. Read more 02 Cloud solutions We design and"
+        },
+        {
+          "url": "https://www.ancient.global/en",
+          "snippet": " cloud and DevOps solutions. We also offer IT staffing and software outsourcing for companies in the U.S. and Latin America. What is nearshore software development? It means working with a team in a nearby country with overlapping hours. Our teams in Mexico and Latin Ameri"
+        },
+        {
+          "url": "https://www.ancient.global/en",
+          "snippet": "development? It means working with a team in a nearby country with overlapping hours. Our teams in Mexico and Latin America collaborate in real time with U.S. companies, at more competitive costs than local development. How does IT staffing with Ancient work? We embed spec"
+        },
+        {
+          "url": "https://www.ancient.global/en",
+          "snippet": "hnological innovation. Know more Pomelo, a leading startup in card issuance and fintech product management in LATAM, partnered with Ancient Technology to develop its mobile application. This project was instrumental in enabling Pomelo to meet regulatory requirement"
+        },
+        {
+          "url": "https://www.ancient.global/en",
+          "snippet": " Established Enterprises Can Fast-Track Time-to-Market October 23, 2026 Read More The Nearshore Paradigm: Why Latin America Powers U.S. Engineering Scale October 14, 2026 Read More Software Engineering Redefined: Shifting from Manual Coding to AI Orchestration October 6, 2"
+        }
+      ],
+      "officialRegionalPresenceSnippets": [],
+      "regionalPresenceCountries": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://www.ancient.global/en",
+          "snippet": "Software Development & AI Company | Ancient Services Artificial Intelligence Copilots, agents and models for your business DevOps Fast, reliable deployments C"
+        },
+        {
+          "url": "https://www.ancient.global/en",
+          "snippet": "vices Artificial Intelligence Copilots, agents and models for your business DevOps Fast, reliable deployments Cloud Solutions Migration and operations on AWS, Azure and GCP Digital Transformation Software built around your operations Data Engineering Data ready for"
+        },
+        {
+          "url": "https://www.ancient.global/en",
+          "snippet": "t, reliable deployments Cloud Solutions Migration and operations on AWS, Azure and GCP Digital Transformation Software built around your operations Data Engineering Data ready for analytics and AI Digital Commerce Stores, integrations and AI Blockchain Smart contracts"
+        },
+        {
+          "url": "https://www.ancient.global/en",
+          "snippet": "s Migration and operations on AWS, Azure and GCP Digital Transformation Software built around your operations Data Engineering Data ready for analytics and AI Digital Commerce Stores, integrations and AI Blockchain Smart contracts and tokenization UX/UI Products people actual"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": true,
+      "regionalPresenceVerified": false
+    },
+    {
+      "name": "ABstract Solutions",
+      "queryLane": "The Manifest Latin America software developers — page 2",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=2",
+      "directoryLocation": "Latin America software development listing",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "https://abstractsolutions.com.ar/en",
+      "websiteResolutionSource": "The Manifest official Visit Site link; candidate URL only",
+      "website": "https://abstractsolutions.com.ar/en",
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 3,
+      "careersUrl": "https://abstractsolutions.com.ar/careers",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://abstractsolutions.com.ar/en",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://abstractsolutions.com.ar/about",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://abstractsolutions.com.ar/careers",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialRegionalPresenceSnippets": [],
+      "regionalPresenceCountries": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://abstractsolutions.com.ar/en",
+          "snippet": "ABstract Solutions | A customized Software solutions company About Us Services Projects Career Contact Us Aurora EN Español English About Us Services Projects Career Contact Us Aurora EN Españ"
+        },
+        {
+          "url": "https://abstractsolutions.com.ar/en",
+          "snippet": "at make complex processes simple. Learn more Do you need a team of technology experts? The integration of our engineers, designers and specialists enables us to analyze, design, evaluate and create the product that you need, when you need it. Contact us Take a look at"
+        },
+        {
+          "url": "https://abstractsolutions.com.ar/en",
+          "snippet": " listen to your needs and then analyze, propose and create the digital product that best suits your business. Software Mobile apps (iOS / Android) Web apps WMS CRM APIs / Integrations Middleware E-commerce AI Management systems Electronics RFID Electronics E-retail Ar"
+        },
+        {
+          "url": "https://abstractsolutions.com.ar/en",
+          "snippet": "ancy Startups & new projects Process optimization Solutions design Electronic development Feasibility studies Software implementation Access for more information! Bringing ideas to life At ABstract, we focus on creating technology to transform businesses&#x27; day-to-"
+        },
+        {
+          "url": "https://abstractsolutions.com.ar/careers",
+          "snippet": "rtas ¿Alguna de estás oportunidades te llama la atención? QA Tester SSR/Sr - Full Time ¡Me interesa! Back-End Developer Java SSR/Sr - Full Time ¡Me interesa! ¿Estás listo para despegar? [email&#160;protected] / +54 9 11 5257-2275 Nosotros Servicios Proyectos Empleos Co"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": false
+    },
+    {
+      "name": "Protos Technology LLC",
+      "queryLane": "The Manifest Latin America software developers — page 2",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=2",
+      "directoryLocation": "Latin America software development listing",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "https://protostech.com/",
+      "websiteResolutionSource": "The Manifest official Visit Site link; candidate URL only",
+      "website": "https://protostech.com/",
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 2,
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://protostech.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://protostech.com/nosotros/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialRegionalPresenceSnippets": [],
+      "regionalPresenceCountries": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://protostech.com/",
+          "snippet": "Desarrollo de Software en Panamá | Protos Servicios Desarrollo de Software a Medida Automatización de Procesos Integración de sistemas Inteligencia Artificial Modernización"
+        },
+        {
+          "url": "https://protostech.com/",
+          "snippet": "Desarrollo de Software en Panamá | Protos Servicios Desarrollo de Software a Medida Automatización de Procesos Integración de sistemas Inteligencia Artificial Modernización Tecnológica Consultoría Tecnológica Productos Meet "
+        },
+        {
+          "url": "https://protostech.com/",
+          "snippet": "nsultoría Tecnológica Productos Meet & Vote Protos stack Empresa Nosotros Casos de Éxito Soporte Blog Cotizar DESARROLLO DE SOFTWARE · PANAMÁ Desarrollamos el software que tu empresa necesita Plataformas de desarrollo de software en Panamá a medida, automatización de procesos e int"
+        },
+        {
+          "url": "https://protostech.com/",
+          "snippet": "s stack Empresa Nosotros Casos de Éxito Soporte Blog Cotizar DESARROLLO DE SOFTWARE · PANAMÁ Desarrollamos el software que tu empresa necesita Plataformas de desarrollo de software en Panamá a medida, automatización de procesos e inteligencia artificial para empresas "
+        },
+        {
+          "url": "https://protostech.com/nosotros/",
+          "snippet": "Nosotros Servicios Desarrollo de Software a Medida Automatización de Procesos Integración de sistemas Inteligencia Artificial Modernización Tecnológica Consultoría Tecnológica Productos Meet "
+        },
+        {
+          "url": "https://protostech.com/nosotros/",
+          "snippet": "e Protos stack Empresa Nosotros Casos de Éxito Soporte Blog Cotizar NOSOTROS Protos Technology: La Empresa de Software en Panamá Que Construye lo Que el Mercado No Tiene COTIZAR PROYECTO Respuesta en menos de 24 horas. Sin compromiso. +11 Años de experiencia +100 Proy"
+        },
+        {
+          "url": "https://protostech.com/nosotros/",
+          "snippet": "ctos entregados 4.8/5 Rating en Clutch 100% A medida para tu empresa Más de 11 años convirtiendo problemas en software que funciona QUIÉNES SOMOS Somos Protos Technology, una empresa de software en Panamá con más de 11 años de experiencia desarrollando soluciones a me"
+        },
+        {
+          "url": "https://protostech.com/nosotros/",
+          "snippet": "11 años convirtiendo problemas en software que funciona QUIÉNES SOMOS Somos Protos Technology, una empresa de software en Panamá con más de 11 años de experiencia desarrollando soluciones a medida para empresas en Latinoamérica, Europa y Estados Unidos. No somos una a"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": false
+    },
+    {
+      "name": "Divisio",
+      "queryLane": "The Manifest Latin America software developers — page 2",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=2",
+      "directoryLocation": "Latin America software development listing",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "https://www.divisio.tech/",
+      "websiteResolutionSource": "The Manifest official Visit Site link; candidate URL only",
+      "website": "",
+      "officialSiteStatus": "fetch failed",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Axented",
+      "queryLane": "The Manifest Latin America software developers — page 2",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=2",
+      "directoryLocation": "Latin America software development listing",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "https://www.axented.com/",
+      "websiteResolutionSource": "The Manifest official Visit Site link; candidate URL only",
+      "website": "https://www.axented.com/",
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 1,
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.axented.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "LATAM",
+        "Latin America"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://www.axented.com/",
+          "snippet": "ork AI Workshop Case Studies About us Contact us Contact Us EN ES Software, automation and senior engineers · LATAM & USA We design, build, scale and optimize the technology your business runs on. Since 2010, Axented has built software for companies across the US a"
+        },
+        {
+          "url": "https://www.axented.com/",
+          "snippet": " the technology your business runs on. Since 2010, Axented has built software for companies across the US and Latin America, nearshore and in your time zone. The ERP that finally talks to everything, the platform your team works in, the app your customers use, the automati"
+        },
+        {
+          "url": "https://www.axented.com/",
+          "snippet": "n production, 18 industries 4.9/5 on Clutch, from 34 verified reviews Top 1 k Clutch Global 2025, B2B tech in LATAM Trusted by teams across Mexico and the US Sound familiar? Signs your company has outgrown its tools They show up the same in a cement plant, a bank a"
+        },
+        {
+          "url": "https://www.axented.com/",
+          "snippet": "rate, transfer : we assemble the team, run it with you, hand it over PEO and employer of record in Mexico and LATAM through Axelerate Rated 4.9 / 5 on Clutch across 34 reviews. Clutch \"Most Reviewed PEO Company\". Platforms and stacks: AWS · Azure · GCP · SAP · Odoo"
+        }
+      ],
+      "officialRegionalPresenceSnippets": [
+        {
+          "url": "https://www.axented.com/",
+          "country": "Mexico",
+          "snippet": "nd Miami. Innovation Delivered. Engineered for impact. Services Products How we work Ai Workshop Case Studies Jobs Blog Mexico City Office WeWork CDMX Polanco ‍ Blvd. Miguel de Cervantes 169 Granada, Miguel Hidalgo, CDMX México, 11520 +52(81)1957"
+        }
+      ],
+      "regionalPresenceCountries": [
+        "Mexico"
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://www.axented.com/",
+          "snippet": "Nearshore Software, Automation & AI Agents | Axented Our Services How We Work AI Workshop Case Studies About us Contact us Contact Us EN ES Software, automation and sen"
+        },
+        {
+          "url": "https://www.axented.com/",
+          "snippet": " & AI Agents | Axented Our Services How We Work AI Workshop Case Studies About us Contact us Contact Us EN ES Software, automation and senior engineers · LATAM & USA We design, build, scale and optimize the technology your business runs on. Since 2010, Axented has bui"
+        },
+        {
+          "url": "https://www.axented.com/",
+          "snippet": "ces How We Work AI Workshop Case Studies About us Contact us Contact Us EN ES Software, automation and senior engineers · LATAM & USA We design, build, scale and optimize the technology your business runs on. Since 2010, Axented has built software for companies across"
+        },
+        {
+          "url": "https://www.axented.com/",
+          "snippet": " USA We design, build, scale and optimize the technology your business runs on. Since 2010, Axented has built software for companies across the US and Latin America, nearshore and in your time zone. The ERP that finally talks to everything, the platform your team work"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": true
+    },
+    {
+      "name": "Inflexium",
+      "queryLane": "The Manifest Latin America software developers — page 2",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=2",
+      "directoryLocation": "Latin America software development listing",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "https://inflexium.com/",
+      "websiteResolutionSource": "The Manifest official Visit Site link; candidate URL only",
+      "website": "",
+      "officialSiteStatus": "fetch failed",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "MAS Global Consulting",
+      "queryLane": "The Manifest Latin America software developers — page 2",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=2",
+      "directoryLocation": "Latin America software development listing",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "https://www.masglobalconsulting.com/",
+      "websiteResolutionSource": "The Manifest official Visit Site link; candidate URL only",
+      "website": "",
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "MWDN",
+      "queryLane": "The Manifest Latin America software developers — page 2",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=2",
+      "directoryLocation": "Latin America software development listing",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "https://mwdn.com/",
+      "websiteResolutionSource": "The Manifest official Visit Site link; candidate URL only",
+      "website": "https://mwdn.com/",
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 3,
+      "careersUrl": "https://mwdn.com/hire/",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://mwdn.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://mwdn.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://mwdn.com/hire/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialRegionalPresenceSnippets": [],
+      "regionalPresenceCountries": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://mwdn.com/",
+          "snippet": "obal IT staffing company for tech teams | MWDN Skip to content Hire talent Close Hire talent Open Hire talent Developers Designers QA Engineers & Testing Specialists Management & Leadership Experts AI & Data Specialists Developers Hire backend, frontend, full-stack, mo"
+        },
+        {
+          "url": "https://mwdn.com/",
+          "snippet": " for tech teams | MWDN Skip to content Hire talent Close Hire talent Open Hire talent Developers Designers QA Engineers & Testing Specialists Management & Leadership Experts AI & Data Specialists Developers Hire backend, frontend, full-stack, mobile, cloud, and DevOps"
+        },
+        {
+          "url": "https://mwdn.com/",
+          "snippet": "Developers Designers QA Engineers & Testing Specialists Management & Leadership Experts AI & Data Specialists Developers Hire backend, frontend, full-stack, mobile, cloud, and DevOps engineers for active product development Full-Stack Developers Front-end Developers Ba"
+        },
+        {
+          "url": "https://mwdn.com/",
+          "snippet": " Management & Leadership Experts AI & Data Specialists Developers Hire backend, frontend, full-stack, mobile, cloud, and DevOps engineers for active product development Full-Stack Developers Front-end Developers Back-end Developers React Developers Angular Develope"
+        },
+        {
+          "url": "https://mwdn.com/",
+          "snippet": "obal IT staffing company for tech teams | MWDN Skip to content Hire talent Close Hire talent Open Hire talent Developers Designers QA Engineers & Testing Specialists Management & Leadership Experts AI & Data Specialists Developers Hire backend, frontend, full-stack, mo"
+        },
+        {
+          "url": "https://mwdn.com/",
+          "snippet": " for tech teams | MWDN Skip to content Hire talent Close Hire talent Open Hire talent Developers Designers QA Engineers & Testing Specialists Management & Leadership Experts AI & Data Specialists Developers Hire backend, frontend, full-stack, mobile, cloud, and DevOps"
+        },
+        {
+          "url": "https://mwdn.com/",
+          "snippet": "Developers Designers QA Engineers & Testing Specialists Management & Leadership Experts AI & Data Specialists Developers Hire backend, frontend, full-stack, mobile, cloud, and DevOps engineers for active product development Full-Stack Developers Front-end Developers Ba"
+        },
+        {
+          "url": "https://mwdn.com/",
+          "snippet": " Management & Leadership Experts AI & Data Specialists Developers Hire backend, frontend, full-stack, mobile, cloud, and DevOps engineers for active product development Full-Stack Developers Front-end Developers Back-end Developers React Developers Angular Develope"
+        },
+        {
+          "url": "https://mwdn.com/hire/",
+          "snippet": "Hire a talent - MWDN Skip to content Hire talent Close Hire talent Open Hire talent Developers Designers QA Engineers & Testing Specialists Management & Leadership Experts AI & Data Specialists Developers Hire backend, frontend, full-stack, mo"
+        },
+        {
+          "url": "https://mwdn.com/hire/",
+          "snippet": "Hire a talent - MWDN Skip to content Hire talent Close Hire talent Open Hire talent Developers Designers QA Engineers & Testing Specialists Management & Leadership Experts AI & Data Specialists Developers Hire backend, frontend, full-stack, mobile, cloud, and DevOps"
+        },
+        {
+          "url": "https://mwdn.com/hire/",
+          "snippet": "Developers Designers QA Engineers & Testing Specialists Management & Leadership Experts AI & Data Specialists Developers Hire backend, frontend, full-stack, mobile, cloud, and DevOps engineers for active product development Full-Stack Developers Front-end Developers Ba"
+        },
+        {
+          "url": "https://mwdn.com/hire/",
+          "snippet": " Management & Leadership Experts AI & Data Specialists Developers Hire backend, frontend, full-stack, mobile, cloud, and DevOps engineers for active product development Full-Stack Developers Front-end Developers Back-end Developers React Developers Angular Develope"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": false
+    },
+    {
+      "name": "INNOVANT",
+      "queryLane": "The Manifest Latin America software developers — page 2",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=2",
+      "directoryLocation": "Latin America software development listing",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "https://innovant.us/",
+      "websiteResolutionSource": "The Manifest official Visit Site link; candidate URL only",
+      "website": "https://innovant.us/",
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 3,
+      "careersUrl": "https://innovant.us/careers/",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://innovant.us/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://innovant.us/about-us/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://innovant.us/careers/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialRegionalPresenceSnippets": [],
+      "regionalPresenceCountries": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://innovant.us/",
+          "snippet": "ucation Empowered brain, autism app View more Portfolio Logistic & Supply Chain Global transport and logistic software Healthcare & Life Science Unleashing AI’s, potential in Life Science Fintech & Banking Business platform for banking AECOM Streamlined BIM Processes "
+        },
+        {
+          "url": "https://innovant.us/",
+          "snippet": "ons Custom Web &#038; App Dev Data Science Consulting Agile Digital Transformation UX/UI Design &#038; Growth Software QA Our Fields Fintech Banking Logistics Supply Chain Healthcare Life Science AECOM Retail Looking for new career? See our open positions Education Em"
+        },
+        {
+          "url": "https://innovant.us/",
+          "snippet": "icial Intelligence & Data Foundation Utilize the latest in AI, data insights, and machine learning strategies Cloud Solutions Leverage scalable, cloud-native technologies to transform your operations Product Design & Development Captivating digital experiences opti"
+        },
+        {
+          "url": "https://innovant.us/",
+          "snippet": "n Utilize the latest in AI, data insights, and machine learning strategies Cloud Solutions Leverage scalable, cloud-native technologies to transform your operations Product Design & Development Captivating digital experiences optimized for high efficiency Digital T"
+        },
+        {
+          "url": "https://innovant.us/about-us/",
+          "snippet": "ucation Empowered brain, autism app View more Portfolio Logistic & Supply Chain Global transport and logistic software Healthcare & Life Science Unleashing AI’s, potential in Life Science Fintech & Banking Business platform for banking AECOM Streamlined BIM Processes "
+        },
+        {
+          "url": "https://innovant.us/about-us/",
+          "snippet": "ons Custom Web &#038; App Dev Data Science Consulting Agile Digital Transformation UX/UI Design &#038; Growth Software QA Our Fields Fintech Banking Logistics Supply Chain Healthcare Life Science AECOM Retail Looking for new career? See our open positions Education Em"
+        },
+        {
+          "url": "https://innovant.us/about-us/",
+          "snippet": "s and Budget WHAT WE’RE OFFERING Comprehensive IT Solutions for our Business Growth. We offer a full suite of IT services designed to meet your business needs, from custom app development and machine learning solutions to UX/UI design and digital transformation strategie"
+        },
+        {
+          "url": "https://innovant.us/about-us/",
+          "snippet": " or leverage the power of data, our team of experts is here to help. Elastic Workforce Growth and shrink your engineering workforce, instantly, on demand. Custom Web & Mobile App Development Tailored development of web and mobile apps to meet business needs. AI-Powered M"
+        },
+        {
+          "url": "https://innovant.us/careers/",
+          "snippet": "ucation Empowered brain, autism app View more Portfolio Logistic & Supply Chain Global transport and logistic software Healthcare & Life Science Unleashing AI’s, potential in Life Science Fintech & Banking Business platform for banking AECOM Streamlined BIM Processes "
+        },
+        {
+          "url": "https://innovant.us/careers/",
+          "snippet": "ons Custom Web &#038; App Dev Data Science Consulting Agile Digital Transformation UX/UI Design &#038; Growth Software QA Our Fields Fintech Banking Logistics Supply Chain Healthcare Life Science AECOM Retail Looking for new career? See our open positions Education Em"
+        },
+        {
+          "url": "https://innovant.us/careers/",
+          "snippet": "g You like where you live. OPENING IN OUR COMPANY Job openings and career opportunities Montevideo, UY DevOps Engineer - Development Minimum 3 years experience or above Full Time or part-time OUR SENIORITYS How do we evaluate seniority levels We evaluate each team mem"
+        },
+        {
+          "url": "https://innovant.us/careers/",
+          "snippet": "alks, team activities. • Get technology certifications. • Have Study Days since your Hire Date. CRM Solutions Mobile Development Your routine, your flexibility • Work from anywhere in the world, from home and/or from our office in Montevideo with our hybrid work model. • You ca"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": false
+    },
+    {
+      "name": "eCloud Agency",
+      "queryLane": "The Manifest Latin America software developers — page 2",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=2",
+      "directoryLocation": "Latin America software development listing",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "https://www.ecloud.agency/en",
+      "websiteResolutionSource": "The Manifest official Visit Site link; candidate URL only",
+      "website": "",
+      "officialSiteStatus": "HTTP 404",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "SECL Group",
+      "queryLane": "The Manifest Latin America software developers — page 2",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=2",
+      "directoryLocation": "Latin America software development listing",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "https://seclgroup.com/",
+      "websiteResolutionSource": "The Manifest official Visit Site link; candidate URL only",
+      "website": "https://seclgroup.com/",
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 3,
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://seclgroup.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://seclgroup.com/services/dedicated-development-team/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://seclgroup.com/contact/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "LATAM"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://seclgroup.com/services/dedicated-development-team/",
+          "snippet": "illed and qualified specialists at reasonable rates. Teams in many locations We have teams in Eastern Europe, LatAm, and the Middle East Experienced teams We provide teams that have worked on large projects for major corporates like Kia, Pepsi, and Danone Various s"
+        }
+      ],
+      "officialRegionalPresenceSnippets": [],
+      "regionalPresenceCountries": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://seclgroup.com/",
+          "snippet": "Custom Software Development Company | SECL Group USA UA NL Services By Purpose AI Integration Services ChatGPT App Development Services AI Agent Development Services"
+        },
+        {
+          "url": "https://seclgroup.com/",
+          "snippet": "atGPT App Development Services AI Agent Development Services API Integration Services Product Discovery Phase Software Re-Engineering Application Modernization Services Software Product Development CTO as a Service for Startups Offshore Development Services Enterprise"
+        },
+        {
+          "url": "https://seclgroup.com/",
+          "snippet": "velopment Services AI Agent Development Services API Integration Services Product Discovery Phase Software Re-Engineering Application Modernization Services Software Product Development CTO as a Service for Startups Offshore Development Services Enterprise Software Devel"
+        },
+        {
+          "url": "https://seclgroup.com/",
+          "snippet": "s API Integration Services Product Discovery Phase Software Re-Engineering Application Modernization Services Software Product Development CTO as a Service for Startups Offshore Development Services Enterprise Software Development Software Audit High-Load System Devel"
+        },
+        {
+          "url": "https://seclgroup.com/services/dedicated-development-team/",
+          "snippet": "atGPT App Development Services AI Agent Development Services API Integration Services Product Discovery Phase Software Re-Engineering Application Modernization Services Software Product Development CTO as a Service for Startups Offshore Development Services Enterprise"
+        },
+        {
+          "url": "https://seclgroup.com/services/dedicated-development-team/",
+          "snippet": "velopment Services AI Agent Development Services API Integration Services Product Discovery Phase Software Re-Engineering Application Modernization Services Software Product Development CTO as a Service for Startups Offshore Development Services Enterprise Software Devel"
+        },
+        {
+          "url": "https://seclgroup.com/services/dedicated-development-team/",
+          "snippet": "s API Integration Services Product Discovery Phase Software Re-Engineering Application Modernization Services Software Product Development CTO as a Service for Startups Offshore Development Services Enterprise Software Development Software Audit High-Load System Devel"
+        },
+        {
+          "url": "https://seclgroup.com/services/dedicated-development-team/",
+          "snippet": " Services Software Product Development CTO as a Service for Startups Offshore Development Services Enterprise Software Development Software Audit High-Load System Development Dedicated Development Team Software Architecture Data Migration Custom Mapping Solutions By W"
+        },
+        {
+          "url": "https://seclgroup.com/contact/",
+          "snippet": "atGPT App Development Services AI Agent Development Services API Integration Services Product Discovery Phase Software Re-Engineering Application Modernization Services Software Product Development CTO as a Service for Startups Offshore Development Services Enterprise"
+        },
+        {
+          "url": "https://seclgroup.com/contact/",
+          "snippet": "velopment Services AI Agent Development Services API Integration Services Product Discovery Phase Software Re-Engineering Application Modernization Services Software Product Development CTO as a Service for Startups Offshore Development Services Enterprise Software Devel"
+        },
+        {
+          "url": "https://seclgroup.com/contact/",
+          "snippet": "s API Integration Services Product Discovery Phase Software Re-Engineering Application Modernization Services Software Product Development CTO as a Service for Startups Offshore Development Services Enterprise Software Development Software Audit High-Load System Devel"
+        },
+        {
+          "url": "https://seclgroup.com/contact/",
+          "snippet": " Services Software Product Development CTO as a Service for Startups Offshore Development Services Enterprise Software Development Software Audit High-Load System Development Dedicated Development Team Software Architecture Data Migration Custom Mapping Solutions By W"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": false
+    },
+    {
+      "name": "Perficient Latin America",
+      "queryLane": "The Manifest Latin America software developers — page 3",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=3",
+      "directoryLocation": "Latin America software development listing",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "https://nearshore.perficient.com/",
+      "websiteResolutionSource": "The Manifest official Visit Site link; candidate URL only",
+      "website": "",
+      "officialSiteStatus": "HTTP 404",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Amalgama",
+      "queryLane": "The Manifest Latin America software developers — page 3",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=3",
+      "directoryLocation": "Latin America software development listing",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "https://amalgama.co/",
+      "websiteResolutionSource": "The Manifest official Visit Site link; candidate URL only",
+      "website": "https://amalgama.co/",
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 3,
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://amalgama.co/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://amalgama.co/team/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://amalgama.co/contact/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialRegionalPresenceSnippets": [],
+      "regionalPresenceCountries": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://amalgama.co/",
+          "snippet": "Open Source Code Tech Blog Our technical blog Podcasts Well Sparks Videos Contact Top health and wellness app developers by scroll down What we do We are the Welltech team that fits your needs (and we rock at it) Welltech We are experts in the wellbeing space and devel"
+        },
+        {
+          "url": "https://amalgama.co/",
+          "snippet": "elopment Web & App Development No Code QA & Maintenace Launch & Growth Product Marketing App Stores Analytics Web Development View services View services Our work Featured projects Wellness Fitness Swish 365 Get your players ready to train in less than 2 min See case study S"
+        },
+        {
+          "url": "https://amalgama.co/",
+          "snippet": "with. What we&#8217;ll be working on: Brand analysis and goals definition Wireframing Look & Feel application Web Development Close Swish 365 Swish’s founders came to us to build an app so that parents could book their children’s basketball sessions in a simple and fast way."
+        },
+        {
+          "url": "https://amalgama.co/",
+          "snippet": " experience on our website and the services we are able to offer. For performance and security reasons we use Cloudflare required Save Preferences Our website uses cookies, mainly from 3rd party services. Define your Privacy Preferences and/or agree to our use of c"
+        },
+        {
+          "url": "https://amalgama.co/team/",
+          "snippet": "ntality. We are truly agile, not just in theory, but in our actions. Meet the crew Agile Team Product Experts Developers Prod Designers Aid Team Agile Team Head of Agile April Agile Crafter Pelli Agile Crafter Pity Product Experts Product Owner Agus Product Owner Jose "
+        },
+        {
+          "url": "https://amalgama.co/team/",
+          "snippet": "t Owner Agus Product Owner Jose Product Owner Ivan Product Owner Maca Product Owner Chebu Product Owner Abril Developers Developer Peter Developer Fran Tech Lead Zeke Developer Antho Developer Franco Developer Manu Tech Lead Chano Tech Lead Mau Developer Gabo Developer"
+        },
+        {
+          "url": "https://amalgama.co/team/",
+          "snippet": "s Product Owner Jose Product Owner Ivan Product Owner Maca Product Owner Chebu Product Owner Abril Developers Developer Peter Developer Fran Tech Lead Zeke Developer Antho Developer Franco Developer Manu Tech Lead Chano Tech Lead Mau Developer Gabo Developer Fausto Dev"
+        },
+        {
+          "url": "https://amalgama.co/team/",
+          "snippet": "Jose Product Owner Ivan Product Owner Maca Product Owner Chebu Product Owner Abril Developers Developer Peter Developer Fran Tech Lead Zeke Developer Antho Developer Franco Developer Manu Tech Lead Chano Tech Lead Mau Developer Gabo Developer Fausto Developer Oriana De"
+        },
+        {
+          "url": "https://amalgama.co/contact/",
+          "snippet": "with. What we&#8217;ll be working on: Brand analysis and goals definition Wireframing Look & Feel application Web Development Close Swish 365 Swish’s founders came to us to build an app so that parents could book their children’s basketball sessions in a simple and fast way."
+        },
+        {
+          "url": "https://amalgama.co/contact/",
+          "snippet": " experience on our website and the services we are able to offer. For performance and security reasons we use Cloudflare required Save Preferences Our website uses cookies, mainly from 3rd party services. Define your Privacy Preferences and/or agree to our use of c"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": false
+    },
+    {
+      "name": "Intuitio Labs",
+      "queryLane": "The Manifest Latin America software developers — page 3",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=3",
+      "directoryLocation": "Latin America software development listing",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "https://www.intuitiolabs.com/",
+      "websiteResolutionSource": "The Manifest official Visit Site link; candidate URL only",
+      "website": "https://rightshift.co/",
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 1,
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://rightshift.co/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialRegionalPresenceSnippets": [],
+      "regionalPresenceCountries": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://rightshift.co/",
+          "snippet": "AI Product Studio, Software & Ventures | RightShift Product Studio Accelerator Ventures Corporate Innovation Product Studio product studio Discover Software Services & Delivery "
+        },
+        {
+          "url": "https://rightshift.co/",
+          "snippet": " | RightShift Product Studio Accelerator Ventures Corporate Innovation Product Studio product studio Discover Software Services & Delivery Overview All Product Studio services at a glance Prototype Development Working prototypes to test and validate ideas. Custom Soft"
+        },
+        {
+          "url": "https://rightshift.co/",
+          "snippet": "oduct Studio services at a glance Prototype Development Working prototypes to test and validate ideas. Custom Software Development Web and mobile apps, built end-to-end. Salesforce Solutions Implementation, customization, and managed support. Explore Services From str"
+        },
+        {
+          "url": "https://rightshift.co/",
+          "snippet": "dio, an accelerator, and hands-on support from day one Let’s Talk Resources Case studies Selected work across software and AI. Companies Founders we&#x27;ve backed and accelerated. Testimonials What our clients say — in their own words. Blog Team insights on product b"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": false
+    },
+    {
+      "name": "GlobalUY",
+      "queryLane": "The Manifest Latin America software developers — page 3",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=3",
+      "directoryLocation": "Latin America software development listing",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "https://www.globaluy.com/",
+      "websiteResolutionSource": "The Manifest official Visit Site link; candidate URL only",
+      "website": "https://www.globaluy.com/",
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 3,
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.globaluy.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.globaluy.com/nosotros",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.globaluy.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "LATAM"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://www.globaluy.com/nosotros",
+          "snippet": " y colaborativo, permitiéndonos adaptarnos rápidamente a los cambios y desafíos del mercado. Con presencia en LATAM, seguimos expandiéndonos comercialmente en la región así como con fuerte presencia en USA, creando oportunidades para empresas que buscan potenciar s"
+        }
+      ],
+      "officialRegionalPresenceSnippets": [],
+      "regionalPresenceCountries": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://www.globaluy.com/",
+          "snippet": " y Android con foco en usabilidad y experiencia de usuario. Desarrollo de producto Transformamos tus ideas en software. Estudiamos el problema, entendemos a los usuarios y construimos lo que tu empresa necesita. inteligencia artificial Tecnología que resuelve problema"
+        },
+        {
+          "url": "https://www.globaluy.com/",
+          "snippet": " y Android con foco en usabilidad y experiencia de usuario. Desarrollo de producto Transformamos tus ideas en software. Estudiamos el problema, entendemos a los usuarios y construimos lo que tu empresa necesita. inteligencia artificial Tecnología que resuelve problema"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": false
+    },
+    {
+      "name": "Bombieri",
+      "queryLane": "The Manifest Latin America software developers — page 3",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=3",
+      "directoryLocation": "Latin America software development listing",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "https://www.bombieri.com.ar/",
+      "websiteResolutionSource": "The Manifest official Visit Site link; candidate URL only",
+      "website": "https://bombieri.com.ar/",
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 3,
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://bombieri.com.ar/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://bombieri.com.ar/nosotros",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://bombieri.com.ar/contacto",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialRegionalPresenceSnippets": [],
+      "regionalPresenceCountries": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://bombieri.com.ar/",
+          "snippet": "lta Necesito implementar IA en mi equipo Necesito consultoría estratégica y transformación tecnológica Quiero desarrollo de software y tecnología a medida Necesito asesoramiento general COMENTARIO Enviar consulta Enable JavaScript to submit this form. C o n t a c t a n o s y t e a "
+        },
+        {
+          "url": "https://bombieri.com.ar/",
+          "snippet": "lta Necesito implementar IA en mi equipo Necesito consultoría estratégica y transformación tecnológica Quiero desarrollo de software y tecnología a medida Necesito asesoramiento general COMENTARIO Enviar consulta Enable JavaScript to submit this form. C o n t a c t a n o s y t e a "
+        },
+        {
+          "url": "https://bombieri.com.ar/",
+          "snippet": "lta Necesito implementar IA en mi equipo Necesito consultoría estratégica y transformación tecnológica Quiero desarrollo de software y tecnología a medida Necesito asesoramiento general COMENTARIO Enviar consulta Enable JavaScript to submit this form. ')\"> Diseñemos el próximo paso"
+        },
+        {
+          "url": "https://bombieri.com.ar/nosotros",
+          "snippet": "lta Necesito implementar IA en mi equipo Necesito consultoría estratégica y transformación tecnológica Quiero desarrollo de software y tecnología a medida Necesito asesoramiento general COMENTARIO Enviar consulta Enable JavaScript to submit this form. C o n t a c t a n o s y t e a "
+        },
+        {
+          "url": "https://bombieri.com.ar/nosotros",
+          "snippet": "lta Necesito implementar IA en mi equipo Necesito consultoría estratégica y transformación tecnológica Quiero desarrollo de software y tecnología a medida Necesito asesoramiento general COMENTARIO Enviar consulta Enable JavaScript to submit this form. C o n t a c t a n o s y t e a "
+        },
+        {
+          "url": "https://bombieri.com.ar/nosotros",
+          "snippet": "lta Necesito implementar IA en mi equipo Necesito consultoría estratégica y transformación tecnológica Quiero desarrollo de software y tecnología a medida Necesito asesoramiento general COMENTARIO Enviar consulta Enable JavaScript to submit this form. ')\"> Diseñemos el próximo paso"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": false
+    },
+    {
+      "name": "Softo",
+      "queryLane": "The Manifest Latin America software developers — page 3",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=3",
+      "directoryLocation": "Latin America software development listing",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "https://sof.to/",
+      "websiteResolutionSource": "The Manifest official Visit Site link; candidate URL only",
+      "website": "https://sof.to/",
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 3,
+      "careersUrl": "https://sof.to/for-talents?from=forCompanies#opportunities",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://sof.to/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://sof.to/for-companies/ai/singularity-spark/sdlc-genius",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://sof.to/for-talents?from=forCompanies",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialRegionalPresenceSnippets": [],
+      "regionalPresenceCountries": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://sof.to/",
+          "snippet": " Delivered. Services Services We operate from strategy to execution with services designed for a new context: software and AI focused on real, measurable outcomes in production. Explore our services FOUNDATION AI Foundations AI diagnosis and roadmap, with a business c"
+        },
+        {
+          "url": "https://sof.to/",
+          "snippet": " AI Foundations AI diagnosis and roadmap, with a business case, in 4 weeks. BUILD Outcome Pods Applied AI and Software Engineering to accelerate business growth. automate agentic now AI agents for automation and operational scale. Products SDLC Genius AI applied to th"
+        },
+        {
+          "url": "https://sof.to/",
+          "snippet": "ations AI diagnosis and roadmap, with a business case, in 4 weeks. BUILD Outcome Pods Applied AI and Software Engineering to accelerate business growth. automate agentic now AI agents for automation and operational scale. Products SDLC Genius AI applied to the SDLC for d"
+        },
+        {
+          "url": "https://sof.to/",
+          "snippet": "xplore PowerHouses Domain PowerHouses Technical specialization by technology domain. AI & Automation · Custom Software · Cloud · Web3 · Third-Party Platforms Industry PowerHouses Applied specialization by industry. Fintech · Health · Education · Energy · Hospitality ·"
+        },
+        {
+          "url": "https://sof.to/for-companies/ai/singularity-spark/sdlc-genius",
+          "snippet": "ius | Softo Services Services We operate from strategy to execution with services designed for a new context: software and AI focused on real, measurable outcomes in production. Explore our services FOUNDATION AI Foundations AI diagnosis and roadmap, with a business c"
+        },
+        {
+          "url": "https://sof.to/for-companies/ai/singularity-spark/sdlc-genius",
+          "snippet": " AI Foundations AI diagnosis and roadmap, with a business case, in 4 weeks. BUILD Outcome Pods Applied AI and Software Engineering to accelerate business growth. automate agentic now AI agents for automation and operational scale. Products SDLC Genius AI applied to th"
+        },
+        {
+          "url": "https://sof.to/for-companies/ai/singularity-spark/sdlc-genius",
+          "snippet": "ations AI diagnosis and roadmap, with a business case, in 4 weeks. BUILD Outcome Pods Applied AI and Software Engineering to accelerate business growth. automate agentic now AI agents for automation and operational scale. Products SDLC Genius AI applied to the SDLC for d"
+        },
+        {
+          "url": "https://sof.to/for-companies/ai/singularity-spark/sdlc-genius",
+          "snippet": "xplore PowerHouses Domain PowerHouses Technical specialization by technology domain. AI & Automation · Custom Software · Cloud · Web3 · Third-Party Platforms Industry PowerHouses Applied specialization by industry. Fintech · Health · Education · Energy · Hospitality ·"
+        },
+        {
+          "url": "https://sof.to/for-talents?from=forCompanies",
+          "snippet": "r companies Services Services We operate from strategy to execution with services designed for a new context: software and AI focused on real, measurable outcomes in production. Explore our services FOUNDATION AI Foundations AI diagnosis and roadmap, with a business c"
+        },
+        {
+          "url": "https://sof.to/for-talents?from=forCompanies",
+          "snippet": " AI Foundations AI diagnosis and roadmap, with a business case, in 4 weeks. BUILD Outcome Pods Applied AI and Software Engineering to accelerate business growth. automate agentic now AI agents for automation and operational scale. Products SDLC Genius AI applied to th"
+        },
+        {
+          "url": "https://sof.to/for-talents?from=forCompanies",
+          "snippet": "ations AI diagnosis and roadmap, with a business case, in 4 weeks. BUILD Outcome Pods Applied AI and Software Engineering to accelerate business growth. automate agentic now AI agents for automation and operational scale. Products SDLC Genius AI applied to the SDLC for d"
+        },
+        {
+          "url": "https://sof.to/for-talents?from=forCompanies",
+          "snippet": "xplore PowerHouses Domain PowerHouses Technical specialization by technology domain. AI & Automation · Custom Software · Cloud · Web3 · Third-Party Platforms Industry PowerHouses Applied specialization by industry. Fintech · Health · Education · Energy · Hospitality ·"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": false
+    },
+    {
+      "name": "Kruger Corporation",
+      "queryLane": "The Manifest Latin America software developers — page 3",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=3",
+      "directoryLocation": "Latin America software development listing",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "https://krugercorp.com/",
+      "websiteResolutionSource": "The Manifest official Visit Site link; candidate URL only",
+      "website": "https://krugercorp.com/",
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 3,
+      "careersUrl": "https://rimutee.krugercorp.com/",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://krugercorp.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://krugercorp.com/quienes-somos/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://rekluti.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "LATAM",
+        "Latin America"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://rekluti.com/",
+          "snippet": " ReKluti Companies Candidates Get in touch About ReKluti Companies Candidates Get in touch 🌐 en 🌐 es Log In LATAM TALENT NETWORK Connect with the best talent in Latam Transforming opportunities, driving lives forward. Connecting organizations with the talent to g"
+        },
+        {
+          "url": "https://rekluti.com/",
+          "snippet": "uti Companies Candidates Get in touch 🌐 en 🌐 es Log In LATAM TALENT NETWORK Connect with the best talent in Latam Transforming opportunities, driving lives forward. Connecting organizations with the talent to grow and innovate, and helping thousands of profession"
+        },
+        {
+          "url": "https://rekluti.com/",
+          "snippet": "w and innovate, and helping thousands of professionals discover opportunities that drive their development in Latin America. Schedule your free meeting Join our network Years of experience 0 + Professionals placed 250 + Maximum response time 5 h Retention rate 75 % From br"
+        },
+        {
+          "url": "https://rekluti.com/",
+          "snippet": "your company's pace and needs. Most popular full-time Permanent Career Discover opportunities to join leading Latin American companies and grow your career in high-impact teams. Direct match with top companies Full process transparency Assessment centered around you Stabil"
+        },
+        {
+          "url": "https://rekluti.com/",
+          "snippet": "thrive on innovative projects, want to expand their experience, and enjoy collaborating with companies across Latin America. Onboarding in days Total flexibility Hassle-free payments and management Expanding your experience Find out more Two paths One shared goal. Select t"
+        }
+      ],
+      "officialRegionalPresenceSnippets": [],
+      "regionalPresenceCountries": [],
+      "officialFitSnippets": [],
+      "likelyFit": false,
+      "fitReviewReason": "education provider; engineering terms describe courses or instruction, not a software employer",
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": false
+    },
+    {
+      "name": "Ateliware",
+      "queryLane": "The Manifest Latin America software developers — page 3",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=3",
+      "directoryLocation": "Latin America software development listing",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "https://ateliware.com/",
+      "websiteResolutionSource": "The Manifest official Visit Site link; candidate URL only",
+      "website": "https://ateliware.com/pt-br/",
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 1,
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://ateliware.com/pt-br/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialRegionalPresenceSnippets": [],
+      "regionalPresenceCountries": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://ateliware.com/pt-br/",
+          "snippet": "Software House Sob Medida | Ateliware Pular para o conteúdo principal Pular para o rodapé Entrar em contato Serviços Inteligência Artificial Sobre Cases Blog "
+        },
+        {
+          "url": "https://ateliware.com/pt-br/",
+          "snippet": "es Blog Contato EN PT Entrar em contato Microsoft Dynamics Desenvolvimento Soluções digitais Design Ateliê de Software e IA Soluções de software e IA focadas em resolver problemas que geram e impulsionam negócios de projetos que deram certo Entrar em contato @keyframe"
+        },
+        {
+          "url": "https://ateliware.com/pt-br/",
+          "snippet": "ar em contato Microsoft Dynamics Desenvolvimento Soluções digitais Design Ateliê de Software e IA Soluções de software e IA focadas em resolver problemas que geram e impulsionam negócios de projetos que deram certo Entrar em contato @keyframes crescer { 0% { width: 0;"
+        },
+        {
+          "url": "https://ateliware.com/pt-br/",
+          "snippet": "140 milhões investidos Co-fundamos uma plataforma de gestão atuante em 150 países Acessar case Varejo Além do software, criamos todo um negócio Uma plataforma de e-commerce com mais de 100 mil lojas Acessar case Nossos cases Nossa expertise Serviços de software e IA p"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": false
+    },
+    {
+      "name": "TowerHouse Studio",
+      "queryLane": "The Manifest Latin America software developers — page 3",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=3",
+      "directoryLocation": "Latin America software development listing",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "https://www.towerhousestudio.com/",
+      "websiteResolutionSource": "The Manifest official Visit Site link; candidate URL only",
+      "website": "https://towerhousestudio.com/",
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 3,
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://towerhousestudio.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://towerhousestudio.com/about/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://towerhousestudio.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Latin America"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://towerhousestudio.com/",
+          "snippet": "ecade, we’ve teamed with U.S. companies to deliver quality web, mobile, and AI-empowered solutions right from Latin America. We combine nearshore communication, senior technical judgment, and the efficiency of modern AI-assisted development to help you deliver real busines"
+        },
+        {
+          "url": "https://towerhousestudio.com/about/",
+          "snippet": " Are TowerHouse Studio is a U.S.-incorporated product development company founded in 2013, with a distributed Latin American team serving U.S. companies. Distributed across Latin America Our Vision We harness AI technology to augment human expertise, driving speed, accurac"
+        },
+        {
+          "url": "https://towerhousestudio.com/about/",
+          "snippet": "nt company founded in 2013, with a distributed Latin American team serving U.S. companies. Distributed across Latin America Our Vision We harness AI technology to augment human expertise, driving speed, accuracy, and groundbreaking innovation. We also believe in making thi"
+        },
+        {
+          "url": "https://towerhousestudio.com/",
+          "snippet": "ecade, we’ve teamed with U.S. companies to deliver quality web, mobile, and AI-empowered solutions right from Latin America. We combine nearshore communication, senior technical judgment, and the efficiency of modern AI-assisted development to help you deliver real busines"
+        }
+      ],
+      "officialRegionalPresenceSnippets": [],
+      "regionalPresenceCountries": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://towerhousestudio.com/",
+          "snippet": "Nearshore Software Development for U.S. Companies | TowerHouse Studio Studios Work About Linkedin Instagram Facebook X YouTube &times; Studios Work About Linkedin Insta"
+        },
+        {
+          "url": "https://towerhousestudio.com/",
+          "snippet": "cebook X YouTube &times; Studios Work About Linkedin Instagram Facebook X YouTube Build, rescue, and automate software products with a nearshore team TowerHouse Studio helps U.S. teams launch focused web and mobile products, recover stalled builds, and streamline oper"
+        },
+        {
+          "url": "https://towerhousestudio.com/",
+          "snippet": "s, and streamline operations with practical AI. Discuss Your Project ↗ See Our Work WordPress • Mobile • AI • SaaS • Design Make it happen. Your next big idea, out in the world. </> Your idea. Ready for the world. Get the pieces working together. App API Data Reco"
+        },
+        {
+          "url": "https://towerhousestudio.com/",
+          "snippet": "st impressive to me about Towerhouse Studio is how they&#039;ve developed a deep understanding of not just my software needs, but also my business objectives. Without their guidance, our platform would have been a far inferior product.&#8221; Jesse Jacobs CTO Lightbox"
+        },
+        {
+          "url": "https://towerhousestudio.com/about/",
+          "snippet": "1 Product Rescue & Takeover AI Studio Work WordPress Studio About Mobile Studio Blog Design Studio Contact Us SaaS Studio © 2026 TowerHouse Studio Get Started with AI"
+        },
+        {
+          "url": "https://towerhousestudio.com/",
+          "snippet": "Nearshore Software Development for U.S. Companies | TowerHouse Studio Studios Work About Linkedin Instagram Facebook X YouTube &times; Studios Work About Linkedin Insta"
+        },
+        {
+          "url": "https://towerhousestudio.com/",
+          "snippet": "cebook X YouTube &times; Studios Work About Linkedin Instagram Facebook X YouTube Build, rescue, and automate software products with a nearshore team TowerHouse Studio helps U.S. teams launch focused web and mobile products, recover stalled builds, and streamline oper"
+        },
+        {
+          "url": "https://towerhousestudio.com/",
+          "snippet": "s, and streamline operations with practical AI. Discuss Your Project ↗ See Our Work WordPress • Mobile • AI • SaaS • Design Make it happen. Your next big idea, out in the world. </> Your idea. Ready for the world. Get the pieces working together. App API Data Reco"
+        },
+        {
+          "url": "https://towerhousestudio.com/",
+          "snippet": "st impressive to me about Towerhouse Studio is how they&#039;ve developed a deep understanding of not just my software needs, but also my business objectives. Without their guidance, our platform would have been a far inferior product.&#8221; Jesse Jacobs CTO Lightbox"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": false
+    },
+    {
+      "name": "Clarika",
+      "queryLane": "The Manifest Latin America software developers — page 3",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=3",
+      "directoryLocation": "Latin America software development listing",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "https://clarikagroup.com/",
+      "websiteResolutionSource": "The Manifest official Visit Site link; candidate URL only",
+      "website": "https://clarikagroup.com/en",
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 3,
+      "careersUrl": "https://clarikagroup.com/en/company/careers",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://clarikagroup.com/en",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://clarikagroup.com/en/engagement/dedicated-teams",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://clarikagroup.com/en/company/careers",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "LATAM"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://clarikagroup.com/en",
+          "snippet": "moter Score 0 % Consistently above industry average Years building software 0 + Since 2007 Clients 0 + Across LATAM & global markets What we build What we engineer AI systems and software designed to run inside real operations — not as experiments. Custom software "
+        },
+        {
+          "url": "https://clarikagroup.com/en",
+          "snippet": "e embed senior talent that ships, communicates, and owns outcomes from day one. 12 + Industries served across LATAM & global markets 7 REASONS Vetted engineers, ready to contribute from day one TALENT Nearshore collaboration with full time-zone alignment PROXIMITY "
+        },
+        {
+          "url": "https://clarikagroup.com/en/engagement/dedicated-teams",
+          "snippet": "mbed, deliver, and grow alongside your product — not contractors who disappear. 12 + Industries served across LATAM and global markets 6 REASONS Vetted engineers working as a cohesive team QUALITY Nearshore collaboration with real-time alignment PROXIMITY Fluent en"
+        },
+        {
+          "url": "https://clarikagroup.com/en/company/careers",
+          "snippet": "e open positions Hiring now — 7 open roles Open Positions Open Positions All roles are remote. We hire across Latam. DATA ARCHITECT / ENGINEER Senior Apply Now MARKETING ANALYST Apply Now QA AUTOMATION Apply Now FULLSTACK NODE DEVELOPER Apply Now C++ FULLSTACK DEVE"
+        }
+      ],
+      "officialRegionalPresenceSnippets": [],
+      "regionalPresenceCountries": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://clarikagroup.com/en",
+          "snippet": "Clarika — AI Systems & Software Engineering Services Services Overview AI process automation Custom software development AI conversational assistants AI data workflows Engagement Mo"
+        },
+        {
+          "url": "https://clarikagroup.com/en",
+          "snippet": "Clarika — AI Systems & Software Engineering Services Services Overview AI process automation Custom software development AI conversational assistants AI data workflows Engagement Models Engagem"
+        },
+        {
+          "url": "https://clarikagroup.com/en",
+          "snippet": "Clarika — AI Systems & Software Engineering Services Services Overview AI process automation Custom software development AI conversational assistants AI data workflows Engagement Models Engagement Models Staff Augmentation Dedicated Teams Custom Project Indu"
+        },
+        {
+          "url": "https://clarikagroup.com/en",
+          "snippet": "t es Book AI audit → Services Engagement Models Industries Company Case Studies Insights Book AI audit → AI + software engineering AI & software built for Real Operations We design and build AI systems and software that actually work — reliable, scalable, and ready fo"
+        },
+        {
+          "url": "https://clarikagroup.com/en/engagement/dedicated-teams",
+          "snippet": "Dedicated Engineering Teams | Clarika Services Services Overview AI process automation Custom software development AI conversational assistants AI data workflows Engagemen"
+        },
+        {
+          "url": "https://clarikagroup.com/en/engagement/dedicated-teams",
+          "snippet": "Dedicated Engineering Teams | Clarika Services Services Overview AI process automation Custom software development AI conversational assistants AI data workflows Engagement Models Engagement Models Staff Augmentation Dedicated Teams Custom Project Indu"
+        },
+        {
+          "url": "https://clarikagroup.com/en/engagement/dedicated-teams",
+          "snippet": "Book AI audit → Services Engagement Models Industries Company Case Studies Insights Book AI audit → Dedicated engineering teams A full engineering Team driving your Product Forward A cross-functional team fully focused on building and scaling your product. From architect"
+        },
+        {
+          "url": "https://clarikagroup.com/en/engagement/dedicated-teams",
+          "snippet": "Engagement Models Industries Company Case Studies Insights Book AI audit → Dedicated engineering teams A full engineering Team driving your Product Forward A cross-functional team fully focused on building and scaling your product. From architecture to delivery — with cl"
+        },
+        {
+          "url": "https://clarikagroup.com/en/company/careers",
+          "snippet": "Careers at Clarika | Clarika Services Services Overview AI process automation Custom software development AI conversational assistants AI data workflows Engagement Models Engagement Models Staff Augmentation Dedicated Teams Custom Project Indu"
+        },
+        {
+          "url": "https://clarikagroup.com/en/company/careers",
+          "snippet": "ts Book AI audit → Careers at Clarika Build systems that Actually Matter At Clarika, we don&#x27;t just build software. We design systems that improve how companies operate. Join a team where engineering, AI, and real-world impact come together. Engineering-Driven Rem"
+        },
+        {
+          "url": "https://clarikagroup.com/en/company/careers",
+          "snippet": "a, we don&#x27;t just build software. We design systems that improve how companies operate. Join a team where engineering, AI, and real-world impact come together. Engineering-Driven Remote-First AI-Accelerated Explore open positions Hiring now — 7 open roles Open Positi"
+        },
+        {
+          "url": "https://clarikagroup.com/en/company/careers",
+          "snippet": "s that improve how companies operate. Join a team where engineering, AI, and real-world impact come together. Engineering-Driven Remote-First AI-Accelerated Explore open positions Hiring now — 7 open roles Open Positions Open Positions All roles are remote. We hire acros"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": false
+    },
+    {
+      "name": "The App Master",
+      "queryLane": "The Manifest Latin America software developers — page 3",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=3",
+      "directoryLocation": "Latin America software development listing",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "https://www.theappmaster.com/",
+      "websiteResolutionSource": "The Manifest official Visit Site link; candidate URL only",
+      "website": "https://tamevolution.com/",
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 1,
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://tamevolution.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialRegionalPresenceSnippets": [],
+      "regionalPresenceCountries": [],
+      "officialFitSnippets": [],
+      "likelyFit": false,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": false
+    },
+    {
+      "name": "Bertoni Solutions",
+      "queryLane": "The Manifest Latin America software developers — page 3",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=3",
+      "directoryLocation": "Latin America software development listing",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "https://bertonisolutions.com/",
+      "websiteResolutionSource": "The Manifest official Visit Site link; candidate URL only",
+      "website": "https://bertonisolutions.com/",
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 1,
+      "careersUrl": "https://bertonisolutions.com/join-our-team",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://bertonisolutions.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "LATAM",
+        "Latin America"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://bertonisolutions.com/",
+          "snippet": "ind faster builds and stronger systems. Roles we nearshore Build your team with highly skilled engineers from LATAM. Industries we serve Technology built for the industries that move the world. Our tech expertise End to end technical expertise in web, mobile, cloud"
+        },
+        {
+          "url": "https://bertonisolutions.com/",
+          "snippet": "ay to scale your software team. You can recruit developers, analysts and engineers to work 100% remotely from Latin America. Ideal for filling urgent roles, handling peak demand, or increasing delivery capacity fast. Learn more about IT Staff Augmentation Services Learn mo"
+        },
+        {
+          "url": "https://bertonisolutions.com/",
+          "snippet": "Translating technology into your success Our Swiss heritage ensures top-tier precision and quality, while our Latin American expertise drives innovation, creating a unique synergy that delivers success for our clients. 0 + Projects delivered 0 + Experts in our pool 0 % Cos"
+        },
+        {
+          "url": "https://bertonisolutions.com/",
+          "snippet": "nd the right fit, skills & tech for your startup's success. IT Staff Augmentation Mar 11, 2025 Nearshoring in Latin America: why it’s ideal for tech startups Nearshoring to Latin America offers several distinct advantages for tech startups, making it an increasingly popula"
+        },
+        {
+          "url": "https://bertonisolutions.com/",
+          "snippet": "Staff Augmentation Mar 11, 2025 Nearshoring in Latin America: why it’s ideal for tech startups Nearshoring to Latin America offers several distinct advantages for tech startups, making it an increasingly popular choice. IT Staff Augmentation Mar 21, 2025 IT Staff Augmentat"
+        }
+      ],
+      "officialRegionalPresenceSnippets": [],
+      "regionalPresenceCountries": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://bertonisolutions.com/",
+          "snippet": "IT Consulting & Software Engineering | Bertoni Solutions IT Services For companies For talent Success stories More EN DE ES EN DE ES Software Engineering Solutions Software D"
+        },
+        {
+          "url": "https://bertonisolutions.com/",
+          "snippet": "IT Consulting & Software Engineering | Bertoni Solutions IT Services For companies For talent Success stories More EN DE ES EN DE ES Software Engineering Solutions Software Development P"
+        },
+        {
+          "url": "https://bertonisolutions.com/",
+          "snippet": "IT Consulting & Software Engineering | Bertoni Solutions IT Services For companies For talent Success stories More EN DE ES EN DE ES Software Engineering Solutions Software Development Process IT Staff Augmentation Ser"
+        },
+        {
+          "url": "https://bertonisolutions.com/",
+          "snippet": "e Engineering | Bertoni Solutions IT Services For companies For talent Success stories More EN DE ES EN DE ES Software Engineering Solutions Software Development Process IT Staff Augmentation Services Headhunting Services Digital Transformation Services Microsoft Azur"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": true,
+      "regionalPresenceVerified": false
+    }
+  ]
+}

@@ -8,7 +8,7 @@ import type {
 
 export type CompanyEnrichmentInput = Pick<CompanyCard, "name"> & Partial<Pick<
   CompanyCard,
-  "website" | "careersUrl" | "model" | "tracks" | "locations" | "jobs" | "discovery" | "research" | "roleEvidence" | "sourceEvidence" | "fit"
+  "website" | "careersUrl" | "model" | "tracks" | "locations" | "tags" | "jobs" | "discovery" | "research" | "roleEvidence" | "sourceEvidence" | "fit"
 >>;
 
 export type CompanyEnrichmentBatch = { batchId?: string; companies: CompanyEnrichmentInput[] };
@@ -170,6 +170,7 @@ function parseCompany(value: unknown, index: number): CompanyEnrichmentInput {
     model: (model || "unknown") as CompanyCard["model"],
     tracks: stringList(item.tracks, `companies[${index}].tracks`),
     locations: stringList(item.locations, `companies[${index}].locations`),
+    tags: stringList(item.tags, `companies[${index}].tags`, 50),
     jobs: parseJobs(item.jobs),
     discovery: parseDiscovery(item.discovery),
     research: parseResearch(item.research),

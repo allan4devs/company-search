@@ -2,8 +2,9 @@
 
 // @refresh reset
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { CompanyCard } from "@/lib/comp/catalog";
+import type { CompanyPreference } from "@/lib/comp/types";
 import type {
   CompanyDirectoryGroup,
   CompanyDirectoryMainFilter,
@@ -14,13 +15,13 @@ import type {
 } from "../hooks/company-directory-view-types";
 import { CompanyDirectoryPagination } from "./CompanyDirectoryPagination";
 import { CompanyDirectoryCard } from "./CompanyDirectoryCard";
-import { matchesCompanyCategory } from "../company-directory.helpers";
 
 type CatalogGroupResult = {
   companies: CompanyCard[];
   total: number;
   page: number;
   pageCount: number;
+  countryOptions: string[];
   categoryCounts: Record<string, number>;
   stats: CompanyDirectoryGroupSummary["stats"];
 };
@@ -29,6 +30,9 @@ export type CompanyDirectoryGroupSectionProps = {
   group: CompanyDirectoryGroup;
   filter: CompanyDirectoryMainFilter;
   keywordQuery: string;
+  latamCostaRicaFilter: boolean;
+  hideWithoutDomain: boolean;
+  country: string;
   active: boolean;
   data: CompanyDirectoryViewData["data"];
   preferences: CompanyDirectoryViewData["preferences"];
@@ -36,7 +40,13 @@ export type CompanyDirectoryGroupSectionProps = {
     key: CompanyDirectoryGroup["key"],
     summary: CompanyDirectoryGroupSummary,
   ) => void;
+  onVisibleCompaniesChange: (
+    filter: CompanyDirectoryMainFilter,
+    companies: CompanyCard[],
+  ) => void;
+  onCountryOptionsChange: (countries: string[]) => void;
   onOpenCompany: (company: CompanyCard) => void;
+  onPreferenceChange: CompanyDirectoryViewData["preferences"]["updatePreference"];
   selectedCompanyKey?: string;
 };
 
@@ -46,21 +56,27 @@ export function CompanyDirectoryGroupSection({
   group,
   filter,
   keywordQuery,
+  latamCostaRicaFilter,
+  hideWithoutDomain,
+  country,
   active,
   data,
   preferences,
   onSummary,
+  onVisibleCompaniesChange,
+  onCountryOptionsChange,
   onOpenCompany,
+  onPreferenceChange,
   selectedCompanyKey,
 }: CompanyDirectoryGroupSectionProps) {
   const [pages, setPages] = useState<
     Record<CompanyDirectoryMainFilter, number>
   >({
     all: 1,
+    new: 1,
     likes: 1,
     dislikes: 1,
     archived: 1,
-    companies: 1,
     "saved-jobs": 1,
   });
   const [resultState, setResultState] = useState<{
@@ -71,11 +87,15 @@ export function CompanyDirectoryGroupSection({
     key: string;
     error: string;
   } | null>(null);
+  const [dismissedCompanies, setDismissedCompanies] = useState<{
+    requestKey: string;
+    keys: Set<string>;
+  }>({ requestKey: "", keys: new Set() });
   const { setCompanies } = data;
   const [retryKey, setRetryKey] = useState(0);
-  const page = pages[filter];
+  const page = pages[filter] ?? 1;
   const result = resultState?.filter === filter ? resultState.result : null;
-  const queryTab = filter === "companies" ? "companies" : filter;
+  const queryTab = filter;
 
   const catalogPreferencesKey = JSON.stringify(
     Object.entries(preferences.preferences)
@@ -89,20 +109,24 @@ export function CompanyDirectoryGroupSection({
         addedJobs: preference.likedJobIds?.length ? preference.addedJobs || [] : [],
       }]),
   );
+  const catalogPreferencesRef = useRef(catalogPreferencesKey);
+  catalogPreferencesRef.current = catalogPreferencesKey;
   const requestKey = JSON.stringify([
     group.key,
     filter,
     page,
     keywordQuery,
+    latamCostaRicaFilter,
+    hideWithoutDomain,
+    country,
     retryKey,
-    catalogPreferencesKey,
   ]);
   const loading = requestState?.key !== requestKey;
   const error = requestState?.key === requestKey ? requestState.error : "";
 
   useEffect(() => {
     const controller = new AbortController();
-    const savedPreferences = Object.fromEntries(JSON.parse(catalogPreferencesKey)) as Record<string, import("@/lib/comp/types").CompanyPreference>;
+    const savedPreferences = Object.fromEntries(JSON.parse(catalogPreferencesRef.current)) as Record<string, CompanyPreference>;
     const liked = Object.entries(savedPreferences)
       .filter(([, preference]) => preference.liked)
       .map(([key]) => key);
@@ -124,6 +148,9 @@ export function CompanyDirectoryGroupSection({
         page,
         pageSize: PAGE_SIZE,
         query: keywordQuery.trim(),
+        latamCostaRicaFilter,
+        hideWithoutDomain,
+        country,
         liked,
         disliked,
         archived,
@@ -142,6 +169,13 @@ export function CompanyDirectoryGroupSection({
       .then((next) => {
         if (controller.signal.aborted) return;
         setResultState({ filter, result: next });
+        setDismissedCompanies((current) =>
+          current.requestKey === requestKey
+            ? { requestKey, keys: new Set() }
+            : current,
+        );
+        onVisibleCompaniesChange(filter, next.companies);
+        onCountryOptionsChange(next.countryOptions);
         setCompanies((current) => [
           ...current.filter(
             (company) =>
@@ -181,9 +215,13 @@ export function CompanyDirectoryGroupSection({
     onSummary,
     page,
     keywordQuery,
+    latamCostaRicaFilter,
+    hideWithoutDomain,
+    country,
     queryTab,
     requestKey,
-    catalogPreferencesKey,
+    onVisibleCompaniesChange,
+    onCountryOptionsChange,
   ]);
 
   const changePage = (nextPage: number) => {
@@ -195,17 +233,40 @@ export function CompanyDirectoryGroupSection({
       ),
     }));
   };
+  const handlePreferenceChange = async (
+    key: string,
+    change: CompanyPreference,
+    reactionType?: "like" | "dislike",
+  ) => {
+    if (reactionType) {
+      setDismissedCompanies((current) => ({
+        requestKey,
+        keys: new Set(
+          current.requestKey === requestKey ? [...current.keys, key] : [key],
+        ),
+      }));
+    }
+    const saved = await onPreferenceChange(key, change, reactionType);
+    if (!saved && reactionType) {
+      setDismissedCompanies((current) => {
+        if (current.requestKey !== requestKey) return current;
+        const keys = new Set(current.keys);
+        keys.delete(key);
+        return { requestKey, keys };
+      });
+    }
+    return saved;
+  };
   const rangeStart = result?.total ? (result.page - 1) * PAGE_SIZE + 1 : 0;
   const rangeEnd = result ? Math.min(result.page * PAGE_SIZE, result.total) : 0;
-  const visibleCompanies = result?.companies.filter((company) => {
-    const preference =
-      preferences.preferences[company.key] ||
-      company.legacyKeys
-        ?.map((key) => preferences.preferences[key])
-        .find(Boolean);
-    if (queryTab === "saved-jobs") return company.jobs.length > 0;
-    return matchesCompanyCategory(company, queryTab, preference);
-  });
+  // The API already applies the selected category, preferences, and keyword
+  // filters. Reapplying the category here loses server-only context such as
+  // the latest batch ID and can incorrectly hide valid results.
+  const visibleCompanies = result?.companies.filter(
+    (company) =>
+      dismissedCompanies.requestKey !== requestKey ||
+      !dismissedCompanies.keys.has(company.key),
+  );
 
   return (
     <section
@@ -309,7 +370,7 @@ export function CompanyDirectoryGroupSection({
                   : null
               }
               onOpenCompany={onOpenCompany}
-              onPreferenceChange={preferences.updatePreference}
+              onPreferenceChange={handlePreferenceChange}
               selected={selectedCompanyKey === company.key}
             />
           ))}

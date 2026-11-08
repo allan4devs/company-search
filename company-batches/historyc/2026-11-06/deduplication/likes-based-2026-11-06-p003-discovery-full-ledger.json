@@ -1,0 +1,2276 @@
+{
+  "cohortId": "likes-based-2026-11-06-p003-discovery",
+  "checkedOn": "2026-11-07",
+  "inputCount": 263,
+  "uniqueCount": 91,
+  "outputCount": 91,
+  "duplicateCount": 0,
+  "missingIdentityCount": 172,
+  "catalog": {
+    "source": "MongoDB + bundled files + prior batches",
+    "mongoCompanies": 1220,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 121,
+    "indexedNames": 1328,
+    "indexedDomains": 1273
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 63,
+    "topTracks": [
+      {
+        "track": "Engineering",
+        "count": 36
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Software Engineering",
+        "count": 3
+      },
+      {
+        "track": "Node.js",
+        "count": 2
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        46
+      ],
+      [
+        "direct",
+        16
+      ],
+      [
+        "unknown",
+        1
+      ]
+    ]
+  },
+  "queryLanes": [
+    {
+      "lane": "LATAM remote engineering careers",
+      "leads": 53,
+      "unique": 53,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Costa Rica employer and careers sources",
+      "leads": 20,
+      "unique": 20,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Costa Rica employer directory and careers",
+      "leads": 16,
+      "unique": 16,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Costa Rica official ATS employer roles",
+      "leads": 1,
+      "unique": 1,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "LATAM remote engineering roles",
+      "leads": 1,
+      "unique": 1,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Himalayas CR-filtered: software engineer",
+      "leads": 115,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "pause lane; switch industry or ATS source"
+    },
+    {
+      "lane": "Himalayas CR-filtered: software developer",
+      "leads": 5,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Himalayas CR-filtered: full stack engineer",
+      "leads": 7,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Himalayas CR-filtered: backend engineer",
+      "leads": 5,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Himalayas CR-filtered: frontend engineer",
+      "leads": 3,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Himalayas CR-filtered: devops engineer",
+      "leads": 17,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Himalayas CR-filtered: data engineer",
+      "leads": 20,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "pause lane; switch industry or ATS source"
+    }
+  ],
+  "entries": [
+    {
+      "company": "Kenility",
+      "domain": "kenility.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.kenility.com/careers/"
+    },
+    {
+      "company": "Olly Olly",
+      "domain": "ollyolly.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://jobs.ashbyhq.com/olly-olly/ba012649-c92f-48a4-be77-b605c40d43a3/"
+    },
+    {
+      "company": "Parser",
+      "domain": "parserdigital.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.parserdigital.com/careers"
+    },
+    {
+      "company": "Tight Line Software",
+      "domain": "tightlinesoftware.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://careers.tightlinesoftware.com/jobs/7973761-senior-front-end-engineer"
+    },
+    {
+      "company": "Wiset",
+      "domain": "wiset.io",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://wiset.io/jobs/"
+    },
+    {
+      "company": "General Staffing",
+      "domain": "generalstaffing.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.generalstaffing.com/jobs/ongoing-software-developer"
+    },
+    {
+      "company": "Amplemarket",
+      "domain": "amplemarket.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://job-boards.greenhouse.io/amplemarket/jobs/4066973101"
+    },
+    {
+      "company": "4Geeks",
+      "domain": "4geeks.io",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://4geeks.io/en/careers/software-engineer/"
+    },
+    {
+      "company": "Talentus Global",
+      "domain": "talentusglobal.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://jobs.lever.co/TalentusGlobal/9760b72b-c022-4be9-9858-10ea64edef89"
+    },
+    {
+      "company": "Provectus",
+      "domain": "provectus.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://jobs.lever.co/provectus/8f30b06c-5d05-436e-a14d-5daec89c71c2"
+    },
+    {
+      "company": "Fast Dolphin",
+      "domain": "fastdolphin.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.fastdolphin.com/vinculacionpr/vacante.php"
+    },
+    {
+      "company": "Derex Technologies",
+      "domain": "derextech.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://jobs.smartrecruiters.com/derextechnologiesinc/744000158738943-solution-architect-with-insuremo-platform"
+    },
+    {
+      "company": "Fresh Consulting",
+      "domain": "freshconsulting.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://freshconsulting.applytojob.com/apply/jobs/details/FIDNF96Cj1"
+    },
+    {
+      "company": "VML",
+      "domain": "vml.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.vml.com/careers/job/8515068002-cr-front-end-software-developer"
+    },
+    {
+      "company": "Hubstart",
+      "domain": "hubstart.io",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://hubstart.io/careers"
+    },
+    {
+      "company": "Bitlink",
+      "domain": "bitlink.com.co",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.bitlink.com.co/en/trabajo"
+    },
+    {
+      "company": "Neverfail",
+      "domain": "neverfail.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://neverfail.com/careers/"
+    },
+    {
+      "company": "Grupo Mundial",
+      "domain": "grupomundial.cr",
+      "queryLane": "Costa Rica employer and careers sources",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://grupomundial.cr/careers/"
+    },
+    {
+      "company": "Ellipsis Health",
+      "domain": "ellipsishealth.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://ellipsishealth.com/careers/backend-engineer/"
+    },
+    {
+      "company": "Radiant Technologies",
+      "domain": "radiantholdco.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://radiantholdco.com/careers/product-engineer"
+    },
+    {
+      "company": "Get Talento",
+      "domain": "gettalento.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.gettalento.com/careers"
+    },
+    {
+      "company": "Staffy",
+      "domain": "wearestaffy.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://jobs.wearestaffy.com/positions/senior-backend-engineer-java-aws-2100"
+    },
+    {
+      "company": "Akurey",
+      "domain": "akurey.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://akurey.com/careers"
+    },
+    {
+      "company": "SMarDevs",
+      "domain": "smardevs.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://smardevs.com/careers/senior-backend-developer"
+    },
+    {
+      "company": "Waverley Software",
+      "domain": "waverleysoftware.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://waverleysoftware.com/careers/"
+    },
+    {
+      "company": "nCube",
+      "domain": "ncube.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://ncube.com/career"
+    },
+    {
+      "company": "Buenos Bytes",
+      "domain": "buenos-bytes.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.buenos-bytes.com/jobs"
+    },
+    {
+      "company": "Lateral Group",
+      "domain": "lateralgroup.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://careers.lateralgroup.com/jobs/5997769-senior-frontend-engineer-latam"
+    },
+    {
+      "company": "Oceans Code Experts",
+      "domain": "oceanscode.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://oceanscode.com/careers/full-stack-net-developer-reactnative-ds-140"
+    },
+    {
+      "company": "Bridgenext",
+      "domain": "bridgenext.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://argcareers-bridgenext.icims.com/jobs/11098/backend---platform-engineer/job?in_iframe=1"
+    },
+    {
+      "company": "Etleap",
+      "domain": "etleap.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www-old.etleap.com/careers/software-engineer-integrations/"
+    },
+    {
+      "company": "Devsu",
+      "domain": "devsu.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://apply.workable.com/devsu/"
+    },
+    {
+      "company": "Amalga",
+      "domain": "amalgagroup.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.amalgagroup.com/careersv1"
+    },
+    {
+      "company": "RiverMeadow",
+      "domain": "rivermeadow.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.rivermeadow.com/careers"
+    },
+    {
+      "company": "Rite Digital",
+      "domain": "rite.digital",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://rite.digital/careers/"
+    },
+    {
+      "company": "Luxury Presence",
+      "domain": "luxurypresence.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://jobs.lever.co/luxurypresence?location=Latin+America"
+    },
+    {
+      "company": "Designli",
+      "domain": "designli.co",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://designli.co/careers"
+    },
+    {
+      "company": "TD SYNNEX",
+      "domain": "tdsynnex.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://careers.tdsynnex.com/us/en/job/TSQTSBUSR49839EXTERNALENUS/Senior-Infrastructure-Systems-Engineer"
+    },
+    {
+      "company": "GBM",
+      "domain": "gbm.net",
+      "queryLane": "Costa Rica employer and careers sources",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://gbmcostaricacompanyid3101003252.applytojob.com/apply/sfii32Ls8q/Desarrolladora-Full-Stack-NET-Backend"
+    },
+    {
+      "company": "Pearl Talent",
+      "domain": "pearltalent.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://apply.workable.com/pearltalent/j/D3909364ED/apply/"
+    },
+    {
+      "company": "Arenalsoft",
+      "domain": "arenalsoft.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.arenalsoft.com/"
+    },
+    {
+      "company": "LTIMindtree",
+      "domain": "ltimindtree.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.ltimindtree.com/careers/"
+    },
+    {
+      "company": "Lanshore",
+      "domain": "lanshore.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://jobs.smartrecruiters.com/Lanshore/743999805781127-front-end-developer-100-wfh"
+    },
+    {
+      "company": "MasGlobal",
+      "domain": "masglobal.co",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://masglobal.co/careers"
+    },
+    {
+      "company": "Leanware",
+      "domain": "leanware.co",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://leanware.co/careers"
+    },
+    {
+      "company": "CodigoDelSur",
+      "domain": "codigodelsur.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.codigodelsur.com/jobs"
+    },
+    {
+      "company": "Xmartlabs",
+      "domain": "xmartlabs.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://xmartlabs.com/careers"
+    },
+    {
+      "company": "Perform",
+      "domain": "perform.co",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://perform.co/careers"
+    },
+    {
+      "company": "Hakkoda",
+      "domain": "hakkoda.io",
+      "queryLane": "Costa Rica employer and careers sources",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://hakkoda.io/careers/"
+    },
+    {
+      "company": "Parrolabs",
+      "domain": "parrolabs.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.parrolabs.com/careers"
+    },
+    {
+      "company": "NativApps",
+      "domain": "nativapps.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://nativapps.com/carreras/"
+    },
+    {
+      "company": "SOIN",
+      "domain": "soin.co.cr",
+      "queryLane": "Costa Rica employer and careers sources",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.soin.co.cr/careers/junior-software-developer-java"
+    },
+    {
+      "company": "Grupo Prides",
+      "domain": "grupoprides.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.grupoprides.com"
+    },
+    {
+      "company": "Proximity CR",
+      "domain": "proximitycr.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://proximitycr.com/careers"
+    },
+    {
+      "company": "Codieshub",
+      "domain": "codieshub.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://codieshub.com/careers/python-engineer"
+    },
+    {
+      "company": "My VA Support",
+      "domain": "myvasupport.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://myvasupport.zohorecruit.com/jobs/Careers/671760000011805500/"
+    },
+    {
+      "company": "Contably",
+      "domain": "contably.co",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://contably.co/careers"
+    },
+    {
+      "company": "Purple Hiring",
+      "domain": "gowithpurple.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.gowithpurple.com/careers"
+    },
+    {
+      "company": "Scio",
+      "domain": "sciodev.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://careers.sciodev.com/"
+    },
+    {
+      "company": "Greenlight Consulting",
+      "domain": "greenlightconsulting.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://job-boards.greenhouse.io/greenlightconsulting/jobs/5207112008"
+    },
+    {
+      "company": "Motivus",
+      "domain": "motivus.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://motivus.com/careers/node-js-developer/"
+    },
+    {
+      "company": "Lago",
+      "domain": "getlago.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://apply.workable.com/lago-1/j/5939A9FF30/apply"
+    },
+    {
+      "company": "Kitrum",
+      "domain": "kitrum.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://kitrum.com/careers/"
+    },
+    {
+      "company": "Talent2Win",
+      "domain": "talent2win.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://jobs.lever.co/talent-2-win/ae93e720-0f0f-4ba4-94e1-8a13d926584d"
+    },
+    {
+      "company": "Infotech CR",
+      "domain": "cr-infotech.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.cr-infotech.com/careers.html"
+    },
+    {
+      "company": "dotdigital",
+      "domain": "dotdigital.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://careers.dotdigital.com/jobs/8513755-full-stack-engineer-contractor"
+    },
+    {
+      "company": "Bugcrowd",
+      "domain": "bugcrowd.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://job-boards.greenhouse.io/bugcrowd/jobs/8202018"
+    },
+    {
+      "company": "Atelier",
+      "domain": "atelier-app.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.atelier-app.com/carreras"
+    },
+    {
+      "company": "Polanov Tech",
+      "domain": "polanovtech.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://polanovtech.com/careers"
+    },
+    {
+      "company": "Cobre",
+      "domain": "cobre.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://job-boards.greenhouse.io/cobre/jobs/4009743009"
+    },
+    {
+      "company": "Traackr",
+      "domain": "traackr.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://jobs.lever.co/traackr/fc789f3d-6ef6-44ee-bd3d-c7799e8069b2"
+    },
+    {
+      "company": "Sonnet Code",
+      "domain": "sonnetcode.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sonnetcode.com/careers"
+    },
+    {
+      "company": "SMASH",
+      "domain": "smashcr.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://smashcr.com/become-a-smasher"
+    },
+    {
+      "company": "ActiveCampaign",
+      "domain": "activecampaign.com",
+      "queryLane": "Costa Rica employer directory and careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.activecampaign.com/about/careers"
+    },
+    {
+      "company": "Datasite",
+      "domain": "datasite.com",
+      "queryLane": "Costa Rica employer directory and careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.datasite.com/en/company/careers"
+    },
+    {
+      "company": "Netlify",
+      "domain": "netlify.com",
+      "queryLane": "Costa Rica employer directory and careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.netlify.com/careers/"
+    },
+    {
+      "company": "OfferFit",
+      "domain": "offerfit.ai",
+      "queryLane": "Costa Rica employer directory and careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.offerfit.ai/careers"
+    },
+    {
+      "company": "OfferUp",
+      "domain": "offerup.com",
+      "queryLane": "Costa Rica employer directory and careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://about.offerup.com/careers/engineering/"
+    },
+    {
+      "company": "Qventus",
+      "domain": "qventus.com",
+      "queryLane": "Costa Rica employer directory and careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://qventus.com/careers/"
+    },
+    {
+      "company": "SchoolMint",
+      "domain": "schoolmint.com",
+      "queryLane": "Costa Rica employer directory and careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://schoolmint.com/careers/"
+    },
+    {
+      "company": "StreamYard",
+      "domain": "streamyard.com",
+      "queryLane": "Costa Rica employer directory and careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://boards.greenhouse.io/streamyard"
+    },
+    {
+      "company": "Workramp",
+      "domain": "workramp.com",
+      "queryLane": "Costa Rica employer directory and careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://jobs.lever.co/workramp"
+    },
+    {
+      "company": "Yalo",
+      "domain": "yalo.com",
+      "queryLane": "Costa Rica employer directory and careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.yalo.com/careers"
+    },
+    {
+      "company": "Flatirons",
+      "domain": "flatirons.com",
+      "queryLane": "Costa Rica employer directory and careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://flatirons.com/careers"
+    },
+    {
+      "company": "Outliant",
+      "domain": "outliant.com",
+      "queryLane": "Costa Rica employer directory and careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://outliant.com/careers/"
+    },
+    {
+      "company": "Puzzle",
+      "domain": "puzzle.tech",
+      "queryLane": "Costa Rica employer directory and careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://puzzle.tech/careers/"
+    },
+    {
+      "company": "Tech9",
+      "domain": "tech9.com",
+      "queryLane": "Costa Rica employer directory and careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://tech9.com/careers/"
+    },
+    {
+      "company": "World Wide Technology",
+      "domain": "wwt.com",
+      "queryLane": "Costa Rica employer directory and careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.wwt.com/careers"
+    },
+    {
+      "company": "Interfaz",
+      "domain": "interfaz.io",
+      "queryLane": "Costa Rica employer directory and careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://interfaz.io/careers/"
+    },
+    {
+      "company": "Hangar Worldwide",
+      "domain": "hangar.com",
+      "queryLane": "Costa Rica official ATS employer roles",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://hangar.com/careers"
+    },
+    {
+      "company": "Workana",
+      "domain": "workana.com",
+      "queryLane": "LATAM remote engineering roles",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.workana.com/about/careers"
+    },
+    {
+      "company": "R2",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/r2/jobs/software-engineer-manager-latam-only?utm_source=api"
+    },
+    {
+      "company": "GBS Group",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/gbs-group/jobs/senior-software-engineer-5716573076?utm_source=api"
+    },
+    {
+      "company": "Rumor Avenue",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/rumor-avenue/jobs/senior-software-engineer-839869926?utm_source=api"
+    },
+    {
+      "company": "Alpaca",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/alpaca/jobs/senior-software-engineer-agent-developer-platform?utm_source=api"
+    },
+    {
+      "company": "Atomic HR",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/atomic-hr/jobs/senior-software-engineer-storage-platform-remote?utm_source=api"
+    },
+    {
+      "company": "MetalBear",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/metalbear/jobs/backend-software-engineer-rust-fully-remote-3532790717?utm_source=api"
+    },
+    {
+      "company": "CoLab Software",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/colab-software/jobs/have-a-mechanical-engineering-background-let-s-connect?utm_source=api"
+    },
+    {
+      "company": "Endless Access",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/endless-access/jobs/game-engineer-remote-contract-to-hire-latin-america-1184471052?utm_source=api"
+    },
+    {
+      "company": "Xpert Development",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/xpert-development/jobs/middle-level-software-engineer-latam?utm_source=api"
+    },
+    {
+      "company": "AccelOne",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/accelone/jobs/staff-software-engineer?utm_source=api"
+    },
+    {
+      "company": "SpryPoint",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/sprypoint/jobs/senior-sdet-software-development-engineer-in-test?utm_source=api"
+    },
+    {
+      "company": "Cirrus Data Solutions",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/cirrus-data-solutions/jobs/software-engineer-go-5270445004?utm_source=api"
+    },
+    {
+      "company": "MagmaLabs",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/magmalabs/jobs/senior-software-engineer-reactjs?utm_source=api"
+    },
+    {
+      "company": "Infoya",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/infoya/jobs/software-development-engineer-in-test?utm_source=api"
+    },
+    {
+      "company": "OPENLANE",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/openlane/jobs/sr-software-engineer-c-net?utm_source=api"
+    },
+    {
+      "company": "GeekyDrop",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/geekydrop/jobs/software-engineer-full-stack-latam-5694512552?utm_source=api"
+    },
+    {
+      "company": "Latino Legends",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/latino-legends/jobs/full-stack-software-engineer-net-c-react?utm_source=api"
+    },
+    {
+      "company": "Stacklok",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/stacklok/jobs/sr-software-engineer-stacklok-enterprise?utm_source=api"
+    },
+    {
+      "company": "Caliza",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/caliza/jobs/senior-software-engineer-front-end-dashboard?utm_source=api"
+    },
+    {
+      "company": "Monarch Money",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/monarch-money/jobs/lead-software-engineer-mobile-react-native?utm_source=api"
+    },
+    {
+      "company": "Nebius",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/nebius/jobs/senior-backend-software-engineer-observability?utm_source=api"
+    },
+    {
+      "company": "NetForemost, Inc",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/netforemost-inc/jobs/software-engineer-flutter?utm_source=api"
+    },
+    {
+      "company": "Lifted (an Upwork Company)",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/lifted-an-upwork-company/jobs/106-backend-software-engineer-java-kotlin-aws-graphql?utm_source=api"
+    },
+    {
+      "company": "Venon Solutions",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/venon-solutions/jobs/1016-senior-software-developer?utm_source=api"
+    },
+    {
+      "company": "ScaleOps",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/scaleops/jobs/sales-engineer-latam?utm_source=api"
+    },
+    {
+      "company": "Cobalto Talent",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/cobalto-talent/jobs/01_full-stack-software-developer-ai-enabled?utm_source=api"
+    },
+    {
+      "company": "AdQuick",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/adquick/jobs/senior-software-engineer-full-stack-6952190930?utm_source=api"
+    },
+    {
+      "company": "TheHiveCareers",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/thehivecareers/jobs/senior-network-analyst-network-engineer?utm_source=api"
+    },
+    {
+      "company": "CXT Software",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/cxt-software/jobs/saasops-engineer-80-000-year-usd-cxt-software-6504572696?utm_source=api"
+    },
+    {
+      "company": "Accelerant",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/accelerant/jobs/ai-platform-engineer-global?utm_source=api"
+    },
+    {
+      "company": "Prometeo Talent",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/prometeo-talent/jobs/qa-automation-engineer-100-remote-latam?utm_source=api"
+    },
+    {
+      "company": "blueworks AG",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/blueworks-ag/jobs/663-backend-ai-engineers?utm_source=api"
+    },
+    {
+      "company": "Allshore Talent",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/allshore-talent/jobs/forward-deployed-engineer-creative-ai-100-remote?utm_source=api"
+    },
+    {
+      "company": "Laylo",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/laylo/jobs/full-stack-engineer?utm_source=api"
+    },
+    {
+      "company": "phData",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/phdata/jobs/sr-applied-ai-engineer?utm_source=api"
+    },
+    {
+      "company": "Halon",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/halon/jobs/sr-pipeline-engineer-8129274872?utm_source=api"
+    },
+    {
+      "company": "Combine Global Recruitment",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/combine-global-recruitment/jobs/founding-engineer?utm_source=api"
+    },
+    {
+      "company": "Fortinet",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/fortinet/jobs/systems-engineer-9098204008?utm_source=api"
+    },
+    {
+      "company": "Nearmap",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/nearmap/jobs/senior-quality-assurance-engineer?utm_source=api"
+    },
+    {
+      "company": "Ready",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/joinready/jobs/data-engineer-chile?utm_source=api"
+    },
+    {
+      "company": "Startale",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/startale/jobs/senior-devops-infrastructure-engineer-americas-us-time-zones?utm_source=api"
+    },
+    {
+      "company": "Supermove",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/supermove/jobs/ai-forward-deployed-engineer?utm_source=api"
+    },
+    {
+      "company": "AIT",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/aitt/jobs/ai-engineer-part-time-agentes-de-ia-automatizacion?utm_source=api"
+    },
+    {
+      "company": "Lyzr AI",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/lyzr-ai/jobs/full-stack-engineer-agentic-ai-north-america?utm_source=api"
+    },
+    {
+      "company": "Somnio Software",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/somnio-software/jobs/go-to-market-engineer?utm_source=api"
+    },
+    {
+      "company": "My VA Support, Inc.",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/my-va-support-inc/jobs/software-developer-mobile-web?utm_source=api"
+    },
+    {
+      "company": "OpsBrasil Serviços Cloud LTDA",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/opsbrasil-servicos-cloud-ltda/jobs/sr-software-developer-application-migration-modernization-102-08seng-01?utm_source=api"
+    },
+    {
+      "company": "OneOcean",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/oneocean/jobs/technical-services-engineer?utm_source=api"
+    },
+    {
+      "company": "KIS Solutions",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/kis-solutions/jobs/product-engineer-intern?utm_source=api"
+    },
+    {
+      "company": "iForce Connect",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/iforce-connect/jobs/engineering-manager-python?utm_source=api"
+    },
+    {
+      "company": "TalentCross",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/talentcross/jobs/0719dp-330ziv-sr-sofware-engineer?utm_source=api"
+    },
+    {
+      "company": "Paralucent",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/paralucent/jobs/software-developer-net-sharepoint-pl-828-909450317?utm_source=api"
+    },
+    {
+      "company": "Harris Global Business Services Inc.",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/harris-global-business-services-inc/jobs/ai-ml-engineer?utm_source=api"
+    },
+    {
+      "company": "ITMates",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/itmates/jobs/ai-engineer-llm-applications-us-startup-remote-latam?utm_source=api"
+    },
+    {
+      "company": "Makai Digital",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/makai-digital/jobs/senior-qa-engineer?utm_source=api"
+    },
+    {
+      "company": "LURECRUITER",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/lurecruiter/jobs/sr-product-engineer-python-react?utm_source=api"
+    },
+    {
+      "company": "Talent Booster Costa Rica",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/talent-booster-costa-rica/jobs/desarrolladores-de-software-oracle-middle-1391748462?utm_source=api"
+    },
+    {
+      "company": "Urban Ridge Supplies",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/urban-ridge-supplies/jobs/staff-forward-deployed-engineer?utm_source=api"
+    },
+    {
+      "company": "Lumivero",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/lumivero/jobs/devops-engineer?utm_source=api"
+    },
+    {
+      "company": "Streamkap",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/streamkap/jobs/senior-streaming-engineer?utm_source=api"
+    },
+    {
+      "company": "Onfleet",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/onfleet/jobs/senior-sdet-agentic-quality?utm_source=api"
+    },
+    {
+      "company": "Asset Bridge",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/asset-bridge/jobs/web3-engineer-contract-role?utm_source=api"
+    },
+    {
+      "company": "Planful",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/planful/jobs/senior-forward-deployed-engineer?utm_source=api"
+    },
+    {
+      "company": "HumanSignal",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/humansignal/jobs/support-engineer?utm_source=api"
+    },
+    {
+      "company": "Urrly",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/urrly/jobs/ai-automation-engineer-remote-latam-philippines?utm_source=api"
+    },
+    {
+      "company": "Lygos",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/lygos/jobs/founding-engineer?utm_source=api"
+    },
+    {
+      "company": "OPSWAT",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/opswat/jobs/full-stack-engineer?utm_source=api"
+    },
+    {
+      "company": "DoiT International",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/doit-international/jobs/analytics-engineer?utm_source=api"
+    },
+    {
+      "company": "Cloudnonic Corp",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/cloudnonic-corp/jobs/semi-senior-qa-engineer-manual-automation?utm_source=api"
+    },
+    {
+      "company": "Oowlish Technology",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/oowlish-technology/jobs/senior-video-streaming-real-time-media-engineer?utm_source=api"
+    },
+    {
+      "company": "Checkmarx",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/checkmarx/jobs/professional-services-engineer?utm_source=api"
+    },
+    {
+      "company": "Turno",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/turno/jobs/senior-full-stack-engineer?utm_source=api"
+    },
+    {
+      "company": "DOZR",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/dozr/jobs/growth-engineer-martech?utm_source=api"
+    },
+    {
+      "company": "TransPerfect",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/transperfect/jobs/digital-analytics-engineer?utm_source=api"
+    },
+    {
+      "company": "Fractal River",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/fractal-river/jobs/data-engineer-remote-latin-america?utm_source=api"
+    },
+    {
+      "company": "AltScore",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/altscore/jobs/delivery-engineer?utm_source=api"
+    },
+    {
+      "company": "TripleTen",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/tripleten/jobs/ai-systems-engineering-expert-2405129793?utm_source=api"
+    },
+    {
+      "company": "A5 Talent Finders",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/a5-talent-finders/jobs/backend-engineer-latam-6204533411?utm_source=api"
+    },
+    {
+      "company": "AIDA Recruitment",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/aida-recruitment/jobs/senior-integration-engineer-boomi?utm_source=api"
+    },
+    {
+      "company": "Tracklings",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/tracklings/jobs/remote-full-stack-django-react-developer-non-us-non-eu-position-fully-remote-512882290?utm_source=api"
+    },
+    {
+      "company": "Marathon Talent",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/marathontalent/jobs/qa-engineering-lead?utm_source=api"
+    },
+    {
+      "company": "Colibricode",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/colibricode/jobs/sr-ruby-on-rails-backend-developer?utm_source=api"
+    },
+    {
+      "company": "Blackfluo.ai",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/blackfluo-ai/jobs/product-engineer-full-remote-2210077266?utm_source=api"
+    },
+    {
+      "company": "thinkbridge",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/thinkbridge/jobs/senior-full-stack-engineer?utm_source=api"
+    },
+    {
+      "company": "Valce Talent Solutions",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/valce-talent-solutions/jobs/senior-android-tv-fire-tv-engineer?utm_source=api"
+    },
+    {
+      "company": "AOA",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/aoa/jobs/senior-frontend-engineer-react-latam?utm_source=api"
+    },
+    {
+      "company": "Gbitcorp",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/gbitcorp/jobs/senior-qa-automation-engineer?utm_source=api"
+    },
+    {
+      "company": "Upgrade",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/upgrade/jobs/senior-qa-automation-engineer-product-latam?utm_source=api"
+    },
+    {
+      "company": "Agentic Dream",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/agentic-dream/jobs/senior-qa-automation-engineer-remote-latam-only?utm_source=api"
+    },
+    {
+      "company": "VT Enterprise",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/vt-enterprise/jobs/freelance-python-developer-remote-south-latin-america?utm_source=api"
+    },
+    {
+      "company": "Nikola Digital Lab",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/nikola-digital-lab/jobs/senior-front-end-engineer-aem?utm_source=api"
+    },
+    {
+      "company": "Vana Foundation",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/vana-foundation/jobs/developer-advocate-wizard?utm_source=api"
+    },
+    {
+      "company": "IDT Corporation",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/idt-corporation/jobs/senior-qa-automation-engineer?utm_source=api"
+    },
+    {
+      "company": "Appsilon",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/appsilon/jobs/platform-architect-p4-p5?utm_source=api"
+    },
+    {
+      "company": "iSolved",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/isolved-ai/jobs/senior-java-developer?utm_source=api"
+    },
+    {
+      "company": "Perry Street Software",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/perry-street-software/jobs/senior-ruby-developer-eu-latam-na?utm_source=api"
+    },
+    {
+      "company": "Toplent",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/toplent/jobs/technical-support-expert?utm_source=api"
+    },
+    {
+      "company": "Alcor",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/alcor/jobs/middle-full-stack-developer?utm_source=api"
+    },
+    {
+      "company": "Bizmoni Corp.",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/bizmoni-corp/jobs/qa-analyst-security-testing?utm_source=api"
+    },
+    {
+      "company": "Kinsei Talent",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/kinsei-talent/jobs/testing-architecture-specialist?utm_source=api"
+    },
+    {
+      "company": "Vergo",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/vergo/jobs/cloud-developer-remote-latam?utm_source=api"
+    },
+    {
+      "company": "Frasal",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/frasal/jobs/join-our-team?utm_source=api"
+    },
+    {
+      "company": "Astra Group",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/astra-group/jobs/senior-backend-developer?utm_source=api"
+    },
+    {
+      "company": "Quid Solutions",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/quid-solutions/jobs/ingeniero-de-automatizacion-e-ia-remoto-latam?utm_source=api"
+    },
+    {
+      "company": "Vaero",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/vaero/jobs/full-stack-developer?utm_source=api"
+    },
+    {
+      "company": "TRS",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/trs/jobs/developer-backend?utm_source=api"
+    },
+    {
+      "company": "World Business Lenders",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/world-business-lenders/jobs/remote-application-development-analyst?utm_source=api"
+    },
+    {
+      "company": "knowmad mood",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/knowmad-mood/jobs/fullstack-developer-react-python?utm_source=api"
+    },
+    {
+      "company": "MindTech",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/mindtech/jobs/desarrollador-net-jr-100-remoto?utm_source=api"
+    },
+    {
+      "company": "Tarmac",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/tarmac/jobs/uy-net-developer?utm_source=api"
+    },
+    {
+      "company": "Dura Digital",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/dura-digital/jobs/full-stack-developer-remote?utm_source=api"
+    },
+    {
+      "company": "Edwards Lifesciences",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/edwards-lifesciences/jobs/sr-developer-servicenow-hrsd?utm_source=api"
+    },
+    {
+      "company": "Stateside",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/stateside/jobs/senior-mobile-developer?utm_source=api"
+    },
+    {
+      "company": "Selection Book",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/selection-book/jobs/backend-developer-junior-semi-senior?utm_source=api"
+    },
+    {
+      "company": "Kastech Software Solutions Group",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/kastech-software-solutions-group/jobs/sap-abap-developer?utm_source=api"
+    },
+    {
+      "company": "Irth",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software developer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/irth/jobs/business-development-representative?utm_source=api"
+    },
+    {
+      "company": "NTD Software",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software developer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/ntd-software/jobs/senior-wordpress-woocommerce-developer?utm_source=api"
+    },
+    {
+      "company": "Fresche Solutions Inc",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software developer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/fresche-solutions-inc/jobs/senior-rpg-programmer-analyst-remote-fs465?utm_source=api"
+    },
+    {
+      "company": "SQDM",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software developer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/sqdm/jobs/especialista-en-creatio-con-habilidades-en-c-net?utm_source=api"
+    },
+    {
+      "company": "Lisinski Law Firm",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software developer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/lisinski-law-firm/jobs/salesforce-architect?utm_source=api"
+    },
+    {
+      "company": "Tiny",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: full stack engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/tiny/jobs/full-stack-javascript-engineer-hfc?utm_source=api"
+    },
+    {
+      "company": "Elevate A/B Testing",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: full stack engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/elevate-a-b-testing/jobs/senior-full-stack-engineer?utm_source=api"
+    },
+    {
+      "company": "VELAIO",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: full stack engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/velaio/jobs/senior-net-full-stack-developer-latam?utm_source=api"
+    },
+    {
+      "company": "Origin",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: full stack engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/originhq/jobs/full-stack-drupal-developer-contractor?utm_source=api"
+    },
+    {
+      "company": "Remote Talent LATAM",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: full stack engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/remote-talent-latam/jobs/full-stack-developer-remote-latam-only-90007?utm_source=api"
+    },
+    {
+      "company": "Condor Agency",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: full stack engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/condor-agency/jobs/web-developer-6483984252?utm_source=api"
+    },
+    {
+      "company": "Heinsohn Business Technology",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: full stack engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/heinsohn-business-technology/jobs/senior-drupal-developer?utm_source=api"
+    },
+    {
+      "company": "Techstars",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: backend engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/techstars/jobs/backend-engineer?utm_source=api"
+    },
+    {
+      "company": "Maxana",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: backend engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/maxana/jobs/backend-engineer?utm_source=api"
+    },
+    {
+      "company": "LatamRecruit",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: backend engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/latamrecruit/jobs/senior-backend-engineer?utm_source=api"
+    },
+    {
+      "company": "Binance",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: backend engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/binance/jobs/binance-accelerator-program-applied-ai-application-engineer-4805818739?utm_source=api"
+    },
+    {
+      "company": "SqlDBM",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: backend engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/sqldbm/jobs/senior-backend-engineer-ai-native?utm_source=api"
+    },
+    {
+      "company": "Consensys",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: frontend engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/consensys-io/jobs/senior-design-engineer-metamask?utm_source=api"
+    },
+    {
+      "company": "Atmosera",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: frontend engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/atmosera/jobs/front-end-developer?utm_source=api"
+    },
+    {
+      "company": "Atom Soluciones",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: frontend engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/atom-soluciones/jobs/especialista-tecnico-en-cms?utm_source=api"
+    },
+    {
+      "company": "Cartography Biosciences",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/cartography-biosciences/jobs/devops-engineer-cloud-infrastructure-scientific-computing-remote-americas?utm_source=api"
+    },
+    {
+      "company": "Sureify",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/sureify/jobs/senior-devops-engineer?utm_source=api"
+    },
+    {
+      "company": "The Agile Monkeys",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/the-agile-monkeys/jobs/senior-devops-engineer?utm_source=api"
+    },
+    {
+      "company": "DEUNA",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/deuna/jobs/devops-engineer?utm_source=api"
+    },
+    {
+      "company": "Openvale Group",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/openvale-group/jobs/data-engineer-sr-associate-latam-contract?utm_source=api"
+    },
+    {
+      "company": "Ex Parte",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/ex-parte/jobs/lead-data-engineer-3167254993?utm_source=api"
+    },
+    {
+      "company": "Talan",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/talan/jobs/devsecops-engineer-2562427385?utm_source=api"
+    },
+    {
+      "company": "Gradle",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/gradle/jobs/senior-site-reliability-engineer?utm_source=api"
+    },
+    {
+      "company": "Global Rabbits",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/global-rabbits/jobs/technical-engineer-amazon-connect-and-cloudwatch?utm_source=api"
+    },
+    {
+      "company": "Levi Strauss & Co.",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/levi-strauss-co/jobs/senior-engineer-observability-engineering?utm_source=api"
+    },
+    {
+      "company": "Chainstack",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/chainstack/jobs/infrastructure-engineer-latam-time-zone?utm_source=api"
+    },
+    {
+      "company": "Insight Softmax Consulting",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/insight-softmax-consulting/jobs/kubernetes-platform-engineer?utm_source=api"
+    },
+    {
+      "company": "TechBiz Global",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/techbiz-global/jobs/infrastructure-verification-engineer?utm_source=api"
+    },
+    {
+      "company": "Jobs for Humanity",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/jobs-for-humanity/jobs/systems-engineer-new-college-grad-2026-latam-2652132945?utm_source=api"
+    },
+    {
+      "company": "Improvado",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/improvado/jobs/revops-engineer-7366253345?utm_source=api"
+    },
+    {
+      "company": "Looi Consulting",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/looi-consulting/jobs/senior-database-administrator?utm_source=api"
+    },
+    {
+      "company": "Pearster",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/pearster/jobs/sr-sysadmin-remote-latam-4703021245?utm_source=api"
+    },
+    {
+      "company": "OneClick Data, Inc.",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: data engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/oneclick-data-inc/jobs/senior-data-analytics-engineer?utm_source=api"
+    },
+    {
+      "company": "Massive Rocket",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: data engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/massive-rocket/jobs/lead-data-engineer?utm_source=api"
+    },
+    {
+      "company": "Metabase",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: data engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/metabase/jobs/analytics-engineer-8843525983?utm_source=api"
+    },
+    {
+      "company": "Rev Star",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: data engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/rev-star/jobs/databricks-forward-deployed-engineer?utm_source=api"
+    },
+    {
+      "company": "OPTION",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: data engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/option/jobs/data-engineer?utm_source=api"
+    },
+    {
+      "company": "Clera",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: data engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/clera/jobs/senior-data-engineer-latam?utm_source=api"
+    },
+    {
+      "company": "Tenstorrent",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: data engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/tenstorrent/jobs/datacenter-agentic-ai-workload-performance-optimization-engineer?utm_source=api"
+    },
+    {
+      "company": "HireBoost",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: data engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/hireboost/jobs/sales-engineer-founding?utm_source=api"
+    },
+    {
+      "company": "Particle41",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: data engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/particle41/jobs/jd-edwards-data-erp-consultant-5877429974?utm_source=api"
+    },
+    {
+      "company": "Summa Linguae Technologies",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: data engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/summalinguae/jobs/quality-lead-loc-and-data-ai?utm_source=api"
+    },
+    {
+      "company": "HYCU, Inc.",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: data engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/hycu-inc/jobs/customer-success-engineer-2638598276?utm_source=api"
+    },
+    {
+      "company": "Cyera",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: data engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/cyera-com/jobs/senior-customer-success-engineer-southeast?utm_source=api"
+    },
+    {
+      "company": "Aerospike",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: data engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/aerospike/jobs/solutions-engineer-london?utm_source=api"
+    },
+    {
+      "company": "Atlantic Talent Services",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: data engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/atlantic-talent-services/jobs/network-infrastructure-engineer?utm_source=api"
+    },
+    {
+      "company": "Vana",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: data engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/vana-org/jobs/analista-de-inteligencia-de-negocios-l2?utm_source=api"
+    },
+    {
+      "company": "Hubs",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: data engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/hubs-is/jobs/applied-ai-product-associate-technical?utm_source=api"
+    },
+    {
+      "company": "Coders Connect",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: data engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/coders-connect/jobs/senior-salesforce-developer?utm_source=api"
+    },
+    {
+      "company": "AirDNA",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: data engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/airdna/jobs/product-support-specialist-adapt-latam-caribbean?utm_source=api"
+    },
+    {
+      "company": "Welo Global",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: data engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/welo-global/jobs/english-to-armenian-review-lead-for-ui-marketing-product-content?utm_source=api"
+    },
+    {
+      "company": "Banco Plata, S.A., Institución de Banca Múltiple",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: data engineer",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://himalayas.app/companies/banco-plata-s-a-institucion-de-banca-multiple/jobs/principal-research-scientist-risk?utm_source=api"
+    }
+  ]
+}

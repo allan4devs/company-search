@@ -1,0 +1,80 @@
+{
+  "cohortId": "likes-based-2026-11-07-p006",
+  "checkedOn": "2026-11-07",
+  "excludeNames": [
+    "Componentes El Orbe",
+    "Coral",
+    "Ecija",
+    "Fundación Omar Dengo",
+    "Growth Hackers",
+    "Grupo Más",
+    "Grupo T&#038;TA",
+    "dLocal",
+    "Cinde",
+    "Bill Goslyn",
+    "Nóvaq",
+    "Orcase",
+    "ISM Services",
+    "TIQAL S.A.S.",
+    "Schneider Electric Centroamérica LTDA",
+    "OneScreen Solutions"
+  ],
+  "includeNames": [
+    "Aura Interactiva",
+    "Equifax Inc.",
+    "Globalex",
+    "Prosoft"
+  ],
+  "overrides": {
+    "Aura Interactiva": {
+      "website": "https://www.shiftelearning.com/",
+      "careersUrl": "",
+      "model": "direct",
+      "tracks": ["Software Engineering", "AI / Data"],
+      "locations": ["Costa Rica (corporate headquarters; verify job eligibility)"],
+      "fitReason": "Official pages describe an e-learning software product and a San José headquarters; verify engineering openings and job eligibility.",
+      "evidenceUrls": [
+        "https://www.shiftelearning.com/es/about",
+        "https://www.shiftelearning.com/lrs-contact-us"
+      ]
+    },
+    "Equifax Inc.": {
+      "website": "https://www.equifax.co.cr/",
+      "careersUrl": "https://careers.equifax.com/es/ubicaciones/costa-rica/",
+      "model": "direct",
+      "tracks": ["Software Engineering", "Data & Analytics", "Security"],
+      "locations": ["Costa Rica (office and employer careers board; verify each role location)"],
+      "fitReason": "Official careers pages list Costa Rica openings and a technology team; confirm current engineering roles and each posting's location.",
+      "evidenceUrls": [
+        "https://www.equifax.co.cr/",
+        "https://careers.equifax.com/es/ubicaciones/costa-rica/",
+        "https://careers.equifax.com/en/teams/technology/"
+      ]
+    },
+    "Globalex": {
+      "website": "https://www.globalex.cr/",
+      "careersUrl": "",
+      "model": "direct",
+      "tracks": ["Software Engineering", "AI / Data"],
+      "locations": ["Costa Rica (office in Curridabat; verify job eligibility)"],
+      "fitReason": "Official pages describe legal and business SaaS software and list a Curridabat office; no current engineering opening was confirmed.",
+      "evidenceUrls": [
+        "https://www.globalex.cr/globalex",
+        "https://www.globalex.cr/quienes-somos"
+      ]
+    },
+    "Prosoft": {
+      "website": "https://www.prosoft.cr/",
+      "careersUrl": "https://www.prosoft.cr/trabaja-en-prosoft/",
+      "model": "direct",
+      "tracks": ["Software Engineering", "Fintech", "Security"],
+      "locations": ["Costa Rica (company operations; verify role eligibility)"],
+      "fitReason": "Official pages describe fintech SaaS and software for financial institutions, Costa Rica operations, and a software-engineering application route.",
+      "evidenceUrls": [
+        "https://www.prosoft.cr/",
+        "https://www.prosoft.cr/trabaja-en-prosoft/",
+        "https://www.prosoft.cr/politica-de-privacidad/"
+      ]
+    }
+  }
+}

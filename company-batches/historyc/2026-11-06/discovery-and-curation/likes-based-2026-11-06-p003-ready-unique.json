@@ -1,0 +1,3819 @@
+{
+  "cohortId": "likes-based-2026-11-06-p003",
+  "generatedOn": "2026-11-06",
+  "catalog": {
+    "source": "MongoDB + bundled files + prior batches",
+    "mongoCompanies": 1220,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 121,
+    "indexedNames": 1338,
+    "indexedDomains": 1283
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 63,
+    "topTracks": [
+      {
+        "track": "Engineering",
+        "count": 36
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Software Engineering",
+        "count": 3
+      },
+      {
+        "track": "Node.js",
+        "count": 2
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        46
+      ],
+      [
+        "direct",
+        16
+      ],
+      [
+        "unknown",
+        1
+      ]
+    ]
+  },
+  "candidates": [
+    {
+      "name": "Kenility",
+      "website": "https://www.kenility.com",
+      "careersUrl": "https://www.kenility.com/careers/",
+      "sourceUrl": "https://www.kenility.com/careers/",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.kenility.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://www.kenility.com/careers/",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Olly Olly",
+      "website": "https://www.ollyolly.com",
+      "careersUrl": "https://jobs.ashbyhq.com/olly-olly/ba012649-c92f-48a4-be77-b605c40d43a3/",
+      "sourceUrl": "https://jobs.ashbyhq.com/olly-olly/ba012649-c92f-48a4-be77-b605c40d43a3/",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer and careers sources",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.ollyolly.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://jobs.ashbyhq.com/olly-olly/ba012649-c92f-48a4-be77-b605c40d43a3/",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Parser",
+      "website": "https://www.parserdigital.com",
+      "careersUrl": "https://www.parserdigital.com/careers",
+      "sourceUrl": "https://www.parserdigital.com/careers",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.parserdigital.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://www.parserdigital.com/careers",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Tight Line Software",
+      "website": "https://tightlinesoftware.com",
+      "careersUrl": "https://careers.tightlinesoftware.com",
+      "sourceUrl": "https://careers.tightlinesoftware.com/jobs/7973761-senior-front-end-engineer",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://tightlinesoftware.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://careers.tightlinesoftware.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "official-source",
+          "url": "https://careers.tightlinesoftware.com/jobs/7973761-senior-front-end-engineer",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Wiset",
+      "website": "https://wiset.io",
+      "careersUrl": "https://wiset.io/jobs/",
+      "sourceUrl": "https://wiset.io/jobs/",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://wiset.io",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://wiset.io/jobs/",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "General Staffing",
+      "website": "https://www.generalstaffing.com",
+      "careersUrl": "https://www.generalstaffing.com/jobs/ongoing-software-developer",
+      "sourceUrl": "https://www.generalstaffing.com/jobs/ongoing-software-developer",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer and careers sources",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.generalstaffing.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://www.generalstaffing.com/jobs/ongoing-software-developer",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Amplemarket",
+      "website": "https://amplemarket.com",
+      "careersUrl": "https://job-boards.greenhouse.io/amplemarket/jobs/4066973101",
+      "sourceUrl": "https://job-boards.greenhouse.io/amplemarket/jobs/4066973101",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://amplemarket.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://job-boards.greenhouse.io/amplemarket/jobs/4066973101",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "4Geeks",
+      "website": "https://4geeks.io",
+      "careersUrl": "https://4geeks.io/en/careers/software-engineer/",
+      "sourceUrl": "https://4geeks.io/en/careers/software-engineer/",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://4geeks.io",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://4geeks.io/en/careers/software-engineer/",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Talentus Global",
+      "website": "https://www.talentusglobal.com",
+      "careersUrl": "https://jobs.lever.co/TalentusGlobal/9760b72b-c022-4be9-9858-10ea64edef89",
+      "sourceUrl": "https://jobs.lever.co/TalentusGlobal/9760b72b-c022-4be9-9858-10ea64edef89",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.talentusglobal.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://jobs.lever.co/TalentusGlobal/9760b72b-c022-4be9-9858-10ea64edef89",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Provectus",
+      "website": "https://provectus.com",
+      "careersUrl": "https://jobs.lever.co/provectus/8f30b06c-5d05-436e-a14d-5daec89c71c2",
+      "sourceUrl": "https://jobs.lever.co/provectus/8f30b06c-5d05-436e-a14d-5daec89c71c2",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://provectus.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://jobs.lever.co/provectus/8f30b06c-5d05-436e-a14d-5daec89c71c2",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Fast Dolphin",
+      "website": "https://www.fastdolphin.com",
+      "careersUrl": "https://www.fastdolphin.com/vinculacionpr/vacante.php",
+      "sourceUrl": "https://www.fastdolphin.com/vinculacionpr/vacante.php",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer and careers sources",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.fastdolphin.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://www.fastdolphin.com/vinculacionpr/vacante.php",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Derex Technologies",
+      "website": "https://derextech.com",
+      "careersUrl": "https://jobs.smartrecruiters.com/derextechnologiesinc/744000158738943-solution-architect-with-insuremo-platform",
+      "sourceUrl": "https://jobs.smartrecruiters.com/derextechnologiesinc/744000158738943-solution-architect-with-insuremo-platform",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://derextech.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://jobs.smartrecruiters.com/derextechnologiesinc/744000158738943-solution-architect-with-insuremo-platform",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Fresh Consulting",
+      "website": "https://freshconsulting.com",
+      "careersUrl": "https://freshconsulting.applytojob.com/apply/jobs/details/FIDNF96Cj1",
+      "sourceUrl": "https://freshconsulting.applytojob.com/apply/jobs/details/FIDNF96Cj1",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer and careers sources",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://freshconsulting.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://freshconsulting.applytojob.com/apply/jobs/details/FIDNF96Cj1",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "VML",
+      "website": "https://www.vml.com",
+      "careersUrl": "https://www.vml.com/careers",
+      "sourceUrl": "https://www.vml.com/careers/job/8515068002-cr-front-end-software-developer",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer and careers sources",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.vml.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://www.vml.com/careers",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "official-source",
+          "url": "https://www.vml.com/careers/job/8515068002-cr-front-end-software-developer",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Hubstart",
+      "website": "https://hubstart.io",
+      "careersUrl": "https://hubstart.io/careers",
+      "sourceUrl": "https://hubstart.io/careers",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://hubstart.io",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://hubstart.io/careers",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Bitlink",
+      "website": "https://www.bitlink.com.co",
+      "careersUrl": "https://www.bitlink.com.co/en/trabajo",
+      "sourceUrl": "https://www.bitlink.com.co/en/trabajo",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.bitlink.com.co",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://www.bitlink.com.co/en/trabajo",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Neverfail",
+      "website": "https://neverfail.com",
+      "careersUrl": "https://neverfail.com/careers/",
+      "sourceUrl": "https://neverfail.com/careers/",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://neverfail.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://neverfail.com/careers/",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Grupo Mundial",
+      "website": "https://grupomundial.cr",
+      "careersUrl": "https://grupomundial.cr/careers/",
+      "sourceUrl": "https://grupomundial.cr/careers/",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer and careers sources",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://grupomundial.cr",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://grupomundial.cr/careers/",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Ellipsis Health",
+      "website": "https://ellipsishealth.com",
+      "careersUrl": "https://ellipsishealth.com/careers/backend-engineer/",
+      "sourceUrl": "https://ellipsishealth.com/careers/backend-engineer/",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://ellipsishealth.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://ellipsishealth.com/careers/backend-engineer/",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Radiant Technologies",
+      "website": "https://radiantholdco.com",
+      "careersUrl": "https://radiantholdco.com/careers/product-engineer",
+      "sourceUrl": "https://radiantholdco.com/careers/product-engineer",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer and careers sources",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://radiantholdco.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://radiantholdco.com/careers/product-engineer",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Get Talento",
+      "website": "https://www.gettalento.com",
+      "careersUrl": "https://www.gettalento.com/careers",
+      "sourceUrl": "https://www.gettalento.com/careers",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.gettalento.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://www.gettalento.com/careers",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Staffy",
+      "website": "https://wearestaffy.com",
+      "careersUrl": "https://jobs.wearestaffy.com/positions/senior-backend-engineer-java-aws-2100",
+      "sourceUrl": "https://jobs.wearestaffy.com/positions/senior-backend-engineer-java-aws-2100",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://wearestaffy.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://jobs.wearestaffy.com/positions/senior-backend-engineer-java-aws-2100",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Akurey",
+      "website": "https://akurey.com",
+      "careersUrl": "https://akurey.com/careers",
+      "sourceUrl": "https://akurey.com/careers",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer and careers sources",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://akurey.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://akurey.com/careers",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "SMarDevs",
+      "website": "https://smardevs.com",
+      "careersUrl": "https://smardevs.com/careers/senior-backend-developer",
+      "sourceUrl": "https://smardevs.com/careers/senior-backend-developer",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://smardevs.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://smardevs.com/careers/senior-backend-developer",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Waverley Software",
+      "website": "https://waverleysoftware.com",
+      "careersUrl": "https://waverleysoftware.com/careers/",
+      "sourceUrl": "https://waverleysoftware.com/careers/",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://waverleysoftware.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://waverleysoftware.com/careers/",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "nCube",
+      "website": "https://ncube.com",
+      "careersUrl": "https://ncube.com/career",
+      "sourceUrl": "https://ncube.com/career",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://ncube.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://ncube.com/career",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Buenos Bytes",
+      "website": "https://www.buenos-bytes.com",
+      "careersUrl": "https://www.buenos-bytes.com/jobs",
+      "sourceUrl": "https://www.buenos-bytes.com/jobs",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.buenos-bytes.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://www.buenos-bytes.com/jobs",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Lateral Group",
+      "website": "https://lateralgroup.com",
+      "careersUrl": "https://careers.lateralgroup.com/jobs/5997769-senior-frontend-engineer-latam",
+      "sourceUrl": "https://careers.lateralgroup.com/jobs/5997769-senior-frontend-engineer-latam",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://lateralgroup.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://careers.lateralgroup.com/jobs/5997769-senior-frontend-engineer-latam",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Oceans Code Experts",
+      "website": "https://oceanscode.com",
+      "careersUrl": "https://oceanscode.com/careers/full-stack-net-developer-reactnative-ds-140",
+      "sourceUrl": "https://oceanscode.com/careers/full-stack-net-developer-reactnative-ds-140",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://oceanscode.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://oceanscode.com/careers/full-stack-net-developer-reactnative-ds-140",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Bridgenext",
+      "website": "https://bridgenext.com",
+      "careersUrl": "https://argcareers-bridgenext.icims.com/jobs/11098/backend---platform-engineer/job?in_iframe=1",
+      "sourceUrl": "https://argcareers-bridgenext.icims.com/jobs/11098/backend---platform-engineer/job?in_iframe=1",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://bridgenext.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://argcareers-bridgenext.icims.com/jobs/11098/backend---platform-engineer/job?in_iframe=1",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Etleap",
+      "website": "https://etleap.com",
+      "careersUrl": "https://www-old.etleap.com/careers/software-engineer-integrations/",
+      "sourceUrl": "https://www-old.etleap.com/careers/software-engineer-integrations/",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://etleap.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://www-old.etleap.com/careers/software-engineer-integrations/",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Devsu",
+      "website": "https://devsu.com",
+      "careersUrl": "https://apply.workable.com/devsu/",
+      "sourceUrl": "https://apply.workable.com/devsu/",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://devsu.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://apply.workable.com/devsu/",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Amalga",
+      "website": "https://www.amalgagroup.com",
+      "careersUrl": "https://www.amalgagroup.com/careersv1",
+      "sourceUrl": "https://www.amalgagroup.com/careersv1",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.amalgagroup.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://www.amalgagroup.com/careersv1",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "RiverMeadow",
+      "website": "https://rivermeadow.com",
+      "careersUrl": "https://www.rivermeadow.com/careers",
+      "sourceUrl": "https://www.rivermeadow.com/careers",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer and careers sources",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://rivermeadow.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://www.rivermeadow.com/careers",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Rite Digital",
+      "website": "https://rite.digital",
+      "careersUrl": "https://rite.digital/careers/",
+      "sourceUrl": "https://rite.digital/careers/",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://rite.digital",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://rite.digital/careers/",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Luxury Presence",
+      "website": "https://luxurypresence.com",
+      "careersUrl": "https://jobs.lever.co/luxurypresence?location=Latin+America",
+      "sourceUrl": "https://jobs.lever.co/luxurypresence?location=Latin+America",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://luxurypresence.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://jobs.lever.co/luxurypresence?location=Latin+America",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Designli",
+      "website": "https://designli.co",
+      "careersUrl": "https://designli.co/careers",
+      "sourceUrl": "https://designli.co/careers",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://designli.co",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://designli.co/careers",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "TD SYNNEX",
+      "website": "https://www.tdsynnex.com",
+      "careersUrl": "https://careers.tdsynnex.com/us/en/costa-rica-careers/",
+      "sourceUrl": "https://careers.tdsynnex.com/us/en/job/TSQTSBUSR49839EXTERNALENUS/Senior-Infrastructure-Systems-Engineer",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer and careers sources",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.tdsynnex.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://careers.tdsynnex.com/us/en/costa-rica-careers/",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "official-source",
+          "url": "https://careers.tdsynnex.com/us/en/job/TSQTSBUSR49839EXTERNALENUS/Senior-Infrastructure-Systems-Engineer",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "GBM",
+      "website": "https://www.gbm.net",
+      "careersUrl": "https://gbmcostaricacompanyid3101003252.applytojob.com/apply/sfii32Ls8q/Desarrolladora-Full-Stack-NET-Backend",
+      "sourceUrl": "https://gbmcostaricacompanyid3101003252.applytojob.com/apply/sfii32Ls8q/Desarrolladora-Full-Stack-NET-Backend",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer and careers sources",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.gbm.net",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://gbmcostaricacompanyid3101003252.applytojob.com/apply/sfii32Ls8q/Desarrolladora-Full-Stack-NET-Backend",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Pearl Talent",
+      "website": "https://www.pearltalent.com",
+      "careersUrl": "https://apply.workable.com/pearltalent/j/D3909364ED/apply/",
+      "sourceUrl": "https://apply.workable.com/pearltalent/j/D3909364ED/apply/",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.pearltalent.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://apply.workable.com/pearltalent/j/D3909364ED/apply/",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Arenalsoft",
+      "website": "https://www.arenalsoft.com",
+      "careersUrl": "https://www.arenalsoft.com/",
+      "sourceUrl": "https://www.arenalsoft.com/",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer and careers sources",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.arenalsoft.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://www.arenalsoft.com/",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "LTIMindtree",
+      "website": "https://www.ltimindtree.com",
+      "careersUrl": "https://www.ltimindtree.com/careers/",
+      "sourceUrl": "https://www.ltimindtree.com/careers/",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer and careers sources",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.ltimindtree.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://www.ltimindtree.com/careers/",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Lanshore",
+      "website": "https://lanshore.com",
+      "careersUrl": "https://jobs.smartrecruiters.com/Lanshore/743999805781127-front-end-developer-100-wfh",
+      "sourceUrl": "https://jobs.smartrecruiters.com/Lanshore/743999805781127-front-end-developer-100-wfh",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://lanshore.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://jobs.smartrecruiters.com/Lanshore/743999805781127-front-end-developer-100-wfh",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "MasGlobal",
+      "website": "https://masglobal.co",
+      "careersUrl": "https://masglobal.co/careers",
+      "sourceUrl": "https://masglobal.co/careers",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://masglobal.co",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://masglobal.co/careers",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Leanware",
+      "website": "https://leanware.co",
+      "careersUrl": "https://leanware.co/careers",
+      "sourceUrl": "https://leanware.co/careers",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://leanware.co",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://leanware.co/careers",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "CodigoDelSur",
+      "website": "https://www.codigodelsur.com",
+      "careersUrl": "https://www.codigodelsur.com/jobs",
+      "sourceUrl": "https://www.codigodelsur.com/jobs",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.codigodelsur.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://www.codigodelsur.com/jobs",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Xmartlabs",
+      "website": "https://xmartlabs.com",
+      "careersUrl": "https://xmartlabs.com/careers",
+      "sourceUrl": "https://xmartlabs.com/careers",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://xmartlabs.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://xmartlabs.com/careers",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Perform",
+      "website": "https://perform.co",
+      "careersUrl": "https://perform.co/careers",
+      "sourceUrl": "https://perform.co/careers",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://perform.co",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://perform.co/careers",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Hakkoda",
+      "website": "https://hakkoda.io",
+      "careersUrl": "https://hakkoda.io/careers/",
+      "sourceUrl": "https://hakkoda.io/careers/",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer and careers sources",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://hakkoda.io",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://hakkoda.io/careers/",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Parrolabs",
+      "website": "https://www.parrolabs.com",
+      "careersUrl": "https://www.parrolabs.com/careers",
+      "sourceUrl": "https://www.parrolabs.com/careers",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.parrolabs.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://www.parrolabs.com/careers",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "NativApps",
+      "website": "https://nativapps.com",
+      "careersUrl": "https://nativapps.com/carreras/",
+      "sourceUrl": "https://nativapps.com/carreras/",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://nativapps.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://nativapps.com/carreras/",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "SOIN",
+      "website": "https://www.soin.co.cr",
+      "careersUrl": "https://www.soin.co.cr/careers/junior-software-developer-java",
+      "sourceUrl": "https://www.soin.co.cr/careers/junior-software-developer-java",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer and careers sources",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.soin.co.cr",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://www.soin.co.cr/careers/junior-software-developer-java",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Grupo Prides",
+      "website": "https://www.grupoprides.com",
+      "careersUrl": "https://www.grupoprides.com",
+      "sourceUrl": "https://www.grupoprides.com",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer and careers sources",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.grupoprides.com",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Proximity CR",
+      "website": "https://proximitycr.com",
+      "careersUrl": "https://proximitycr.com/careers",
+      "sourceUrl": "https://proximitycr.com/careers",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer and careers sources",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://proximitycr.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://proximitycr.com/careers",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Codieshub",
+      "website": "https://codieshub.com",
+      "careersUrl": "https://codieshub.com/careers/python-engineer",
+      "sourceUrl": "https://codieshub.com/careers/python-engineer",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://codieshub.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://codieshub.com/careers/python-engineer",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "My VA Support",
+      "website": "https://myvasupport.com",
+      "careersUrl": "https://myvasupport.zohorecruit.com/jobs/Careers/671760000011805500/",
+      "sourceUrl": "https://myvasupport.zohorecruit.com/jobs/Careers/671760000011805500/",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://myvasupport.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://myvasupport.zohorecruit.com/jobs/Careers/671760000011805500/",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Contably",
+      "website": "https://contably.co",
+      "careersUrl": "https://contably.co/careers",
+      "sourceUrl": "https://contably.co/careers",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://contably.co",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://contably.co/careers",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Purple Hiring",
+      "website": "https://www.gowithpurple.com",
+      "careersUrl": "https://www.gowithpurple.com/careers",
+      "sourceUrl": "https://www.gowithpurple.com/careers",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.gowithpurple.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://www.gowithpurple.com/careers",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Scio",
+      "website": "https://sciodev.com",
+      "careersUrl": "https://careers.sciodev.com/",
+      "sourceUrl": "https://careers.sciodev.com/",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://sciodev.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://careers.sciodev.com/",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Greenlight Consulting",
+      "website": "https://greenlightconsulting.com",
+      "careersUrl": "https://job-boards.greenhouse.io/greenlightconsulting/jobs/5207112008",
+      "sourceUrl": "https://job-boards.greenhouse.io/greenlightconsulting/jobs/5207112008",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer and careers sources",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://greenlightconsulting.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://job-boards.greenhouse.io/greenlightconsulting/jobs/5207112008",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Motivus",
+      "website": "https://motivus.com",
+      "careersUrl": "https://motivus.com/careers/node-js-developer/",
+      "sourceUrl": "https://motivus.com/careers/node-js-developer/",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://motivus.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://motivus.com/careers/node-js-developer/",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Lago",
+      "website": "https://getlago.com",
+      "careersUrl": "https://apply.workable.com/lago-1/j/5939A9FF30/apply",
+      "sourceUrl": "https://apply.workable.com/lago-1/j/5939A9FF30/apply",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://getlago.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://apply.workable.com/lago-1/j/5939A9FF30/apply",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Kitrum",
+      "website": "https://kitrum.com",
+      "careersUrl": "https://kitrum.com/careers/",
+      "sourceUrl": "https://kitrum.com/careers/",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://kitrum.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://kitrum.com/careers/",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Talent2Win",
+      "website": "https://talent2win.com",
+      "careersUrl": "https://jobs.lever.co/talent-2-win/ae93e720-0f0f-4ba4-94e1-8a13d926584d",
+      "sourceUrl": "https://jobs.lever.co/talent-2-win/ae93e720-0f0f-4ba4-94e1-8a13d926584d",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://talent2win.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://jobs.lever.co/talent-2-win/ae93e720-0f0f-4ba4-94e1-8a13d926584d",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Infotech CR",
+      "website": "https://www.cr-infotech.com",
+      "careersUrl": "https://www.cr-infotech.com/careers.html",
+      "sourceUrl": "https://www.cr-infotech.com/careers.html",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer and careers sources",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.cr-infotech.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://www.cr-infotech.com/careers.html",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "dotdigital",
+      "website": "https://dotdigital.com",
+      "careersUrl": "https://careers.dotdigital.com/jobs/8513755-full-stack-engineer-contractor",
+      "sourceUrl": "https://careers.dotdigital.com/jobs/8513755-full-stack-engineer-contractor",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://dotdigital.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://careers.dotdigital.com/jobs/8513755-full-stack-engineer-contractor",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Bugcrowd",
+      "website": "https://bugcrowd.com",
+      "careersUrl": "https://job-boards.greenhouse.io/bugcrowd/jobs/8202018",
+      "sourceUrl": "https://job-boards.greenhouse.io/bugcrowd/jobs/8202018",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://bugcrowd.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://job-boards.greenhouse.io/bugcrowd/jobs/8202018",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Atelier",
+      "website": "https://www.atelier-app.com",
+      "careersUrl": "https://www.atelier-app.com/carreras",
+      "sourceUrl": "https://www.atelier-app.com/carreras",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.atelier-app.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://www.atelier-app.com/carreras",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Polanov Tech",
+      "website": "https://polanovtech.com",
+      "careersUrl": "https://polanovtech.com/careers",
+      "sourceUrl": "https://polanovtech.com/careers",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://polanovtech.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://polanovtech.com/careers",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Cobre",
+      "website": "https://www.cobre.com",
+      "careersUrl": "https://job-boards.greenhouse.io/cobre/jobs/4009743009",
+      "sourceUrl": "https://job-boards.greenhouse.io/cobre/jobs/4009743009",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.cobre.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://job-boards.greenhouse.io/cobre/jobs/4009743009",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Traackr",
+      "website": "https://www.traackr.com",
+      "careersUrl": "https://jobs.lever.co/traackr/fc789f3d-6ef6-44ee-bd3d-c7799e8069b2",
+      "sourceUrl": "https://jobs.lever.co/traackr/fc789f3d-6ef6-44ee-bd3d-c7799e8069b2",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.traackr.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://jobs.lever.co/traackr/fc789f3d-6ef6-44ee-bd3d-c7799e8069b2",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Sonnet Code",
+      "website": "https://sonnetcode.com",
+      "careersUrl": "https://www.sonnetcode.com/careers",
+      "sourceUrl": "https://www.sonnetcode.com/careers",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://sonnetcode.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://www.sonnetcode.com/careers",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "SMASH",
+      "website": "https://smashcr.com",
+      "careersUrl": "https://smashcr.com/become-a-smasher",
+      "sourceUrl": "https://smashcr.com/become-a-smasher",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer and careers sources",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://smashcr.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://smashcr.com/become-a-smasher",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "ActiveCampaign",
+      "website": "https://www.activecampaign.com",
+      "careersUrl": "https://www.activecampaign.com/about/careers",
+      "sourceUrl": "https://www.activecampaign.com/about/careers",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer directory and careers",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.activecampaign.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://www.activecampaign.com/about/careers",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Datasite",
+      "website": "https://www.datasite.com",
+      "careersUrl": "https://www.datasite.com/en/company/careers",
+      "sourceUrl": "https://www.datasite.com/en/company/careers",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer directory and careers",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.datasite.com",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://www.datasite.com/en/company/careers",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Fractal River",
+      "website": "https://www.fractalriver.com/",
+      "careersUrl": "https://www.fractalriver.com/careers/",
+      "sourceUrl": "https://fractal-river.breezy.hr/p/60cec77079df-data-engineer-remote-latin-america",
+      "locations": [
+        "LATAM"
+      ],
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering",
+        "Data Engineering"
+      ],
+      "queryLane": "Himalayas CR engineering leads; official ATS verification",
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.fractalriver.com/",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://www.fractalriver.com/careers/",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "official-source",
+          "url": "https://fractal-river.breezy.hr/p/60cec77079df-data-engineer-remote-latin-america",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Prometeo Talent",
+      "website": "https://www.prometeotalent.com/",
+      "careersUrl": "https://jobs.prometeotalent.com/",
+      "sourceUrl": "https://jobs.prometeotalent.com/jobs/8564566-qa-automation-engineer-100-remote-latam",
+      "locations": [
+        "LATAM"
+      ],
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering",
+        "Quality Engineering"
+      ],
+      "queryLane": "Himalayas CR engineering leads; official ATS verification",
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.prometeotalent.com/",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://jobs.prometeotalent.com/",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "official-source",
+          "url": "https://jobs.prometeotalent.com/jobs/8564566-qa-automation-engineer-100-remote-latam",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "NetForemost",
+      "website": "https://netforemost.com/",
+      "careersUrl": "https://netforemost.zohorecruit.com/jobs",
+      "sourceUrl": "https://netforemost.zohorecruit.com/jobs",
+      "locations": [
+        "LATAM"
+      ],
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "queryLane": "Himalayas CR engineering leads; official ATS verification",
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://netforemost.com/",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://netforemost.zohorecruit.com/jobs",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Makai Digital",
+      "website": "https://www.makaihq.com/",
+      "careersUrl": "https://www.makaihq.com/careers",
+      "sourceUrl": "https://www.makaihq.com/careers",
+      "locations": [
+        "Latin America"
+      ],
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "queryLane": "Himalayas CR engineering leads; official site verification",
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.makaihq.com/",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://www.makaihq.com/careers",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "thinkbridge",
+      "website": "https://www.thinkbridge.com/",
+      "careersUrl": "https://www.thinkbridge.com/careers",
+      "sourceUrl": "https://www.thinkbridge.com/about-us",
+      "locations": [
+        "Latin America"
+      ],
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "queryLane": "Himalayas CR engineering leads; official site verification",
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.thinkbridge.com/",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://www.thinkbridge.com/careers",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "official-source",
+          "url": "https://www.thinkbridge.com/about-us",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Appsilon",
+      "website": "https://www.appsilon.com/",
+      "careersUrl": "https://appsilon-1739358905.teamtailor.com/",
+      "sourceUrl": "https://appsilon-1739358905.teamtailor.com/",
+      "locations": [
+        "LATAM"
+      ],
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering",
+        "Data Engineering"
+      ],
+      "queryLane": "Himalayas CR engineering leads; official ATS verification",
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.appsilon.com/",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://appsilon-1739358905.teamtailor.com/",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Alpaca",
+      "website": "https://alpaca.markets/",
+      "careersUrl": "https://job-boards.greenhouse.io/alpaca",
+      "sourceUrl": "https://job-boards.greenhouse.io/alpaca",
+      "locations": [
+        "LATAM"
+      ],
+      "model": "direct",
+      "tracks": [
+        "Software Engineering",
+        "Fintech"
+      ],
+      "queryLane": "Himalayas CR engineering leads; official ATS verification",
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://alpaca.markets/",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://job-boards.greenhouse.io/alpaca",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Puzzle",
+      "website": "https://www.puzzle.tech/",
+      "careersUrl": "https://www.puzzle.tech/careers",
+      "sourceUrl": "https://www.puzzle.tech/about-us",
+      "locations": [
+        "Latin America"
+      ],
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering",
+        "Nearshore"
+      ],
+      "queryLane": "Official Latin America employer and careers research",
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.puzzle.tech/",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://www.puzzle.tech/careers",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "official-source",
+          "url": "https://www.puzzle.tech/about-us",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "CXT Software",
+      "website": "https://cxtsoftware.com/",
+      "careersUrl": "https://jobs.lever.co/cxtsoftware",
+      "sourceUrl": "https://jobs.lever.co/cxtsoftware/6f79361c-f637-43dd-8d3d-e97002088b67",
+      "locations": [
+        "Costa Rica"
+      ],
+      "model": "direct",
+      "tracks": [
+        "Software Engineering",
+        "Cloud Engineering"
+      ],
+      "queryLane": "Official LATAM ATS engineering roles",
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://cxtsoftware.com/",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://jobs.lever.co/cxtsoftware",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "official-source",
+          "url": "https://jobs.lever.co/cxtsoftware/6f79361c-f637-43dd-8d3d-e97002088b67",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Galileo Financial Technologies",
+      "website": "https://www.galileo-ft.com/",
+      "careersUrl": "https://job-boards.greenhouse.io/galileofinancialtechnologies",
+      "sourceUrl": "https://job-boards.greenhouse.io/galileofinancialtechnologies",
+      "locations": [
+        "Costa Rica"
+      ],
+      "model": "direct",
+      "tracks": [
+        "Software Engineering",
+        "Fintech"
+      ],
+      "queryLane": "Official Costa Rica ATS engineering roles",
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.galileo-ft.com/",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://job-boards.greenhouse.io/galileofinancialtechnologies",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Blue Coding",
+      "website": "https://www.bluecoding.com/",
+      "careersUrl": "https://jobs.lever.co/bluecoding",
+      "sourceUrl": "https://jobs.lever.co/bluecoding/456ce1b0-5a77-4a27-9a82-37d0074f14ec",
+      "locations": [
+        "Latin America",
+        "LATAM"
+      ],
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "queryLane": "Official LATAM ATS engineering roles",
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.bluecoding.com/",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://jobs.lever.co/bluecoding",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "official-source",
+          "url": "https://jobs.lever.co/bluecoding/456ce1b0-5a77-4a27-9a82-37d0074f14ec",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "World Wide Technology",
+      "website": "https://www.wwt.com/",
+      "careersUrl": "https://www.wwt.com/careers-in-the-americas",
+      "sourceUrl": "https://www.wwt.com/careers-in-the-americas",
+      "locations": [
+        "Costa Rica"
+      ],
+      "model": "direct",
+      "tracks": [
+        "Software Engineering",
+        "Cloud Engineering"
+      ],
+      "queryLane": "Official Costa Rica employer and careers sources",
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.wwt.com/",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://www.wwt.com/careers-in-the-americas",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Workana",
+      "website": "https://www.workana.com/",
+      "careersUrl": "https://www.workana.com/about/careers",
+      "sourceUrl": "https://www.workana.com/work/devs",
+      "locations": [
+        "Latin America",
+        "LATAM"
+      ],
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering",
+        "Data Engineering",
+        "DevOps"
+      ],
+      "queryLane": "Official Latin America employer and careers research",
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.workana.com/",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://www.workana.com/about/careers",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "official-source",
+          "url": "https://www.workana.com/work/devs",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "SchoolMint",
+      "website": "https://schoolmint.com/",
+      "careersUrl": "https://job-boards.greenhouse.io/schoolmint",
+      "sourceUrl": "https://schoolmint.com/contact-us/",
+      "locations": [
+        "Costa Rica"
+      ],
+      "model": "direct",
+      "tracks": [
+        "Software Engineering",
+        "EdTech"
+      ],
+      "queryLane": "Official Costa Rica company location and careers",
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://schoolmint.com/",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://job-boards.greenhouse.io/schoolmint",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "official-source",
+          "url": "https://schoolmint.com/contact-us/",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official company or ATS source supports a relevant engineering track and an explicit Costa Rica or LATAM signal; inspect current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "MagmaLabs",
+      "website": "https://www.magmalabs.io/",
+      "careersUrl": "https://magmalabs.bamboohr.com/careers",
+      "locations": [
+        "Latin America (company says it hires engineers across Mexico and Latin America)"
+      ],
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering",
+        "Full Stack",
+        "React",
+        "Node.js",
+        "Ruby on Rails"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.magmalabs.io/about-us",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://magmalabs.bamboohr.com/careers",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official page says engineers are hired across Mexico and Latin America; confirm locations on current openings."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      },
+      "queryLane": "Official BambooHR and nearshore careers"
+    },
+    {
+      "name": "Nikola Digital Lab",
+      "website": "https://www.nikoladigitallab.com/",
+      "careersUrl": "https://www.nikoladigitallab.com/careers",
+      "locations": [
+        "Costa Rica (company base; role eligibility not stated)"
+      ],
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering",
+        "Full Stack",
+        "Frontend",
+        "Backend",
+        "Java",
+        "React"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.nikoladigitallab.com/about",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://www.nikoladigitallab.com/careers",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "The official company page says Nikola is based in Costa Rica and its careers page lists software development roles; eligibility for each role is not stated."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      },
+      "queryLane": "Costa Rica nearshore company careers"
+    },
+    {
+      "name": "Talent Booster Costa Rica",
+      "website": "https://talentboostercr.com/",
+      "careersUrl": "https://careers.talentboostercr.com/",
+      "locations": [
+        "Costa Rica (San José office; candidate roles vary)"
+      ],
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering",
+        "IT Staffing",
+        "Nearshore"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://talentboostercr.com/",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://talentboostercr.com/reclutamiento-para-tics",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "career-portal",
+          "url": "https://careers.talentboostercr.com/",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "The official site lists a Costa Rica location, an IT software factory, and a candidate vacancies portal; no specific current engineering vacancy was saved."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      },
+      "queryLane": "Costa Rica software-factory and careers sources"
+    },
+    {
+      "name": "R2",
+      "website": "https://r2.co/",
+      "careersUrl": "https://r2.co/careers",
+      "locations": [
+        "LATAM"
+      ],
+      "model": "direct",
+      "tracks": [
+        "Software Engineering",
+        "Data Engineering",
+        "Fintech"
+      ],
+      "jobs": [
+        {
+          "id": "r2-bamboo-178",
+          "title": "Staff Software Engineer (LatAm Only)",
+          "location": "LATAM",
+          "url": "https://r2.bamboohr.com/careers/178",
+          "eligibility": "The employer's BambooHR listing title says LatAm Only.",
+          "listingStatus": "Listed on employer BambooHR board when checked",
+          "checkedOn": "2026-11-06",
+          "roles": [
+            "Software Engineering"
+          ],
+          "levels": [
+            "Staff"
+          ]
+        }
+      ],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://r2.co/",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://r2.co/careers",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "job-posting",
+          "url": "https://r2.bamboohr.com/careers/178",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "strong",
+        "reasons": [
+          "A current engineering role on the employer's ATS is explicitly limited to LATAM."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      },
+      "queryLane": "Official BambooHR LATAM engineering roles"
+    },
+    {
+      "name": "Qventus",
+      "website": "https://www.qventus.com/",
+      "careersUrl": "https://www.qventus.com/company/working-qventus/job/",
+      "locations": [
+        "Latin America"
+      ],
+      "model": "direct",
+      "tracks": [
+        "Software Engineering",
+        "AI Engineering",
+        "HealthTech"
+      ],
+      "jobs": [
+        {
+          "id": "qventus-4472326009",
+          "title": "Sr. Software Engineer - PAT Assist",
+          "location": "Remote, Latin America",
+          "url": "https://www.qventus.com/company/working-qventus/job?gh_jid=4472326009",
+          "workMode": "Remote",
+          "eligibility": "The employer's Greenhouse feed lists Remote, Latin America.",
+          "listingStatus": "Listed on employer Greenhouse board when checked",
+          "checkedOn": "2026-11-06",
+          "roles": [
+            "Software Engineering"
+          ]
+        }
+      ],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.qventus.com/",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://www.qventus.com/company/working-qventus/job/",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "job-posting",
+          "url": "https://www.qventus.com/company/working-qventus/job?gh_jid=4472326009",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "strong",
+        "reasons": [
+          "The employer's current Greenhouse feed lists a remote software-engineering role in Latin America."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      },
+      "queryLane": "Official Greenhouse Latin America engineering roles"
+    },
+    {
+      "name": "Hangar Worldwide",
+      "website": "https://www.hangarworldwide.com/",
+      "careersUrl": "https://hangar.bamboohr.com/careers",
+      "locations": [
+        "Costa Rica (Heredia)"
+      ],
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering",
+        "Data Engineering",
+        "Web Development"
+      ],
+      "queryLane": "Official BambooHR engineering postings",
+      "jobs": [
+        {
+          "id": "hangar-bamboohr-1185",
+          "title": "Data Engineer",
+          "location": "Costa Rica, Heredia",
+          "url": "https://hangar.bamboohr.com/careers/1185",
+          "eligibility": "The employer's public BambooHR careers feed lists Costa Rica, Heredia as the location.",
+          "listingStatus": "Listed in the employer's BambooHR feed when checked",
+          "checkedOn": "2026-11-06",
+          "roles": [
+            "Data Engineering"
+          ]
+        }
+      ],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.hangarworldwide.com/",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://hangar.bamboohr.com/careers",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "kind": "job-posting",
+          "url": "https://hangar.bamboohr.com/careers/1185",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "strong",
+        "reasons": [
+          "The official site offers software and data engineering services, and the employer's ATS feed lists an engineering role in Costa Rica."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      }
+    },
+    {
+      "name": "Fair Play Labs",
+      "website": "https://fairplaylabs.com/",
+      "careersUrl": "https://fairplaylabs.com/careers/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering",
+        "Quality Assurance",
+        "Game Development"
+      ],
+      "locations": [
+        "Costa Rica"
+      ],
+      "jobs": [
+        {
+          "id": "fair-play-labs-qa-lead",
+          "title": "QA Lead",
+          "location": "Costa Rica, On Site",
+          "url": "https://fairplaylabs.com/job-opening/qa-lead/",
+          "workMode": "On site",
+          "stack": "Unreal Engine, Unity 3D",
+          "eligibility": "Costa Rica",
+          "listingStatus": "Listed on the employer careers page when checked",
+          "checkedOn": "2026-11-06",
+          "technologies": [
+            "Unreal Engine",
+            "Unity 3D"
+          ],
+          "roles": [
+            "Quality Assurance"
+          ],
+          "levels": [
+            "Lead"
+          ]
+        }
+      ],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://fairplaylabs.com/",
+          "checkedOn": "2026-11-06",
+          "note": "The official site identifies Fair Play Labs as a game development studio based in San Jose, Costa Rica."
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://fairplaylabs.com/careers/",
+          "checkedOn": "2026-11-06",
+          "note": "The careers page lists a QA Lead role with Costa Rica, on-site location wording."
+        },
+        {
+          "kind": "job-posting",
+          "url": "https://fairplaylabs.com/job-opening/qa-lead/",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "strong",
+        "reasons": [
+          "Official game development studio in Costa Rica with an active software QA lead opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      },
+      "queryLane": "Official Costa Rica software careers pages 2026-11-06"
+    },
+    {
+      "name": "Convo Relay",
+      "website": "https://convorelay.com/",
+      "careersUrl": "https://dugu.dev/",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering",
+        "Backend",
+        "Product Engineering"
+      ],
+      "locations": [
+        "Latin America"
+      ],
+      "jobs": [
+        {
+          "id": "convo-relay-software-engineer-ii",
+          "title": "Software Engineer II (Product R&D)",
+          "location": "Remote, Latin America",
+          "url": "https://dugu.dev/",
+          "workMode": "Remote",
+          "stack": "Ruby, Node.js, TypeScript, Python, Java, AWS, SQL",
+          "eligibility": "All roles are 100% remote across Latin America; Dugu describes itself as Convo Relay's dedicated recruitment and operations partner.",
+          "listingStatus": "Listed on Convo Relay's designated LATAM recruitment partner page when checked",
+          "checkedOn": "2026-11-06",
+          "technologies": [
+            "Ruby",
+            "Node.js",
+            "TypeScript",
+            "Python",
+            "Java",
+            "AWS",
+            "SQL"
+          ],
+          "roles": [
+            "Backend",
+            "Product Engineering"
+          ],
+          "levels": [
+            "Mid-level"
+          ]
+        }
+      ],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://convorelay.com/",
+          "checkedOn": "2026-11-06",
+          "note": "Convo's official site describes its video relay and interpreting applications."
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://dugu.dev/",
+          "checkedOn": "2026-11-06",
+          "note": "Dugu states it is Convo Relay's dedicated recruitment and operations partner and lists an active Software Engineer II opening, remote across Latin America."
+        },
+        {
+          "kind": "job-posting",
+          "url": "https://dugu.dev/",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Product software employer with a current Latin America engineering role listed by its named recruitment partner."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      },
+      "queryLane": "Official LATAM engineering careers 2026-11-06"
+    },
+    {
+      "name": "Edenia",
+      "website": "https://edenia.com/",
+      "careersUrl": "https://edenia.com/es/carreras-desarrollador-blockchain",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering",
+        "Backend",
+        "Blockchain",
+        "Infrastructure"
+      ],
+      "locations": [
+        "Costa Rica"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://edenia.com/",
+          "checkedOn": "2026-11-06",
+          "note": "Edenia says it develops custom software for blockchain and fintech companies and operates from Costa Rica."
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://edenia.com/es/carreras-desarrollador-blockchain",
+          "checkedOn": "2026-11-06",
+          "note": "Current team application page invites candidates to join Edenia's Costa Rica software and infrastructure team; no specific open job title was listed."
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Costa Rica software and infrastructure employer with a current career intake page; no individual vacancy was stated on the page checked."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      },
+      "queryLane": "Costa Rica employer official careers wave 3"
+    },
+    {
+      "name": "Aplix",
+      "website": "https://aplix.cr/",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering",
+        "Backend",
+        "JavaScript",
+        "Python",
+        "Java",
+        "SQL",
+        "AI"
+      ],
+      "locations": [
+        "Costa Rica"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://aplix.cr/",
+          "checkedOn": "2026-11-06",
+          "note": "Aplix describes custom software, ERP, cloud, and AI services from Costa Rica and identifies its software development team and stack."
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Costa Rica custom software employer with a software development team; no current public vacancy was listed on the company site checked."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      },
+      "queryLane": "Costa Rica employer official careers wave 3"
+    },
+    {
+      "name": "KyrApps",
+      "website": "https://kyrapps.com/",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering",
+        "Backend",
+        "Apps",
+        "APIs",
+        "QA"
+      ],
+      "locations": [
+        "Costa Rica"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://kyrapps.com/",
+          "checkedOn": "2026-11-06",
+          "note": "KyrApps describes production software products, custom applications, APIs, QA, and its Costa Rica base."
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Costa Rican software product and development company; no current public vacancy or careers page was found in this check."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      },
+      "queryLane": "Costa Rica employer official careers wave 3"
+    },
+    {
+      "name": "Trifecta Software",
+      "website": "https://www.trifectasoftware.com/",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering",
+        "AI",
+        "Custom Software"
+      ],
+      "locations": [
+        "Costa Rica"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.trifectasoftware.com/about/",
+          "checkedOn": "2026-11-06",
+          "note": "The company says it develops custom software, was founded in San Jose, Costa Rica, and is based there."
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Costa Rica custom software engineering employer; no current public vacancy or careers page was found in this check."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      },
+      "queryLane": "Costa Rica employer official careers wave 3"
+    }
+  ],
+  "uniqueCandidatesFound": 101,
+  "outputLimit": 1000
+}

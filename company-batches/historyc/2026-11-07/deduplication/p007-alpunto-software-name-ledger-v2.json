@@ -1,0 +1,1812 @@
+{
+  "cohortId": "likes-based-2026-11-07-p007",
+  "checkedOn": "2026-11-07",
+  "inputFiles": [
+    "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json"
+  ],
+  "inputCount": 179,
+  "uniqueCount": 131,
+  "outputCount": 131,
+  "duplicateCount": 48,
+  "missingIdentityCount": 0,
+  "catalog": {
+    "source": "MongoDB + bundled files + prior batches",
+    "mongoCompanies": 1420,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 321,
+    "indexedNames": 1568,
+    "indexedDomains": 1382
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 63,
+    "topTracks": [
+      {
+        "track": "Engineering",
+        "count": 36
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Software Engineering",
+        "count": 3
+      },
+      {
+        "track": "Node.js",
+        "count": 2
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        46
+      ],
+      [
+        "direct",
+        16
+      ],
+      [
+        "unknown",
+        1
+      ]
+    ]
+  },
+  "queryLanes": [
+    {
+      "lane": "Alpunto Costa Rica SaaS/software company directory",
+      "leads": 47,
+      "unique": 46,
+      "duplicateRate": 0.021,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Alpunto Costa Rica software developer directory",
+      "leads": 132,
+      "unique": 85,
+      "duplicateRate": 0.356,
+      "recommendation": "continue or expand this lane"
+    }
+  ],
+  "entries": [
+    {
+      "company": "GTI Factura Electrónica",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service"
+    },
+    {
+      "company": "Facel – Facturación Electrónica",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service"
+    },
+    {
+      "company": "4Geeks",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "4Geeks",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers"
+    },
+    {
+      "company": "Ainnova Tech",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service"
+    },
+    {
+      "company": "Apify LATAM",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Apify LATAM",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers"
+    },
+    {
+      "company": "Aplix",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Aplix",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers"
+    },
+    {
+      "company": "Bitcode Enterprise",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Bitcode Enterprise",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers"
+    },
+    {
+      "company": "CRFUSION (Cronus ERP)",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service"
+    },
+    {
+      "company": "Greenpay S.A.",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service"
+    },
+    {
+      "company": "Innovatiko",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Innovatiko",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers"
+    },
+    {
+      "company": "KyrApps",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "KyrApps",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers"
+    },
+    {
+      "company": "New Street Development",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "New Street Development",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2"
+    },
+    {
+      "company": "Plaxp (Corp Tech AzSoft SRL)",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service"
+    },
+    {
+      "company": "Rempro Software",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Rempro Software",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2"
+    },
+    {
+      "company": "Salud a un Clic S.A.",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service"
+    },
+    {
+      "company": "TecApro (Grupo TecApro)",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2"
+    },
+    {
+      "company": "TicoPlanillas (GQ Soluciones)",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service"
+    },
+    {
+      "company": "Vorealis Software",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Vorealis Software",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2"
+    },
+    {
+      "company": "Yaipan",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Yaipan",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2"
+    },
+    {
+      "company": "AACROM",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2"
+    },
+    {
+      "company": "AceBuddy",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2"
+    },
+    {
+      "company": "AKTEK",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2"
+    },
+    {
+      "company": "BEST Resource",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2"
+    },
+    {
+      "company": "InnovacodeCR",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2"
+    },
+    {
+      "company": "Moovin",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=2"
+    },
+    {
+      "company": "Nativo Latam",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2"
+    },
+    {
+      "company": "NCQ Technologies",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3"
+    },
+    {
+      "company": "Software Solutions S.A.",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3"
+    },
+    {
+      "company": "Soltig",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3"
+    },
+    {
+      "company": "Pangea Holdings",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3"
+    },
+    {
+      "company": "WeCode",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3"
+    },
+    {
+      "company": "Architect Technology Solutions (ATS)",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3"
+    },
+    {
+      "company": "CNET Technology Systems",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3"
+    },
+    {
+      "company": "Dinámica Consultores Internacional S.A. (DCI)",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3"
+    },
+    {
+      "company": "Factúrele",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=2"
+    },
+    {
+      "company": "Siftia",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3"
+    },
+    {
+      "company": "Three Rivers Software Ltda.",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4"
+    },
+    {
+      "company": "Facture.cr",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=2"
+    },
+    {
+      "company": "Avify",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=2"
+    },
+    {
+      "company": "INELDAT (Intercambio Electrónico de Datos S.A.)",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=2"
+    },
+    {
+      "company": "Novitec Consultores en Aplicaciones S.A.",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Novitec Consultores en Aplicaciones S.A.",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4"
+    },
+    {
+      "company": "PIXDEA",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4"
+    },
+    {
+      "company": "POSMOVI (Design Soft S.A.)",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3"
+    },
+    {
+      "company": "PROCOM",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3"
+    },
+    {
+      "company": "Ridivi S.A.",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3"
+    },
+    {
+      "company": "SmartFacturaCR (Smart Process CR)",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3"
+    },
+    {
+      "company": "Softland Costa Rica",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3"
+    },
+    {
+      "company": "Ticontable (HNG Carmenta Global Group S.A.)",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3"
+    },
+    {
+      "company": "AutoPlanilla (NeoProc S.A.)",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3"
+    },
+    {
+      "company": "Ibylit",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3"
+    },
+    {
+      "company": "Lantern Technologies",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Lantern Technologies",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4"
+    },
+    {
+      "company": "Processim Labs",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3"
+    },
+    {
+      "company": "Egobytes",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5"
+    },
+    {
+      "company": "Snap Compliance",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3"
+    },
+    {
+      "company": "Factun",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3"
+    },
+    {
+      "company": "Fygaro",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3"
+    },
+    {
+      "company": "Harvie (Hey Harvie)",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3"
+    },
+    {
+      "company": "Huli",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3"
+    },
+    {
+      "company": "Mission Inbox",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3"
+    },
+    {
+      "company": "Monibyte (Impesa)",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3"
+    },
+    {
+      "company": "Neotecnologías",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4"
+    },
+    {
+      "company": "Nidux",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4"
+    },
+    {
+      "company": "Nominar",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4"
+    },
+    {
+      "company": "Nova Sistem Developers CR",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5"
+    },
+    {
+      "company": "ONVO Costa Rica S.A.",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4"
+    },
+    {
+      "company": "Slidebean",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4"
+    },
+    {
+      "company": "Stable Facturador Electrónico (Redcom Labs)",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4"
+    },
+    {
+      "company": "Teledolar",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4"
+    },
+    {
+      "company": "Tilopay (Tilopay Soluciones Comerciales Ltda.)",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4"
+    },
+    {
+      "company": "Wolk Software",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5"
+    },
+    {
+      "company": "Hermes Soft",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6"
+    },
+    {
+      "company": "MiHost",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "MiHost",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6"
+    },
+    {
+      "company": "SOIN Soluciones Integrales",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6"
+    },
+    {
+      "company": "Talentify (Ensensis)",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4"
+    },
+    {
+      "company": "SECSA",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6"
+    },
+    {
+      "company": "Software and Consulting Group (SCG)",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Software and Consulting Group (SCG)",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6"
+    },
+    {
+      "company": "Bmaxim",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4"
+    },
+    {
+      "company": "Businesspro",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Businesspro",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6"
+    },
+    {
+      "company": "Helm360",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6"
+    },
+    {
+      "company": "Innovative S.A. (NovaToken)",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4"
+    },
+    {
+      "company": "Inversiones Next Curve S.A.",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6"
+    },
+    {
+      "company": "Logosoft (Punto de Ventas Logosoft)",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=5"
+    },
+    {
+      "company": "Infoware",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=5"
+    },
+    {
+      "company": "Integrama",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7"
+    },
+    {
+      "company": "Avocash",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Avocash",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=5"
+    },
+    {
+      "company": "Grupo Naby",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=5"
+    },
+    {
+      "company": "Sicsoft",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=5"
+    },
+    {
+      "company": "Siku",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=5"
+    },
+    {
+      "company": "Zunify",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=5"
+    },
+    {
+      "company": "Soefe Software",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers"
+    },
+    {
+      "company": "5e Creative Labs",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "5e Creative Labs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers"
+    },
+    {
+      "company": "Akurey",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Akurey",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers"
+    },
+    {
+      "company": "Arkkosoft",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Arkkosoft",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers"
+    },
+    {
+      "company": "Coliand Studio",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Coliand Studio",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers"
+    },
+    {
+      "company": "Edenia",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Edenia",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers"
+    },
+    {
+      "company": "Emerald Studio",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers"
+    },
+    {
+      "company": "Flecha Roja Technologies",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers"
+    },
+    {
+      "company": "GBSYS",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "GBSYS",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers"
+    },
+    {
+      "company": "Grupo Asesor en Informática",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers"
+    },
+    {
+      "company": "Kambda",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Kambda",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers"
+    },
+    {
+      "company": "kiub",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "kiub",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers"
+    },
+    {
+      "company": "Luminon Studios",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers"
+    },
+    {
+      "company": "Near Coding",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Near Coding",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers"
+    },
+    {
+      "company": "Novacomp",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Novacomp",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2"
+    },
+    {
+      "company": "Oriceti Software Studio",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Oriceti Software Studio",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2"
+    },
+    {
+      "company": "ParallelDevs",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "ParallelDevs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2"
+    },
+    {
+      "company": "Pertec Global Services",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Pertec Global Services",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2"
+    },
+    {
+      "company": "Sapiens Development",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Sapiens Development",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2"
+    },
+    {
+      "company": "Trifecta Software",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Trifecta Software",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2"
+    },
+    {
+      "company": "Villalta Tech",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2"
+    },
+    {
+      "company": "WOW Emotions",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2"
+    },
+    {
+      "company": "Edify Software Consulting",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Edify Software Consulting",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2"
+    },
+    {
+      "company": "Opal Interactive",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3"
+    },
+    {
+      "company": "Software Factory CR",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3"
+    },
+    {
+      "company": "Atom Soluciones",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3"
+    },
+    {
+      "company": "Costa Rica Virtual",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3"
+    },
+    {
+      "company": "First Factory",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "First Factory",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3"
+    },
+    {
+      "company": "Quality XP Development (QXD)",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3"
+    },
+    {
+      "company": "TicoDesign",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3"
+    },
+    {
+      "company": "Web Mentor",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3"
+    },
+    {
+      "company": "Alternativo Studio",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3"
+    },
+    {
+      "company": "Broditec",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3"
+    },
+    {
+      "company": "DATAi",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3"
+    },
+    {
+      "company": "321 Solutions",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4"
+    },
+    {
+      "company": "Salomon Web Services",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4"
+    },
+    {
+      "company": "ReinSystems",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4"
+    },
+    {
+      "company": "AraWeb CR",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "AraWeb CR",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4"
+    },
+    {
+      "company": "10Pearls Costa Rica",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4"
+    },
+    {
+      "company": "Aubrant Digital",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Aubrant Digital",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4"
+    },
+    {
+      "company": "Cecropia Solutions",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4"
+    },
+    {
+      "company": "Drago's House",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4"
+    },
+    {
+      "company": "EffectiveSoft",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "EffectiveSoft",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4"
+    },
+    {
+      "company": "EX Squared LATAM",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4"
+    },
+    {
+      "company": "Fair Play Labs",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Fair Play Labs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4"
+    },
+    {
+      "company": "Gorilla Logic",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Gorilla Logic",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4"
+    },
+    {
+      "company": "HatchWorks AI",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "HatchWorks AI",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4"
+    },
+    {
+      "company": "Infosgroup",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4"
+    },
+    {
+      "company": "Intertec International",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Intertec International",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4"
+    },
+    {
+      "company": "Irazu Labs",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4"
+    },
+    {
+      "company": "Neural Coders",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Neural Coders",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5"
+    },
+    {
+      "company": "People Apps",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5"
+    },
+    {
+      "company": "Pixel506",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Pixel506",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5"
+    },
+    {
+      "company": "Proximity Costa Rica",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5"
+    },
+    {
+      "company": "Softon Digital (Softon ITG)",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5"
+    },
+    {
+      "company": "Software Mind",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Software Mind",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5"
+    },
+    {
+      "company": "U Devs",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5"
+    },
+    {
+      "company": "WAM Digital",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5"
+    },
+    {
+      "company": "weKnow Inc.",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5"
+    },
+    {
+      "company": "Factor K Software",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Factor K Software",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5"
+    },
+    {
+      "company": "Fuzyon Agency",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5"
+    },
+    {
+      "company": "ADVITERS",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5"
+    },
+    {
+      "company": "FusionHit",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "FusionHit",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5"
+    },
+    {
+      "company": "GuruX",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5"
+    },
+    {
+      "company": "Pernix Solutions",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Pernix-Solutions",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5"
+    },
+    {
+      "company": "Cipherio",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5"
+    },
+    {
+      "company": "Elva AI",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5"
+    },
+    {
+      "company": "HacksinCodigos",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "HacksinCodigos",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6"
+    },
+    {
+      "company": "Interfaz",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6"
+    },
+    {
+      "company": "NW Consulting Services",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6"
+    },
+    {
+      "company": "Centauro Solutions",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6"
+    },
+    {
+      "company": "DOTCREEK",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6"
+    },
+    {
+      "company": "isthmusit software",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6"
+    },
+    {
+      "company": "GTS",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6"
+    },
+    {
+      "company": "Aurigital",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6"
+    },
+    {
+      "company": "Babel Costa Rica",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6"
+    },
+    {
+      "company": "Dailysoft Technologies CR",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6"
+    },
+    {
+      "company": "Datasoft",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6"
+    },
+    {
+      "company": "DNAMIC",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6"
+    },
+    {
+      "company": "Y2K Webs",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7"
+    },
+    {
+      "company": "GInIEm S.A.",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7"
+    },
+    {
+      "company": "Golabs",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Golabs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7"
+    },
+    {
+      "company": "Jowasoft",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7"
+    },
+    {
+      "company": "SevenSoft",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7"
+    },
+    {
+      "company": "Snow Software Solutions",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7"
+    },
+    {
+      "company": "TICMA DIGITAL",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7"
+    },
+    {
+      "company": "Yakukua",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7"
+    },
+    {
+      "company": "Xubliminal",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7"
+    },
+    {
+      "company": "Unidad22",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7"
+    },
+    {
+      "company": "Incompany Solutions S.A.",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-alpunto-software-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7"
+    }
+  ]
+}

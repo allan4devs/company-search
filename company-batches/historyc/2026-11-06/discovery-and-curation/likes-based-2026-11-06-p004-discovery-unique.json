@@ -1,0 +1,264 @@
+{
+  "cohortId": "likes-based-2026-11-06-p004",
+  "generatedOn": "2026-11-06",
+  "catalog": {
+    "source": "MongoDB + bundled files + prior batches",
+    "mongoCompanies": 1320,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 221,
+    "indexedNames": 1348,
+    "indexedDomains": 1293
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 63,
+    "topTracks": [
+      {
+        "track": "Engineering",
+        "count": 36
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Software Engineering",
+        "count": 3
+      },
+      {
+        "track": "Node.js",
+        "count": 2
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        46
+      ],
+      [
+        "direct",
+        16
+      ],
+      [
+        "unknown",
+        1
+      ]
+    ]
+  },
+  "candidates": [
+    {
+      "name": "Netlify",
+      "website": "https://www.netlify.com",
+      "careersUrl": "https://www.netlify.com/careers/",
+      "sourceUrl": "https://www.netlify.com/careers/",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer directory and careers",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "OfferFit",
+      "website": "https://www.offerfit.ai",
+      "careersUrl": "https://www.offerfit.ai/careers",
+      "sourceUrl": "https://www.offerfit.ai/careers",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer directory and careers",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "OfferUp",
+      "website": "https://offerup.com",
+      "careersUrl": "https://about.offerup.com/careers/engineering/",
+      "sourceUrl": "https://about.offerup.com/careers/engineering/",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer directory and careers",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "StreamYard",
+      "website": "https://streamyard.com",
+      "careersUrl": "https://boards.greenhouse.io/streamyard",
+      "sourceUrl": "https://boards.greenhouse.io/streamyard",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer directory and careers",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Workramp",
+      "website": "https://www.workramp.com",
+      "careersUrl": "https://jobs.lever.co/workramp",
+      "sourceUrl": "https://jobs.lever.co/workramp",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer directory and careers",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Yalo",
+      "website": "https://www.yalo.com",
+      "careersUrl": "https://www.yalo.com/careers",
+      "sourceUrl": "https://www.yalo.com/careers",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer directory and careers",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Flatirons",
+      "website": "https://flatirons.com",
+      "careersUrl": "https://flatirons.com/careers",
+      "sourceUrl": "https://flatirons.com/careers",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer directory and careers",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Outliant",
+      "website": "https://outliant.com",
+      "careersUrl": "https://outliant.com/careers/",
+      "sourceUrl": "https://outliant.com/careers/",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer directory and careers",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Tech9",
+      "website": "https://tech9.com",
+      "careersUrl": "https://tech9.com/careers/",
+      "sourceUrl": "https://tech9.com/careers/",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer directory and careers",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Interfaz",
+      "website": "https://interfaz.io",
+      "careersUrl": "https://interfaz.io/careers/",
+      "sourceUrl": "https://interfaz.io/careers/",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer directory and careers",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Trifecta Software",
+      "website": "https://www.trifectasoftware.com/",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering",
+        "AI",
+        "Custom Software"
+      ],
+      "locations": [
+        "Costa Rica"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.trifectasoftware.com/about/",
+          "checkedOn": "2026-11-06",
+          "note": "The company says it develops custom software, was founded in San Jose, Costa Rica, and is based there."
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Costa Rica custom software engineering employer; no current public vacancy or careers page was found in this check."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-06"
+      },
+      "queryLane": "Costa Rica employer official careers wave 3"
+    }
+  ],
+  "uniqueCandidatesFound": 11,
+  "outputLimit": 1000
+}

@@ -1,8 +1,13 @@
 import { NextRequest, NextResponse } from "next/server";
 import { companies as sourceCompanies } from "@/lib/comp/companies";
 import { getCompanies } from "@/lib/comp/store";
-import { companyCategoryKeys, COMPANY_CATEGORIES } from "@/lib/comp/categories";
 import {
+  companyCategoryKeys,
+  COMPANY_CATEGORIES,
+  matchesCompanyCategory,
+} from "@/lib/comp/categories";
+import {
+  availableCompanyCountries,
   companyJobCategory,
   companySignals,
   matchesCompanyFilters,
@@ -23,22 +28,6 @@ const knownCategories = new Set(
 );
 const companyGroupKeys = ["companies"] as const;
 type CompanyGroupKey = (typeof companyGroupKeys)[number];
-
-function matchesCategory(
-  company: CompanyCard,
-  category: string,
-  preference?: CompanyPreference,
-) {
-  if (category === "archived") return !!preference?.archived;
-  if (category === "saved-jobs") return !!preference?.likedJobIds?.length;
-  if (preference?.archived) return false;
-  if (category === "all") return !preference?.liked && !preference?.disliked;
-  if (category === "dislikes") return !!preference?.disliked;
-  if (category === "companies") return !preference?.liked && !preference?.disliked;
-  if (preference?.disliked) return false;
-  if (category === "likes") return !!preference?.liked;
-  return company.categories?.includes(category) || false;
-}
 
 function readPreferenceKeys(params: URLSearchParams, name: string) {
   return params
@@ -77,6 +66,15 @@ async function searchCatalog(params: URLSearchParams) {
     },
     {},
   );
+  const latestNewBatchId = catalog
+    .filter((company) => company.tags?.includes("new") && company.extraction?.batchId)
+    .reduce((latest, company) => {
+      const updatedAt = Date.parse(company.extraction?.updatedAt || "") || 0;
+      if (!latest || updatedAt > latest.updatedAt) {
+        return { id: company.extraction?.batchId || "", updatedAt };
+      }
+      return latest;
+    }, undefined as { id: string; updatedAt: number } | undefined)?.id;
   const totalStats = {
     total: catalog.length,
     linked: catalog.filter((company) => company.website).length,
@@ -153,33 +151,34 @@ async function searchCatalog(params: URLSearchParams) {
     };
   const filters: CompanyFilters = {
     query: (params.get("query") || "").slice(0, 160),
+    latamCostaRicaFilter: params.get("latamCostaRicaFilter") === "true",
+    hideWithoutDomain: params.get("hideWithoutDomain") === "true",
+    country: params.get("country") || "all",
     technology: params.get("technology") || "all",
     role: params.get("role") || "all",
     level: params.get("level") || "all",
     region: params.get("region") || "all",
   };
   const researchOnly = params.get("researchOnly") === "true";
+  const countCategory = (view: string) =>
+    catalog.filter(
+      (company) =>
+        (!researchOnly || view === "nearshore" || !!company.research) &&
+        matchesCompanyCategory(
+          company,
+          view,
+          preferences[company.key],
+          latestNewBatchId,
+        ) &&
+        matchesCompanyFilters(company, filters),
+    ).length;
   const categoryCounts = Object.fromEntries(
     COMPANY_CATEGORIES.filter((item) => item.group !== "Job category").map(
-      (item) => [
-        item.key,
-        catalog.filter((company) =>
-          matchesCategory(company, item.key, preferences[company.key]),
-        ).length,
-      ],
+      (item) => [item.key, countCategory(item.key)],
     ),
   );
-  for (const savedView of ["all", "likes", "dislikes"] as const) {
-    categoryCounts[savedView] = catalog.filter((company) =>
-      matchesCategory(company, savedView, preferences[company.key]),
-    ).length;
-  }
-  categoryCounts.archived = catalog.filter((company) =>
-    matchesCategory(company, "archived", preferences[company.key]),
-  ).length;
-  categoryCounts["saved-jobs"] = catalog.filter((company) =>
-    matchesCategory(company, "saved-jobs", preferences[company.key]),
-  ).length;
+  categoryCounts.archived = countCategory("archived");
+  categoryCounts["saved-jobs"] = countCategory("saved-jobs");
   const matched = category === "saved-jobs"
     ? savedJobPreferences.flatMap((saved) => {
         const company = catalog.find(
@@ -188,6 +187,15 @@ async function searchCatalog(params: URLSearchParams) {
           candidate.jobs.some((job) => saved.likedJobIds.includes(job.id)),
         );
         if (!company) return [];
+        if (
+          !matchesCompanyCategory(
+            company,
+            category,
+            preferences[company.key],
+            latestNewBatchId,
+          )
+        )
+          return [];
         const wanted = new Set(saved.likedJobIds);
         const isSaved = (job: CompanyCard["jobs"][number]) =>
           wanted.has(job.id) || wanted.has(job.url);
@@ -199,7 +207,7 @@ async function searchCatalog(params: URLSearchParams) {
     : catalog.filter(
         (company) =>
           (!researchOnly || category === "nearshore" || !!company.research) &&
-          matchesCategory(company, category, preferences[company.key]) &&
+          matchesCompanyCategory(company, category, preferences[company.key], latestNewBatchId) &&
           matchesCompanyFilters(company, filters),
       );
   const pageCount = Math.max(1, Math.ceil(matched.length / pageSize));
@@ -215,6 +223,7 @@ async function searchCatalog(params: URLSearchParams) {
       page: currentPage,
       pageCount,
       pageSize,
+      countryOptions: availableCompanyCountries(catalog),
       categoryCounts,
       jobCounts,
       stats: totalStats,
@@ -242,6 +251,9 @@ export async function POST(request: NextRequest) {
       "page",
       "pageSize",
       "query",
+      "latamCostaRicaFilter",
+      "hideWithoutDomain",
+      "country",
       "technology",
       "role",
       "level",

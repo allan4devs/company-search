@@ -1,0 +1,203 @@
+{
+  "cohortId": "p003-ats-leads",
+  "generatedOn": "2026-11-07",
+  "catalog": {
+    "source": "MongoDB + bundled files + prior batches",
+    "mongoCompanies": 1220,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 121,
+    "indexedNames": 1261,
+    "indexedDomains": 1182
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 63,
+    "topTracks": [
+      {
+        "track": "Engineering",
+        "count": 36
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Software Engineering",
+        "count": 3
+      },
+      {
+        "track": "Node.js",
+        "count": 2
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        46
+      ],
+      [
+        "direct",
+        16
+      ],
+      [
+        "unknown",
+        1
+      ]
+    ]
+  },
+  "candidates": [
+    {
+      "name": "R2",
+      "queryLane": "Official ATS search CR software roles",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Fractal River",
+      "queryLane": "Official ATS search CR software roles",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Prometeo Talent",
+      "queryLane": "Official ATS search CR software roles",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Endless Access",
+      "queryLane": "Official ATS search CR software roles",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "AOA",
+      "queryLane": "Official ATS search CR software roles",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "AccelOne",
+      "queryLane": "Official ATS search CR software roles",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Cobalto Talent",
+      "queryLane": "Official ATS search CR software roles",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "VELAIO",
+      "queryLane": "Official ATS search CR software roles",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Upgrade",
+      "queryLane": "Official ATS search CR software roles",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Streamkap",
+      "queryLane": "Official ATS search CR software roles",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Makai Digital",
+      "queryLane": "Official ATS search CR software roles",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "NetForemost",
+      "queryLane": "Official ATS search CR software roles",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "SpryPoint",
+      "queryLane": "Official ATS search CR software roles",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "MagmaLabs",
+      "queryLane": "Official ATS search CR software roles",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Marathon Talent",
+      "queryLane": "Official ATS search CR software roles",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Colibricode",
+      "queryLane": "Official ATS search CR software roles",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Blackfluo.ai",
+      "queryLane": "Official ATS search CR software roles",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "thinkbridge",
+      "queryLane": "Official ATS search CR software roles",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Fortinet",
+      "queryLane": "Official ATS search CR software roles",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Openvale Group",
+      "queryLane": "Official ATS search CR software roles",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "AltScore",
+      "queryLane": "Official ATS search CR software roles",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Appsilon",
+      "queryLane": "Official ATS search CR software roles",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "DoiT International",
+      "queryLane": "Official ATS search CR software roles",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "MetalBear",
+      "queryLane": "Official ATS search CR software roles",
+      "needsOfficialDomainResolution": true
+    }
+  ],
+  "uniqueCandidatesFound": 24,
+  "outputLimit": 100
+}

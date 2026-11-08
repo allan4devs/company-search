@@ -1,0 +1,208 @@
+{
+  "cohortId": "likes-based-2026-11-07-p007-latam",
+  "checkedOn": "2026-11-07",
+  "inputFiles": [
+    "company-batches\\historyc\\2026-11-07\\other\\p007-fresh-latam-employers.json"
+  ],
+  "inputCount": 10,
+  "uniqueCount": 0,
+  "outputCount": 0,
+  "duplicateCount": 10,
+  "missingIdentityCount": 0,
+  "catalog": {
+    "source": "MongoDB + bundled files + prior batches",
+    "mongoCompanies": 1420,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 321,
+    "indexedNames": 1437,
+    "indexedDomains": 1382
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 63,
+    "topTracks": [
+      {
+        "track": "Engineering",
+        "count": 36
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Software Engineering",
+        "count": 3
+      },
+      {
+        "track": "Node.js",
+        "count": 2
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        46
+      ],
+      [
+        "direct",
+        16
+      ],
+      [
+        "unknown",
+        1
+      ]
+    ]
+  },
+  "queryLanes": [
+    {
+      "lane": "Official LATAM remote engineering careers",
+      "leads": 10,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    }
+  ],
+  "entries": [
+    {
+      "company": "Advancio",
+      "domain": "advancio.com",
+      "queryLane": "Official LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\other\\p007-fresh-latam-employers.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Advancio",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.advancio.com/careers/"
+    },
+    {
+      "company": "Kodalab",
+      "domain": "kodalab.ai",
+      "queryLane": "Official LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\other\\p007-fresh-latam-employers.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Kodalab",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://kodalab.ai/careers"
+    },
+    {
+      "company": "Sapiens Development",
+      "domain": "sapiensdev.com",
+      "queryLane": "Official LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\other\\p007-fresh-latam-employers.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Sapiens Development",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://careers.sapiensdev.com/"
+    },
+    {
+      "company": "Devlane",
+      "domain": "devlane.com",
+      "queryLane": "Official LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\other\\p007-fresh-latam-employers.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Devlane",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://careers.devlane.com/jobs"
+    },
+    {
+      "company": "Admios",
+      "domain": "admios.com",
+      "queryLane": "Official LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\other\\p007-fresh-latam-employers.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Admios",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.admios.com/careers"
+    },
+    {
+      "company": "Able",
+      "domain": "able.co",
+      "queryLane": "Official LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\other\\p007-fresh-latam-employers.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Able",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://new.able.co/careers"
+    },
+    {
+      "company": "Azumo",
+      "domain": "azumo.com",
+      "queryLane": "Official LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\other\\p007-fresh-latam-employers.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Azumo",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://apply.workable.com/azumo/j/95E09FC57F"
+    },
+    {
+      "company": "Siblings Software",
+      "domain": "siblingssoftware.com",
+      "queryLane": "Official LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\other\\p007-fresh-latam-employers.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Siblings Software",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://siblingssoftware.com/en/careers/"
+    },
+    {
+      "company": "Mahisoft",
+      "domain": "mahisoft.com",
+      "queryLane": "Official LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\other\\p007-fresh-latam-employers.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Mahisoft",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://mahisoft.com/careers/"
+    },
+    {
+      "company": "Bluelight Consulting",
+      "domain": "bluelightconsulting.com",
+      "queryLane": "Official LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\other\\p007-fresh-latam-employers.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Bluelight Consulting",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.lever.co/bluelightconsulting?workplaceType=remote"
+    }
+  ]
+}

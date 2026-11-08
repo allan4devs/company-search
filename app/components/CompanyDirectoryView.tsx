@@ -64,7 +64,24 @@ export function CompanyDirectoryView({
   const [groupSummaries, setGroupSummaries] =
     useState<CompanyDirectoryGroupSummaries>({});
   const [keywordQuery, setKeywordQuery] = useState("");
+  const [latamCostaRicaFilter, setLatamCostaRicaFilter] = useState(false);
+  const [hideWithoutDomain, setHideWithoutDomain] = useState(false);
+  const [countryFilter, setCountryFilter] = useState("all");
+  const [countryOptions, setCountryOptions] = useState<string[]>([]);
+  const [visibleCompaniesByFilter, setVisibleCompaniesByFilter] = useState<
+    Partial<Record<CompanyDirectoryMainFilter, CompanyCard[]>>
+  >({});
   const [selectionRestored, setSelectionRestored] = useState(false);
+  const selectCompany = useCallback((company: CompanyCard | null) => {
+    setSelectedCompany(company);
+    setJobTitle("");
+    setJobUrl("");
+    setJobLocation("");
+    setEditingJobId(null);
+    setAddingJob(false);
+    setSharingJobId(null);
+    setShareLink("");
+  }, []);
   useEffect(() => {
     try {
       const saved = sessionStorage.getItem("cv-selected-company-v1");
@@ -95,11 +112,11 @@ export function CompanyDirectoryView({
   useEffect(() => {
     if (!selectedCompany) return;
     const closeOnEscape = (event: KeyboardEvent) => {
-      if (event.key === "Escape") setSelectedCompany(null);
+      if (event.key === "Escape") selectCompany(null);
     };
     window.addEventListener("keydown", closeOnEscape);
     return () => window.removeEventListener("keydown", closeOnEscape);
-  }, [selectedCompany]);
+  }, [selectedCompany, selectCompany]);
   const hasAllSummaries = COMPANY_GROUPS.every(
     (group) => groupSummaries[group.key],
   );
@@ -107,16 +124,12 @@ export function CompanyDirectoryView({
     const counts: Partial<Record<CompanyDirectoryMainFilter, number>> = {};
     const savedViews: CompanyDirectoryCategory[] = [
       "all",
+      "new",
       "likes",
       "dislikes",
       "archived",
       "saved-jobs",
     ];
-    for (const group of COMPANY_GROUPS) {
-      const summary = groupSummaries[group.key];
-      if (!summary) continue;
-      counts[group.key] = summary.stats.total;
-    }
     if (hasAllSummaries) {
       for (const savedView of savedViews) {
         counts[savedView] = COMPANY_GROUPS.reduce(
@@ -126,13 +139,8 @@ export function CompanyDirectoryView({
         );
       }
     }
-    const savedPreferences = Object.values(preferences.preferences);
-    counts.likes = savedPreferences.filter((preference) => preference.liked && !preference.archived).length;
-    counts.dislikes = savedPreferences.filter((preference) => preference.disliked && !preference.archived).length;
-    counts.archived = savedPreferences.filter((preference) => preference.archived).length;
-    counts["saved-jobs"] = savedPreferences.filter((preference) => (preference.likedJobIds || []).length > 0).length;
     return counts;
-  }, [groupSummaries, hasAllSummaries, preferences.preferences]);
+  }, [groupSummaries, hasAllSummaries]);
   const stats = useMemo(() => {
     if (!hasAllSummaries) return emptyStats;
     return COMPANY_GROUPS.reduce((total, group) => {
@@ -164,11 +172,15 @@ export function CompanyDirectoryView({
     },
     [],
   );
-  const showAllGroups =
-    tab === "all" ||
-    tab === "likes" ||
-    tab === "dislikes" ||
-    tab === "archived";
+  const handleVisibleCompaniesChange = useCallback(
+    (filter: CompanyDirectoryMainFilter, companies: CompanyCard[]) => {
+      setVisibleCompaniesByFilter((current) => ({ ...current, [filter]: companies }));
+    },
+    [],
+  );
+  const handleCountryOptionsChange = useCallback((countries: string[]) => {
+    setCountryOptions(countries);
+  }, []);
   const selectedPreference = selectedCompany
     ? preferences.preferences[selectedCompany.key] ||
       selectedCompany.legacyKeys
@@ -187,8 +199,22 @@ export function CompanyDirectoryView({
     reactionType?: "like" | "dislike",
   ) => {
     const saved = await preferences.updatePreference(key, change, reactionType);
-    if (saved && ((reactionType === "dislike" && change.disliked) || (reactionType === "like" && change.liked))) {
-      setSelectedCompany(null);
+    if (saved && reactionType === "dislike") {
+      const isSelectedCompany =
+        selectedCompany?.key === key || selectedCompany?.legacyKeys?.includes(key);
+      if (isSelectedCompany) {
+        const currentCompanies = visibleCompaniesByFilter[tab] || data.companies;
+        const isDislikedCompany = (company: CompanyCard) =>
+          company.key === key || company.legacyKeys?.includes(key);
+        const currentIndex = currentCompanies.findIndex(isDislikedCompany);
+        const nextCompany =
+          currentIndex >= 0
+            ? currentCompanies[currentIndex + 1] || currentCompanies[currentIndex - 1]
+            : currentCompanies.find((company) => !isDislikedCompany(company));
+        selectCompany(nextCompany || null);
+      }
+    } else if (saved && reactionType === "like" && change.liked) {
+      selectCompany(null);
     }
     return saved;
   };
@@ -273,6 +299,13 @@ export function CompanyDirectoryView({
             groupCounts={groupCounts}
             keywordQuery={keywordQuery}
             setKeywordQuery={setKeywordQuery}
+            latamCostaRicaFilter={latamCostaRicaFilter}
+            setLatamCostaRicaFilter={setLatamCostaRicaFilter}
+            hideWithoutDomain={hideWithoutDomain}
+            setHideWithoutDomain={setHideWithoutDomain}
+            country={countryFilter}
+            setCountry={setCountryFilter}
+            countryOptions={countryOptions}
           />
         </aside>
         <div className="min-w-0">
@@ -306,11 +339,17 @@ export function CompanyDirectoryView({
             <AllCompaniesDirectorySection
               filter={tab}
               keywordQuery={keywordQuery}
-              active={showAllGroups || tab === "companies" || tab === "saved-jobs"}
+              latamCostaRicaFilter={latamCostaRicaFilter}
+              hideWithoutDomain={hideWithoutDomain}
+              country={countryFilter}
+              active
               data={data}
               preferences={preferences}
               onSummary={handleSummary}
-              onOpenCompany={setSelectedCompany}
+              onVisibleCompaniesChange={handleVisibleCompaniesChange}
+              onCountryOptionsChange={handleCountryOptionsChange}
+              onOpenCompany={selectCompany}
+              onPreferenceChange={updateSelectedPreference}
               selectedCompanyKey={selectedCompany?.key}
             />
           </div>
@@ -361,7 +400,7 @@ export function CompanyDirectoryView({
                 </button>
                 <button
                   type="button"
-                  onClick={() => setSelectedCompany(null)}
+                  onClick={() => selectCompany(null)}
                   aria-label="Close"
                   className="rounded-lg p-2 text-zinc-400 hover:bg-zinc-800 hover:text-white"
                 >

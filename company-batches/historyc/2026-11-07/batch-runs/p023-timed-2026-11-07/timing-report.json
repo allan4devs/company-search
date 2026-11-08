@@ -1,0 +1,127 @@
+{
+  "cohortId": "likes-based-2026-11-07-p023",
+  "generatedOn": "2026-11-07",
+  "timingsMs": {
+    "sourceFetchWallMs": 0,
+    "sourceFetchSumMs": 0,
+    "inputReadMergeWriteMs": 25,
+    "nameDedupeProcessMs": 3168,
+    "readNameUniqueAndSnapshotMs": 13,
+    "websiteResolutionSumMs": 0,
+    "directoryProfileResolutionSumMs": 0,
+    "fallbackDomainResolutionSumMs": 0,
+    "websiteVerificationProcessSumMs": 5483,
+    "websiteVerificationInternalSumMs": 5317,
+    "finalDomainDedupeProcessSumMs": 207,
+    "strictPoolWriteSumMs": 2,
+    "totalElapsedBeforeReportWriteMs": 8910
+  },
+  "sourceDurations": [],
+  "verificationSlices": [
+    {
+      "offset": 0,
+      "input": 27,
+      "directoryProfileResolutionNeeded": 0,
+      "directoryProfileSitesFound": 0,
+      "profileResolveProcessMs": 0,
+      "websiteResolutionNeeded": 0,
+      "resolvedWithWebsiteCandidate": 0,
+      "fallbackResolveProcessMs": 0,
+      "siteReadyCandidates": 27,
+      "resolverProcessMs": 0,
+      "verifierProcessMs": 5483,
+      "officialPagesChecked": 41,
+      "elapsedMs": 5317,
+      "strictPasses": 26,
+      "queryLanes": [
+        {
+          "lane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+          "checked": 12,
+          "reachable": 12,
+          "regionAndFit": 12,
+          "localOrEligibleAndFit": 12,
+          "regionAndFitRate": 1,
+          "localOrEligibleAndFitRate": 1,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+          "checked": 5,
+          "reachable": 5,
+          "regionAndFit": 5,
+          "localOrEligibleAndFit": 5,
+          "regionAndFitRate": 1,
+          "localOrEligibleAndFitRate": 1,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — Uruguay",
+          "checked": 4,
+          "reachable": 4,
+          "regionAndFit": 4,
+          "localOrEligibleAndFit": 4,
+          "regionAndFitRate": 1,
+          "localOrEligibleAndFitRate": 1,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Aworkado remote software engineering — LATAM postings",
+          "checked": 2,
+          "reachable": 2,
+          "regionAndFit": 2,
+          "localOrEligibleAndFit": 2,
+          "regionAndFitRate": 1,
+          "localOrEligibleAndFitRate": 1,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "official Costa Rica software employers",
+          "checked": 1,
+          "reachable": 1,
+          "regionAndFit": 1,
+          "localOrEligibleAndFit": 1,
+          "regionAndFitRate": 1,
+          "localOrEligibleAndFitRate": 1,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Proveedores de Costa Rica software supplier directory",
+          "checked": 1,
+          "reachable": 1,
+          "regionAndFit": 1,
+          "localOrEligibleAndFit": 1,
+          "regionAndFitRate": 1,
+          "localOrEligibleAndFitRate": 1,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "CAMTIC Costa Rica ICT member directory",
+          "checked": 1,
+          "reachable": 1,
+          "regionAndFit": 1,
+          "localOrEligibleAndFit": 1,
+          "regionAndFitRate": 1,
+          "localOrEligibleAndFitRate": 1,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Official ATS LATAM engineering roles",
+          "checked": 1,
+          "reachable": 1,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        }
+      ],
+      "verificationFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\site-slice-001-verified.json",
+      "strictPoolWriteMs": 2,
+      "domainDedupeProcessMs": 207
+    }
+  ],
+  "artifacts": {},
+  "targetUniqueCompanies": 100,
+  "verifiedDomainUniqueCompanies": 26,
+  "imported": false
+}

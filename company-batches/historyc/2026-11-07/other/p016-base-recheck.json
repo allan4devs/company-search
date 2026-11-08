@@ -1,0 +1,2917 @@
+{
+  "cohortId": "likes-based-2026-11-07-p016-base",
+  "generatedOn": "2026-11-07",
+  "catalog": {
+    "source": "MongoDB + bundled files",
+    "mongoCompanies": 1520,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 0,
+    "indexedNames": 1621,
+    "indexedDomains": 1566
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 65,
+    "topTracks": [
+      {
+        "track": "Engineering",
+        "count": 36
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Software Engineering",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Node.js",
+        "count": 2
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        47
+      ],
+      [
+        "direct",
+        16
+      ],
+      [
+        "unknown",
+        2
+      ]
+    ]
+  },
+  "dislikeBaseline": {
+    "activeDislikedWithCostaRicaOrLatamEvidence": 92,
+    "dislikedTracks": [
+      {
+        "track": "Engineering",
+        "count": 64
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 8
+      },
+      {
+        "track": "Software Engineering",
+        "count": 7
+      },
+      {
+        "track": "Backend",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 5
+      },
+      {
+        "track": "Java Backend",
+        "count": 3
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 3
+      },
+      {
+        "track": "Python",
+        "count": 3
+      },
+      {
+        "track": "Nearshore",
+        "count": 3
+      },
+      {
+        "track": "Full Stack",
+        "count": 3
+      },
+      {
+        "track": "Go",
+        "count": 1
+      },
+      {
+        "track": "Node.js",
+        "count": 1
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        53
+      ],
+      [
+        "direct",
+        35
+      ],
+      [
+        "unknown",
+        4
+      ]
+    ]
+  },
+  "candidates": [
+    {
+      "name": "SECSA",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "website": "https://secsacr.net/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "Costa Rica (official company-level signal; confirm work eligibility on each posting)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://secsacr.net/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support relevant software/technology work and Costa Rica presence; confirm job location and current openings on the careers page."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "321 Solutions",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "website": "https://321solutions.net/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "Costa Rica (official company-level signal; confirm work eligibility on each posting)",
+        "LATAM (remote eligibility stated; confirm Costa Rica on each posting)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://321solutions.net/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support relevant software/technology work and LATAM eligibility; confirm Costa Rica on each job posting."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "APPSUS SAS",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "website": "https://www.appsus.co/",
+      "careersUrl": "https://www.appsus.co/ecosistema/talent",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Colombia; confirm eligibility per opening)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.appsus.co/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://www.appsus.co/ecosistema/talent",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Colombia; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "ARCHIVOS Y SISTEMAS AYS SAS",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "website": "https://www.siged.co/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Colombia; confirm eligibility per opening)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.siged.co/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Colombia; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "BIOFILE SAS BIC",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "website": "https://www.biofile.com.co/es-co/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Colombia; confirm eligibility per opening)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.biofile.com.co/es-co/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Colombia; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Digital Consulting Group",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "website": "https://digitalcg.com.co/",
+      "careersUrl": "https://digitalcg.com.co/index.php/trabaja-con-nosotros/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Colombia; confirm eligibility per opening)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://digitalcg.com.co/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://digitalcg.com.co/index.php/trabaja-con-nosotros/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Colombia; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "DISEÑO Y APLICACIONES",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "website": "https://www.scorpiosoftware.com/dya/index.php",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Colombia; confirm eligibility per opening)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.scorpiosoftware.com/dya/index.php",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Colombia; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "E-TakeOff SAS",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "website": "http://www.e-takeoff.com/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Colombia; confirm eligibility per opening)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "http://www.e-takeoff.com/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Colombia; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "EL CREATIVO WEB S.A.S",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "website": "https://elcreativoweb.com/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Colombia; confirm eligibility per opening)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://elcreativoweb.com/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://elcreativoweb.com/agencia-de-marketing-digital-en-medellin/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://elcreativoweb.com/contacto/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Colombia; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "GCON4",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "website": "https://gcon4.com/es/home-es/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Mexico, Colombia; confirm eligibility per opening)",
+        "LATAM (official page names the region; confirm role eligibility on each posting)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://gcon4.com/es/home-es/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://gcon4.com/es/sobre-gcon4-unit4-partner-erp/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://gcon4.com/es/contactanos-unit4-erp-agresso-gcon4/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Mexico, Colombia; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Lyntik",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "website": "https://www.lyntik.co/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Colombia; confirm eligibility per opening)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.lyntik.co/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Colombia; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "RC Cloud Tech",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "website": "https://www.rccloudtech.com/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Colombia; confirm eligibility per opening)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.rccloudtech.com/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Colombia; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "TIQAL S.A.S.",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "website": "https://www.darumasoftware.com/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "Costa Rica (official company-level signal; confirm work eligibility on each posting)",
+        "LATAM (official company presence: Guatemala; confirm eligibility per opening)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.darumasoftware.com/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Guatemala; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Dappsco",
+      "queryLane": "Enterprise League software directory — Central America",
+      "website": "https://dappsco.io/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Colombia; confirm eligibility per opening)",
+        "LATAM (official page names the region; confirm role eligibility on each posting)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://dappsco.io/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Colombia; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Kirana Labs",
+      "queryLane": "Enterprise League software directory — Central America",
+      "website": "https://www.kiranalabs.com/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Mexico; confirm eligibility per opening)",
+        "LATAM (official page names the region; confirm role eligibility on each posting)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.kiranalabs.com/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Mexico; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "VEscape Labs",
+      "queryLane": "Enterprise League software directory — Central America",
+      "website": "https://www.vescapelabs.com/",
+      "careersUrl": "https://www.vescapelabs.com/careers",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Mexico; confirm eligibility per opening)",
+        "LATAM (official page names the region; confirm role eligibility on each posting)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.vescapelabs.com/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://www.vescapelabs.com/about",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://www.vescapelabs.com/careers",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Mexico; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "BeepQuest",
+      "queryLane": "Enterprise League software directory — Central America",
+      "website": "https://www.beepquest.com/",
+      "careersUrl": "https://www.beepquest.com/trabaja-con-nosotros/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Mexico; confirm eligibility per opening)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.beepquest.com/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://www.beepquest.com/trabaja-con-nosotros/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Mexico; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "TailorSoft S.A.S.",
+      "queryLane": "Enterprise League software directory — Central America",
+      "website": "https://www.tailorsoft.co/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Colombia; confirm eligibility per opening)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.tailorsoft.co/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Colombia; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Azdeyc Software",
+      "queryLane": "Enterprise League software directory — Mexico",
+      "website": "http://azdeyc.com/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Mexico; confirm eligibility per opening)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "http://azdeyc.com/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Mexico; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "CodeBranch",
+      "queryLane": "Enterprise League software directory — Colombia",
+      "website": "https://codebranch.co/",
+      "careersUrl": "https://codebranch.co/careers/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Colombia; confirm eligibility per opening)",
+        "LATAM (official page names the region; confirm role eligibility on each posting)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://codebranch.co/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://codebranch.co/careers/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Colombia; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "DEVELO",
+      "queryLane": "Enterprise League software directory — Argentina",
+      "website": "https://develo.software/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Argentina; confirm eligibility per opening)",
+        "LATAM (official page names the region; confirm role eligibility on each posting)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://develo.software/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Argentina; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Fersys",
+      "queryLane": "Enterprise League software directory — Argentina",
+      "website": "https://fersys.cloud/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Argentina; confirm eligibility per opening)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://fersys.cloud/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Argentina; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Syloper",
+      "queryLane": "Enterprise League software directory — Argentina",
+      "website": "https://syloper.com/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Argentina; confirm eligibility per opening)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://syloper.com/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Argentina; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Cabana Data",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "website": "https://cabanadata.com/",
+      "careersUrl": "https://cabanadata.com/ai-first-move#principio",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "Costa Rica (official company-level signal; confirm work eligibility on each posting)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://cabanadata.com/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://cabanadata.com/ai-first-move#principio",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support relevant software/technology work and Costa Rica presence; confirm job location and current openings on the careers page."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Broccoli Studios",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "website": "https://broccolistudios.com/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "Costa Rica (official company-level signal; confirm work eligibility on each posting)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://broccolistudios.com/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support relevant software/technology work and Costa Rica presence; confirm job location and current openings on the careers page."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "PilotCore",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "website": "https://www.pilotcore.net/",
+      "careersUrl": "https://www.pilotcore.net/#proceso",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "Costa Rica (official company-level signal; confirm work eligibility on each posting)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.pilotcore.net/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://www.pilotcore.net/#proceso",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support relevant software/technology work and Costa Rica presence; confirm job location and current openings on the careers page."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "IT-iCO",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "website": "https://www.it-ico.com/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "Costa Rica (official company-level signal; confirm work eligibility on each posting)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.it-ico.com/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support relevant software/technology work and Costa Rica presence; confirm job location and current openings on the careers page."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "MDG Developers Group",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "website": "https://mdgdevelopers.com/",
+      "careersUrl": "https://mdgdevelopers.com/careers/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "Costa Rica (official company-level signal; confirm work eligibility on each posting)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://mdgdevelopers.com/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://mdgdevelopers.com/careers/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support relevant software/technology work and Costa Rica presence; confirm job location and current openings on the careers page."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Udersol",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "website": "https://udersol.com/",
+      "careersUrl": "https://udersol.com/staffing",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "Costa Rica (official company-level signal; confirm work eligibility on each posting)",
+        "LATAM (remote eligibility stated; confirm Costa Rica on each posting)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://udersol.com/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://udersol.com/staffing",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support relevant software/technology work and LATAM eligibility; confirm Costa Rica on each job posting."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "PCMASTERCR",
+      "queryLane": "The Manifest Costa Rica software directory — page 4",
+      "website": "https://pcmastercr.com/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "Costa Rica (official company-level signal; confirm work eligibility on each posting)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://pcmastercr.com/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support relevant software/technology work and Costa Rica presence; confirm job location and current openings on the careers page."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Grupo Argus",
+      "queryLane": "The Manifest Costa Rica software directory — page 4",
+      "website": "https://grupoargus.co.cr/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "Costa Rica (official company-level signal; confirm work eligibility on each posting)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://grupoargus.co.cr/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support relevant software/technology work and Costa Rica presence; confirm job location and current openings on the careers page."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "ITOS Cloud",
+      "queryLane": "The Manifest Costa Rica software directory — page 4",
+      "website": "https://www.itoscloud.com/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "Costa Rica (official company-level signal; confirm work eligibility on each posting)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.itoscloud.com/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support relevant software/technology work and Costa Rica presence; confirm job location and current openings on the careers page."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Synapptica",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "website": "https://synapptica.net/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "Costa Rica (official company-level signal; confirm work eligibility on each posting)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://synapptica.net/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support relevant software/technology work and Costa Rica presence; confirm job location and current openings on the careers page."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Asystec",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "website": "https://asystec.io/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "Costa Rica (official company-level signal; confirm work eligibility on each posting)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://asystec.io/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support relevant software/technology work and Costa Rica presence; confirm job location and current openings on the careers page."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Hiopos Costa Rica",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "website": "https://hiopos.co.cr/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "Costa Rica (official company-level signal; confirm work eligibility on each posting)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://hiopos.co.cr/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://hiopos.co.cr/quienes-somos/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://hiopos.co.cr/hioffice/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support relevant software/technology work and Costa Rica presence; confirm job location and current openings on the careers page."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "NearshoreWorks",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "website": "https://nearshoreworks.com/",
+      "careersUrl": "https://nearshoreworks.com/nearshore-talent-guide/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "Costa Rica (official company-level signal; confirm work eligibility on each posting)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://nearshoreworks.com/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://nearshoreworks.com/nearshore-talent-guide/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support relevant software/technology work and Costa Rica presence; confirm job location and current openings on the careers page."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "deLaGuayaba",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "website": "https://delaguayaba.com/",
+      "careersUrl": "https://delaguayaba.com/career/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "Costa Rica (official company-level signal; confirm work eligibility on each posting)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://delaguayaba.com/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://delaguayaba.com/career/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support relevant software/technology work and Costa Rica presence; confirm job location and current openings on the careers page."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Fundamentl Partners",
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "website": "https://www.fundamentlpartners.com/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "Costa Rica (official company-level signal; confirm work eligibility on each posting)",
+        "LATAM (official company presence: Mexico; confirm eligibility per opening)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.fundamentlpartners.com/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Mexico; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Brandy Creativity & Technology",
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "website": "https://brandy.la/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official page names the region; confirm role eligibility on each posting)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://brandy.la/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support relevant software/technology work and name LATAM; confirm the hiring country on each opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "ColibriCode",
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "website": "https://colibricode.com/",
+      "careersUrl": "https://colibricode.com/careers",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "Costa Rica (official company-level signal; confirm work eligibility on each posting)",
+        "LATAM (remote eligibility stated; confirm Costa Rica on each posting)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://colibricode.com/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://colibricode.com/about",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://colibricode.com/careers",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support relevant software/technology work and LATAM eligibility; confirm Costa Rica on each job posting."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Bridge Studio",
+      "queryLane": "Sortlist software development directory — Mexico",
+      "website": "https://bridgestudio.mx/",
+      "careersUrl": "https://bridgestudio.mx/contacto/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Mexico; confirm eligibility per opening)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://bridgestudio.mx/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://bridgestudio.mx/contacto/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Mexico; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Kivio sas",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "website": "https://www.kivio.com.co/es",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Colombia; confirm eligibility per opening)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.kivio.com.co/es",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://www.kivio.com.co/es/sobre-nosotros",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://www.kivio.com.co/es/contacto",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Colombia; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Tree Immersion Technologies",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "website": "https://treeimmersion.com/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Mexico, Colombia; confirm eligibility per opening)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://treeimmersion.com/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Mexico, Colombia; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Drunel Labs",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "website": "https://drunel.com/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Colombia; confirm eligibility per opening)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://drunel.com/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Colombia; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "HardBoxs",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "website": "https://hardboxs.com/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Colombia; confirm eligibility per opening)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://hardboxs.com/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Colombia; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Creasotol Diseño Web",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "website": "https://creasotol.com/",
+      "careersUrl": "https://creasotol.com/trabaje-con-nosotros",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "Costa Rica (official company-level signal; confirm work eligibility on each posting)",
+        "LATAM (official company presence: Colombia; confirm eligibility per opening)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://creasotol.com/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://creasotol.com/trabaje-con-nosotros",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Colombia; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Kubo S.A.S.",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "website": "https://www.kubo.co/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "Costa Rica (official company-level signal; confirm work eligibility on each posting)",
+        "LATAM (official company presence: Colombia; confirm eligibility per opening)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.kubo.co/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://www.kubo.co/contacto",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Colombia; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Joel Di Costa",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "website": "https://joeldicosta.com/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Argentina; confirm eligibility per opening)",
+        "LATAM (official page names the region; confirm role eligibility on each posting)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://joeldicosta.com/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Argentina; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Upway Digital - Agencia de Marketing Digital",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "website": "https://upwaydigitalsolutions.com/",
+      "careersUrl": "https://upwaydigitalsolutions.com/nosotros",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Chile, Argentina, Uruguay, Brazil; confirm eligibility per opening)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://upwaydigitalsolutions.com/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://upwaydigitalsolutions.com/nosotros",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://upwaydigitalsolutions.com/contacto",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Chile, Argentina; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Tupaca",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "website": "https://www.tupaca.com/es",
+      "careersUrl": "https://jobs.tupaca.com/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Argentina; confirm eligibility per opening)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.tupaca.com/es",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://jobs.tupaca.com/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Argentina; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "PSIWARE ™",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "website": "https://www.psiware.com.ar/es",
+      "careersUrl": "https://www.psiware.com.ar/careers",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Argentina; confirm eligibility per opening)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.psiware.com.ar/es",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://www.psiware.com.ar/careers",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Argentina; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Tecnomark Agency",
+      "queryLane": "Sortlist software development directory — Chile",
+      "website": "https://tecnomark.cl/",
+      "careersUrl": "https://tecnomark.cl/carreras",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Chile; confirm eligibility per opening)",
+        "LATAM (official page names the region; confirm role eligibility on each posting)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://tecnomark.cl/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://tecnomark.cl/carreras",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Chile; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "RESOLUTOR Consultores",
+      "queryLane": "Sortlist software development directory — Chile",
+      "website": "https://resolutor-ti.cl/",
+      "careersUrl": "https://resolutor-ti.cl/#servicios",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Chile; confirm eligibility per opening)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://resolutor-ti.cl/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://resolutor-ti.cl/nosotros/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://resolutor-ti.cl/#servicios",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Chile; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "twgroup",
+      "queryLane": "Sortlist software development directory — Chile",
+      "website": "https://twgroup.cl/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Chile; confirm eligibility per opening)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://twgroup.cl/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Chile; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "AlphaCorp AI",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "website": "https://alphacorp.ai/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Brazil; confirm eligibility per opening)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://alphacorp.ai/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Brazil; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Solcre Software & Staff Augmentation",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "website": "https://www.solcre.com/en/",
+      "careersUrl": "https://www.solcre.com/en/work-with-us/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Uruguay; confirm eligibility per opening)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.solcre.com/en/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://www.solcre.com/en/about-us/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://www.solcre.com/en/work-with-us/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Uruguay; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "SpaceDev",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "website": "https://spacedev.io/",
+      "careersUrl": "https://spacedev.io/careers",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "Costa Rica (official company-level signal; confirm work eligibility on each posting)",
+        "LATAM (official company presence: Mexico; confirm eligibility per opening)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://spacedev.io/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://spacedev.io/about-us",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://spacedev.io/careers",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Mexico; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Publicis Groupe",
+      "queryLane": "Official Costa Rica employer job pages — software/engineering roles",
+      "website": "https://www.publicisgroupe.com/fr/splash",
+      "careersUrl": "https://careers.publicisgroupe.com/jobs/180186?lang=en-US",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "Costa Rica (official company-level signal; confirm work eligibility on each posting)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "careers-page",
+          "url": "https://careers.publicisgroupe.com/jobs/180186?lang=en-US",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://www.publicisgroupe.com/fr/splash",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support relevant software/technology work and Costa Rica presence; confirm job location and current openings on the careers page."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "WAM Digital",
+      "queryLane": "GoodFirms Costa Rica software development directory",
+      "website": "https://wamdigital.com/",
+      "careersUrl": "https://wamdigital.com/careers",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "Costa Rica (official company-level signal; confirm work eligibility on each posting)",
+        "LATAM (official company presence: Colombia, Argentina, Brazil; confirm eligibility per opening)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://wamdigital.com/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://wamdigital.com/careers",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Colombia, Argentina; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Link Design",
+      "queryLane": "Official Costa Rica software companies",
+      "website": "https://linkdesign.cr/",
+      "careersUrl": "https://linkdesign.cr/en/desarrollo-de-software-costa-rica",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "Costa Rica (official company-level signal; confirm work eligibility on each posting)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://linkdesign.cr/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://linkdesign.cr/en/desarrollo-de-software-costa-rica",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://linkdesign.cr/contacto",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support relevant software/technology work and Costa Rica presence; confirm job location and current openings on the careers page."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Foundever",
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "website": "https://foundever.com/",
+      "careersUrl": "https://jobs.foundever.com/?utm_source=corpwebsite&#038;utm_medium=CTAtopbar",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "Costa Rica (official company-level signal; confirm work eligibility on each posting)",
+        "LATAM (remote eligibility stated; confirm Costa Rica on each posting)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://foundever.com/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://jobs.foundever.com/?utm_source=corpwebsite&",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://jobs.foundever.com/?utm_source=corpwebsite&#038;utm_medium=CTAtopbar",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support relevant software/technology work and LATAM eligibility; confirm Costa Rica on each job posting."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Airalo",
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "website": "https://www.airalo.com/",
+      "careersUrl": "https://www.airalo.com/airalo-careers/job-vacancies",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "Costa Rica (official company-level signal; confirm work eligibility on each posting)",
+        "LATAM (official company presence: Mexico, Guatemala, Nicaragua, Panama; confirm eligibility per opening)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "careers-page",
+          "url": "https://www.airalo.com/airalo-careers/job-vacancies",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://www.airalo.com/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://www.airalo.com/about-us/about-airalo",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Mexico, Guatemala; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Hire Overseas",
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "website": "https://www.hireoverseas.com/",
+      "careersUrl": "https://www.hireoverseas.com/services/managed-talent-hire",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (remote eligibility stated; confirm Costa Rica on each posting)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.hireoverseas.com/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://www.hireoverseas.com/services/managed-talent-hire",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support relevant software/technology work and LATAM eligibility; confirm Costa Rica on each job posting."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Coral",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "website": "https://www.coralcr.com/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "Costa Rica (official company-level signal; confirm work eligibility on each posting)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.coralcr.com/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support relevant software/technology work and Costa Rica presence; confirm job location and current openings on the careers page."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Practia",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "website": "https://practia.global/",
+      "careersUrl": "https://practia.global/Recruiting/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (remote eligibility stated; confirm Costa Rica on each posting)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://practia.global/Recruiting/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://practia.global/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support relevant software/technology work and LATAM eligibility; confirm Costa Rica on each job posting."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Interfell",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "website": "https://www.interfell.com/",
+      "careersUrl": "https://www.interfell.com/spk-talento",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (remote eligibility stated; confirm Costa Rica on each posting)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.interfell.com/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://www.interfell.com/spk-talento",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support relevant software/technology work and LATAM eligibility; confirm Costa Rica on each job posting."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Sofka Technologies",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "website": "https://sofka.com.co/es/",
+      "careersUrl": "https://oportunidades.sofka.com.co/jobs",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official page names the region; confirm role eligibility on each posting)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://sofka.com.co/es/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://oportunidades.sofka.com.co/jobs",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://sofka.com.co/es/servicios/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support relevant software/technology work and name LATAM; confirm the hiring country on each opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Stefanini",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "website": "https://stefanini.com/es/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official page names the region; confirm role eligibility on each posting)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://stefanini.com/es/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://stefanini.com/es/newsroom/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support relevant software/technology work and name LATAM; confirm the hiring country on each opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Elaniin",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "website": "https://www.elaniin.com/",
+      "careersUrl": "https://www.elaniin.com/contact-us",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official page names the region; confirm role eligibility on each posting)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.elaniin.com/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://www.elaniin.com/contact-us",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support relevant software/technology work and name LATAM; confirm the hiring country on each opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Compass UOL",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "website": "https://aircompany.ai/en/aws/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (remote eligibility stated; confirm Costa Rica on each posting)",
+        "LATAM (official company presence: Brazil; confirm eligibility per opening)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://aircompany.ai/en/aws/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support relevant software/technology work and LATAM eligibility; confirm Costa Rica on each job posting."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Making Sense",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "website": "https://makingsense.com/",
+      "careersUrl": "https://makingsense.com/careers",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Argentina; confirm eligibility per opening)",
+        "LATAM (official page names the region; confirm role eligibility on each posting)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://makingsense.com/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://makingsense.com/about-us",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://makingsense.com/careers",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Argentina; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Neoris",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "website": "https://epamneoris.com/",
+      "careersUrl": "https://epamneoris.com/web/guest/-/neoris-lanza-la-cuarta-edici%C3%B3n-de-impulsando-talento-para-formar-a-j%C3%B3venes-en-tecnolog%C3%ADa?redirect=%2F",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Mexico, Colombia, Peru, Chile; confirm eligibility per opening)",
+        "LATAM (official page names the region; confirm role eligibility on each posting)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://epamneoris.com/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://epamneoris.com/web/guest/-/neoris-lanza-la-cuarta-edici%C3%B3n-de-impulsando-talento-para-formar-a-j%C3%B3venes-en-tecnolog%C3%ADa?redirect=%2F",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Mexico, Colombia; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Intraway",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "website": "https://www.intraway.com/",
+      "careersUrl": "https://www.intraway.com/work-with-us/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Colombia, Argentina, Uruguay, Paraguay; confirm eligibility per opening)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.intraway.com/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://www.intraway.com/about-us/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://www.intraway.com/work-with-us/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Colombia, Argentina; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Eagerworks",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "website": "https://eagerworks.com/",
+      "careersUrl": "https://eagerworks.com/careers",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "Costa Rica (official company-level signal; confirm work eligibility on each posting)",
+        "LATAM (official company presence: Uruguay; confirm eligibility per opening)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://eagerworks.com/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://eagerworks.com/about-us",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://eagerworks.com/careers",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Uruguay; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Ingenious",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "website": "https://ingenious.agency/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Uruguay; confirm eligibility per opening)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://ingenious.agency/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://ingenious.agency/about",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://ingenious.agency/contact",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Uruguay; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Pyxis",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "website": "https://pyxis.tech/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Colombia; confirm eligibility per opening)",
+        "LATAM (official page names the region; confirm role eligibility on each posting)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://pyxis.tech/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://pyxis.tech/about-us/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://pyxis.tech/contact-us/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Colombia; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Baufest",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "website": "https://www.baufest.com/en",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Argentina; confirm eligibility per opening)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.baufest.com/en",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://www.baufest.com/en/about-us",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://www.baufest.com/en/contact-us",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Argentina; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Eryx",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "website": "https://eryx.co/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Argentina; confirm eligibility per opening)",
+        "LATAM (official page names the region; confirm role eligibility on each posting)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://eryx.co/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Argentina; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Unosquare",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "website": "https://www.unosquare.com/",
+      "careersUrl": "https://www.unosquare.com/careers/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Mexico, Colombia, Bolivia, Argentina; confirm eligibility per opening)",
+        "LATAM (official page names the region; confirm role eligibility on each posting)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.unosquare.com/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://www.unosquare.com/services/teams/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://www.unosquare.com/careers/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Mexico, Colombia; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Ceiba Software",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "website": "https://www.ceiba.com.co//",
+      "careersUrl": "https://www.ceiba.com.co/vacantes/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Colombia; confirm eligibility per opening)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.ceiba.com.co//",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://www.ceiba.com.co/vacantes/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Colombia; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Cidenet",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "website": "https://cidenet.com.co/",
+      "careersUrl": "https://cidenet.com.co/ofertas-laborales/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Colombia; confirm eligibility per opening)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://cidenet.com.co/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://cidenet.com.co/ofertas-laborales/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Colombia; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Continuum",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "website": "https://www.continuumhq.com/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Chile; confirm eligibility per opening)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.continuumhq.com/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Chile; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "ArcTouch",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "website": "https://arctouch.com/",
+      "careersUrl": "https://arctouch.com/careers",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Brazil; confirm eligibility per opening)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://arctouch.com/",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "official-site",
+          "url": "https://arctouch.com/company",
+          "checkedOn": "2026-11-07"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://arctouch.com/careers",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Brazil; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    },
+    {
+      "name": "Objective",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "website": "https://www.objective.com.br/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Brazil; confirm eligibility per opening)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://www.objective.com.br/",
+          "checkedOn": "2026-11-07"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Brazil; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-07"
+      }
+    }
+  ],
+  "uniqueCandidatesFound": 84,
+  "outputLimit": 1000
+}

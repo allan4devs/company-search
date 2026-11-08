@@ -1,0 +1,446 @@
+{
+  "cohortId": "likes-based-2026-11-07-p008-startups",
+  "checkedOn": "2026-11-07",
+  "inputFiles": [
+    "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-startups506-leads.json"
+  ],
+  "inputCount": 38,
+  "uniqueCount": 35,
+  "outputCount": 35,
+  "duplicateCount": 3,
+  "missingIdentityCount": 0,
+  "catalog": {
+    "source": "MongoDB + bundled files + prior batches",
+    "mongoCompanies": 1520,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 421,
+    "indexedNames": 1572,
+    "indexedDomains": 1482
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 63,
+    "topTracks": [
+      {
+        "track": "Engineering",
+        "count": 36
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Software Engineering",
+        "count": 3
+      },
+      {
+        "track": "Node.js",
+        "count": 2
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        46
+      ],
+      [
+        "direct",
+        16
+      ],
+      [
+        "unknown",
+        1
+      ]
+    ]
+  },
+  "queryLanes": [
+    {
+      "lane": "Startups506 Costa Rica startup directory",
+      "leads": 38,
+      "unique": 35,
+      "duplicateRate": 0.079,
+      "recommendation": "continue or expand this lane"
+    }
+  ],
+  "entries": [
+    {
+      "company": "Impesa",
+      "domain": null,
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-startups506-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "IMPESA",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.startups506.com/startups"
+    },
+    {
+      "company": "Tilopay",
+      "domain": null,
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-startups506-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://www.startups506.com/startups"
+    },
+    {
+      "company": "MERCATO",
+      "domain": null,
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-startups506-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://www.startups506.com/startups"
+    },
+    {
+      "company": "PlayaPay",
+      "domain": null,
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-startups506-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://www.startups506.com/startups"
+    },
+    {
+      "company": "Trustless Work",
+      "domain": null,
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-startups506-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://www.startups506.com/startups"
+    },
+    {
+      "company": "Vitalsfy.com",
+      "domain": null,
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-startups506-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://www.startups506.com/startups"
+    },
+    {
+      "company": "Ainnova Tech",
+      "domain": null,
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-startups506-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://www.startups506.com/startups"
+    },
+    {
+      "company": "Establishment Labs",
+      "domain": null,
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-startups506-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://www.startups506.com/startups"
+    },
+    {
+      "company": "Huli",
+      "domain": null,
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-startups506-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://www.startups506.com/startups"
+    },
+    {
+      "company": "TicaHealth",
+      "domain": null,
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-startups506-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://www.startups506.com/startups"
+    },
+    {
+      "company": "Doc-Knock",
+      "domain": null,
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-startups506-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://www.startups506.com/startups"
+    },
+    {
+      "company": "Fair Play Labs",
+      "domain": null,
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-startups506-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Fair Play Labs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.startups506.com/startups"
+    },
+    {
+      "company": "Headless Chicken Games",
+      "domain": null,
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-startups506-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://www.startups506.com/startups"
+    },
+    {
+      "company": "Sunna Entertainment",
+      "domain": null,
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-startups506-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://www.startups506.com/startups"
+    },
+    {
+      "company": "SailCargo",
+      "domain": null,
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-startups506-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://www.startups506.com/startups"
+    },
+    {
+      "company": "Selvabit",
+      "domain": null,
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-startups506-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://www.startups506.com/startups"
+    },
+    {
+      "company": "Verdex",
+      "domain": null,
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-startups506-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://www.startups506.com/startups"
+    },
+    {
+      "company": "DataSapiens",
+      "domain": null,
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-startups506-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://www.startups506.com/startups"
+    },
+    {
+      "company": "LuVelle Ai",
+      "domain": null,
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-startups506-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://www.startups506.com/startups"
+    },
+    {
+      "company": "Smarter Elections",
+      "domain": null,
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-startups506-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://www.startups506.com/startups"
+    },
+    {
+      "company": "Avify",
+      "domain": null,
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-startups506-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://www.startups506.com/startups"
+    },
+    {
+      "company": "Tobipets",
+      "domain": null,
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-startups506-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://www.startups506.com/startups"
+    },
+    {
+      "company": "Nido HR",
+      "domain": null,
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-startups506-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://www.startups506.com/startups"
+    },
+    {
+      "company": "Slidebean",
+      "domain": null,
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-startups506-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://www.startups506.com/startups"
+    },
+    {
+      "company": "Eco Tours EV CR",
+      "domain": null,
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-startups506-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://www.startups506.com/startups"
+    },
+    {
+      "company": "Rumbo",
+      "domain": null,
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-startups506-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://www.startups506.com/startups"
+    },
+    {
+      "company": "Magenta Biolabs",
+      "domain": null,
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-startups506-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://www.startups506.com/startups"
+    },
+    {
+      "company": "Speratum Biopharma",
+      "domain": null,
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-startups506-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://www.startups506.com/startups"
+    },
+    {
+      "company": "Agronaut",
+      "domain": null,
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-startups506-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://www.startups506.com/startups"
+    },
+    {
+      "company": "GoSolar",
+      "domain": null,
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-startups506-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://www.startups506.com/startups"
+    },
+    {
+      "company": "Listo",
+      "domain": null,
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-startups506-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://www.startups506.com/startups"
+    },
+    {
+      "company": "Mawi",
+      "domain": null,
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-startups506-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://www.startups506.com/startups"
+    },
+    {
+      "company": "Moovin",
+      "domain": null,
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-startups506-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://www.startups506.com/startups"
+    },
+    {
+      "company": "Snap Compliance",
+      "domain": null,
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-startups506-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Snap Compliance",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.startups506.com/startups"
+    },
+    {
+      "company": "CofiBlocks",
+      "domain": null,
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-startups506-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://www.startups506.com/startups"
+    },
+    {
+      "company": "Kindfi",
+      "domain": null,
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-startups506-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://www.startups506.com/startups"
+    },
+    {
+      "company": "Kuna Edu",
+      "domain": null,
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-startups506-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://www.startups506.com/startups"
+    },
+    {
+      "company": "Mensis",
+      "domain": null,
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-startups506-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://www.startups506.com/startups"
+    }
+  ]
+}

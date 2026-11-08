@@ -1,0 +1,293 @@
+{
+  "cohortId": "likes-based-2026-11-07-p008-startups",
+  "generatedOn": "2026-11-07",
+  "catalog": {
+    "source": "MongoDB + bundled files + prior batches",
+    "mongoCompanies": 1520,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 421,
+    "indexedNames": 1572,
+    "indexedDomains": 1482
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 63,
+    "topTracks": [
+      {
+        "track": "Engineering",
+        "count": 36
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Software Engineering",
+        "count": 3
+      },
+      {
+        "track": "Node.js",
+        "count": 2
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        46
+      ],
+      [
+        "direct",
+        16
+      ],
+      [
+        "unknown",
+        1
+      ]
+    ]
+  },
+  "candidates": [
+    {
+      "name": "Tilopay",
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceUrl": "https://www.startups506.com/startups",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "MERCATO",
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceUrl": "https://www.startups506.com/startups",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "PlayaPay",
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceUrl": "https://www.startups506.com/startups",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Trustless Work",
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceUrl": "https://www.startups506.com/startups",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Vitalsfy.com",
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceUrl": "https://www.startups506.com/startups",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Ainnova Tech",
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceUrl": "https://www.startups506.com/startups",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Establishment Labs",
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceUrl": "https://www.startups506.com/startups",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Huli",
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceUrl": "https://www.startups506.com/startups",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "TicaHealth",
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceUrl": "https://www.startups506.com/startups",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Doc-Knock",
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceUrl": "https://www.startups506.com/startups",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Headless Chicken Games",
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceUrl": "https://www.startups506.com/startups",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Sunna Entertainment",
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceUrl": "https://www.startups506.com/startups",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "SailCargo",
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceUrl": "https://www.startups506.com/startups",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Selvabit",
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceUrl": "https://www.startups506.com/startups",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Verdex",
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceUrl": "https://www.startups506.com/startups",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "DataSapiens",
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceUrl": "https://www.startups506.com/startups",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "LuVelle Ai",
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceUrl": "https://www.startups506.com/startups",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Smarter Elections",
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceUrl": "https://www.startups506.com/startups",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Avify",
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceUrl": "https://www.startups506.com/startups",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Tobipets",
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceUrl": "https://www.startups506.com/startups",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Nido HR",
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceUrl": "https://www.startups506.com/startups",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Slidebean",
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceUrl": "https://www.startups506.com/startups",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Eco Tours EV CR",
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceUrl": "https://www.startups506.com/startups",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Rumbo",
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceUrl": "https://www.startups506.com/startups",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Magenta Biolabs",
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceUrl": "https://www.startups506.com/startups",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Speratum Biopharma",
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceUrl": "https://www.startups506.com/startups",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Agronaut",
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceUrl": "https://www.startups506.com/startups",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "GoSolar",
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceUrl": "https://www.startups506.com/startups",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Listo",
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceUrl": "https://www.startups506.com/startups",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Mawi",
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceUrl": "https://www.startups506.com/startups",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Moovin",
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceUrl": "https://www.startups506.com/startups",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "CofiBlocks",
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceUrl": "https://www.startups506.com/startups",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Kindfi",
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceUrl": "https://www.startups506.com/startups",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Kuna Edu",
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceUrl": "https://www.startups506.com/startups",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Mensis",
+      "queryLane": "Startups506 Costa Rica startup directory",
+      "sourceUrl": "https://www.startups506.com/startups",
+      "needsOfficialDomainResolution": true
+    }
+  ],
+  "uniqueCandidatesFound": 35,
+  "outputLimit": 1000
+}

@@ -1,0 +1,107 @@
+{
+  "cohortId": "likes-based-2026-11-07-p008",
+  "checkedOn": "2026-11-07",
+  "inputFiles": [
+    "company-batches\\historyc\\2026-11-07\\verification\\p008-link-design-verified.json"
+  ],
+  "inputCount": 1,
+  "uniqueCount": 1,
+  "outputCount": 1,
+  "duplicateCount": 0,
+  "missingIdentityCount": 0,
+  "catalog": {
+    "source": "MongoDB + bundled files + prior batches",
+    "mongoCompanies": 1520,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 421,
+    "indexedNames": 1538,
+    "indexedDomains": 1483
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 64,
+    "topTracks": [
+      {
+        "track": "Engineering",
+        "count": 36
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "Software Engineering",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Node.js",
+        "count": 2
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        47
+      ],
+      [
+        "direct",
+        16
+      ],
+      [
+        "unknown",
+        1
+      ]
+    ]
+  },
+  "queryLanes": [
+    {
+      "lane": "Official Costa Rica software companies",
+      "leads": 1,
+      "unique": 1,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    }
+  ],
+  "entries": [
+    {
+      "company": "Link Design",
+      "domain": "linkdesign.cr",
+      "queryLane": "Official Costa Rica software companies",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-link-design-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://linkdesign.cr/en/desarrollo-de-software-costa-rica"
+    }
+  ]
+}

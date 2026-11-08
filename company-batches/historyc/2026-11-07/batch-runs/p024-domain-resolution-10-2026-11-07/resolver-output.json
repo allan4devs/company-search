@@ -1,0 +1,2071 @@
+{
+  "cohortId": "p024-domain-resolution-10-2026-11-07",
+  "generatedOn": "2026-11-07",
+  "sourceInput": "company-batches\\historyc\\2026-11-07\\batch-runs\\p024-domain-resolution-10-2026-11-07\\resolver-input.json",
+  "inputCandidateCount": 113,
+  "resolvedCount": 8,
+  "cacheHitCount": 0,
+  "cacheMissCount": 113,
+  "wikidataCandidateCount": 6,
+  "perNameSearchCount": 10,
+  "deferredSearchCount": 97,
+  "searchBudget": 10,
+  "searchConcurrency": 8,
+  "cacheFile": null,
+  "candidates": [
+    {
+      "name": "LowCode Agency",
+      "profileUrl": "https://enterpriseleague.com/company/lowcode-agency",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/lowcode-agency",
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileWebsiteCandidates": [],
+      "profileFetchStatus": 200,
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Hero YC S22",
+      "profileUrl": "https://enterpriseleague.com/company/hero-yc-s22",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/hero-yc-s22",
+      "queryLane": "Enterprise League software directory — Panama",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/pa",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Prosperi Global | BR",
+      "profileUrl": "https://enterpriseleague.com/company/prosperi-global-br",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/prosperi-global-br",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "MAPS S A",
+      "profileUrl": "https://enterpriseleague.com/company/maps-s-a",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/maps-s-a",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "AgriConnected",
+      "profileUrl": "https://enterpriseleague.com/company/agriconnected",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/agriconnected",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "SciCrop",
+      "profileUrl": "https://enterpriseleague.com/company/scicrop",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/scicrop",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Cortex",
+      "profileUrl": "https://enterpriseleague.com/company/cortex",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/cortex",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "DKLABS",
+      "profileUrl": "https://enterpriseleague.com/company/dklabs",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/dklabs",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Gaudium",
+      "profileUrl": "https://enterpriseleague.com/company/gaudium",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/gaudium",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Jera",
+      "profileUrl": "https://enterpriseleague.com/company/jera",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/jera",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Avantsoft",
+      "profileUrl": "https://enterpriseleague.com/company/avantsoft",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/avantsoft",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Oncase",
+      "profileUrl": "https://enterpriseleague.com/company/oncase",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/oncase",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Resultados Digitais",
+      "profileUrl": "https://enterpriseleague.com/company/resultados-digitais",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/resultados-digitais",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Agente Imóvel",
+      "profileUrl": "https://enterpriseleague.com/company/agente-imovel",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/agente-imovel",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Ololu Plataforma Digital ©",
+      "profileUrl": "https://enterpriseleague.com/company/ololu-plataforma-digital",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/ololu-plataforma-digital",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Agendor",
+      "profileUrl": "https://enterpriseleague.com/company/agendor",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/agendor",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Kyte App",
+      "profileUrl": "https://enterpriseleague.com/company/kyte-app",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/kyte-app",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "BlackBean Tecnologia",
+      "profileUrl": "https://enterpriseleague.com/company/blackbean-tecnologia",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/blackbean-tecnologia",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "SAN Internet Brasil Ltda",
+      "profileUrl": "https://enterpriseleague.com/company/san-internet-brasil-ltda",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/san-internet-brasil-ltda",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Suprema",
+      "profileUrl": "https://enterpriseleague.com/company/suprema",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/suprema",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "websiteCandidate": "http://supremainc.com/",
+      "websiteResolutionSource": "Wikidata official-website property; candidate URL only",
+      "domainResolutionStatus": "Wikidata suggestion; requires first-party verification"
+    },
+    {
+      "name": "Smartleader - Sistema Gestão de Performance",
+      "profileUrl": "https://enterpriseleague.com/company/smartleader-sistema-gestao-de-performance",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/smartleader-sistema-gestao-de-performance",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "SGMAN - Software de Gestão da Manutenção",
+      "profileUrl": "https://enterpriseleague.com/company/sgman-software-de-gestao-da-manutencao",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/sgman-software-de-gestao-da-manutencao",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "fSense - For Business",
+      "profileUrl": "https://enterpriseleague.com/company/fsense-for-business",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/fsense-for-business",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Letras",
+      "profileUrl": "https://enterpriseleague.com/company/letras",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/letras",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "PontoSimples",
+      "profileUrl": "https://enterpriseleague.com/company/pontosimples",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/pontosimples",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Open Data Center",
+      "profileUrl": "https://enterpriseleague.com/company/open-data-center",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/open-data-center",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Aegro",
+      "profileUrl": "https://enterpriseleague.com/company/aegro",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/aegro",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Agrotools",
+      "profileUrl": "https://enterpriseleague.com/company/agrotools",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/agrotools",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Rede Magic",
+      "profileUrl": "https://enterpriseleague.com/company/rede-magic",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/rede-magic",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "SISMETRO",
+      "profileUrl": "https://enterpriseleague.com/company/sismetro",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/sismetro",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "TOTVS",
+      "profileUrl": "https://enterpriseleague.com/company/totvs",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/totvs",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "websiteCandidate": "https://totvs.com/",
+      "websiteResolutionSource": "Wikidata official-website property; candidate URL only",
+      "domainResolutionStatus": "Wikidata suggestion; requires first-party verification"
+    },
+    {
+      "name": "INFOX Tecnologia",
+      "profileUrl": "https://enterpriseleague.com/company/infox-tecnologia",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/infox-tecnologia",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "FastDomain.com.br",
+      "profileUrl": "https://enterpriseleague.com/company/fastdomaincombr",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/fastdomaincombr",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Milvus",
+      "profileUrl": "https://enterpriseleague.com/company/milvus",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/milvus",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "websiteCandidate": "https://milvus.io/",
+      "websiteResolutionSource": "Wikidata official-website property; candidate URL only",
+      "domainResolutionStatus": "Wikidata suggestion; requires first-party verification"
+    },
+    {
+      "name": "Portão 3 (YC S21)",
+      "profileUrl": "https://enterpriseleague.com/company/portao-3-yc-s21",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/portao-3-yc-s21",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Locaweb",
+      "profileUrl": "https://enterpriseleague.com/company/locaweb",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/locaweb",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Nichoos",
+      "profileUrl": "https://enterpriseleague.com/company/nichoos",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/nichoos",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Turbo Partners",
+      "profileUrl": "https://enterpriseleague.com/company/turbo-partners",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/turbo-partners",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "QuintoAndar",
+      "profileUrl": "https://enterpriseleague.com/company/quintoandar",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/quintoandar",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "websiteCandidate": "https://quintoandar.com.br/",
+      "websiteResolutionSource": "Wikidata official-website property; candidate URL only",
+      "domainResolutionStatus": "Wikidata suggestion; requires first-party verification"
+    },
+    {
+      "name": "Mercately (Techstars '23)",
+      "profileUrl": "https://enterpriseleague.com/company/mercately-techstars-23",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/mercately-techstars-23",
+      "queryLane": "Enterprise League software directory — Ecuador",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ec",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "INTEGRAL CLOUD SOLUTIONS OPENCLOUD",
+      "profileUrl": "https://enterpriseleague.com/company/integral-cloud-solutions-opencloud",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/integral-cloud-solutions-opencloud",
+      "queryLane": "Enterprise League software directory — Ecuador",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ec",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "PULPO.ec",
+      "profileUrl": "https://enterpriseleague.com/company/pulpoec",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/pulpoec",
+      "queryLane": "Enterprise League software directory — Ecuador",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ec",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "UpGuard",
+      "website": "",
+      "careersUrl": "",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM"
+      ],
+      "jobs": [
+        {
+          "id": "jobicy-152340",
+          "title": "IT Operations Analyst",
+          "location": "LATAM",
+          "eligibility": "LATAM",
+          "url": "https://jobicy.com/jobs/152340-it-operations-analyst",
+          "workMode": "Remote",
+          "listingStatus": "Current Jobicy listing; not yet confirmed on employer ATS",
+          "checkedOn": "2026-11-07",
+          "technologies": [
+            "go",
+            "Go",
+            "Python"
+          ],
+          "roles": [
+            "Engineering"
+          ],
+          "levels": []
+        }
+      ],
+      "queryLane": "Jobicy current LATAM engineering (admin)",
+      "sourceUrl": "https://jobicy.com/jobs-rss-feed",
+      "leadSource": "Jobicy public remote-jobs API; use as a discovery lead and confirm employer details directly",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-jobicy-regional-engineering-leads.json",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "https://upguard.com/",
+      "websiteResolutionSource": "Wikidata official-website property; candidate URL only",
+      "domainResolutionStatus": "Wikidata suggestion; requires first-party verification"
+    },
+    {
+      "name": "Veta Virtual Inc",
+      "title": "Full Stack Software Engineer",
+      "listingLocation": "data-testid=\"location-plate\" class=\"inline-flex max-w-full items-stretch overflow-hidden rounded border-2 text-sm font-bold leading-snug @max-[12rem]:flex-wrap border-foreground text-foreground\"> Remote LATAM, Europe Remote, open to people in: LATAM, Europe <ul class=\"flex flex-wrap gap-x-1.5 text-sm text-muted [&>li:not(:last-child)]:after:content-[',']\"",
+      "category": "Software & Backend",
+      "level": "Mid level",
+      "employmentType": "Full-time",
+      "directoryJobUrl": "https://www.globallyremotejobs.com/jobs/veta-virtual-inc/full-stack-software-engineer-3e2dc3",
+      "directorySourceUrl": "https://www.globallyremotejobs.com/country/cr?page=3",
+      "directoryPostedAt": "2026-10-16T00:00:00Z",
+      "queryLane": "Globally Remote Jobs Costa Rica listings — official employer link pending",
+      "directoryJobUrls": [
+        "https://www.globallyremotejobs.com/jobs/veta-virtual-inc/full-stack-software-engineer-3e2dc3"
+      ],
+      "sourceJobCount": 1,
+      "sourceUrl": "https://www.globallyremotejobs.com/country/cr?page=3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-globallyremote-company-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 3.06,
+        "totalScore": 43.06
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": [],
+        "requestCount": 2,
+        "elapsedMs": 8432
+      }
+    },
+    {
+      "name": "IT Learning Solution",
+      "profileUrl": "https://www.camtic.org/project/it-learning-solution/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/it-learning-solution/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 508",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": [],
+        "requestCount": 2,
+        "elapsedMs": 8441
+      }
+    },
+    {
+      "name": "JAFU",
+      "profileUrl": "https://www.camtic.org/project/jafu/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/jafu/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 508",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": [],
+        "requestCount": 2,
+        "elapsedMs": 8416
+      }
+    },
+    {
+      "name": "Kal-í CR",
+      "profileUrl": "https://www.camtic.org/project/kal-i-cr/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/kal-i-cr/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 508",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "websiteCandidate": "https://www.kalvitamins.com/",
+      "domainResolutionStatus": "search candidate; requires first-party verification",
+      "domainSearch": {
+        "source": "Bing HTML results (DuckDuckGo had no name-matching results)",
+        "checkedOn": "2026-11-07",
+        "candidates": [
+          {
+            "title": "KAL Vitamins | Since 1932",
+            "url": "https://www.kalvitamins.com/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Kal-í CR\" software engineering \"Latin America\""
+          },
+          {
+            "title": "Home basic - Kal Furniture",
+            "url": "https://kalfurniturecr.com/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Kal-í CR\" software engineering \"Latin America\""
+          },
+          {
+            "title": "Get Kali | Kali Linux",
+            "url": "https://www.kali.org/get-kali/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Kal-í CR\" software engineering \"Latin America\""
+          },
+          {
+            "title": "Equipping you for success with ATMs and self-service banking - KAL",
+            "url": "https://www.kal.com/en/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Kal-í CR\" software engineering \"Latin America\""
+          }
+        ],
+        "requestCount": 2,
+        "elapsedMs": 8422
+      }
+    },
+    {
+      "name": "Kínetos",
+      "profileUrl": "https://www.camtic.org/project/kinetos/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/kinetos/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 508",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": [],
+        "requestCount": 2,
+        "elapsedMs": 8406
+      }
+    },
+    {
+      "name": "Kruger Innova CR",
+      "profileUrl": "https://www.camtic.org/project/kruger-innova-costa-rica/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/kruger-innova-costa-rica/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 508",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": [],
+        "requestCount": 2,
+        "elapsedMs": 8433
+      }
+    },
+    {
+      "name": "Liberty",
+      "profileUrl": "https://www.camtic.org/project/telefonica/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/telefonica/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 508",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "websiteCandidate": "https://libertycr.com/",
+      "domainResolutionStatus": "search candidate; requires first-party verification",
+      "domainSearch": {
+        "source": "Bing HTML results (DuckDuckGo had no name-matching results)",
+        "checkedOn": "2026-11-07",
+        "candidates": [
+          {
+            "title": "Liberty : Líder en Internet, Telefonía Fija, Móvil y Televisión HD",
+            "url": "https://libertycr.com/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Liberty\" software engineering \"Latin America\""
+          },
+          {
+            "title": "Inicio",
+            "url": "https://libertycr.com/web/inicio",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Liberty\" software engineering \"Latin America\""
+          },
+          {
+            "title": "Liberty · Atención al cliente",
+            "url": "https://smarthub.libertycr.com/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Liberty\" software engineering \"Latin America\""
+          },
+          {
+            "title": "Atención al cliente Liberty Costa Rica | Canales de servicio y contacto",
+            "url": "https://libertycr.com/web/centro-de-ayuda/servicio-al-cliente",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Liberty\" software engineering \"Latin America\""
+          }
+        ],
+        "requestCount": 2,
+        "elapsedMs": 8418
+      }
+    },
+    {
+      "name": "LYSTO CARD",
+      "profileUrl": "https://www.camtic.org/project/lysto-card/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/lysto-card/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 508",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": [],
+        "requestCount": 2,
+        "elapsedMs": 8422
+      }
+    },
+    {
+      "name": "Mawi",
+      "profileUrl": "https://www.camtic.org/project/mawi/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/mawi/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 508",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": [],
+        "requestCount": 2,
+        "elapsedMs": 8426
+      }
+    },
+    {
+      "name": "Mekanismo",
+      "profileUrl": "https://www.camtic.org/project/mekanismo-taller-audiovisual/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/mekanismo-taller-audiovisual/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 508",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": [],
+        "requestCount": 2,
+        "elapsedMs": 8371
+      }
+    },
+    {
+      "name": "Micra Consulting",
+      "profileUrl": "https://www.camtic.org/project/micra-consulting/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/micra-consulting/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 508",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Morpho Animation",
+      "profileUrl": "https://www.camtic.org/project/morpho-animation-studio/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/morpho-animation-studio/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 508",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Movitext",
+      "profileUrl": "https://www.camtic.org/project/movitext/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/movitext/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 508",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "MT MMV INTEGRADORES",
+      "profileUrl": "https://www.camtic.org/project/mt-mmv-integradores/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/mt-mmv-integradores/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 508",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Neotecnologías",
+      "profileUrl": "https://www.camtic.org/project/neotecnologias/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/neotecnologias/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 508",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Parque la Libertad",
+      "profileUrl": "https://www.camtic.org/project/parque-la-libertad/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/parque-la-libertad/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 508",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Pignataro Abogados",
+      "profileUrl": "https://www.camtic.org/project/pignataro-abogados/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/pignataro-abogados/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 508",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "PricewaterhouseCooper",
+      "profileUrl": "https://www.camtic.org/project/pricewaterhousecooper/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/pricewaterhousecooper/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 508",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Bmaxim",
+      "profileUrl": "https://alpunto.cr/en/business/bmaxim",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/bmaxim",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileWebsiteCandidates": [],
+      "profileFetchStatus": 200,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Helm360",
+      "profileUrl": "https://alpunto.cr/en/business/helm360",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/helm360",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileWebsiteCandidates": [],
+      "profileFetchStatus": 200,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Innovative S.A. (NovaToken)",
+      "profileUrl": "https://alpunto.cr/en/business/innovative-s-a-novatoken",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/innovative-s-a-novatoken",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileWebsiteCandidates": [],
+      "profileFetchStatus": 200,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Inversiones Next Curve S.A.",
+      "profileUrl": "https://alpunto.cr/en/business/inversiones-next-curve-s-a",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/inversiones-next-curve-s-a",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileWebsiteCandidates": [],
+      "profileFetchStatus": 200,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Infoware",
+      "profileUrl": "https://alpunto.cr/en/business/infoware",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/infoware",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=5",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileWebsiteCandidates": [],
+      "profileFetchStatus": 200,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Integrama",
+      "profileUrl": "https://alpunto.cr/en/business/integrama",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/integrama",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileWebsiteCandidates": [],
+      "profileFetchStatus": 200,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Zunify",
+      "profileUrl": "https://alpunto.cr/en/business/zunify",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/zunify",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=5",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileWebsiteCandidates": [],
+      "profileFetchStatus": 200,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Luminon Studios",
+      "profileUrl": "https://alpunto.cr/en/business/luminon-studios",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/luminon-studios",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Villalta Tech",
+      "profileUrl": "https://alpunto.cr/en/business/villalta-tech",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/villalta-tech",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "WOW Emotions",
+      "profileUrl": "https://alpunto.cr/en/business/wow-emotions",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/wow-emotions",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Opal Interactive",
+      "profileUrl": "https://alpunto.cr/en/business/opal-interactive",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/opal-interactive",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Atom Soluciones",
+      "profileUrl": "https://alpunto.cr/en/business/atom-soluciones",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/atom-soluciones",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Costa Rica Virtual",
+      "profileUrl": "https://alpunto.cr/en/business/costa-rica-virtual",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/costa-rica-virtual",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "TicoDesign",
+      "profileUrl": "https://alpunto.cr/en/business/ticodesign",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/ticodesign",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Web Mentor",
+      "profileUrl": "https://alpunto.cr/en/business/web-mentor",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/web-mentor",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Broditec",
+      "profileUrl": "https://alpunto.cr/en/business/broditec",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/broditec",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "DATAi",
+      "profileUrl": "https://alpunto.cr/en/business/datai",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/datai",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "ReinSystems",
+      "profileUrl": "https://alpunto.cr/en/business/reinsystems",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/reinsystems",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "10Pearls Costa Rica",
+      "profileUrl": "https://alpunto.cr/en/business/10pearls-costa-rica",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/10pearls-costa-rica",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Cecropia Solutions",
+      "profileUrl": "https://alpunto.cr/en/business/cecropia-solutions",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/cecropia-solutions",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Drago's House",
+      "profileUrl": "https://alpunto.cr/en/business/drago-s-house",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/drago-s-house",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "EX Squared LATAM",
+      "profileUrl": "https://alpunto.cr/en/business/ex-squared-latam",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/ex-squared-latam",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Infosgroup",
+      "profileUrl": "https://alpunto.cr/en/business/infosgroup",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/infosgroup",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Irazu Labs",
+      "profileUrl": "https://alpunto.cr/en/business/irazu-labs",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/irazu-labs",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "People Apps",
+      "profileUrl": "https://alpunto.cr/en/business/people-apps",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/people-apps",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Proximity Costa Rica",
+      "profileUrl": "https://alpunto.cr/en/business/proximity-costa-rica",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/proximity-costa-rica",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Softon Digital (Softon ITG)",
+      "profileUrl": "https://alpunto.cr/en/business/softon-digital-softon-itg",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/softon-digital-softon-itg",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "U Devs",
+      "profileUrl": "https://alpunto.cr/en/business/u-devs",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/u-devs",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "weKnow Inc.",
+      "profileUrl": "https://alpunto.cr/en/business/weknow-inc",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/weknow-inc",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Fuzyon Agency",
+      "profileUrl": "https://alpunto.cr/en/business/fuzyon-agency",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/fuzyon-agency",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "GuruX",
+      "profileUrl": "https://alpunto.cr/en/business/gurux",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/gurux",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Cipherio",
+      "profileUrl": "https://alpunto.cr/en/business/cipherio",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/cipherio",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Elva AI",
+      "profileUrl": "https://alpunto.cr/en/business/elva-ai",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/elva-ai",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Interfaz",
+      "profileUrl": "https://alpunto.cr/en/business/interfaz",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/interfaz",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "NW Consulting Services",
+      "profileUrl": "https://alpunto.cr/en/business/nw-consulting-services",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/nw-consulting-services",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Centauro Solutions",
+      "profileUrl": "https://alpunto.cr/en/business/centauro-solutions",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/centauro-solutions",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "DOTCREEK",
+      "profileUrl": "https://alpunto.cr/en/business/dotcreek",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/dotcreek",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "isthmusit software",
+      "profileUrl": "https://alpunto.cr/en/business/isthmusit-software",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/isthmusit-software",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "GTS",
+      "profileUrl": "https://alpunto.cr/en/business/gts",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/gts",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "websiteCandidate": "http://avexnet.or.jp/",
+      "websiteResolutionSource": "Wikidata official-website property; candidate URL only",
+      "domainResolutionStatus": "Wikidata suggestion; requires first-party verification"
+    },
+    {
+      "name": "Aurigital",
+      "profileUrl": "https://alpunto.cr/en/business/aurigital",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/aurigital",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Babel Costa Rica",
+      "profileUrl": "https://alpunto.cr/en/business/babel-costa-rica",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/babel-costa-rica",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Dailysoft Technologies CR",
+      "profileUrl": "https://alpunto.cr/en/business/dailysoft-technologies-cr",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/dailysoft-technologies-cr",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Datasoft",
+      "profileUrl": "https://alpunto.cr/en/business/datasoft",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/datasoft",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "DNAMIC",
+      "profileUrl": "https://alpunto.cr/en/business/dnamic",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/dnamic",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Y2K Webs",
+      "profileUrl": "https://alpunto.cr/en/business/y2k-webs",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/y2k-webs",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Jowasoft",
+      "profileUrl": "https://alpunto.cr/en/business/jowasoft",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/jowasoft",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "SevenSoft",
+      "profileUrl": "https://alpunto.cr/en/business/sevensoft",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/sevensoft",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "TICMA DIGITAL",
+      "profileUrl": "https://alpunto.cr/en/business/ticma-digital",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/ticma-digital",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Yakukua",
+      "profileUrl": "https://alpunto.cr/en/business/yakukua",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/yakukua",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Xubliminal",
+      "profileUrl": "https://alpunto.cr/en/business/xubliminal",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/xubliminal",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Unidad22",
+      "profileUrl": "https://alpunto.cr/en/business/unidad22",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/unidad22",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Incompany Solutions S.A.",
+      "profileUrl": "https://alpunto.cr/en/business/incompany-solutions-s-a",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/incompany-solutions-s-a",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    }
+  ],
+  "timingsMs": {
+    "inputReadMs": 2,
+    "cacheReadAndMatchMs": 1,
+    "wikidataBatchMs": 770,
+    "liveSearchWallMs": 16839,
+    "cacheWriteMs": 0,
+    "outputWriteMs": 5,
+    "totalMs": 17624
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "cohortId": "likes-based-2026-11-06-p003",
+  "checkedOn": "2026-11-06",
+  "inputCount": 7,
+  "uniqueCount": 3,
+  "outputCount": 3,
+  "duplicateCount": 4,
+  "missingIdentityCount": 0,
+  "catalog": {
+    "source": "MongoDB + bundled files + prior batches",
+    "mongoCompanies": 1220,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 121,
+    "indexedNames": 1240,
+    "indexedDomains": 1182
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 63,
+    "topTracks": [
+      {
+        "track": "Engineering",
+        "count": 36
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Software Engineering",
+        "count": 3
+      },
+      {
+        "track": "Node.js",
+        "count": 2
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        46
+      ],
+      [
+        "direct",
+        16
+      ],
+      [
+        "unknown",
+        1
+      ]
+    ]
+  },
+  "queryLanes": [
+    {
+      "lane": "Official LATAM careers pages 2026-11-06 wave 2",
+      "leads": 7,
+      "unique": 3,
+      "duplicateRate": 0.571,
+      "recommendation": "continue or expand this lane"
+    }
+  ],
+  "entries": [
+    {
+      "company": "Able",
+      "domain": null,
+      "queryLane": "Official LATAM careers pages 2026-11-06 wave 2",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Able",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://new.able.co/careers"
+    },
+    {
+      "company": "TeamStation AI",
+      "domain": null,
+      "queryLane": "Official LATAM careers pages 2026-11-06 wave 2",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://jobs.teamstation.us/"
+    },
+    {
+      "company": "Etleap",
+      "domain": null,
+      "queryLane": "Official LATAM careers pages 2026-11-06 wave 2",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://www-old.etleap.com/careers/software-engineer-integrations/"
+    },
+    {
+      "company": "Dugu",
+      "domain": null,
+      "queryLane": "Official LATAM careers pages 2026-11-06 wave 2",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Dugu",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://dugu.dev/"
+    },
+    {
+      "company": "Convo Relay",
+      "domain": null,
+      "queryLane": "Official LATAM careers pages 2026-11-06 wave 2",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://dugu.dev/"
+    },
+    {
+      "company": "Siblings Software",
+      "domain": null,
+      "queryLane": "Official LATAM careers pages 2026-11-06 wave 2",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Siblings Software",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://siblingssoftware.com/en/careers/"
+    },
+    {
+      "company": "GeniusXLab",
+      "domain": null,
+      "queryLane": "Official LATAM careers pages 2026-11-06 wave 2",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "GeniusXLab",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.geniusxlab.com/careers"
+    }
+  ]
+}

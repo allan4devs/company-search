@@ -1,0 +1,495 @@
+{
+  "cohortId": "likes-based-2026-11-07-p008",
+  "checkedOn": "2026-11-07",
+  "sourceInput": "company-batches\\historyc\\2026-11-07\\reporting\\p008-manifest-page0-survivors.json",
+  "inputCandidateCount": 12,
+  "candidateOffset": 0,
+  "candidateCount": 12,
+  "remainingCandidateCount": 0,
+  "queryLanes": [
+    {
+      "lane": "The Manifest Costa Rica software directory — page 0",
+      "checked": 12,
+      "reachable": 9,
+      "regionAndFit": 4,
+      "localOrEligibleAndFit": 4,
+      "regionAndFitRate": 0.333,
+      "localOrEligibleAndFitRate": 0.333,
+      "recommendation": "continue, then compare against the next batch"
+    }
+  ],
+  "candidates": [
+    {
+      "name": "DNAMIC | Databricks Data Solutions",
+      "website": "https://dnamic.ai/",
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies",
+      "officialSiteStatus": "fetch failed",
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Interfaz",
+      "website": "https://www.interfaz.io/",
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.interfaz.io/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [],
+      "likelyFit": false,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "People Apps Inc",
+      "website": "https://www.people-apps.com/",
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.people-apps.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [],
+      "likelyFit": false,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Oktara",
+      "website": "https://www.freshconsulting.com/services/software/nearshore-software-development/?utm_source=oktara.com&utm_medium=Web+Traffic&utm_campaign=Redirect",
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.freshconsulting.com/services/software/nearshore-software-development/?utm_source=oktara.com&utm_medium=Web+Traffic&utm_campaign=Redirect",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica",
+        "LATAM"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://www.freshconsulting.com/services/software/nearshore-software-development/?utm_source=oktara.com&utm_medium=Web+Traffic&utm_campaign=Redirect",
+          "snippet": "perate from a holistic approach that bridges people, technology, and business. Custom software development in Costa Rica and Latam What does software staff augmentation look like? Fresh offers end-to-end software development expertise, allowing us to integrate with vari"
+        },
+        {
+          "url": "https://www.freshconsulting.com/services/software/nearshore-software-development/?utm_source=oktara.com&utm_medium=Web+Traffic&utm_campaign=Redirect",
+          "snippet": "olistic approach that bridges people, technology, and business. Custom software development in Costa Rica and Latam What does software staff augmentation look like? Fresh offers end-to-end software development expertise, allowing us to integrate with various teams "
+        },
+        {
+          "url": "https://www.freshconsulting.com/services/software/nearshore-software-development/?utm_source=oktara.com&utm_medium=Web+Traffic&utm_campaign=Redirect",
+          "snippet": "us to integrate with various teams built across a spectrum of industries. Our devs are located throughout the Latam region, with a headquarters in Costa Rica. Wherever you are, whatever your software development need, we’re here to help. Multi-time zone support fro"
+        },
+        {
+          "url": "https://www.freshconsulting.com/services/software/nearshore-software-development/?utm_source=oktara.com&utm_medium=Web+Traffic&utm_campaign=Redirect",
+          "snippet": "ilt across a spectrum of industries. Our devs are located throughout the Latam region, with a headquarters in Costa Rica. Wherever you are, whatever your software development need, we’re here to help. Multi-time zone support from industry specialists Streamlined project"
+        },
+        {
+          "url": "https://www.freshconsulting.com/services/software/nearshore-software-development/?utm_source=oktara.com&utm_medium=Web+Traffic&utm_campaign=Redirect",
+          "snippet": "pplications, XR/VR/AR experiences, as well as full 3D scenes, simulations, and game-type projects. Learn more Latam developers with on-demand talent and expertise Hire a nearshore or offshore development team with the exact skills required for a project. The result"
+        },
+        {
+          "url": "https://www.freshconsulting.com/services/software/nearshore-software-development/?utm_source=oktara.com&utm_medium=Web+Traffic&utm_campaign=Redirect",
+          "snippet": "ce of our offices, you&#8217;ll still realize the benefits of &#8220;One Fresh.&#8221; From Seattle to Texas, Costa Rica to Thailand, we’re a software outsourcing company with a highly integrated team guided by a vision of helping clients create the future. Affordable t"
+        },
+        {
+          "url": "https://www.freshconsulting.com/services/software/nearshore-software-development/?utm_source=oktara.com&utm_medium=Web+Traffic&utm_campaign=Redirect",
+          "snippet": "e Learning Computer Vision Services Insights AI Work About Team Careers Seattle (425) 201-3713 Bangkok Mexico Costa Rica &copy; 2026 Fresh Consulting Privacy Policy"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://www.freshconsulting.com/services/software/nearshore-software-development/?utm_source=oktara.com&utm_medium=Web+Traffic&utm_campaign=Redirect",
+          "snippet": "Nearshore Software Development Outsourcing - Fresh Consulting Services View all services Services Overview Strategy Strategy Overview Innovation Sprints Innovation as a"
+        },
+        {
+          "url": "https://www.freshconsulting.com/services/software/nearshore-software-development/?utm_source=oktara.com&utm_medium=Web+Traffic&utm_campaign=Redirect",
+          "snippet": "earch &#038; Testing UI/UX Design Industrial Design Brand &#038; Visual Design Motion Design Video Production Software Software Overview AI/ML Services Website Development Web App Development Mobile App Development Technology Architecture Robotic Software Development "
+        },
+        {
+          "url": "https://www.freshconsulting.com/services/software/nearshore-software-development/?utm_source=oktara.com&utm_medium=Web+Traffic&utm_campaign=Redirect",
+          "snippet": "38; Testing UI/UX Design Industrial Design Brand &#038; Visual Design Motion Design Video Production Software Software Overview AI/ML Services Website Development Web App Development Mobile App Development Technology Architecture Robotic Software Development Hardware "
+        },
+        {
+          "url": "https://www.freshconsulting.com/services/software/nearshore-software-development/?utm_source=oktara.com&utm_medium=Web+Traffic&utm_campaign=Redirect",
+          "snippet": "AI/ML Services Website Development Web App Development Mobile App Development Technology Architecture Robotic Software Development Hardware Rapid Prototyping Hardware Overview Product Development Custom Robotics Robotic Systems Integration Manufacturing Automation Tes"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Fundamentl Partners",
+      "website": "https://www.fundamentlpartners.com/",
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.fundamentlpartners.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.fundamentlpartners.com/contact",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Latin America",
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://www.fundamentlpartners.com/",
+          "snippet": "d, curated selection of resources to support projects or cover peaks and troughs in demand. Both cover US and Latin American time zones. Initial Consultation Initial Consultation Schedule a meeting to discuss your specific needs and challenges. Tailored Assessment We will "
+        },
+        {
+          "url": "https://www.fundamentlpartners.com/",
+          "snippet": "al industries Our Offices 3010 Santa Fe Court 1st Floor Missoula MT 59808 USA Mexico City, Mexico · San José, Costa Rica Solutions Advanced 3D Simulation Human Risk Management Company Contact Legal Privacy Policy Terms of Service ')\"> © 2026 Fundamentl. All rights reser"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://www.fundamentlpartners.com/",
+          "snippet": "rts RESOURCES Blog Careers Docs About Technology for Critical Industries Founded in 2022, Fundamentl provides Technology Services for the Critical Industry sector. Get Started Get Started Robotics Simulation, computer vision and robotic automation for the plant and warehouse flo"
+        },
+        {
+          "url": "https://www.fundamentlpartners.com/",
+          "snippet": "e plant and warehouse floor. Data & AI/ML Governance, business intelligence, predictive and applied AI/ML. OT Cybersecurity Visibility, risk management and fully managed OT security. Enterprise Applications Implementation, configuration, migration and support. Software Dev"
+        },
+        {
+          "url": "https://www.fundamentlpartners.com/",
+          "snippet": " and fully managed OT security. Enterprise Applications Implementation, configuration, migration and support. Software Development Custom applications and platform engineering. Where Robotics, Simulation, AI/ML and Cybersecurity Meet Most technology partners specializ"
+        },
+        {
+          "url": "https://www.fundamentlpartners.com/",
+          "snippet": "s Implementation, configuration, migration and support. Software Development Custom applications and platform engineering. Where Robotics, Simulation, AI/ML and Cybersecurity Meet Most technology partners specialize in one of these. Fundamentl’s engineers work across all"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Creek Software",
+      "website": "https://www.atmosera.com/",
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.atmosera.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://www.atmosera.com/",
+          "snippet": "Atmosera: Azure Managed Services | Cloud Transformation Expertise Skip to content Expertise What We Help Clients Do Transform New Foundation Azure Migration Azure Virtual Desktop Azure Optim"
+        },
+        {
+          "url": "https://www.atmosera.com/",
+          "snippet": "ation Azure Migration Azure Virtual Desktop Azure Optimization Azure Adoption Protect Defense in Depth Secure Cloud Secure Edge Secure IAM DevSecOps Accelerate Intelligent Solutions Data Engineering for AI Copilot AppDev with AI LLMs and Cognitive AI AI Training AI"
+        },
+        {
+          "url": "https://www.atmosera.com/",
+          "snippet": " Protect Defense in Depth Secure Cloud Secure Edge Secure IAM DevSecOps Accelerate Intelligent Solutions Data Engineering for AI Copilot AppDev with AI LLMs and Cognitive AI AI Training AI Governance Operate Azure in Expert Hands Managed Azure Services Managed Security M"
+        },
+        {
+          "url": "https://www.atmosera.com/",
+          "snippet": "e Managed DR AMP™ Innovate Empower Your Future App Modernization DevOps Data Modernization Technical Training Cloud Native AppDev Case Study Highlight Performance Tuning and Database Migration to Azure Read Case Study Solutions We can help you Architect and Deploy "
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Brandy Creativity & Technology",
+      "website": "https://brandy.la/",
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://brandy.la/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://brandy.la/contact",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "LATAM"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://brandy.la/",
+          "snippet": " 10 years building a powerhouse team that now serves top local and global brands across 17 markets throughout LATAM and the US. Contact us Our philosophy is simple We believe that great ideas aren’t just born—they’re crafted. That’s why we build everything on three"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://brandy.la/",
+          "snippet": "the heart of everything we do. CREATIVE BUSINESS PARTNERS Brand Strategy Design & Creative Media Intelligence Web Development Experiential Marketing PR & Influencer Marketing Audiovisual & production Organic content Lets talk! Get in touch and we'll invite you over for a Nam"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Drago's House",
+      "website": "https://www.dragoshouse.com/",
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.dragoshouse.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.dragoshouse.com/contact",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://www.dragoshouse.com/",
+          "snippet": "e AI Agents & Process Automation Systems Work Blog Contact Start a project Menu Enterprise AI Agent Systems · Costa Rica & Global Autonomous agents. Real operations. We build and operate custom AI agents that run sales calls, back-office workflows, recruiting and suppor"
+        },
+        {
+          "url": "https://www.dragoshouse.com/",
+          "snippet": "erties Qué Buen Lugar Company Blog Contact Drago’s House © 2026 Drago's House Pioneering AI implementation in Costa Rica Let’s talk"
+        },
+        {
+          "url": "https://www.dragoshouse.com/contact",
+          "snippet": "erties Qué Buen Lugar Company Blog Contact Drago’s House © 2026 Drago's House Pioneering AI implementation in Costa Rica Let’s talk"
+        }
+      ],
+      "officialFitSnippets": [],
+      "likelyFit": false,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Irazu Labs",
+      "website": "https://www.irazulabs.com/",
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.irazulabs.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://www.irazulabs.com/",
+          "snippet": "Inicio | Irazu Labs - Desarrollo de Software para Startups"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Yakukua",
+      "website": "https://yakukua.com/en/",
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies",
+      "officialSiteStatus": "HTTP 404",
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "ColibriCode",
+      "website": "https://colibricode.com/",
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies",
+      "careersUrl": "https://colibricode.com/careers",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://colibricode.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://colibricode.com/careers",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://colibricode.com/about",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://colibricode.com/contact",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Latin America",
+        "LATAM",
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://colibricode.com/",
+          "snippet": " before we start. Bilingual, US time zones. Denver-based leadership with a nearshore engineering bench across Latin America. We build in Python for AI, Go for scale and security, TypeScript for apps, and PHP for the web you already run. ColibriCode vs. freelancers vs. larg"
+        },
+        {
+          "url": "https://colibricode.com/careers",
+          "snippet": "Careers at ColibriCode | AI Engineering Jobs, Remote US & LatAm Services Enterprise AI Custom & Fine-Tuned Models Enterprise AI Platforms & Multi-Agent Systems Predictive & Vision AI Private AI Infrastructure AI S"
+        },
+        {
+          "url": "https://colibricode.com/about",
+          "snippet": "ysCloud, a developer ecosystem that includes an AI coding platform, a PHP framework and email infrastructure. Costa Rican-born and based in Denver. Where we work Headquartered in Denver, Colorado, serving companies across the United States, with a bilingual engineering "
+        },
+        {
+          "url": "https://colibricode.com/about",
+          "snippet": "red in Denver, Colorado, serving companies across the United States, with a bilingual engineering team across Latin America. Headquarters Denver, Colorado Clients Across the United States Engineering Latin America, US hours Let&#x27;s build something that works Get an AI A"
+        },
+        {
+          "url": "https://colibricode.com/about",
+          "snippet": "neering team across Latin America. Headquarters Denver, Colorado Clients Across the United States Engineering Latin America, US hours Let&#x27;s build something that works Get an AI Audit See our work Custom AI systems, models and infrastructure for large industries and gr"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://colibricode.com/",
+          "snippet": "rnance Business AI AI Agents & Automation Bilingual Voice Agents AI App Development Legacy Modernization + AI Engineering Pods Industries Manufacturing Energy & utilities Aerospace & transportation Healthcare & life sciences Financial services & insurance Logistics & sup"
+        },
+        {
+          "url": "https://colibricode.com/",
+          "snippet": "Healthcare & life sciences Financial services & insurance Logistics & supply chain Legal Education Startups & SaaS Work About Insights Get an AI Audit AI that makes it to production — and stays there Custom AI systems and models, engineered for your business Colib"
+        },
+        {
+          "url": "https://colibricode.com/",
+          "snippet": "About Insights Get an AI Audit AI that makes it to production — and stays there Custom AI systems and models, engineered for your business ColibriCode is a custom AI development company. We design, train, build and run AI for large industries and growing companies — f"
+        },
+        {
+          "url": "https://colibricode.com/",
+          "snippet": " governance and cost control built in from day one. Book a technical briefing Explore enterprise AI Senior AI engineers Custom models and private GPU infrastructure Python, Go, TypeScript, PHP Denver, Colorado English and Spanish Agents Multi-agent platforms Models & "
+        },
+        {
+          "url": "https://colibricode.com/careers",
+          "snippet": "Careers at ColibriCode | AI Engineering Jobs, Remote US & LatAm Services Enterprise AI Custom & Fine-Tuned Models Enterprise AI Platforms & Multi-Agent Systems Predictive & Vision AI Privat"
+        },
+        {
+          "url": "https://colibricode.com/careers",
+          "snippet": "rnance Business AI AI Agents & Automation Bilingual Voice Agents AI App Development Legacy Modernization + AI Engineering Pods Industries Manufacturing Energy & utilities Aerospace & transportation Healthcare & life sciences Financial services & insurance Logistics & sup"
+        },
+        {
+          "url": "https://colibricode.com/careers",
+          "snippet": "Healthcare & life sciences Financial services & insurance Logistics & supply chain Legal Education Startups & SaaS Work About Insights Get an AI Audit Home / Careers Build AI that businesses depend on We are a small, senior team building AI agents, apps and infras"
+        },
+        {
+          "url": "https://colibricode.com/careers",
+          "snippet": " and Spanish spoken daily Open roles There are no open roles right now. We&#x27;re always glad to meet senior engineers, so introduce yourself below. Don&#x27;t see your role? Send your GitHub and a short note to careers@colibricode.com Email us Custom AI systems, mod"
+        },
+        {
+          "url": "https://colibricode.com/about",
+          "snippet": "rnance Business AI AI Agents & Automation Bilingual Voice Agents AI App Development Legacy Modernization + AI Engineering Pods Industries Manufacturing Energy & utilities Aerospace & transportation Healthcare & life sciences Financial services & insurance Logistics & sup"
+        },
+        {
+          "url": "https://colibricode.com/about",
+          "snippet": "Healthcare & life sciences Financial services & insurance Logistics & supply chain Legal Education Startups & SaaS Work About Insights Get an AI Audit Home / About An AI development company built by engineers who ship Get an AI Audit Our story ColibriCode started "
+        },
+        {
+          "url": "https://colibricode.com/about",
+          "snippet": "Education Startups & SaaS Work About Insights Get an AI Audit Home / About An AI development company built by engineers who ship Get an AI Audit Our story ColibriCode started as a web development and engineering-talent company, building websites and supplying programm"
+        },
+        {
+          "url": "https://colibricode.com/about",
+          "snippet": "bout An AI development company built by engineers who ship Get an AI Audit Our story ColibriCode started as a web development and engineering-talent company, building websites and supplying programmers to businesses. The industry changed — and so did we. Today ColibriCode is"
+        },
+        {
+          "url": "https://colibricode.com/contact",
+          "snippet": "rnance Business AI AI Agents & Automation Bilingual Voice Agents AI App Development Legacy Modernization + AI Engineering Pods Industries Manufacturing Energy & utilities Aerospace & transportation Healthcare & life sciences Financial services & insurance Logistics & sup"
+        },
+        {
+          "url": "https://colibricode.com/contact",
+          "snippet": "Healthcare & life sciences Financial services & insurance Logistics & supply chain Legal Education Startups & SaaS Work About Insights Get an AI Audit Home / Contact Let&#x27;s talk about your AI project Tell us what you&#x27;re working on. A senior engineer — not"
+        },
+        {
+          "url": "https://colibricode.com/contact",
+          "snippet": "n AI Audit Home / Contact Let&#x27;s talk about your AI project Tell us what you&#x27;re working on. A senior engineer — not a salesperson — will reply within one business day. Website Name Email Company How can we help? Select one Custom AI model Enterprise AI platfo"
+        },
+        {
+          "url": "https://colibricode.com/contact",
+          "snippet": "ictive or vision AI AI agents Voice agent Private AI infrastructure AI security App development Modernization Engineering pod Other Message Send message ColibriCode Inc Office Denver, Colorado Email hello@colibricode.com Languages English. Se habla español. LinkedIn GitH"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": true
+    },
+    {
+      "name": "NW Consulting Services",
+      "website": "https://www.nwcs.website/",
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies",
+      "officialSiteStatus": "fetch failed",
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    }
+  ]
+}

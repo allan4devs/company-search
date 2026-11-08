@@ -1,0 +1,3840 @@
+{
+  "cohortId": "likes-based-2026-11-07-p008",
+  "generatedOn": "2026-11-07",
+  "catalog": {
+    "source": "MongoDB + bundled files + prior batches",
+    "mongoCompanies": 1520,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 421,
+    "indexedNames": 1695,
+    "indexedDomains": 1640
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 63,
+    "topTracks": [
+      {
+        "track": "Engineering",
+        "count": 36
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Software Engineering",
+        "count": 3
+      },
+      {
+        "track": "Node.js",
+        "count": 2
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        46
+      ],
+      [
+        "direct",
+        16
+      ],
+      [
+        "unknown",
+        1
+      ]
+    ]
+  },
+  "candidates": [
+    {
+      "name": "GTI Factura Electrónica",
+      "profileUrl": "https://alpunto.cr/en/business/gti-factura-electronica",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/gti-factura-electronica",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.facturaelectronica.cr/",
+      "domain": "facturaelectronica.cr",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.facturaelectronica.cr/",
+          "domain": "facturaelectronica.cr",
+          "label": "www.facturaelectronica.cr/",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Facel – Facturación Electrónica",
+      "profileUrl": "https://alpunto.cr/en/business/facel-facturacion-electronica",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/facel-facturacion-electronica",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service",
+      "needsOfficialDomainResolution": true,
+      "website": "https://facelcr.com/",
+      "domain": "facelcr.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://facelcr.com/",
+          "domain": "facelcr.com",
+          "label": "facelcr.com/",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Ainnova Tech",
+      "profileUrl": "https://alpunto.cr/en/business/ainnova-tech",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/ainnova-tech",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service",
+      "needsOfficialDomainResolution": true,
+      "website": "https://ainnovatech.com/",
+      "domain": "ainnovatech.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://ainnovatech.com/",
+          "domain": "ainnovatech.com",
+          "label": "ainnovatech.com/",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "CRFUSION (Cronus ERP)",
+      "profileUrl": "https://alpunto.cr/en/business/crfusion-cronus-erp",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/crfusion-cronus-erp",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.crfusion.com/",
+      "domain": "crfusion.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.crfusion.com/",
+          "domain": "crfusion.com",
+          "label": "www.crfusion.com",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Greenpay S.A.",
+      "profileUrl": "https://alpunto.cr/en/business/greenpay-s-a",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/greenpay-s-a",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service",
+      "needsOfficialDomainResolution": true,
+      "website": "https://greenpay.me/",
+      "domain": "greenpay.me",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://greenpay.me/",
+          "domain": "greenpay.me",
+          "label": "greenpay.me/",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Salud a un Clic S.A.",
+      "profileUrl": "https://alpunto.cr/en/business/salud-a-un-clic-s-a",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/salud-a-un-clic-s-a",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service",
+      "needsOfficialDomainResolution": true,
+      "website": "https://saludaunclic.com/",
+      "domain": "saludaunclic.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://saludaunclic.com/",
+          "domain": "saludaunclic.com",
+          "label": "saludaunclic.com",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "AACROM",
+      "profileUrl": "https://alpunto.cr/en/business/aacrom",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/aacrom",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2",
+      "needsOfficialDomainResolution": true,
+      "website": "https://aacrom.com/",
+      "domain": "aacrom.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://aacrom.com/",
+          "domain": "aacrom.com",
+          "label": "aacrom.com/",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "AceBuddy",
+      "profileUrl": "https://alpunto.cr/en/business/acebuddy",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/acebuddy",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.acebuddy.net/",
+      "domain": "acebuddy.net",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.acebuddy.net/",
+          "domain": "acebuddy.net",
+          "label": "www.acebuddy.net",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "BEST Resource",
+      "profileUrl": "https://alpunto.cr/en/business/best-resource",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/best-resource",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.bestresourcecr.com/",
+      "domain": "bestresourcecr.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.bestresourcecr.com/",
+          "domain": "bestresourcecr.com",
+          "label": "www.bestresourcecr.com",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Moovin",
+      "profileUrl": "https://alpunto.cr/en/business/moovin",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/moovin",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=2",
+      "needsOfficialDomainResolution": true,
+      "website": "https://moovin.me/",
+      "domain": "moovin.me",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://moovin.me/",
+          "domain": "moovin.me",
+          "label": "moovin.me/",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Software Solutions S.A.",
+      "profileUrl": "https://alpunto.cr/en/business/software-solutions-s-a",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/software-solutions-s-a",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.softwaresolutions.co.cr/",
+      "domain": "softwaresolutions.co.cr",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.softwaresolutions.co.cr/",
+          "domain": "softwaresolutions.co.cr",
+          "label": "www.softwaresolutions.co.cr/",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Soltig",
+      "profileUrl": "https://alpunto.cr/en/business/soltig",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/soltig",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "needsOfficialDomainResolution": true,
+      "website": "https://soltig.net/es/",
+      "domain": "soltig.net",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://soltig.net/es/",
+          "domain": "soltig.net",
+          "label": "soltig.net/es/",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Architect Technology Solutions (ATS)",
+      "profileUrl": "https://alpunto.cr/en/business/architect-technology-solutions-ats",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/architect-technology-solutions-ats",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.atscr.com/",
+      "domain": "atscr.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.atscr.com/",
+          "domain": "atscr.com",
+          "label": "www.atscr.com/",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Dinámica Consultores Internacional S.A. (DCI)",
+      "profileUrl": "https://alpunto.cr/en/business/dinamica-consultores-internacional-s-a-dci",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/dinamica-consultores-internacional-s-a-dci",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "needsOfficialDomainResolution": true,
+      "website": "https://dcicr.com/",
+      "domain": "dcicr.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://dcicr.com/",
+          "domain": "dcicr.com",
+          "label": "dcicr.com",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Avify",
+      "profileUrl": "https://alpunto.cr/en/business/avify",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/avify",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=2",
+      "needsOfficialDomainResolution": true,
+      "website": "https://avify.com/",
+      "domain": "avify.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://avify.com/",
+          "domain": "avify.com",
+          "label": "avify.com",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "INELDAT (Intercambio Electrónico de Datos S.A.)",
+      "profileUrl": "https://alpunto.cr/en/business/ineldat-intercambio-electronico-de-datos-s-a",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/ineldat-intercambio-electronico-de-datos-s-a",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=2",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.ineldat.com/",
+      "domain": "ineldat.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.ineldat.com/",
+          "domain": "ineldat.com",
+          "label": "www.ineldat.com/",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "PIXDEA",
+      "profileUrl": "https://alpunto.cr/en/business/pixdea",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/pixdea",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "needsOfficialDomainResolution": true,
+      "website": "https://pixdea.com/",
+      "domain": "pixdea.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://pixdea.com/",
+          "domain": "pixdea.com",
+          "label": "pixdea.com",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "POSMOVI (Design Soft S.A.)",
+      "profileUrl": "https://alpunto.cr/en/business/posmovi-design-soft-s-a",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/posmovi-design-soft-s-a",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.posmovi.com/",
+      "domain": "posmovi.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.posmovi.com/",
+          "domain": "posmovi.com",
+          "label": "www.posmovi.com",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "SmartFacturaCR (Smart Process CR)",
+      "profileUrl": "https://alpunto.cr/en/business/smartfacturacr-smart-process-cr",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/smartfacturacr-smart-process-cr",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "needsOfficialDomainResolution": true,
+      "website": "https://smartfacturacr.com/",
+      "domain": "smartfacturacr.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://smartfacturacr.com/",
+          "domain": "smartfacturacr.com",
+          "label": "smartfacturacr.com/",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Ibylit",
+      "profileUrl": "https://alpunto.cr/en/business/ibylit",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/ibylit",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "needsOfficialDomainResolution": true,
+      "website": "https://ibylit.com/",
+      "domain": "ibylit.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://ibylit.com/",
+          "domain": "ibylit.com",
+          "label": "ibylit.com/",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Processim Labs",
+      "profileUrl": "https://alpunto.cr/en/business/processim-labs",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/processim-labs",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.processimlabs.com/",
+      "domain": "processimlabs.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.processimlabs.com/",
+          "domain": "processimlabs.com",
+          "label": "www.processimlabs.com/",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Factun",
+      "profileUrl": "https://alpunto.cr/en/business/factun",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/factun",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.factun.com/",
+      "domain": "factun.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.factun.com/",
+          "domain": "factun.com",
+          "label": "www.factun.com/",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Fygaro",
+      "profileUrl": "https://alpunto.cr/en/business/fygaro",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/fygaro",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "needsOfficialDomainResolution": true,
+      "website": "https://fygaro.com/",
+      "domain": "fygaro.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://fygaro.com/",
+          "domain": "fygaro.com",
+          "label": "fygaro.com",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Harvie (Hey Harvie)",
+      "profileUrl": "https://alpunto.cr/en/business/harvie-hey-harvie",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/harvie-hey-harvie",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "needsOfficialDomainResolution": true,
+      "website": "https://heyharvie.com/",
+      "domain": "heyharvie.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://heyharvie.com/",
+          "domain": "heyharvie.com",
+          "label": "heyharvie.com/",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Huli",
+      "profileUrl": "https://alpunto.cr/en/business/huli",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/huli",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.huli.io/",
+      "domain": "huli.io",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.huli.io/",
+          "domain": "huli.io",
+          "label": "www.huli.io",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Mission Inbox",
+      "profileUrl": "https://alpunto.cr/en/business/mission-inbox",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/mission-inbox",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "needsOfficialDomainResolution": true,
+      "website": "https://missioninbox.com/",
+      "domain": "missioninbox.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://missioninbox.com/",
+          "domain": "missioninbox.com",
+          "label": "missioninbox.com/",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Monibyte (Impesa)",
+      "profileUrl": "https://alpunto.cr/en/business/monibyte-impesa",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/monibyte-impesa",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.monibyte.com/",
+      "domain": "monibyte.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.monibyte.com/",
+          "domain": "monibyte.com",
+          "label": "www.monibyte.com/",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Neotecnologías",
+      "profileUrl": "https://alpunto.cr/en/business/neotecnologias",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/neotecnologias",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.neotecnologias.com/",
+      "domain": "neotecnologias.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.neotecnologias.com/",
+          "domain": "neotecnologias.com",
+          "label": "www.neotecnologias.com/",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Slidebean",
+      "profileUrl": "https://alpunto.cr/en/business/slidebean",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/slidebean",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.slidebean.com/",
+      "domain": "slidebean.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.slidebean.com/",
+          "domain": "slidebean.com",
+          "label": "www.slidebean.com",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Teledolar",
+      "profileUrl": "https://alpunto.cr/en/business/teledolar",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/teledolar",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.teledolar.com/",
+      "domain": "teledolar.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.teledolar.com/",
+          "domain": "teledolar.com",
+          "label": "www.teledolar.com/",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Tilopay (Tilopay Soluciones Comerciales Ltda.)",
+      "profileUrl": "https://alpunto.cr/en/business/tilopay-tilopay-soluciones-comerciales-ltda",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/tilopay-tilopay-soluciones-comerciales-ltda",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4",
+      "needsOfficialDomainResolution": true,
+      "website": "https://tilopay.com/",
+      "domain": "tilopay.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://tilopay.com/",
+          "domain": "tilopay.com",
+          "label": "tilopay.com/",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Wolk Software",
+      "profileUrl": "https://alpunto.cr/en/business/wolk-software",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/wolk-software",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "needsOfficialDomainResolution": true,
+      "website": "https://wolksoftcr.com/",
+      "domain": "wolksoftcr.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://wolksoftcr.com/",
+          "domain": "wolksoftcr.com",
+          "label": "wolksoftcr.com/",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Hermes Soft",
+      "profileUrl": "https://alpunto.cr/en/business/hermes-soft",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/hermes-soft",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.hermes-soft.com/",
+      "domain": "hermes-soft.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.hermes-soft.com/",
+          "domain": "hermes-soft.com",
+          "label": "www.hermes-soft.com/",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "SECSA",
+      "profileUrl": "https://alpunto.cr/en/business/secsa",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/secsa",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "needsOfficialDomainResolution": true,
+      "website": "https://secsacr.net/",
+      "domain": "secsacr.net",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://secsacr.net/",
+          "domain": "secsacr.net",
+          "label": "secsacr.net/",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Logosoft (Punto de Ventas Logosoft)",
+      "profileUrl": "https://alpunto.cr/en/business/logosoft-punto-de-ventas-logosoft",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/logosoft-punto-de-ventas-logosoft",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=5",
+      "needsOfficialDomainResolution": true,
+      "website": "http://logosoftcr.com/",
+      "domain": "logosoftcr.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://logosoftcr.com/",
+          "domain": "logosoftcr.com",
+          "label": "logosoftcr.com",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Grupo Naby",
+      "profileUrl": "https://alpunto.cr/en/business/grupo-naby",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/grupo-naby",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=5",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.facturaelectronicanaby.net/",
+      "domain": "facturaelectronicanaby.net",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.facturaelectronicanaby.net/",
+          "domain": "facturaelectronicanaby.net",
+          "label": "www.facturaelectronicanaby.net/",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "321 Solutions",
+      "profileUrl": "https://alpunto.cr/en/business/321-solutions",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/321-solutions",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "needsOfficialDomainResolution": true,
+      "website": "https://321solutions.net/",
+      "domain": "321solutions.net",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://321solutions.net/",
+          "domain": "321solutions.net",
+          "label": "321solutions.net",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "ActionCOACH Costa Rica",
+      "profileUrl": "https://www.camtic.org/project/actioncoach-costa-rica/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/actioncoach-costa-rica/",
+      "needsOfficialDomainResolution": true,
+      "website": "https://actioncoachiberoamerica.com/",
+      "domain": "actioncoachiberoamerica.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://actioncoachiberoamerica.com/",
+          "domain": "actioncoachiberoamerica.com",
+          "label": "actioncoachiberoamerica.com",
+          "score": 0
+        },
+        {
+          "url": "https://cookiedatabase.org/tcf/purposes/",
+          "domain": "cookiedatabase.org",
+          "label": "Leer más sobre estos propósitos",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Aliant",
+      "profileUrl": "https://www.camtic.org/project/aliant/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/aliant/",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.aliantlaw.com/",
+      "domain": "aliantlaw.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.aliantlaw.com/",
+          "domain": "aliantlaw.com",
+          "label": "www.aliantlaw.com",
+          "score": 0
+        },
+        {
+          "url": "https://cookiedatabase.org/tcf/purposes/",
+          "domain": "cookiedatabase.org",
+          "label": "Leer más sobre estos propósitos",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Banco Promérica",
+      "profileUrl": "https://www.camtic.org/project/banco-promerica/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/banco-promerica/",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.promerica.fi.cr/",
+      "domain": "promerica.fi.cr",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.promerica.fi.cr/",
+          "domain": "promerica.fi.cr",
+          "label": "www.promerica.fi.cr",
+          "score": 0
+        },
+        {
+          "url": "https://cookiedatabase.org/tcf/purposes/",
+          "domain": "cookiedatabase.org",
+          "label": "Leer más sobre estos propósitos",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "12LAB",
+      "profileUrl": "https://guiatic.com/cr/directorio/418-12lab",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://12lab.co/nuestros-servicios/",
+      "domain": "12lab.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://12lab.co/nuestros-servicios/",
+          "domain": "12lab.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Ablerex Latam",
+      "profileUrl": "https://guiatic.com/cr/directorio/60-ablerex-latam",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.ablerexlatam.com/",
+      "domain": "ablerexlatam.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.ablerexlatam.com/",
+          "domain": "ablerexlatam.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "ADATEC SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/194-adatec-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.adatec.co/",
+      "domain": "adatec.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.adatec.co/",
+          "domain": "adatec.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://adatec.co/blog/",
+          "domain": "adatec.co",
+          "label": "Blog",
+          "score": 0
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "ADN Software",
+      "profileUrl": "https://guiatic.com/cr/directorio/308-adn-software",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.adnsoftware.com.co/",
+      "domain": "adnsoftware.com.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.adnsoftware.com.co/",
+          "domain": "adnsoftware.com.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "AITE SOLUTIONS",
+      "profileUrl": "https://guiatic.com/cr/directorio/359-aite-solutions",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.aitesol.com/",
+      "domain": "aitesol.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.aitesol.com/",
+          "domain": "aitesol.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "AJAX SYSTEMS",
+      "profileUrl": "https://guiatic.com/cr/directorio/454-ajax-systems",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://ajax.systems/",
+      "domain": "ajax.systems",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://ajax.systems/",
+          "domain": "ajax.systems",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "alltic sas",
+      "profileUrl": "https://guiatic.com/cr/directorio/320-alltic-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://alltic.co/inicio_eng/",
+      "domain": "alltic.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://alltic.co/inicio_eng/",
+          "domain": "alltic.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "APEX SECURITY",
+      "profileUrl": "https://guiatic.com/cr/directorio/441-apex-security",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://apexsecurity.com.co/",
+      "domain": "apexsecurity.com.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://apexsecurity.com.co/",
+          "domain": "apexsecurity.com.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "APPROPIA OPEN SOURCE S.A.S.",
+      "profileUrl": "https://guiatic.com/cr/directorio/490-appropia-open-source-s-a-s",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://appropia.com/",
+      "domain": "appropia.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://appropia.com/",
+          "domain": "appropia.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "APPSUS SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/334-appsus-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.appsus.co/",
+      "domain": "appsus.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.appsus.co/",
+          "domain": "appsus.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://www.mialcaldia.com.co/",
+          "domain": "mialcaldia.com.co",
+          "label": "Blog",
+          "score": 0
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "ARCHIVOS Y SISTEMAS AYS SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/292-archivos-y-sistemas-ays-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.siged.co/",
+      "domain": "siged.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.siged.co/",
+          "domain": "siged.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "ARMATURA COLOMBIA",
+      "profileUrl": "https://guiatic.com/cr/directorio/466-armatura-colombia",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://armaturacolombia.co/",
+      "domain": "armaturacolombia.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://armaturacolombia.co/",
+          "domain": "armaturacolombia.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "ASSOINCO SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/379-assoinco-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://assoincoingenieria.com/",
+      "domain": "assoincoingenieria.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://assoincoingenieria.com/",
+          "domain": "assoincoingenieria.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Athika SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/400-athika-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.athika.co/",
+      "domain": "athika.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.athika.co/",
+          "domain": "athika.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://athika.co/publicaciones/",
+          "domain": "athika.co",
+          "label": "Blog",
+          "score": 0
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "AUDITBRAIN SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/395-auditbrain-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.auditbrain.com/",
+      "domain": "auditbrain.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.auditbrain.com/",
+          "domain": "auditbrain.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "BIOFILE SAS BIC",
+      "profileUrl": "https://guiatic.com/cr/directorio/368-biofile-sas-bic",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.biofile.com.co/",
+      "domain": "biofile.com.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.biofile.com.co/",
+          "domain": "biofile.com.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://blog.biofile.com.co/",
+          "domain": "blog.biofile.com.co",
+          "label": "Blog",
+          "score": 0
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Bizneo HR",
+      "profileUrl": "https://guiatic.com/cr/directorio/419-bizneo-hr",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.bizneo.com/",
+      "domain": "bizneo.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.bizneo.com/",
+          "domain": "bizneo.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Cerca Technology SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/82-cerca-technology-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "http://cercatechnology.com/",
+      "domain": "cercatechnology.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://cercatechnology.com/",
+          "domain": "cercatechnology.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://www.cercatechnology.com/blog/%20Incluir",
+          "domain": "cercatechnology.com",
+          "label": "Blog",
+          "score": 0
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "CERO K S.A.S.",
+      "profileUrl": "https://guiatic.com/cr/directorio/439-cero-k-s-a-s",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.saiasoftware.com/",
+      "domain": "saiasoftware.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.saiasoftware.com/",
+          "domain": "saiasoftware.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "CHARMEX LATINOAMERICA",
+      "profileUrl": "https://guiatic.com/cr/directorio/63-charmex-latinoamerica",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.charmex.co/",
+      "domain": "charmex.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.charmex.co/",
+          "domain": "charmex.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "CLOUD PULSE",
+      "profileUrl": "https://guiatic.com/cr/directorio/502-cloud-pulse",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.becloudpulse.com/",
+      "domain": "becloudpulse.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.becloudpulse.com/",
+          "domain": "becloudpulse.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Cobalto Software Lab",
+      "profileUrl": "https://guiatic.com/cr/directorio/67-cobalto-software-lab",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://27cobalto.com/",
+      "domain": "27cobalto.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://27cobalto.com/",
+          "domain": "27cobalto.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "COMPUCOM SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/131-compucom-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "http://compucom.com.co/",
+      "domain": "compucom.com.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://compucom.com.co/",
+          "domain": "compucom.com.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "CONECTA, SOFTWARE Y PROCESOS S.A.S.",
+      "profileUrl": "https://guiatic.com/cr/directorio/173-conecta-software-y-procesos-s-a-s",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.conectacarga.co/",
+      "domain": "conectacarga.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.conectacarga.co/",
+          "domain": "conectacarga.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "CONSENSUS SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/246-consensus-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://consensussa.com/",
+      "domain": "consensussa.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://consensussa.com/",
+          "domain": "consensussa.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://blog.consensussa.com/blog",
+          "domain": "blog.consensussa.com",
+          "label": "Blog",
+          "score": 0
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "ControLT SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/106-controlt-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://controlt.io/",
+      "domain": "controlt.io",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://controlt.io/",
+          "domain": "controlt.io",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "COSMO CONSULT",
+      "profileUrl": "https://guiatic.com/cr/directorio/475-cosmo-consult",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.cosmoconsult.com/co",
+      "domain": "cosmoconsult.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.cosmoconsult.com/co",
+          "domain": "cosmoconsult.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "CTN Global Colombia",
+      "profileUrl": "https://guiatic.com/cr/directorio/86-ctn-global-colombia",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.ctnglobal.com/",
+      "domain": "ctnglobal.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.ctnglobal.com/",
+          "domain": "ctnglobal.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://www.ctnglobal.com/blog/",
+          "domain": "ctnglobal.com",
+          "label": "Blog",
+          "score": 0
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "CYMETRIA Group S.A.S.",
+      "profileUrl": "https://guiatic.com/cr/directorio/324-cymetria-group-s-a-s",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://cymetria.com/",
+      "domain": "cymetria.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://cymetria.com/",
+          "domain": "cymetria.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://blog.cymetria.com/",
+          "domain": "blog.cymetria.com",
+          "label": "Blog",
+          "score": 0
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Datascoring de Colombia",
+      "profileUrl": "https://guiatic.com/cr/directorio/213-datascoring-de-colombia",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.datascoring.co/",
+      "domain": "datascoring.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.datascoring.co/",
+          "domain": "datascoring.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://www.datascoring.co/blog/",
+          "domain": "datascoring.co",
+          "label": "Blog",
+          "score": 0
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "DEVCOGNITIO SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/374-devcognitio-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.devco.com.co/",
+      "domain": "devco.com.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.devco.com.co/",
+          "domain": "devco.com.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Digital Consulting Group",
+      "profileUrl": "https://guiatic.com/cr/directorio/282-digital-consulting-group",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://digitalcg.com.co/",
+      "domain": "digitalcg.com.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://digitalcg.com.co/",
+          "domain": "digitalcg.com.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://paperzero.co/blog/",
+          "domain": "paperzero.co",
+          "label": "Blog",
+          "score": 0
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "DINAMICA C.D.",
+      "profileUrl": "https://guiatic.com/cr/directorio/66-dinamica-c-d",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.dinamicacd.com.co/",
+      "domain": "dinamicacd.com.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.dinamicacd.com.co/",
+          "domain": "dinamicacd.com.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "DINAMICAPPS SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/113-dinamicapps-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://dinamicapps.co/",
+      "domain": "dinamicapps.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://dinamicapps.co/",
+          "domain": "dinamicapps.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://emedicoerp.com/noticias/",
+          "domain": "emedicoerp.com",
+          "label": "Blog",
+          "score": 0
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "DISEÑO Y APLICACIONES",
+      "profileUrl": "https://guiatic.com/cr/directorio/168-diseno-y-aplicaciones",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.scorpiosoftware.com/",
+      "domain": "scorpiosoftware.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.scorpiosoftware.com/",
+          "domain": "scorpiosoftware.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "http://scorpiodya.blogspot.com.co/",
+          "domain": "scorpiodya.blogspot.com.co",
+          "label": "Blog",
+          "score": 0
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "DRIVIN",
+      "profileUrl": "https://guiatic.com/cr/directorio/457-drivin",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://driv.in/",
+      "domain": "driv.in",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://driv.in/",
+          "domain": "driv.in",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "DYALOGO SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/186-dyalogo-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.dyalogo.com/",
+      "domain": "dyalogo.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.dyalogo.com/",
+          "domain": "dyalogo.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Dynamics IT S.A.",
+      "profileUrl": "https://guiatic.com/cr/directorio/346-dynamics-it-s-a",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "http://dynamicsitla.com/",
+      "domain": "dynamicsitla.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://dynamicsitla.com/",
+          "domain": "dynamicsitla.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "E-TakeOff SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/242-e-takeoff-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.e-takeoff.com/",
+      "domain": "e-takeoff.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.e-takeoff.com/",
+          "domain": "e-takeoff.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "EasyBI",
+      "profileUrl": "https://guiatic.com/cr/directorio/509-easybi",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://easybi.co/",
+      "domain": "easybi.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://easybi.co/",
+          "domain": "easybi.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "EL CREATIVO WEB S.A.S",
+      "profileUrl": "https://guiatic.com/cr/directorio/526-el-creativo-web-s-a-s",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://elcreativoweb.com/",
+      "domain": "elcreativoweb.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://elcreativoweb.com/",
+          "domain": "elcreativoweb.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "ELEARNING SOLUTIONS LTDA",
+      "profileUrl": "https://guiatic.com/cr/directorio/199-elearning-solutions-ltda",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.e-learning.com.co/",
+      "domain": "e-learning.com.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.e-learning.com.co/",
+          "domain": "e-learning.com.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Enterprise Business Solutions – EBS LTDA",
+      "profileUrl": "https://guiatic.com/cr/directorio/460-enterprise-business-solutions-ebs-ltda",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.ebsltda.com.co/",
+      "domain": "ebsltda.com.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.ebsltda.com.co/",
+          "domain": "ebsltda.com.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "eSoft Colombia SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/388-esoft-colombia-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.esoft.com.co/",
+      "domain": "esoft.com.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.esoft.com.co/",
+          "domain": "esoft.com.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://esoft.com.co/blog/",
+          "domain": "esoft.com.co",
+          "label": "Blog",
+          "score": 0
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "EXPERIS COLOMBIA",
+      "profileUrl": "https://guiatic.com/cr/directorio/450-experis-colombia",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.experis.co/",
+      "domain": "experis.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.experis.co/",
+          "domain": "experis.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://blog.manpowergroupcolombia.co/",
+          "domain": "blog.manpowergroupcolombia.co",
+          "label": "Blog",
+          "score": 0
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "FINAC S.A.S.",
+      "profileUrl": "https://guiatic.com/cr/directorio/162-finac-s-a-s",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.finac.com/",
+      "domain": "finac.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.finac.com/",
+          "domain": "finac.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "FLEXIWEB LIMITADA",
+      "profileUrl": "https://guiatic.com/cr/directorio/166-flexiweb-limitada",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.flexiwebltda.com/",
+      "domain": "flexiwebltda.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.flexiwebltda.com/",
+          "domain": "flexiwebltda.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "FOMPLUS",
+      "profileUrl": "https://guiatic.com/cr/directorio/274-fomplus",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.fomplus.net/",
+      "domain": "fomplus.net",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.fomplus.net/",
+          "domain": "fomplus.net",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "FORWARTY",
+      "profileUrl": "https://guiatic.com/cr/directorio/498-forwarty",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://myforwarty.com/",
+      "domain": "myforwarty.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://myforwarty.com/",
+          "domain": "myforwarty.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Front Tech",
+      "profileUrl": "https://guiatic.com/cr/directorio/471-front-tech",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://fronttech.com.co/",
+      "domain": "fronttech.com.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://fronttech.com.co/",
+          "domain": "fronttech.com.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "GCON4",
+      "profileUrl": "https://guiatic.com/cr/directorio/337-gcon4",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://gcon4.com/es/",
+      "domain": "gcon4.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://gcon4.com/es/",
+          "domain": "gcon4.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Giitic S.A.S.",
+      "profileUrl": "https://guiatic.com/cr/directorio/432-giitic-s-a-s",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.giitic.com/",
+      "domain": "giitic.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.giitic.com/",
+          "domain": "giitic.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://portal.giitic.com/publico/blog",
+          "domain": "portal.giitic.com",
+          "label": "Blog",
+          "score": 0
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "GROWING TECH SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/473-growing-tech-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.growingtech.com.co/",
+      "domain": "growingtech.com.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.growingtech.com.co/",
+          "domain": "growingtech.com.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://growingtech.com.co/blog",
+          "domain": "growingtech.com.co",
+          "label": "Blog",
+          "score": 0
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "IBIS CREATIVA",
+      "profileUrl": "https://guiatic.com/cr/directorio/340-ibis-creativa",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://ibiscreativa.co/",
+      "domain": "ibiscreativa.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://ibiscreativa.co/",
+          "domain": "ibiscreativa.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "ICONOI",
+      "profileUrl": "https://guiatic.com/cr/directorio/64-iconoi",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.iconoi.com/",
+      "domain": "iconoi.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.iconoi.com/",
+          "domain": "iconoi.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://iconoi.com/blog/",
+          "domain": "iconoi.com",
+          "label": "Blog",
+          "score": 0
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "ICR Evolution",
+      "profileUrl": "https://guiatic.com/cr/directorio/392-icr-evolution",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.icr-evolution.com/",
+      "domain": "icr-evolution.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.icr-evolution.com/",
+          "domain": "icr-evolution.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://icr-evolution.com/blog/",
+          "domain": "icr-evolution.com",
+          "label": "Blog",
+          "score": 0
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "ilana lab S.A.S.",
+      "profileUrl": "https://guiatic.com/cr/directorio/397-ilana-lab-s-a-s",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://ilanalab.com/",
+      "domain": "ilanalab.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://ilanalab.com/",
+          "domain": "ilanalab.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Imaginatio Digital Agency - Línea Oza Learn",
+      "profileUrl": "https://guiatic.com/cr/directorio/316-imaginatio-digital-agency-linea-oza-learn",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.imaginatio.com.co/",
+      "domain": "imaginatio.com.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.imaginatio.com.co/",
+          "domain": "imaginatio.com.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "iMedical Services S.A.S.",
+      "profileUrl": "https://guiatic.com/cr/directorio/239-imedical-services-s-a-s",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.imedicalservices.com/",
+      "domain": "imedicalservices.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.imedicalservices.com/",
+          "domain": "imedicalservices.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "IMPROSOFT S.A.S.",
+      "profileUrl": "https://guiatic.com/cr/directorio/236-improsoft-s-a-s",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.mejoramiso.com/",
+      "domain": "mejoramiso.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.mejoramiso.com/",
+          "domain": "mejoramiso.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "INFORMACIÓN GERENCIAL LTDA.",
+      "profileUrl": "https://guiatic.com/cr/directorio/93-informacion-gerencial-ltda",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.informaciongerencial.com/",
+      "domain": "informaciongerencial.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.informaciongerencial.com/",
+          "domain": "informaciongerencial.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Innova Systems S.A.S.",
+      "profileUrl": "https://guiatic.com/cr/directorio/230-innova-systems-s-a-s",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.innova.com.co/",
+      "domain": "innova.com.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.innova.com.co/",
+          "domain": "innova.com.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Innovasoft – CLASS Software Académico",
+      "profileUrl": "https://guiatic.com/cr/directorio/351-innovasoft-class-software-academico",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.innovasof.com/",
+      "domain": "innovasof.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.innovasof.com/",
+          "domain": "innovasof.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "INNOVASOFT COLOMBIA SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/97-innovasoft-colombia-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://site.isismaweb.com/blog/",
+      "domain": "site.isismaweb.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://site.isismaweb.com/blog/",
+          "domain": "site.isismaweb.com",
+          "label": "Blog",
+          "score": 0
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "INSITU MOBILE SOFTWARE S.A.",
+      "profileUrl": "https://guiatic.com/cr/directorio/325-insitu-mobile-software-s-a",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.insitusales.com/es/",
+      "domain": "insitusales.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.insitusales.com/es/",
+          "domain": "insitusales.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Latic Latinoamérica",
+      "profileUrl": "https://guiatic.com/cr/directorio/452-latic-latinoamerica",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.latic.lat/",
+      "domain": "latic.lat",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.latic.lat/",
+          "domain": "latic.lat",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://latic.lat/noticias/",
+          "domain": "latic.lat",
+          "label": "Blog",
+          "score": 0
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "LED SCREEN MASTERS & SUPPLIES S.A.S. / LED MASTER",
+      "profileUrl": "https://guiatic.com/cr/directorio/415-led-screen-masters-supplies-s-a-s-led-master",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://theledmaster.com/es/",
+      "domain": "theledmaster.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://theledmaster.com/es/",
+          "domain": "theledmaster.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Lite Thinking",
+      "profileUrl": "https://guiatic.com/cr/directorio/333-lite-thinking",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.litethinking.com/",
+      "domain": "litethinking.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.litethinking.com/",
+          "domain": "litethinking.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Lyntik",
+      "profileUrl": "https://guiatic.com/cr/directorio/378-lyntik",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.lyntik.co/",
+      "domain": "lyntik.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.lyntik.co/",
+          "domain": "lyntik.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Mainsoft Ltda.",
+      "profileUrl": "https://guiatic.com/cr/directorio/385-mainsoft-ltda",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.mainsoft.co/",
+      "domain": "mainsoft.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.mainsoft.co/",
+          "domain": "mainsoft.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "MEKATTA",
+      "profileUrl": "https://guiatic.com/cr/directorio/506-mekatta",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://mekatta.co/",
+      "domain": "mekatta.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://mekatta.co/",
+          "domain": "mekatta.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "NEOSOFTWARE INGENIERIA SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/193-neosoftware-ingenieria-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.neosoftwareingenieria.com/",
+      "domain": "neosoftwareingenieria.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.neosoftwareingenieria.com/",
+          "domain": "neosoftwareingenieria.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Netsoft - Negocios en Tecnología y Software HGEG S.A. de C.V.",
+      "profileUrl": "https://guiatic.com/cr/directorio/55-netsoft-negocios-en-tecnologia-y-software-hgeg-s-a-de-c-v",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "http://netsoft.com/",
+      "domain": "netsoft.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://netsoft.com/",
+          "domain": "netsoft.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://netsoft.com/blog-netsoft/",
+          "domain": "netsoft.com",
+          "label": "Blog",
+          "score": 0
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "NETTHPLUS SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/474-netthplus-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.netthplus.com/",
+      "domain": "netthplus.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.netthplus.com/",
+          "domain": "netthplus.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Next Audit & Consulting SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/477-next-audit-consulting-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://nextayc.com/",
+      "domain": "nextayc.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://nextayc.com/",
+          "domain": "nextayc.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "NEXXT SOLUTIONS - INFRAESTRUCTURA",
+      "profileUrl": "https://guiatic.com/cr/directorio/260-nexxt-solutions-infraestructura",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.nexxtsolutions.com/",
+      "domain": "nexxtsolutions.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.nexxtsolutions.com/",
+          "domain": "nexxtsolutions.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Nicomar Electronics - Powest",
+      "profileUrl": "https://guiatic.com/cr/directorio/360-nicomar-electronics-powest",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://powest.com/",
+      "domain": "powest.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://powest.com/",
+          "domain": "powest.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://powestcorp.blogspot.com/",
+          "domain": "powestcorp.blogspot.com",
+          "label": "Blog",
+          "score": 0
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Noren Thermal Solutions",
+      "profileUrl": "https://guiatic.com/cr/directorio/393-noren-thermal-solutions",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://norenthermal.com/",
+      "domain": "norenthermal.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://norenthermal.com/",
+          "domain": "norenthermal.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "NovaIP",
+      "profileUrl": "https://guiatic.com/cr/directorio/178-novaip",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.novaip.com.co/",
+      "domain": "novaip.com.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.novaip.com.co/",
+          "domain": "novaip.com.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "NOVOSTEK",
+      "profileUrl": "https://guiatic.com/cr/directorio/435-novostek",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.novostek.com/",
+      "domain": "novostek.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.novostek.com/",
+          "domain": "novostek.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "OasisCom",
+      "profileUrl": "https://guiatic.com/cr/directorio/70-oasiscom",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.oasiscom.com/",
+      "domain": "oasiscom.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.oasiscom.com/",
+          "domain": "oasiscom.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "OneScreen Solutions",
+      "profileUrl": "https://guiatic.com/cr/directorio/453-onescreen-solutions",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://onescreenlatam.com/",
+      "domain": "onescreenlatam.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://onescreenlatam.com/",
+          "domain": "onescreenlatam.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Oracle NetSuite",
+      "profileUrl": "https://guiatic.com/cr/directorio/481-oracle-netsuite",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.netsuite.com.mx/portal/mx/home.shtml",
+      "domain": "netsuite.com.mx",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.netsuite.com.mx/portal/mx/home.shtml",
+          "domain": "netsuite.com.mx",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "ORBIS CORPORATION SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/280-orbis-corporation-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.orbis.com.co/",
+      "domain": "orbis.com.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.orbis.com.co/",
+          "domain": "orbis.com.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "PANDUIT SERVICIOS",
+      "profileUrl": "https://guiatic.com/cr/directorio/141-panduit-servicios",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.panduit.com/",
+      "domain": "panduit.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.panduit.com/",
+          "domain": "panduit.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "http://panduitblog.com/",
+          "domain": "panduitblog.com",
+          "label": "Blog",
+          "score": 0
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "PRODYGYTEK SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/446-prodygytek-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.prodygytek.com/",
+      "domain": "prodygytek.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.prodygytek.com/",
+          "domain": "prodygytek.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "PSC PROSOL COLOMBIA SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/377-psc-prosol-colombia-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://prosol.com.co/",
+      "domain": "prosol.com.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://prosol.com.co/",
+          "domain": "prosol.com.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Q10 SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/495-q10-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://q10.com/",
+      "domain": "q10.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://q10.com/",
+          "domain": "q10.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "RC Cloud Tech",
+      "profileUrl": "https://guiatic.com/cr/directorio/510-rc-cloud-tech",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.rccloudtech.com/",
+      "domain": "rccloudtech.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.rccloudtech.com/",
+          "domain": "rccloudtech.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "RECURSOS & TECNOLOGIA SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/331-recursos-tecnologia-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.recursosytecnologia.com.co/",
+      "domain": "recursosytecnologia.com.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.recursosytecnologia.com.co/",
+          "domain": "recursosytecnologia.com.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Risktech",
+      "profileUrl": "https://guiatic.com/cr/directorio/77-risktech",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.risktech.com.co/",
+      "domain": "risktech.com.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.risktech.com.co/",
+          "domain": "risktech.com.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "RSN IT SOLUTIONS SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/382-rsn-it-solutions-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.informaweberp.com/",
+      "domain": "informaweberp.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.informaweberp.com/",
+          "domain": "informaweberp.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "S.U.S - Soluciones Universales Sistemáticas",
+      "profileUrl": "https://guiatic.com/cr/directorio/461-s-u-s-soluciones-universales-sistematicas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://sus.com.co/",
+      "domain": "sus.com.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://sus.com.co/",
+          "domain": "sus.com.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "SAMA WIFI SA DE CV",
+      "profileUrl": "https://guiatic.com/cr/directorio/511-sama-wifi-sa-de-cv",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.samawifi.com/",
+      "domain": "samawifi.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.samawifi.com/",
+          "domain": "samawifi.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Schneider Electric Centroamérica LTDA",
+      "profileUrl": "https://guiatic.com/cr/directorio/465-schneider-electric-centroamerica-ltda",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.se.com/cr/es/",
+      "domain": "se.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.se.com/cr/es/",
+          "domain": "se.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://blogespanol.se.com/",
+          "domain": "blogespanol.se.com",
+          "label": "Blog",
+          "score": 0
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Seidor Colombia",
+      "profileUrl": "https://guiatic.com/cr/directorio/343-seidor-colombia",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://seidorcolombia.co/",
+      "domain": "seidorcolombia.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://seidorcolombia.co/",
+          "domain": "seidorcolombia.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "SIAFF CONSULTORES, S.A. DE C.V",
+      "profileUrl": "https://guiatic.com/cr/directorio/409-siaff-consultores-s-a-de-c-v",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.siaff.net/",
+      "domain": "siaff.net",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.siaff.net/",
+          "domain": "siaff.net",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://siaff.net/blog-page/",
+          "domain": "siaff.net",
+          "label": "Blog",
+          "score": 0
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "SISCOMPUTO LTDA",
+      "profileUrl": "https://guiatic.com/cr/directorio/232-siscomputo-ltda",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://siscomputo.com/",
+      "domain": "siscomputo.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://siscomputo.com/",
+          "domain": "siscomputo.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "SOFTTOOLS S.A.S",
+      "profileUrl": "https://guiatic.com/cr/directorio/251-softtools-s-a-s",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.softtools.co/",
+      "domain": "softtools.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.softtools.co/",
+          "domain": "softtools.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "SOLTEC SALUD SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/256-soltec-salud-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.soltecsalud.com/",
+      "domain": "soltecsalud.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.soltecsalud.com/",
+          "domain": "soltecsalud.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "SOLUCIONES GENIALES SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/499-soluciones-geniales-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.solgenial.co/",
+      "domain": "solgenial.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.solgenial.co/",
+          "domain": "solgenial.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Soporte y Compañía SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/191-soporte-y-compania-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://infomante.com/",
+      "domain": "infomante.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://infomante.com/",
+          "domain": "infomante.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Sprime",
+      "profileUrl": "https://guiatic.com/cr/directorio/329-sprime",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://sprime.com.co/",
+      "domain": "sprime.com.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://sprime.com.co/",
+          "domain": "sprime.com.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "SUPREMA INC",
+      "profileUrl": "https://guiatic.com/cr/directorio/469-suprema-inc",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.supremainc.com/es/main.asp",
+      "domain": "supremainc.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.supremainc.com/es/main.asp",
+          "domain": "supremainc.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "SYNERGY TPC SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/405-synergy-tpc-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.synergytpc.com/",
+      "domain": "synergytpc.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.synergytpc.com/",
+          "domain": "synergytpc.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "talento cloud",
+      "profileUrl": "https://guiatic.com/cr/directorio/373-talento-cloud",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://talento.cloud/",
+      "domain": "talento.cloud",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://talento.cloud/",
+          "domain": "talento.cloud",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Tickelia, Legalización de viáticos y gastos de empresa",
+      "profileUrl": "https://guiatic.com/cr/directorio/431-tickelia-legalizacion-de-viaticos-y-gastos-de-empresa",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://tickelia.com/co/",
+      "domain": "tickelia.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://tickelia.com/co/",
+          "domain": "tickelia.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "TIQAL S.A.S.",
+      "profileUrl": "https://guiatic.com/cr/directorio/399-tiqal-s-a-s",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.darumasoftware.com/",
+      "domain": "darumasoftware.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.darumasoftware.com/",
+          "domain": "darumasoftware.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "TKH Security LLC",
+      "profileUrl": "https://guiatic.com/cr/directorio/281-tkh-security-llc",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.tkhsecurity.com/",
+      "domain": "tkhsecurity.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.tkhsecurity.com/",
+          "domain": "tkhsecurity.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://tkhsecurity.com/news/",
+          "domain": "tkhsecurity.com",
+          "label": "Blog",
+          "score": 0
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Todosistemas STI",
+      "profileUrl": "https://guiatic.com/cr/directorio/69-todosistemas-sti",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.todosistemassti.co/",
+      "domain": "todosistemassti.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.todosistemassti.co/",
+          "domain": "todosistemassti.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Tripp Lite",
+      "profileUrl": "https://guiatic.com/cr/directorio/354-tripp-lite",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.tripplite.com/",
+      "domain": "tripplite.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.tripplite.com/",
+          "domain": "tripplite.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "UNIÓN SOLUCIONES SISTEMAS DE INFORMACIÓN",
+      "profileUrl": "https://guiatic.com/cr/directorio/75-union-soluciones-sistemas-de-informacion",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.unionsoluciones.com/",
+      "domain": "unionsoluciones.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.unionsoluciones.com/",
+          "domain": "unionsoluciones.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "VENDTY SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/387-vendty-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://vendty.com/",
+      "domain": "vendty.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://vendty.com/",
+          "domain": "vendty.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "VIRTUAL TECHNOLOGIES SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/11-virtual-technologies-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.virtual.com.co/",
+      "domain": "virtual.com.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.virtual.com.co/",
+          "domain": "virtual.com.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Visual Control",
+      "profileUrl": "https://guiatic.com/cr/directorio/515-visual-control",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.visualcontrol.com.co/",
+      "domain": "visualcontrol.com.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.visualcontrol.com.co/",
+          "domain": "visualcontrol.com.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "WAHHU",
+      "profileUrl": "https://guiatic.com/cr/directorio/488-wahhu",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://wahhu.com/homeWahhu/",
+      "domain": "wahhu.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://wahhu.com/homeWahhu/",
+          "domain": "wahhu.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "WebLink Technology Solutions Ltda.",
+      "profileUrl": "https://guiatic.com/cr/directorio/174-weblink-technology-solutions-ltda",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.cloud-bricks.net/",
+      "domain": "cloud-bricks.net",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.cloud-bricks.net/",
+          "domain": "cloud-bricks.net",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "XIMIL TECHNOLOGIES SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/383-ximil-technologies-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.ximil.co/",
+      "domain": "ximil.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.ximil.co/",
+          "domain": "ximil.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    }
+  ],
+  "uniqueCandidatesFound": 158,
+  "outputLimit": 1000
+}

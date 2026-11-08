@@ -213,6 +213,7 @@ export async function upsertCompanyEnrichments(
         ...(existing?.locations || []),
         ...(input.locations || []),
       ]),
+      tags: unique([...(existing?.tags || []), ...(input.tags || [])]),
       records: jobs.length,
       model:
         input.model === "unknown" &&

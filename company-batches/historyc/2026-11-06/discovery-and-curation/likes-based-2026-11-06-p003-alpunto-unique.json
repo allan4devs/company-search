@@ -1,0 +1,423 @@
+{
+  "cohortId": "likes-based-2026-11-06-p003",
+  "generatedOn": "2026-11-06",
+  "catalog": {
+    "source": "MongoDB + bundled files + prior batches",
+    "mongoCompanies": 1220,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 121,
+    "indexedNames": 1305,
+    "indexedDomains": 1182
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 63,
+    "topTracks": [
+      {
+        "track": "Engineering",
+        "count": 36
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Software Engineering",
+        "count": 3
+      },
+      {
+        "track": "Node.js",
+        "count": 2
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        46
+      ],
+      [
+        "direct",
+        16
+      ],
+      [
+        "unknown",
+        1
+      ]
+    ]
+  },
+  "candidates": [
+    {
+      "name": "Edenia",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Emerald Studio",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "GBSYS",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "KyrApps",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Rempro Software",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Trifecta Software",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Vorealis Software",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "WOW Emotions",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Fair Play Labs",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Elva AI",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "NW Consulting Services",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Aurigital",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Y2K Webs",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Pertec Global Services",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "4Geeks",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "TecApro (Grupo TecApro)",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Aplix",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Grupo Asesor en Informática",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Flecha Roja Technologies",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "10Pearls Costa Rica",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Bitcode Enterprise",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Yaipan",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Lantern Technologies",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Interfaz",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "MiHost",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "EX Squared LATAM",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Cecropia Solutions",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Hermes Soft",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Cipherio",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Datasoft",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Babel Costa Rica",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Inversiones Next Curve S.A.",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Luminon Studios",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Soefe Software",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "5e Creative Labs",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Akurey",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Apify LATAM",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Coliand Studio",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Innovatiko",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "kiub",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Near Coding",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "New Street Development",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Oriceti Software Studio",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Villalta Tech",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "AraWeb CR",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Novitec Consultores en Aplicaciones S.A.",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "PIXDEA",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Drago's House",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "EffectiveSoft",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Infosgroup",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Irazu Labs",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Neural Coders",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "People Apps",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Proximity Costa Rica",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Softon Digital (Softon ITG)",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "U Devs",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "WAM Digital",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "weKnow Inc.",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Nova Sistem Developers CR",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Wolk Software",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "HacksinCodigos",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "SOIN Soluciones Integrales",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Software and Consulting Group (SCG)",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Businesspro",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Dailysoft Technologies CR",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "DNAMIC",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Helm360",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Incompany Solutions S.A.",
+      "queryLane": "Costa Rica company directory leads",
+      "needsOfficialDomainResolution": true
+    }
+  ],
+  "uniqueCandidatesFound": 68,
+  "outputLimit": 100
+}

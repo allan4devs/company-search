@@ -1,0 +1,137 @@
+{
+  "cohortId": "likes-based-2026-11-07-p022",
+  "generatedOn": "2026-11-07",
+  "sourceConcurrency": 3,
+  "sourceResults": [],
+  "inputCount": 174,
+  "nameUniqueCount": 35,
+  "targetStrictUniqueCount": 100,
+  "strictUniqueCount": 26,
+  "slices": [
+    {
+      "offset": 0,
+      "input": 35,
+      "directoryProfileResolutionNeeded": 0,
+      "directoryProfileSitesFound": 0,
+      "profileResolveProcessMs": 0,
+      "websiteResolutionNeeded": 0,
+      "resolvedWithWebsiteCandidate": 0,
+      "fallbackResolveProcessMs": 0,
+      "siteReadyCandidates": 35,
+      "resolverProcessMs": 0,
+      "verifierProcessMs": 3363,
+      "officialPagesChecked": 57,
+      "elapsedMs": 3168,
+      "strictPasses": 26,
+      "queryLanes": [
+        {
+          "lane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+          "checked": 12,
+          "reachable": 12,
+          "regionAndFit": 12,
+          "localOrEligibleAndFit": 12,
+          "regionAndFitRate": 1,
+          "localOrEligibleAndFitRate": 1,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+          "checked": 5,
+          "reachable": 5,
+          "regionAndFit": 5,
+          "localOrEligibleAndFit": 5,
+          "regionAndFitRate": 1,
+          "localOrEligibleAndFitRate": 1,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — Uruguay",
+          "checked": 4,
+          "reachable": 4,
+          "regionAndFit": 4,
+          "localOrEligibleAndFit": 4,
+          "regionAndFitRate": 1,
+          "localOrEligibleAndFitRate": 1,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Aworkado remote software engineering — LATAM postings",
+          "checked": 2,
+          "reachable": 2,
+          "regionAndFit": 2,
+          "localOrEligibleAndFit": 2,
+          "regionAndFitRate": 1,
+          "localOrEligibleAndFitRate": 1,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "official Costa Rica software employers",
+          "checked": 1,
+          "reachable": 1,
+          "regionAndFit": 1,
+          "localOrEligibleAndFit": 1,
+          "regionAndFitRate": 1,
+          "localOrEligibleAndFitRate": 1,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Proveedores de Costa Rica software supplier directory",
+          "checked": 1,
+          "reachable": 1,
+          "regionAndFit": 1,
+          "localOrEligibleAndFit": 1,
+          "regionAndFitRate": 1,
+          "localOrEligibleAndFitRate": 1,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "CAMTIC Costa Rica ICT member directory",
+          "checked": 1,
+          "reachable": 1,
+          "regionAndFit": 1,
+          "localOrEligibleAndFit": 1,
+          "regionAndFitRate": 1,
+          "localOrEligibleAndFitRate": 1,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Costa Rica employer directory and careers",
+          "checked": 9,
+          "reachable": 7,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        }
+      ],
+      "verificationFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p022-timed-2026-11-07\\site-slice-001-verified.json",
+      "strictPoolWriteMs": 4,
+      "domainDedupeProcessMs": 199
+    }
+  ],
+  "timingsMs": {
+    "sourceFetchWallMs": 0,
+    "sourceFetchSumMs": 0,
+    "inputReadMergeWriteMs": 53,
+    "nameDedupeProcessMs": 2123,
+    "readNameUniqueAndSnapshotMs": 9,
+    "websiteResolutionSumMs": 0,
+    "directoryProfileResolutionSumMs": 0,
+    "fallbackDomainResolutionSumMs": 0,
+    "websiteVerificationProcessSumMs": 3363,
+    "websiteVerificationInternalSumMs": 3168,
+    "finalDomainDedupeProcessSumMs": 199,
+    "strictPoolWriteSumMs": 4,
+    "totalElapsedBeforeReportWriteMs": 5762
+  },
+  "rawLeads": "company-batches\\historyc\\2026-11-07\\batch-runs\\p022-timed-2026-11-07\\combined-raw-leads.json",
+  "nameUniqueLeads": "company-batches\\historyc\\2026-11-07\\batch-runs\\p022-timed-2026-11-07\\name-unique-leads.json",
+  "mongoSnapshot": "company-batches\\historyc\\2026-11-07\\batch-runs\\p022-timed-2026-11-07\\mongo-snapshot.json",
+  "dedupeLedger": "company-batches\\historyc\\2026-11-07\\batch-runs\\p022-timed-2026-11-07\\name-dedupe-ledger.json",
+  "strictUniqueLeads": "company-batches\\historyc\\2026-11-07\\batch-runs\\p022-timed-2026-11-07\\strict-domain-unique-leads.json",
+  "strictDedupeLedger": "company-batches\\historyc\\2026-11-07\\batch-runs\\p022-timed-2026-11-07\\strict-domain-dedupe-ledger.json",
+  "timingReport": "company-batches\\historyc\\2026-11-07\\batch-runs\\p022-timed-2026-11-07\\timing-report.json",
+  "artifacts": {},
+  "nextStep": "Add fresh sources or inputs; this run exhausted the available name-unique candidates before reaching the target."
+}

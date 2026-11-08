@@ -1,0 +1,852 @@
+{
+  "cohortId": "likes-based-2026-11-07-p023",
+  "checkedOn": "2026-11-07",
+  "inputFiles": [
+    "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\combined-raw-leads.json"
+  ],
+  "inputCount": 43,
+  "uniqueCount": 27,
+  "outputCount": 27,
+  "duplicateCount": 16,
+  "missingIdentityCount": 0,
+  "catalog": {
+    "source": "MongoDB + bundled files",
+    "mongoCompanies": 1620,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 0,
+    "indexedNames": 1664,
+    "indexedDomains": 1609
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 67,
+    "topTracks": [
+      {
+        "track": "Engineering",
+        "count": 36
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Software Engineering",
+        "count": 7
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Node.js",
+        "count": 2
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        47
+      ],
+      [
+        "direct",
+        16
+      ],
+      [
+        "unknown",
+        4
+      ]
+    ]
+  },
+  "dislikeBaseline": {
+    "activeDislikedWithCostaRicaOrLatamEvidence": 107,
+    "dislikedTracks": [
+      {
+        "track": "Engineering",
+        "count": 64
+      },
+      {
+        "track": "Software Engineering",
+        "count": 22
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 8
+      },
+      {
+        "track": "Backend",
+        "count": 6
+      },
+      {
+        "track": "Full-stack",
+        "count": 5
+      },
+      {
+        "track": "Java Backend",
+        "count": 3
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 3
+      },
+      {
+        "track": "Python",
+        "count": 3
+      },
+      {
+        "track": "Nearshore",
+        "count": 3
+      },
+      {
+        "track": "Full Stack",
+        "count": 3
+      },
+      {
+        "track": "Go",
+        "count": 1
+      },
+      {
+        "track": "Node.js",
+        "count": 1
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        55
+      ],
+      [
+        "direct",
+        36
+      ],
+      [
+        "unknown",
+        16
+      ]
+    ]
+  },
+  "preferenceContrast": {
+    "scope": "Active liked/disliked companies with explicit Costa Rica or LATAM evidence; each company counts once per feature.",
+    "likedCompanies": 67,
+    "dislikedCompanies": 107,
+    "models": [
+      {
+        "feature": "outsourcing",
+        "likedCount": 47,
+        "likedRate": 0.701,
+        "dislikedCount": 55,
+        "dislikedRate": 0.514,
+        "likedMinusDisliked": 0.187
+      },
+      {
+        "feature": "unknown",
+        "likedCount": 4,
+        "likedRate": 0.06,
+        "dislikedCount": 16,
+        "dislikedRate": 0.15,
+        "likedMinusDisliked": -0.09
+      },
+      {
+        "feature": "direct",
+        "likedCount": 16,
+        "likedRate": 0.239,
+        "dislikedCount": 36,
+        "dislikedRate": 0.336,
+        "likedMinusDisliked": -0.098
+      }
+    ],
+    "tracks": [
+      {
+        "feature": "Nearshore",
+        "likedCount": 9,
+        "likedRate": 0.134,
+        "dislikedCount": 3,
+        "dislikedRate": 0.028,
+        "likedMinusDisliked": 0.106
+      },
+      {
+        "feature": "Java",
+        "likedCount": 5,
+        "likedRate": 0.075,
+        "dislikedCount": 1,
+        "dislikedRate": 0.009,
+        "likedMinusDisliked": 0.065
+      },
+      {
+        "feature": "React + Node Full Stack",
+        "likedCount": 5,
+        "likedRate": 0.075,
+        "dislikedCount": 3,
+        "dislikedRate": 0.028,
+        "likedMinusDisliked": 0.047
+      },
+      {
+        "feature": "Full Stack",
+        "likedCount": 5,
+        "likedRate": 0.075,
+        "dislikedCount": 3,
+        "dislikedRate": 0.028,
+        "likedMinusDisliked": 0.047
+      },
+      {
+        "feature": "React",
+        "likedCount": 3,
+        "likedRate": 0.045,
+        "dislikedCount": 1,
+        "dislikedRate": 0.009,
+        "likedMinusDisliked": 0.035
+      },
+      {
+        "feature": "JavaScript",
+        "likedCount": 3,
+        "likedRate": 0.045,
+        "dislikedCount": 1,
+        "dislikedRate": 0.009,
+        "likedMinusDisliked": 0.035
+      },
+      {
+        "feature": "Python",
+        "likedCount": 4,
+        "likedRate": 0.06,
+        "dislikedCount": 3,
+        "dislikedRate": 0.028,
+        "likedMinusDisliked": 0.032
+      },
+      {
+        "feature": "Node.js",
+        "likedCount": 2,
+        "likedRate": 0.03,
+        "dislikedCount": 1,
+        "dislikedRate": 0.009,
+        "likedMinusDisliked": 0.021
+      },
+      {
+        "feature": "Java + React Full Stack",
+        "likedCount": 6,
+        "likedRate": 0.09,
+        "dislikedCount": 8,
+        "dislikedRate": 0.075,
+        "likedMinusDisliked": 0.015
+      },
+      {
+        "feature": "Full-stack",
+        "likedCount": 4,
+        "likedRate": 0.06,
+        "dislikedCount": 5,
+        "dislikedRate": 0.047,
+        "likedMinusDisliked": 0.013
+      },
+      {
+        "feature": "Java Backend",
+        "likedCount": 1,
+        "likedRate": 0.015,
+        "dislikedCount": 3,
+        "dislikedRate": 0.028,
+        "likedMinusDisliked": -0.013
+      },
+      {
+        "feature": "Backend",
+        "likedCount": 2,
+        "likedRate": 0.03,
+        "dislikedCount": 6,
+        "dislikedRate": 0.056,
+        "likedMinusDisliked": -0.026
+      },
+      {
+        "feature": "Engineering",
+        "likedCount": 36,
+        "likedRate": 0.537,
+        "dislikedCount": 64,
+        "dislikedRate": 0.598,
+        "likedMinusDisliked": -0.061
+      },
+      {
+        "feature": "Software Engineering",
+        "likedCount": 7,
+        "likedRate": 0.104,
+        "dislikedCount": 22,
+        "dislikedRate": 0.206,
+        "likedMinusDisliked": -0.101
+      }
+    ],
+    "roleFamilies": [
+      {
+        "feature": "Full stack",
+        "likedCount": 22,
+        "likedRate": 0.328,
+        "dislikedCount": 22,
+        "dislikedRate": 0.206,
+        "likedMinusDisliked": 0.123
+      },
+      {
+        "feature": "DevOps / platform",
+        "likedCount": 2,
+        "likedRate": 0.03,
+        "dislikedCount": 1,
+        "dislikedRate": 0.009,
+        "likedMinusDisliked": 0.021
+      },
+      {
+        "feature": "Backend",
+        "likedCount": 7,
+        "likedRate": 0.104,
+        "dislikedCount": 10,
+        "dislikedRate": 0.093,
+        "likedMinusDisliked": 0.011
+      },
+      {
+        "feature": "Data",
+        "likedCount": 2,
+        "likedRate": 0.03,
+        "dislikedCount": 4,
+        "dislikedRate": 0.037,
+        "likedMinusDisliked": -0.008
+      }
+    ],
+    "usage": "Use as a soft source-priority signal. Do not reject a company on preferences alone or weaken the location/evidence gate."
+  },
+  "queryLanes": [
+    {
+      "lane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "leads": 12,
+      "unique": 12,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "leads": 5,
+      "unique": 5,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Enterprise League software directory — Uruguay",
+      "leads": 4,
+      "unique": 4,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Aworkado remote software engineering — LATAM postings",
+      "leads": 2,
+      "unique": 2,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "official Costa Rica software employers",
+      "leads": 1,
+      "unique": 1,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Proveedores de Costa Rica software supplier directory",
+      "leads": 1,
+      "unique": 1,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "CAMTIC Costa Rica ICT member directory",
+      "leads": 1,
+      "unique": 1,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official ATS LATAM engineering roles",
+      "leads": 5,
+      "unique": 1,
+      "duplicateRate": 0.8,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official ATS Costa Rica engineering roles",
+      "leads": 3,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official ATS Costa Rica and LATAM engineering roles",
+      "leads": 6,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official company careers Costa Rica software roles",
+      "leads": 1,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official company careers LATAM engineering roles",
+      "leads": 2,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    }
+  ],
+  "timingsMs": {
+    "inputReadMs": 3,
+    "mongoLoadOrSnapshotReadMs": 2933,
+    "snapshotWriteMs": 14,
+    "bundledCatalogReadMs": 10,
+    "previousBatchReadMs": 0,
+    "indexBuildMs": 22,
+    "candidateCompareMs": 2,
+    "preferenceAnalysisMs": 8,
+    "preReportWriteElapsedMs": 2994
+  },
+  "entries": [
+    {
+      "company": "DataSoft",
+      "domain": "datasoftla.com",
+      "queryLane": "official Costa Rica software employers",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.datasoftla.com/"
+    },
+    {
+      "company": "Constructora Oikos",
+      "domain": "constructoraoikos.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=4"
+    },
+    {
+      "company": "Exomindset",
+      "domain": "exomindset.com",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6"
+    },
+    {
+      "company": "Gila Software",
+      "domain": "gilasw.com",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6"
+    },
+    {
+      "company": "Alluxi",
+      "domain": "alluxi.com",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6"
+    },
+    {
+      "company": "Sagant",
+      "domain": "sagant.com",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6"
+    },
+    {
+      "company": "Telos Labs",
+      "domain": "teloslabs.co",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6"
+    },
+    {
+      "company": "Towa - Nearshore Software Excellence",
+      "domain": "towasoftware.com",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6"
+    },
+    {
+      "company": "Sombra",
+      "domain": "sombrainc.com",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6"
+    },
+    {
+      "company": "Squareball Studios",
+      "domain": "squareballstudios.com",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6"
+    },
+    {
+      "company": "Intermedia IT",
+      "domain": "intermediait.com",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6"
+    },
+    {
+      "company": "SmartApp",
+      "domain": "smartapp.technology",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6"
+    },
+    {
+      "company": "Kreitech",
+      "domain": "kreitech.io",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6"
+    },
+    {
+      "company": "Sancrisoft",
+      "domain": "sancrisoft.com",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6"
+    },
+    {
+      "company": "Southteams",
+      "domain": "southteams.com",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7"
+    },
+    {
+      "company": "Innuy",
+      "domain": "innuy.com",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7"
+    },
+    {
+      "company": "TEAM International",
+      "domain": "teaminternational.com",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7"
+    },
+    {
+      "company": "SmartUp Software",
+      "domain": "smartupsoftware.com",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7"
+    },
+    {
+      "company": "Hristov Development",
+      "domain": "hristovdevelopment.com",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7"
+    },
+    {
+      "company": "Dynamia",
+      "domain": "dynamia.us",
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy"
+    },
+    {
+      "company": "GeneXus Consulting",
+      "domain": "genexusconsulting.com",
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy"
+    },
+    {
+      "company": "Houlak",
+      "domain": "houlak.com",
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy"
+    },
+    {
+      "company": "Simplifica Software",
+      "domain": "simplificasoftware.com",
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy"
+    },
+    {
+      "company": "Remote Talent LATAM",
+      "domain": "remotetalentlatam.com",
+      "queryLane": "Aworkado remote software engineering — LATAM postings",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://aworkado.co/remote/software-engineering/latin-america"
+    },
+    {
+      "company": "Workstate",
+      "domain": "workstate.com",
+      "queryLane": "Aworkado remote software engineering — LATAM postings",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://aworkado.co/remote/software-engineering/latin-america"
+    },
+    {
+      "company": "PRIDES",
+      "domain": "prides.net",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/prides/"
+    },
+    {
+      "company": "SimSpace",
+      "domain": "simspace.com",
+      "queryLane": "Official ATS Costa Rica engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "SimSpace",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.ashbyhq.com/simspace-corporation/52f15ecf-83d5-4421-9c34-0938cdb40212"
+    },
+    {
+      "company": "JBS Dev",
+      "domain": "jbs.dev",
+      "queryLane": "Official ATS Costa Rica engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "JBS Dev",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.ashbyhq.com/jbs-dev/b9bc55c3-3ad6-4422-a407-132bda0dfc89/"
+    },
+    {
+      "company": "Kraken",
+      "domain": "kraken.com",
+      "queryLane": "Official ATS Costa Rica and LATAM engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Kraken",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.ashbyhq.com/kraken.com/d62250a9-363c-43b0-b3de-958e3cc9f97b/"
+    },
+    {
+      "company": "Capchase",
+      "domain": "capchase.com",
+      "queryLane": "Official ATS Costa Rica and LATAM engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Capchase",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.ashbyhq.com/capchase/6c31e1e5-b1ca-4f39-8a95-30f12198d400/"
+    },
+    {
+      "company": "Qdrant",
+      "domain": "qdrant.tech",
+      "queryLane": "Official ATS Costa Rica and LATAM engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Qdrant",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.ashbyhq.com/qdrant.tech/7541aa4d-3507-48ab-9002-7068dd1e8a2d"
+    },
+    {
+      "company": "Homera Health",
+      "domain": "homerahealth.com",
+      "queryLane": "Official ATS Costa Rica and LATAM engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Homera Health",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.ashbyhq.com/homera-health/b9fd96f4-00a8-43e6-864a-eea7423ab9b4/"
+    },
+    {
+      "company": "Deel",
+      "domain": "deel.com",
+      "queryLane": "Official ATS Costa Rica and LATAM engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Deel",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.ashbyhq.com/Deel/de2e14a2-7dfa-44c3-a73d-c70adb8ea845"
+    },
+    {
+      "company": "CSC Generation",
+      "domain": "cscgeneration.com",
+      "queryLane": "Official ATS Costa Rica engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "CSC Generation",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.lever.co/cscgeneration-2/?location=Costa+Rica"
+    },
+    {
+      "company": "Newsela",
+      "domain": "newsela.com",
+      "queryLane": "Official ATS Costa Rica and LATAM engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Newsela",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/newsela/jobs/8249272"
+    },
+    {
+      "company": "Canary Technologies",
+      "domain": "canarytechnologies.com",
+      "queryLane": "Official ATS LATAM engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Canary Technologies",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.lever.co/canarytechnologies?team=Engineering"
+    },
+    {
+      "company": "Factor K Software",
+      "domain": "factork-software.com",
+      "queryLane": "Official company careers Costa Rica software roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Factor K Software",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.factork-software.com/careers"
+    },
+    {
+      "company": "Optery",
+      "domain": "optery.com",
+      "queryLane": "Official ATS LATAM engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://jobs.ashbyhq.com/optery/d87200e8-2ec1-4bdb-8b17-f64453cb3684"
+    },
+    {
+      "company": "Reacher",
+      "domain": "joinreacher.com",
+      "queryLane": "Official ATS LATAM engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Reacher",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.ashbyhq.com/reacher/e4d436eb-dd77-44d0-9586-44d48ad84aea"
+    },
+    {
+      "company": "RYZ Labs",
+      "domain": "ryzlabs.com",
+      "queryLane": "Official ATS LATAM engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "RYZ Labs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.lever.co/RyzLabs/339d15f4-0877-4127-ac42-4593620998a9"
+    },
+    {
+      "company": "Advancio",
+      "domain": "advancio.com",
+      "queryLane": "Official company careers LATAM engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Advancio",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.advancio.com/careers/"
+    },
+    {
+      "company": "Sapiens Development",
+      "domain": "sapiensdev.com",
+      "queryLane": "Official company careers LATAM engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Sapiens Development",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://careers.sapiensdev.com/"
+    },
+    {
+      "company": "Nexus",
+      "domain": "nexus.xyz",
+      "queryLane": "Official ATS LATAM engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p023-timed-2026-11-07\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Nexus",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.ashbyhq.com/nexus.xyz/e6877f82-5d71-4a52-a131-c09dd7b148dd"
+    }
+  ]
+}

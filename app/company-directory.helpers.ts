@@ -2,7 +2,10 @@ import type { CompanyCard } from "@/lib/comp/catalog";
 import type { CompanyCategory } from "@/lib/comp/categories";
 import type { CompanyPreference } from "@/lib/comp/types";
 import { matchesCompanyFilters, type CompanyFilters } from "@/lib/comp/catalog";
+import { matchesCompanyCategory } from "@/lib/comp/categories";
 import { COMPANY_DIRECTORY_CACHE_KEY } from "./company-directory.constants";
+
+export { matchesCompanyCategory } from "@/lib/comp/categories";
 
 export type CompanyDirectoryCache = {
   companies: CompanyCard[];
@@ -71,22 +74,6 @@ export function safeCareersUrl(value?: string): string | undefined {
   } catch {
     return undefined;
   }
-}
-
-export function matchesCompanyCategory(
-  company: CompanyCard,
-  category: string,
-  preference?: CompanyPreference,
-) {
-  if (category === "archived") return !!preference?.archived;
-  if (category === "saved-jobs") return !!preference?.likedJobIds?.length;
-  if (preference?.archived) return false;
-  if (category === "companies") return !preference?.liked && !preference?.disliked;
-  if (category === "all") return !preference?.liked && !preference?.disliked;
-  if (category === "dislikes") return !!preference?.disliked;
-  if (preference?.disliked) return false;
-  if (category === "likes") return !!preference?.liked;
-  return company.categories?.includes(category) || false;
 }
 
 export function filterCompanyKeys(

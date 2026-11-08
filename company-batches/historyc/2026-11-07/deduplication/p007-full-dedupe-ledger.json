@@ -1,0 +1,1256 @@
+{
+  "cohortId": "likes-based-2026-11-07-p007",
+  "checkedOn": "2026-11-07",
+  "inputFiles": [
+    "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json"
+  ],
+  "inputCount": 124,
+  "uniqueCount": 124,
+  "outputCount": 124,
+  "duplicateCount": 0,
+  "missingIdentityCount": 0,
+  "catalog": {
+    "source": "MongoDB + bundled files + prior batches",
+    "mongoCompanies": 1420,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 321,
+    "indexedNames": 1561,
+    "indexedDomains": 1506
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 63,
+    "topTracks": [
+      {
+        "track": "Engineering",
+        "count": 36
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Software Engineering",
+        "count": 3
+      },
+      {
+        "track": "Node.js",
+        "count": 2
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        46
+      ],
+      [
+        "direct",
+        16
+      ],
+      [
+        "unknown",
+        1
+      ]
+    ]
+  },
+  "queryLanes": [
+    {
+      "lane": "Sortlist software development directory — Mexico",
+      "leads": 20,
+      "unique": 20,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Sortlist software development directory — Argentina",
+      "leads": 20,
+      "unique": 20,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Sortlist software development directory — Chile",
+      "leads": 20,
+      "unique": 20,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Sortlist software development directory — Brazil",
+      "leads": 19,
+      "unique": 19,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Sortlist software development directory — Colombia",
+      "leads": 18,
+      "unique": 18,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Sortlist software development directory — Uruguay",
+      "leads": 16,
+      "unique": 16,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Sortlist software development directory — Costa Rica",
+      "leads": 11,
+      "unique": 11,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    }
+  ],
+  "entries": [
+    {
+      "company": "InnovacodeCR",
+      "domain": "innovacodecr.com",
+      "queryLane": "Sortlist software development directory — Costa Rica",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/costa-rica-cr"
+    },
+    {
+      "company": "DMA Latam Costa Rica",
+      "domain": "dmalatamcr.com",
+      "queryLane": "Sortlist software development directory — Costa Rica",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/costa-rica-cr"
+    },
+    {
+      "company": "iDigitalise.net☑️",
+      "domain": "idigitalise.net",
+      "queryLane": "Sortlist software development directory — Costa Rica",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/costa-rica-cr"
+    },
+    {
+      "company": "Fuzyon Agency",
+      "domain": "fuzyon.agency",
+      "queryLane": "Sortlist software development directory — Costa Rica",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/costa-rica-cr"
+    },
+    {
+      "company": "Escalable Costa Rica",
+      "domain": "escalable.io",
+      "queryLane": "Sortlist software development directory — Costa Rica",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/costa-rica-cr"
+    },
+    {
+      "company": "Supernova",
+      "domain": "supernovacr.com",
+      "queryLane": "Sortlist software development directory — Costa Rica",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/costa-rica-cr"
+    },
+    {
+      "company": "GInIEm S.A",
+      "domain": "giniem.com",
+      "queryLane": "Sortlist software development directory — Costa Rica",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/costa-rica-cr"
+    },
+    {
+      "company": "Salomon Web Services",
+      "domain": "salomonws.com",
+      "queryLane": "Sortlist software development directory — Costa Rica",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/costa-rica-cr"
+    },
+    {
+      "company": "Frame 3 Studio",
+      "domain": "frame3studio.com",
+      "queryLane": "Sortlist software development directory — Costa Rica",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/costa-rica-cr"
+    },
+    {
+      "company": "Crux Consultores",
+      "domain": "cruxconsultores.com",
+      "queryLane": "Sortlist software development directory — Costa Rica",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/costa-rica-cr"
+    },
+    {
+      "company": "Oktara",
+      "domain": "oktara.com",
+      "queryLane": "Sortlist software development directory — Costa Rica",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/costa-rica-cr"
+    },
+    {
+      "company": "Bluecell Comunicación",
+      "domain": "bluecell.es",
+      "queryLane": "Sortlist software development directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/mexico-mx"
+    },
+    {
+      "company": "BluePixel",
+      "domain": "bluepixel.mx",
+      "queryLane": "Sortlist software development directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/mexico-mx"
+    },
+    {
+      "company": "Seedup Growth, AI & Software",
+      "domain": "seedup.mx",
+      "queryLane": "Sortlist software development directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/mexico-mx"
+    },
+    {
+      "company": "UNIVERSEPAGE",
+      "domain": "universepage.com.mx",
+      "queryLane": "Sortlist software development directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/mexico-mx"
+    },
+    {
+      "company": "SolvenzaAI",
+      "domain": "solvenzaai.com",
+      "queryLane": "Sortlist software development directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/mexico-mx"
+    },
+    {
+      "company": "Treblum",
+      "domain": "treblum.com",
+      "queryLane": "Sortlist software development directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/mexico-mx"
+    },
+    {
+      "company": "Bridge Studio",
+      "domain": "bridgestudio.mx",
+      "queryLane": "Sortlist software development directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/mexico-mx"
+    },
+    {
+      "company": "Transgenia",
+      "domain": "transgenia.org",
+      "queryLane": "Sortlist software development directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/mexico-mx"
+    },
+    {
+      "company": "Agencia Libra AIMA",
+      "domain": "libra-digital.com",
+      "queryLane": "Sortlist software development directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/mexico-mx"
+    },
+    {
+      "company": "Keting Media",
+      "domain": "ketingmedia.com",
+      "queryLane": "Sortlist software development directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/mexico-mx"
+    },
+    {
+      "company": "LoboGeek",
+      "domain": "lobogeek.mx",
+      "queryLane": "Sortlist software development directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/mexico-mx"
+    },
+    {
+      "company": "Discovery Partners",
+      "domain": "discoverypartners.co",
+      "queryLane": "Sortlist software development directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/mexico-mx"
+    },
+    {
+      "company": "NEXAROQ",
+      "domain": "nexaroqmx.com",
+      "queryLane": "Sortlist software development directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/mexico-mx"
+    },
+    {
+      "company": "Proxxa",
+      "domain": "proxxa.mx",
+      "queryLane": "Sortlist software development directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/mexico-mx"
+    },
+    {
+      "company": "Núcleo Studio",
+      "domain": "nucleostudio.com",
+      "queryLane": "Sortlist software development directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/mexico-mx"
+    },
+    {
+      "company": "Designed By We",
+      "domain": "designedbywe.com",
+      "queryLane": "Sortlist software development directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/mexico-mx"
+    },
+    {
+      "company": "INCEPTIO",
+      "domain": "inceptio.com.mx",
+      "queryLane": "Sortlist software development directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/mexico-mx"
+    },
+    {
+      "company": "Blueberry - Agencia de Marketing Digital",
+      "domain": "blueberry.mx",
+      "queryLane": "Sortlist software development directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/mexico-mx"
+    },
+    {
+      "company": "Enzo IT",
+      "domain": "enzoit.mx",
+      "queryLane": "Sortlist software development directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/mexico-mx"
+    },
+    {
+      "company": "Kiüve Agency",
+      "domain": "kiuve.agency",
+      "queryLane": "Sortlist software development directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/mexico-mx"
+    },
+    {
+      "company": "Pow Ideas - Agencia de Publicidad",
+      "domain": "powideas.com",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/colombia-co"
+    },
+    {
+      "company": "Kivio sas",
+      "domain": "kivio.com.co",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/colombia-co"
+    },
+    {
+      "company": "Ferova Agency",
+      "domain": "seoparaecommerce.co",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/colombia-co"
+    },
+    {
+      "company": "Tree Immersion Technologies",
+      "domain": "treeimmersion.com",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/colombia-co"
+    },
+    {
+      "company": "Jerrejerre",
+      "domain": "jerrejerre.com",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/colombia-co"
+    },
+    {
+      "company": "Drunel Labs",
+      "domain": "drunel.com",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/colombia-co"
+    },
+    {
+      "company": "inVerita",
+      "domain": "inveritasoft.com",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/colombia-co"
+    },
+    {
+      "company": "HardBoxs",
+      "domain": "hardboxs.com",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/colombia-co"
+    },
+    {
+      "company": "KMS AGENCY SAS",
+      "domain": "kms-agency.com.co",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/colombia-co"
+    },
+    {
+      "company": "Kudenix",
+      "domain": "kudenix.com",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/colombia-co"
+    },
+    {
+      "company": "Creasotol Diseño Web",
+      "domain": "creasotol.com",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/colombia-co"
+    },
+    {
+      "company": "Estudio 200",
+      "domain": "estudio200.com.co",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/colombia-co"
+    },
+    {
+      "company": "Kubo S.A.S.",
+      "domain": "kubo.co",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/colombia-co"
+    },
+    {
+      "company": "AthyriumStudio",
+      "domain": "athyriumstudio.com",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/colombia-co"
+    },
+    {
+      "company": "Muto Estudio Digital",
+      "domain": "mutoestudio.com",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/colombia-co"
+    },
+    {
+      "company": "SOSADIAZ",
+      "domain": "sosadiaz.com",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/colombia-co"
+    },
+    {
+      "company": "Fryos Studios SAS",
+      "domain": "fryosstudios.com",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/colombia-co"
+    },
+    {
+      "company": "Orion AI",
+      "domain": "orionai.com.co",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/colombia-co"
+    },
+    {
+      "company": "Bewise",
+      "domain": "com.es",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/argentina-ar"
+    },
+    {
+      "company": "LogTech® Software & Soluciones Tecnológicas",
+      "domain": "logtech.com.ar",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/argentina-ar"
+    },
+    {
+      "company": "Plan IA",
+      "domain": "planiapymes.com.ar",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/argentina-ar"
+    },
+    {
+      "company": "DigitalArts",
+      "domain": "bydigitalarts.com",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/argentina-ar"
+    },
+    {
+      "company": "Don Galeón",
+      "domain": "dongaleon.com",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/argentina-ar"
+    },
+    {
+      "company": "CZ Comunicación Digital",
+      "domain": "tallerdigital.com.ar",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/argentina-ar"
+    },
+    {
+      "company": "Joel Di Costa",
+      "domain": "joeldicosta.com",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/argentina-ar"
+    },
+    {
+      "company": "Ecloud Agency",
+      "domain": "ecloud.agency",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/argentina-ar"
+    },
+    {
+      "company": "Upway Digital - Agencia de Marketing Digital",
+      "domain": "upwaydigitalsolutions.com",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/argentina-ar"
+    },
+    {
+      "company": "Cexar",
+      "domain": "cexar.io",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/argentina-ar"
+    },
+    {
+      "company": "Paisanos.io",
+      "domain": "paisanos.io",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/argentina-ar"
+    },
+    {
+      "company": "BGROUP",
+      "domain": "synova.la",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/argentina-ar"
+    },
+    {
+      "company": "Tupaca",
+      "domain": "tupaca.com",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/argentina-ar"
+    },
+    {
+      "company": "Siblings Software Argentina",
+      "domain": "siblingssoftware.com.ar",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/argentina-ar"
+    },
+    {
+      "company": "Stravio Studio",
+      "domain": "straviostudio.com",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/argentina-ar"
+    },
+    {
+      "company": "WebType - Diseño Web",
+      "domain": "webtype.com.ar",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/argentina-ar"
+    },
+    {
+      "company": "Andrómeda",
+      "domain": "somosandromeda.store",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/argentina-ar"
+    },
+    {
+      "company": "PSIWARE ™",
+      "domain": "psiware.com.ar",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/argentina-ar"
+    },
+    {
+      "company": "Granweb | Empresa de Software | Desarrollo de Apps | Diseño web",
+      "domain": "granweb.io",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/argentina-ar"
+    },
+    {
+      "company": "Apollo Marketing y Desarrollo Web",
+      "domain": "apollo.com.ar",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/argentina-ar"
+    },
+    {
+      "company": "NTB Studio",
+      "domain": "ntbstudio.cl",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/chile-cl"
+    },
+    {
+      "company": "Tecnomark Agency",
+      "domain": "tecnomark.cl",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/chile-cl"
+    },
+    {
+      "company": "Canal Cero",
+      "domain": "canalcero.com",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/chile-cl"
+    },
+    {
+      "company": "RESOLUTOR Consultores",
+      "domain": "resolutor-ti.cl",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/chile-cl"
+    },
+    {
+      "company": "rodolfofreelance",
+      "domain": "rodolfofreelance.cl",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/chile-cl"
+    },
+    {
+      "company": "Byte One SPA",
+      "domain": "byte1.cl",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/chile-cl"
+    },
+    {
+      "company": "Santeliz Dev",
+      "domain": "saulsanteliz.pro",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/chile-cl"
+    },
+    {
+      "company": "Lupify",
+      "domain": "lupify.cl",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/chile-cl"
+    },
+    {
+      "company": "Creotusitioweb Agencia Digital",
+      "domain": "creotusitioweb.cl",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/chile-cl"
+    },
+    {
+      "company": "Elevate Core",
+      "domain": "elevatecore.cl",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/chile-cl"
+    },
+    {
+      "company": "Just Dev It",
+      "domain": "justdev.it",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/chile-cl"
+    },
+    {
+      "company": "Naitus",
+      "domain": "naitus.com",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/chile-cl"
+    },
+    {
+      "company": "Tabatech SpA",
+      "domain": "tabatech.cl",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/chile-cl"
+    },
+    {
+      "company": "ADMSYS SPA",
+      "domain": "admsys.cl",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/chile-cl"
+    },
+    {
+      "company": "FXN Infomatica",
+      "domain": "fxn.cl",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/chile-cl"
+    },
+    {
+      "company": "PGAS.online",
+      "domain": "pgas.online",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/chile-cl"
+    },
+    {
+      "company": "twgroup",
+      "domain": "twgroup.cl",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/chile-cl"
+    },
+    {
+      "company": "Devlabs",
+      "domain": "devlabs.cl",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/chile-cl"
+    },
+    {
+      "company": "UniVerso 693",
+      "domain": "universo693.com",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/chile-cl"
+    },
+    {
+      "company": "Innobate",
+      "domain": "innobate.cl",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/chile-cl"
+    },
+    {
+      "company": "Luby",
+      "domain": "luby.co",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br"
+    },
+    {
+      "company": "IDIP Tecnologia",
+      "domain": "idip.com.br",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br"
+    },
+    {
+      "company": "1367 Studio",
+      "domain": "1367studio.com",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br"
+    },
+    {
+      "company": "Ateliware",
+      "domain": "ateliware.com",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br"
+    },
+    {
+      "company": "Codi Solutions",
+      "domain": "codisolutions.com.br",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br"
+    },
+    {
+      "company": "TAO Inteligência",
+      "domain": "taofinance.com.br",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br"
+    },
+    {
+      "company": "Nexus Consultoria e BPMS",
+      "domain": "nexusbpm.com.br",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br"
+    },
+    {
+      "company": "Overthure Tech",
+      "domain": "overthure.com",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br"
+    },
+    {
+      "company": "Barroco Consulting",
+      "domain": "vercel.app",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br"
+    },
+    {
+      "company": "Slomski Solutions",
+      "domain": "slomskisolutions.com.br",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br"
+    },
+    {
+      "company": "AlphaCorp AI",
+      "domain": "alphacorp.ai",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br"
+    },
+    {
+      "company": "inite",
+      "domain": "inite.ai",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br"
+    },
+    {
+      "company": "Epicora Software House",
+      "domain": "epicora.com.br",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br"
+    },
+    {
+      "company": "Criativo Master",
+      "domain": "criativomaster.com",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br"
+    },
+    {
+      "company": "Quilha Digital - Agência de Marketing",
+      "domain": "quilhadigital.com.br",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br"
+    },
+    {
+      "company": "CERBO",
+      "domain": "cerbo.cc",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br"
+    },
+    {
+      "company": "One Growth Media",
+      "domain": "onegrowth.media",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br"
+    },
+    {
+      "company": "Armel-x Tecnologia",
+      "domain": "armelx.com",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br"
+    },
+    {
+      "company": "Baux Studio",
+      "domain": "bauxestudio.webflow.io",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br"
+    },
+    {
+      "company": "Treeview",
+      "domain": "treeview.studio",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/uruguay-uy"
+    },
+    {
+      "company": "Solcre Software & Staff Augmentation",
+      "domain": "solcre.com",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/uruguay-uy"
+    },
+    {
+      "company": "Nicven Tech",
+      "domain": "nicventech.com",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/uruguay-uy"
+    },
+    {
+      "company": "Ecnoz",
+      "domain": "ecnoz.com",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/uruguay-uy"
+    },
+    {
+      "company": "Firox Uruguay",
+      "domain": "firox.uy",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/uruguay-uy"
+    },
+    {
+      "company": "SpaceDev",
+      "domain": "spacedev.io",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/uruguay-uy"
+    },
+    {
+      "company": "Streaver",
+      "domain": "streaver.com",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/uruguay-uy"
+    },
+    {
+      "company": "Infuy",
+      "domain": "infuy.com",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/uruguay-uy"
+    },
+    {
+      "company": "EvoSoft",
+      "domain": "evosoftuy.com",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/uruguay-uy"
+    },
+    {
+      "company": "DevXtend",
+      "domain": "devxtend.com",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/uruguay-uy"
+    },
+    {
+      "company": "Arkano Software",
+      "domain": "arkanosoft.com",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/uruguay-uy"
+    },
+    {
+      "company": "Asap Developers",
+      "domain": "asapdevelopers.com",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/uruguay-uy"
+    },
+    {
+      "company": "Bixlabs",
+      "domain": "bixlabs.com",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/uruguay-uy"
+    },
+    {
+      "company": "Pyspring",
+      "domain": "pyspring.com",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/uruguay-uy"
+    },
+    {
+      "company": "delbueno™ Studio",
+      "domain": "delbuenostudio.com",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/uruguay-uy"
+    },
+    {
+      "company": "ZirconTech",
+      "domain": "zircon.tech",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-domain-bearing-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/uruguay-uy"
+    }
+  ]
+}

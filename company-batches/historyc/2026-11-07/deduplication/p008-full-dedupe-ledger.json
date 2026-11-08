@@ -1,0 +1,2660 @@
+{
+  "cohortId": "likes-based-2026-11-07-p008",
+  "checkedOn": "2026-11-07",
+  "inputFiles": [
+    "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json"
+  ],
+  "inputCount": 281,
+  "uniqueCount": 158,
+  "outputCount": 158,
+  "duplicateCount": 6,
+  "missingIdentityCount": 117,
+  "catalog": {
+    "source": "MongoDB + bundled files + prior batches",
+    "mongoCompanies": 1520,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 421,
+    "indexedNames": 1695,
+    "indexedDomains": 1640
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 63,
+    "topTracks": [
+      {
+        "track": "Engineering",
+        "count": 36
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Software Engineering",
+        "count": 3
+      },
+      {
+        "track": "Node.js",
+        "count": 2
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        46
+      ],
+      [
+        "direct",
+        16
+      ],
+      [
+        "unknown",
+        1
+      ]
+    ]
+  },
+  "queryLanes": [
+    {
+      "lane": "Guia TIC Costa Rica technology supplier directory",
+      "leads": 118,
+      "unique": 118,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Alpunto Costa Rica SaaS/software company directory",
+      "leads": 33,
+      "unique": 25,
+      "duplicateRate": 0.242,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Alpunto Costa Rica software developer directory",
+      "leads": 72,
+      "unique": 12,
+      "duplicateRate": 0.833,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "CAMTIC Costa Rica ICT member directory",
+      "leads": 58,
+      "unique": 3,
+      "duplicateRate": 0.948,
+      "recommendation": "pause lane; switch industry or ATS source"
+    }
+  ],
+  "entries": [
+    {
+      "company": "GTI Factura Electrónica",
+      "domain": "facturaelectronica.cr",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service"
+    },
+    {
+      "company": "Facel – Facturación Electrónica",
+      "domain": "facelcr.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service"
+    },
+    {
+      "company": "Ainnova Tech",
+      "domain": "ainnovatech.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service"
+    },
+    {
+      "company": "CRFUSION (Cronus ERP)",
+      "domain": "crfusion.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service"
+    },
+    {
+      "company": "Greenpay S.A.",
+      "domain": "greenpay.me",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service"
+    },
+    {
+      "company": "Salud a un Clic S.A.",
+      "domain": "saludaunclic.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service"
+    },
+    {
+      "company": "AACROM",
+      "domain": "aacrom.com",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2"
+    },
+    {
+      "company": "AceBuddy",
+      "domain": "acebuddy.net",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2"
+    },
+    {
+      "company": "BEST Resource",
+      "domain": "bestresourcecr.com",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2"
+    },
+    {
+      "company": "Moovin",
+      "domain": "moovin.me",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=2"
+    },
+    {
+      "company": "Software Solutions S.A.",
+      "domain": "softwaresolutions.co.cr",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3"
+    },
+    {
+      "company": "Soltig",
+      "domain": "soltig.net",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3"
+    },
+    {
+      "company": "Architect Technology Solutions (ATS)",
+      "domain": "atscr.com",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3"
+    },
+    {
+      "company": "CNET Technology Systems",
+      "domain": "cnet.co.cr",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "CNET",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3"
+    },
+    {
+      "company": "Dinámica Consultores Internacional S.A. (DCI)",
+      "domain": "dcicr.com",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3"
+    },
+    {
+      "company": "Three Rivers Software Ltda.",
+      "domain": "3riverssoftware.com",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Three Rivers Software",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4"
+    },
+    {
+      "company": "Avify",
+      "domain": "avify.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=2"
+    },
+    {
+      "company": "INELDAT (Intercambio Electrónico de Datos S.A.)",
+      "domain": "ineldat.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=2"
+    },
+    {
+      "company": "PIXDEA",
+      "domain": "pixdea.com",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4"
+    },
+    {
+      "company": "POSMOVI (Design Soft S.A.)",
+      "domain": "posmovi.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3"
+    },
+    {
+      "company": "SmartFacturaCR (Smart Process CR)",
+      "domain": "smartfacturacr.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3"
+    },
+    {
+      "company": "Softland Costa Rica",
+      "domain": "softland.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Softland Colombia SAS",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3"
+    },
+    {
+      "company": "Ibylit",
+      "domain": "ibylit.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3"
+    },
+    {
+      "company": "Processim Labs",
+      "domain": "processimlabs.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3"
+    },
+    {
+      "company": "Factun",
+      "domain": "factun.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3"
+    },
+    {
+      "company": "Fygaro",
+      "domain": "fygaro.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3"
+    },
+    {
+      "company": "Harvie (Hey Harvie)",
+      "domain": "heyharvie.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3"
+    },
+    {
+      "company": "Huli",
+      "domain": "huli.io",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3"
+    },
+    {
+      "company": "Mission Inbox",
+      "domain": "missioninbox.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3"
+    },
+    {
+      "company": "Monibyte (Impesa)",
+      "domain": "monibyte.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3"
+    },
+    {
+      "company": "Neotecnologías",
+      "domain": "neotecnologias.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4"
+    },
+    {
+      "company": "Slidebean",
+      "domain": "slidebean.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4"
+    },
+    {
+      "company": "Teledolar",
+      "domain": "teledolar.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4"
+    },
+    {
+      "company": "Tilopay (Tilopay Soluciones Comerciales Ltda.)",
+      "domain": "tilopay.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4"
+    },
+    {
+      "company": "Wolk Software",
+      "domain": "wolksoftcr.com",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5"
+    },
+    {
+      "company": "Hermes Soft",
+      "domain": "hermes-soft.com",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6"
+    },
+    {
+      "company": "SOIN Soluciones Integrales",
+      "domain": "soin.co.cr",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "SOIN",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6"
+    },
+    {
+      "company": "Talentify (Ensensis)",
+      "domain": "talentify.cr",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Talentify",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4"
+    },
+    {
+      "company": "SECSA",
+      "domain": "secsacr.net",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6"
+    },
+    {
+      "company": "Bmaxim",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4"
+    },
+    {
+      "company": "Helm360",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6"
+    },
+    {
+      "company": "Innovative S.A. (NovaToken)",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4"
+    },
+    {
+      "company": "Inversiones Next Curve S.A.",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6"
+    },
+    {
+      "company": "Logosoft (Punto de Ventas Logosoft)",
+      "domain": "logosoftcr.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=5"
+    },
+    {
+      "company": "Infoware",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=5"
+    },
+    {
+      "company": "Integrama",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7"
+    },
+    {
+      "company": "Grupo Naby",
+      "domain": "facturaelectronicanaby.net",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=5"
+    },
+    {
+      "company": "Sicsoft",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=5"
+    },
+    {
+      "company": "Siku",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=5"
+    },
+    {
+      "company": "Zunify",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=5"
+    },
+    {
+      "company": "Soefe Software",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers"
+    },
+    {
+      "company": "Emerald Studio",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers"
+    },
+    {
+      "company": "Flecha Roja Technologies",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers"
+    },
+    {
+      "company": "Grupo Asesor en Informática",
+      "domain": "grupoasesor.net",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Grupo Asesor",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers"
+    },
+    {
+      "company": "Luminon Studios",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers"
+    },
+    {
+      "company": "Villalta Tech",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2"
+    },
+    {
+      "company": "WOW Emotions",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2"
+    },
+    {
+      "company": "Opal Interactive",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3"
+    },
+    {
+      "company": "Atom Soluciones",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3"
+    },
+    {
+      "company": "Costa Rica Virtual",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3"
+    },
+    {
+      "company": "Quality XP Development (QXD)",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3"
+    },
+    {
+      "company": "TicoDesign",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3"
+    },
+    {
+      "company": "Web Mentor",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3"
+    },
+    {
+      "company": "Alternativo Studio",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3"
+    },
+    {
+      "company": "Broditec",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3"
+    },
+    {
+      "company": "DATAi",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3"
+    },
+    {
+      "company": "321 Solutions",
+      "domain": "321solutions.net",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4"
+    },
+    {
+      "company": "ReinSystems",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4"
+    },
+    {
+      "company": "10Pearls Costa Rica",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4"
+    },
+    {
+      "company": "Cecropia Solutions",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4"
+    },
+    {
+      "company": "Drago's House",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4"
+    },
+    {
+      "company": "EX Squared LATAM",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4"
+    },
+    {
+      "company": "Infosgroup",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4"
+    },
+    {
+      "company": "Irazu Labs",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4"
+    },
+    {
+      "company": "People Apps",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5"
+    },
+    {
+      "company": "Proximity Costa Rica",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5"
+    },
+    {
+      "company": "Softon Digital (Softon ITG)",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5"
+    },
+    {
+      "company": "U Devs",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5"
+    },
+    {
+      "company": "WAM Digital",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5"
+    },
+    {
+      "company": "weKnow Inc.",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5"
+    },
+    {
+      "company": "Fuzyon Agency",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5"
+    },
+    {
+      "company": "ADVITERS",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5"
+    },
+    {
+      "company": "GuruX",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5"
+    },
+    {
+      "company": "Cipherio",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5"
+    },
+    {
+      "company": "Elva AI",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5"
+    },
+    {
+      "company": "Interfaz",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6"
+    },
+    {
+      "company": "NW Consulting Services",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6"
+    },
+    {
+      "company": "Centauro Solutions",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6"
+    },
+    {
+      "company": "DOTCREEK",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6"
+    },
+    {
+      "company": "isthmusit software",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6"
+    },
+    {
+      "company": "GTS",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6"
+    },
+    {
+      "company": "Aurigital",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6"
+    },
+    {
+      "company": "Babel Costa Rica",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6"
+    },
+    {
+      "company": "Dailysoft Technologies CR",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6"
+    },
+    {
+      "company": "Datasoft",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6"
+    },
+    {
+      "company": "DNAMIC",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6"
+    },
+    {
+      "company": "Y2K Webs",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7"
+    },
+    {
+      "company": "Jowasoft",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7"
+    },
+    {
+      "company": "SevenSoft",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7"
+    },
+    {
+      "company": "Snow Software Solutions",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7"
+    },
+    {
+      "company": "TICMA DIGITAL",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7"
+    },
+    {
+      "company": "Yakukua",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7"
+    },
+    {
+      "company": "Xubliminal",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7"
+    },
+    {
+      "company": "Unidad22",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7"
+    },
+    {
+      "company": "Incompany Solutions S.A.",
+      "domain": null,
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7"
+    },
+    {
+      "company": "ActionCOACH Costa Rica",
+      "domain": "actioncoachiberoamerica.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/actioncoach-costa-rica/"
+    },
+    {
+      "company": "Aliant",
+      "domain": "aliantlaw.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/aliant/"
+    },
+    {
+      "company": "ARI Casa de Cambio Internacional S.A.",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/ari-casa-de-cambio-internacional-s-a/"
+    },
+    {
+      "company": "Banco Promérica",
+      "domain": "fi.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/banco-promerica/"
+    },
+    {
+      "company": "CCA Business",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/cca-business/"
+    },
+    {
+      "company": "CLC Comunicación",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/clc-comunicacion/"
+    },
+    {
+      "company": "CResiliencia",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/cresiliencia/"
+    },
+    {
+      "company": "Coral",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/coral-systems/"
+    },
+    {
+      "company": "Dentons",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/dentos/"
+    },
+    {
+      "company": "Didi",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/didi/"
+    },
+    {
+      "company": "Ecija",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/ecija/"
+    },
+    {
+      "company": "ECP Consulting Group",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/ecp-consulting-group/"
+    },
+    {
+      "company": "E-motions",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/e-motions/"
+    },
+    {
+      "company": "Entrust Consultores",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/entrust-consultores/"
+    },
+    {
+      "company": "ESICOM",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/esicom/"
+    },
+    {
+      "company": "Evicertia",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/evicertia/"
+    },
+    {
+      "company": "FVCR Ferias Virtuales",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/fvcr-ferias-virtuales/"
+    },
+    {
+      "company": "Figueroa Producciones",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/figueroa-producciones/"
+    },
+    {
+      "company": "Film Support",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/film-support/"
+    },
+    {
+      "company": "Fundación Omar Dengo",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/fundacion-omar-dengo/"
+    },
+    {
+      "company": "Global Media Group",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/global-media-group/"
+    },
+    {
+      "company": "Grupo Mutual",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/grupo-mutual/"
+    },
+    {
+      "company": "Incredible Workplaces",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/incredible-workplaces/"
+    },
+    {
+      "company": "Infoefectiva",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/infoefectiva/"
+    },
+    {
+      "company": "IT Learning Solution",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/it-learning-solution/"
+    },
+    {
+      "company": "JAFU",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/jafu/"
+    },
+    {
+      "company": "Kal-í CR",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/kal-i-cr/"
+    },
+    {
+      "company": "Kínetos",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/kinetos/"
+    },
+    {
+      "company": "Kruger Innova CR",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/kruger-innova-costa-rica/"
+    },
+    {
+      "company": "Liberty",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/telefonica/"
+    },
+    {
+      "company": "LYSTO CARD",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/lysto-card/"
+    },
+    {
+      "company": "Mawi",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/mawi/"
+    },
+    {
+      "company": "Mekanismo",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/mekanismo-taller-audiovisual/"
+    },
+    {
+      "company": "Micra Consulting",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/micra-consulting/"
+    },
+    {
+      "company": "Morpho Animation",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/morpho-animation-studio/"
+    },
+    {
+      "company": "Movitext",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/movitext/"
+    },
+    {
+      "company": "MT MMV INTEGRADORES",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/mt-mmv-integradores/"
+    },
+    {
+      "company": "Navega Training and Consulting SRL",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/navega-training-and-consulting-srl/"
+    },
+    {
+      "company": "Parque la Libertad",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/parque-la-libertad/"
+    },
+    {
+      "company": "Pignataro Abogados",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/pignataro-abogados/"
+    },
+    {
+      "company": "PricewaterhouseCooper",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/pricewaterhousecooper/"
+    },
+    {
+      "company": "PRIDES",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/prides/"
+    },
+    {
+      "company": "Producción Filmica VB",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/produccion-filmica-vb/"
+    },
+    {
+      "company": "Progressio Digital",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/progressio-digital/"
+    },
+    {
+      "company": "Prointec",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/prointec/"
+    },
+    {
+      "company": "R.A.C.S.A.",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/radiografica-costarricense-s-a/"
+    },
+    {
+      "company": "Reelax Media",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/reelax-media/"
+    },
+    {
+      "company": "RF Grupo Educativo Ltda",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/rf-grupo-educativo-ltda/"
+    },
+    {
+      "company": "TecApro",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/tecapro/"
+    },
+    {
+      "company": "Telecable",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/telecable/"
+    },
+    {
+      "company": "Tierra de Visitantes",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/tierra-de-visitantes/"
+    },
+    {
+      "company": "Transcomer",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/transcomer/"
+    },
+    {
+      "company": "Universidad Politécnica",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/universidad-politecnica-2/"
+    },
+    {
+      "company": "ULACIT y CIT|ULACIT",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/ulacit-y-citulacit/"
+    },
+    {
+      "company": "Universidad Cenfotec",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/u-cenfotec/"
+    },
+    {
+      "company": "Universidad Latina",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/universidad-latina/"
+    },
+    {
+      "company": "U. Hispanoamericana",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/universidad-hispanoamericana/"
+    },
+    {
+      "company": "Universidad San Marcos",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/universidad-san-marcos/"
+    },
+    {
+      "company": "12LAB",
+      "domain": "12lab.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Ablerex Latam",
+      "domain": "ablerexlatam.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "ADATEC SAS",
+      "domain": "adatec.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "ADN Software",
+      "domain": "adnsoftware.com.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "AITE SOLUTIONS",
+      "domain": "aitesol.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "AJAX SYSTEMS",
+      "domain": "ajax.systems",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "alltic sas",
+      "domain": "alltic.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "APEX SECURITY",
+      "domain": "apexsecurity.com.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "APPROPIA OPEN SOURCE S.A.S.",
+      "domain": "appropia.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "APPSUS SAS",
+      "domain": "appsus.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "ARCHIVOS Y SISTEMAS AYS SAS",
+      "domain": "siged.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "ARMATURA COLOMBIA",
+      "domain": "armaturacolombia.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "ASSOINCO SAS",
+      "domain": "assoincoingenieria.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Athika SAS",
+      "domain": "athika.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "AUDITBRAIN SAS",
+      "domain": "auditbrain.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "BIOFILE SAS BIC",
+      "domain": "biofile.com.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Bizneo HR",
+      "domain": "bizneo.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Cerca Technology SAS",
+      "domain": "cercatechnology.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "CERO K S.A.S.",
+      "domain": "saiasoftware.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "CHARMEX LATINOAMERICA",
+      "domain": "charmex.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "CLOUD PULSE",
+      "domain": "becloudpulse.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Cobalto Software Lab",
+      "domain": "27cobalto.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "COMPUCOM SAS",
+      "domain": "compucom.com.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "CONECTA, SOFTWARE Y PROCESOS S.A.S.",
+      "domain": "conectacarga.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "CONSENSUS SAS",
+      "domain": "consensussa.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "ControLT SAS",
+      "domain": "controlt.io",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "COSMO CONSULT",
+      "domain": "cosmoconsult.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "CTN Global Colombia",
+      "domain": "ctnglobal.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "CYMETRIA Group S.A.S.",
+      "domain": "cymetria.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Datascoring de Colombia",
+      "domain": "datascoring.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "DEVCOGNITIO SAS",
+      "domain": "devco.com.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Digital Consulting Group",
+      "domain": "digitalcg.com.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "DINAMICA C.D.",
+      "domain": "dinamicacd.com.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "DINAMICAPPS SAS",
+      "domain": "dinamicapps.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "DISEÑO Y APLICACIONES",
+      "domain": "scorpiosoftware.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "DRIVIN",
+      "domain": "driv.in",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "DYALOGO SAS",
+      "domain": "dyalogo.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Dynamics IT S.A.",
+      "domain": "dynamicsitla.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "E-TakeOff SAS",
+      "domain": "e-takeoff.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "EasyBI",
+      "domain": "easybi.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "EL CREATIVO WEB S.A.S",
+      "domain": "elcreativoweb.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "ELEARNING SOLUTIONS LTDA",
+      "domain": "e-learning.com.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Enterprise Business Solutions – EBS LTDA",
+      "domain": "ebsltda.com.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "eSoft Colombia SAS",
+      "domain": "esoft.com.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "EXPERIS COLOMBIA",
+      "domain": "experis.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "FINAC S.A.S.",
+      "domain": "finac.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "FLEXIWEB LIMITADA",
+      "domain": "flexiwebltda.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "FOMPLUS",
+      "domain": "fomplus.net",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "FORWARTY",
+      "domain": "myforwarty.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Front Tech",
+      "domain": "fronttech.com.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "GCON4",
+      "domain": "gcon4.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Giitic S.A.S.",
+      "domain": "giitic.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "GROWING TECH SAS",
+      "domain": "growingtech.com.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "IBIS CREATIVA",
+      "domain": "ibiscreativa.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "ICONOI",
+      "domain": "iconoi.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "ICR Evolution",
+      "domain": "icr-evolution.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "ilana lab S.A.S.",
+      "domain": "ilanalab.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Imaginatio Digital Agency - Línea Oza Learn",
+      "domain": "imaginatio.com.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "iMedical Services S.A.S.",
+      "domain": "imedicalservices.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "IMPROSOFT S.A.S.",
+      "domain": "mejoramiso.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "INFORMACIÓN GERENCIAL LTDA.",
+      "domain": "informaciongerencial.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Innova Systems S.A.S.",
+      "domain": "innova.com.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Innovasoft – CLASS Software Académico",
+      "domain": "innovasof.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "INNOVASOFT COLOMBIA SAS",
+      "domain": "isismaweb.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "INSITU MOBILE SOFTWARE S.A.",
+      "domain": "insitusales.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Latic Latinoamérica",
+      "domain": "latic.lat",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "LED SCREEN MASTERS & SUPPLIES S.A.S. / LED MASTER",
+      "domain": "theledmaster.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Lite Thinking",
+      "domain": "litethinking.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Lyntik",
+      "domain": "lyntik.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Mainsoft Ltda.",
+      "domain": "mainsoft.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "MEKATTA",
+      "domain": "mekatta.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "NEOSOFTWARE INGENIERIA SAS",
+      "domain": "neosoftwareingenieria.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Netsoft - Negocios en Tecnología y Software HGEG S.A. de C.V.",
+      "domain": "netsoft.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "NETTHPLUS SAS",
+      "domain": "netthplus.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Next Audit & Consulting SAS",
+      "domain": "nextayc.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "NEXXT SOLUTIONS - INFRAESTRUCTURA",
+      "domain": "nexxtsolutions.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Nicomar Electronics - Powest",
+      "domain": "powest.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Noren Thermal Solutions",
+      "domain": "norenthermal.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "NovaIP",
+      "domain": "novaip.com.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "NOVOSTEK",
+      "domain": "novostek.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "OasisCom",
+      "domain": "oasiscom.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "OneScreen Solutions",
+      "domain": "onescreenlatam.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Oracle NetSuite",
+      "domain": "netsuite.com.mx",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "ORBIS CORPORATION SAS",
+      "domain": "orbis.com.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "PANDUIT SERVICIOS",
+      "domain": "panduit.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "PRODYGYTEK SAS",
+      "domain": "prodygytek.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "PSC PROSOL COLOMBIA SAS",
+      "domain": "prosol.com.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Q10 SAS",
+      "domain": "q10.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "RC Cloud Tech",
+      "domain": "rccloudtech.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "RECURSOS & TECNOLOGIA SAS",
+      "domain": "recursosytecnologia.com.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Risktech",
+      "domain": "risktech.com.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "RSN IT SOLUTIONS SAS",
+      "domain": "informaweberp.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "S.U.S - Soluciones Universales Sistemáticas",
+      "domain": "sus.com.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "SAMA WIFI SA DE CV",
+      "domain": "samawifi.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Schneider Electric Centroamérica LTDA",
+      "domain": "se.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Seidor Colombia",
+      "domain": "seidorcolombia.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "SIAFF CONSULTORES, S.A. DE C.V",
+      "domain": "siaff.net",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "SISCOMPUTO LTDA",
+      "domain": "siscomputo.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "SOFTTOOLS S.A.S",
+      "domain": "softtools.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "SOLTEC SALUD SAS",
+      "domain": "soltecsalud.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "SOLUCIONES GENIALES SAS",
+      "domain": "solgenial.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Soporte y Compañía SAS",
+      "domain": "infomante.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Sprime",
+      "domain": "sprime.com.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "SUPREMA INC",
+      "domain": "supremainc.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "SYNERGY TPC SAS",
+      "domain": "synergytpc.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "talento cloud",
+      "domain": "talento.cloud",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Tickelia, Legalización de viáticos y gastos de empresa",
+      "domain": "tickelia.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "TIQAL S.A.S.",
+      "domain": "darumasoftware.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "TKH Security LLC",
+      "domain": "tkhsecurity.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Todosistemas STI",
+      "domain": "todosistemassti.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Tripp Lite",
+      "domain": "tripplite.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "UNIÓN SOLUCIONES SISTEMAS DE INFORMACIÓN",
+      "domain": "unionsoluciones.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "VENDTY SAS",
+      "domain": "vendty.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "VIRTUAL TECHNOLOGIES SAS",
+      "domain": "virtual.com.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Visual Control",
+      "domain": "visualcontrol.com.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "WAHHU",
+      "domain": "wahhu.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "WebLink Technology Solutions Ltda.",
+      "domain": "cloud-bricks.net",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "XIMIL TECHNOLOGIES SAS",
+      "domain": "ximil.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p008-profiles-resolved.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    }
+  ]
+}

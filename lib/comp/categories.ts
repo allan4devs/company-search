@@ -1,5 +1,6 @@
 import { JOB_CATEGORIES, companyJobCategory, companySignals, TECHNOLOGIES } from "./catalog";
 import type { CompanyCard } from "./catalog";
+import type { CompanyPreference } from "./types";
 
 export type CompanyCategory = {
   key: string;
@@ -9,9 +10,10 @@ export type CompanyCategory = {
 };
 
 export const COMPANY_CATEGORIES: CompanyCategory[] = [
-  { key: "all", label: "All", group: "Browse", order: 0 },
-  { key: "companies", label: "Companies", group: "Browse", order: 0 },
-  { key: "nearshore", label: "Nearshore", group: "Browse", order: 2 },
+  { key: "all", label: "Total", group: "Browse", order: 0 },
+  { key: "new", label: "New", group: "Browse", order: 1 },
+  { key: "latest-batch", label: "Latest batch", group: "Browse", order: 2 },
+  { key: "nearshore", label: "Nearshore", group: "Browse", order: 3 },
   { key: "java", label: "Java", group: "Technology", order: 2 },
   { key: "react", label: "React", group: "Technology", order: 3 },
   { key: "python", label: "Python", group: "Technology", order: 4 },
@@ -35,6 +37,27 @@ export const COMPANY_CATEGORIES: CompanyCategory[] = [
   { key: "likes", label: "Likes", group: "Saved", order: 31 },
   { key: "dislikes", label: "Dislikes", group: "Saved", order: 32 },
 ];
+
+export function matchesCompanyCategory(
+  company: CompanyCard,
+  category: string,
+  preference?: CompanyPreference,
+  latestNewBatchId?: string,
+) {
+  if (category === "all") return true;
+  if (category === "likes") return !!preference?.liked;
+  if (category === "dislikes") return !!preference?.disliked;
+  if (category === "archived")
+    return !!preference?.archived && !preference?.liked && !preference?.disliked;
+  if (preference?.archived || preference?.liked || preference?.disliked)
+    return false;
+  if (category === "saved-jobs") return !!preference?.likedJobIds?.length;
+  if (category === "latest-batch") {
+    return !!latestNewBatchId && company.tags?.includes("new") === true && company.extraction?.batchId === latestNewBatchId;
+  }
+  if (category === "new") return company.tags?.includes("new") || false;
+  return company.categories?.includes(category) || false;
+}
 
 const technologyCategoryKeys: Record<string, string> = {
   Java: "java", React: "react", Python: "python", "Node.js": "node", JavaScript: "javascript", TypeScript: "typescript",

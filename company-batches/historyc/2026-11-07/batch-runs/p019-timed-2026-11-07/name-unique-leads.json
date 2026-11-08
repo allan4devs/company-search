@@ -1,0 +1,3370 @@
+{
+  "cohortId": "likes-based-2026-11-07-p019",
+  "generatedOn": "2026-11-07",
+  "catalog": {
+    "source": "MongoDB + bundled files",
+    "mongoCompanies": 1620,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 0,
+    "indexedNames": 1966,
+    "indexedDomains": 1596
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 67,
+    "topTracks": [
+      {
+        "track": "Engineering",
+        "count": 36
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Software Engineering",
+        "count": 7
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Node.js",
+        "count": 2
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        47
+      ],
+      [
+        "direct",
+        16
+      ],
+      [
+        "unknown",
+        4
+      ]
+    ]
+  },
+  "dislikeBaseline": {
+    "activeDislikedWithCostaRicaOrLatamEvidence": 107,
+    "dislikedTracks": [
+      {
+        "track": "Engineering",
+        "count": 64
+      },
+      {
+        "track": "Software Engineering",
+        "count": 22
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 8
+      },
+      {
+        "track": "Backend",
+        "count": 6
+      },
+      {
+        "track": "Full-stack",
+        "count": 5
+      },
+      {
+        "track": "Java Backend",
+        "count": 3
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 3
+      },
+      {
+        "track": "Python",
+        "count": 3
+      },
+      {
+        "track": "Nearshore",
+        "count": 3
+      },
+      {
+        "track": "Full Stack",
+        "count": 3
+      },
+      {
+        "track": "Go",
+        "count": 1
+      },
+      {
+        "track": "Node.js",
+        "count": 1
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        55
+      ],
+      [
+        "direct",
+        36
+      ],
+      [
+        "unknown",
+        16
+      ]
+    ]
+  },
+  "preferenceContrast": {
+    "scope": "Active liked/disliked companies with explicit Costa Rica or LATAM evidence; each company counts once per feature.",
+    "likedCompanies": 67,
+    "dislikedCompanies": 107,
+    "models": [
+      {
+        "feature": "outsourcing",
+        "likedCount": 47,
+        "likedRate": 0.701,
+        "dislikedCount": 55,
+        "dislikedRate": 0.514,
+        "likedMinusDisliked": 0.187
+      },
+      {
+        "feature": "unknown",
+        "likedCount": 4,
+        "likedRate": 0.06,
+        "dislikedCount": 16,
+        "dislikedRate": 0.15,
+        "likedMinusDisliked": -0.09
+      },
+      {
+        "feature": "direct",
+        "likedCount": 16,
+        "likedRate": 0.239,
+        "dislikedCount": 36,
+        "dislikedRate": 0.336,
+        "likedMinusDisliked": -0.098
+      }
+    ],
+    "tracks": [
+      {
+        "feature": "Nearshore",
+        "likedCount": 9,
+        "likedRate": 0.134,
+        "dislikedCount": 3,
+        "dislikedRate": 0.028,
+        "likedMinusDisliked": 0.106
+      },
+      {
+        "feature": "Java",
+        "likedCount": 5,
+        "likedRate": 0.075,
+        "dislikedCount": 1,
+        "dislikedRate": 0.009,
+        "likedMinusDisliked": 0.065
+      },
+      {
+        "feature": "React + Node Full Stack",
+        "likedCount": 5,
+        "likedRate": 0.075,
+        "dislikedCount": 3,
+        "dislikedRate": 0.028,
+        "likedMinusDisliked": 0.047
+      },
+      {
+        "feature": "Full Stack",
+        "likedCount": 5,
+        "likedRate": 0.075,
+        "dislikedCount": 3,
+        "dislikedRate": 0.028,
+        "likedMinusDisliked": 0.047
+      },
+      {
+        "feature": "React",
+        "likedCount": 3,
+        "likedRate": 0.045,
+        "dislikedCount": 1,
+        "dislikedRate": 0.009,
+        "likedMinusDisliked": 0.035
+      },
+      {
+        "feature": "JavaScript",
+        "likedCount": 3,
+        "likedRate": 0.045,
+        "dislikedCount": 1,
+        "dislikedRate": 0.009,
+        "likedMinusDisliked": 0.035
+      },
+      {
+        "feature": "Python",
+        "likedCount": 4,
+        "likedRate": 0.06,
+        "dislikedCount": 3,
+        "dislikedRate": 0.028,
+        "likedMinusDisliked": 0.032
+      },
+      {
+        "feature": "Node.js",
+        "likedCount": 2,
+        "likedRate": 0.03,
+        "dislikedCount": 1,
+        "dislikedRate": 0.009,
+        "likedMinusDisliked": 0.021
+      },
+      {
+        "feature": "Java + React Full Stack",
+        "likedCount": 6,
+        "likedRate": 0.09,
+        "dislikedCount": 8,
+        "dislikedRate": 0.075,
+        "likedMinusDisliked": 0.015
+      },
+      {
+        "feature": "Full-stack",
+        "likedCount": 4,
+        "likedRate": 0.06,
+        "dislikedCount": 5,
+        "dislikedRate": 0.047,
+        "likedMinusDisliked": 0.013
+      },
+      {
+        "feature": "Java Backend",
+        "likedCount": 1,
+        "likedRate": 0.015,
+        "dislikedCount": 3,
+        "dislikedRate": 0.028,
+        "likedMinusDisliked": -0.013
+      },
+      {
+        "feature": "Backend",
+        "likedCount": 2,
+        "likedRate": 0.03,
+        "dislikedCount": 6,
+        "dislikedRate": 0.056,
+        "likedMinusDisliked": -0.026
+      },
+      {
+        "feature": "Engineering",
+        "likedCount": 36,
+        "likedRate": 0.537,
+        "dislikedCount": 64,
+        "dislikedRate": 0.598,
+        "likedMinusDisliked": -0.061
+      },
+      {
+        "feature": "Software Engineering",
+        "likedCount": 7,
+        "likedRate": 0.104,
+        "dislikedCount": 22,
+        "dislikedRate": 0.206,
+        "likedMinusDisliked": -0.101
+      }
+    ],
+    "roleFamilies": [
+      {
+        "feature": "Full stack",
+        "likedCount": 22,
+        "likedRate": 0.328,
+        "dislikedCount": 22,
+        "dislikedRate": 0.206,
+        "likedMinusDisliked": 0.123
+      },
+      {
+        "feature": "DevOps / platform",
+        "likedCount": 2,
+        "likedRate": 0.03,
+        "dislikedCount": 1,
+        "dislikedRate": 0.009,
+        "likedMinusDisliked": 0.021
+      },
+      {
+        "feature": "Backend",
+        "likedCount": 7,
+        "likedRate": 0.104,
+        "dislikedCount": 10,
+        "dislikedRate": 0.093,
+        "likedMinusDisliked": 0.011
+      },
+      {
+        "feature": "Data",
+        "likedCount": 2,
+        "likedRate": 0.03,
+        "dislikedCount": 4,
+        "dislikedRate": 0.037,
+        "likedMinusDisliked": -0.008
+      }
+    ],
+    "usage": "Use as a soft source-priority signal. Do not reject a company on preferences alone or weaken the location/evidence gate."
+  },
+  "candidates": [
+    {
+      "name": "ONLY IF The How Company",
+      "profileUrl": "https://enterpriseleague.com/company/only-if-the-how-company",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/only-if-the-how-company",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Konf o",
+      "profileUrl": "https://enterpriseleague.com/company/konf-o",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/konf-o",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Integra IT",
+      "profileUrl": "https://enterpriseleague.com/company/integra-it",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/integra-it",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Jelp Delivery",
+      "profileUrl": "https://enterpriseleague.com/company/jelp-delivery",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/jelp-delivery",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Datasae",
+      "profileUrl": "https://enterpriseleague.com/company/datasae",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/datasae",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "CRUCIAL SOLUTIONS - XCIAL",
+      "profileUrl": "https://enterpriseleague.com/company/crucial-solutions-xcial",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/crucial-solutions-xcial",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Beyserin Consulting",
+      "profileUrl": "https://enterpriseleague.com/company/beyserin-consulting",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/beyserin-consulting",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Pana Business",
+      "profileUrl": "https://enterpriseleague.com/company/pana-business",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/pana-business",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "ABsmartly",
+      "profileUrl": "https://enterpriseleague.com/company/absmartly",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/absmartly",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Jüsto",
+      "profileUrl": "https://enterpriseleague.com/company/jsto",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/jsto",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Maximage - DQM Software",
+      "profileUrl": "https://enterpriseleague.com/company/maximage-dqm-software",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/maximage-dqm-software",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Future Software Co.",
+      "profileUrl": "https://enterpriseleague.com/company/future-software-co",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/future-software-co",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Oktara",
+      "profileUrl": "https://enterpriseleague.com/company/oktara",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/oktara",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Lighthouse Technologies",
+      "profileUrl": "https://enterpriseleague.com/company/lighthouse-technologies",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/lighthouse-technologies",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Silogik",
+      "profileUrl": "https://enterpriseleague.com/company/silogik",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/silogik",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Hoken Cybersecurity",
+      "profileUrl": "https://enterpriseleague.com/company/hoken-cybersecurity",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/hoken-cybersecurity",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "wolkvox",
+      "profileUrl": "https://enterpriseleague.com/company/wolkvox",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/wolkvox",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "PeopleCloud HRM",
+      "profileUrl": "https://enterpriseleague.com/company/peoplecloud-hrm",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/peoplecloud-hrm",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Simetrik",
+      "profileUrl": "https://enterpriseleague.com/company/simetrik",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/simetrik",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "FacturoPorTi",
+      "profileUrl": "https://enterpriseleague.com/company/facturoporti",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/facturoporti",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "BTODigital Latam | Soluciones Digitales",
+      "profileUrl": "https://enterpriseleague.com/company/btodigital-latam-soluciones-digitales",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/btodigital-latam-soluciones-digitales",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Clever Marketing, Ltd.",
+      "profileUrl": "https://enterpriseleague.com/company/clever-marketing-ltd",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/clever-marketing-ltd",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Tebiko",
+      "profileUrl": "https://enterpriseleague.com/company/tebiko",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/tebiko",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "SoloWeb Hosting",
+      "profileUrl": "https://enterpriseleague.com/company/soloweb-hosting",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/soloweb-hosting",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "SM Digital",
+      "profileUrl": "https://enterpriseleague.com/company/sm-digital-1940021",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/sm-digital-1940021",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "eDesigns.com, 360º web agency world wide",
+      "profileUrl": "https://enterpriseleague.com/company/edesignscom-360-web-agency-world-wide",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/edesignscom-360-web-agency-world-wide",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Kokonut Studio",
+      "profileUrl": "https://enterpriseleague.com/company/kokonut-studio",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/kokonut-studio",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Color Code Studio",
+      "profileUrl": "https://enterpriseleague.com/company/color-code-studio",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/color-code-studio",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Umbra 3D Studio",
+      "profileUrl": "https://enterpriseleague.com/company/umbra-3d-studio",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/umbra-3d-studio",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Aplyca",
+      "profileUrl": "https://enterpriseleague.com/company/aplyca",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/aplyca",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "CredeMtia",
+      "profileUrl": "https://enterpriseleague.com/company/credemtia",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/credemtia",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Biban",
+      "profileUrl": "https://enterpriseleague.com/company/biban",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/biban",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Binnacle App",
+      "profileUrl": "https://enterpriseleague.com/company/binnacle-app",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/binnacle-app",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "O4IT",
+      "profileUrl": "https://enterpriseleague.com/company/oit",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/oit",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Castlebridge Systems",
+      "profileUrl": "https://enterpriseleague.com/company/castlebridge-systems",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/castlebridge-systems",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Nuclea Solutions",
+      "profileUrl": "https://enterpriseleague.com/company/nuclea-solutions",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/nuclea-solutions",
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Xira",
+      "profileUrl": "https://enterpriseleague.com/company/xira",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/xira",
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Axend",
+      "profileUrl": "https://enterpriseleague.com/company/axend",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/axend",
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "CINCEL - Trust Authority & Identity Solutions",
+      "profileUrl": "https://enterpriseleague.com/company/cincel-trust-authority-identity-solutions",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/cincel-trust-authority-identity-solutions",
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Pulppo",
+      "profileUrl": "https://enterpriseleague.com/company/pulppo",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/pulppo",
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Antsglobe Technologies",
+      "profileUrl": "https://enterpriseleague.com/company/antsglobe-technologies-279900",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/antsglobe-technologies-279900",
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "LowCode Agency",
+      "profileUrl": "https://enterpriseleague.com/company/lowcode-agency",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/lowcode-agency",
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "TheMadFox",
+      "profileUrl": "https://enterpriseleague.com/company/themadfox",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/themadfox",
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Marsodi Tech",
+      "profileUrl": "https://enterpriseleague.com/company/marsodi-tech",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/marsodi-tech",
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Shift Active | Inteligencia interactiva",
+      "profileUrl": "https://enterpriseleague.com/company/shift-active-inteligencia-interactiva",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/shift-active-inteligencia-interactiva",
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "OpenLifter.ai",
+      "profileUrl": "https://enterpriseleague.com/company/openlifterai",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/openlifterai",
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Caramel Point",
+      "profileUrl": "https://enterpriseleague.com/company/caramel-point",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/caramel-point",
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Claw Studios",
+      "profileUrl": "https://enterpriseleague.com/company/claw-studios",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/claw-studios",
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "128 Studio",
+      "profileUrl": "https://enterpriseleague.com/company/128-studio",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/128-studio",
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "WayTooDigital",
+      "profileUrl": "https://enterpriseleague.com/company/waytoodigital",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/waytoodigital",
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "NUTHOST",
+      "profileUrl": "https://enterpriseleague.com/company/nuthost",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/nuthost",
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Clousis",
+      "profileUrl": "https://enterpriseleague.com/company/clousis",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/clousis",
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "MIC Technologies",
+      "profileUrl": "https://enterpriseleague.com/company/mic-technologies",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/mic-technologies",
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Chimpancé Digital",
+      "profileUrl": "https://enterpriseleague.com/company/chimpance-digital",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/chimpance-digital",
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Radium Rocket",
+      "profileUrl": "https://enterpriseleague.com/company/radium-rocket",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/radium-rocket",
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "MD Marketing Digital",
+      "profileUrl": "https://enterpriseleague.com/company/md-marketing-digital",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/md-marketing-digital",
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "VentasxMayor",
+      "profileUrl": "https://enterpriseleague.com/company/ventasxmayor",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/ventasxmayor",
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Omatic",
+      "profileUrl": "https://enterpriseleague.com/company/omatic-1872326",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/omatic-1872326",
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "legalsurf",
+      "profileUrl": "https://enterpriseleague.com/company/legalsurf",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/legalsurf",
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Streto.io",
+      "profileUrl": "https://enterpriseleague.com/company/stretoio",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/stretoio",
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Alquiler Argentina",
+      "profileUrl": "https://enterpriseleague.com/company/alquiler-argentina",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/alquiler-argentina",
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Random Sounds",
+      "profileUrl": "https://enterpriseleague.com/company/random-sounds",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/random-sounds",
+      "queryLane": "Enterprise League software directory — South America",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/sa-central",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Glajumedia",
+      "profileUrl": "https://enterpriseleague.com/company/glajumedia-1314197",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/glajumedia-1314197",
+      "queryLane": "Enterprise League software directory — Peru",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/pe",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Evolbit",
+      "profileUrl": "https://enterpriseleague.com/company/evolbit",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/evolbit",
+      "queryLane": "Enterprise League software directory — Peru",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/pe",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Qualizens S.A.C.",
+      "profileUrl": "https://enterpriseleague.com/company/qualizens-sac",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/qualizens-sac",
+      "queryLane": "Enterprise League software directory — Peru",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/pe",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Digixonic Studios",
+      "profileUrl": "https://enterpriseleague.com/company/digixonic-studios",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/digixonic-studios",
+      "queryLane": "Enterprise League software directory — Peru",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/pe",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Wally",
+      "profileUrl": "https://enterpriseleague.com/company/wally",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/wally",
+      "queryLane": "Enterprise League software directory — Peru",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/pe",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Octobot",
+      "profileUrl": "https://enterpriseleague.com/company/octobot",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/octobot",
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Dynamia",
+      "profileUrl": "https://enterpriseleague.com/company/dynamia",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/dynamia",
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "GeneXus Consulting",
+      "profileUrl": "https://enterpriseleague.com/company/genexus-consulting",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/genexus-consulting",
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Houlak",
+      "profileUrl": "https://enterpriseleague.com/company/houlak",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/houlak",
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Simplifica Software",
+      "profileUrl": "https://enterpriseleague.com/company/simplifica-software",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/simplifica-software",
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "InnovationDS",
+      "profileUrl": "https://enterpriseleague.com/company/innovationds",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/innovationds",
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Horus Studio",
+      "profileUrl": "https://enterpriseleague.com/company/horus-studio",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/horus-studio",
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Tryolabs",
+      "profileUrl": "https://enterpriseleague.com/company/tryolabs",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/tryolabs",
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Overlap",
+      "profileUrl": "https://enterpriseleague.com/company/overlap",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/overlap",
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "QAlified",
+      "profileUrl": "https://enterpriseleague.com/company/qalified",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/qalified",
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Trafilea Tech E-commerce Group",
+      "profileUrl": "https://enterpriseleague.com/company/trafilea-tech-ecommerce-group",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/trafilea-tech-ecommerce-group",
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Kaizen Softworks",
+      "profileUrl": "https://enterpriseleague.com/company/kaizen-softworks",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/kaizen-softworks",
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Flokzu",
+      "profileUrl": "https://enterpriseleague.com/company/flokzu",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/flokzu",
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Trepcom Technologies",
+      "profileUrl": "https://enterpriseleague.com/company/trepcom-technologies",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/trepcom-technologies",
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "MetaLabs Software",
+      "profileUrl": "https://enterpriseleague.com/company/metalabs-software",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/metalabs-software",
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Aureolab",
+      "profileUrl": "https://enterpriseleague.com/company/aureolab",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/aureolab",
+      "queryLane": "Enterprise League software directory — Chile",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/cl",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Nnodes",
+      "profileUrl": "https://enterpriseleague.com/company/nnodes",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/nnodes",
+      "queryLane": "Enterprise League software directory — Chile",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/cl",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "iGromi",
+      "profileUrl": "https://enterpriseleague.com/company/igromi",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/igromi",
+      "queryLane": "Enterprise League software directory — Chile",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/cl",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Yu-Track",
+      "profileUrl": "https://enterpriseleague.com/company/yutrack",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/yutrack",
+      "queryLane": "Enterprise League software directory — Chile",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/cl",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Ustart",
+      "profileUrl": "https://enterpriseleague.com/company/ustart",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/ustart",
+      "queryLane": "Enterprise League software directory — Chile",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/cl",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Andes Blockchain",
+      "profileUrl": "https://enterpriseleague.com/company/andes-blockchain",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/andes-blockchain",
+      "queryLane": "Enterprise League software directory — Chile",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/cl",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Reservo",
+      "profileUrl": "https://enterpriseleague.com/company/reservo",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/reservo",
+      "queryLane": "Enterprise League software directory — Chile",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/cl",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Frenzy",
+      "profileUrl": "https://enterpriseleague.com/company/frenzy",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/frenzy",
+      "queryLane": "Enterprise League software directory — Guatemala",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/gt",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "NEOMEDIA - Digital Signage | In Store Radio | LED Screens",
+      "profileUrl": "https://enterpriseleague.com/company/neomedia-digital-signage-in-store-radio-led-screens",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/neomedia-digital-signage-in-store-radio-led-screens",
+      "queryLane": "Enterprise League software directory — Panama",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/pa",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Hero YC S22",
+      "profileUrl": "https://enterpriseleague.com/company/hero-yc-s22",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/hero-yc-s22",
+      "queryLane": "Enterprise League software directory — Panama",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/pa",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Smark CRM",
+      "profileUrl": "https://enterpriseleague.com/company/smark-crm",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/smark-crm",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Vista/pub",
+      "profileUrl": "https://enterpriseleague.com/company/vistapub",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/vistapub",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Base2 Tecnologia",
+      "profileUrl": "https://enterpriseleague.com/company/base2-tecnologia",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/base2-tecnologia",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Prosperi Global | BR",
+      "profileUrl": "https://enterpriseleague.com/company/prosperi-global-br",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/prosperi-global-br",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Clickweb",
+      "profileUrl": "https://enterpriseleague.com/company/clickweb",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/clickweb",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Skedway",
+      "profileUrl": "https://enterpriseleague.com/company/skedway",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/skedway",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "MAPS S A",
+      "profileUrl": "https://enterpriseleague.com/company/maps-s-a",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/maps-s-a",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "AgriConnected",
+      "profileUrl": "https://enterpriseleague.com/company/agriconnected",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/agriconnected",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "SciCrop",
+      "profileUrl": "https://enterpriseleague.com/company/scicrop",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/scicrop",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "TerraMagna",
+      "profileUrl": "https://enterpriseleague.com/company/terramagna",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/terramagna",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Cortex",
+      "profileUrl": "https://enterpriseleague.com/company/cortex",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/cortex",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "DKLABS",
+      "profileUrl": "https://enterpriseleague.com/company/dklabs",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/dklabs",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Gaudium",
+      "profileUrl": "https://enterpriseleague.com/company/gaudium",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/gaudium",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Jera",
+      "profileUrl": "https://enterpriseleague.com/company/jera",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/jera",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Avantsoft",
+      "profileUrl": "https://enterpriseleague.com/company/avantsoft",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/avantsoft",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Snowman Labs",
+      "profileUrl": "https://enterpriseleague.com/company/snowman-labs",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/snowman-labs",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Oncase",
+      "profileUrl": "https://enterpriseleague.com/company/oncase",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/oncase",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Resultados Digitais",
+      "profileUrl": "https://enterpriseleague.com/company/resultados-digitais",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/resultados-digitais",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Agente Imóvel",
+      "profileUrl": "https://enterpriseleague.com/company/agente-imovel",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/agente-imovel",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Ololu Plataforma Digital ©",
+      "profileUrl": "https://enterpriseleague.com/company/ololu-plataforma-digital",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/ololu-plataforma-digital",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Agendor",
+      "profileUrl": "https://enterpriseleague.com/company/agendor",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/agendor",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Checkmob",
+      "profileUrl": "https://enterpriseleague.com/company/checkmob",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/checkmob",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Kyte App",
+      "profileUrl": "https://enterpriseleague.com/company/kyte-app",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/kyte-app",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "BlackBean Tecnologia",
+      "profileUrl": "https://enterpriseleague.com/company/blackbean-tecnologia",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/blackbean-tecnologia",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "SAN Internet Brasil Ltda",
+      "profileUrl": "https://enterpriseleague.com/company/san-internet-brasil-ltda",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/san-internet-brasil-ltda",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Suprema",
+      "profileUrl": "https://enterpriseleague.com/company/suprema",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/suprema",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Smartleader - Sistema Gestão de Performance",
+      "profileUrl": "https://enterpriseleague.com/company/smartleader-sistema-gestao-de-performance",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/smartleader-sistema-gestao-de-performance",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "SGMAN - Software de Gestão da Manutenção",
+      "profileUrl": "https://enterpriseleague.com/company/sgman-software-de-gestao-da-manutencao",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/sgman-software-de-gestao-da-manutencao",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "fSense - For Business",
+      "profileUrl": "https://enterpriseleague.com/company/fsense-for-business",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/fsense-for-business",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Letras",
+      "profileUrl": "https://enterpriseleague.com/company/letras",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/letras",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Arkeyva",
+      "profileUrl": "https://enterpriseleague.com/company/arkeyva",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/arkeyva",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "PontoSimples",
+      "profileUrl": "https://enterpriseleague.com/company/pontosimples",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/pontosimples",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Open Data Center",
+      "profileUrl": "https://enterpriseleague.com/company/open-data-center",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/open-data-center",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Aegro",
+      "profileUrl": "https://enterpriseleague.com/company/aegro",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/aegro",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Agrotools",
+      "profileUrl": "https://enterpriseleague.com/company/agrotools",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/agrotools",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Rede Magic",
+      "profileUrl": "https://enterpriseleague.com/company/rede-magic",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/rede-magic",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "LIT Collective",
+      "profileUrl": "https://enterpriseleague.com/company/lit-collective",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/lit-collective",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "CRM PipeRun",
+      "profileUrl": "https://enterpriseleague.com/company/crm-piperun",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/crm-piperun",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "SISMETRO",
+      "profileUrl": "https://enterpriseleague.com/company/sismetro",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/sismetro",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "TOTVS",
+      "profileUrl": "https://enterpriseleague.com/company/totvs",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/totvs",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "INFOX Tecnologia",
+      "profileUrl": "https://enterpriseleague.com/company/infox-tecnologia",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/infox-tecnologia",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Ema Software",
+      "profileUrl": "https://enterpriseleague.com/company/ema-software",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/ema-software",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "FastDomain.com.br",
+      "profileUrl": "https://enterpriseleague.com/company/fastdomaincombr",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/fastdomaincombr",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Milvus",
+      "profileUrl": "https://enterpriseleague.com/company/milvus",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/milvus",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Portão 3 (YC S21)",
+      "profileUrl": "https://enterpriseleague.com/company/portao-3-yc-s21",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/portao-3-yc-s21",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "stays.net",
+      "profileUrl": "https://enterpriseleague.com/company/staysnet",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/staysnet",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Locaweb",
+      "profileUrl": "https://enterpriseleague.com/company/locaweb",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/locaweb",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Nichoos",
+      "profileUrl": "https://enterpriseleague.com/company/nichoos",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/nichoos",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Turbo Partners",
+      "profileUrl": "https://enterpriseleague.com/company/turbo-partners",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/turbo-partners",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "QuintoAndar",
+      "profileUrl": "https://enterpriseleague.com/company/quintoandar",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/quintoandar",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "SLONCORP CRIFA CIA LTDA",
+      "profileUrl": "https://enterpriseleague.com/company/sloncorp-crifa-cia-ltda",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/sloncorp-crifa-cia-ltda",
+      "queryLane": "Enterprise League software directory — Ecuador",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ec",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Mercately (Techstars '23)",
+      "profileUrl": "https://enterpriseleague.com/company/mercately-techstars-23",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/mercately-techstars-23",
+      "queryLane": "Enterprise League software directory — Ecuador",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ec",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "INTEGRAL CLOUD SOLUTIONS OPENCLOUD",
+      "profileUrl": "https://enterpriseleague.com/company/integral-cloud-solutions-opencloud",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/integral-cloud-solutions-opencloud",
+      "queryLane": "Enterprise League software directory — Ecuador",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ec",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "PULPO.ec",
+      "profileUrl": "https://enterpriseleague.com/company/pulpoec",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/pulpoec",
+      "queryLane": "Enterprise League software directory — Ecuador",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ec",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "SnapSoft",
+      "profileUrl": "https://aworkado.co/companies/snapsoft",
+      "directoryProfileUrl": "https://aworkado.co/companies/snapsoft",
+      "sourceJobUrl": "https://aworkado.co/job/aiml-solution-architect-latamus-118324",
+      "roleTitle": "Ai/Ml Solution Architect (Latam/Us)",
+      "roleLocations": [
+        "United States",
+        "Brazil",
+        "Senior",
+        "Full Time",
+        "Remote"
+      ],
+      "queryLane": "Aworkado remote software engineering — LATAM postings",
+      "sourceUrl": "https://aworkado.co/remote/software-engineering/latin-america",
+      "locationLead": "LATAM",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-aworkado-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Savvy",
+      "profileUrl": "https://aworkado.co/companies/savvywealth",
+      "directoryProfileUrl": "https://aworkado.co/companies/savvywealth",
+      "sourceJobUrl": "https://aworkado.co/job/senior-software-engineer-remote-latam-115086",
+      "roleTitle": "Senior Software Engineer (Remote Latam)",
+      "roleLocations": [
+        "Brazil",
+        "Mexico"
+      ],
+      "queryLane": "Aworkado remote software engineering — LATAM postings",
+      "sourceUrl": "https://aworkado.co/remote/software-engineering/latin-america",
+      "locationLead": "LATAM",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-aworkado-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Terac",
+      "profileUrl": "https://aworkado.co/companies/terac",
+      "directoryProfileUrl": "https://aworkado.co/companies/terac",
+      "sourceJobUrl": "https://aworkado.co/job/latam-software-engineers-coding-tasks-for-ai-evaluation-110916",
+      "roleTitle": "Latam Software Engineers: Coding Tasks For Ai Evaluation",
+      "roleLocations": [
+        "Brazil",
+        "Argentina"
+      ],
+      "queryLane": "Aworkado remote software engineering — LATAM postings",
+      "sourceUrl": "https://aworkado.co/remote/software-engineering/latin-america",
+      "locationLead": "LATAM",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-aworkado-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Pragmatike",
+      "profileUrl": "https://aworkado.co/companies/pragmatikee",
+      "directoryProfileUrl": "https://aworkado.co/companies/pragmatikee",
+      "sourceJobUrl": "https://aworkado.co/job/ingenieure-full-stack-or-teletravail-latam-76812",
+      "roleTitle": "Ingénieur(E) Full-Stack | Télétravail Latam",
+      "roleLocations": [
+        "Argentina",
+        "Colombia",
+        "Mid-level",
+        "Full Time",
+        "Remote"
+      ],
+      "queryLane": "Aworkado remote software engineering — LATAM postings",
+      "sourceUrl": "https://aworkado.co/remote/software-engineering/latin-america",
+      "locationLead": "LATAM",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-aworkado-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Remote Talent LATAM",
+      "profileUrl": "https://aworkado.co/companies/remote-talent-latam",
+      "directoryProfileUrl": "https://aworkado.co/companies/remote-talent-latam",
+      "sourceJobUrl": "https://aworkado.co/job/senior-backend-engineer-or-remote-or-latam-only-or-89010-73315",
+      "roleTitle": "Senior Backend Engineer | Remote | Latam Only | 89010",
+      "roleLocations": [
+        "Mexico"
+      ],
+      "queryLane": "Aworkado remote software engineering — LATAM postings",
+      "sourceUrl": "https://aworkado.co/remote/software-engineering/latin-america",
+      "locationLead": "LATAM",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-aworkado-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Moxie",
+      "profileUrl": "https://aworkado.co/companies/joinmoxie",
+      "directoryProfileUrl": "https://aworkado.co/companies/joinmoxie",
+      "sourceJobUrl": "https://aworkado.co/job/staff-product-engineer-frontend-latam-64971",
+      "roleTitle": "Staff Product Engineer, Frontend (Latam)",
+      "roleLocations": [
+        "Chile",
+        "Brazil",
+        "Senior",
+        "Full Time",
+        "Remote",
+        "$97-170K"
+      ],
+      "queryLane": "Aworkado remote software engineering — LATAM postings",
+      "sourceUrl": "https://aworkado.co/remote/software-engineering/latin-america",
+      "locationLead": "LATAM",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-aworkado-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Workstate",
+      "profileUrl": "https://aworkado.co/companies/workstate",
+      "directoryProfileUrl": "https://aworkado.co/companies/workstate",
+      "sourceJobUrl": "https://aworkado.co/job/senior-cobol-developer-zos-latam-remote-55156",
+      "roleTitle": "Senior Cobol Developer (Z/Os) - Latam Remote",
+      "roleLocations": [
+        "Colombia",
+        "Argentina"
+      ],
+      "queryLane": "Aworkado remote software engineering — LATAM postings",
+      "sourceUrl": "https://aworkado.co/remote/software-engineering/latin-america",
+      "locationLead": "LATAM",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-aworkado-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "fusionSpan",
+      "profileUrl": "https://aworkado.co/companies/fusionspan",
+      "directoryProfileUrl": "https://aworkado.co/companies/fusionspan",
+      "sourceJobUrl": "https://aworkado.co/job/salesforce-technical-architect-latam-25962",
+      "roleTitle": "Salesforce Technical Architect (Latam)",
+      "roleLocations": [
+        "El Salvador"
+      ],
+      "queryLane": "Aworkado remote software engineering — LATAM postings",
+      "sourceUrl": "https://aworkado.co/remote/software-engineering/latin-america",
+      "locationLead": "LATAM",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-aworkado-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "NILO BRANDS",
+      "profileUrl": "https://aworkado.co/companies/drinknilo",
+      "directoryProfileUrl": "https://aworkado.co/companies/drinknilo",
+      "sourceJobUrl": "https://aworkado.co/job/ai-automation-engineer-n8n-expert-remote-latam-23934",
+      "roleTitle": "Ai Automation Engineer - N8n Expert (Remote) Latam",
+      "roleLocations": [
+        "El Salvador"
+      ],
+      "queryLane": "Aworkado remote software engineering — LATAM postings",
+      "sourceUrl": "https://aworkado.co/remote/software-engineering/latin-america",
+      "locationLead": "LATAM",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-aworkado-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Phantom",
+      "website": "https://phantom.com/",
+      "careersUrl": "",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM"
+      ],
+      "jobs": [
+        {
+          "id": "jobicy-152539",
+          "title": "Senior Software Engineer, Frontend",
+          "location": "LATAM, Canada, Europe, USA",
+          "eligibility": "LATAM, Canada, Europe, USA",
+          "url": "https://jobicy.com/jobs/152539-senior-software-engineer-frontend",
+          "workMode": "Remote",
+          "listingStatus": "Current Jobicy listing; not yet confirmed on employer ATS",
+          "checkedOn": "2026-11-07",
+          "technologies": [
+            "Go",
+            "go",
+            "React",
+            "Typescript",
+            "aws"
+          ],
+          "roles": [
+            "Engineering"
+          ],
+          "levels": []
+        }
+      ],
+      "queryLane": "Jobicy current LATAM engineering (engineering)",
+      "sourceUrl": "https://jobicy.com/jobs-rss-feed",
+      "leadSource": "Jobicy public remote-jobs API; use as a discovery lead and confirm employer details directly",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-jobicy-regional-engineering-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "UpGuard",
+      "website": "",
+      "careersUrl": "",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM"
+      ],
+      "jobs": [
+        {
+          "id": "jobicy-152340",
+          "title": "IT Operations Analyst",
+          "location": "LATAM",
+          "eligibility": "LATAM",
+          "url": "https://jobicy.com/jobs/152340-it-operations-analyst",
+          "workMode": "Remote",
+          "listingStatus": "Current Jobicy listing; not yet confirmed on employer ATS",
+          "checkedOn": "2026-11-07",
+          "technologies": [
+            "go",
+            "Go",
+            "Python"
+          ],
+          "roles": [
+            "Engineering"
+          ],
+          "levels": []
+        }
+      ],
+      "queryLane": "Jobicy current LATAM engineering (admin)",
+      "sourceUrl": "https://jobicy.com/jobs-rss-feed",
+      "leadSource": "Jobicy public remote-jobs API; use as a discovery lead and confirm employer details directly",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-jobicy-regional-engineering-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Veta Virtual Inc",
+      "title": "Full Stack Software Engineer",
+      "listingLocation": "data-testid=\"location-plate\" class=\"inline-flex max-w-full items-stretch overflow-hidden rounded border-2 text-sm font-bold leading-snug @max-[12rem]:flex-wrap border-foreground text-foreground\"> Remote LATAM, Europe Remote, open to people in: LATAM, Europe <ul class=\"flex flex-wrap gap-x-1.5 text-sm text-muted [&>li:not(:last-child)]:after:content-[',']\"",
+      "category": "Software & Backend",
+      "level": "Mid level",
+      "employmentType": "Full-time",
+      "directoryJobUrl": "https://www.globallyremotejobs.com/jobs/veta-virtual-inc/full-stack-software-engineer-3e2dc3",
+      "directorySourceUrl": "https://www.globallyremotejobs.com/country/cr?page=3",
+      "directoryPostedAt": "2026-10-16T00:00:00.000Z",
+      "queryLane": "Globally Remote Jobs Costa Rica listings — official employer link pending",
+      "directoryJobUrls": [
+        "https://www.globallyremotejobs.com/jobs/veta-virtual-inc/full-stack-software-engineer-3e2dc3"
+      ],
+      "sourceJobCount": 1,
+      "sourceUrl": "https://www.globallyremotejobs.com/country/cr?page=3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-globallyremote-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "ActionCOACH Costa Rica",
+      "profileUrl": "https://www.camtic.org/project/actioncoach-costa-rica/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/actioncoach-costa-rica/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Aliant",
+      "profileUrl": "https://www.camtic.org/project/aliant/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/aliant/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "ARI Casa de Cambio Internacional S.A.",
+      "profileUrl": "https://www.camtic.org/project/ari-casa-de-cambio-internacional-s-a/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/ari-casa-de-cambio-internacional-s-a/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Banco Promérica",
+      "profileUrl": "https://www.camtic.org/project/banco-promerica/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/banco-promerica/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "CCA Business",
+      "profileUrl": "https://www.camtic.org/project/cca-business/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/cca-business/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "CLC Comunicación",
+      "profileUrl": "https://www.camtic.org/project/clc-comunicacion/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/clc-comunicacion/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "CResiliencia",
+      "profileUrl": "https://www.camtic.org/project/cresiliencia/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/cresiliencia/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Dentons",
+      "profileUrl": "https://www.camtic.org/project/dentos/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/dentos/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Didi",
+      "profileUrl": "https://www.camtic.org/project/didi/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/didi/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Ecija",
+      "profileUrl": "https://www.camtic.org/project/ecija/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/ecija/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "ECP Consulting Group",
+      "profileUrl": "https://www.camtic.org/project/ecp-consulting-group/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/ecp-consulting-group/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "E-motions",
+      "profileUrl": "https://www.camtic.org/project/e-motions/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/e-motions/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Entrust Consultores",
+      "profileUrl": "https://www.camtic.org/project/entrust-consultores/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/entrust-consultores/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "ESICOM",
+      "profileUrl": "https://www.camtic.org/project/esicom/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/esicom/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Evicertia",
+      "profileUrl": "https://www.camtic.org/project/evicertia/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/evicertia/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "FVCR Ferias Virtuales",
+      "profileUrl": "https://www.camtic.org/project/fvcr-ferias-virtuales/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/fvcr-ferias-virtuales/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Figueroa Producciones",
+      "profileUrl": "https://www.camtic.org/project/figueroa-producciones/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/figueroa-producciones/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Film Support",
+      "profileUrl": "https://www.camtic.org/project/film-support/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/film-support/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Fundación Omar Dengo",
+      "profileUrl": "https://www.camtic.org/project/fundacion-omar-dengo/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/fundacion-omar-dengo/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Global Media Group",
+      "profileUrl": "https://www.camtic.org/project/global-media-group/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/global-media-group/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Grupo Mutual",
+      "profileUrl": "https://www.camtic.org/project/grupo-mutual/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/grupo-mutual/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Hermes Soft",
+      "profileUrl": "https://www.camtic.org/project/hermes-soft/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/hermes-soft/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Incredible Workplaces",
+      "profileUrl": "https://www.camtic.org/project/incredible-workplaces/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/incredible-workplaces/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Infoefectiva",
+      "profileUrl": "https://www.camtic.org/project/infoefectiva/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/infoefectiva/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "IT Learning Solution",
+      "profileUrl": "https://www.camtic.org/project/it-learning-solution/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/it-learning-solution/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "JAFU",
+      "profileUrl": "https://www.camtic.org/project/jafu/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/jafu/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Kal-í CR",
+      "profileUrl": "https://www.camtic.org/project/kal-i-cr/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/kal-i-cr/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Kínetos",
+      "profileUrl": "https://www.camtic.org/project/kinetos/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/kinetos/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Kruger Innova CR",
+      "profileUrl": "https://www.camtic.org/project/kruger-innova-costa-rica/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/kruger-innova-costa-rica/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Liberty",
+      "profileUrl": "https://www.camtic.org/project/telefonica/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/telefonica/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "LYSTO CARD",
+      "profileUrl": "https://www.camtic.org/project/lysto-card/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/lysto-card/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Mawi",
+      "profileUrl": "https://www.camtic.org/project/mawi/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/mawi/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Mekanismo",
+      "profileUrl": "https://www.camtic.org/project/mekanismo-taller-audiovisual/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/mekanismo-taller-audiovisual/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Micra Consulting",
+      "profileUrl": "https://www.camtic.org/project/micra-consulting/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/micra-consulting/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Morpho Animation",
+      "profileUrl": "https://www.camtic.org/project/morpho-animation-studio/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/morpho-animation-studio/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Movitext",
+      "profileUrl": "https://www.camtic.org/project/movitext/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/movitext/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "MT MMV INTEGRADORES",
+      "profileUrl": "https://www.camtic.org/project/mt-mmv-integradores/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/mt-mmv-integradores/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Navega Training and Consulting SRL",
+      "profileUrl": "https://www.camtic.org/project/navega-training-and-consulting-srl/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/navega-training-and-consulting-srl/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Neotecnologías",
+      "profileUrl": "https://www.camtic.org/project/neotecnologias/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/neotecnologias/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Parque la Libertad",
+      "profileUrl": "https://www.camtic.org/project/parque-la-libertad/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/parque-la-libertad/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Pignataro Abogados",
+      "profileUrl": "https://www.camtic.org/project/pignataro-abogados/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/pignataro-abogados/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "PricewaterhouseCooper",
+      "profileUrl": "https://www.camtic.org/project/pricewaterhousecooper/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/pricewaterhousecooper/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "PRIDES",
+      "profileUrl": "https://www.camtic.org/project/prides/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/prides/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Producción Filmica VB",
+      "profileUrl": "https://www.camtic.org/project/produccion-filmica-vb/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/produccion-filmica-vb/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Progressio Digital",
+      "profileUrl": "https://www.camtic.org/project/progressio-digital/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/progressio-digital/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Prointec",
+      "profileUrl": "https://www.camtic.org/project/prointec/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/prointec/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "R.A.C.S.A.",
+      "profileUrl": "https://www.camtic.org/project/radiografica-costarricense-s-a/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/radiografica-costarricense-s-a/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Reelax Media",
+      "profileUrl": "https://www.camtic.org/project/reelax-media/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/reelax-media/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "RF Grupo Educativo Ltda",
+      "profileUrl": "https://www.camtic.org/project/rf-grupo-educativo-ltda/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/rf-grupo-educativo-ltda/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "TecApro",
+      "profileUrl": "https://www.camtic.org/project/tecapro/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/tecapro/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Telecable",
+      "profileUrl": "https://www.camtic.org/project/telecable/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/telecable/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Tierra de Visitantes",
+      "profileUrl": "https://www.camtic.org/project/tierra-de-visitantes/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/tierra-de-visitantes/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Transcomer",
+      "profileUrl": "https://www.camtic.org/project/transcomer/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/transcomer/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Universidad Politécnica",
+      "profileUrl": "https://www.camtic.org/project/universidad-politecnica-2/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/universidad-politecnica-2/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "ULACIT y CIT|ULACIT",
+      "profileUrl": "https://www.camtic.org/project/ulacit-y-citulacit/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/ulacit-y-citulacit/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Universidad Cenfotec",
+      "profileUrl": "https://www.camtic.org/project/u-cenfotec/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/u-cenfotec/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Universidad Latina",
+      "profileUrl": "https://www.camtic.org/project/universidad-latina/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/universidad-latina/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "U. Hispanoamericana",
+      "profileUrl": "https://www.camtic.org/project/universidad-hispanoamericana/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/universidad-hispanoamericana/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Universidad San Marcos",
+      "profileUrl": "https://www.camtic.org/project/universidad-san-marcos/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/universidad-san-marcos/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "aliaxis",
+      "website": "https://www.aliaxis-la.com/",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-costa-rica-directory-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "CMA",
+      "website": "http://www.cma-cgm.com/",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-costa-rica-directory-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Smith",
+      "website": "https://www.smith-nephew.com/",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-costa-rica-directory-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "640px-Bac_credomatic_logo",
+      "website": "https://www.baccredomatic.com/",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-costa-rica-directory-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Baccardi",
+      "website": "https://www.bacardi.com/",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-costa-rica-directory-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Bat",
+      "website": "https://www.bat.com/",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-costa-rica-directory-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Bridgestone",
+      "website": "https://www.bridgestoneamericas.com/",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-costa-rica-directory-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "baxter",
+      "website": "https://www.baxter.com/",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-costa-rica-directory-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Bayer",
+      "website": "https://www.bayer.com/",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-costa-rica-directory-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Bill Goslyn",
+      "website": "https://www.billgosling.com/",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-costa-rica-directory-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "catalina",
+      "website": "https://www.catalina.com/",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-costa-rica-directory-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Centro Bimbo",
+      "website": "https://www.grupobimbo.com/",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-costa-rica-directory-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Cinde",
+      "website": "https://www.cinde.org/",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-costa-rica-directory-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "GTI Factura Electrónica",
+      "profileUrl": "https://alpunto.cr/en/business/gti-factura-electronica",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/gti-factura-electronica",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Facel – Facturación Electrónica",
+      "profileUrl": "https://alpunto.cr/en/business/facel-facturacion-electronica",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/facel-facturacion-electronica",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Ainnova Tech",
+      "profileUrl": "https://alpunto.cr/en/business/ainnova-tech",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/ainnova-tech",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "CRFUSION (Cronus ERP)",
+      "profileUrl": "https://alpunto.cr/en/business/crfusion-cronus-erp",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/crfusion-cronus-erp",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Greenpay S.A.",
+      "profileUrl": "https://alpunto.cr/en/business/greenpay-s-a",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/greenpay-s-a",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Salud a un Clic S.A.",
+      "profileUrl": "https://alpunto.cr/en/business/salud-a-un-clic-s-a",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/salud-a-un-clic-s-a",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "AACROM",
+      "profileUrl": "https://alpunto.cr/en/business/aacrom",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/aacrom",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "AceBuddy",
+      "profileUrl": "https://alpunto.cr/en/business/acebuddy",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/acebuddy",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "BEST Resource",
+      "profileUrl": "https://alpunto.cr/en/business/best-resource",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/best-resource",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Moovin",
+      "profileUrl": "https://alpunto.cr/en/business/moovin",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/moovin",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Software Solutions S.A.",
+      "profileUrl": "https://alpunto.cr/en/business/software-solutions-s-a",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/software-solutions-s-a",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Soltig",
+      "profileUrl": "https://alpunto.cr/en/business/soltig",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/soltig",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Architect Technology Solutions (ATS)",
+      "profileUrl": "https://alpunto.cr/en/business/architect-technology-solutions-ats",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/architect-technology-solutions-ats",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "CNET Technology Systems",
+      "profileUrl": "https://alpunto.cr/en/business/cnet-technology-systems",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/cnet-technology-systems",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Dinámica Consultores Internacional S.A. (DCI)",
+      "profileUrl": "https://alpunto.cr/en/business/dinamica-consultores-internacional-s-a-dci",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/dinamica-consultores-internacional-s-a-dci",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Three Rivers Software Ltda.",
+      "profileUrl": "https://alpunto.cr/en/business/three-rivers-software-ltda",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/three-rivers-software-ltda",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Avify",
+      "profileUrl": "https://alpunto.cr/en/business/avify",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/avify",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "INELDAT (Intercambio Electrónico de Datos S.A.)",
+      "profileUrl": "https://alpunto.cr/en/business/ineldat-intercambio-electronico-de-datos-s-a",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/ineldat-intercambio-electronico-de-datos-s-a",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "PIXDEA",
+      "profileUrl": "https://alpunto.cr/en/business/pixdea",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/pixdea",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "POSMOVI (Design Soft S.A.)",
+      "profileUrl": "https://alpunto.cr/en/business/posmovi-design-soft-s-a",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/posmovi-design-soft-s-a",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "SmartFacturaCR (Smart Process CR)",
+      "profileUrl": "https://alpunto.cr/en/business/smartfacturacr-smart-process-cr",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/smartfacturacr-smart-process-cr",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Softland Costa Rica",
+      "profileUrl": "https://alpunto.cr/en/business/softland-costa-rica",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/softland-costa-rica",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Ibylit",
+      "profileUrl": "https://alpunto.cr/en/business/ibylit",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/ibylit",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Processim Labs",
+      "profileUrl": "https://alpunto.cr/en/business/processim-labs",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/processim-labs",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Factun",
+      "profileUrl": "https://alpunto.cr/en/business/factun",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/factun",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Fygaro",
+      "profileUrl": "https://alpunto.cr/en/business/fygaro",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/fygaro",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Harvie (Hey Harvie)",
+      "profileUrl": "https://alpunto.cr/en/business/harvie-hey-harvie",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/harvie-hey-harvie",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Huli",
+      "profileUrl": "https://alpunto.cr/en/business/huli",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/huli",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Mission Inbox",
+      "profileUrl": "https://alpunto.cr/en/business/mission-inbox",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/mission-inbox",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Monibyte (Impesa)",
+      "profileUrl": "https://alpunto.cr/en/business/monibyte-impesa",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/monibyte-impesa",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Slidebean",
+      "profileUrl": "https://alpunto.cr/en/business/slidebean",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/slidebean",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Teledolar",
+      "profileUrl": "https://alpunto.cr/en/business/teledolar",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/teledolar",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Tilopay (Tilopay Soluciones Comerciales Ltda.)",
+      "profileUrl": "https://alpunto.cr/en/business/tilopay-tilopay-soluciones-comerciales-ltda",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/tilopay-tilopay-soluciones-comerciales-ltda",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Wolk Software",
+      "profileUrl": "https://alpunto.cr/en/business/wolk-software",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/wolk-software",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "SOIN Soluciones Integrales",
+      "profileUrl": "https://alpunto.cr/en/business/soin-soluciones-integrales",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/soin-soluciones-integrales",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Talentify (Ensensis)",
+      "profileUrl": "https://alpunto.cr/en/business/talentify-ensensis",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/talentify-ensensis",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Bmaxim",
+      "profileUrl": "https://alpunto.cr/en/business/bmaxim",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/bmaxim",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Helm360",
+      "profileUrl": "https://alpunto.cr/en/business/helm360",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/helm360",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Innovative S.A. (NovaToken)",
+      "profileUrl": "https://alpunto.cr/en/business/innovative-s-a-novatoken",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/innovative-s-a-novatoken",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Inversiones Next Curve S.A.",
+      "profileUrl": "https://alpunto.cr/en/business/inversiones-next-curve-s-a",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/inversiones-next-curve-s-a",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Logosoft (Punto de Ventas Logosoft)",
+      "profileUrl": "https://alpunto.cr/en/business/logosoft-punto-de-ventas-logosoft",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/logosoft-punto-de-ventas-logosoft",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=5",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Infoware",
+      "profileUrl": "https://alpunto.cr/en/business/infoware",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/infoware",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=5",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Integrama",
+      "profileUrl": "https://alpunto.cr/en/business/integrama",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/integrama",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Grupo Naby",
+      "profileUrl": "https://alpunto.cr/en/business/grupo-naby",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/grupo-naby",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=5",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Sicsoft",
+      "profileUrl": "https://alpunto.cr/en/business/sicsoft",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/sicsoft",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=5",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Siku",
+      "profileUrl": "https://alpunto.cr/en/business/siku",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/siku",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=5",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Zunify",
+      "profileUrl": "https://alpunto.cr/en/business/zunify",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/zunify",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=5",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Soefe Software",
+      "profileUrl": "https://alpunto.cr/en/business/soefe-software",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/soefe-software",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Emerald Studio",
+      "profileUrl": "https://alpunto.cr/en/business/emerald-studio",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/emerald-studio",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Flecha Roja Technologies",
+      "profileUrl": "https://alpunto.cr/en/business/flecha-roja-technologies",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/flecha-roja-technologies",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Grupo Asesor en Informática",
+      "profileUrl": "https://alpunto.cr/en/business/grupo-asesor-en-informatica",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/grupo-asesor-en-informatica",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Luminon Studios",
+      "profileUrl": "https://alpunto.cr/en/business/luminon-studios",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/luminon-studios",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Villalta Tech",
+      "profileUrl": "https://alpunto.cr/en/business/villalta-tech",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/villalta-tech",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "WOW Emotions",
+      "profileUrl": "https://alpunto.cr/en/business/wow-emotions",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/wow-emotions",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Opal Interactive",
+      "profileUrl": "https://alpunto.cr/en/business/opal-interactive",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/opal-interactive",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Atom Soluciones",
+      "profileUrl": "https://alpunto.cr/en/business/atom-soluciones",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/atom-soluciones",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Costa Rica Virtual",
+      "profileUrl": "https://alpunto.cr/en/business/costa-rica-virtual",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/costa-rica-virtual",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Quality XP Development (QXD)",
+      "profileUrl": "https://alpunto.cr/en/business/quality-xp-development-qxd",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/quality-xp-development-qxd",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "TicoDesign",
+      "profileUrl": "https://alpunto.cr/en/business/ticodesign",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/ticodesign",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Web Mentor",
+      "profileUrl": "https://alpunto.cr/en/business/web-mentor",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/web-mentor",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Alternativo Studio",
+      "profileUrl": "https://alpunto.cr/en/business/alternativo-studio",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/alternativo-studio",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Broditec",
+      "profileUrl": "https://alpunto.cr/en/business/broditec",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/broditec",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "DATAi",
+      "profileUrl": "https://alpunto.cr/en/business/datai",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/datai",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "ReinSystems",
+      "profileUrl": "https://alpunto.cr/en/business/reinsystems",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/reinsystems",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "10Pearls Costa Rica",
+      "profileUrl": "https://alpunto.cr/en/business/10pearls-costa-rica",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/10pearls-costa-rica",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Cecropia Solutions",
+      "profileUrl": "https://alpunto.cr/en/business/cecropia-solutions",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/cecropia-solutions",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Drago's House",
+      "profileUrl": "https://alpunto.cr/en/business/drago-s-house",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/drago-s-house",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "EX Squared LATAM",
+      "profileUrl": "https://alpunto.cr/en/business/ex-squared-latam",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/ex-squared-latam",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Infosgroup",
+      "profileUrl": "https://alpunto.cr/en/business/infosgroup",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/infosgroup",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Irazu Labs",
+      "profileUrl": "https://alpunto.cr/en/business/irazu-labs",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/irazu-labs",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "People Apps",
+      "profileUrl": "https://alpunto.cr/en/business/people-apps",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/people-apps",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Proximity Costa Rica",
+      "profileUrl": "https://alpunto.cr/en/business/proximity-costa-rica",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/proximity-costa-rica",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Softon Digital (Softon ITG)",
+      "profileUrl": "https://alpunto.cr/en/business/softon-digital-softon-itg",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/softon-digital-softon-itg",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "U Devs",
+      "profileUrl": "https://alpunto.cr/en/business/u-devs",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/u-devs",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "weKnow Inc.",
+      "profileUrl": "https://alpunto.cr/en/business/weknow-inc",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/weknow-inc",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Fuzyon Agency",
+      "profileUrl": "https://alpunto.cr/en/business/fuzyon-agency",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/fuzyon-agency",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "GuruX",
+      "profileUrl": "https://alpunto.cr/en/business/gurux",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/gurux",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Cipherio",
+      "profileUrl": "https://alpunto.cr/en/business/cipherio",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/cipherio",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Elva AI",
+      "profileUrl": "https://alpunto.cr/en/business/elva-ai",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/elva-ai",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Interfaz",
+      "profileUrl": "https://alpunto.cr/en/business/interfaz",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/interfaz",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "NW Consulting Services",
+      "profileUrl": "https://alpunto.cr/en/business/nw-consulting-services",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/nw-consulting-services",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Centauro Solutions",
+      "profileUrl": "https://alpunto.cr/en/business/centauro-solutions",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/centauro-solutions",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "DOTCREEK",
+      "profileUrl": "https://alpunto.cr/en/business/dotcreek",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/dotcreek",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "isthmusit software",
+      "profileUrl": "https://alpunto.cr/en/business/isthmusit-software",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/isthmusit-software",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "GTS",
+      "profileUrl": "https://alpunto.cr/en/business/gts",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/gts",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Aurigital",
+      "profileUrl": "https://alpunto.cr/en/business/aurigital",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/aurigital",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Babel Costa Rica",
+      "profileUrl": "https://alpunto.cr/en/business/babel-costa-rica",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/babel-costa-rica",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Dailysoft Technologies CR",
+      "profileUrl": "https://alpunto.cr/en/business/dailysoft-technologies-cr",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/dailysoft-technologies-cr",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Datasoft",
+      "profileUrl": "https://alpunto.cr/en/business/datasoft",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/datasoft",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "DNAMIC",
+      "profileUrl": "https://alpunto.cr/en/business/dnamic",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/dnamic",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Y2K Webs",
+      "profileUrl": "https://alpunto.cr/en/business/y2k-webs",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/y2k-webs",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Jowasoft",
+      "profileUrl": "https://alpunto.cr/en/business/jowasoft",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/jowasoft",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "SevenSoft",
+      "profileUrl": "https://alpunto.cr/en/business/sevensoft",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/sevensoft",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Snow Software Solutions",
+      "profileUrl": "https://alpunto.cr/en/business/snow-software-solutions",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/snow-software-solutions",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "TICMA DIGITAL",
+      "profileUrl": "https://alpunto.cr/en/business/ticma-digital",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/ticma-digital",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Yakukua",
+      "profileUrl": "https://alpunto.cr/en/business/yakukua",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/yakukua",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Xubliminal",
+      "profileUrl": "https://alpunto.cr/en/business/xubliminal",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/xubliminal",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Unidad22",
+      "profileUrl": "https://alpunto.cr/en/business/unidad22",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/unidad22",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Incompany Solutions S.A.",
+      "profileUrl": "https://alpunto.cr/en/business/incompany-solutions-s-a",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/incompany-solutions-s-a",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true
+    }
+  ],
+  "uniqueCandidatesFound": 329,
+  "outputLimit": 1000,
+  "timingsMs": {
+    "inputReadMs": 5,
+    "mongoLoadOrSnapshotReadMs": 1964,
+    "snapshotWriteMs": 14,
+    "bundledCatalogReadMs": 12,
+    "previousBatchReadMs": 0,
+    "indexBuildMs": 30,
+    "candidateCompareMs": 4,
+    "preferenceAnalysisMs": 6,
+    "preReportWriteElapsedMs": 2046
+  }
+}

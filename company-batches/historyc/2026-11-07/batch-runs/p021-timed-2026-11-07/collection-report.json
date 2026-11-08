@@ -1,0 +1,549 @@
+{
+  "cohortId": "likes-based-2026-11-07-p021",
+  "generatedOn": "2026-11-07",
+  "sourceConcurrency": 3,
+  "sourceResults": [],
+  "inputCount": 1373,
+  "nameUniqueCount": 466,
+  "targetStrictUniqueCount": 100,
+  "strictUniqueCount": 26,
+  "slices": [
+    {
+      "offset": 0,
+      "input": 200,
+      "directoryProfileResolutionNeeded": 0,
+      "directoryProfileSitesFound": 0,
+      "profileResolveProcessMs": 0,
+      "websiteResolutionNeeded": 0,
+      "resolvedWithWebsiteCandidate": 0,
+      "fallbackResolveProcessMs": 0,
+      "siteReadyCandidates": 200,
+      "resolverProcessMs": 0,
+      "verifierProcessMs": 24466,
+      "officialPagesChecked": 329,
+      "elapsedMs": 23609,
+      "strictPasses": 26,
+      "queryLanes": [
+        {
+          "lane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+          "checked": 12,
+          "reachable": 12,
+          "regionAndFit": 12,
+          "localOrEligibleAndFit": 12,
+          "regionAndFitRate": 1,
+          "localOrEligibleAndFitRate": 1,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+          "checked": 5,
+          "reachable": 5,
+          "regionAndFit": 5,
+          "localOrEligibleAndFit": 5,
+          "regionAndFitRate": 1,
+          "localOrEligibleAndFitRate": 1,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — Uruguay",
+          "checked": 4,
+          "reachable": 4,
+          "regionAndFit": 4,
+          "localOrEligibleAndFit": 4,
+          "regionAndFitRate": 1,
+          "localOrEligibleAndFitRate": 1,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Guía TIC Costa Rica technology supplier directory",
+          "checked": 2,
+          "reachable": 0,
+          "regionAndFit": 2,
+          "localOrEligibleAndFit": 2,
+          "regionAndFitRate": 1,
+          "localOrEligibleAndFitRate": 1,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Aworkado remote software engineering — LATAM postings",
+          "checked": 2,
+          "reachable": 2,
+          "regionAndFit": 2,
+          "localOrEligibleAndFit": 2,
+          "regionAndFitRate": 1,
+          "localOrEligibleAndFitRate": 1,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "official Costa Rica software employers",
+          "checked": 1,
+          "reachable": 1,
+          "regionAndFit": 1,
+          "localOrEligibleAndFit": 1,
+          "regionAndFitRate": 1,
+          "localOrEligibleAndFitRate": 1,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Proveedores de Costa Rica software supplier directory",
+          "checked": 1,
+          "reachable": 1,
+          "regionAndFit": 1,
+          "localOrEligibleAndFit": 1,
+          "regionAndFitRate": 1,
+          "localOrEligibleAndFitRate": 1,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "The Manifest Costa Rica software directory",
+          "checked": 1,
+          "reachable": 0,
+          "regionAndFit": 1,
+          "localOrEligibleAndFit": 1,
+          "regionAndFitRate": 1,
+          "localOrEligibleAndFitRate": 1,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "CAMTIC Costa Rica ICT member directory",
+          "checked": 4,
+          "reachable": 3,
+          "regionAndFit": 2,
+          "localOrEligibleAndFit": 1,
+          "regionAndFitRate": 0.5,
+          "localOrEligibleAndFitRate": 0.25,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Guia TIC Costa Rica technology supplier directory",
+          "checked": 105,
+          "reachable": 51,
+          "regionAndFit": 19,
+          "localOrEligibleAndFit": 2,
+          "regionAndFitRate": 0.181,
+          "localOrEligibleAndFitRate": 0.019,
+          "recommendation": "pause: fewer than 15% passed fit plus location; try a new source or segment"
+        },
+        {
+          "lane": "Alpunto Costa Rica SaaS/software company directory",
+          "checked": 25,
+          "reachable": 17,
+          "regionAndFit": 5,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0.2,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "pause: fewer than 15% passed fit plus location; try a new source or segment"
+        },
+        {
+          "lane": "Alpunto Costa Rica software developer directory",
+          "checked": 10,
+          "reachable": 7,
+          "regionAndFit": 2,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0.2,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — Central America",
+          "checked": 28,
+          "reachable": 18,
+          "regionAndFit": 4,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0.143,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "pause: fewer than 15% passed fit plus location; try a new source or segment"
+        }
+      ],
+      "verificationFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p021-timed-2026-11-07\\site-slice-001-verified.json",
+      "strictPoolWriteMs": 3,
+      "domainDedupeProcessMs": 206
+    },
+    {
+      "offset": 200,
+      "input": 200,
+      "directoryProfileResolutionNeeded": 0,
+      "directoryProfileSitesFound": 0,
+      "profileResolveProcessMs": 0,
+      "websiteResolutionNeeded": 0,
+      "resolvedWithWebsiteCandidate": 0,
+      "fallbackResolveProcessMs": 0,
+      "siteReadyCandidates": 200,
+      "resolverProcessMs": 0,
+      "verifierProcessMs": 18637,
+      "officialPagesChecked": 359,
+      "elapsedMs": 18407,
+      "strictPasses": 1,
+      "queryLanes": [
+        {
+          "lane": "CamSCAT Costa Rica shared-services member directory",
+          "checked": 13,
+          "reachable": 5,
+          "regionAndFit": 2,
+          "localOrEligibleAndFit": 1,
+          "regionAndFitRate": 0.154,
+          "localOrEligibleAndFitRate": 0.077,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — Central America",
+          "checked": 5,
+          "reachable": 3,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — Mexico",
+          "checked": 6,
+          "reachable": 5,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — Colombia",
+          "checked": 3,
+          "reachable": 2,
+          "regionAndFit": 1,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0.333,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — Argentina",
+          "checked": 16,
+          "reachable": 13,
+          "regionAndFit": 1,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0.063,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — South America",
+          "checked": 1,
+          "reachable": 1,
+          "regionAndFit": 1,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 1,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — Peru",
+          "checked": 3,
+          "reachable": 2,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — Uruguay",
+          "checked": 2,
+          "reachable": 2,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — Chile",
+          "checked": 4,
+          "reachable": 4,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — Brazil",
+          "checked": 11,
+          "reachable": 9,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — Ecuador",
+          "checked": 1,
+          "reachable": 0,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "The Manifest Costa Rica software directory",
+          "checked": 18,
+          "reachable": 9,
+          "regionAndFit": 2,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0.111,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "The Manifest Costa Rica software directory — page 4",
+          "checked": 9,
+          "reachable": 3,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "The Manifest Costa Rica software directory — page 2",
+          "checked": 15,
+          "reachable": 6,
+          "regionAndFit": 1,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0.067,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "The Manifest Costa Rica software directory — page 0",
+          "checked": 9,
+          "reachable": 3,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Sortlist software development directory — Costa Rica",
+          "checked": 4,
+          "reachable": 2,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Sortlist software development directory — Mexico",
+          "checked": 17,
+          "reachable": 13,
+          "regionAndFit": 2,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0.118,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Sortlist software development directory — Colombia",
+          "checked": 9,
+          "reachable": 7,
+          "regionAndFit": 2,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0.222,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Sortlist software development directory — Argentina",
+          "checked": 12,
+          "reachable": 12,
+          "regionAndFit": 1,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0.083,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Sortlist software development directory — Chile",
+          "checked": 17,
+          "reachable": 11,
+          "regionAndFit": 2,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0.118,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Sortlist software development directory — Brazil",
+          "checked": 17,
+          "reachable": 15,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Sortlist software development directory — Uruguay",
+          "checked": 8,
+          "reachable": 6,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        }
+      ],
+      "verificationFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p021-timed-2026-11-07\\site-slice-002-verified.json",
+      "strictPoolWriteMs": 4,
+      "domainDedupeProcessMs": 248
+    },
+    {
+      "offset": 400,
+      "input": 66,
+      "directoryProfileResolutionNeeded": 0,
+      "directoryProfileSitesFound": 0,
+      "profileResolveProcessMs": 0,
+      "websiteResolutionNeeded": 0,
+      "resolvedWithWebsiteCandidate": 0,
+      "fallbackResolveProcessMs": 0,
+      "siteReadyCandidates": 66,
+      "resolverProcessMs": 0,
+      "verifierProcessMs": 10847,
+      "officialPagesChecked": 148,
+      "elapsedMs": 10653,
+      "strictPasses": 0,
+      "queryLanes": [
+        {
+          "lane": "Sortlist software development directory — Uruguay",
+          "checked": 1,
+          "reachable": 0,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "GoodFirms Costa Rica software development directory",
+          "checked": 5,
+          "reachable": 2,
+          "regionAndFit": 1,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0.2,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Find Remote Jobs current software-engineering LATAM feed",
+          "checked": 8,
+          "reachable": 5,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Jobicy current LATAM engineering (engineering)",
+          "checked": 1,
+          "reachable": 1,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Nearshore Hub Latin America software provider directory",
+          "checked": 25,
+          "reachable": 19,
+          "regionAndFit": 7,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0.28,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "pause: fewer than 15% passed fit plus location; try a new source or segment"
+        },
+        {
+          "lane": "The Manifest Latin America software developers — page 2",
+          "checked": 5,
+          "reachable": 5,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "The Manifest Latin America software developers — page 3",
+          "checked": 8,
+          "reachable": 8,
+          "regionAndFit": 2,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0.25,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "The Manifest Latin America software developers — page 4",
+          "checked": 7,
+          "reachable": 7,
+          "regionAndFit": 1,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0.143,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "The Manifest Latin America software developers — page 5",
+          "checked": 1,
+          "reachable": 1,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "The Manifest Latin America software developers — page 5 ranks 166-180",
+          "checked": 5,
+          "reachable": 5,
+          "regionAndFit": 1,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0.2,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        }
+      ],
+      "verificationFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p021-timed-2026-11-07\\site-slice-003-verified.json",
+      "strictPoolWriteMs": 3,
+      "domainDedupeProcessMs": 196
+    }
+  ],
+  "timingsMs": {
+    "sourceFetchWallMs": 0,
+    "sourceFetchSumMs": 0,
+    "inputReadMergeWriteMs": 122,
+    "nameDedupeProcessMs": 2248,
+    "readNameUniqueAndSnapshotMs": 24,
+    "websiteResolutionSumMs": 0,
+    "directoryProfileResolutionSumMs": 0,
+    "fallbackDomainResolutionSumMs": 0,
+    "websiteVerificationProcessSumMs": 53950,
+    "websiteVerificationInternalSumMs": 52669,
+    "finalDomainDedupeProcessSumMs": 650,
+    "strictPoolWriteSumMs": 10,
+    "totalElapsedBeforeReportWriteMs": 57049
+  },
+  "rawLeads": "company-batches\\historyc\\2026-11-07\\batch-runs\\p021-timed-2026-11-07\\combined-raw-leads.json",
+  "nameUniqueLeads": "company-batches\\historyc\\2026-11-07\\batch-runs\\p021-timed-2026-11-07\\name-unique-leads.json",
+  "mongoSnapshot": "company-batches\\historyc\\2026-11-07\\batch-runs\\p021-timed-2026-11-07\\mongo-snapshot.json",
+  "dedupeLedger": "company-batches\\historyc\\2026-11-07\\batch-runs\\p021-timed-2026-11-07\\name-dedupe-ledger.json",
+  "strictUniqueLeads": "company-batches\\historyc\\2026-11-07\\batch-runs\\p021-timed-2026-11-07\\strict-domain-unique-leads.json",
+  "strictDedupeLedger": "company-batches\\historyc\\2026-11-07\\batch-runs\\p021-timed-2026-11-07\\strict-domain-dedupe-ledger.json",
+  "timingReport": "company-batches\\historyc\\2026-11-07\\batch-runs\\p021-timed-2026-11-07\\timing-report.json",
+  "artifacts": {},
+  "nextStep": "Add fresh sources or inputs; this run exhausted the available name-unique candidates before reaching the target."
+}

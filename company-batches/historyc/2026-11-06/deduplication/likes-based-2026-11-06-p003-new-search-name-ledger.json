@@ -1,0 +1,212 @@
+{
+  "cohortId": "likes-based-2026-11-06-p003",
+  "checkedOn": "2026-11-06",
+  "inputCount": 12,
+  "uniqueCount": 5,
+  "outputCount": 5,
+  "duplicateCount": 7,
+  "missingIdentityCount": 0,
+  "catalog": {
+    "source": "MongoDB + bundled files + prior batches",
+    "mongoCompanies": 1220,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 121,
+    "indexedNames": 1242,
+    "indexedDomains": 1182
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 63,
+    "topTracks": [
+      {
+        "track": "Engineering",
+        "count": 36
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Software Engineering",
+        "count": 3
+      },
+      {
+        "track": "Node.js",
+        "count": 2
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        46
+      ],
+      [
+        "direct",
+        16
+      ],
+      [
+        "unknown",
+        1
+      ]
+    ]
+  },
+  "queryLanes": [
+    {
+      "lane": "Costa Rica software company official careers pages 2026-11-06",
+      "leads": 3,
+      "unique": 3,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official LATAM careers pages 2026-11-06",
+      "leads": 9,
+      "unique": 2,
+      "duplicateRate": 0.778,
+      "recommendation": "continue or expand this lane"
+    }
+  ],
+  "entries": [
+    {
+      "company": "Advancio",
+      "domain": null,
+      "queryLane": "Official LATAM careers pages 2026-11-06",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Advancio",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.advancio.com/careers/"
+    },
+    {
+      "company": "Revelo",
+      "domain": null,
+      "queryLane": "Official LATAM careers pages 2026-11-06",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Revelo",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.revelo.com/careers"
+    },
+    {
+      "company": "Kodalab",
+      "domain": null,
+      "queryLane": "Official LATAM careers pages 2026-11-06",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Kodalab",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://kodalab.ai/careers"
+    },
+    {
+      "company": "SimpleStay",
+      "domain": null,
+      "queryLane": "Official LATAM careers pages 2026-11-06",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://simplestay.ai/en/careers"
+    },
+    {
+      "company": "Ideaware",
+      "domain": null,
+      "queryLane": "Official LATAM careers pages 2026-11-06",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Ideaware",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://ideaware.co/careers/"
+    },
+    {
+      "company": "Devlane",
+      "domain": null,
+      "queryLane": "Official LATAM careers pages 2026-11-06",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Devlane",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://careers.devlane.com/jobs"
+    },
+    {
+      "company": "Scope",
+      "domain": null,
+      "queryLane": "Official LATAM careers pages 2026-11-06",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://tryscope.ai/careers/"
+    },
+    {
+      "company": "Mahisoft",
+      "domain": null,
+      "queryLane": "Official LATAM careers pages 2026-11-06",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Mahisoft",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://mahisoft.com/careers/"
+    },
+    {
+      "company": "Oktana",
+      "domain": null,
+      "queryLane": "Official LATAM careers pages 2026-11-06",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Oktana",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.oktana.com/careers/"
+    },
+    {
+      "company": "Fair Play Labs",
+      "domain": null,
+      "queryLane": "Costa Rica software company official careers pages 2026-11-06",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://fairplaylabs.com/careers/"
+    },
+    {
+      "company": "weKnow Inc.",
+      "domain": null,
+      "queryLane": "Costa Rica software company official careers pages 2026-11-06",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://weknowinc.com/careers/work-at-weknow"
+    },
+    {
+      "company": "Vorealis Software",
+      "domain": null,
+      "queryLane": "Costa Rica software company official careers pages 2026-11-06",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://www.vorealis.com/en/"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "cohortId": "likes-based-2026-11-06-p003",
+  "generatedOn": "2026-11-06",
+  "catalog": {
+    "source": "MongoDB + bundled files + prior batches",
+    "mongoCompanies": 1220,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 121,
+    "indexedNames": 1242,
+    "indexedDomains": 1182
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 63,
+    "topTracks": [
+      {
+        "track": "Engineering",
+        "count": 36
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Software Engineering",
+        "count": 3
+      },
+      {
+        "track": "Node.js",
+        "count": 2
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        46
+      ],
+      [
+        "direct",
+        16
+      ],
+      [
+        "unknown",
+        1
+      ]
+    ]
+  },
+  "candidates": [
+    {
+      "name": "SimpleStay",
+      "queryLane": "Official LATAM careers pages 2026-11-06",
+      "sourceUrl": "https://simplestay.ai/en/careers",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Scope",
+      "queryLane": "Official LATAM careers pages 2026-11-06",
+      "sourceUrl": "https://tryscope.ai/careers/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Fair Play Labs",
+      "queryLane": "Costa Rica software company official careers pages 2026-11-06",
+      "sourceUrl": "https://fairplaylabs.com/careers/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "weKnow Inc.",
+      "queryLane": "Costa Rica software company official careers pages 2026-11-06",
+      "sourceUrl": "https://weknowinc.com/careers/work-at-weknow",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Vorealis Software",
+      "queryLane": "Costa Rica software company official careers pages 2026-11-06",
+      "sourceUrl": "https://www.vorealis.com/en/",
+      "needsOfficialDomainResolution": true
+    }
+  ],
+  "uniqueCandidatesFound": 5,
+  "outputLimit": 100
+}

@@ -1,0 +1,2155 @@
+{
+  "cohortId": "likes-based-2026-11-07-p008",
+  "generatedOn": "2026-11-07",
+  "catalog": {
+    "source": "MongoDB + bundled files + prior batches",
+    "mongoCompanies": 1520,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 421,
+    "indexedNames": 1818,
+    "indexedDomains": 1482
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 63,
+    "topTracks": [
+      {
+        "track": "Engineering",
+        "count": 36
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Software Engineering",
+        "count": 3
+      },
+      {
+        "track": "Node.js",
+        "count": 2
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        46
+      ],
+      [
+        "direct",
+        16
+      ],
+      [
+        "unknown",
+        1
+      ]
+    ]
+  },
+  "candidates": [
+    {
+      "name": "GTI Factura Electrónica",
+      "profileUrl": "https://alpunto.cr/en/business/gti-factura-electronica",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/gti-factura-electronica",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Facel – Facturación Electrónica",
+      "profileUrl": "https://alpunto.cr/en/business/facel-facturacion-electronica",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/facel-facturacion-electronica",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Ainnova Tech",
+      "profileUrl": "https://alpunto.cr/en/business/ainnova-tech",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/ainnova-tech",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "CRFUSION (Cronus ERP)",
+      "profileUrl": "https://alpunto.cr/en/business/crfusion-cronus-erp",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/crfusion-cronus-erp",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Greenpay S.A.",
+      "profileUrl": "https://alpunto.cr/en/business/greenpay-s-a",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/greenpay-s-a",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Salud a un Clic S.A.",
+      "profileUrl": "https://alpunto.cr/en/business/salud-a-un-clic-s-a",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/salud-a-un-clic-s-a",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "AACROM",
+      "profileUrl": "https://alpunto.cr/en/business/aacrom",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/aacrom",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "AceBuddy",
+      "profileUrl": "https://alpunto.cr/en/business/acebuddy",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/acebuddy",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "BEST Resource",
+      "profileUrl": "https://alpunto.cr/en/business/best-resource",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/best-resource",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Moovin",
+      "profileUrl": "https://alpunto.cr/en/business/moovin",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/moovin",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=2",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Software Solutions S.A.",
+      "profileUrl": "https://alpunto.cr/en/business/software-solutions-s-a",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/software-solutions-s-a",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Soltig",
+      "profileUrl": "https://alpunto.cr/en/business/soltig",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/soltig",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Architect Technology Solutions (ATS)",
+      "profileUrl": "https://alpunto.cr/en/business/architect-technology-solutions-ats",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/architect-technology-solutions-ats",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "CNET Technology Systems",
+      "profileUrl": "https://alpunto.cr/en/business/cnet-technology-systems",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/cnet-technology-systems",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Dinámica Consultores Internacional S.A. (DCI)",
+      "profileUrl": "https://alpunto.cr/en/business/dinamica-consultores-internacional-s-a-dci",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/dinamica-consultores-internacional-s-a-dci",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Three Rivers Software Ltda.",
+      "profileUrl": "https://alpunto.cr/en/business/three-rivers-software-ltda",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/three-rivers-software-ltda",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Avify",
+      "profileUrl": "https://alpunto.cr/en/business/avify",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/avify",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=2",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "INELDAT (Intercambio Electrónico de Datos S.A.)",
+      "profileUrl": "https://alpunto.cr/en/business/ineldat-intercambio-electronico-de-datos-s-a",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/ineldat-intercambio-electronico-de-datos-s-a",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=2",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "PIXDEA",
+      "profileUrl": "https://alpunto.cr/en/business/pixdea",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/pixdea",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "POSMOVI (Design Soft S.A.)",
+      "profileUrl": "https://alpunto.cr/en/business/posmovi-design-soft-s-a",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/posmovi-design-soft-s-a",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "SmartFacturaCR (Smart Process CR)",
+      "profileUrl": "https://alpunto.cr/en/business/smartfacturacr-smart-process-cr",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/smartfacturacr-smart-process-cr",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Softland Costa Rica",
+      "profileUrl": "https://alpunto.cr/en/business/softland-costa-rica",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/softland-costa-rica",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Ibylit",
+      "profileUrl": "https://alpunto.cr/en/business/ibylit",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/ibylit",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Processim Labs",
+      "profileUrl": "https://alpunto.cr/en/business/processim-labs",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/processim-labs",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Factun",
+      "profileUrl": "https://alpunto.cr/en/business/factun",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/factun",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Fygaro",
+      "profileUrl": "https://alpunto.cr/en/business/fygaro",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/fygaro",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Harvie (Hey Harvie)",
+      "profileUrl": "https://alpunto.cr/en/business/harvie-hey-harvie",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/harvie-hey-harvie",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Huli",
+      "profileUrl": "https://alpunto.cr/en/business/huli",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/huli",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Mission Inbox",
+      "profileUrl": "https://alpunto.cr/en/business/mission-inbox",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/mission-inbox",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Monibyte (Impesa)",
+      "profileUrl": "https://alpunto.cr/en/business/monibyte-impesa",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/monibyte-impesa",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Neotecnologías",
+      "profileUrl": "https://alpunto.cr/en/business/neotecnologias",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/neotecnologias",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Slidebean",
+      "profileUrl": "https://alpunto.cr/en/business/slidebean",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/slidebean",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Teledolar",
+      "profileUrl": "https://alpunto.cr/en/business/teledolar",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/teledolar",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Tilopay (Tilopay Soluciones Comerciales Ltda.)",
+      "profileUrl": "https://alpunto.cr/en/business/tilopay-tilopay-soluciones-comerciales-ltda",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/tilopay-tilopay-soluciones-comerciales-ltda",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Wolk Software",
+      "profileUrl": "https://alpunto.cr/en/business/wolk-software",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/wolk-software",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Hermes Soft",
+      "profileUrl": "https://alpunto.cr/en/business/hermes-soft",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/hermes-soft",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "SOIN Soluciones Integrales",
+      "profileUrl": "https://alpunto.cr/en/business/soin-soluciones-integrales",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/soin-soluciones-integrales",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Talentify (Ensensis)",
+      "profileUrl": "https://alpunto.cr/en/business/talentify-ensensis",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/talentify-ensensis",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "SECSA",
+      "profileUrl": "https://alpunto.cr/en/business/secsa",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/secsa",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Bmaxim",
+      "profileUrl": "https://alpunto.cr/en/business/bmaxim",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/bmaxim",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Helm360",
+      "profileUrl": "https://alpunto.cr/en/business/helm360",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/helm360",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Innovative S.A. (NovaToken)",
+      "profileUrl": "https://alpunto.cr/en/business/innovative-s-a-novatoken",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/innovative-s-a-novatoken",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Inversiones Next Curve S.A.",
+      "profileUrl": "https://alpunto.cr/en/business/inversiones-next-curve-s-a",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/inversiones-next-curve-s-a",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Logosoft (Punto de Ventas Logosoft)",
+      "profileUrl": "https://alpunto.cr/en/business/logosoft-punto-de-ventas-logosoft",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/logosoft-punto-de-ventas-logosoft",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=5",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Infoware",
+      "profileUrl": "https://alpunto.cr/en/business/infoware",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/infoware",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=5",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Integrama",
+      "profileUrl": "https://alpunto.cr/en/business/integrama",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/integrama",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Grupo Naby",
+      "profileUrl": "https://alpunto.cr/en/business/grupo-naby",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/grupo-naby",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=5",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Sicsoft",
+      "profileUrl": "https://alpunto.cr/en/business/sicsoft",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/sicsoft",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=5",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Siku",
+      "profileUrl": "https://alpunto.cr/en/business/siku",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/siku",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=5",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Zunify",
+      "profileUrl": "https://alpunto.cr/en/business/zunify",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/zunify",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=5",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Soefe Software",
+      "profileUrl": "https://alpunto.cr/en/business/soefe-software",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/soefe-software",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Emerald Studio",
+      "profileUrl": "https://alpunto.cr/en/business/emerald-studio",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/emerald-studio",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Flecha Roja Technologies",
+      "profileUrl": "https://alpunto.cr/en/business/flecha-roja-technologies",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/flecha-roja-technologies",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Grupo Asesor en Informática",
+      "profileUrl": "https://alpunto.cr/en/business/grupo-asesor-en-informatica",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/grupo-asesor-en-informatica",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Luminon Studios",
+      "profileUrl": "https://alpunto.cr/en/business/luminon-studios",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/luminon-studios",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Villalta Tech",
+      "profileUrl": "https://alpunto.cr/en/business/villalta-tech",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/villalta-tech",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "WOW Emotions",
+      "profileUrl": "https://alpunto.cr/en/business/wow-emotions",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/wow-emotions",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Opal Interactive",
+      "profileUrl": "https://alpunto.cr/en/business/opal-interactive",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/opal-interactive",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Atom Soluciones",
+      "profileUrl": "https://alpunto.cr/en/business/atom-soluciones",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/atom-soluciones",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Costa Rica Virtual",
+      "profileUrl": "https://alpunto.cr/en/business/costa-rica-virtual",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/costa-rica-virtual",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Quality XP Development (QXD)",
+      "profileUrl": "https://alpunto.cr/en/business/quality-xp-development-qxd",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/quality-xp-development-qxd",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "TicoDesign",
+      "profileUrl": "https://alpunto.cr/en/business/ticodesign",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/ticodesign",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Web Mentor",
+      "profileUrl": "https://alpunto.cr/en/business/web-mentor",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/web-mentor",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Alternativo Studio",
+      "profileUrl": "https://alpunto.cr/en/business/alternativo-studio",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/alternativo-studio",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Broditec",
+      "profileUrl": "https://alpunto.cr/en/business/broditec",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/broditec",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "DATAi",
+      "profileUrl": "https://alpunto.cr/en/business/datai",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/datai",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "321 Solutions",
+      "profileUrl": "https://alpunto.cr/en/business/321-solutions",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/321-solutions",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "ReinSystems",
+      "profileUrl": "https://alpunto.cr/en/business/reinsystems",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/reinsystems",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "10Pearls Costa Rica",
+      "profileUrl": "https://alpunto.cr/en/business/10pearls-costa-rica",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/10pearls-costa-rica",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Cecropia Solutions",
+      "profileUrl": "https://alpunto.cr/en/business/cecropia-solutions",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/cecropia-solutions",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Drago's House",
+      "profileUrl": "https://alpunto.cr/en/business/drago-s-house",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/drago-s-house",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "EX Squared LATAM",
+      "profileUrl": "https://alpunto.cr/en/business/ex-squared-latam",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/ex-squared-latam",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Infosgroup",
+      "profileUrl": "https://alpunto.cr/en/business/infosgroup",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/infosgroup",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Irazu Labs",
+      "profileUrl": "https://alpunto.cr/en/business/irazu-labs",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/irazu-labs",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "People Apps",
+      "profileUrl": "https://alpunto.cr/en/business/people-apps",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/people-apps",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Proximity Costa Rica",
+      "profileUrl": "https://alpunto.cr/en/business/proximity-costa-rica",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/proximity-costa-rica",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Softon Digital (Softon ITG)",
+      "profileUrl": "https://alpunto.cr/en/business/softon-digital-softon-itg",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/softon-digital-softon-itg",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "U Devs",
+      "profileUrl": "https://alpunto.cr/en/business/u-devs",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/u-devs",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "WAM Digital",
+      "profileUrl": "https://alpunto.cr/en/business/wam-digital",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/wam-digital",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "weKnow Inc.",
+      "profileUrl": "https://alpunto.cr/en/business/weknow-inc",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/weknow-inc",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Fuzyon Agency",
+      "profileUrl": "https://alpunto.cr/en/business/fuzyon-agency",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/fuzyon-agency",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "ADVITERS",
+      "profileUrl": "https://alpunto.cr/en/business/adviters",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/adviters",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "GuruX",
+      "profileUrl": "https://alpunto.cr/en/business/gurux",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/gurux",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Cipherio",
+      "profileUrl": "https://alpunto.cr/en/business/cipherio",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/cipherio",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Elva AI",
+      "profileUrl": "https://alpunto.cr/en/business/elva-ai",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/elva-ai",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Interfaz",
+      "profileUrl": "https://alpunto.cr/en/business/interfaz",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/interfaz",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "NW Consulting Services",
+      "profileUrl": "https://alpunto.cr/en/business/nw-consulting-services",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/nw-consulting-services",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Centauro Solutions",
+      "profileUrl": "https://alpunto.cr/en/business/centauro-solutions",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/centauro-solutions",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "DOTCREEK",
+      "profileUrl": "https://alpunto.cr/en/business/dotcreek",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/dotcreek",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "isthmusit software",
+      "profileUrl": "https://alpunto.cr/en/business/isthmusit-software",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/isthmusit-software",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "GTS",
+      "profileUrl": "https://alpunto.cr/en/business/gts",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/gts",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Aurigital",
+      "profileUrl": "https://alpunto.cr/en/business/aurigital",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/aurigital",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Babel Costa Rica",
+      "profileUrl": "https://alpunto.cr/en/business/babel-costa-rica",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/babel-costa-rica",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Dailysoft Technologies CR",
+      "profileUrl": "https://alpunto.cr/en/business/dailysoft-technologies-cr",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/dailysoft-technologies-cr",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Datasoft",
+      "profileUrl": "https://alpunto.cr/en/business/datasoft",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/datasoft",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "DNAMIC",
+      "profileUrl": "https://alpunto.cr/en/business/dnamic",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/dnamic",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Y2K Webs",
+      "profileUrl": "https://alpunto.cr/en/business/y2k-webs",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/y2k-webs",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Jowasoft",
+      "profileUrl": "https://alpunto.cr/en/business/jowasoft",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/jowasoft",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "SevenSoft",
+      "profileUrl": "https://alpunto.cr/en/business/sevensoft",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/sevensoft",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Snow Software Solutions",
+      "profileUrl": "https://alpunto.cr/en/business/snow-software-solutions",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/snow-software-solutions",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "TICMA DIGITAL",
+      "profileUrl": "https://alpunto.cr/en/business/ticma-digital",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/ticma-digital",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Yakukua",
+      "profileUrl": "https://alpunto.cr/en/business/yakukua",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/yakukua",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Xubliminal",
+      "profileUrl": "https://alpunto.cr/en/business/xubliminal",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/xubliminal",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Unidad22",
+      "profileUrl": "https://alpunto.cr/en/business/unidad22",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/unidad22",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Incompany Solutions S.A.",
+      "profileUrl": "https://alpunto.cr/en/business/incompany-solutions-s-a",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/incompany-solutions-s-a",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "ActionCOACH Costa Rica",
+      "profileUrl": "https://www.camtic.org/project/actioncoach-costa-rica/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/actioncoach-costa-rica/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Aliant",
+      "profileUrl": "https://www.camtic.org/project/aliant/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/aliant/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "ARI Casa de Cambio Internacional S.A.",
+      "profileUrl": "https://www.camtic.org/project/ari-casa-de-cambio-internacional-s-a/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/ari-casa-de-cambio-internacional-s-a/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Banco Promérica",
+      "profileUrl": "https://www.camtic.org/project/banco-promerica/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/banco-promerica/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "CCA Business",
+      "profileUrl": "https://www.camtic.org/project/cca-business/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/cca-business/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "CLC Comunicación",
+      "profileUrl": "https://www.camtic.org/project/clc-comunicacion/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/clc-comunicacion/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "CResiliencia",
+      "profileUrl": "https://www.camtic.org/project/cresiliencia/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/cresiliencia/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Coral",
+      "profileUrl": "https://www.camtic.org/project/coral-systems/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/coral-systems/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Dentons",
+      "profileUrl": "https://www.camtic.org/project/dentos/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/dentos/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Didi",
+      "profileUrl": "https://www.camtic.org/project/didi/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/didi/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Ecija",
+      "profileUrl": "https://www.camtic.org/project/ecija/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/ecija/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "ECP Consulting Group",
+      "profileUrl": "https://www.camtic.org/project/ecp-consulting-group/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/ecp-consulting-group/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "E-motions",
+      "profileUrl": "https://www.camtic.org/project/e-motions/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/e-motions/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Entrust Consultores",
+      "profileUrl": "https://www.camtic.org/project/entrust-consultores/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/entrust-consultores/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "ESICOM",
+      "profileUrl": "https://www.camtic.org/project/esicom/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/esicom/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Evicertia",
+      "profileUrl": "https://www.camtic.org/project/evicertia/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/evicertia/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "FVCR Ferias Virtuales",
+      "profileUrl": "https://www.camtic.org/project/fvcr-ferias-virtuales/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/fvcr-ferias-virtuales/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Figueroa Producciones",
+      "profileUrl": "https://www.camtic.org/project/figueroa-producciones/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/figueroa-producciones/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Film Support",
+      "profileUrl": "https://www.camtic.org/project/film-support/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/film-support/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Fundación Omar Dengo",
+      "profileUrl": "https://www.camtic.org/project/fundacion-omar-dengo/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/fundacion-omar-dengo/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Global Media Group",
+      "profileUrl": "https://www.camtic.org/project/global-media-group/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/global-media-group/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Grupo Mutual",
+      "profileUrl": "https://www.camtic.org/project/grupo-mutual/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/grupo-mutual/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Incredible Workplaces",
+      "profileUrl": "https://www.camtic.org/project/incredible-workplaces/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/incredible-workplaces/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Infoefectiva",
+      "profileUrl": "https://www.camtic.org/project/infoefectiva/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/infoefectiva/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "IT Learning Solution",
+      "profileUrl": "https://www.camtic.org/project/it-learning-solution/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/it-learning-solution/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "JAFU",
+      "profileUrl": "https://www.camtic.org/project/jafu/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/jafu/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Kal-í CR",
+      "profileUrl": "https://www.camtic.org/project/kal-i-cr/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/kal-i-cr/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Kínetos",
+      "profileUrl": "https://www.camtic.org/project/kinetos/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/kinetos/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Kruger Innova CR",
+      "profileUrl": "https://www.camtic.org/project/kruger-innova-costa-rica/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/kruger-innova-costa-rica/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Liberty",
+      "profileUrl": "https://www.camtic.org/project/telefonica/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/telefonica/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "LYSTO CARD",
+      "profileUrl": "https://www.camtic.org/project/lysto-card/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/lysto-card/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Mawi",
+      "profileUrl": "https://www.camtic.org/project/mawi/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/mawi/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Mekanismo",
+      "profileUrl": "https://www.camtic.org/project/mekanismo-taller-audiovisual/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/mekanismo-taller-audiovisual/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Micra Consulting",
+      "profileUrl": "https://www.camtic.org/project/micra-consulting/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/micra-consulting/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Morpho Animation",
+      "profileUrl": "https://www.camtic.org/project/morpho-animation-studio/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/morpho-animation-studio/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Movitext",
+      "profileUrl": "https://www.camtic.org/project/movitext/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/movitext/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "MT MMV INTEGRADORES",
+      "profileUrl": "https://www.camtic.org/project/mt-mmv-integradores/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/mt-mmv-integradores/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Navega Training and Consulting SRL",
+      "profileUrl": "https://www.camtic.org/project/navega-training-and-consulting-srl/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/navega-training-and-consulting-srl/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Parque la Libertad",
+      "profileUrl": "https://www.camtic.org/project/parque-la-libertad/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/parque-la-libertad/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Pignataro Abogados",
+      "profileUrl": "https://www.camtic.org/project/pignataro-abogados/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/pignataro-abogados/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "PricewaterhouseCooper",
+      "profileUrl": "https://www.camtic.org/project/pricewaterhousecooper/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/pricewaterhousecooper/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "PRIDES",
+      "profileUrl": "https://www.camtic.org/project/prides/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/prides/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Producción Filmica VB",
+      "profileUrl": "https://www.camtic.org/project/produccion-filmica-vb/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/produccion-filmica-vb/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Progressio Digital",
+      "profileUrl": "https://www.camtic.org/project/progressio-digital/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/progressio-digital/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Prointec",
+      "profileUrl": "https://www.camtic.org/project/prointec/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/prointec/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "R.A.C.S.A.",
+      "profileUrl": "https://www.camtic.org/project/radiografica-costarricense-s-a/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/radiografica-costarricense-s-a/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Reelax Media",
+      "profileUrl": "https://www.camtic.org/project/reelax-media/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/reelax-media/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "RF Grupo Educativo Ltda",
+      "profileUrl": "https://www.camtic.org/project/rf-grupo-educativo-ltda/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/rf-grupo-educativo-ltda/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "TecApro",
+      "profileUrl": "https://www.camtic.org/project/tecapro/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/tecapro/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Telecable",
+      "profileUrl": "https://www.camtic.org/project/telecable/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/telecable/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Tierra de Visitantes",
+      "profileUrl": "https://www.camtic.org/project/tierra-de-visitantes/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/tierra-de-visitantes/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Transcomer",
+      "profileUrl": "https://www.camtic.org/project/transcomer/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/transcomer/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Universidad Politécnica",
+      "profileUrl": "https://www.camtic.org/project/universidad-politecnica-2/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/universidad-politecnica-2/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "ULACIT y CIT|ULACIT",
+      "profileUrl": "https://www.camtic.org/project/ulacit-y-citulacit/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/ulacit-y-citulacit/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Universidad Cenfotec",
+      "profileUrl": "https://www.camtic.org/project/u-cenfotec/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/u-cenfotec/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Universidad Latina",
+      "profileUrl": "https://www.camtic.org/project/universidad-latina/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/universidad-latina/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "U. Hispanoamericana",
+      "profileUrl": "https://www.camtic.org/project/universidad-hispanoamericana/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/universidad-hispanoamericana/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Universidad San Marcos",
+      "profileUrl": "https://www.camtic.org/project/universidad-san-marcos/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/universidad-san-marcos/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "12LAB",
+      "profileUrl": "https://guiatic.com/cr/directorio/418-12lab",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Ablerex Latam",
+      "profileUrl": "https://guiatic.com/cr/directorio/60-ablerex-latam",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "ADATEC SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/194-adatec-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "ADN Software",
+      "profileUrl": "https://guiatic.com/cr/directorio/308-adn-software",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "AITE SOLUTIONS",
+      "profileUrl": "https://guiatic.com/cr/directorio/359-aite-solutions",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "AJAX SYSTEMS",
+      "profileUrl": "https://guiatic.com/cr/directorio/454-ajax-systems",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "alltic sas",
+      "profileUrl": "https://guiatic.com/cr/directorio/320-alltic-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "APEX SECURITY",
+      "profileUrl": "https://guiatic.com/cr/directorio/441-apex-security",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "APPROPIA OPEN SOURCE S.A.S.",
+      "profileUrl": "https://guiatic.com/cr/directorio/490-appropia-open-source-s-a-s",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "APPSUS SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/334-appsus-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "ARCHIVOS Y SISTEMAS AYS SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/292-archivos-y-sistemas-ays-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "ARMATURA COLOMBIA",
+      "profileUrl": "https://guiatic.com/cr/directorio/466-armatura-colombia",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "ASSOINCO SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/379-assoinco-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Athika SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/400-athika-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "AUDITBRAIN SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/395-auditbrain-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "BIOFILE SAS BIC",
+      "profileUrl": "https://guiatic.com/cr/directorio/368-biofile-sas-bic",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Bizneo HR",
+      "profileUrl": "https://guiatic.com/cr/directorio/419-bizneo-hr",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Cerca Technology SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/82-cerca-technology-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "CERO K S.A.S.",
+      "profileUrl": "https://guiatic.com/cr/directorio/439-cero-k-s-a-s",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "CHARMEX LATINOAMERICA",
+      "profileUrl": "https://guiatic.com/cr/directorio/63-charmex-latinoamerica",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "CLOUD PULSE",
+      "profileUrl": "https://guiatic.com/cr/directorio/502-cloud-pulse",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Cobalto Software Lab",
+      "profileUrl": "https://guiatic.com/cr/directorio/67-cobalto-software-lab",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "COMPUCOM SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/131-compucom-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "CONECTA, SOFTWARE Y PROCESOS S.A.S.",
+      "profileUrl": "https://guiatic.com/cr/directorio/173-conecta-software-y-procesos-s-a-s",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "CONSENSUS SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/246-consensus-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "ControLT SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/106-controlt-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "COSMO CONSULT",
+      "profileUrl": "https://guiatic.com/cr/directorio/475-cosmo-consult",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "CTN Global Colombia",
+      "profileUrl": "https://guiatic.com/cr/directorio/86-ctn-global-colombia",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "CYMETRIA Group S.A.S.",
+      "profileUrl": "https://guiatic.com/cr/directorio/324-cymetria-group-s-a-s",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Datascoring de Colombia",
+      "profileUrl": "https://guiatic.com/cr/directorio/213-datascoring-de-colombia",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "DEVCOGNITIO SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/374-devcognitio-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Digital Consulting Group",
+      "profileUrl": "https://guiatic.com/cr/directorio/282-digital-consulting-group",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "DINAMICA C.D.",
+      "profileUrl": "https://guiatic.com/cr/directorio/66-dinamica-c-d",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "DINAMICAPPS SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/113-dinamicapps-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "DISEÑO Y APLICACIONES",
+      "profileUrl": "https://guiatic.com/cr/directorio/168-diseno-y-aplicaciones",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "DRIVIN",
+      "profileUrl": "https://guiatic.com/cr/directorio/457-drivin",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "DYALOGO SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/186-dyalogo-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Dynamics IT S.A.",
+      "profileUrl": "https://guiatic.com/cr/directorio/346-dynamics-it-s-a",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "E-TakeOff SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/242-e-takeoff-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "EasyBI",
+      "profileUrl": "https://guiatic.com/cr/directorio/509-easybi",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "EL CREATIVO WEB S.A.S",
+      "profileUrl": "https://guiatic.com/cr/directorio/526-el-creativo-web-s-a-s",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "ELEARNING SOLUTIONS LTDA",
+      "profileUrl": "https://guiatic.com/cr/directorio/199-elearning-solutions-ltda",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Enterprise Business Solutions – EBS LTDA",
+      "profileUrl": "https://guiatic.com/cr/directorio/460-enterprise-business-solutions-ebs-ltda",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "eSoft Colombia SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/388-esoft-colombia-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "EXPERIS COLOMBIA",
+      "profileUrl": "https://guiatic.com/cr/directorio/450-experis-colombia",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "FINAC S.A.S.",
+      "profileUrl": "https://guiatic.com/cr/directorio/162-finac-s-a-s",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "FLEXIWEB LIMITADA",
+      "profileUrl": "https://guiatic.com/cr/directorio/166-flexiweb-limitada",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "FOMPLUS",
+      "profileUrl": "https://guiatic.com/cr/directorio/274-fomplus",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "FORWARTY",
+      "profileUrl": "https://guiatic.com/cr/directorio/498-forwarty",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Front Tech",
+      "profileUrl": "https://guiatic.com/cr/directorio/471-front-tech",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "GCON4",
+      "profileUrl": "https://guiatic.com/cr/directorio/337-gcon4",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Giitic S.A.S.",
+      "profileUrl": "https://guiatic.com/cr/directorio/432-giitic-s-a-s",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "GROWING TECH SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/473-growing-tech-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "IBIS CREATIVA",
+      "profileUrl": "https://guiatic.com/cr/directorio/340-ibis-creativa",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "ICONOI",
+      "profileUrl": "https://guiatic.com/cr/directorio/64-iconoi",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "ICR Evolution",
+      "profileUrl": "https://guiatic.com/cr/directorio/392-icr-evolution",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "ilana lab S.A.S.",
+      "profileUrl": "https://guiatic.com/cr/directorio/397-ilana-lab-s-a-s",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Imaginatio Digital Agency - Línea Oza Learn",
+      "profileUrl": "https://guiatic.com/cr/directorio/316-imaginatio-digital-agency-linea-oza-learn",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "iMedical Services S.A.S.",
+      "profileUrl": "https://guiatic.com/cr/directorio/239-imedical-services-s-a-s",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "IMPROSOFT S.A.S.",
+      "profileUrl": "https://guiatic.com/cr/directorio/236-improsoft-s-a-s",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "INFORMACIÓN GERENCIAL LTDA.",
+      "profileUrl": "https://guiatic.com/cr/directorio/93-informacion-gerencial-ltda",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Innova Systems S.A.S.",
+      "profileUrl": "https://guiatic.com/cr/directorio/230-innova-systems-s-a-s",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Innovasoft – CLASS Software Académico",
+      "profileUrl": "https://guiatic.com/cr/directorio/351-innovasoft-class-software-academico",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "INNOVASOFT COLOMBIA SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/97-innovasoft-colombia-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "INSITU MOBILE SOFTWARE S.A.",
+      "profileUrl": "https://guiatic.com/cr/directorio/325-insitu-mobile-software-s-a",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Latic Latinoamérica",
+      "profileUrl": "https://guiatic.com/cr/directorio/452-latic-latinoamerica",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "LED SCREEN MASTERS & SUPPLIES S.A.S. / LED MASTER",
+      "profileUrl": "https://guiatic.com/cr/directorio/415-led-screen-masters-supplies-s-a-s-led-master",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Lite Thinking",
+      "profileUrl": "https://guiatic.com/cr/directorio/333-lite-thinking",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Lyntik",
+      "profileUrl": "https://guiatic.com/cr/directorio/378-lyntik",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Mainsoft Ltda.",
+      "profileUrl": "https://guiatic.com/cr/directorio/385-mainsoft-ltda",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "MEKATTA",
+      "profileUrl": "https://guiatic.com/cr/directorio/506-mekatta",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "NEOSOFTWARE INGENIERIA SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/193-neosoftware-ingenieria-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Netsoft - Negocios en Tecnología y Software HGEG S.A. de C.V.",
+      "profileUrl": "https://guiatic.com/cr/directorio/55-netsoft-negocios-en-tecnologia-y-software-hgeg-s-a-de-c-v",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "NETTHPLUS SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/474-netthplus-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Next Audit & Consulting SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/477-next-audit-consulting-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "NEXXT SOLUTIONS - INFRAESTRUCTURA",
+      "profileUrl": "https://guiatic.com/cr/directorio/260-nexxt-solutions-infraestructura",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Nicomar Electronics - Powest",
+      "profileUrl": "https://guiatic.com/cr/directorio/360-nicomar-electronics-powest",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Noren Thermal Solutions",
+      "profileUrl": "https://guiatic.com/cr/directorio/393-noren-thermal-solutions",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "NovaIP",
+      "profileUrl": "https://guiatic.com/cr/directorio/178-novaip",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "NOVOSTEK",
+      "profileUrl": "https://guiatic.com/cr/directorio/435-novostek",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "OasisCom",
+      "profileUrl": "https://guiatic.com/cr/directorio/70-oasiscom",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "OneScreen Solutions",
+      "profileUrl": "https://guiatic.com/cr/directorio/453-onescreen-solutions",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Oracle NetSuite",
+      "profileUrl": "https://guiatic.com/cr/directorio/481-oracle-netsuite",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "ORBIS CORPORATION SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/280-orbis-corporation-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "PANDUIT SERVICIOS",
+      "profileUrl": "https://guiatic.com/cr/directorio/141-panduit-servicios",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "PRODYGYTEK SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/446-prodygytek-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "PSC PROSOL COLOMBIA SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/377-psc-prosol-colombia-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Q10 SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/495-q10-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "RC Cloud Tech",
+      "profileUrl": "https://guiatic.com/cr/directorio/510-rc-cloud-tech",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "RECURSOS & TECNOLOGIA SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/331-recursos-tecnologia-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Risktech",
+      "profileUrl": "https://guiatic.com/cr/directorio/77-risktech",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "RSN IT SOLUTIONS SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/382-rsn-it-solutions-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "S.U.S - Soluciones Universales Sistemáticas",
+      "profileUrl": "https://guiatic.com/cr/directorio/461-s-u-s-soluciones-universales-sistematicas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "SAMA WIFI SA DE CV",
+      "profileUrl": "https://guiatic.com/cr/directorio/511-sama-wifi-sa-de-cv",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Schneider Electric Centroamérica LTDA",
+      "profileUrl": "https://guiatic.com/cr/directorio/465-schneider-electric-centroamerica-ltda",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Seidor Colombia",
+      "profileUrl": "https://guiatic.com/cr/directorio/343-seidor-colombia",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "SIAFF CONSULTORES, S.A. DE C.V",
+      "profileUrl": "https://guiatic.com/cr/directorio/409-siaff-consultores-s-a-de-c-v",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "SISCOMPUTO LTDA",
+      "profileUrl": "https://guiatic.com/cr/directorio/232-siscomputo-ltda",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "SOFTTOOLS S.A.S",
+      "profileUrl": "https://guiatic.com/cr/directorio/251-softtools-s-a-s",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "SOLTEC SALUD SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/256-soltec-salud-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "SOLUCIONES GENIALES SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/499-soluciones-geniales-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Soporte y Compañía SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/191-soporte-y-compania-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Sprime",
+      "profileUrl": "https://guiatic.com/cr/directorio/329-sprime",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "SUPREMA INC",
+      "profileUrl": "https://guiatic.com/cr/directorio/469-suprema-inc",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "SYNERGY TPC SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/405-synergy-tpc-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "talento cloud",
+      "profileUrl": "https://guiatic.com/cr/directorio/373-talento-cloud",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Tickelia, Legalización de viáticos y gastos de empresa",
+      "profileUrl": "https://guiatic.com/cr/directorio/431-tickelia-legalizacion-de-viaticos-y-gastos-de-empresa",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "TIQAL S.A.S.",
+      "profileUrl": "https://guiatic.com/cr/directorio/399-tiqal-s-a-s",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "TKH Security LLC",
+      "profileUrl": "https://guiatic.com/cr/directorio/281-tkh-security-llc",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Todosistemas STI",
+      "profileUrl": "https://guiatic.com/cr/directorio/69-todosistemas-sti",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Tripp Lite",
+      "profileUrl": "https://guiatic.com/cr/directorio/354-tripp-lite",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "UNIÓN SOLUCIONES SISTEMAS DE INFORMACIÓN",
+      "profileUrl": "https://guiatic.com/cr/directorio/75-union-soluciones-sistemas-de-informacion",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "VENDTY SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/387-vendty-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "VIRTUAL TECHNOLOGIES SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/11-virtual-technologies-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Visual Control",
+      "profileUrl": "https://guiatic.com/cr/directorio/515-visual-control",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "WAHHU",
+      "profileUrl": "https://guiatic.com/cr/directorio/488-wahhu",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "WebLink Technology Solutions Ltda.",
+      "profileUrl": "https://guiatic.com/cr/directorio/174-weblink-technology-solutions-ltda",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "XIMIL TECHNOLOGIES SAS",
+      "profileUrl": "https://guiatic.com/cr/directorio/383-ximil-technologies-sas",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true
+    }
+  ],
+  "uniqueCandidatesFound": 281,
+  "outputLimit": 1000
+}

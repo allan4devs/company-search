@@ -1,0 +1,92 @@
+{
+  "cohortId": "likes-based-2026-11-07-p007",
+  "checkedOn": "2026-11-07",
+  "sourceInput": "company-batches\\historyc\\2026-11-07\\verification\\p007-cohort-pending-verify-v2.json",
+  "inputCandidateCount": 2,
+  "candidateOffset": 0,
+  "candidateCount": 2,
+  "remainingCandidateCount": 0,
+  "candidates": [
+    {
+      "name": "Alternativo Studio",
+      "profileUrl": "https://alpunto.cr/en/business/alternativo-studio",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/alternativo-studio",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "needsOfficialDomainResolution": true,
+      "website": "https://alternativostudio.com/",
+      "domain": "alternativostudio.com",
+      "profileFetchStatus": 200,
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://alternativostudio.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://alternativostudio.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://alternativostudio.com/",
+          "snippet": "Alternativo Studio — Agencia digital · Cartago, Costa Rica Alternativo Studio Servicios Portafolio Proceso Hablemos Servicios Portafolio Proceso Hablemos @alternativostudiocr Agencia digital · Cartago, Costa "
+        },
+        {
+          "url": "https://alternativostudio.com/",
+          "snippet": "afolio Proceso Hablemos Servicios Portafolio Proceso Hablemos @alternativostudiocr Agencia digital · Cartago, Costa Rica Alternativo Studio Llevamos tu negocio a la web. Hablemos Scroll Portafolio Nuestros clientes ya están en línea. Endurance Team CR Sitio web · Deport"
+        },
+        {
+          "url": "https://alternativostudio.com/",
+          "snippet": " idea. Te respondemos rápido y sin compromiso. WhatsApp @alternativostudiocr WhatsApp → Instagram → Cartago · Costa Rica Alternativo Studio Presencia digital que trabaja por vos. Cartago, Costa Rica Servicios Portafolio Proceso Contacto © 2026 — Todos los derechos reser"
+        },
+        {
+          "url": "https://alternativostudio.com/",
+          "snippet": "hatsApp → Instagram → Cartago · Costa Rica Alternativo Studio Presencia digital que trabaja por vos. Cartago, Costa Rica Servicios Portafolio Proceso Contacto © 2026 — Todos los derechos reservados"
+        },
+        {
+          "url": "https://alternativostudio.com/",
+          "snippet": "Alternativo Studio — Agencia digital · Cartago, Costa Rica Alternativo Studio Servicios Portafolio Proceso Hablemos Servicios Portafolio Proceso Hablemos @alternativostudiocr Agencia digital · Cartago, Costa "
+        },
+        {
+          "url": "https://alternativostudio.com/",
+          "snippet": "afolio Proceso Hablemos Servicios Portafolio Proceso Hablemos @alternativostudiocr Agencia digital · Cartago, Costa Rica Alternativo Studio Llevamos tu negocio a la web. Hablemos Scroll Portafolio Nuestros clientes ya están en línea. Endurance Team CR Sitio web · Deport"
+        },
+        {
+          "url": "https://alternativostudio.com/",
+          "snippet": " idea. Te respondemos rápido y sin compromiso. WhatsApp @alternativostudiocr WhatsApp → Instagram → Cartago · Costa Rica Alternativo Studio Presencia digital que trabaja por vos. Cartago, Costa Rica Servicios Portafolio Proceso Contacto © 2026 — Todos los derechos reser"
+        },
+        {
+          "url": "https://alternativostudio.com/",
+          "snippet": "hatsApp → Instagram → Cartago · Costa Rica Alternativo Studio Presencia digital que trabaja por vos. Cartago, Costa Rica Servicios Portafolio Proceso Contacto © 2026 — Todos los derechos reservados"
+        }
+      ],
+      "officialFitSnippets": [],
+      "likelyFit": false,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Unidad22",
+      "profileUrl": "https://alpunto.cr/en/business/unidad22",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/unidad22",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "needsOfficialDomainResolution": true,
+      "website": "https://unidad22.com/",
+      "domain": "unidad22.com",
+      "profileFetchStatus": 200,
+      "officialSiteStatus": "fetch failed",
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    }
+  ]
+}

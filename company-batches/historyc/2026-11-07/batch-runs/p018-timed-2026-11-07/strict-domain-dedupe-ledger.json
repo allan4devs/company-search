@@ -1,0 +1,364 @@
+{
+  "cohortId": "likes-based-2026-11-07-p018",
+  "checkedOn": "2026-11-07",
+  "inputFiles": [
+    "company-batches\\historyc\\2026-11-07\\batch-runs\\p018-timed-2026-11-07\\strict-verified-pool.json"
+  ],
+  "inputCount": 1,
+  "uniqueCount": 1,
+  "outputCount": 1,
+  "duplicateCount": 0,
+  "missingIdentityCount": 0,
+  "catalog": {
+    "source": "saved MongoDB snapshot + bundled files",
+    "mongoCompanies": 1620,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 0,
+    "indexedNames": 1638,
+    "indexedDomains": 1583
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 67,
+    "topTracks": [
+      {
+        "track": "Engineering",
+        "count": 36
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Software Engineering",
+        "count": 7
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Node.js",
+        "count": 2
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        47
+      ],
+      [
+        "direct",
+        16
+      ],
+      [
+        "unknown",
+        4
+      ]
+    ]
+  },
+  "dislikeBaseline": {
+    "activeDislikedWithCostaRicaOrLatamEvidence": 104,
+    "dislikedTracks": [
+      {
+        "track": "Engineering",
+        "count": 64
+      },
+      {
+        "track": "Software Engineering",
+        "count": 19
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 8
+      },
+      {
+        "track": "Backend",
+        "count": 6
+      },
+      {
+        "track": "Full-stack",
+        "count": 5
+      },
+      {
+        "track": "Java Backend",
+        "count": 3
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 3
+      },
+      {
+        "track": "Python",
+        "count": 3
+      },
+      {
+        "track": "Nearshore",
+        "count": 3
+      },
+      {
+        "track": "Full Stack",
+        "count": 3
+      },
+      {
+        "track": "Go",
+        "count": 1
+      },
+      {
+        "track": "Node.js",
+        "count": 1
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        55
+      ],
+      [
+        "direct",
+        35
+      ],
+      [
+        "unknown",
+        14
+      ]
+    ]
+  },
+  "preferenceContrast": {
+    "scope": "Active liked/disliked companies with explicit Costa Rica or LATAM evidence; each company counts once per feature.",
+    "likedCompanies": 67,
+    "dislikedCompanies": 104,
+    "models": [
+      {
+        "feature": "outsourcing",
+        "likedCount": 47,
+        "likedRate": 0.701,
+        "dislikedCount": 55,
+        "dislikedRate": 0.529,
+        "likedMinusDisliked": 0.173
+      },
+      {
+        "feature": "unknown",
+        "likedCount": 4,
+        "likedRate": 0.06,
+        "dislikedCount": 14,
+        "dislikedRate": 0.135,
+        "likedMinusDisliked": -0.075
+      },
+      {
+        "feature": "direct",
+        "likedCount": 16,
+        "likedRate": 0.239,
+        "dislikedCount": 35,
+        "dislikedRate": 0.337,
+        "likedMinusDisliked": -0.098
+      }
+    ],
+    "tracks": [
+      {
+        "feature": "Nearshore",
+        "likedCount": 9,
+        "likedRate": 0.134,
+        "dislikedCount": 3,
+        "dislikedRate": 0.029,
+        "likedMinusDisliked": 0.105
+      },
+      {
+        "feature": "Java",
+        "likedCount": 5,
+        "likedRate": 0.075,
+        "dislikedCount": 1,
+        "dislikedRate": 0.01,
+        "likedMinusDisliked": 0.065
+      },
+      {
+        "feature": "React + Node Full Stack",
+        "likedCount": 5,
+        "likedRate": 0.075,
+        "dislikedCount": 3,
+        "dislikedRate": 0.029,
+        "likedMinusDisliked": 0.046
+      },
+      {
+        "feature": "Full Stack",
+        "likedCount": 5,
+        "likedRate": 0.075,
+        "dislikedCount": 3,
+        "dislikedRate": 0.029,
+        "likedMinusDisliked": 0.046
+      },
+      {
+        "feature": "React",
+        "likedCount": 3,
+        "likedRate": 0.045,
+        "dislikedCount": 1,
+        "dislikedRate": 0.01,
+        "likedMinusDisliked": 0.035
+      },
+      {
+        "feature": "JavaScript",
+        "likedCount": 3,
+        "likedRate": 0.045,
+        "dislikedCount": 1,
+        "dislikedRate": 0.01,
+        "likedMinusDisliked": 0.035
+      },
+      {
+        "feature": "Python",
+        "likedCount": 4,
+        "likedRate": 0.06,
+        "dislikedCount": 3,
+        "dislikedRate": 0.029,
+        "likedMinusDisliked": 0.031
+      },
+      {
+        "feature": "Node.js",
+        "likedCount": 2,
+        "likedRate": 0.03,
+        "dislikedCount": 1,
+        "dislikedRate": 0.01,
+        "likedMinusDisliked": 0.02
+      },
+      {
+        "feature": "Java + React Full Stack",
+        "likedCount": 6,
+        "likedRate": 0.09,
+        "dislikedCount": 8,
+        "dislikedRate": 0.077,
+        "likedMinusDisliked": 0.013
+      },
+      {
+        "feature": "Full-stack",
+        "likedCount": 4,
+        "likedRate": 0.06,
+        "dislikedCount": 5,
+        "dislikedRate": 0.048,
+        "likedMinusDisliked": 0.012
+      },
+      {
+        "feature": "Java Backend",
+        "likedCount": 1,
+        "likedRate": 0.015,
+        "dislikedCount": 3,
+        "dislikedRate": 0.029,
+        "likedMinusDisliked": -0.014
+      },
+      {
+        "feature": "Backend",
+        "likedCount": 2,
+        "likedRate": 0.03,
+        "dislikedCount": 6,
+        "dislikedRate": 0.058,
+        "likedMinusDisliked": -0.028
+      },
+      {
+        "feature": "Engineering",
+        "likedCount": 36,
+        "likedRate": 0.537,
+        "dislikedCount": 64,
+        "dislikedRate": 0.615,
+        "likedMinusDisliked": -0.078
+      },
+      {
+        "feature": "Software Engineering",
+        "likedCount": 7,
+        "likedRate": 0.104,
+        "dislikedCount": 19,
+        "dislikedRate": 0.183,
+        "likedMinusDisliked": -0.078
+      }
+    ],
+    "roleFamilies": [
+      {
+        "feature": "Full stack",
+        "likedCount": 22,
+        "likedRate": 0.328,
+        "dislikedCount": 22,
+        "dislikedRate": 0.212,
+        "likedMinusDisliked": 0.117
+      },
+      {
+        "feature": "DevOps / platform",
+        "likedCount": 2,
+        "likedRate": 0.03,
+        "dislikedCount": 1,
+        "dislikedRate": 0.01,
+        "likedMinusDisliked": 0.02
+      },
+      {
+        "feature": "Backend",
+        "likedCount": 7,
+        "likedRate": 0.104,
+        "dislikedCount": 10,
+        "dislikedRate": 0.096,
+        "likedMinusDisliked": 0.008
+      },
+      {
+        "feature": "Data",
+        "likedCount": 2,
+        "likedRate": 0.03,
+        "dislikedCount": 4,
+        "dislikedRate": 0.038,
+        "likedMinusDisliked": -0.009
+      }
+    ],
+    "usage": "Use as a soft source-priority signal. Do not reject a company on preferences alone or weaken the location/evidence gate."
+  },
+  "queryLanes": [
+    {
+      "lane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "leads": 1,
+      "unique": 1,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    }
+  ],
+  "timingsMs": {
+    "inputReadMs": 2,
+    "mongoLoadOrSnapshotReadMs": 8,
+    "bundledCatalogReadMs": 29,
+    "previousBatchReadMs": 0,
+    "indexBuildMs": 52,
+    "candidateCompareMs": 1,
+    "preferenceAnalysisMs": 12,
+    "preReportWriteElapsedMs": 105
+  },
+  "entries": [
+    {
+      "company": "Telos Labs",
+      "domain": "teloslabs.co",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p018-timed-2026-11-07\\strict-verified-pool.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6"
+    }
+  ]
+}

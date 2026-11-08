@@ -1,0 +1,2219 @@
+{
+  "cohortId": "likes-based-2026-11-07-p007",
+  "checkedOn": "2026-11-07",
+  "inputFiles": [
+    "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json"
+  ],
+  "inputCount": 215,
+  "uniqueCount": 164,
+  "outputCount": 164,
+  "duplicateCount": 51,
+  "missingIdentityCount": 0,
+  "catalog": {
+    "source": "MongoDB + bundled files + prior batches",
+    "mongoCompanies": 1420,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 321,
+    "indexedNames": 1601,
+    "indexedDomains": 1382
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 63,
+    "topTracks": [
+      {
+        "track": "Engineering",
+        "count": 36
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Software Engineering",
+        "count": 3
+      },
+      {
+        "track": "Node.js",
+        "count": 2
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        46
+      ],
+      [
+        "direct",
+        16
+      ],
+      [
+        "unknown",
+        1
+      ]
+    ]
+  },
+  "queryLanes": [
+    {
+      "lane": "Enterprise League software directory — Brazil",
+      "leads": 50,
+      "unique": 50,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Enterprise League software directory — Chile",
+      "leads": 7,
+      "unique": 7,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Enterprise League software directory — Peru",
+      "leads": 5,
+      "unique": 5,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Enterprise League software directory — Ecuador",
+      "leads": 4,
+      "unique": 4,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Enterprise League software directory — Panama",
+      "leads": 2,
+      "unique": 2,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Enterprise League software directory — South America",
+      "leads": 1,
+      "unique": 1,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Enterprise League software directory — Central America",
+      "leads": 50,
+      "unique": 48,
+      "duplicateRate": 0.04,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Enterprise League software directory — Argentina",
+      "leads": 20,
+      "unique": 19,
+      "duplicateRate": 0.05,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Enterprise League software directory — Uruguay",
+      "leads": 16,
+      "unique": 15,
+      "duplicateRate": 0.062,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Enterprise League software directory — Guatemala",
+      "leads": 2,
+      "unique": 1,
+      "duplicateRate": 0.5,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Enterprise League software directory — Mexico",
+      "leads": 31,
+      "unique": 8,
+      "duplicateRate": 0.742,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Enterprise League software directory — Colombia",
+      "leads": 23,
+      "unique": 4,
+      "duplicateRate": 0.826,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Enterprise League software directory — Costa Rica",
+      "leads": 4,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    }
+  ],
+  "entries": [
+    {
+      "company": "ONLY IF The How Company",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Konf o",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Integra IT",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Jelp Delivery",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Datasae",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Dappsco",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Accendo",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "CRUCIAL SOLUTIONS - XCIAL",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Beyserin Consulting",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Pana Business",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "ABsmartly",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Jüsto",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Maximage - DQM Software",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Kirana Labs",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "MagmaLabs",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "MagmaLabs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Future Software Co.",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Oktara",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "QXD | Quality XP Development",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Ancient - The Wisdom of Technology",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Ubidots",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Lighthouse Technologies",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "VEscape Labs",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Silogik",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Hoken Cybersecurity",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "wolkvox",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "PeopleCloud HRM",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Simetrik",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "FacturoPorTi",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "BeepQuest",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "BTODigital Latam | Soluciones Digitales",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Clever Marketing, Ltd.",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Tebiko",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "SoloWeb Hosting",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "SM Digital",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "eDesigns.com, 360º web agency world wide",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Kokonut Studio",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Color Code Studio",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Y2K Webs - Servicios Web, Diseño, Apps, Hosting, Streaming",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Emerald Digital Studio LLC",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Umbra 3D Studio",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Aplyca",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "CredeMtia",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Biban",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Simphony Technologies Group",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Binnacle App",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "O4IT",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Vorealis Software",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Vorealis Software",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "TailorSoft S.A.S.",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Castlebridge Systems",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "BluePixel",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "ONLY IF The How Company",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "ONLY IF The How Company",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx"
+    },
+    {
+      "company": "Konf o",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Konf o",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx"
+    },
+    {
+      "company": "Jelp Delivery",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Jelp Delivery",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx"
+    },
+    {
+      "company": "Beyserin Consulting",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Beyserin Consulting",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx"
+    },
+    {
+      "company": "Jüsto",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Jüsto",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx"
+    },
+    {
+      "company": "Maximage - DQM Software",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Maximage - DQM Software",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx"
+    },
+    {
+      "company": "Kirana Labs",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Kirana Labs",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx"
+    },
+    {
+      "company": "MagmaLabs",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "MagmaLabs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx"
+    },
+    {
+      "company": "Future Software Co.",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Future Software Co.",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx"
+    },
+    {
+      "company": "Ancient - The Wisdom of Technology",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Ancient - The Wisdom of Technology",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx"
+    },
+    {
+      "company": "Lighthouse Technologies",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Lighthouse Technologies",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx"
+    },
+    {
+      "company": "VEscape Labs",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "VEscape Labs",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx"
+    },
+    {
+      "company": "Silogik",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Silogik",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx"
+    },
+    {
+      "company": "Hoken Cybersecurity",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Hoken Cybersecurity",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx"
+    },
+    {
+      "company": "PeopleCloud HRM",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "PeopleCloud HRM",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx"
+    },
+    {
+      "company": "FacturoPorTi",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "FacturoPorTi",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx"
+    },
+    {
+      "company": "BeepQuest",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "BeepQuest",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx"
+    },
+    {
+      "company": "Tebiko",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Tebiko",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx"
+    },
+    {
+      "company": "SoloWeb Hosting",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "SoloWeb Hosting",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx"
+    },
+    {
+      "company": "Kokonut Studio",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Kokonut Studio",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx"
+    },
+    {
+      "company": "Color Code Studio",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Color Code Studio",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx"
+    },
+    {
+      "company": "Binnacle App",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Binnacle App",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx"
+    },
+    {
+      "company": "BluePixel",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "BluePixel",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx"
+    },
+    {
+      "company": "Nuclea Solutions",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx"
+    },
+    {
+      "company": "Xira",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx"
+    },
+    {
+      "company": "Axend",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx"
+    },
+    {
+      "company": "CINCEL - Trust Authority & Identity Solutions",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx"
+    },
+    {
+      "company": "Azdeyc Software",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx"
+    },
+    {
+      "company": "Pulppo",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx"
+    },
+    {
+      "company": "Antsglobe Technologies",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx"
+    },
+    {
+      "company": "LowCode Agency",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx"
+    },
+    {
+      "company": "Integra IT",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Integra IT",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co"
+    },
+    {
+      "company": "Datasae",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Datasae",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co"
+    },
+    {
+      "company": "Dappsco",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Dappsco",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co"
+    },
+    {
+      "company": "Accendo",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Accendo",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co"
+    },
+    {
+      "company": "CRUCIAL SOLUTIONS - XCIAL",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "CRUCIAL SOLUTIONS - XCIAL",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co"
+    },
+    {
+      "company": "Pana Business",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Pana Business",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co"
+    },
+    {
+      "company": "Ubidots",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Ubidots",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co"
+    },
+    {
+      "company": "wolkvox",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "wolkvox",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co"
+    },
+    {
+      "company": "Simetrik",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Simetrik",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co"
+    },
+    {
+      "company": "BTODigital Latam | Soluciones Digitales",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "BTODigital Latam | Soluciones Digitales",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co"
+    },
+    {
+      "company": "SM Digital",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "SM Digital",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co"
+    },
+    {
+      "company": "Emerald Digital Studio LLC",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Emerald Digital Studio LLC",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co"
+    },
+    {
+      "company": "Umbra 3D Studio",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Umbra 3D Studio",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co"
+    },
+    {
+      "company": "Aplyca",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Aplyca",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co"
+    },
+    {
+      "company": "Biban",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Biban",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co"
+    },
+    {
+      "company": "Simphony Technologies Group",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Simphony Technologies Group",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co"
+    },
+    {
+      "company": "O4IT",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "O4IT",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co"
+    },
+    {
+      "company": "TailorSoft S.A.S.",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "TailorSoft S.A.S.",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co"
+    },
+    {
+      "company": "TheMadFox",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co"
+    },
+    {
+      "company": "CodeBranch",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co"
+    },
+    {
+      "company": "Marsodi Tech",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co"
+    },
+    {
+      "company": "Shift Active | Inteligencia interactiva",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co"
+    },
+    {
+      "company": "Asesoftware",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Asesoftware",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co"
+    },
+    {
+      "company": "OpenLifter.ai",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar"
+    },
+    {
+      "company": "DEVELO",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar"
+    },
+    {
+      "company": "Caramel Point",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar"
+    },
+    {
+      "company": "Claw Studios",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar"
+    },
+    {
+      "company": "128 Studio",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar"
+    },
+    {
+      "company": "WayTooDigital",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar"
+    },
+    {
+      "company": "NUTHOST",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar"
+    },
+    {
+      "company": "BEON.tech",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "BEON.tech",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar"
+    },
+    {
+      "company": "Clousis",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar"
+    },
+    {
+      "company": "MIC Technologies",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar"
+    },
+    {
+      "company": "Chimpancé Digital",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar"
+    },
+    {
+      "company": "Fersys",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar"
+    },
+    {
+      "company": "Radium Rocket",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar"
+    },
+    {
+      "company": "MD Marketing Digital",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar"
+    },
+    {
+      "company": "Syloper",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar"
+    },
+    {
+      "company": "VentasxMayor",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar"
+    },
+    {
+      "company": "Omatic",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar"
+    },
+    {
+      "company": "legalsurf",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar"
+    },
+    {
+      "company": "Streto.io",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar"
+    },
+    {
+      "company": "Alquiler Argentina",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar"
+    },
+    {
+      "company": "Random Sounds",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — South America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/sa-central"
+    },
+    {
+      "company": "Oktara",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Costa Rica",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Oktara",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/cr"
+    },
+    {
+      "company": "QXD | Quality XP Development",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Costa Rica",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "QXD | Quality XP Development",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/cr"
+    },
+    {
+      "company": "Y2K Webs - Servicios Web, Diseño, Apps, Hosting, Streaming",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Costa Rica",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Y2K Webs - Servicios Web, Diseño, Apps, Hosting, Streaming",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/cr"
+    },
+    {
+      "company": "Vorealis Software",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Costa Rica",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Vorealis Software",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/cr"
+    },
+    {
+      "company": "Glajumedia",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Peru",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/pe"
+    },
+    {
+      "company": "Evolbit",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Peru",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/pe"
+    },
+    {
+      "company": "Qualizens S.A.C.",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Peru",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/pe"
+    },
+    {
+      "company": "Digixonic Studios",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Peru",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/pe"
+    },
+    {
+      "company": "Wally",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Peru",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/pe"
+    },
+    {
+      "company": "Octobot",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy"
+    },
+    {
+      "company": "Dynamia",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy"
+    },
+    {
+      "company": "GeneXus Consulting",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy"
+    },
+    {
+      "company": "Houlak",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy"
+    },
+    {
+      "company": "Simplifica Software",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy"
+    },
+    {
+      "company": "Xmartlabs",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Xmartlabs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy"
+    },
+    {
+      "company": "InnovationDS",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy"
+    },
+    {
+      "company": "Horus Studio",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy"
+    },
+    {
+      "company": "Tryolabs",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy"
+    },
+    {
+      "company": "Overlap",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy"
+    },
+    {
+      "company": "QAlified",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy"
+    },
+    {
+      "company": "Trafilea Tech E-commerce Group",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy"
+    },
+    {
+      "company": "Kaizen Softworks",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy"
+    },
+    {
+      "company": "Flokzu",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy"
+    },
+    {
+      "company": "Trepcom Technologies",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy"
+    },
+    {
+      "company": "MetaLabs Software",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy"
+    },
+    {
+      "company": "Aureolab",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/cl"
+    },
+    {
+      "company": "Nnodes",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/cl"
+    },
+    {
+      "company": "iGromi",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/cl"
+    },
+    {
+      "company": "Yu-Track",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/cl"
+    },
+    {
+      "company": "Ustart",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/cl"
+    },
+    {
+      "company": "Andes Blockchain",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/cl"
+    },
+    {
+      "company": "Reservo",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/cl"
+    },
+    {
+      "company": "eDesigns.com, 360º web agency world wide",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Guatemala",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "eDesigns.com, 360º web agency world wide",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/gt"
+    },
+    {
+      "company": "Frenzy",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Guatemala",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/gt"
+    },
+    {
+      "company": "NEOMEDIA - Digital Signage | In Store Radio | LED Screens",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Panama",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/pa"
+    },
+    {
+      "company": "Hero YC S22",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Panama",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/pa"
+    },
+    {
+      "company": "Smark CRM",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "Vista/pub",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "Base2 Tecnologia",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "Prosperi Global | BR",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "Clickweb",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "Skedway",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "MAPS S A",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "AgriConnected",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "SciCrop",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "TerraMagna",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "Cortex",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "DKLABS",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "Gaudium",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "Jera",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "Avantsoft",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "Snowman Labs",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "Oncase",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "Resultados Digitais",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "Agente Imóvel",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "Ololu Plataforma Digital ©",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "Agendor",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "Checkmob",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "Kyte App",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "BlackBean Tecnologia",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "SAN Internet Brasil Ltda",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "Suprema",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "Smartleader - Sistema Gestão de Performance",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "SGMAN - Software de Gestão da Manutenção",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "fSense - For Business",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "Letras",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "Arkeyva",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "PontoSimples",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "Open Data Center",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "Aegro",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "Agrotools",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "Rede Magic",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "LIT Collective",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "CRM PipeRun",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "SISMETRO",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "TOTVS",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "INFOX Tecnologia",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "Ema Software",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "FastDomain.com.br",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "Milvus",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "Portão 3 (YC S21)",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "stays.net",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "Locaweb",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "Nichoos",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "Turbo Partners",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "QuintoAndar",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "SLONCORP CRIFA CIA LTDA",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Ecuador",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ec"
+    },
+    {
+      "company": "Mercately (Techstars '23)",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Ecuador",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ec"
+    },
+    {
+      "company": "INTEGRAL CLOUD SOLUTIONS OPENCLOUD",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Ecuador",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ec"
+    },
+    {
+      "company": "PULPO.ec",
+      "domain": null,
+      "queryLane": "Enterprise League software directory — Ecuador",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-enterprise-league-name-leads-v2.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ec"
+    }
+  ]
+}

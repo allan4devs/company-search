@@ -1,0 +1,843 @@
+{
+  "cohortId": "likes-based-2026-11-06-p004",
+  "checkedOn": "2026-11-06",
+  "inputFiles": [
+    "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json"
+  ],
+  "inputCount": 79,
+  "uniqueCount": 62,
+  "outputCount": 62,
+  "duplicateCount": 17,
+  "missingIdentityCount": 0,
+  "catalog": {
+    "source": "MongoDB + bundled files + prior batches",
+    "mongoCompanies": 1320,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 221,
+    "indexedNames": 1399,
+    "indexedDomains": 1282
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 63,
+    "topTracks": [
+      {
+        "track": "Engineering",
+        "count": 36
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Software Engineering",
+        "count": 3
+      },
+      {
+        "track": "Node.js",
+        "count": 2
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        46
+      ],
+      [
+        "direct",
+        16
+      ],
+      [
+        "unknown",
+        1
+      ]
+    ]
+  },
+  "queryLanes": [
+    {
+      "lane": "Costa Rica company directory leads",
+      "leads": 79,
+      "unique": 62,
+      "duplicateRate": 0.215,
+      "recommendation": "continue or expand this lane"
+    }
+  ],
+  "entries": [
+    {
+      "company": "Arkkosoft",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Arkkosoft",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Edenia",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Edenia",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Emerald Studio",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "GBSYS",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "KyrApps",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "KyrApps",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Rempro Software",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Trifecta Software",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Vorealis Software",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "WOW Emotions",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Fair Play Labs",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Fair Play Labs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Elva AI",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "NW Consulting Services",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Aurigital",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Y2K Webs",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Pertec Global Services",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "4Geeks",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "4Geeks",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": ""
+    },
+    {
+      "company": "TecApro (Grupo TecApro)",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Kambda",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Kambda",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Aplix",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Aplix",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Grupo Asesor en Informática",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Flecha Roja Technologies",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "10Pearls Costa Rica",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Intertec International",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Intertec International",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Bitcode Enterprise",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Sapiens Development",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Sapiens Development",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Yaipan",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Lantern Technologies",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Interfaz",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "MiHost",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "EX Squared LATAM",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Cecropia Solutions",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Hermes Soft",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Cipherio",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Datasoft",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Babel Costa Rica",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Inversiones Next Curve S.A.",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Luminon Studios",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Soefe Software",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "5e Creative Labs",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Akurey",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Akurey",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Apify LATAM",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Coliand Studio",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Innovatiko",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "kiub",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Near Coding",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "New Street Development",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Novacomp",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Novacomp",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Oriceti Software Studio",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "ParallelDevs",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "ParallelDevs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Villalta Tech",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "AraWeb CR",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Novitec Consultores en Aplicaciones S.A.",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "PIXDEA",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Aubrant Digital",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Aubrant Digital",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Drago's House",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "EffectiveSoft",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Gorilla Logic",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Gorilla Logic",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": ""
+    },
+    {
+      "company": "HatchWorks AI",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "HatchWorks AI",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Infosgroup",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Irazu Labs",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Neural Coders",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "People Apps",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Pixel506",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Pixel506",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Proximity Costa Rica",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Softon Digital (Softon ITG)",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Software Mind",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Software Mind",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": ""
+    },
+    {
+      "company": "U Devs",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "WAM Digital",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "weKnow Inc.",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Nova Sistem Developers CR",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Wolk Software",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "HacksinCodigos",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "SOIN Soluciones Integrales",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Software and Consulting Group (SCG)",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Businesspro",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Dailysoft Technologies CR",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "DNAMIC",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Helm360",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Incompany Solutions S.A.",
+      "domain": null,
+      "queryLane": "Costa Rica company directory leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-alpunto-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    }
+  ]
+}

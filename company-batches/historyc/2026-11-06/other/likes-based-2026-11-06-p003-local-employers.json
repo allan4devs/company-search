@@ -1,0 +1,150 @@
+[
+  {
+    "name": "Atlas Bench",
+    "website": "https://www.atlas-bench.com/",
+    "careersUrl": "https://www.atlas-bench.com/careers",
+    "locations": ["San José, Costa Rica", "Bogotá, Colombia", "Lima, Peru"],
+    "model": "unknown",
+    "tracks": ["Software Engineering", "Full Stack", "TypeScript", "React", "Node.js"],
+    "queryLane": "Costa Rica technology company career pages",
+    "jobs": [
+      {
+        "id": "atlas-bench-full-stack-san-jose-2026",
+        "title": "Full Stack Developer",
+        "location": "San José, Costa Rica",
+        "url": "https://www.atlas-bench.com/careers/full-stack-developer-san-jose",
+        "workMode": "Hybrid",
+        "eligibility": "The employer's careers page lists San José, Costa Rica and the role is also open in Bogotá and Lima.",
+        "listingStatus": "Listed on the employer's careers site when checked",
+        "checkedOn": "2026-11-06",
+        "technologies": ["TypeScript", "React", "Node.js", "REST APIs"],
+        "roles": ["Software Engineering", "Full Stack"]
+      }
+    ],
+    "sourceEvidence": [
+      { "kind": "official-site", "url": "https://www.atlas-bench.com/", "checkedOn": "2026-11-06" },
+      { "kind": "careers-page", "url": "https://www.atlas-bench.com/careers", "checkedOn": "2026-11-06" },
+      { "kind": "job-posting", "url": "https://www.atlas-bench.com/careers/full-stack-developer-san-jose", "checkedOn": "2026-11-06" }
+    ],
+    "fit": { "status": "strong", "reasons": ["An active full-stack engineering role on the employer's site is based in San José, Costa Rica and remains open through December 31, 2026."], "profileVersion": "v1", "evaluatedOn": "2026-11-06" }
+  },
+  {
+    "name": "SMASH",
+    "website": "https://smash.cr/",
+    "careersUrl": "https://smash.cr/become-a-smasher",
+    "locations": ["Costa Rica", "LATAM"],
+    "model": "unknown",
+    "tracks": ["Software Engineering", "Full Stack", "Backend", "Data Engineering", "DevOps"],
+    "queryLane": "Costa Rica and LATAM embedded engineering careers",
+    "jobs": [
+      {
+        "id": "smash-c567",
+        "title": "Software Developer / Integration and API (C-567)",
+        "location": "San José, Costa Rica",
+        "url": "https://smashcr.applytojob.com/apply/UxiLcCn6nt/Software-Developer-Integration-And-API-C567",
+        "workMode": "Remote",
+        "eligibility": "The employer's listing requires Costa Rican citizenship or work authorization for this remote role.",
+        "listingStatus": "Listed on the employer's JazzHR board when checked",
+        "checkedOn": "2026-11-06",
+        "technologies": ["Python", "SQL", "REST APIs"],
+        "roles": ["Software Engineering", "Backend"]
+      }
+    ],
+    "sourceEvidence": [
+      { "kind": "official-site", "url": "https://smash.cr/about", "checkedOn": "2026-11-06" },
+      { "kind": "careers-page", "url": "https://smash.cr/become-a-smasher", "checkedOn": "2026-11-06" },
+      { "kind": "job-posting", "url": "https://smashcr.applytojob.com/apply/UxiLcCn6nt/Software-Developer-Integration-And-API-C567", "checkedOn": "2026-11-06" }
+    ],
+    "fit": { "status": "strong", "reasons": ["An active software development and API role is explicitly based in San José and requires Costa Rican work authorization; SMASH's careers page lists engineering hiring in LATAM."], "profileVersion": "v1", "evaluatedOn": "2026-11-06" }
+  },
+  {
+    "name": "Solvosoft",
+    "website": "https://solvosoft.com/",
+    "careersUrl": "https://solvosoft.com/jobs/",
+    "locations": ["Heredia, Costa Rica"],
+    "model": "direct",
+    "tracks": ["Software Engineering", "Python", "Full Stack", "Open Source Software"],
+    "queryLane": "Costa Rica technology company career pages",
+    "jobs": [],
+    "sourceEvidence": [
+      { "kind": "official-site", "url": "https://solvosoft.com/en/", "checkedOn": "2026-11-06" },
+      { "kind": "careers-page", "url": "https://solvosoft.com/jobs/", "checkedOn": "2026-11-06" }
+    ],
+    "fit": { "status": "strong", "reasons": ["The employer's careers page lists senior and junior Python full-stack developer roles in Heredia; its official site describes its software products and development work."], "profileVersion": "v1", "evaluatedOn": "2026-11-06" }
+  },
+  {
+    "name": "Kambda",
+    "website": "https://www.kambda.com/",
+    "careersUrl": "https://www.kambda.com/job-openings/",
+    "locations": ["Costa Rica", "LATAM"],
+    "model": "outsourcing",
+    "tracks": ["Software Engineering", "Full Stack", "Data Engineering", "Nearshore"],
+    "queryLane": "Costa Rica nearshore engineering careers",
+    "jobs": [],
+    "sourceEvidence": [
+      { "kind": "official-site", "url": "https://www.kambda.com/", "checkedOn": "2026-11-06" },
+      { "kind": "careers-page", "url": "https://www.kambda.com/job-openings/", "checkedOn": "2026-11-06" }
+    ],
+    "fit": { "status": "possible", "reasons": ["The official site identifies Kambda as a Costa Rica based nearshore software development company; its careers FAQ says it normally hires LATAM talent. A listed full-stack role is a recruitment database entry rather than a confirmed active vacancy."], "profileVersion": "v1", "evaluatedOn": "2026-11-06" }
+  },
+  {
+    "name": "ParallelDevs",
+    "website": "https://www.paralleldevs.com/",
+    "careersUrl": "https://www.paralleldevs.com/jobs/",
+    "locations": ["Costa Rica"],
+    "model": "outsourcing",
+    "tracks": ["Software Engineering", "Full Stack", "React", "Node.js", "Nearshore"],
+    "queryLane": "Costa Rica nearshore engineering careers",
+    "jobs": [],
+    "sourceEvidence": [
+      { "kind": "official-site", "url": "https://www.paralleldevs.com/", "checkedOn": "2026-11-06" },
+      { "kind": "careers-page", "url": "https://www.paralleldevs.com/jobs/", "checkedOn": "2026-11-06" }
+    ],
+    "fit": { "status": "possible", "reasons": ["The official site describes a Costa Rica based nearshore software development company; its careers page lists engineering openings, with the newest listing dated January 2026."], "profileVersion": "v1", "evaluatedOn": "2026-11-06" }
+  },
+  {
+    "name": "QAT Global",
+    "website": "https://qat.com/",
+    "careersUrl": "https://qat.com/careers/",
+    "locations": ["Costa Rica"],
+    "model": "outsourcing",
+    "tracks": ["Software Engineering", "Nearshore", "IT Staffing"],
+    "queryLane": "Costa Rica nearshore engineering careers",
+    "jobs": [],
+    "sourceEvidence": [
+      { "kind": "official-site", "url": "https://qat.com/", "checkedOn": "2026-11-06" },
+      { "kind": "careers-page", "url": "https://qat.com/careers/", "checkedOn": "2026-11-06" }
+    ],
+    "fit": { "status": "possible", "reasons": ["The employer's careers page documents a Costa Rica office and developers from Costa Rica; it describes custom software development and nearshore staffing. No current individual engineering opening was saved."], "profileVersion": "v1", "evaluatedOn": "2026-11-06" }
+  },
+  {
+    "name": "Tamarindo Consulting",
+    "website": "https://www.tamarindoconsulting.com/",
+    "careersUrl": "https://www.tamarindoconsulting.com/jobs/",
+    "locations": ["Alajuela, Costa Rica"],
+    "model": "outsourcing",
+    "tracks": ["Software Engineering", "Java", "Full Stack", "Node.js", "Data Engineering"],
+    "queryLane": "Costa Rica nearshore engineering careers",
+    "jobs": [],
+    "sourceEvidence": [
+      { "kind": "official-site", "url": "https://www.tamarindoconsulting.com/", "checkedOn": "2026-11-06" },
+      { "kind": "careers-page", "url": "https://www.tamarindoconsulting.com/jobs/", "checkedOn": "2026-11-06" }
+    ],
+    "fit": { "status": "possible", "reasons": ["The official site identifies Tamarindo as a Costa Rica based nearshore software firm and lists engineering roles in Alajuela; the displayed posting dates are August 2025, so current openings need review."], "profileVersion": "v1", "evaluatedOn": "2026-11-06" }
+  },
+  {
+    "name": "Factor K Software",
+    "website": "https://www.factork-software.com/",
+    "careersUrl": "https://www.factork-software.com/careers",
+    "locations": ["San José, Costa Rica"],
+    "model": "outsourcing",
+    "tracks": ["Software Engineering", "Mobile Development", "Java", "React", "Node.js"],
+    "queryLane": "Costa Rica nearshore engineering careers",
+    "jobs": [],
+    "sourceEvidence": [
+      { "kind": "official-site", "url": "https://www.factork-software.com/about-us", "checkedOn": "2026-11-06" },
+      { "kind": "careers-page", "url": "https://www.factork-software.com/careers", "checkedOn": "2026-11-06" }
+    ],
+    "fit": { "status": "possible", "reasons": ["The official site describes a Costa Rica based software development and staff augmentation company; its careers page lists software engineering roles, but the page's indexed vacancy data is old and should be rechecked."], "profileVersion": "v1", "evaluatedOn": "2026-11-06" }
+  }
+]

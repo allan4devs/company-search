@@ -1,0 +1,2232 @@
+{
+  "cohortId": "likes-based-2026-11-07-p017",
+  "checkedOn": "2026-11-07",
+  "inputFiles": [
+    "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+    "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+    "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+    "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+    "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json"
+  ],
+  "inputCount": 209,
+  "uniqueCount": 132,
+  "outputCount": 132,
+  "duplicateCount": 77,
+  "missingIdentityCount": 0,
+  "catalog": {
+    "source": "MongoDB + bundled files",
+    "mongoCompanies": 1620,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 0,
+    "indexedNames": 1769,
+    "indexedDomains": 1582
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 67,
+    "topTracks": [
+      {
+        "track": "Engineering",
+        "count": 36
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Software Engineering",
+        "count": 7
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Node.js",
+        "count": 2
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        47
+      ],
+      [
+        "direct",
+        16
+      ],
+      [
+        "unknown",
+        4
+      ]
+    ]
+  },
+  "dislikeBaseline": {
+    "activeDislikedWithCostaRicaOrLatamEvidence": 101,
+    "dislikedTracks": [
+      {
+        "track": "Engineering",
+        "count": 64
+      },
+      {
+        "track": "Software Engineering",
+        "count": 16
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 8
+      },
+      {
+        "track": "Backend",
+        "count": 6
+      },
+      {
+        "track": "Full-stack",
+        "count": 5
+      },
+      {
+        "track": "Java Backend",
+        "count": 3
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 3
+      },
+      {
+        "track": "Python",
+        "count": 3
+      },
+      {
+        "track": "Nearshore",
+        "count": 3
+      },
+      {
+        "track": "Full Stack",
+        "count": 3
+      },
+      {
+        "track": "Go",
+        "count": 1
+      },
+      {
+        "track": "Node.js",
+        "count": 1
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        54
+      ],
+      [
+        "direct",
+        35
+      ],
+      [
+        "unknown",
+        12
+      ]
+    ]
+  },
+  "queryLanes": [
+    {
+      "lane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "leads": 30,
+      "unique": 27,
+      "duplicateRate": 0.1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "leads": 30,
+      "unique": 25,
+      "duplicateRate": 0.167,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "leads": 30,
+      "unique": 25,
+      "duplicateRate": 0.167,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "leads": 30,
+      "unique": 24,
+      "duplicateRate": 0.2,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Nearshore Hub Latin America software provider directory",
+      "leads": 89,
+      "unique": 31,
+      "duplicateRate": 0.652,
+      "recommendation": "continue or expand this lane"
+    }
+  ],
+  "entries": [
+    {
+      "company": "Cheesecake Labs",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Cheesecake Labs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "BairesDev",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "BairesDev",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Endava",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Endava",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Improving",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Improving",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "LoopStudio",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Koombea",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Koombea",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Devsu",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Devsu",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Intraway",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Intraway",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Lumenalta",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Lumenalta",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Rootstrap",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Rootstrap",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Qubika",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Svitla Systems",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Svitla Systems",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "GeneXus",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "10Pines",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "AgileEngine",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "AgileEngine",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Tryolabs",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "BEON.tech",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "BEON.tech",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Applaudo Studios",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Applaudo Studios",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Tecla",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Tecla",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Jalasoft",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Jalasoft",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Practia",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Practia",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Capicua",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Devlane",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Devlane",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Eagerworks",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Eagerworks",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Ingenious",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Ingenious",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Kaizen Softworks",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Pyxis",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Pyxis",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Qualabs",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Quanam",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Baufest",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Baufest",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Bitlogic",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Eryx",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Eryx",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Flux IT",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Huenei",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Huenei",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "NaN Labs",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "NaNLABS",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Nearsure",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Nearsure",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Santex",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Santex",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Snoop Consulting",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "ArkusNexus",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Hitss",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Icalia Labs",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Icalia Labs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Quarksoft",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Scio Consulting",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Softtek",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Softtek",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Unosquare",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Unosquare",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Wizeline",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Wizeline",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Asesoftware",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Asesoftware",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Ceiba Software",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Ceiba Software",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Cidenet",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Cidenet",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Interfell",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Interfell",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Pragma",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Pragma",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Sofka Technologies",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Sofka Technologies",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Teravision Technologies",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Teravision Technologies",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Stefanini",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Stefanini",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "TIVIT",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Continuum",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Continuum",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "ImageMaker",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Imagemaker",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Zenta Group",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Elaniin",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Elaniin",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Canvia",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Tekton Labs",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Tekton Labs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Rootstack",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Rootstack",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "ArcTouch",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "ArcTouch",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Compass UOL",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Compass UOL",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Distillery",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Distillery",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Intersog",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Making Sense",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Making Sense",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Neoris",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Neoris",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Venturus",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Blankfactor",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Blankfactor",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Gorilla Logic",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Gorilla Logic",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Jobsity",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Jobsity",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Modus Create",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Modus Create",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Nexton",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Oowlish",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Oowlish",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Encora",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Encora",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Ensolvers",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Moove It",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Objective",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Objective",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Praxent",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Praxent",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Sngular",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Tiempo Development",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Zemoga",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "CI&T",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "CI&T",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Globant",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Globant",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Grupo ASSA",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Perficient Latin America",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "PSL",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Zup Innovation",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p017-nearshorehub-raw.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Divelement Web Services",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6"
+    },
+    {
+      "company": "INTERSOG",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Intersog",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6"
+    },
+    {
+      "company": "Exomindset",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6"
+    },
+    {
+      "company": "G360Technologies",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6"
+    },
+    {
+      "company": "Gila Software",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6"
+    },
+    {
+      "company": "Nareia",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6"
+    },
+    {
+      "company": "DNAMIC | Databricks Data Solutions",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6"
+    },
+    {
+      "company": "Alluxi",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6"
+    },
+    {
+      "company": "N-iX Games",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6"
+    },
+    {
+      "company": "Newfire Global Partners",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Newfire Global Partners",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6"
+    },
+    {
+      "company": "Sagant",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6"
+    },
+    {
+      "company": "Telos Labs",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6"
+    },
+    {
+      "company": "Towa - Nearshore Software Excellence",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6"
+    },
+    {
+      "company": "Kadabra IT",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6"
+    },
+    {
+      "company": "HMS Software Solutions",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6"
+    },
+    {
+      "company": "Kreilabs",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6"
+    },
+    {
+      "company": "Sombra",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6"
+    },
+    {
+      "company": "Seasoned",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6"
+    },
+    {
+      "company": "Smallcode",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6"
+    },
+    {
+      "company": "Nextant",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6"
+    },
+    {
+      "company": "Zarego",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Zarego",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6"
+    },
+    {
+      "company": "Squareball Studios",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6"
+    },
+    {
+      "company": "Intermedia IT",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6"
+    },
+    {
+      "company": "SmartApp",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6"
+    },
+    {
+      "company": "Kaizen Softworks",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Kaizen Softworks",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6"
+    },
+    {
+      "company": "Scio",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Scio",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6"
+    },
+    {
+      "company": "Kreitech",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6"
+    },
+    {
+      "company": "AssureSoft",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "AssureSoft",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6"
+    },
+    {
+      "company": "AceBuddy",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6"
+    },
+    {
+      "company": "Sancrisoft",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6"
+    },
+    {
+      "company": "Whiz, a 10Pearls Company",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7"
+    },
+    {
+      "company": "Commit Studio",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7"
+    },
+    {
+      "company": "IRIDIAN",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7"
+    },
+    {
+      "company": "Liven",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7"
+    },
+    {
+      "company": "Southteams",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7"
+    },
+    {
+      "company": "Mobile2you Technology",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7"
+    },
+    {
+      "company": "Innuy",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7"
+    },
+    {
+      "company": "Vixteam Consultoria e Sistemas SA",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7"
+    },
+    {
+      "company": "Arionkoder",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Arionkoder",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7"
+    },
+    {
+      "company": "Ubiminds",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Ubiminds",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7"
+    },
+    {
+      "company": "Digital Sense",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7"
+    },
+    {
+      "company": "iBlue Consulting",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7"
+    },
+    {
+      "company": "Avantsoft",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7"
+    },
+    {
+      "company": "Ubicutus Apps",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7"
+    },
+    {
+      "company": "Jalasoft",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Jalasoft",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7"
+    },
+    {
+      "company": "Xpantion",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7"
+    },
+    {
+      "company": "Zennovia",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7"
+    },
+    {
+      "company": "King Tide",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7"
+    },
+    {
+      "company": "Infograins Software Solutions",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7"
+    },
+    {
+      "company": "Ulfix",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7"
+    },
+    {
+      "company": "TOTS",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7"
+    },
+    {
+      "company": "TEAM International",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7"
+    },
+    {
+      "company": "GoNet",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7"
+    },
+    {
+      "company": "Ehecatl",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7"
+    },
+    {
+      "company": "Appstract",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7"
+    },
+    {
+      "company": "rinf.tech",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7"
+    },
+    {
+      "company": "SmartUp Software",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7"
+    },
+    {
+      "company": "Parafernalia Interativa",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7"
+    },
+    {
+      "company": "Hristov Development",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7"
+    },
+    {
+      "company": "XOOR Inc.",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7"
+    },
+    {
+      "company": "Humantech Innovation & Technology Agency",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8"
+    },
+    {
+      "company": "Greencode",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8"
+    },
+    {
+      "company": "Code Labs",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8"
+    },
+    {
+      "company": "Cloud++ B.V.",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8"
+    },
+    {
+      "company": "OCTA",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8"
+    },
+    {
+      "company": "Pyme One",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8"
+    },
+    {
+      "company": "Polytropic",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8"
+    },
+    {
+      "company": "Arkano",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8"
+    },
+    {
+      "company": "Icalia Labs",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Icalia Labs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8"
+    },
+    {
+      "company": "ParallelDevs",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "ParallelDevs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8"
+    },
+    {
+      "company": "Modelit",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8"
+    },
+    {
+      "company": "Lexart",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8"
+    },
+    {
+      "company": "404 // Software crafters",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8"
+    },
+    {
+      "company": "BITLOGIC",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Bitlogic",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8"
+    },
+    {
+      "company": "Quadion Technologies",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8"
+    },
+    {
+      "company": "AreaMovil S.A.S",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8"
+    },
+    {
+      "company": "Glajumedia",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8"
+    },
+    {
+      "company": "Aubrant Digital",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Aubrant Digital",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8"
+    },
+    {
+      "company": "Sell with Marketing",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8"
+    },
+    {
+      "company": "Digbang",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8"
+    },
+    {
+      "company": "SMT Solutions",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8"
+    },
+    {
+      "company": "Adintelo",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8"
+    },
+    {
+      "company": "Quillok",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8"
+    },
+    {
+      "company": "Fx2",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8"
+    },
+    {
+      "company": "AccelOne",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8"
+    },
+    {
+      "company": "FusionHit",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "FusionHit",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8"
+    },
+    {
+      "company": "Kalyptio",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8"
+    },
+    {
+      "company": "Vanguard X",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8"
+    },
+    {
+      "company": "Hood River Consulting",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8"
+    },
+    {
+      "company": "Lean Tech",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8"
+    },
+    {
+      "company": "FlowCode",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9"
+    },
+    {
+      "company": "ROOTS INC",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9"
+    },
+    {
+      "company": "Mestres da Web",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9"
+    },
+    {
+      "company": "NTD Software",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9"
+    },
+    {
+      "company": "Odiseo Software Development Company",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9"
+    },
+    {
+      "company": "Applaudo",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Applaudo Studios",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9"
+    },
+    {
+      "company": "Envolve Labs",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9"
+    },
+    {
+      "company": "Pixel Breeders",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9"
+    },
+    {
+      "company": "Soluntech",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9"
+    },
+    {
+      "company": "Smart Thinking",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9"
+    },
+    {
+      "company": "DevGrid",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9"
+    },
+    {
+      "company": "Parrolabs",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Parrolabs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9"
+    },
+    {
+      "company": "Fulcrum Digital",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9"
+    },
+    {
+      "company": "DIXTRA",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9"
+    },
+    {
+      "company": "BRQ Digital Solutions",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9"
+    },
+    {
+      "company": "redbee studios",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9"
+    },
+    {
+      "company": "Ebenezer Technologies",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9"
+    },
+    {
+      "company": "Elaniin",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Elaniin",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9"
+    },
+    {
+      "company": "Mythology Labs SRL",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9"
+    },
+    {
+      "company": "Color Code Studio",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9"
+    },
+    {
+      "company": "SimTLiX",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9"
+    },
+    {
+      "company": "Devthion",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9"
+    },
+    {
+      "company": "InAllMedia",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "In All Media",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9"
+    },
+    {
+      "company": "Innovare Software Agency",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9"
+    },
+    {
+      "company": "Abstra",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Abstra",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9"
+    },
+    {
+      "company": "LogosCorp",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9"
+    },
+    {
+      "company": "Jazusoft",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9"
+    },
+    {
+      "company": "FraSal",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9"
+    },
+    {
+      "company": "bycoders_",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9"
+    },
+    {
+      "company": "Hypernova Labs",
+      "domain": null,
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9"
+    }
+  ]
+}

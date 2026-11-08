@@ -1,0 +1,162 @@
+{
+  "cohortId": "likes-based-2026-11-07-p007",
+  "checkedOn": "2026-11-07",
+  "excludeNames": [
+    "Coral",
+    "Ecija",
+    "Fundación Omar Dengo",
+    "Constructora Oikos"
+  ],
+  "includeNames": [
+    "Entrust Consultores",
+    "SmartSoft",
+    "Solvai",
+    "INFOTREC",
+    "Addax",
+    "S-COM",
+    "Systecom",
+    "Modul Apps"
+  ],
+  "overrides": {
+    "Entrust Consultores": {
+      "name": "Oratech",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering",
+        "Cloud",
+        "Cybersecurity"
+      ],
+      "locations": [
+        "Costa Rica (office/history confirmed on company page and CAMTIC profile; confirm each role)"
+      ],
+      "fitReason": "Official pages support software/IT services and Costa Rica operations; confirm job eligibility on each opening.",
+      "supportingEvidence": [
+        {
+          "kind": "other",
+          "url": "https://www.camtic.org/project/entrust-consultores/"
+        }
+      ]
+    },
+    "SmartSoft": {
+      "model": "direct",
+      "tracks": [
+        "Software Engineering",
+        "Cybersecurity",
+        "Fintech"
+      ],
+      "locations": [
+        "Costa Rica (CAMTIC ICT member; confirm role eligibility on each posting)"
+      ],
+      "fitReason": "Official pages support fraud-prevention software; CAMTIC lists the company in Costa Rica.",
+      "supportingEvidence": [
+        {
+          "kind": "other",
+          "url": "https://www.camtic.org/project/smartsoft/"
+        }
+      ]
+    },
+    "Solvai": {
+      "model": "direct",
+      "tracks": [
+        "Software Engineering",
+        "SaaS",
+        "AI"
+      ],
+      "locations": [
+        "Costa Rica (CAMTIC ICT member; confirm role eligibility on each posting)"
+      ],
+      "fitReason": "Official pages support a SaaS product and Costa Rican founders; CAMTIC lists it locally.",
+      "supportingEvidence": [
+        {
+          "kind": "other",
+          "url": "https://www.camtic.org/project/solvai/"
+        }
+      ]
+    },
+    "INFOTREC": {
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering",
+        "Cybersecurity",
+        "IT"
+      ],
+      "locations": [
+        "Heredia, Costa Rica; services in Costa Rica and Central America"
+      ],
+      "fitReason": "Official pages support cybersecurity/IT projects and Costa Rica operations; confirm each role location.",
+      "supportingEvidence": [
+        {
+          "kind": "other",
+          "url": "https://www.camtic.org/project/infotrec/"
+        }
+      ]
+    },
+    "Addax": {
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering",
+        "GIS",
+        "Backend"
+      ],
+      "locations": [
+        "San José, Costa Rica"
+      ],
+      "fitReason": "Official pages support web applications and GIS software development in Costa Rica.",
+      "supportingEvidence": [
+        {
+          "kind": "other",
+          "url": "https://www.camtic.org/project/addax/"
+        }
+      ]
+    },
+    "S-COM": {
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering",
+        "Full Stack",
+        "Backend"
+      ],
+      "locations": [
+        "San José, Costa Rica"
+      ],
+      "fitReason": "Official chamber profile confirms custom software development and a San José location.",
+      "careersUrl": "https://www.s-com.com/sitio/empleos",
+      "supportingEvidence": [
+        {
+          "kind": "other",
+          "url": "https://www.camtic.org/project/s-com/"
+        }
+      ]
+    },
+    "Systecom": {
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering",
+        "Cloud",
+        "Cybersecurity"
+      ],
+      "locations": [
+        "Grecia, Costa Rica"
+      ],
+      "fitReason": "Official company pages describe custom software and Costa Rica operations."
+    },
+    "Modul Apps": {
+      "model": "direct",
+      "tracks": [
+        "Software Engineering",
+        "SaaS",
+        "CRM"
+      ],
+      "locations": [
+        "San José, Costa Rica"
+      ],
+      "fitReason": "CAMTIC profile describes a Costa Rican SaaS business with CRM and process-automation tools.",
+      "supportingEvidence": [
+        {
+          "kind": "other",
+          "url": "https://www.camtic.org/project/modul-apps/"
+        }
+      ]
+    }
+  }
+}

@@ -58,7 +58,7 @@ function CompanyCardActionsView({
             </span>
           </a>
         ) : null}
-        {company.website || company.nearshore?.website ? (
+        {!preference?.imageUrl && (company.website || company.nearshore?.website) ? (
           <button
             type="button"
             disabled={!ready}
@@ -72,7 +72,7 @@ function CompanyCardActionsView({
             className="inline-flex items-center gap-2 rounded-lg border border-zinc-700 px-3 py-2 text-xs text-zinc-300 hover:bg-zinc-800 disabled:opacity-50"
           >
             <Image size={14} />
-            {preference?.imageUrl ? "Refresh image" : "Crawl image"}
+            Crawl image
           </button>
         ) : null}
         <button

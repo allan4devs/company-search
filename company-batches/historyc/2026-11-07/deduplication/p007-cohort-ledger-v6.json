@@ -1,0 +1,3995 @@
+{
+  "cohortId": "likes-based-2026-11-07-p007",
+  "checkedOn": "2026-11-07",
+  "inputFiles": [
+    "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+    "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json"
+  ],
+  "inputCount": 406,
+  "uniqueCount": 362,
+  "outputCount": 362,
+  "duplicateCount": 44,
+  "missingIdentityCount": 0,
+  "catalog": {
+    "source": "MongoDB + bundled files + prior batches",
+    "mongoCompanies": 1420,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 321,
+    "indexedNames": 1799,
+    "indexedDomains": 1744
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 63,
+    "topTracks": [
+      {
+        "track": "Engineering",
+        "count": 36
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Software Engineering",
+        "count": 3
+      },
+      {
+        "track": "Node.js",
+        "count": 2
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        46
+      ],
+      [
+        "direct",
+        16
+      ],
+      [
+        "unknown",
+        1
+      ]
+    ]
+  },
+  "queryLanes": [
+    {
+      "lane": "Proveedores de Costa Rica software supplier directory",
+      "leads": 92,
+      "unique": 92,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Alpunto Costa Rica SaaS/software company directory",
+      "leads": 50,
+      "unique": 50,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Enterprise League software directory — Central America",
+      "leads": 46,
+      "unique": 46,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Sortlist software development directory — Mexico",
+      "leads": 20,
+      "unique": 20,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Sortlist software development directory — Argentina",
+      "leads": 20,
+      "unique": 20,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Sortlist software development directory — Chile",
+      "leads": 20,
+      "unique": 20,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Sortlist software development directory — Brazil",
+      "leads": 19,
+      "unique": 19,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Sortlist software development directory — Colombia",
+      "leads": 18,
+      "unique": 18,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Sortlist software development directory — Uruguay",
+      "leads": 16,
+      "unique": 16,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Costa Rica software development company list — RevenueBase leads",
+      "leads": 11,
+      "unique": 11,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Sortlist software development directory — Costa Rica",
+      "leads": 10,
+      "unique": 10,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Enterprise League software directory — Brazil",
+      "leads": 8,
+      "unique": 8,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Enterprise League software directory — Mexico",
+      "leads": 7,
+      "unique": 7,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Enterprise League software directory — Argentina",
+      "leads": 5,
+      "unique": 5,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official LATAM software careers — targeted search",
+      "leads": 5,
+      "unique": 5,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Enterprise League software directory — Chile",
+      "leads": 4,
+      "unique": 4,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Enterprise League software directory — Colombia",
+      "leads": 2,
+      "unique": 2,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Enterprise League software directory — Uruguay",
+      "leads": 2,
+      "unique": 2,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Alpunto Costa Rica software developer directory",
+      "leads": 2,
+      "unique": 2,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Enterprise League software directory — Ecuador",
+      "leads": 1,
+      "unique": 1,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official Costa Rica software careers — targeted search",
+      "leads": 1,
+      "unique": 1,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official LATAM remote software careers scan",
+      "leads": 15,
+      "unique": 1,
+      "duplicateRate": 0.933,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official Costa Rica software careers scan",
+      "leads": 32,
+      "unique": 2,
+      "duplicateRate": 0.937,
+      "recommendation": "pause lane; switch industry or ATS source"
+    }
+  ],
+  "entries": [
+    {
+      "company": "InnovacodeCR",
+      "domain": "innovacodecr.com",
+      "queryLane": "Sortlist software development directory — Costa Rica",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/costa-rica-cr"
+    },
+    {
+      "company": "DMA Latam Costa Rica",
+      "domain": "dmalatamcr.com",
+      "queryLane": "Sortlist software development directory — Costa Rica",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/costa-rica-cr"
+    },
+    {
+      "company": "iDigitalise.net☑️",
+      "domain": "idigitalise.net",
+      "queryLane": "Sortlist software development directory — Costa Rica",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/costa-rica-cr"
+    },
+    {
+      "company": "Fuzyon Agency",
+      "domain": "fuzyon.agency",
+      "queryLane": "Sortlist software development directory — Costa Rica",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/costa-rica-cr"
+    },
+    {
+      "company": "Escalable Costa Rica",
+      "domain": "radio.fm",
+      "queryLane": "Sortlist software development directory — Costa Rica",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/costa-rica-cr"
+    },
+    {
+      "company": "Supernova",
+      "domain": "supernovacr.com",
+      "queryLane": "Sortlist software development directory — Costa Rica",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/costa-rica-cr"
+    },
+    {
+      "company": "GInIEm S.A",
+      "domain": "giniem.com",
+      "queryLane": "Sortlist software development directory — Costa Rica",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/costa-rica-cr"
+    },
+    {
+      "company": "Salomon Web Services",
+      "domain": "salomonws.com",
+      "queryLane": "Sortlist software development directory — Costa Rica",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/costa-rica-cr"
+    },
+    {
+      "company": "Frame 3 Studio",
+      "domain": "frame3studio.com",
+      "queryLane": "Sortlist software development directory — Costa Rica",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/costa-rica-cr"
+    },
+    {
+      "company": "Crux Consultores",
+      "domain": "cruxconsultores.com",
+      "queryLane": "Sortlist software development directory — Costa Rica",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/costa-rica-cr"
+    },
+    {
+      "company": "Bluecell Comunicación",
+      "domain": "bluecell.es",
+      "queryLane": "Sortlist software development directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/mexico-mx"
+    },
+    {
+      "company": "BluePixel",
+      "domain": "bluepixel.mx",
+      "queryLane": "Sortlist software development directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/mexico-mx"
+    },
+    {
+      "company": "Seedup Growth, AI & Software",
+      "domain": "seedup.mx",
+      "queryLane": "Sortlist software development directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/mexico-mx"
+    },
+    {
+      "company": "UNIVERSEPAGE",
+      "domain": "universepage.com.mx",
+      "queryLane": "Sortlist software development directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/mexico-mx"
+    },
+    {
+      "company": "SolvenzaAI",
+      "domain": "solvenzaai.com",
+      "queryLane": "Sortlist software development directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/mexico-mx"
+    },
+    {
+      "company": "Treblum",
+      "domain": "treblum.com",
+      "queryLane": "Sortlist software development directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/mexico-mx"
+    },
+    {
+      "company": "Bridge Studio",
+      "domain": "bridgestudio.mx",
+      "queryLane": "Sortlist software development directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/mexico-mx"
+    },
+    {
+      "company": "Transgenia",
+      "domain": "transgenia.org",
+      "queryLane": "Sortlist software development directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/mexico-mx"
+    },
+    {
+      "company": "Agencia Libra AIMA",
+      "domain": "libra-digital.com",
+      "queryLane": "Sortlist software development directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/mexico-mx"
+    },
+    {
+      "company": "Keting Media",
+      "domain": "ketingmedia.com",
+      "queryLane": "Sortlist software development directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/mexico-mx"
+    },
+    {
+      "company": "LoboGeek",
+      "domain": "lobogeek.mx",
+      "queryLane": "Sortlist software development directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/mexico-mx"
+    },
+    {
+      "company": "Discovery Partners",
+      "domain": "discoverypartners.co",
+      "queryLane": "Sortlist software development directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/mexico-mx"
+    },
+    {
+      "company": "NEXAROQ",
+      "domain": "nexaroqmx.com",
+      "queryLane": "Sortlist software development directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/mexico-mx"
+    },
+    {
+      "company": "Proxxa",
+      "domain": "proxxa.mx",
+      "queryLane": "Sortlist software development directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/mexico-mx"
+    },
+    {
+      "company": "Núcleo Studio",
+      "domain": "nucleostudio.com",
+      "queryLane": "Sortlist software development directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/mexico-mx"
+    },
+    {
+      "company": "Designed By We",
+      "domain": "designedbywe.com",
+      "queryLane": "Sortlist software development directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/mexico-mx"
+    },
+    {
+      "company": "INCEPTIO",
+      "domain": "inceptio.com.mx",
+      "queryLane": "Sortlist software development directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/mexico-mx"
+    },
+    {
+      "company": "Blueberry - Agencia de Marketing Digital",
+      "domain": "blueberry.mx",
+      "queryLane": "Sortlist software development directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/mexico-mx"
+    },
+    {
+      "company": "Enzo IT",
+      "domain": "enzoit.mx",
+      "queryLane": "Sortlist software development directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/mexico-mx"
+    },
+    {
+      "company": "Kiüve Agency",
+      "domain": "kiuve.com",
+      "queryLane": "Sortlist software development directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/mexico-mx"
+    },
+    {
+      "company": "Pow Ideas - Agencia de Publicidad",
+      "domain": "powideas.com",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/colombia-co"
+    },
+    {
+      "company": "Kivio sas",
+      "domain": "kivio.com.co",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/colombia-co"
+    },
+    {
+      "company": "Ferova Agency",
+      "domain": "seoparaecommerce.co",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/colombia-co"
+    },
+    {
+      "company": "Tree Immersion Technologies",
+      "domain": "treeimmersion.com",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/colombia-co"
+    },
+    {
+      "company": "Jerrejerre",
+      "domain": "jerrejerre.com",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/colombia-co"
+    },
+    {
+      "company": "Drunel Labs",
+      "domain": "drunel.com",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/colombia-co"
+    },
+    {
+      "company": "inVerita",
+      "domain": "inveritasoft.com",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/colombia-co"
+    },
+    {
+      "company": "HardBoxs",
+      "domain": "hardboxs.com",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/colombia-co"
+    },
+    {
+      "company": "KMS AGENCY SAS",
+      "domain": "kms-agency.com",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/colombia-co"
+    },
+    {
+      "company": "Kudenix",
+      "domain": "kudenix.com",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/colombia-co"
+    },
+    {
+      "company": "Creasotol Diseño Web",
+      "domain": "creasotol.com",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/colombia-co"
+    },
+    {
+      "company": "Estudio 200",
+      "domain": "estudio200.com.co",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/colombia-co"
+    },
+    {
+      "company": "Kubo S.A.S.",
+      "domain": "kubo.co",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/colombia-co"
+    },
+    {
+      "company": "AthyriumStudio",
+      "domain": "athyriumstudio.com",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/colombia-co"
+    },
+    {
+      "company": "Muto Estudio Digital",
+      "domain": "mutoestudio.com",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/colombia-co"
+    },
+    {
+      "company": "SOSADIAZ",
+      "domain": "sosadiaz.com",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/colombia-co"
+    },
+    {
+      "company": "Fryos Studios SAS",
+      "domain": "fryosstudios.com",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/colombia-co"
+    },
+    {
+      "company": "Orion AI",
+      "domain": "orionai.com.co",
+      "queryLane": "Sortlist software development directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/colombia-co"
+    },
+    {
+      "company": "Bewise",
+      "domain": "com.es",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/argentina-ar"
+    },
+    {
+      "company": "LogTech® Software & Soluciones Tecnológicas",
+      "domain": "logtech.com.ar",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/argentina-ar"
+    },
+    {
+      "company": "Plan IA",
+      "domain": "planiapymes.com.ar",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/argentina-ar"
+    },
+    {
+      "company": "DigitalArts",
+      "domain": "bydigitalarts.com",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/argentina-ar"
+    },
+    {
+      "company": "Don Galeón",
+      "domain": "dongaleon.com",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/argentina-ar"
+    },
+    {
+      "company": "CZ Comunicación Digital",
+      "domain": "tallerdigital.com.ar",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/argentina-ar"
+    },
+    {
+      "company": "Joel Di Costa",
+      "domain": "joeldicosta.com",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/argentina-ar"
+    },
+    {
+      "company": "Ecloud Agency",
+      "domain": "ecloud.agency",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/argentina-ar"
+    },
+    {
+      "company": "Upway Digital - Agencia de Marketing Digital",
+      "domain": "upwaydigitalsolutions.com",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/argentina-ar"
+    },
+    {
+      "company": "Cexar",
+      "domain": "cexar.io",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/argentina-ar"
+    },
+    {
+      "company": "Paisanos.io",
+      "domain": "paisanos.io",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/argentina-ar"
+    },
+    {
+      "company": "BGROUP",
+      "domain": "synova.la",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/argentina-ar"
+    },
+    {
+      "company": "Tupaca",
+      "domain": "tupaca.com",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/argentina-ar"
+    },
+    {
+      "company": "Siblings Software Argentina",
+      "domain": "siblingssoftware.com.ar",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/argentina-ar"
+    },
+    {
+      "company": "Stravio Studio",
+      "domain": "straviostudio.com",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/argentina-ar"
+    },
+    {
+      "company": "WebType - Diseño Web",
+      "domain": "webtype.com.ar",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/argentina-ar"
+    },
+    {
+      "company": "Andrómeda",
+      "domain": "somosandromeda.store",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/argentina-ar"
+    },
+    {
+      "company": "PSIWARE ™",
+      "domain": "psiware.com.ar",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/argentina-ar"
+    },
+    {
+      "company": "Granweb | Empresa de Software | Desarrollo de Apps | Diseño web",
+      "domain": "granweb.io",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/argentina-ar"
+    },
+    {
+      "company": "Apollo Marketing y Desarrollo Web",
+      "domain": "apollo.com.ar",
+      "queryLane": "Sortlist software development directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/argentina-ar"
+    },
+    {
+      "company": "NTB Studio",
+      "domain": "ntbstudio.cl",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/chile-cl"
+    },
+    {
+      "company": "Tecnomark Agency",
+      "domain": "tecnomark.cl",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/chile-cl"
+    },
+    {
+      "company": "Canal Cero",
+      "domain": "canalcero.com",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/chile-cl"
+    },
+    {
+      "company": "RESOLUTOR Consultores",
+      "domain": "resolutor-ti.cl",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/chile-cl"
+    },
+    {
+      "company": "rodolfofreelance",
+      "domain": "rodolfofreelance.cl",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/chile-cl"
+    },
+    {
+      "company": "Byte One SPA",
+      "domain": "byte1.cl",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/chile-cl"
+    },
+    {
+      "company": "Santeliz Dev",
+      "domain": "saulsanteliz.pro",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/chile-cl"
+    },
+    {
+      "company": "Lupify",
+      "domain": "lupify.cl",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/chile-cl"
+    },
+    {
+      "company": "Creotusitioweb Agencia Digital",
+      "domain": "creotusitioweb.cl",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/chile-cl"
+    },
+    {
+      "company": "Elevate Core",
+      "domain": "elevatecore.cl",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/chile-cl"
+    },
+    {
+      "company": "Just Dev It",
+      "domain": "justdev.it",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/chile-cl"
+    },
+    {
+      "company": "Naitus",
+      "domain": "naitus.com",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/chile-cl"
+    },
+    {
+      "company": "Tabatech SpA",
+      "domain": "tabatech.cl",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/chile-cl"
+    },
+    {
+      "company": "ADMSYS SPA",
+      "domain": "admsys.cl",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/chile-cl"
+    },
+    {
+      "company": "FXN Infomatica",
+      "domain": "fxn.cl",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/chile-cl"
+    },
+    {
+      "company": "PGAS.online",
+      "domain": "pgas.online",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/chile-cl"
+    },
+    {
+      "company": "twgroup",
+      "domain": "twgroup.cl",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/chile-cl"
+    },
+    {
+      "company": "Devlabs",
+      "domain": "devlabs.cl",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/chile-cl"
+    },
+    {
+      "company": "UniVerso 693",
+      "domain": "universo693.com",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/chile-cl"
+    },
+    {
+      "company": "Innobate",
+      "domain": "innobate.cl",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/chile-cl"
+    },
+    {
+      "company": "Luby",
+      "domain": "luby.co",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br"
+    },
+    {
+      "company": "IDIP Tecnologia",
+      "domain": "idip.com.br",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br"
+    },
+    {
+      "company": "1367 Studio",
+      "domain": "1367studio.com",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br"
+    },
+    {
+      "company": "Ateliware",
+      "domain": "ateliware.com",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br"
+    },
+    {
+      "company": "Codi Solutions",
+      "domain": "codisolutions.com.br",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br"
+    },
+    {
+      "company": "TAO Inteligência",
+      "domain": "taointeligencia.com.br",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br"
+    },
+    {
+      "company": "Nexus Consultoria e BPMS",
+      "domain": "nexusbpm.com.br",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br"
+    },
+    {
+      "company": "Overthure Tech",
+      "domain": "overthure.com",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br"
+    },
+    {
+      "company": "Barroco Consulting",
+      "domain": "vercel.app",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br"
+    },
+    {
+      "company": "Slomski Solutions",
+      "domain": "slomskisolutions.com.br",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br"
+    },
+    {
+      "company": "AlphaCorp AI",
+      "domain": "alphacorp.ai",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br"
+    },
+    {
+      "company": "inite",
+      "domain": "inite.ai",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br"
+    },
+    {
+      "company": "Epicora Software House",
+      "domain": "epicora.com.br",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br"
+    },
+    {
+      "company": "Criativo Master",
+      "domain": "criativomaster.com",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br"
+    },
+    {
+      "company": "Quilha Digital - Agência de Marketing",
+      "domain": "quilhadigital.com.br",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br"
+    },
+    {
+      "company": "CERBO",
+      "domain": "cerbo.cc",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br"
+    },
+    {
+      "company": "One Growth Media",
+      "domain": "onegrowth.media",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br"
+    },
+    {
+      "company": "Armel-x Tecnologia",
+      "domain": "armelx.com",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br"
+    },
+    {
+      "company": "Baux Studio",
+      "domain": "bauxestudio.webflow.io",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br"
+    },
+    {
+      "company": "Treeview",
+      "domain": "treeview.studio",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/uruguay-uy"
+    },
+    {
+      "company": "Solcre Software & Staff Augmentation",
+      "domain": "solcre.com",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/uruguay-uy"
+    },
+    {
+      "company": "Nicven Tech",
+      "domain": "nicventech.com",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/uruguay-uy"
+    },
+    {
+      "company": "Ecnoz",
+      "domain": "ecnoz.com",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/uruguay-uy"
+    },
+    {
+      "company": "Firox Uruguay",
+      "domain": "firox.uy",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/uruguay-uy"
+    },
+    {
+      "company": "SpaceDev",
+      "domain": "spacedev.io",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/uruguay-uy"
+    },
+    {
+      "company": "Streaver",
+      "domain": "streaver.com",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/uruguay-uy"
+    },
+    {
+      "company": "Infuy",
+      "domain": "infuy.com",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/uruguay-uy"
+    },
+    {
+      "company": "EvoSoft",
+      "domain": "evosoftuy.com",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/uruguay-uy"
+    },
+    {
+      "company": "DevXtend",
+      "domain": "devxtend.com",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/uruguay-uy"
+    },
+    {
+      "company": "Arkano Software",
+      "domain": "arkanosoft.com",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/uruguay-uy"
+    },
+    {
+      "company": "Asap Developers",
+      "domain": "asapdevelopers.com",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/uruguay-uy"
+    },
+    {
+      "company": "Bixlabs",
+      "domain": "bixlabs.com",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/uruguay-uy"
+    },
+    {
+      "company": "Pyspring",
+      "domain": "pyspring.com",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/uruguay-uy"
+    },
+    {
+      "company": "delbueno™ Studio",
+      "domain": "delbuenostudio.com",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/uruguay-uy"
+    },
+    {
+      "company": "ZirconTech",
+      "domain": "zircon.tech",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/uruguay-uy"
+    },
+    {
+      "company": "Konf o",
+      "domain": "konfio.mx",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Integra IT",
+      "domain": "integrait.co",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Jelp Delivery",
+      "domain": "jelp.delivery",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Datasae",
+      "domain": "datasae.com",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Dappsco",
+      "domain": "dappsco.io",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Accendo",
+      "domain": "accendo.com.co",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "CRUCIAL SOLUTIONS - XCIAL",
+      "domain": "xcial.com",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Beyserin Consulting",
+      "domain": "beyserinconsulting.com",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Pana Business",
+      "domain": "pana.com.co",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "ABsmartly",
+      "domain": "absmartly.com",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Jüsto",
+      "domain": "justo.mx",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Maximage - DQM Software",
+      "domain": "dqmsoftware.com",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Kirana Labs",
+      "domain": "kiranalabs.mx",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Future Software Co.",
+      "domain": "future.com.mx",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Oktara",
+      "domain": "oktara.com",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "QXD | Quality XP Development",
+      "domain": "qxdev.com",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Ancient - The Wisdom of Technology",
+      "domain": "ancient.global",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Ubidots",
+      "domain": "ubidots.com",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Lighthouse Technologies",
+      "domain": "lighthousetech.io",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "VEscape Labs",
+      "domain": "vescapelabs.com",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Silogik",
+      "domain": "silogik.com",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Hoken Cybersecurity",
+      "domain": "hoken.mx",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "wolkvox",
+      "domain": "wolkvox.com",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "PeopleCloud HRM",
+      "domain": "people-cloud.com",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Simetrik",
+      "domain": "simetrik.com",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "FacturoPorTi",
+      "domain": "facturoporti.com.mx",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "BeepQuest",
+      "domain": "beepquest.com",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "BTODigital Latam | Soluciones Digitales",
+      "domain": "btodigital.com",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Clever Marketing, Ltd.",
+      "domain": "getclever.marketing",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Tebiko",
+      "domain": "tebiko.com",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "SoloWeb Hosting",
+      "domain": "soloweb.mx",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "SM Digital",
+      "domain": "smdigital.com.co",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "eDesigns.com, 360º web agency world wide",
+      "domain": "edesigns.com",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Kokonut Studio",
+      "domain": "kokonutstudio.com",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Color Code Studio",
+      "domain": "colorcodestudio.com.mx",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Y2K Webs - Servicios Web, Diseño, Apps, Hosting, Streaming",
+      "domain": "y2kwebs.com",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Emerald Digital Studio LLC",
+      "domain": "emerald.studio",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Umbra 3D Studio",
+      "domain": "umbra3d.studio",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Aplyca",
+      "domain": "aplyca.com",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "CredeMtia",
+      "domain": "credemtia.com",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Biban",
+      "domain": "biban.co",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Simphony Technologies Group",
+      "domain": "simphony.com.co",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Binnacle App",
+      "domain": "binnacle.com.mx",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "O4IT",
+      "domain": "o4it.com",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "TailorSoft S.A.S.",
+      "domain": "tailorsoft.co",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Castlebridge Systems",
+      "domain": "castlebridge.co",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central"
+    },
+    {
+      "company": "Nuclea Solutions",
+      "domain": "nuclea.solutions",
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx"
+    },
+    {
+      "company": "Xira",
+      "domain": "xira.ai",
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx"
+    },
+    {
+      "company": "Axend",
+      "domain": "axend.io",
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx"
+    },
+    {
+      "company": "CINCEL - Trust Authority & Identity Solutions",
+      "domain": "cincel.digital",
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx"
+    },
+    {
+      "company": "Azdeyc Software",
+      "domain": "azdeyc.com",
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx"
+    },
+    {
+      "company": "Pulppo",
+      "domain": "pulppo.com",
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx"
+    },
+    {
+      "company": "Antsglobe Technologies",
+      "domain": "antsglobe.com",
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx"
+    },
+    {
+      "company": "Marsodi Tech",
+      "domain": "marsodi.tech",
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co"
+    },
+    {
+      "company": "Shift Active | Inteligencia interactiva",
+      "domain": "shiftactive.com",
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co"
+    },
+    {
+      "company": "OpenLifter.ai",
+      "domain": "openlifter.ai",
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar"
+    },
+    {
+      "company": "Caramel Point",
+      "domain": "caramelpoint.com",
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar"
+    },
+    {
+      "company": "Claw Studios",
+      "domain": "clawstudios.com",
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar"
+    },
+    {
+      "company": "NUTHOST",
+      "domain": "nuthost.com",
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar"
+    },
+    {
+      "company": "Radium Rocket",
+      "domain": "radiumrocket.com",
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar"
+    },
+    {
+      "company": "Tryolabs",
+      "domain": "tryolabs.com",
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy"
+    },
+    {
+      "company": "Trafilea Tech E-commerce Group",
+      "domain": "trafilea.com",
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy"
+    },
+    {
+      "company": "Aureolab",
+      "domain": "aureolab.cl",
+      "queryLane": "Enterprise League software directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/cl"
+    },
+    {
+      "company": "Nnodes",
+      "domain": "nnodes.com",
+      "queryLane": "Enterprise League software directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/cl"
+    },
+    {
+      "company": "iGromi",
+      "domain": "igromi.com",
+      "queryLane": "Enterprise League software directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/cl"
+    },
+    {
+      "company": "Yu-Track",
+      "domain": "yu-track.com",
+      "queryLane": "Enterprise League software directory — Chile",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/cl"
+    },
+    {
+      "company": "Smark CRM",
+      "domain": "smark.com.br",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "Base2 Tecnologia",
+      "domain": "base2.com.br",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "Clickweb",
+      "domain": "clickweb.com.br",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "TerraMagna",
+      "domain": "terramagna.com.br",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "LIT Collective",
+      "domain": "litcollective.io",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "CRM PipeRun",
+      "domain": "crmpiperun.com",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "Ema Software",
+      "domain": "net.br",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "stays.net",
+      "domain": "stays.net",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br"
+    },
+    {
+      "company": "SLONCORP CRIFA CIA LTDA",
+      "domain": "sloncorp.com",
+      "queryLane": "Enterprise League software directory — Ecuador",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ec"
+    },
+    {
+      "company": "Optery",
+      "domain": "optery.com",
+      "queryLane": "Official LATAM software careers — targeted search",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://jobs.ashbyhq.com/optery/d87200e8-2ec1-4bdb-8b17-f64453cb3684"
+    },
+    {
+      "company": "Uvik Software",
+      "domain": "uvik.net",
+      "queryLane": "Official LATAM software careers — targeted search",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://uvik.net/career/"
+    },
+    {
+      "company": "Definity",
+      "domain": "definity.io",
+      "queryLane": "Official LATAM software careers — targeted search",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://careers.definity.io/jobs/ios-developer"
+    },
+    {
+      "company": "Loka",
+      "domain": "loka.com",
+      "queryLane": "Official LATAM software careers — targeted search",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.loka.com/careers"
+    },
+    {
+      "company": "TRM Labs",
+      "domain": "trmlabs.com",
+      "queryLane": "Official LATAM software careers — targeted search",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.trmlabs.com/careers"
+    },
+    {
+      "company": "Databridge",
+      "domain": "databridgecr.com",
+      "queryLane": "Official Costa Rica software careers — targeted search",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://databridgecr.com/"
+    },
+    {
+      "company": "Centauro Solutions",
+      "domain": "centaurosolutions.com",
+      "queryLane": "Costa Rica software development company list — RevenueBase leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://revenuebase.ai/companies/custom-software-application-development-companies/costa-rica"
+    },
+    {
+      "company": "ADSA",
+      "domain": "adsa.co",
+      "queryLane": "Costa Rica software development company list — RevenueBase leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://revenuebase.ai/companies/custom-software-application-development-companies/costa-rica"
+    },
+    {
+      "company": "TOTEM",
+      "domain": "totemcr.com",
+      "queryLane": "Costa Rica software development company list — RevenueBase leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://revenuebase.ai/companies/custom-software-application-development-companies/costa-rica"
+    },
+    {
+      "company": "Ionblock",
+      "domain": "ionblock.io",
+      "queryLane": "Costa Rica software development company list — RevenueBase leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://revenuebase.ai/companies/custom-software-application-development-companies/costa-rica"
+    },
+    {
+      "company": "Startx Software Consulting",
+      "domain": "startxconsulting.com",
+      "queryLane": "Costa Rica software development company list — RevenueBase leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://revenuebase.ai/companies/custom-software-application-development-companies/costa-rica"
+    },
+    {
+      "company": "Prointec",
+      "domain": "prointeccr.com",
+      "queryLane": "Costa Rica software development company list — RevenueBase leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://revenuebase.ai/companies/custom-software-application-development-companies/costa-rica"
+    },
+    {
+      "company": "Wolk Software",
+      "domain": "wolksoftcr.com",
+      "queryLane": "Costa Rica software development company list — RevenueBase leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://revenuebase.ai/companies/custom-software-application-development-companies/costa-rica"
+    },
+    {
+      "company": "Dynamic Advance",
+      "domain": "dynamicadvance.com",
+      "queryLane": "Costa Rica software development company list — RevenueBase leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://revenuebase.ai/companies/custom-software-application-development-companies/costa-rica"
+    },
+    {
+      "company": "Acebuddy",
+      "domain": "acebuddy.net",
+      "queryLane": "Costa Rica software development company list — RevenueBase leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://revenuebase.ai/companies/custom-software-application-development-companies/costa-rica"
+    },
+    {
+      "company": "Jowasoft",
+      "domain": "jowasoft.com",
+      "queryLane": "Costa Rica software development company list — RevenueBase leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://revenuebase.ai/companies/custom-software-application-development-companies/costa-rica"
+    },
+    {
+      "company": "Coffeeup Code",
+      "domain": "coffeeupcode.com",
+      "queryLane": "Costa Rica software development company list — RevenueBase leads",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://revenuebase.ai/companies/custom-software-application-development-companies/costa-rica"
+    },
+    {
+      "company": "INTEK DE COSTA RICA",
+      "domain": "intekcr.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software"
+    },
+    {
+      "company": "'+this.dataset.ini+' '\">",
+      "domain": "emteccr.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software"
+    },
+    {
+      "company": "ABM DE COSTA RICA S.A.",
+      "domain": "abmdecostarica.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software"
+    },
+    {
+      "company": "INTERDESA NET",
+      "domain": "interdesa.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software"
+    },
+    {
+      "company": "PIACHE SOLUCIONES INTELIGENTES S.A.",
+      "domain": "piache.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software"
+    },
+    {
+      "company": "Serviarchivo S.A.",
+      "domain": "serviarchivo.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software"
+    },
+    {
+      "company": "Creaciones y Desarrollo Web",
+      "domain": "creacionesydesarrolloweb.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software"
+    },
+    {
+      "company": "Continex Continental Importacion y Expor",
+      "domain": "continex.net",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=2"
+    },
+    {
+      "company": "TIMS International",
+      "domain": "timsinternational.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=2"
+    },
+    {
+      "company": "Expocohen S.A.",
+      "domain": "expocohen.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=2"
+    },
+    {
+      "company": "Aplicom S.A.",
+      "domain": "aplicom.net",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=2"
+    },
+    {
+      "company": "GTW DE COSTA RICA",
+      "domain": "gtw.cr",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=2"
+    },
+    {
+      "company": "Imagine XYZ",
+      "domain": "imaginexyz.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=2"
+    },
+    {
+      "company": "C. N Negocios S.A",
+      "domain": "cnnegocios.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=2"
+    },
+    {
+      "company": "JPicado y Asociados Consultoría S.A.",
+      "domain": "jpconsultoria.cr",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=2"
+    },
+    {
+      "company": "Soportec Costa Rica S.A",
+      "domain": "soportecstore.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=2"
+    },
+    {
+      "company": "WOW EMOTIONS S.A",
+      "domain": "wowemotions.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=2"
+    },
+    {
+      "company": "CORTE Y PRECISON DE METALES LTDA",
+      "domain": "copreinternacional.net",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=2"
+    },
+    {
+      "company": "C&L Asesoría y Sistemas S.A.",
+      "domain": "cyl.co.cr",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=2"
+    },
+    {
+      "company": "COCOCO",
+      "domain": "cococo.co.cr",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=2"
+    },
+    {
+      "company": "Codisa software Corp.",
+      "domain": "codisa.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=2"
+    },
+    {
+      "company": "Ex Squared Outcoding Solutions SRL",
+      "domain": "gbi-la.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=2"
+    },
+    {
+      "company": "GRUPO BABEL",
+      "domain": "grupobabel.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=2"
+    },
+    {
+      "company": "GRUPO NOVATEC",
+      "domain": "gruponovatec.net",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=2"
+    },
+    {
+      "company": "INTEGRATESLA CR.",
+      "domain": "institutonikolatesla.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=2"
+    },
+    {
+      "company": "Sistemas Informáticos de Centroamérica,S",
+      "domain": "sicsacr.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=2"
+    },
+    {
+      "company": "COMERCIALIZADORA TÉCNICA S.T S.A",
+      "domain": "blink.cr",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=3"
+    },
+    {
+      "company": "Compuservicios Griegos",
+      "domain": "compuserviciosgriegos.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=3"
+    },
+    {
+      "company": "SOATI",
+      "domain": "soati.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=3"
+    },
+    {
+      "company": "Wladhe",
+      "domain": "wladhe.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=3"
+    },
+    {
+      "company": "Afcom Tecnología - CR",
+      "domain": "afcomtecnologia.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=3"
+    },
+    {
+      "company": "CDC Internacional",
+      "domain": "cdcinternacional.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=3"
+    },
+    {
+      "company": "Compañia Mayorista BPC S.A.",
+      "domain": "mayoristabpc.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=4"
+    },
+    {
+      "company": "COMPUNÓMICOS CR",
+      "domain": "compunomicos.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=4"
+    },
+    {
+      "company": "Computadoras PCI",
+      "domain": "pcicr.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=4"
+    },
+    {
+      "company": "Constructora Oikos",
+      "domain": "constructoraoikos.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=4"
+    },
+    {
+      "company": "Cosybo",
+      "domain": "cosybo.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=4"
+    },
+    {
+      "company": "DATATELL",
+      "domain": "datatell.net",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=4"
+    },
+    {
+      "company": "Econocompu",
+      "domain": "econocompucr.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=4"
+    },
+    {
+      "company": "Electronic Security Systems",
+      "domain": "systronicscr.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=4"
+    },
+    {
+      "company": "ELECTROTECNICA S.A.",
+      "domain": "grupoelectrotecnica.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=4"
+    },
+    {
+      "company": "Integral Solutions CR",
+      "domain": "integralsolutionscr.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=4"
+    },
+    {
+      "company": "JARS Costa Rica",
+      "domain": "jarscr.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=5"
+    },
+    {
+      "company": "JF Computer",
+      "domain": "yolasite.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=5"
+    },
+    {
+      "company": "MediaChannel",
+      "domain": "mediachannel.net",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=5"
+    },
+    {
+      "company": "Sedmac de Centroamerica",
+      "domain": "business.site",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=5"
+    },
+    {
+      "company": "TechCom CR",
+      "domain": "techcomcr.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=5"
+    },
+    {
+      "company": "Tecnoconstruccioescr",
+      "domain": "tecnoconstruccionescr.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=5"
+    },
+    {
+      "company": "TIENDA VICORTECH",
+      "domain": "tiendavicortech.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=5"
+    },
+    {
+      "company": "TMASS CONEXION REMOTA S.A",
+      "domain": "remotecontac506.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=5"
+    },
+    {
+      "company": "UH Internacional",
+      "domain": "uhinternacional.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=6"
+    },
+    {
+      "company": "Planet Group",
+      "domain": "planetgroupcr.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=6"
+    },
+    {
+      "company": "Computadores Económicos",
+      "domain": "computadoreseconomicos.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=6"
+    },
+    {
+      "company": "N&S Madriz Viales LTDA",
+      "domain": "pos-premium.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=6"
+    },
+    {
+      "company": "Compured Internacional KR S.A.",
+      "domain": "compuredcr.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=6"
+    },
+    {
+      "company": "CompuSeg del Este",
+      "domain": "compusegdeleste.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=6"
+    },
+    {
+      "company": "Conductos Magneticos de San Jose S.A",
+      "domain": "condumag.co.cr",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=6"
+    },
+    {
+      "company": "Empresa Mayorista CAS Computer All Servi",
+      "domain": "mercatico.net",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=6"
+    },
+    {
+      "company": "INTCOMEX",
+      "domain": "intcomex.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=6"
+    },
+    {
+      "company": "Perfiles Tecnológicos S.A.",
+      "domain": "perfilestecnologicos.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=6"
+    },
+    {
+      "company": "Amelco Costa Rica S.A.",
+      "domain": "beltron.net",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=7"
+    },
+    {
+      "company": "Grupo Cesa",
+      "domain": "grupocesa.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=7"
+    },
+    {
+      "company": "IMPORTACIONES COMPUFAX DE COSTA RICA SA",
+      "domain": "compufax.cr",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=7"
+    },
+    {
+      "company": "JITEL Comunicaciones",
+      "domain": "es.tl",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=7"
+    },
+    {
+      "company": "Vinet Technology Advisor S.A.",
+      "domain": "vinet.co.cr",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=7"
+    },
+    {
+      "company": "INTERSOFTLA",
+      "domain": "intersoftla.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=7"
+    },
+    {
+      "company": "Extreme Technology Corp ETC, S A",
+      "domain": "extremetechcr.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=7"
+    },
+    {
+      "company": "Techno Sys Soluciones S.A",
+      "domain": "tecnocomprascr.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=7"
+    },
+    {
+      "company": "RVACON",
+      "domain": "rvacon.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=7"
+    },
+    {
+      "company": "C.R. Conectividad S.A.",
+      "domain": "conectividad.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=7"
+    },
+    {
+      "company": "Compu Componentes Gadroves",
+      "domain": "compucomponentescr.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=7"
+    },
+    {
+      "company": "Suministros & Computadoras de Centroamer",
+      "domain": "sumcomcr.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=7"
+    },
+    {
+      "company": "Tecnova Soluciones, S.A.",
+      "domain": "tecnovasoluciones.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=7"
+    },
+    {
+      "company": "JCC MERCADEO VIRTUAL S. A.",
+      "domain": "medialabla.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=8"
+    },
+    {
+      "company": "SYSCOM",
+      "domain": "syscomca.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=8"
+    },
+    {
+      "company": "Avenida Tecnologica",
+      "domain": "avenidatecnologica.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=8"
+    },
+    {
+      "company": "Compuplaza S.A.",
+      "domain": "compuplaza.co.cr",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=8"
+    },
+    {
+      "company": "SID DE COSTA RICA",
+      "domain": "sidcr.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=8"
+    },
+    {
+      "company": "Consorcio Comercial V & R S.A.",
+      "domain": "c-comercial.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=8"
+    },
+    {
+      "company": "Tecnotrade de Costa Rica S.A",
+      "domain": "tecnotienda.net",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=8"
+    },
+    {
+      "company": "BL ONE S.A.",
+      "domain": "blonecr.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=8"
+    },
+    {
+      "company": "Teycos Sistemas",
+      "domain": "teycos.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=8"
+    },
+    {
+      "company": "Office Depot",
+      "domain": "officedepot.co.cr",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9"
+    },
+    {
+      "company": "Tecnología Educativa",
+      "domain": "tecnologiaeducativa.co.cr",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9"
+    },
+    {
+      "company": "Computrading de Costa Rica SA",
+      "domain": "tecno-outlet.net",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9"
+    },
+    {
+      "company": "Manía Digital SD, S.A.",
+      "domain": "maniadigital.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9"
+    },
+    {
+      "company": "ACEQSA",
+      "domain": "aceqsa.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9"
+    },
+    {
+      "company": "Comercial Athena,S.A.",
+      "domain": "grupoathena.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9"
+    },
+    {
+      "company": "Arrendadora ATI S.A.",
+      "domain": "atisa.co.cr",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9"
+    },
+    {
+      "company": "ITX Internacional S.A.",
+      "domain": "itx.co.cr",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9"
+    },
+    {
+      "company": "Grupo Printer de Costa Rica",
+      "domain": "grupoprinter.com",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=10"
+    },
+    {
+      "company": "TT GROUP LATAM",
+      "domain": "ttgrouplatam.net",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=10"
+    },
+    {
+      "company": "GTI Factura Electrónica",
+      "domain": "facturaelectronica.cr",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service"
+    },
+    {
+      "company": "Facel – Facturación Electrónica",
+      "domain": "facelcr.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service"
+    },
+    {
+      "company": "Ainnova Tech",
+      "domain": "ainnovatech.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service"
+    },
+    {
+      "company": "CRFUSION (Cronus ERP)",
+      "domain": "crfusion.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service"
+    },
+    {
+      "company": "Greenpay S.A.",
+      "domain": "greenpay.me",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service"
+    },
+    {
+      "company": "Plaxp (Corp Tech AzSoft SRL)",
+      "domain": "plaxp.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service"
+    },
+    {
+      "company": "Salud a un Clic S.A.",
+      "domain": "saludaunclic.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service"
+    },
+    {
+      "company": "TecApro (Grupo TecApro)",
+      "domain": "tecapro.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service"
+    },
+    {
+      "company": "TicoPlanillas (GQ Soluciones)",
+      "domain": "ticoplanillas.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service"
+    },
+    {
+      "company": "AACROM",
+      "domain": "aacrom.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service"
+    },
+    {
+      "company": "AKTEK",
+      "domain": "aktekcr.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=2"
+    },
+    {
+      "company": "BEST Resource",
+      "domain": "bestresourcecr.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=2"
+    },
+    {
+      "company": "Moovin",
+      "domain": "moovin.me",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=2"
+    },
+    {
+      "company": "Nativo Latam",
+      "domain": "nativo.la",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=2"
+    },
+    {
+      "company": "NCQ Technologies",
+      "domain": "ncq.co.cr",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=2"
+    },
+    {
+      "company": "Software Solutions S.A.",
+      "domain": "softwaresolutions.co.cr",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=2"
+    },
+    {
+      "company": "Soltig",
+      "domain": "soltig.net",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=2"
+    },
+    {
+      "company": "Pangea Holdings",
+      "domain": "pangea.cr",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=2"
+    },
+    {
+      "company": "WeCode",
+      "domain": "wecodecr.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=2"
+    },
+    {
+      "company": "Architect Technology Solutions (ATS)",
+      "domain": "atscr.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=2"
+    },
+    {
+      "company": "Dinámica Consultores Internacional S.A. (DCI)",
+      "domain": "dcicr.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=2"
+    },
+    {
+      "company": "Factúrele",
+      "domain": "facturele.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=2"
+    },
+    {
+      "company": "Siftia",
+      "domain": "siftia.tech",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=2"
+    },
+    {
+      "company": "Facture.cr",
+      "domain": "facture.cr",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=2"
+    },
+    {
+      "company": "Avify",
+      "domain": "avify.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=2"
+    },
+    {
+      "company": "INELDAT (Intercambio Electrónico de Datos S.A.)",
+      "domain": "ineldat.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=2"
+    },
+    {
+      "company": "PIXDEA",
+      "domain": "pixdea.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3"
+    },
+    {
+      "company": "POSMOVI (Design Soft S.A.)",
+      "domain": "posmovi.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3"
+    },
+    {
+      "company": "PROCOM",
+      "domain": "procom.cr",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3"
+    },
+    {
+      "company": "Ridivi S.A.",
+      "domain": "ridivi.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3"
+    },
+    {
+      "company": "SmartFacturaCR (Smart Process CR)",
+      "domain": "smartfacturacr.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3"
+    },
+    {
+      "company": "Ticontable (HNG Carmenta Global Group S.A.)",
+      "domain": "ticontable.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3"
+    },
+    {
+      "company": "AutoPlanilla (NeoProc S.A.)",
+      "domain": "autoplanilla.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3"
+    },
+    {
+      "company": "Ibylit",
+      "domain": "ibylit.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3"
+    },
+    {
+      "company": "Processim Labs",
+      "domain": "processimlabs.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3"
+    },
+    {
+      "company": "Egobytes",
+      "domain": "egobytes.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3"
+    },
+    {
+      "company": "Snap Compliance",
+      "domain": "snap-compliance.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3"
+    },
+    {
+      "company": "Factun",
+      "domain": "factun.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3"
+    },
+    {
+      "company": "Fygaro",
+      "domain": "fygaro.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3"
+    },
+    {
+      "company": "Harvie (Hey Harvie)",
+      "domain": "heyharvie.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3"
+    },
+    {
+      "company": "Huli",
+      "domain": "huli.io",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3"
+    },
+    {
+      "company": "Mission Inbox",
+      "domain": "missioninbox.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3"
+    },
+    {
+      "company": "Monibyte (Impesa)",
+      "domain": "monibyte.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3"
+    },
+    {
+      "company": "Neotecnologías",
+      "domain": "neotecnologias.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4"
+    },
+    {
+      "company": "Nidux",
+      "domain": "nidux.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4"
+    },
+    {
+      "company": "Nominar",
+      "domain": "nominar.pro",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4"
+    },
+    {
+      "company": "Nova Sistem Developers CR",
+      "domain": "novasistemdeloperscr.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4"
+    },
+    {
+      "company": "ONVO Costa Rica S.A.",
+      "domain": "onvopay.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4"
+    },
+    {
+      "company": "Stable Facturador Electrónico (Redcom Labs)",
+      "domain": "stablefact.com",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4"
+    },
+    {
+      "company": "Sicsoft",
+      "domain": "checkin.cr",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=5"
+    },
+    {
+      "company": "Alternativo Studio",
+      "domain": "alternativostudio.com",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3"
+    },
+    {
+      "company": "Unidad22",
+      "domain": "unidad22.com",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-cohort-unique-v5.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7"
+    },
+    {
+      "company": "Neverfail",
+      "domain": "neverfail.com",
+      "queryLane": "Official Costa Rica software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Neverfail",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://neverfail.com/careers/"
+    },
+    {
+      "company": "CapDev",
+      "domain": "capdevcr.com",
+      "queryLane": "Official Costa Rica software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "CapDev",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.capdevcr.com/"
+    },
+    {
+      "company": "Empyra",
+      "domain": "empyra.com",
+      "queryLane": "Official Costa Rica software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Empyra",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.empyra.com/careers"
+    },
+    {
+      "company": "Advision Development",
+      "domain": "advisiondevelopment.com",
+      "queryLane": "Official Costa Rica software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Advision Development",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.advisiondevelopment.com/"
+    },
+    {
+      "company": "Ring",
+      "domain": "ring.cr",
+      "queryLane": "Official Costa Rica software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://ring.cr/en/careers/"
+    },
+    {
+      "company": "Qdrant",
+      "domain": "qdrant.tech",
+      "queryLane": "Official Costa Rica software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Qdrant",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.ashbyhq.com/qdrant.tech/7541aa4d-3507-48ab-9002-7068dd1e8a2d"
+    },
+    {
+      "company": "Homera Health",
+      "domain": "homerahealth.com",
+      "queryLane": "Official LATAM remote software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Homera Health",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.ashbyhq.com/homera-health/6dd79eb5-24e7-44d3-9b1c-3daaa9dc7931"
+    },
+    {
+      "company": "Fueled",
+      "domain": "fueled.com",
+      "queryLane": "Official LATAM remote software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Fueled",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/fueledcareers/jobs/5428960008"
+    },
+    {
+      "company": "NetBox Labs",
+      "domain": "netboxlabs.com",
+      "queryLane": "Official LATAM remote software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "NetBox Labs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.ashbyhq.com/netboxlabs/4cd1f593-3839-4c5e-96f0-0a6c5706152d"
+    },
+    {
+      "company": "AH2",
+      "domain": "ah2.io",
+      "queryLane": "Official LATAM remote software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://ah2.io/careers/"
+    },
+    {
+      "company": "Radiant Technologies",
+      "domain": "radiantholdco.com",
+      "queryLane": "Official LATAM remote software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Radiant Technologies",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://radiantholdco.com/careers/product-engineer"
+    },
+    {
+      "company": "ThriveCart",
+      "domain": "thrivecart.com",
+      "queryLane": "Official LATAM remote software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "ThriveCart",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/thrivecart/jobs/5439518008"
+    },
+    {
+      "company": "Singular",
+      "domain": "singular.net",
+      "queryLane": "Official LATAM remote software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Singular",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.ashbyhq.com/singular/3233a5c4-fbe7-49ae-8384-c700dd575f7a"
+    },
+    {
+      "company": "Cresteo",
+      "domain": "cresteo.com",
+      "queryLane": "Official LATAM remote software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Cresteo",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/cresteo/jobs/4739276005"
+    },
+    {
+      "company": "Teravision Technologies",
+      "domain": "teravisiontech.com",
+      "queryLane": "Official LATAM remote software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Teravision Technologies",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/teravision/jobs/7481782003"
+    },
+    {
+      "company": "weKnow Inc.",
+      "domain": "weknowinc.com",
+      "queryLane": "Official LATAM remote software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "weKnow",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://weknowinc.com/careers/work-at-weknow/"
+    },
+    {
+      "company": "Motum",
+      "domain": "motum.io",
+      "queryLane": "Official LATAM remote software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Motum",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://motum.io/career"
+    },
+    {
+      "company": "AgilityFeat",
+      "domain": "agilityfeat.com",
+      "queryLane": "Official LATAM remote software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "AgilityFeat",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://agilityfeat.com/jobs/"
+    },
+    {
+      "company": "Outsource Argentina",
+      "domain": "outsourcearg.com",
+      "queryLane": "Official LATAM remote software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Outsource Argentina",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://outsourcearg.com/careers/"
+    },
+    {
+      "company": "Admios",
+      "domain": "admios.com",
+      "queryLane": "Official LATAM remote software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Admios",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.admios.com/careers"
+    },
+    {
+      "company": "Sixsense Labs",
+      "domain": "sixsenselabs.com",
+      "queryLane": "Official LATAM remote software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Sixsense Labs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.sixsenselabs.com/careers"
+    },
+    {
+      "company": "QAT Global",
+      "domain": "qat.com",
+      "queryLane": "Official Costa Rica software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "QAT Global",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://qat.com/careers/"
+    },
+    {
+      "company": "Konrad Group",
+      "domain": "konrad.com",
+      "queryLane": "Official Costa Rica software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Konrad Group",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.konrad.com/careers/job/java-full-stack-developer_7541220003"
+    },
+    {
+      "company": "OrderMesh",
+      "domain": "ordermesh.com",
+      "queryLane": "Official Costa Rica software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "OrderMesh",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://ordermesh.com/careers"
+    },
+    {
+      "company": "ActiveProspect",
+      "domain": "activeprospect.com",
+      "queryLane": "Official Costa Rica software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "ActiveProspect",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://activeprospect.com/careers/"
+    },
+    {
+      "company": "Greenlight Consulting",
+      "domain": "greenlightconsulting.com",
+      "queryLane": "Official Costa Rica software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Greenlight Consulting",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/greenlightconsulting"
+    },
+    {
+      "company": "DaCodes",
+      "domain": "dacodes.com",
+      "queryLane": "Official Costa Rica software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "DaCodes",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://dacodes.com/"
+    },
+    {
+      "company": "In All Media Inc",
+      "domain": "inallmedia.com",
+      "queryLane": "Official Costa Rica software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "In All Media",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://inallmedia.com/"
+    },
+    {
+      "company": "VML",
+      "domain": "vml.com",
+      "queryLane": "Official Costa Rica software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "VML",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.vml.com/careers"
+    },
+    {
+      "company": "Lago",
+      "domain": "lago.com",
+      "queryLane": "Official Costa Rica software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Lago",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://apply.workable.com/lago-1/"
+    },
+    {
+      "company": "Newfire Global Partners",
+      "domain": "newfireglobal.com",
+      "queryLane": "Official Costa Rica software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Newfire Global Partners",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://newfireglobal.com/"
+    },
+    {
+      "company": "Workana",
+      "domain": "workana.com",
+      "queryLane": "Official Costa Rica software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Workana",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.workana.com/"
+    },
+    {
+      "company": "West Monroe",
+      "domain": "westmonroe.com",
+      "queryLane": "Official Costa Rica software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "West Monroe",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.westmonroe.com/careers"
+    },
+    {
+      "company": "Cargill",
+      "domain": "cargill.com",
+      "queryLane": "Official Costa Rica software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Cargill",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://careers.cargill.com/en/job/heredia/software-engineer-food/23251/99351559664"
+    },
+    {
+      "company": "GFT Technologies",
+      "domain": "gft.com",
+      "queryLane": "Official Costa Rica software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "GFT Technologies",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.gft.com/Costarica/job/Heredia-Ingeniero-de-Software-Sr_-40101/1450472933/"
+    },
+    {
+      "company": "ImagineX Consulting",
+      "domain": "imaginexdigital.com",
+      "queryLane": "Official Costa Rica software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "ImagineX Consulting",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://imaginexdigital.applytojob.com/apply/bUbiOKheR8/Senior-Data-Engineer-AWS-Spark-Required"
+    },
+    {
+      "company": "Hitachi Solutions",
+      "domain": "hitachi-solutions.com",
+      "queryLane": "Official Costa Rica software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Hitachi Solutions",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://global.hitachi-solutions.com/about/careers/"
+    },
+    {
+      "company": "Moody's",
+      "domain": "moodys.com",
+      "queryLane": "Official Costa Rica software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Moody's",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://careers.moodys.com/en/job/heredia/software-engineer/49841/101721477104"
+    },
+    {
+      "company": "Wipro",
+      "domain": "wipro.com",
+      "queryLane": "Official Costa Rica software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Wipro",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://careers.wipro.com/job/Fullstack-Developer-%28CR%29/210117-en_US/"
+    },
+    {
+      "company": "Kruger Corp",
+      "domain": "krugercorp.com",
+      "queryLane": "Official Costa Rica software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://easyapplyrekluti.recruitee.com/o/desarrollador-java-2"
+    },
+    {
+      "company": "CSC Generation",
+      "domain": "cscgeneration.com",
+      "queryLane": "Official Costa Rica software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "CSC Generation",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.lever.co/cscgeneration-2/0ef9eb9f-f2cc-42f4-b8f9-4a34a771b4e0"
+    },
+    {
+      "company": "Clario",
+      "domain": "clario.com",
+      "queryLane": "Official Costa Rica software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Clario",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://clarioclinical.wd1.myworkdayjobs.com/clarioclinical_careers/job/Costa-Rica-Remote/Sr-Software-Engineer--NET-C--ASPNET-MVC-_R17545"
+    },
+    {
+      "company": "TransUnion",
+      "domain": "transunion.com",
+      "queryLane": "Official Costa Rica software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "TransUnion",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://transunion.wd5.myworkdayjobs.com/en-US/TransUnion/job/Software-Developer_19040620"
+    },
+    {
+      "company": "TrueML",
+      "domain": "trueml.com",
+      "queryLane": "Official Costa Rica software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "TrueML",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.lever.co/trueml/27b3510e-7be3-4a3f-8727-78f91fff688d"
+    },
+    {
+      "company": "Kraken",
+      "domain": "kraken.com",
+      "queryLane": "Official Costa Rica software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Kraken",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.ashbyhq.com/kraken.com/c6a90178-82d7-414e-ad74-69496b44d3c4/"
+    },
+    {
+      "company": "SimSpace",
+      "domain": "simspace.com",
+      "queryLane": "Official Costa Rica software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "SimSpace",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.ashbyhq.com/simspace-corporation/f174dcb1-6766-4620-a182-c81c848e4fdd"
+    },
+    {
+      "company": "Aubrant Digital",
+      "domain": "aubrant.com",
+      "queryLane": "Official Costa Rica software careers scan",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p007-current-role-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Aubrant Digital",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://ats.rippling.com/es-419/epic-software/jobs"
+    }
+  ]
+}

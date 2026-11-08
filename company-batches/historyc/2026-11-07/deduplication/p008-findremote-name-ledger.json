@@ -1,0 +1,1784 @@
+{
+  "cohortId": "likes-based-2026-11-07-p008-findremote",
+  "checkedOn": "2026-11-07",
+  "inputFiles": [
+    "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json"
+  ],
+  "inputCount": 176,
+  "uniqueCount": 125,
+  "outputCount": 125,
+  "duplicateCount": 51,
+  "missingIdentityCount": 0,
+  "catalog": {
+    "source": "MongoDB + bundled files + prior batches",
+    "mongoCompanies": 1520,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 421,
+    "indexedNames": 1662,
+    "indexedDomains": 1482
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 64,
+    "topTracks": [
+      {
+        "track": "Engineering",
+        "count": 36
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "Software Engineering",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Node.js",
+        "count": 2
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        47
+      ],
+      [
+        "direct",
+        16
+      ],
+      [
+        "unknown",
+        1
+      ]
+    ]
+  },
+  "queryLanes": [
+    {
+      "lane": "Find Remote Jobs current software-engineering LATAM feed",
+      "leads": 176,
+      "unique": 125,
+      "duplicateRate": 0.29,
+      "recommendation": "continue or expand this lane"
+    }
+  ],
+  "entries": [
+    {
+      "company": "Swiftly",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-software-engineer--2e47216c2987"
+    },
+    {
+      "company": "RevenueCat",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "RevenueCat",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-data-scientist-product--550566de59b3"
+    },
+    {
+      "company": "Sequoia Connect",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-mobile-react-native-developer--f131dc8c35a0"
+    },
+    {
+      "company": "CommandLink",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "CommandLink",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/staff-software-engineer-monitoring-product--b4a605b6d632"
+    },
+    {
+      "company": "Mural",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Mural",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/software-engineer-platform-engineering--cfdbf9eee078"
+    },
+    {
+      "company": "Cloudnonic Corp",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/semi-senior-frontend-developer-react-next-js--c8265f841926"
+    },
+    {
+      "company": "Dev.Pro",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Dev.Pro",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-test-engineer-with-automation-skills-op02201--4ac598e78f7d"
+    },
+    {
+      "company": "Scalepex",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Scalepex",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/full-stack-react-developer-remote-only-mexico--8bb31ddd464d"
+    },
+    {
+      "company": "Monks",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/fullstack-engineer--8f3d4d5426d2"
+    },
+    {
+      "company": "lemon.io",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Lemon.io",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-react-full-stack-developer--ceae4d0ba29d"
+    },
+    {
+      "company": "Catch Creation",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/web-developer-e-commerce-internal-tools--c288eb686bf1"
+    },
+    {
+      "company": "Adaptive Teams",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/operations-manager-latam-south-africa-remote--4302994b6c25"
+    },
+    {
+      "company": "Intuition Machines",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-site-reliability-engineer--0c5318deeea5"
+    },
+    {
+      "company": "Halliburton",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/brazil-remote-back-end-scientific-developer-rio-de-janeiro-rj-br-291941--988c08537411"
+    },
+    {
+      "company": "Pavago",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Pavago",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/bilingual-medical-customer-service-representative-english-spanish--5feea391502e"
+    },
+    {
+      "company": "Sigma Software",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Sigma Software",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-principal-frontend-engineer--45c831c13099"
+    },
+    {
+      "company": "Allocator One",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/forward-deployed-fund-operator-south-america--3938f87d4935"
+    },
+    {
+      "company": "Welo Global",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/generative-ai-analyst-spanish-argentina--6d9d2944f1af"
+    },
+    {
+      "company": "XKTalent Inc. - Rimutee",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/frontend-community--d6a8e23f04e3"
+    },
+    {
+      "company": "ScaleJet",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-amazon-brand-manager--060665f3af43"
+    },
+    {
+      "company": "Pearster",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/ssr-devops-engineer-azure--a89dc4d9c071"
+    },
+    {
+      "company": "Paired",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/technical-operations-engineer-sre-for-an-real-estate-company-us-based-remote--8a3c25c499be"
+    },
+    {
+      "company": "Binagora",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-python-engineer--22f75099cb71"
+    },
+    {
+      "company": "Assurant",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/content-production-specialist--e6b28a22393d"
+    },
+    {
+      "company": "Visa",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/software-engineer-credit-cycle--af5e3d048341"
+    },
+    {
+      "company": "Bolder Apps",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/project-manager-shopify--e30accd302db"
+    },
+    {
+      "company": "Maxana",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/backend-engineer-payments--60cc89f8c028"
+    },
+    {
+      "company": "Allshore Talent",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/urgent-google-analytics-developer-100-remote-latam-only--191a6322134c"
+    },
+    {
+      "company": "OX Security",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-backend-engineer-agentic-pentest--b8b3cc7517fa"
+    },
+    {
+      "company": "TripleTen",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/ai-systems-engineering-expert--8ca95b38f4be"
+    },
+    {
+      "company": "Mutt Data",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Muttdata",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/backend-developer-senior-go--1dec9897e1b2"
+    },
+    {
+      "company": "Indero",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/project-manager-ii-argentina--6d900e856de7"
+    },
+    {
+      "company": "Gamebreaking Studios",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Gamebreaking Studios",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/latin-america-internship-open-application--d833e9256716"
+    },
+    {
+      "company": "Remote Talent LATAM",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-backend-engineer-remote-latam-only-89010--bffac9a7ba8c"
+    },
+    {
+      "company": "AURIC",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/junior-full-stack-web-developer--719367663e84"
+    },
+    {
+      "company": "Canonical",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Canonical",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/software-engineer-python-linux-packaging--d176d66066da"
+    },
+    {
+      "company": "SqlDBM",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-backend-engineer-ai-native--85e606cad266"
+    },
+    {
+      "company": "Zencore",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Zencore",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-data-engineer--a1bf4ebbb790"
+    },
+    {
+      "company": "InsideOutVAS",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/executive-assistant-strategic-operations-partner-job-id-shareg1r--c0559ee2f98c"
+    },
+    {
+      "company": "Ryz Labs",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "RYZ Labs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/webflow-developer--eb091fc464d2"
+    },
+    {
+      "company": "Fluxon",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/staff-software-engineer--d35e986343aa"
+    },
+    {
+      "company": "Tenpo",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/tech-lead--794741476091"
+    },
+    {
+      "company": "BriteCore",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "BriteCore",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-software-engineer--66dae85add8c"
+    },
+    {
+      "company": "Creative Chaos",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/mobile-architect--9e55f84e8717"
+    },
+    {
+      "company": "ShakaCode",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/passionate-rust-software-developer--68b84878f634"
+    },
+    {
+      "company": "Brafton",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/remote-full-stack-developer-frontend-focused-brazil--3c09946c57e6"
+    },
+    {
+      "company": "Huzzle",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/technical-recruiter--d87968282eaf"
+    },
+    {
+      "company": "Tried and True Media",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/paid-media-buyer-traffic-manager--2c7091b6e8e9"
+    },
+    {
+      "company": "Metal Toad",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/full-stack-developer-talents-bench--8f32496d0905"
+    },
+    {
+      "company": "MyTime",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/customer-solutions-engineer-ruby-on-rails-remote-in-brazil--198001f8dff5"
+    },
+    {
+      "company": "Abstra",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Abstra",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-devops-engineer--f2b5055077ea"
+    },
+    {
+      "company": "Wizdaa",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Wizdaa",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-react-native-react-engineer-latam--02c727a08146"
+    },
+    {
+      "company": "Flex",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-software-engineer-backend--b2933a8bfa97"
+    },
+    {
+      "company": "Zaelab",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/release-manager--b4bd6ba75ac3"
+    },
+    {
+      "company": "mercor",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/audio-quality-analyst-fully-remote-upto-20-hr--98791463748a"
+    },
+    {
+      "company": "Marco",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/operations-coordinator--d81fd290c648"
+    },
+    {
+      "company": "Inv",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/software-engineer-agentic-ai--c562a423d7aa"
+    },
+    {
+      "company": "World Business Lenders",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/loan-operations-internal-audit-analyst--dd4007d735b1"
+    },
+    {
+      "company": "Jeeves",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Jeeves",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-ai-engineer--e09bb22db654"
+    },
+    {
+      "company": "Intellectsoft",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-ml-engineer-with-python-ir-536--10327a7068a9"
+    },
+    {
+      "company": "Syneos Health India Private Limited",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/ctm-ii-sponsor-dedicated-argentina-home-based--0dafa1827a42"
+    },
+    {
+      "company": "Enumerate",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Enumerate",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/php-react-software-engineer--4ce10dc11979"
+    },
+    {
+      "company": "Bizmoni Corp.",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-genexus-developer--a237c0b26ec0"
+    },
+    {
+      "company": "Oyster",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-data-engineer--01f94c85e399"
+    },
+    {
+      "company": "Kevel",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/principal-engineer--411e93cc2be2"
+    },
+    {
+      "company": "ImagineArt",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-backend-engineer--e8ff08abf446"
+    },
+    {
+      "company": "NeoWork",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/operations-manager--f951672dcd84"
+    },
+    {
+      "company": "Geeks on Site",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/seo-specialist--3c0c27e8590f"
+    },
+    {
+      "company": "Foundever",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/conversational-designer-remote-any-location-br--2a8b1c7bc6cf"
+    },
+    {
+      "company": "Blackfluo.ai",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-talent-acquisition-manager--8b2abed3062e"
+    },
+    {
+      "company": "The Global Talent Co.",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/growth-automation-engineer--55d82ccb4a76"
+    },
+    {
+      "company": "Ubiminds",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Ubiminds",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-qa-lead-12-weeks-572--99f979d10cd9"
+    },
+    {
+      "company": "Infios",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/global-support-analyst-ii--40a734c4703f"
+    },
+    {
+      "company": "Oppizi",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Oppizi",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-product-engineer--41ebf7989534"
+    },
+    {
+      "company": "Manbau",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/41-infrastructure-automation-engineer-ansible-platform-modernization--d5172ea33160"
+    },
+    {
+      "company": "Airalo",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/solutions-architect-latam--7bbb98d2c244"
+    },
+    {
+      "company": "Alcor",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/java-staff-software-engineer--65b909aa52d8"
+    },
+    {
+      "company": "Gurobi Optimization",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/technical-account-manager-brazil-remote--d6f8929a1281"
+    },
+    {
+      "company": "Alabama Solutions",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/ssr-full-stack-engineer--e92aea9b6882"
+    },
+    {
+      "company": "Teravision Technologies",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Teravision Technologies",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/data-engineer--e7b975d54ddc"
+    },
+    {
+      "company": "Purolabs",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/e-commerce-marketing-project-manager--50c8c1242000"
+    },
+    {
+      "company": "Airtm",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Airtm",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-qa-engineer--50481c497775"
+    },
+    {
+      "company": "Samsara",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/technical-account-manager--a9d6672db695"
+    },
+    {
+      "company": "CaseWare",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Caseware",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-ai-software-engineer-iii--3623c427dfeb"
+    },
+    {
+      "company": "Wisevu",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/web-development-project-manager--50c6466b23ed"
+    },
+    {
+      "company": "ElevenLabs",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "ElevenLabs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/full-stack-engineer-creative-studio--cd2e4ceeddaf"
+    },
+    {
+      "company": "Able",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Able",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/technical-program-manager--2642d8f2105e"
+    },
+    {
+      "company": "Netrix Global",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-java-developer--8728255e0b67"
+    },
+    {
+      "company": "AccelOne",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/staff-software-engineer--0ce487694948"
+    },
+    {
+      "company": "My Hero VA",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/software-engineer-perception-job-id-sepbf2026--fe6c55a6874a"
+    },
+    {
+      "company": "Flux IT",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/qa-analyst-jr--b9799bdc4df1"
+    },
+    {
+      "company": "Twilio",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Twilio",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/staff-technical-account-manager--b99c5e8df1e7"
+    },
+    {
+      "company": "Bluelight Consulting",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Bluelight Consulting",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/full-stack-and-backend-nodejs-typescript-javascript-engineer-senior-latin-america-remote--2bc22770ebad"
+    },
+    {
+      "company": "Game District",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-game-producer--720a6b85e2f0"
+    },
+    {
+      "company": "Logical Media Group",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/back-end-web-developer-solutions-support-specialist-remote-contractor--db98bf3f9209"
+    },
+    {
+      "company": "Rimini Street, Inc",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/associate-business-analyst--0d59de48a963"
+    },
+    {
+      "company": "Nearshore Business Solutions",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Nearshore Business Solutions",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-php-developer--e18241575ea7"
+    },
+    {
+      "company": "Xideral",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/informatica-idmc-administrator-remote-2867--771973588f1a"
+    },
+    {
+      "company": "Pipe",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/lead-infrastructure-engineer--ca13c0e36ee4"
+    },
+    {
+      "company": "Zarego",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Zarego",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/full-stack-developer-java-react-remote-latam--75bed885ca77"
+    },
+    {
+      "company": "Coinme",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/live-phone-support-contractor-remote-latam--1265526bbbd1"
+    },
+    {
+      "company": "Pearl Talent",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Pearl Talent",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/remote-senior-ai-product-engineer-for-a-climate-tech-saas-comapany--329ac0e1c20a"
+    },
+    {
+      "company": "Caylent",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/forward-deployed-engineer--cce2a263061f"
+    },
+    {
+      "company": "Tenchi Security",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/staff-software-engineer--b9c78d0ef858"
+    },
+    {
+      "company": "Webflow",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Webflow",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-software-engineer-build-loop--fc04a36c2291"
+    },
+    {
+      "company": "Bamboo Works",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/salesforce-pardot-consultant-marketing-cloud-account-engagement--555e964c042c"
+    },
+    {
+      "company": "QAD, Inc.",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/software-engineer-ai-agent-platform--b3eb82763b22"
+    },
+    {
+      "company": "Terac",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/full-stack-engineers-interview-on-cybersecurity-and-ci-cd-pipelines--2774fc66a501"
+    },
+    {
+      "company": "BM Digital",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/talent-manager--be9876b0449e"
+    },
+    {
+      "company": "FoodChain ID Group, Inc",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/r-business-analyst-and-product-commercialization-lead--f661aa20173e"
+    },
+    {
+      "company": "A Impact Media",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/lead-video-editor--91f8e663eb21"
+    },
+    {
+      "company": "Zapier",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Zapier",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/sr-technical-account-manager--fd638096f65d"
+    },
+    {
+      "company": "Coderio",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Coderio",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-ia-engineer--202c75e3fdad"
+    },
+    {
+      "company": "Viamericas Corporation",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/quality-assurance-analyst--8f96ca12f8ee"
+    },
+    {
+      "company": "GigaBrands",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/full-stack-automation-engineer--1a7844e5fe5f"
+    },
+    {
+      "company": "WITHIN",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/ad-build-specialist-co-remote--dbb0513b4c95"
+    },
+    {
+      "company": "Macher Serviços em Tecnologia EIRELI",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/analista-de-testes-manuais-mobile-com-js-pleno--813e8248aab6"
+    },
+    {
+      "company": "BrandBastion",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/support-implementation-specialist--5d20a50a27eb"
+    },
+    {
+      "company": "CommIT",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "CommIT",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-backend-engineer--b59f353ed5dc"
+    },
+    {
+      "company": "Storm Ideas",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/ai-social-media-coordinator--1b164ce3b3d8"
+    },
+    {
+      "company": "Hightouch",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-full-stack-engineer--36efabe5794d"
+    },
+    {
+      "company": "99x Brazil (formerly Nextly)",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/fullstack-outsystems-developer--dc458fda1248"
+    },
+    {
+      "company": "Blue Coding",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Blue Coding",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/vp-of-finance-z--f105d0e8ea86"
+    },
+    {
+      "company": "Truelogic",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Truelogic",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-front-end-developer-react-typescript-market-research--666fb8c3f0bc"
+    },
+    {
+      "company": "NTT DATA",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "NTT DATA",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/backend-developer-net-azure--af3ec43b5f11"
+    },
+    {
+      "company": "hireworks",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-site-reliability-engineer-events--fce4e9445434"
+    },
+    {
+      "company": "Luxury Presence",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Luxury Presence",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/product-engineer-internal-tools-latam-remote--866dfa8f781f"
+    },
+    {
+      "company": "Nango",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/staff-software-engineer-backend--25e19b33b4cd"
+    },
+    {
+      "company": "ClickHouse",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "ClickHouse",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-technical-customer-support-engineer--febf586de711"
+    },
+    {
+      "company": "Measured",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-technical-implementations-specialist--2ecffb980c01"
+    },
+    {
+      "company": "WATI",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/product-support-associate-l2--9ad13c6682b7"
+    },
+    {
+      "company": "CoLab Software",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-3d-ai-systems-software-developer--567667a1d510"
+    },
+    {
+      "company": "Clera",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/staff-fullstack-engineer--c0bd31a76146"
+    },
+    {
+      "company": "Hire Overseas",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/full-stack-ai-engineer--1ccee3f01fc9"
+    },
+    {
+      "company": "Diffco",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/full-stack-ai-engineer--98d14f6c34ad"
+    },
+    {
+      "company": "Miratech",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Miratech",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/software-architect-r-d--25579bc25be5"
+    },
+    {
+      "company": "Software Mind",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Software Mind",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/8be-data-scientist-ai-ml--8164e92062ae"
+    },
+    {
+      "company": "Alpaca",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Alpaca",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-software-engineer-new-markets--46a7d1df30c7"
+    },
+    {
+      "company": "Freelance Latin America",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-paid-social-media-buyer--57ee3c05927a"
+    },
+    {
+      "company": "Opal Group",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/webmaster-digital-marketing--a1a533849bd4"
+    },
+    {
+      "company": "Counterpart Group GmbH",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/full-stack-engineer--870f4ed25c1d"
+    },
+    {
+      "company": "Upgrade",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-qa-automation-engineer-product-latam--e49cf64af391"
+    },
+    {
+      "company": "Jahnel Group",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Jahnel Group",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/full-stack-engineer-laravel-php-vue--ea3c858e85f8"
+    },
+    {
+      "company": "Partyhat",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/animator--2010c16cb54a"
+    },
+    {
+      "company": "Futurhealth",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/full-stack-engineer--e680dad98f39"
+    },
+    {
+      "company": "Fygaro",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/full-stack-developer--9b5f76751620"
+    },
+    {
+      "company": "DotYeti Design",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/assistant-art-director--e5ce3694fdba"
+    },
+    {
+      "company": "Purely Optimal Inc.",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-operations-manager-for-travel-agency--bfb2eb456b31"
+    },
+    {
+      "company": "Loadsmart",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/analytics-engineer-remote-brazil--571555676ead"
+    },
+    {
+      "company": "Red Hat",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Red Hat",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-software-engineer--8cc173123883"
+    },
+    {
+      "company": "Paystone",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-ror-developer--323f665cf74c"
+    },
+    {
+      "company": "TWOSENSE.AI",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/software-engineer--e78397b760cf"
+    },
+    {
+      "company": "Quorum",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-fullstack-software-engineer--8718b579a6f0"
+    },
+    {
+      "company": "LocalStack",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/technical-account-manager--2386c231376b"
+    },
+    {
+      "company": "RecargaPay",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/sr-product-design--ad4171375f05"
+    },
+    {
+      "company": "CoverGo",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/solutions-architect-insurance-fully-remote--24977285e3f2"
+    },
+    {
+      "company": "Xpert Development",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/middle-level-software-engineer-latam--64e8ed300c2f"
+    },
+    {
+      "company": "TalentCross",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/0924dp-352ast-fullstack-wordpress-developer--03196ea83469"
+    },
+    {
+      "company": "Massive Rocket",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/talent-pool-crm-consultant-latin-america--90922face76c"
+    },
+    {
+      "company": "Ledgebrook",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/workday-solutions-architect-consultant--7da7de4adef9"
+    },
+    {
+      "company": "SQDM",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/frontend-angular-developer-remote-colombia--65eb377dea6f"
+    },
+    {
+      "company": "Jumpseller",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/full-stack-developer-ongoing--17996fa29a72"
+    },
+    {
+      "company": "Sezzle",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Sezzle",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/principal-software-engineer-identity-access-management--eec943555782"
+    },
+    {
+      "company": "ProfitCoach",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/corporate-bookkeeper-cleanup-specialist-mx--655f80e8d2ee"
+    },
+    {
+      "company": "Visa Franchise",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/bilingual-content-seo-marketing-assistant-part-time--20120fa9d95e"
+    },
+    {
+      "company": "Envato",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Envato",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-reviewer-code-web-templates--b94b06d97108"
+    },
+    {
+      "company": "Coinbase",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Coinbase",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/software-engineer-eaa--b6b9d0ef3337"
+    },
+    {
+      "company": "MagmaLabs",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "MagmaLabs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-software-engineer-node-js--5a0bcbb0ecf9"
+    },
+    {
+      "company": "Agentic Dream",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/sr-devops-engineer-remote-latam-only--bf867af6dc23"
+    },
+    {
+      "company": "Avahi",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/amazon-connect-engineer--bb2ce5e544b1"
+    },
+    {
+      "company": "Blue Altair",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-accounting-finance-manager--5010730479fc"
+    },
+    {
+      "company": "infisical",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Infisical",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-full-stack-engineer--5c9814dd5476"
+    },
+    {
+      "company": "Chainguard",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-partner-sales-engineer-brazil--85e8314b9e8d"
+    },
+    {
+      "company": "DuckDuckGo",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "DuckDuckGo",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-backend-engineer--670d72d2b163"
+    },
+    {
+      "company": "Sporty Group",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Sporty Group",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/frontend-engineer-latin-america--e1be470772fb"
+    },
+    {
+      "company": "Cache Ventures",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-findremote-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/vp-of-operations-emailable--8f7da171bd39"
+    }
+  ]
+}

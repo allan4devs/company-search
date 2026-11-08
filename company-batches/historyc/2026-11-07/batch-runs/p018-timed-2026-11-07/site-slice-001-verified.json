@@ -1,0 +1,2122 @@
+{
+  "cohortId": "likes-based-2026-11-07-p018",
+  "checkedOn": "2026-11-07",
+  "sourceInput": "company-batches\\historyc\\2026-11-07\\batch-runs\\p018-timed-2026-11-07\\site-slice-001-verify-input.json",
+  "inputCandidateCount": 104,
+  "candidateOffset": 0,
+  "candidateCount": 104,
+  "remainingCandidateCount": 0,
+  "elapsedMs": 562,
+  "officialPagesChecked": 3,
+  "verifierOptions": {
+    "concurrency": 24,
+    "maxFollowupPages": 2
+  },
+  "queryLanes": [
+    {
+      "lane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "checked": 26,
+      "reachable": 1,
+      "regionAndFit": 1,
+      "localOrEligibleAndFit": 1,
+      "regionAndFitRate": 0.038,
+      "localOrEligibleAndFitRate": 0.038,
+      "recommendation": "pause: fewer than 15% passed fit plus location; try a new source or segment"
+    },
+    {
+      "lane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "checked": 27,
+      "reachable": 0,
+      "regionAndFit": 0,
+      "localOrEligibleAndFit": 0,
+      "regionAndFitRate": 0,
+      "localOrEligibleAndFitRate": 0,
+      "recommendation": "pause: fewer than 15% passed fit plus location; try a new source or segment"
+    },
+    {
+      "lane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "checked": 26,
+      "reachable": 0,
+      "regionAndFit": 0,
+      "localOrEligibleAndFit": 0,
+      "regionAndFitRate": 0,
+      "localOrEligibleAndFitRate": 0,
+      "recommendation": "pause: fewer than 15% passed fit plus location; try a new source or segment"
+    },
+    {
+      "lane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "checked": 25,
+      "reachable": 0,
+      "regionAndFit": 0,
+      "localOrEligibleAndFit": 0,
+      "regionAndFitRate": 0,
+      "localOrEligibleAndFitRate": 0,
+      "recommendation": "pause: fewer than 15% passed fit plus location; try a new source or segment"
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Divelement Web Services",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 181,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "INTERSOG",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 182,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Exomindset",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 183,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "G360Technologies",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 184,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Gila Software",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 185,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Nareia",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 186,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "DNAMIC | Databricks Data Solutions",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 187,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Alluxi",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 188,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "N-iX Games",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 189,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Sagant",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 191,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Telos Labs",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 192,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "https://teloslabs.co/",
+      "websiteResolutionSource": "Wikidata official-website property; candidate URL only",
+      "domainResolutionStatus": "Wikidata suggestion; requires first-party verification",
+      "website": "https://teloslabs.co/",
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 1,
+      "careersUrl": "https://teloslabs.co/services/ai-enablement",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://teloslabs.co/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "LATAM"
+      ],
+      "officialLocationSnippets": [],
+      "officialRegionalPresenceSnippets": [
+        {
+          "url": "https://teloslabs.co/",
+          "country": "Mexico",
+          "snippet": "the work, and clients keep us on for years. Our Offices Bay Area, California 2120 University Ave Berkeley, CA 94704 USA Mexico City Av. Álvaro Obregón 213 Roma Nte., Cuauhtémoc, 06700 Monterrey Antonio L. Rodriguez 1888 Santa María, 64650 Sitemap"
+        }
+      ],
+      "regionalPresenceCountries": [
+        "Mexico"
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://teloslabs.co/",
+          "snippet": "Software Products and Operations, Built by One Team | Telos Labs What We Do Start here Three weeks, one decision, fixed fee Software products Build and evolve"
+        },
+        {
+          "url": "https://teloslabs.co/",
+          "snippet": "cts and Operations, Built by One Team | Telos Labs What We Do Start here Three weeks, one decision, fixed fee Software products Build and evolve software products Operations Automate and accelerate operations Start here Strategic Assessment Start here Decide what to b"
+        },
+        {
+          "url": "https://teloslabs.co/",
+          "snippet": "am | Telos Labs What We Do Start here Three weeks, one decision, fixed fee Software products Build and evolve software products Operations Automate and accelerate operations Start here Strategic Assessment Start here Decide what to build, buy, or leave alone, and in w"
+        },
+        {
+          "url": "https://teloslabs.co/",
+          "snippet": "c Assessment Start here Decide what to build, buy, or leave alone, and in what order. No obligation to build. Software products MVP Foundry Launch the smallest credible product first and grow from real signal. Design Sprint Validate the idea with users and a prototype"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": true
+    },
+    {
+      "name": "Towa - Nearshore Software Excellence",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 193,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Kadabra IT",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 194,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "HMS Software Solutions",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 195,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Kreilabs",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 196,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Sombra",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 197,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Seasoned",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 198,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Smallcode",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 199,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Nextant",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 200,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Squareball Studios",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 202,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Intermedia IT",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 203,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "SmartApp",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 204,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Kaizen Softworks",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 205,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Kreitech",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 207,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "AceBuddy",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 209,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Sancrisoft",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 210,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page6-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Whiz, a 10Pearls Company",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 211,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Commit Studio",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 212,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "IRIDIAN",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 213,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Liven",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 214,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Southteams",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 215,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Mobile2you Technology",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 216,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Innuy",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 217,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Vixteam Consultoria e Sistemas SA",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 218,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Digital Sense",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 221,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "iBlue Consulting",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 222,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Avantsoft",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 223,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Ubicutus Apps",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 224,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Xpantion",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 226,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Zennovia",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 227,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "King Tide",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 228,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Infograins Software Solutions",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 229,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Ulfix",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 230,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "TOTS",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 231,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "TEAM International",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 232,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "GoNet",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 233,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Ehecatl",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 234,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Appstract",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 235,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "rinf.tech",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 236,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "SmartUp Software",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 237,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Parafernalia Interativa",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 238,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Hristov Development",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 239,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "XOOR Inc.",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 240,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page7-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Humantech Innovation & Technology Agency",
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8",
+      "rank": 241,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Greencode",
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8",
+      "rank": 242,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Code Labs",
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8",
+      "rank": 243,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Cloud++ B.V.",
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8",
+      "rank": 244,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "OCTA",
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8",
+      "rank": 245,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Pyme One",
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8",
+      "rank": 246,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Polytropic",
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8",
+      "rank": 247,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Arkano",
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8",
+      "rank": 248,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Modelit",
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8",
+      "rank": 251,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Lexart",
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8",
+      "rank": 252,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "404 // Software crafters",
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8",
+      "rank": 253,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "BITLOGIC",
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8",
+      "rank": 254,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Quadion Technologies",
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8",
+      "rank": 255,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "AreaMovil S.A.S",
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8",
+      "rank": 256,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Glajumedia",
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8",
+      "rank": 257,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Sell with Marketing",
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8",
+      "rank": 259,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Digbang",
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8",
+      "rank": 260,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "SMT Solutions",
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8",
+      "rank": 261,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Adintelo",
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8",
+      "rank": 262,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Quillok",
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8",
+      "rank": 263,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Fx2",
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8",
+      "rank": 264,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "AccelOne",
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8",
+      "rank": 265,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Kalyptio",
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8",
+      "rank": 267,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Vanguard X",
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8",
+      "rank": 268,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Hood River Consulting",
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8",
+      "rank": 269,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Lean Tech",
+      "queryLane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=8",
+      "rank": 270,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page8-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "FlowCode",
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9",
+      "rank": 271,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "ROOTS INC",
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9",
+      "rank": 272,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "https://www.imdb.com/title/tt3315386/",
+      "domainResolutionStatus": "search candidate; requires first-party verification",
+      "domainSearch": {
+        "source": "Bing HTML results (DuckDuckGo had no name-matching results)",
+        "checkedOn": "2026-11-07",
+        "candidates": [
+          {
+            "title": "Roots (TV Mini Series 2016) - IMDb",
+            "url": "https://www.imdb.com/title/tt3315386/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"ROOTS INC\" software engineering \"Latin America\""
+          },
+          {
+            "title": "Roots Casual Clothing for Men, Women, and Kids | Roots",
+            "url": "https://www.roots.com/us/en/homepage",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"ROOTS INC\" software engineering \"Latin America\""
+          },
+          {
+            "title": "Watch Roots Full Episodes, Video & More | HISTORY",
+            "url": "https://www.history.com/shows/roots",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"ROOTS INC\" software engineering \"Latin America\""
+          },
+          {
+            "title": "Prime Video: Roots Season 1",
+            "url": "https://www.primevideo.com/-/es/detail/0MWTP0Y68HZIKJ7LGSJQTU2ARW/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"ROOTS INC\" software engineering \"Latin America\""
+          }
+        ]
+      },
+      "website": "",
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Mestres da Web",
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9",
+      "rank": 273,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "NTD Software",
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9",
+      "rank": 274,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Odiseo Software Development Company",
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9",
+      "rank": 275,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Envolve Labs",
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9",
+      "rank": 277,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Pixel Breeders",
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9",
+      "rank": 278,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Soluntech",
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9",
+      "rank": 279,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Smart Thinking",
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9",
+      "rank": 280,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "DevGrid",
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9",
+      "rank": 281,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Fulcrum Digital",
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9",
+      "rank": 283,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "DIXTRA",
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9",
+      "rank": 284,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "BRQ Digital Solutions",
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9",
+      "rank": 285,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "redbee studios",
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9",
+      "rank": 286,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Ebenezer Technologies",
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9",
+      "rank": 287,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Mythology Labs SRL",
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9",
+      "rank": 289,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Color Code Studio",
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9",
+      "rank": 290,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "https://htmlcolorcodes.com/es/",
+      "domainResolutionStatus": "search candidate; requires first-party verification",
+      "domainSearch": {
+        "source": "Bing HTML results (DuckDuckGo had no name-matching results)",
+        "checkedOn": "2026-11-07",
+        "candidates": [
+          {
+            "title": "Códigos de Colores HTML – HTML Color Codes",
+            "url": "https://htmlcolorcodes.com/es/",
+            "score": 2,
+            "engine": "bing",
+            "query": "\"Color Code Studio\" software engineering \"Latin America\""
+          },
+          {
+            "title": "HTML Color Codes",
+            "url": "https://htmlcolorcodes.com/",
+            "score": 2,
+            "engine": "bing",
+            "query": "\"Color Code Studio\" software engineering \"Latin America\""
+          }
+        ]
+      },
+      "website": "",
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "SimTLiX",
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9",
+      "rank": 291,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Devthion",
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9",
+      "rank": 292,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Innovare Software Agency",
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9",
+      "rank": 294,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "LogosCorp",
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9",
+      "rank": 296,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Jazusoft",
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9",
+      "rank": 297,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "FraSal",
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9",
+      "rank": 298,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "bycoders_",
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9",
+      "rank": 299,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Hypernova Labs",
+      "queryLane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=9",
+      "rank": 300,
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\reporting\\p017-manifest-page9-name-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "DuckDuckGo HTML results",
+        "checkedOn": "2026-11-07",
+        "candidates": []
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    }
+  ]
+}

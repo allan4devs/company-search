@@ -1,0 +1,3610 @@
+{
+  "cohortId": "likes-based-2026-11-06-p005-research-pool",
+  "checkedOn": "2026-11-06",
+  "inputFiles": [
+    "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+    "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-wave2-verified.json",
+    "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-gap-candidates.json",
+    "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-new-verified-candidates.json",
+    "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-additional-verified-candidates.json",
+    "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-last-mile-candidates.json",
+    "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json"
+  ],
+  "inputCount": 324,
+  "uniqueCount": 134,
+  "outputCount": 134,
+  "duplicateCount": 190,
+  "missingIdentityCount": 0,
+  "catalog": {
+    "source": "MongoDB + bundled files + prior batches",
+    "mongoCompanies": 1320,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 221,
+    "indexedNames": 1471,
+    "indexedDomains": 1416
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 63,
+    "topTracks": [
+      {
+        "track": "Engineering",
+        "count": 36
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Software Engineering",
+        "count": 3
+      },
+      {
+        "track": "Node.js",
+        "count": 2
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        46
+      ],
+      [
+        "direct",
+        16
+      ],
+      [
+        "unknown",
+        1
+      ]
+    ]
+  },
+  "queryLanes": [
+    {
+      "lane": "CAMTIC Costa Rica ICT member directory",
+      "leads": 68,
+      "unique": 68,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Guía TIC Costa Rica technology supplier directory",
+      "leads": 29,
+      "unique": 29,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "ContactOut Costa Rica IT services leads; official site follow-up wave 2",
+      "leads": 17,
+      "unique": 17,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "ContactOut Costa Rica IT services leads; official site follow-up",
+      "leads": 14,
+      "unique": 14,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "CamSCAT Costa Rica shared-services member directory",
+      "leads": 3,
+      "unique": 3,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Costa Rica employer directory and careers",
+      "leads": 5,
+      "unique": 2,
+      "duplicateRate": 0.6,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Costa Rica employer official careers wave 3",
+      "leads": 5,
+      "unique": 1,
+      "duplicateRate": 0.8,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "official ATS Costa Rica engineering roles",
+      "leads": 2,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "official ATS LATAM product engineering roles",
+      "leads": 7,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "official ATS LATAM engineering consultancy roles",
+      "leads": 3,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "official LATAM nearshore careers pages",
+      "leads": 2,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "official LATAM product engineering careers pages",
+      "leads": 1,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official Costa Rica software careers pages 2026-11-06",
+      "leads": 1,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official LATAM engineering careers 2026-11-06",
+      "leads": 2,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Himalayas CR engineering leads; official ATS verification",
+      "leads": 12,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Himalayas CR engineering leads; official site verification",
+      "leads": 4,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official Latin America employer and careers research",
+      "leads": 4,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official Costa Rica ATS engineering roles",
+      "leads": 24,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "pause lane; switch industry or ATS source"
+    },
+    {
+      "lane": "Official LATAM ATS engineering roles",
+      "leads": 10,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official Costa Rica employer careers sources",
+      "leads": 6,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official LATAM employer careers sources",
+      "leads": 8,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official Costa Rica engineering roles",
+      "leads": 8,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Costa Rica employer and careers sources",
+      "leads": 22,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "pause lane; switch industry or ATS source"
+    },
+    {
+      "lane": "Official Costa Rica employer and careers sources",
+      "leads": 2,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official Costa Rica company location and careers",
+      "leads": 2,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official Ashby Costa Rica engineering postings",
+      "leads": 1,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Costa Rica nearshore employer career pages",
+      "leads": 2,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Costa Rica employer career pages",
+      "leads": 2,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official Costa Rica ATS postings",
+      "leads": 4,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official BambooHR engineering postings",
+      "leads": 1,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "LATAM remote engineering careers",
+      "leads": 53,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "pause lane; switch industry or ATS source"
+    }
+  ],
+  "entries": [
+    {
+      "company": "ActionCOACH Costa Rica",
+      "domain": "actioncoachiberoamerica.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/actioncoach-costa-rica/"
+    },
+    {
+      "company": "Análisis MBC",
+      "domain": "analisis.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/analisis-mbc/"
+    },
+    {
+      "company": "Asesoftware",
+      "domain": "asesoftware.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/asesoftware/"
+    },
+    {
+      "company": "ATESA",
+      "domain": "atesacr.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/atesa/"
+    },
+    {
+      "company": "Aura Interactiva",
+      "domain": "shiftelearning.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/aura-interactiva/"
+    },
+    {
+      "company": "Avocash",
+      "domain": "avocashenlinea.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/avocash/"
+    },
+    {
+      "company": "Babel",
+      "domain": "babelgroup.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/babel/"
+    },
+    {
+      "company": "BIS",
+      "domain": "bis.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/business-integrators-systems/"
+    },
+    {
+      "company": "CANU ARTS",
+      "domain": "canuarts.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/canu-arts/"
+    },
+    {
+      "company": "Cloud Business Solutions",
+      "domain": "cbs.co.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/cloud-business-solutions/"
+    },
+    {
+      "company": "CNET",
+      "domain": "cnet.co.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/cnet/"
+    },
+    {
+      "company": "COASIN",
+      "domain": "coasin.co.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/coasin/"
+    },
+    {
+      "company": "Coding Ninja",
+      "domain": "coding-ninja.net",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/coding-ninja/"
+    },
+    {
+      "company": "Componentes El Orbe",
+      "domain": "elorbe.la",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/componentes-el-orbe/"
+    },
+    {
+      "company": "Coral",
+      "domain": "coralcr.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/coral-systems/"
+    },
+    {
+      "company": "CSI Consultores",
+      "domain": "csi-cr.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/csi-consultores/"
+    },
+    {
+      "company": "Daytona Soft",
+      "domain": "daytonasoft.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/daytona-soft/"
+    },
+    {
+      "company": "Detektor",
+      "domain": "detektor.co.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/detektor/"
+    },
+    {
+      "company": "dLocal",
+      "domain": "dlocal.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/dlocal/"
+    },
+    {
+      "company": "EA Tech Consulting",
+      "domain": "eatechconsulting.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/eatechconsulting/"
+    },
+    {
+      "company": "Ecija",
+      "domain": "ecija.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/ecija/"
+    },
+    {
+      "company": "Elefat",
+      "domain": "elefat.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/elefat/"
+    },
+    {
+      "company": "Entrust Consultores",
+      "domain": "oratechla.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/entrust-consultores/"
+    },
+    {
+      "company": "Equifax Inc.",
+      "domain": "equifax.co.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/equifax-inc/"
+    },
+    {
+      "company": "EXSQ LATAM/EX Squared LATAM",
+      "domain": "exsquared.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/ex-squared-latam/"
+    },
+    {
+      "company": "Fundación Omar Dengo",
+      "domain": "ac.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/fundacion-omar-dengo/"
+    },
+    {
+      "company": "Fusionet",
+      "domain": "fusionetcorp.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/fusionet/"
+    },
+    {
+      "company": "Globalex",
+      "domain": "globalex.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/globalex/"
+    },
+    {
+      "company": "Growth Hackers",
+      "domain": "growthhacker.services",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/growth-hackers/"
+    },
+    {
+      "company": "Grupo Asesor",
+      "domain": "grupoasesor.net",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/grupo-asesor/"
+    },
+    {
+      "company": "Grupo CMA",
+      "domain": "grupocma.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/grupo-cma/"
+    },
+    {
+      "company": "Grupo Más",
+      "domain": "grupomas.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/grupo-mas/"
+    },
+    {
+      "company": "Grupo T&#038;TA",
+      "domain": "ttaca.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/grupo-tta/"
+    },
+    {
+      "company": "GSI",
+      "domain": "e-gsi.net",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/gsi/"
+    },
+    {
+      "company": "Huawei Technologies",
+      "domain": "huawei.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/huawei-technologies-costa-rica-s-a/"
+    },
+    {
+      "company": "Incompany",
+      "domain": "incompany.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/incompany/"
+    },
+    {
+      "company": "INFOTREC",
+      "domain": "infotrec.co.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/infotrec/"
+    },
+    {
+      "company": "IMPESA",
+      "domain": "impesa.net",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/impesa/"
+    },
+    {
+      "company": "Impulsa IT Solutions",
+      "domain": "impulsait.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/impulsa-it-solutions/"
+    },
+    {
+      "company": "IT Learning Solution",
+      "domain": "flane.com.pa",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/it-learning-solution/"
+    },
+    {
+      "company": "JAFU",
+      "domain": "figueresulate.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/jafu/"
+    },
+    {
+      "company": "Kruger Innova CR",
+      "domain": "krugercorp.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/kruger-innova-costa-rica/"
+    },
+    {
+      "company": "Legadmi",
+      "domain": "legadmi.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/legadmi/"
+    },
+    {
+      "company": "Loymark",
+      "domain": "loymark.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/loymark/"
+    },
+    {
+      "company": "Masterlex",
+      "domain": "tirant.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/masterlex/"
+    },
+    {
+      "company": "Navasoft",
+      "domain": "navasoftsoluciones.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/navasoft/"
+    },
+    {
+      "company": "Navegalo",
+      "domain": "navegalo.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/navegalo/"
+    },
+    {
+      "company": "Next Curve",
+      "domain": "nextcurve.io",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/next-curve/"
+    },
+    {
+      "company": "Nóvaq",
+      "domain": "novaq.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/novaq/"
+    },
+    {
+      "company": "NOVUS ERP",
+      "domain": "novussoftware.la",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/novus-erp/"
+    },
+    {
+      "company": "OPTEC SISTEMAS S.A.",
+      "domain": "optecsistemas.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/optec-sistemas-s-a/"
+    },
+    {
+      "company": "Orcase",
+      "domain": "orcase.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/orcase/"
+    },
+    {
+      "company": "Piscium Security",
+      "domain": "piscium.net",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/piscium-security/"
+    },
+    {
+      "company": "Prosoft",
+      "domain": "prosoft.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/prosoft/"
+    },
+    {
+      "company": "R.A.C.S.A.",
+      "domain": "go.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/radiografica-costarricense-s-a/"
+    },
+    {
+      "company": "RF Grupo Educativo Ltda",
+      "domain": "rfgrupoeducativo.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/rf-grupo-educativo-ltda/"
+    },
+    {
+      "company": "Simplexity Consulting",
+      "domain": "simplexityla.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/simplexity-consulting/"
+    },
+    {
+      "company": "SmartSoft",
+      "domain": "soysentinel.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/smartsoft/"
+    },
+    {
+      "company": "Solvai",
+      "domain": "it.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/solvai/"
+    },
+    {
+      "company": "Talentify",
+      "domain": "talentify.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/talentify/"
+    },
+    {
+      "company": "TecApro",
+      "domain": "tecapro.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/tecapro/"
+    },
+    {
+      "company": "Three Rivers Software",
+      "domain": "3riverssoftware.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/three-rivers-software/"
+    },
+    {
+      "company": "Truesec",
+      "domain": "true-sec.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/truesec/"
+    },
+    {
+      "company": "TuanisApps SRL",
+      "domain": "tuanisapps.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/tuanisapps-srl/"
+    },
+    {
+      "company": "Vertix Solutions",
+      "domain": "vertixsolutions.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/vertix-solutions/"
+    },
+    {
+      "company": "Whizmo",
+      "domain": "whizmo.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/whizmo-2/"
+    },
+    {
+      "company": "XperSoft",
+      "domain": "xpersoft.net",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/xpersoft/"
+    },
+    {
+      "company": "Yoopy",
+      "domain": "yoopy.app",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/yoopy/"
+    },
+    {
+      "company": "AlfaPeople Andino SA",
+      "domain": "alfapeople.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "APPROPIA OPEN SOURCE S.A.S.",
+      "domain": "appropia.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "CLOUD PULSE",
+      "domain": "becloudpulse.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "COSMO CONSULT",
+      "domain": "cosmoconsult.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "CYMETRIA Group S.A.S.",
+      "domain": "cymetria.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "DEVCOGNITIO SAS",
+      "domain": "devco.com.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "DRIVIN",
+      "domain": "driv.in",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "eSoft Colombia SAS",
+      "domain": "esoft.com.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "FORWARTY",
+      "domain": "myforwarty.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "GCON4",
+      "domain": "gcon4.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Giitic S.A.S.",
+      "domain": "giitic.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Grupo NW S.A.S.",
+      "domain": "gruponw.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "HEINSOHN BUSINESS TECHNOLOGY",
+      "domain": "heinsohn.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "iMedical Services S.A.S.",
+      "domain": "imedicalservices.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "INFORMACIÓN GERENCIAL LTDA.",
+      "domain": "informaciongerencial.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "KCP Dynamics SL",
+      "domain": "kcpdynamics.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "OasisCom",
+      "domain": "oasiscom.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "OneScreen Solutions",
+      "domain": "onescreenlatam.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Oracle NetSuite",
+      "domain": "netsuite.com.mx",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "PSC PROSOL COLOMBIA SAS",
+      "domain": "prosol.com.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Q10 SAS",
+      "domain": "q10.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Rempro Software",
+      "domain": "rempro.co.cr",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Schneider Electric Centroamérica LTDA",
+      "domain": "se.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "SIAFF CONSULTORES, S.A. DE C.V",
+      "domain": "siaff.net",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Softland Colombia SAS",
+      "domain": "softland.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Soporte y Compañía SAS",
+      "domain": "infomante.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "SUPREMA INC",
+      "domain": "supremainc.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Tickelia, Legalización de viáticos y gastos de empresa",
+      "domain": "tickelia.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "TIQAL S.A.S.",
+      "domain": "darumasoftware.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Smith",
+      "domain": "smith-nephew.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "Bill Goslyn",
+      "domain": "billgosling.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "Cinde",
+      "domain": "cinde.org",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "OfferFit",
+      "domain": "braze.com",
+      "queryLane": "Costa Rica employer directory and careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Braze",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.offerfit.ai/careers"
+    },
+    {
+      "company": "Yalo",
+      "domain": "yalo.ai",
+      "queryLane": "Costa Rica employer directory and careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.yalo.com/careers"
+    },
+    {
+      "company": "Flatirons",
+      "domain": "swovo.com",
+      "queryLane": "Costa Rica employer directory and careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://flatirons.com/careers"
+    },
+    {
+      "company": "Trifecta Software",
+      "domain": "trifectasoftware.com",
+      "queryLane": "Costa Rica employer official careers wave 3",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.trifectasoftware.com/"
+    },
+    {
+      "company": "Pernix-Solutions",
+      "domain": "pernix-solutions.com",
+      "queryLane": "ContactOut Costa Rica IT services leads; official site follow-up",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://contactout.com/company/pernix-solutions-6624445"
+    },
+    {
+      "company": "ITS Infocom",
+      "domain": "itsinfocom.com",
+      "queryLane": "ContactOut Costa Rica IT services leads; official site follow-up",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://contactout.com/company/its-2328489"
+    },
+    {
+      "company": "Advision Development",
+      "domain": "advisiondevelopment.com",
+      "queryLane": "ContactOut Costa Rica IT services leads; official site follow-up",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://contactout.com/company/Advision-Development-3129"
+    },
+    {
+      "company": "Nortec Consulting",
+      "domain": "nortec.co.cr",
+      "queryLane": "ContactOut Costa Rica IT services leads; official site follow-up",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://contactout.com/company/Nortec-Consulting-3376"
+    },
+    {
+      "company": "Conzultek",
+      "domain": "conzultek.com",
+      "queryLane": "ContactOut Costa Rica IT services leads; official site follow-up",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://contactout.com/company/Conzultek-7313"
+    },
+    {
+      "company": "Alta Tecnología S.A.",
+      "domain": "alta-tecnologia.com",
+      "queryLane": "ContactOut Costa Rica IT services leads; official site follow-up",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://contactout.com/company/alta-tecnologia-s-a-careers-and-current-employee-profiles-7766"
+    },
+    {
+      "company": "NAVSAT",
+      "domain": "navsat.com",
+      "queryLane": "ContactOut Costa Rica IT services leads; official site follow-up",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://contactout.com/company/NAVSAT-5631"
+    },
+    {
+      "company": "BD Consultores",
+      "domain": "bdconsultores.com",
+      "queryLane": "ContactOut Costa Rica IT services leads; official site follow-up",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://contactout.com/company/BD-Consultores-5159"
+    },
+    {
+      "company": "Logical Data",
+      "domain": "ld.co.cr",
+      "queryLane": "ContactOut Costa Rica IT services leads; official site follow-up",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://contactout.com/company/Logical-Data-4675"
+    },
+    {
+      "company": "FT Technologies",
+      "domain": "fttechnologies.io",
+      "queryLane": "ContactOut Costa Rica IT services leads; official site follow-up",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://contactout.com/company/FT-Technologies-84194"
+    },
+    {
+      "company": "Logosoft",
+      "domain": "logosoftla.com",
+      "queryLane": "ContactOut Costa Rica IT services leads; official site follow-up",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://contactout.com/company/Logosoft-97083"
+    },
+    {
+      "company": "Facturar.CR",
+      "domain": "facturar.cr",
+      "queryLane": "ContactOut Costa Rica IT services leads; official site follow-up",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://contactout.com/company/FacturarCR-28863"
+    },
+    {
+      "company": "SIS Technologies",
+      "domain": "stdm-la.com",
+      "queryLane": "ContactOut Costa Rica IT services leads; official site follow-up",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://contactout.com/company/SIS-Technologies-38226"
+    },
+    {
+      "company": "Smart Metrics",
+      "domain": "thesmartmetrics.com",
+      "queryLane": "ContactOut Costa Rica IT services leads; official site follow-up",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-shortlist-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://contactout.com/company/Smart-Metrics-51458"
+    },
+    {
+      "company": "Auty",
+      "domain": "auty.ai",
+      "queryLane": "ContactOut Costa Rica IT services leads; official site follow-up wave 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-wave2-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://contactout.com/company/Auty-68245"
+    },
+    {
+      "company": "Aurens",
+      "domain": "aurens.com",
+      "queryLane": "ContactOut Costa Rica IT services leads; official site follow-up wave 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-wave2-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://contactout.com/company/Aurens-52783"
+    },
+    {
+      "company": "SUMMIT TECHNOLOGIES",
+      "domain": "summit-tec.net",
+      "queryLane": "ContactOut Costa Rica IT services leads; official site follow-up wave 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-wave2-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://contactout.com/company/SUMMIT-TECHNOLOGIES-80325"
+    },
+    {
+      "company": "ISM Services",
+      "domain": "ism-serv.com",
+      "queryLane": "ContactOut Costa Rica IT services leads; official site follow-up wave 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-wave2-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://contactout.com/company/ISM-Services-28909"
+    },
+    {
+      "company": "SOCIUM",
+      "domain": "socium.cr",
+      "queryLane": "ContactOut Costa Rica IT services leads; official site follow-up wave 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-wave2-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://contactout.com/company/SOCIUM-97979"
+    },
+    {
+      "company": "Crowd Intelligence",
+      "domain": "crowdintelligence.net",
+      "queryLane": "ContactOut Costa Rica IT services leads; official site follow-up wave 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-wave2-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://contactout.com/company/Crowd-Intelligence-38076"
+    },
+    {
+      "company": "Digital Information Strategy",
+      "domain": "delfixcr.com",
+      "queryLane": "ContactOut Costa Rica IT services leads; official site follow-up wave 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-wave2-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://contactout.com/company/Delfix-47310"
+    },
+    {
+      "company": "DNAMIC",
+      "domain": "dnamic.ai",
+      "queryLane": "ContactOut Costa Rica IT services leads; official site follow-up wave 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-wave2-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://contactout.com/company/DNAMIC-58277"
+    },
+    {
+      "company": "Mawi",
+      "domain": "mawi.io",
+      "queryLane": "ContactOut Costa Rica IT services leads; official site follow-up wave 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-wave2-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://contactout.com/company/Mawi-92829"
+    },
+    {
+      "company": "Centauro Solutions",
+      "domain": "centaurosolutions.com",
+      "queryLane": "ContactOut Costa Rica IT services leads; official site follow-up wave 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-wave2-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://contactout.com/company/Centauro-Solutions-87385"
+    },
+    {
+      "company": "Informatech Costa Rica",
+      "domain": "informatech.cr",
+      "queryLane": "ContactOut Costa Rica IT services leads; official site follow-up wave 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-wave2-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://contactout.com/company/Informatech-Costa-Rica-66289"
+    },
+    {
+      "company": "Atom Soluciones",
+      "domain": "atomsoluciones.com",
+      "queryLane": "ContactOut Costa Rica IT services leads; official site follow-up wave 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-wave2-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://contactout.com/company/Atom-Soluciones-46667"
+    },
+    {
+      "company": "Industria 4.0",
+      "domain": "facturero.cr",
+      "queryLane": "ContactOut Costa Rica IT services leads; official site follow-up wave 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-wave2-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://contactout.com/company/Industria-40-67283"
+    },
+    {
+      "company": "PIXDEA",
+      "domain": "pixdea.com",
+      "queryLane": "ContactOut Costa Rica IT services leads; official site follow-up wave 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-wave2-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://contactout.com/company/PIXDEA-61902"
+    },
+    {
+      "company": "Quarzo Tecnología",
+      "domain": "quarzo.com",
+      "queryLane": "ContactOut Costa Rica IT services leads; official site follow-up wave 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-wave2-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://contactout.com/company/Quarzo-Tecnologia-81671"
+    },
+    {
+      "company": "Creek Software",
+      "domain": "atmosera.com",
+      "queryLane": "ContactOut Costa Rica IT services leads; official site follow-up wave 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-wave2-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://contactout.com/company/Creek-Software-39932"
+    },
+    {
+      "company": "Softon Digital",
+      "domain": "softonitg.com",
+      "queryLane": "ContactOut Costa Rica IT services leads; official site follow-up wave 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p005-wave2-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://contactout.com/company/Softon-Digital-87224"
+    },
+    {
+      "company": "TrueML",
+      "domain": "trueml.co",
+      "queryLane": "official ATS Costa Rica engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-gap-candidates.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "TrueML",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://trueml.co/careers/"
+    },
+    {
+      "company": "Airtm",
+      "domain": "airtm.com",
+      "queryLane": "official ATS LATAM product engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-gap-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Airtm",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.lever.co/airtm"
+    },
+    {
+      "company": "Donorbox",
+      "domain": "donorbox.org",
+      "queryLane": "official ATS LATAM product engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-gap-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Donorbox",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/donorbox"
+    },
+    {
+      "company": "Wagmo",
+      "domain": "wagmo.io",
+      "queryLane": "official ATS LATAM product engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-gap-candidates.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Wagmo",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://wagmo.io/careers"
+    },
+    {
+      "company": "Capchase",
+      "domain": "capchase.com",
+      "queryLane": "official ATS Costa Rica engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-gap-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Capchase",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.capchase.com/careers"
+    },
+    {
+      "company": "Empirical",
+      "domain": "goempirical.com",
+      "queryLane": "official ATS LATAM engineering consultancy roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-gap-candidates.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Empirical",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.ashbyhq.com/empirical"
+    },
+    {
+      "company": "Fueled",
+      "domain": "fueled.com",
+      "queryLane": "official ATS LATAM engineering consultancy roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-gap-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Fueled",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/fueledcareers"
+    },
+    {
+      "company": "Icalia Labs",
+      "domain": "icalialabs.com",
+      "queryLane": "official LATAM nearshore careers pages",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-gap-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Icalia Labs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://icalialabs.com/careers/engineering-network.html"
+    },
+    {
+      "company": "Savvy Wealth",
+      "domain": "savvywealth.com",
+      "queryLane": "official ATS LATAM product engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-gap-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Savvy Wealth",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.ashbyhq.com/savvy"
+    },
+    {
+      "company": "SELLIT9",
+      "domain": "sellit9.com",
+      "queryLane": "official LATAM product engineering careers pages",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-gap-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Sellit9",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.sellit9.com/careers/senior-product-engineer-remote-latam"
+    },
+    {
+      "company": "CodeRoad",
+      "domain": "coderoad.com",
+      "queryLane": "official ATS LATAM engineering consultancy roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-gap-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "CodeRoad",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://coderoad.com/careers"
+    },
+    {
+      "company": "Canary Technologies",
+      "domain": "canarytechnologies.com",
+      "queryLane": "official ATS LATAM product engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-gap-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Canary Technologies",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.lever.co/canarytechnologies"
+    },
+    {
+      "company": "Engine",
+      "domain": "engine.com",
+      "queryLane": "official ATS LATAM product engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-gap-candidates.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Engine",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/engine"
+    },
+    {
+      "company": "ThriveCart",
+      "domain": "thrivecart.com",
+      "queryLane": "official ATS LATAM product engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-gap-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "ThriveCart",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/thrivecart"
+    },
+    {
+      "company": "South Geeks",
+      "domain": "southgeeks.com",
+      "queryLane": "official LATAM nearshore careers pages",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-gap-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "South Geeks",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.southgeeks.com/careers"
+    },
+    {
+      "company": "Fair Play Labs",
+      "domain": "fairplaylabs.com",
+      "queryLane": "Official Costa Rica software careers pages 2026-11-06",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-new-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Fair Play Labs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://fairplaylabs.com/careers/"
+    },
+    {
+      "company": "weKnow Inc.",
+      "domain": "weknowinc.com",
+      "queryLane": "Official LATAM engineering careers 2026-11-06",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-new-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "weKnow",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://weknowinc.com/careers/work-at-weknow/"
+    },
+    {
+      "company": "Convo Relay",
+      "domain": "convorelay.com",
+      "queryLane": "Official LATAM engineering careers 2026-11-06",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-new-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Convo Relay",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://dugu.dev/"
+    },
+    {
+      "company": "Edenia",
+      "domain": "edenia.com",
+      "queryLane": "Costa Rica employer official careers wave 3",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-new-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Edenia",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://edenia.com/es/carreras-desarrollador-blockchain"
+    },
+    {
+      "company": "Aplix",
+      "domain": "aplix.cr",
+      "queryLane": "Costa Rica employer official careers wave 3",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-new-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Aplix",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://aplix.cr/"
+    },
+    {
+      "company": "KyrApps",
+      "domain": "kyrapps.com",
+      "queryLane": "Costa Rica employer official careers wave 3",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-new-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "KyrApps",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://kyrapps.com/"
+    },
+    {
+      "company": "Trifecta Software",
+      "domain": "trifectasoftware.com",
+      "queryLane": "Costa Rica employer official careers wave 3",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-new-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Trifecta Software",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://www.trifectasoftware.com/"
+    },
+    {
+      "company": "Fractal River",
+      "domain": "fractalriver.com",
+      "queryLane": "Himalayas CR engineering leads; official ATS verification",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-additional-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Fractal River",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://fractal-river.breezy.hr/p/60cec77079df-data-engineer-remote-latin-america"
+    },
+    {
+      "company": "Prometeo Talent",
+      "domain": "prometeotalent.com",
+      "queryLane": "Himalayas CR engineering leads; official ATS verification",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-additional-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Prometeo Talent",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.prometeotalent.com/jobs/8564566-qa-automation-engineer-100-remote-latam"
+    },
+    {
+      "company": "NetForemost",
+      "domain": "netforemost.com",
+      "queryLane": "Himalayas CR engineering leads; official ATS verification",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-additional-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "NetForemost",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://netforemost.zohorecruit.com/jobs"
+    },
+    {
+      "company": "Makai Digital",
+      "domain": "makaihq.com",
+      "queryLane": "Himalayas CR engineering leads; official site verification",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-additional-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Makai Digital",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.makaihq.com/careers"
+    },
+    {
+      "company": "Playbypoint",
+      "domain": "playbypoint.com",
+      "queryLane": "Himalayas CR engineering leads; official ATS verification",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-additional-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Playbypoint",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://playbypoint.na.teamtailor.com/"
+    },
+    {
+      "company": "thinkbridge",
+      "domain": "thinkbridge.com",
+      "queryLane": "Himalayas CR engineering leads; official site verification",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-additional-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "thinkbridge",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.thinkbridge.com/about-us"
+    },
+    {
+      "company": "Appsilon",
+      "domain": "appsilon.com",
+      "queryLane": "Himalayas CR engineering leads; official ATS verification",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-additional-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Appsilon",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://appsilon-1739358905.teamtailor.com/"
+    },
+    {
+      "company": "Alpaca",
+      "domain": "alpaca.markets",
+      "queryLane": "Himalayas CR engineering leads; official ATS verification",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-additional-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Alpaca",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/alpaca"
+    },
+    {
+      "company": "Puzzle",
+      "domain": "puzzle.tech",
+      "queryLane": "Official Latin America employer and careers research",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-additional-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Puzzle",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.puzzle.tech/about-us"
+    },
+    {
+      "company": "CSC Generation",
+      "domain": "cscgeneration.com",
+      "queryLane": "Official Costa Rica ATS engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-additional-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "CSC Generation",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.lever.co/cscgeneration-2/0ef9eb9f-f2cc-42f4-b8f9-4a34a771b4e0"
+    },
+    {
+      "company": "CXT Software",
+      "domain": "cxtsoftware.com",
+      "queryLane": "Official LATAM ATS engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-additional-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "CXT Software",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.lever.co/cxtsoftware/6f79361c-f637-43dd-8d3d-e97002088b67"
+    },
+    {
+      "company": "Bluelight Consulting",
+      "domain": "bluelight.co",
+      "queryLane": "Official LATAM ATS engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-additional-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Bluelight Consulting",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.lever.co/bluelightconsulting/e92392b8-7ee5-46eb-8d74-462673820819"
+    },
+    {
+      "company": "Livefront",
+      "domain": "livefront.com",
+      "queryLane": "Official Costa Rica ATS engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-additional-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Livefront",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/livefront/jobs/4243344009"
+    },
+    {
+      "company": "Backblaze",
+      "domain": "backblaze.com",
+      "queryLane": "Official Costa Rica ATS engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-additional-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Backblaze",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/backblaze/jobs/5442462008"
+    },
+    {
+      "company": "Newsela",
+      "domain": "newsela.com",
+      "queryLane": "Official Costa Rica ATS engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-additional-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Newsela",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/newsela/jobs/8249272"
+    },
+    {
+      "company": "SimSpace",
+      "domain": "simspace.com",
+      "queryLane": "Official Costa Rica ATS engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-additional-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "SimSpace",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.ashbyhq.com/simspace-corporation/f174dcb1-6766-4620-a182-c81c848e4fdd"
+    },
+    {
+      "company": "Homera Health",
+      "domain": "homerahealth.com",
+      "queryLane": "Official Costa Rica ATS engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-additional-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Homera Health",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.ashbyhq.com/homera-health/b9fd96f4-00a8-43e6-864a-eea7423ab9b4"
+    },
+    {
+      "company": "Aubrant Digital",
+      "domain": "aubrant.com",
+      "queryLane": "Official Costa Rica ATS engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-additional-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Aubrant Digital",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://ats.rippling.com/epic-software/jobs"
+    },
+    {
+      "company": "Granicus",
+      "domain": "granicus.com",
+      "queryLane": "Official Costa Rica ATS engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-additional-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Granicus",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://globalcareers-granicus.icims.com/jobs/10169/costa-rica-software-engineer/job?in_iframe=1"
+    },
+    {
+      "company": "TransUnion",
+      "domain": "transunion.com",
+      "queryLane": "Official Costa Rica ATS engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-additional-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "TransUnion",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://transunion.wd5.myworkdayjobs.com/en-US/TransUnion/job/Software-Developer_19040620"
+    },
+    {
+      "company": "CapDev",
+      "domain": "capdevcr.com",
+      "queryLane": "Official Costa Rica employer careers sources",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-additional-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "CapDev",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://capdevcr.com/developers.html"
+    },
+    {
+      "company": "Improving",
+      "domain": "improving.com",
+      "queryLane": "Official Costa Rica employer careers sources",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-additional-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Improving",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.improving.com/careers/costa-rica/"
+    },
+    {
+      "company": "OfficeSpace Software",
+      "domain": "officespacesoftware.com",
+      "queryLane": "Official Costa Rica ATS engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-additional-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "OfficeSpace Software",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/officespacesoftware"
+    },
+    {
+      "company": "Galileo Financial Technologies",
+      "domain": "galileo-ft.com",
+      "queryLane": "Official Costa Rica ATS engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-additional-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Galileo Financial Technologies",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/galileofinancialtechnologies"
+    },
+    {
+      "company": "Truelogic",
+      "domain": "truelogic.io",
+      "queryLane": "Official LATAM employer careers sources",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-additional-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Truelogic",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.truelogic.io/"
+    },
+    {
+      "company": "Gamebreaking Studios",
+      "domain": "gamebreaking.com",
+      "queryLane": "Official LATAM employer careers sources",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-additional-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Gamebreaking Studios",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://careers.gamebreaking.com/"
+    },
+    {
+      "company": "Admios",
+      "domain": "admios.com",
+      "queryLane": "Official LATAM employer careers sources",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-additional-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Admios",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.admios.com/careers"
+    },
+    {
+      "company": "Blue Coding",
+      "domain": "bluecoding.com",
+      "queryLane": "Official LATAM ATS engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-additional-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Blue Coding",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.lever.co/bluecoding/456ce1b0-5a77-4a27-9a82-37d0074f14ec"
+    },
+    {
+      "company": "In All Media Inc",
+      "domain": "inallmedia.com",
+      "queryLane": "Official LATAM ATS engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-additional-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "In All Media",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://inallmedia-llc.breezy.hr/p/8c43c0ef7e89-full-stack-engineer-react-go"
+    },
+    {
+      "company": "Harris Computer",
+      "domain": "harriscomputer.com",
+      "queryLane": "Official Costa Rica ATS engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-additional-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Harris Computer",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://harriscomputer.wd3.myworkdayjobs.com/en-US/1/job/XMLNAME--Remote--Senior-Software-Developer_R0044370-3"
+    },
+    {
+      "company": "Celara Labs",
+      "domain": "celaralabs.com",
+      "queryLane": "Official LATAM employer careers sources",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-additional-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Celara Labs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://celaralabs.com/talent"
+    },
+    {
+      "company": "Elastic",
+      "domain": "elastic.co",
+      "queryLane": "Official Costa Rica engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-additional-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Elastic",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.elastic.co/jobs/marketing/costa-rica/full-stack-technical-developer/8281841?gh_jid=8281841"
+    },
+    {
+      "company": "Zscaler",
+      "domain": "zscaler.com",
+      "queryLane": "Official Costa Rica engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-additional-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Zscaler",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/zscaler/jobs/5202103007"
+    },
+    {
+      "company": "Confiz",
+      "domain": "confiz.com",
+      "queryLane": "Official Costa Rica engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-additional-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Confiz",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://confiz.simplicant.com/jobs/62781-software-engineer-java-level-iii-costa-rica-remote/detail?referer=jobboard"
+    },
+    {
+      "company": "Johnson Controls",
+      "domain": "johnsoncontrols.com",
+      "queryLane": "Official Costa Rica engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-additional-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Johnson Controls",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.johnsoncontrols.com/job/WD30282267"
+    },
+    {
+      "company": "Syniverse",
+      "domain": "syniverse.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-additional-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Syniverse",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.linkedin.com/company/syniverse/jobs/"
+    },
+    {
+      "company": "World Wide Technology",
+      "domain": "wwt.com",
+      "queryLane": "Official Costa Rica employer and careers sources",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-additional-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "World Wide Technology",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.wwt.com/careers-in-the-americas"
+    },
+    {
+      "company": "Workana",
+      "domain": "workana.com",
+      "queryLane": "Official Latin America employer and careers research",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-additional-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Workana",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.workana.com/work/devs"
+    },
+    {
+      "company": "Freeway Consulting",
+      "domain": "freewayconsulting.com",
+      "queryLane": "Official Costa Rica employer careers sources",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-additional-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Freeway Consulting",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://freewayconsulting.jazz.co/"
+    },
+    {
+      "company": "SchoolMint",
+      "domain": "schoolmint.com",
+      "queryLane": "Official Costa Rica company location and careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-additional-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "SchoolMint",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://schoolmint.com/contact-us/"
+    },
+    {
+      "company": "Cloudbeds",
+      "domain": "cloudbeds.com",
+      "queryLane": "Official LATAM ATS engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\verification\\likes-based-2026-11-06-p003-additional-verified-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Cloudbeds",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/cloudbeds/jobs/4717376005"
+    },
+    {
+      "company": "SimSpace",
+      "domain": "simspace.com",
+      "queryLane": "Official Ashby Costa Rica engineering postings",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-last-mile-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "SimSpace",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.ashbyhq.com/simspace-corporation"
+    },
+    {
+      "company": "Excel Nearshore",
+      "domain": "excelnearshore.com",
+      "queryLane": "Costa Rica nearshore employer career pages",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-last-mile-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Excel Nearshore",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://excelnearshore.com/careers/"
+    },
+    {
+      "company": "Neverfail",
+      "domain": "neverfail.com",
+      "queryLane": "Costa Rica employer career pages",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-last-mile-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Neverfail",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://neverfail.com/careers/"
+    },
+    {
+      "company": "Empyra",
+      "domain": "empyra.com",
+      "queryLane": "Costa Rica employer career pages",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-last-mile-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Empyra",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.empyra.com/careers"
+    },
+    {
+      "company": "First Factory",
+      "domain": "firstfactory.com",
+      "queryLane": "Costa Rica nearshore employer career pages",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-last-mile-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "First Factory",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.firstfactory.com/"
+    },
+    {
+      "company": "GFT Technologies",
+      "domain": "gft.com",
+      "queryLane": "Official Costa Rica ATS postings",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-last-mile-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "GFT Technologies",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.gft.com/Costarica/go/costa-rica/4412301/"
+    },
+    {
+      "company": "Moody's",
+      "domain": "moodys.com",
+      "queryLane": "Official Costa Rica ATS postings",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-last-mile-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Moody's",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://careers.moodys.com/en/location/costa-rica-jobs/49841/3624060/2/2"
+    },
+    {
+      "company": "Wipro",
+      "domain": "wipro.com",
+      "queryLane": "Official Costa Rica ATS postings",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-last-mile-candidates.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Wipro",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://careers.wipro.com/"
+    },
+    {
+      "company": "Cargill",
+      "domain": "cargill.com",
+      "queryLane": "Official Costa Rica ATS postings",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-last-mile-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Cargill",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://careers.cargill.com/"
+    },
+    {
+      "company": "Hangar Worldwide",
+      "domain": "hangarworldwide.com",
+      "queryLane": "Official BambooHR engineering postings",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-last-mile-candidates.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Hangar Worldwide",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://hangar.bamboohr.com/careers"
+    },
+    {
+      "company": "Kenility",
+      "domain": "kenility.com",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Kenility",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.kenility.com/careers/"
+    },
+    {
+      "company": "Olly Olly",
+      "domain": "ollyolly.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Olly Olly",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.ashbyhq.com/olly-olly/ba012649-c92f-48a4-be77-b605c40d43a3/"
+    },
+    {
+      "company": "Parser",
+      "domain": "parserdigital.com",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Parser",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.parserdigital.com/careers"
+    },
+    {
+      "company": "Tight Line Software",
+      "domain": "tightlinesoftware.com",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Tight Line Software",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://careers.tightlinesoftware.com/jobs/7973761-senior-front-end-engineer"
+    },
+    {
+      "company": "Wiset",
+      "domain": "wiset.io",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Wiset",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://wiset.io/jobs/"
+    },
+    {
+      "company": "General Staffing",
+      "domain": "generalstaffing.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "General Staffing",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.generalstaffing.com/jobs/ongoing-software-developer"
+    },
+    {
+      "company": "Amplemarket",
+      "domain": "amplemarket.com",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Amplemarket",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/amplemarket/jobs/4066973101"
+    },
+    {
+      "company": "4Geeks",
+      "domain": "4geeks.io",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "4Geeks",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://4geeks.io/en/careers/software-engineer/"
+    },
+    {
+      "company": "Talentus Global",
+      "domain": "talentusglobal.com",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Talentus Global",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.lever.co/TalentusGlobal/9760b72b-c022-4be9-9858-10ea64edef89"
+    },
+    {
+      "company": "Provectus",
+      "domain": "provectus.com",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Provectus",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.lever.co/provectus/8f30b06c-5d05-436e-a14d-5daec89c71c2"
+    },
+    {
+      "company": "Fast Dolphin",
+      "domain": "fastdolphin.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Fast Dolphin",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.fastdolphin.com/vinculacionpr/vacante.php"
+    },
+    {
+      "company": "Derex Technologies",
+      "domain": "derextech.com",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Derex Technologies",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.smartrecruiters.com/derextechnologiesinc/744000158738943-solution-architect-with-insuremo-platform"
+    },
+    {
+      "company": "Fresh Consulting",
+      "domain": "freshconsulting.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Fresh Consulting",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://freshconsulting.applytojob.com/apply/jobs/details/FIDNF96Cj1"
+    },
+    {
+      "company": "VML",
+      "domain": "vml.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "VML",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.vml.com/careers/job/8515068002-cr-front-end-software-developer"
+    },
+    {
+      "company": "Hubstart",
+      "domain": "hubstart.io",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Hubstart",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://hubstart.io/careers"
+    },
+    {
+      "company": "Bitlink",
+      "domain": "bitlink.com.co",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Bitlink",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.bitlink.com.co/en/trabajo"
+    },
+    {
+      "company": "Neverfail",
+      "domain": "neverfail.com",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Neverfail",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://neverfail.com/careers/"
+    },
+    {
+      "company": "Grupo Mundial",
+      "domain": "grupomundial.cr",
+      "queryLane": "Costa Rica employer and careers sources",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Grupo Mundial",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://grupomundial.cr/careers/"
+    },
+    {
+      "company": "Ellipsis Health",
+      "domain": "ellipsishealth.com",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Ellipsis Health",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://ellipsishealth.com/careers/backend-engineer/"
+    },
+    {
+      "company": "Radiant Technologies",
+      "domain": "radiantholdco.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Radiant Technologies",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://radiantholdco.com/careers/product-engineer"
+    },
+    {
+      "company": "Get Talento",
+      "domain": "gettalento.com",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Get Talento",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.gettalento.com/careers"
+    },
+    {
+      "company": "Staffy",
+      "domain": "wearestaffy.com",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Staffy",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.wearestaffy.com/positions/senior-backend-engineer-java-aws-2100"
+    },
+    {
+      "company": "Akurey",
+      "domain": "akurey.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Akurey",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://akurey.com/careers"
+    },
+    {
+      "company": "SMarDevs",
+      "domain": "smardevs.com",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "SMarDevs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://smardevs.com/careers/senior-backend-developer"
+    },
+    {
+      "company": "Waverley Software",
+      "domain": "waverleysoftware.com",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Waverley Software",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://waverleysoftware.com/careers/"
+    },
+    {
+      "company": "nCube",
+      "domain": "ncube.com",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "nCube",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://ncube.com/career"
+    },
+    {
+      "company": "Buenos Bytes",
+      "domain": "buenos-bytes.com",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Buenos Bytes",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.buenos-bytes.com/jobs"
+    },
+    {
+      "company": "Lateral Group",
+      "domain": "lateralgroup.com",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Lateral Group",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://careers.lateralgroup.com/jobs/5997769-senior-frontend-engineer-latam"
+    },
+    {
+      "company": "Oceans Code Experts",
+      "domain": "oceanscode.com",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Oceans Code Experts",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://oceanscode.com/careers/full-stack-net-developer-reactnative-ds-140"
+    },
+    {
+      "company": "Bridgenext",
+      "domain": "bridgenext.com",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Bridgenext",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://argcareers-bridgenext.icims.com/jobs/11098/backend---platform-engineer/job?in_iframe=1"
+    },
+    {
+      "company": "Etleap",
+      "domain": "etleap.com",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Etleap",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www-old.etleap.com/careers/software-engineer-integrations/"
+    },
+    {
+      "company": "Devsu",
+      "domain": "devsu.com",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Devsu",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://apply.workable.com/devsu/"
+    },
+    {
+      "company": "Amalga",
+      "domain": "amalgagroup.com",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Amalga",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.amalgagroup.com/careersv1"
+    },
+    {
+      "company": "RiverMeadow",
+      "domain": "rivermeadow.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "RiverMeadow",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.rivermeadow.com/careers"
+    },
+    {
+      "company": "Rite Digital",
+      "domain": "rite.digital",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Rite Digital",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://rite.digital/careers/"
+    },
+    {
+      "company": "Luxury Presence",
+      "domain": "luxurypresence.com",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Luxury Presence",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.lever.co/luxurypresence?location=Latin+America"
+    },
+    {
+      "company": "Designli",
+      "domain": "designli.co",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Designli",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://designli.co/careers"
+    },
+    {
+      "company": "TD SYNNEX",
+      "domain": "tdsynnex.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "TD SYNNEX",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://careers.tdsynnex.com/us/en/job/TSQTSBUSR49839EXTERNALENUS/Senior-Infrastructure-Systems-Engineer"
+    },
+    {
+      "company": "GBM",
+      "domain": "gbm.net",
+      "queryLane": "Costa Rica employer and careers sources",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "GBM",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://gbmcostaricacompanyid3101003252.applytojob.com/apply/sfii32Ls8q/Desarrolladora-Full-Stack-NET-Backend"
+    },
+    {
+      "company": "Pearl Talent",
+      "domain": "pearltalent.com",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Pearl Talent",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://apply.workable.com/pearltalent/j/D3909364ED/apply/"
+    },
+    {
+      "company": "Arenalsoft",
+      "domain": "arenalsoft.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Arenalsoft",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.arenalsoft.com/"
+    },
+    {
+      "company": "LTIMindtree",
+      "domain": "ltimindtree.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "LTIMindtree",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.ltimindtree.com/careers/"
+    },
+    {
+      "company": "Lanshore",
+      "domain": "lanshore.com",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Lanshore",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.smartrecruiters.com/Lanshore/743999805781127-front-end-developer-100-wfh"
+    },
+    {
+      "company": "MasGlobal",
+      "domain": "masglobal.co",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "MasGlobal",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://masglobal.co/careers"
+    },
+    {
+      "company": "Leanware",
+      "domain": "leanware.co",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Leanware",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://leanware.co/careers"
+    },
+    {
+      "company": "CodigoDelSur",
+      "domain": "codigodelsur.com",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "CodigoDelSur",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.codigodelsur.com/jobs"
+    },
+    {
+      "company": "Xmartlabs",
+      "domain": "xmartlabs.com",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Xmartlabs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://xmartlabs.com/careers"
+    },
+    {
+      "company": "Perform",
+      "domain": "perform.co",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Perform",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://perform.co/careers"
+    },
+    {
+      "company": "Hakkoda",
+      "domain": "hakkoda.io",
+      "queryLane": "Costa Rica employer and careers sources",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Hakkoda",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://hakkoda.io/careers/"
+    },
+    {
+      "company": "Parrolabs",
+      "domain": "parrolabs.com",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Parrolabs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.parrolabs.com/careers"
+    },
+    {
+      "company": "NativApps",
+      "domain": "nativapps.com",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "NativApps",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://nativapps.com/carreras/"
+    },
+    {
+      "company": "SOIN",
+      "domain": "soin.co.cr",
+      "queryLane": "Costa Rica employer and careers sources",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "SOIN",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.soin.co.cr/careers/junior-software-developer-java"
+    },
+    {
+      "company": "Grupo Prides",
+      "domain": "grupoprides.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Grupo Prides",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.grupoprides.com"
+    },
+    {
+      "company": "Proximity CR",
+      "domain": "proximitycr.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Proximity CR",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://proximitycr.com/careers"
+    },
+    {
+      "company": "Codieshub",
+      "domain": "codieshub.com",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Codieshub",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://codieshub.com/careers/python-engineer"
+    },
+    {
+      "company": "My VA Support",
+      "domain": "myvasupport.com",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "My VA Support",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://myvasupport.zohorecruit.com/jobs/Careers/671760000011805500/"
+    },
+    {
+      "company": "Contably",
+      "domain": "contably.co",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Contably",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://contably.co/careers"
+    },
+    {
+      "company": "Purple Hiring",
+      "domain": "gowithpurple.com",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Purple Hiring",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.gowithpurple.com/careers"
+    },
+    {
+      "company": "Scio",
+      "domain": "sciodev.com",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Scio",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://careers.sciodev.com/"
+    },
+    {
+      "company": "Greenlight Consulting",
+      "domain": "greenlightconsulting.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Greenlight Consulting",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/greenlightconsulting/jobs/5207112008"
+    },
+    {
+      "company": "Motivus",
+      "domain": "motivus.com",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Motivus",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://motivus.com/careers/node-js-developer/"
+    },
+    {
+      "company": "Lago",
+      "domain": "getlago.com",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Lago",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://apply.workable.com/lago-1/j/5939A9FF30/apply"
+    },
+    {
+      "company": "Kitrum",
+      "domain": "kitrum.com",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Kitrum",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://kitrum.com/careers/"
+    },
+    {
+      "company": "Talent2Win",
+      "domain": "talent2win.com",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Talent2Win",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.lever.co/talent-2-win/ae93e720-0f0f-4ba4-94e1-8a13d926584d"
+    },
+    {
+      "company": "Infotech CR",
+      "domain": "cr-infotech.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Infotech CR",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.cr-infotech.com/careers.html"
+    },
+    {
+      "company": "dotdigital",
+      "domain": "dotdigital.com",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "dotdigital",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://careers.dotdigital.com/jobs/8513755-full-stack-engineer-contractor"
+    },
+    {
+      "company": "Bugcrowd",
+      "domain": "bugcrowd.com",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Bugcrowd",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/bugcrowd/jobs/8202018"
+    },
+    {
+      "company": "Atelier",
+      "domain": "atelier-app.com",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Atelier",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.atelier-app.com/carreras"
+    },
+    {
+      "company": "Polanov Tech",
+      "domain": "polanovtech.com",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Polanov Tech",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://polanovtech.com/careers"
+    },
+    {
+      "company": "Cobre",
+      "domain": "cobre.com",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Cobre",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/cobre/jobs/4009743009"
+    },
+    {
+      "company": "Traackr",
+      "domain": "traackr.com",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Traackr",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.lever.co/traackr/fc789f3d-6ef6-44ee-bd3d-c7799e8069b2"
+    },
+    {
+      "company": "Sonnet Code",
+      "domain": "sonnetcode.com",
+      "queryLane": "LATAM remote engineering careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Sonnet Code",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.sonnetcode.com/careers"
+    },
+    {
+      "company": "SMASH",
+      "domain": "smashcr.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "SMASH",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://smashcr.com/become-a-smasher"
+    },
+    {
+      "company": "ActiveCampaign",
+      "domain": "activecampaign.com",
+      "queryLane": "Costa Rica employer directory and careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "ActiveCampaign",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.activecampaign.com/about/careers"
+    },
+    {
+      "company": "Datasite",
+      "domain": "datasite.com",
+      "queryLane": "Costa Rica employer directory and careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Datasite",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.datasite.com/en/company/careers"
+    },
+    {
+      "company": "Fractal River",
+      "domain": "fractalriver.com",
+      "queryLane": "Himalayas CR engineering leads; official ATS verification",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Fractal River",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://fractal-river.breezy.hr/p/60cec77079df-data-engineer-remote-latin-america"
+    },
+    {
+      "company": "Prometeo Talent",
+      "domain": "prometeotalent.com",
+      "queryLane": "Himalayas CR engineering leads; official ATS verification",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Prometeo Talent",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.prometeotalent.com/jobs/8564566-qa-automation-engineer-100-remote-latam"
+    },
+    {
+      "company": "NetForemost",
+      "domain": "netforemost.com",
+      "queryLane": "Himalayas CR engineering leads; official ATS verification",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "NetForemost",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://netforemost.zohorecruit.com/jobs"
+    },
+    {
+      "company": "Makai Digital",
+      "domain": "makaihq.com",
+      "queryLane": "Himalayas CR engineering leads; official site verification",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Makai Digital",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.makaihq.com/careers"
+    },
+    {
+      "company": "Playbypoint",
+      "domain": "playbypoint.com",
+      "queryLane": "Himalayas CR engineering leads; official ATS verification",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Playbypoint",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://playbypoint.na.teamtailor.com/"
+    },
+    {
+      "company": "thinkbridge",
+      "domain": "thinkbridge.com",
+      "queryLane": "Himalayas CR engineering leads; official site verification",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "thinkbridge",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.thinkbridge.com/about-us"
+    },
+    {
+      "company": "Appsilon",
+      "domain": "appsilon.com",
+      "queryLane": "Himalayas CR engineering leads; official ATS verification",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Appsilon",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://appsilon-1739358905.teamtailor.com/"
+    },
+    {
+      "company": "Alpaca",
+      "domain": "alpaca.markets",
+      "queryLane": "Himalayas CR engineering leads; official ATS verification",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Alpaca",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/alpaca"
+    },
+    {
+      "company": "Puzzle",
+      "domain": "puzzle.tech",
+      "queryLane": "Official Latin America employer and careers research",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Puzzle",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.puzzle.tech/about-us"
+    },
+    {
+      "company": "CSC Generation",
+      "domain": "cscgeneration.com",
+      "queryLane": "Official Costa Rica ATS engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "CSC Generation",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.lever.co/cscgeneration-2/0ef9eb9f-f2cc-42f4-b8f9-4a34a771b4e0"
+    },
+    {
+      "company": "CXT Software",
+      "domain": "cxtsoftware.com",
+      "queryLane": "Official LATAM ATS engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "CXT Software",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.lever.co/cxtsoftware/6f79361c-f637-43dd-8d3d-e97002088b67"
+    },
+    {
+      "company": "Bluelight Consulting",
+      "domain": "bluelight.co",
+      "queryLane": "Official LATAM ATS engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Bluelight Consulting",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.lever.co/bluelightconsulting/e92392b8-7ee5-46eb-8d74-462673820819"
+    },
+    {
+      "company": "Livefront",
+      "domain": "livefront.com",
+      "queryLane": "Official Costa Rica ATS engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Livefront",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/livefront/jobs/4243344009"
+    },
+    {
+      "company": "Backblaze",
+      "domain": "backblaze.com",
+      "queryLane": "Official Costa Rica ATS engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Backblaze",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/backblaze/jobs/5442462008"
+    },
+    {
+      "company": "Newsela",
+      "domain": "newsela.com",
+      "queryLane": "Official Costa Rica ATS engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Newsela",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/newsela/jobs/8249272"
+    },
+    {
+      "company": "SimSpace",
+      "domain": "simspace.com",
+      "queryLane": "Official Costa Rica ATS engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "SimSpace",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.ashbyhq.com/simspace-corporation/f174dcb1-6766-4620-a182-c81c848e4fdd"
+    },
+    {
+      "company": "Homera Health",
+      "domain": "homerahealth.com",
+      "queryLane": "Official Costa Rica ATS engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Homera Health",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.ashbyhq.com/homera-health/b9fd96f4-00a8-43e6-864a-eea7423ab9b4"
+    },
+    {
+      "company": "Aubrant Digital",
+      "domain": "aubrant.com",
+      "queryLane": "Official Costa Rica ATS engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Aubrant Digital",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://ats.rippling.com/epic-software/jobs"
+    },
+    {
+      "company": "Granicus",
+      "domain": "granicus.com",
+      "queryLane": "Official Costa Rica ATS engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Granicus",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://globalcareers-granicus.icims.com/jobs/10169/costa-rica-software-engineer/job?in_iframe=1"
+    },
+    {
+      "company": "TransUnion",
+      "domain": "transunion.com",
+      "queryLane": "Official Costa Rica ATS engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "TransUnion",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://transunion.wd5.myworkdayjobs.com/en-US/TransUnion/job/Software-Developer_19040620"
+    },
+    {
+      "company": "CapDev",
+      "domain": "capdevcr.com",
+      "queryLane": "Official Costa Rica employer careers sources",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "CapDev",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://capdevcr.com/developers.html"
+    },
+    {
+      "company": "Improving",
+      "domain": "improving.com",
+      "queryLane": "Official Costa Rica employer careers sources",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Improving",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.improving.com/careers/costa-rica/"
+    },
+    {
+      "company": "OfficeSpace Software",
+      "domain": "officespacesoftware.com",
+      "queryLane": "Official Costa Rica ATS engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "OfficeSpace Software",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/officespacesoftware"
+    },
+    {
+      "company": "Galileo Financial Technologies",
+      "domain": "galileo-ft.com",
+      "queryLane": "Official Costa Rica ATS engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Galileo Financial Technologies",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/galileofinancialtechnologies"
+    },
+    {
+      "company": "Truelogic",
+      "domain": "truelogic.io",
+      "queryLane": "Official LATAM employer careers sources",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Truelogic",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.truelogic.io/"
+    },
+    {
+      "company": "Gamebreaking Studios",
+      "domain": "gamebreaking.com",
+      "queryLane": "Official LATAM employer careers sources",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Gamebreaking Studios",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://careers.gamebreaking.com/"
+    },
+    {
+      "company": "Admios",
+      "domain": "admios.com",
+      "queryLane": "Official LATAM employer careers sources",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Admios",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.admios.com/careers"
+    },
+    {
+      "company": "Blue Coding",
+      "domain": "bluecoding.com",
+      "queryLane": "Official LATAM ATS engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Blue Coding",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.lever.co/bluecoding/456ce1b0-5a77-4a27-9a82-37d0074f14ec"
+    },
+    {
+      "company": "In All Media Inc",
+      "domain": "inallmedia.com",
+      "queryLane": "Official LATAM ATS engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "In All Media",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://inallmedia-llc.breezy.hr/p/8c43c0ef7e89-full-stack-engineer-react-go"
+    },
+    {
+      "company": "Harris Computer",
+      "domain": "harriscomputer.com",
+      "queryLane": "Official Costa Rica ATS engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Harris Computer",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://harriscomputer.wd3.myworkdayjobs.com/en-US/1/job/XMLNAME--Remote--Senior-Software-Developer_R0044370-3"
+    },
+    {
+      "company": "Celara Labs",
+      "domain": "celaralabs.com",
+      "queryLane": "Official LATAM employer careers sources",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Celara Labs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://celaralabs.com/talent"
+    },
+    {
+      "company": "Elastic",
+      "domain": "elastic.co",
+      "queryLane": "Official Costa Rica engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Elastic",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.elastic.co/jobs/marketing/costa-rica/full-stack-technical-developer/8281841?gh_jid=8281841"
+    },
+    {
+      "company": "Zscaler",
+      "domain": "zscaler.com",
+      "queryLane": "Official Costa Rica engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Zscaler",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/zscaler/jobs/5202103007"
+    },
+    {
+      "company": "Confiz",
+      "domain": "confiz.com",
+      "queryLane": "Official Costa Rica engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Confiz",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://confiz.simplicant.com/jobs/62781-software-engineer-java-level-iii-costa-rica-remote/detail?referer=jobboard"
+    },
+    {
+      "company": "Johnson Controls",
+      "domain": "johnsoncontrols.com",
+      "queryLane": "Official Costa Rica engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Johnson Controls",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.johnsoncontrols.com/job/WD30282267"
+    },
+    {
+      "company": "Syniverse",
+      "domain": "syniverse.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Syniverse",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.linkedin.com/company/syniverse/jobs/"
+    },
+    {
+      "company": "World Wide Technology",
+      "domain": "wwt.com",
+      "queryLane": "Official Costa Rica employer and careers sources",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "World Wide Technology",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.wwt.com/careers-in-the-americas"
+    },
+    {
+      "company": "Workana",
+      "domain": "workana.com",
+      "queryLane": "Official Latin America employer and careers research",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Workana",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.workana.com/work/devs"
+    },
+    {
+      "company": "Freeway Consulting",
+      "domain": "freewayconsulting.com",
+      "queryLane": "Official Costa Rica employer careers sources",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Freeway Consulting",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://freewayconsulting.jazz.co/"
+    },
+    {
+      "company": "SchoolMint",
+      "domain": "schoolmint.com",
+      "queryLane": "Official Costa Rica company location and careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "SchoolMint",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://schoolmint.com/contact-us/"
+    },
+    {
+      "company": "Cloudbeds",
+      "domain": "cloudbeds.com",
+      "queryLane": "Official LATAM ATS engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p003-researched-pool.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Cloudbeds",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/cloudbeds/jobs/4717376005"
+    }
+  ]
+}

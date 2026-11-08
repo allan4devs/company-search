@@ -1,0 +1,292 @@
+{
+  "cohortId": "likes-based-2026-11-07-p008-camscat",
+  "checkedOn": "2026-11-07",
+  "inputFiles": [
+    "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-camscat-leads.json"
+  ],
+  "inputCount": 20,
+  "uniqueCount": 13,
+  "outputCount": 13,
+  "duplicateCount": 7,
+  "missingIdentityCount": 0,
+  "catalog": {
+    "source": "MongoDB + bundled files + prior batches",
+    "mongoCompanies": 1520,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 421,
+    "indexedNames": 1550,
+    "indexedDomains": 1495
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 63,
+    "topTracks": [
+      {
+        "track": "Engineering",
+        "count": 36
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Software Engineering",
+        "count": 3
+      },
+      {
+        "track": "Node.js",
+        "count": 2
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        46
+      ],
+      [
+        "direct",
+        16
+      ],
+      [
+        "unknown",
+        1
+      ]
+    ]
+  },
+  "queryLanes": [
+    {
+      "lane": "CamSCAT Costa Rica shared-services member directory",
+      "leads": 20,
+      "unique": 13,
+      "duplicateRate": 0.35,
+      "recommendation": "continue or expand this lane"
+    }
+  ],
+  "entries": [
+    {
+      "company": "Accenture",
+      "domain": "accenture.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-camscat-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Accenture",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "aliaxis",
+      "domain": "aliaxis-la.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-camscat-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "Align",
+      "domain": "aligntech.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-camscat-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Align Technology",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "AMAZON",
+      "domain": "amazon.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-camscat-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Amazon",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "CMA",
+      "domain": "cma-cgm.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-camscat-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "Smith",
+      "domain": "smith-nephew.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-camscat-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "Auxis",
+      "domain": "auxis.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-camscat-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Auxis",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "640px-Bac_credomatic_logo",
+      "domain": "baccredomatic.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-camscat-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "Baccardi",
+      "domain": "bacardi.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-camscat-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "Bat",
+      "domain": "bat.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-camscat-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "Bridgestone",
+      "domain": "bridgestoneamericas.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-camscat-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "baxter",
+      "domain": "baxter.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-camscat-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "Bayer",
+      "domain": "bayer.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-camscat-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "Bill Goslyn",
+      "domain": "billgosling.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-camscat-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "BlackBaud",
+      "domain": "blackbaud.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-camscat-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Blackbaud",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "EY",
+      "domain": "ey.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-camscat-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "EY",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "Cargill",
+      "domain": "cargill.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-camscat-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Cargill",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "catalina",
+      "domain": "catalina.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-camscat-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "Centro Bimbo",
+      "domain": "grupobimbo.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-camscat-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "Cinde",
+      "domain": "cinde.org",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-camscat-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    }
+  ]
+}

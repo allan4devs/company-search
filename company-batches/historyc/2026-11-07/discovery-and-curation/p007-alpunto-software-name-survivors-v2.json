@@ -1,0 +1,1131 @@
+{
+  "cohortId": "likes-based-2026-11-07-p007",
+  "generatedOn": "2026-11-07",
+  "catalog": {
+    "source": "MongoDB + bundled files + prior batches",
+    "mongoCompanies": 1420,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 321,
+    "indexedNames": 1568,
+    "indexedDomains": 1382
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 63,
+    "topTracks": [
+      {
+        "track": "Engineering",
+        "count": 36
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Software Engineering",
+        "count": 3
+      },
+      {
+        "track": "Node.js",
+        "count": 2
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        46
+      ],
+      [
+        "direct",
+        16
+      ],
+      [
+        "unknown",
+        1
+      ]
+    ]
+  },
+  "candidates": [
+    {
+      "name": "GTI Factura Electrónica",
+      "profileUrl": "https://alpunto.cr/en/business/gti-factura-electronica",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/gti-factura-electronica",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Facel – Facturación Electrónica",
+      "profileUrl": "https://alpunto.cr/en/business/facel-facturacion-electronica",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/facel-facturacion-electronica",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Ainnova Tech",
+      "profileUrl": "https://alpunto.cr/en/business/ainnova-tech",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/ainnova-tech",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "CRFUSION (Cronus ERP)",
+      "profileUrl": "https://alpunto.cr/en/business/crfusion-cronus-erp",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/crfusion-cronus-erp",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Greenpay S.A.",
+      "profileUrl": "https://alpunto.cr/en/business/greenpay-s-a",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/greenpay-s-a",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Plaxp (Corp Tech AzSoft SRL)",
+      "profileUrl": "https://alpunto.cr/en/business/plaxp-corp-tech-azsoft-srl",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/plaxp-corp-tech-azsoft-srl",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Salud a un Clic S.A.",
+      "profileUrl": "https://alpunto.cr/en/business/salud-a-un-clic-s-a",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/salud-a-un-clic-s-a",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "TecApro (Grupo TecApro)",
+      "profileUrl": "https://alpunto.cr/en/business/tecapro-grupo-tecapro",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/tecapro-grupo-tecapro",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "TicoPlanillas (GQ Soluciones)",
+      "profileUrl": "https://alpunto.cr/en/business/ticoplanillas-gq-soluciones",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/ticoplanillas-gq-soluciones",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "AACROM",
+      "profileUrl": "https://alpunto.cr/en/business/aacrom",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/aacrom",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "AceBuddy",
+      "profileUrl": "https://alpunto.cr/en/business/acebuddy",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/acebuddy",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "AKTEK",
+      "profileUrl": "https://alpunto.cr/en/business/aktek",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/aktek",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "BEST Resource",
+      "profileUrl": "https://alpunto.cr/en/business/best-resource",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/best-resource",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "InnovacodeCR",
+      "profileUrl": "https://alpunto.cr/en/business/innovacodecr",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/innovacodecr",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Moovin",
+      "profileUrl": "https://alpunto.cr/en/business/moovin",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/moovin",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=2",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Nativo Latam",
+      "profileUrl": "https://alpunto.cr/en/business/nativo-latam",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/nativo-latam",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "NCQ Technologies",
+      "profileUrl": "https://alpunto.cr/en/business/ncq-technologies",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/ncq-technologies",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Software Solutions S.A.",
+      "profileUrl": "https://alpunto.cr/en/business/software-solutions-s-a",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/software-solutions-s-a",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Soltig",
+      "profileUrl": "https://alpunto.cr/en/business/soltig",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/soltig",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Pangea Holdings",
+      "profileUrl": "https://alpunto.cr/en/business/pangea-holdings",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/pangea-holdings",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "WeCode",
+      "profileUrl": "https://alpunto.cr/en/business/wecode",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/wecode",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Architect Technology Solutions (ATS)",
+      "profileUrl": "https://alpunto.cr/en/business/architect-technology-solutions-ats",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/architect-technology-solutions-ats",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "CNET Technology Systems",
+      "profileUrl": "https://alpunto.cr/en/business/cnet-technology-systems",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/cnet-technology-systems",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Dinámica Consultores Internacional S.A. (DCI)",
+      "profileUrl": "https://alpunto.cr/en/business/dinamica-consultores-internacional-s-a-dci",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/dinamica-consultores-internacional-s-a-dci",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Factúrele",
+      "profileUrl": "https://alpunto.cr/en/business/facturele",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/facturele",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=2",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Siftia",
+      "profileUrl": "https://alpunto.cr/en/business/siftia",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/siftia",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Three Rivers Software Ltda.",
+      "profileUrl": "https://alpunto.cr/en/business/three-rivers-software-ltda",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/three-rivers-software-ltda",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Facture.cr",
+      "profileUrl": "https://alpunto.cr/en/business/facture-cr",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/facture-cr",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=2",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Avify",
+      "profileUrl": "https://alpunto.cr/en/business/avify",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/avify",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=2",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "INELDAT (Intercambio Electrónico de Datos S.A.)",
+      "profileUrl": "https://alpunto.cr/en/business/ineldat-intercambio-electronico-de-datos-s-a",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/ineldat-intercambio-electronico-de-datos-s-a",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=2",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "PIXDEA",
+      "profileUrl": "https://alpunto.cr/en/business/pixdea",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/pixdea",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "POSMOVI (Design Soft S.A.)",
+      "profileUrl": "https://alpunto.cr/en/business/posmovi-design-soft-s-a",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/posmovi-design-soft-s-a",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "PROCOM",
+      "profileUrl": "https://alpunto.cr/en/business/procom",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/procom",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Ridivi S.A.",
+      "profileUrl": "https://alpunto.cr/en/business/ridivi-s-a",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/ridivi-s-a",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "SmartFacturaCR (Smart Process CR)",
+      "profileUrl": "https://alpunto.cr/en/business/smartfacturacr-smart-process-cr",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/smartfacturacr-smart-process-cr",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Softland Costa Rica",
+      "profileUrl": "https://alpunto.cr/en/business/softland-costa-rica",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/softland-costa-rica",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Ticontable (HNG Carmenta Global Group S.A.)",
+      "profileUrl": "https://alpunto.cr/en/business/ticontable-hng-carmenta-global-group-s-a",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/ticontable-hng-carmenta-global-group-s-a",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "AutoPlanilla (NeoProc S.A.)",
+      "profileUrl": "https://alpunto.cr/en/business/autoplanilla-neoproc-s-a",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/autoplanilla-neoproc-s-a",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Ibylit",
+      "profileUrl": "https://alpunto.cr/en/business/ibylit",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/ibylit",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Processim Labs",
+      "profileUrl": "https://alpunto.cr/en/business/processim-labs",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/processim-labs",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Egobytes",
+      "profileUrl": "https://alpunto.cr/en/business/egobytes",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/egobytes",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Snap Compliance",
+      "profileUrl": "https://alpunto.cr/en/business/snap-compliance",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/snap-compliance",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Factun",
+      "profileUrl": "https://alpunto.cr/en/business/factun",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/factun",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Fygaro",
+      "profileUrl": "https://alpunto.cr/en/business/fygaro",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/fygaro",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Harvie (Hey Harvie)",
+      "profileUrl": "https://alpunto.cr/en/business/harvie-hey-harvie",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/harvie-hey-harvie",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Huli",
+      "profileUrl": "https://alpunto.cr/en/business/huli",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/huli",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Mission Inbox",
+      "profileUrl": "https://alpunto.cr/en/business/mission-inbox",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/mission-inbox",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Monibyte (Impesa)",
+      "profileUrl": "https://alpunto.cr/en/business/monibyte-impesa",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/monibyte-impesa",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Neotecnologías",
+      "profileUrl": "https://alpunto.cr/en/business/neotecnologias",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/neotecnologias",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Nidux",
+      "profileUrl": "https://alpunto.cr/en/business/nidux",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/nidux",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Nominar",
+      "profileUrl": "https://alpunto.cr/en/business/nominar",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/nominar",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Nova Sistem Developers CR",
+      "profileUrl": "https://alpunto.cr/en/business/nova-sistem-developers-cr",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/nova-sistem-developers-cr",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "ONVO Costa Rica S.A.",
+      "profileUrl": "https://alpunto.cr/en/business/onvo-costa-rica-s-a",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/onvo-costa-rica-s-a",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Slidebean",
+      "profileUrl": "https://alpunto.cr/en/business/slidebean",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/slidebean",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Stable Facturador Electrónico (Redcom Labs)",
+      "profileUrl": "https://alpunto.cr/en/business/stable-facturador-electronico-redcom-labs",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/stable-facturador-electronico-redcom-labs",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Teledolar",
+      "profileUrl": "https://alpunto.cr/en/business/teledolar",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/teledolar",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Tilopay (Tilopay Soluciones Comerciales Ltda.)",
+      "profileUrl": "https://alpunto.cr/en/business/tilopay-tilopay-soluciones-comerciales-ltda",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/tilopay-tilopay-soluciones-comerciales-ltda",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Wolk Software",
+      "profileUrl": "https://alpunto.cr/en/business/wolk-software",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/wolk-software",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Hermes Soft",
+      "profileUrl": "https://alpunto.cr/en/business/hermes-soft",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/hermes-soft",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "SOIN Soluciones Integrales",
+      "profileUrl": "https://alpunto.cr/en/business/soin-soluciones-integrales",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/soin-soluciones-integrales",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Talentify (Ensensis)",
+      "profileUrl": "https://alpunto.cr/en/business/talentify-ensensis",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/talentify-ensensis",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "SECSA",
+      "profileUrl": "https://alpunto.cr/en/business/secsa",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/secsa",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Bmaxim",
+      "profileUrl": "https://alpunto.cr/en/business/bmaxim",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/bmaxim",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Helm360",
+      "profileUrl": "https://alpunto.cr/en/business/helm360",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/helm360",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Innovative S.A. (NovaToken)",
+      "profileUrl": "https://alpunto.cr/en/business/innovative-s-a-novatoken",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/innovative-s-a-novatoken",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Inversiones Next Curve S.A.",
+      "profileUrl": "https://alpunto.cr/en/business/inversiones-next-curve-s-a",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/inversiones-next-curve-s-a",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Logosoft (Punto de Ventas Logosoft)",
+      "profileUrl": "https://alpunto.cr/en/business/logosoft-punto-de-ventas-logosoft",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/logosoft-punto-de-ventas-logosoft",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=5",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Infoware",
+      "profileUrl": "https://alpunto.cr/en/business/infoware",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/infoware",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=5",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Integrama",
+      "profileUrl": "https://alpunto.cr/en/business/integrama",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/integrama",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Grupo Naby",
+      "profileUrl": "https://alpunto.cr/en/business/grupo-naby",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/grupo-naby",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=5",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Sicsoft",
+      "profileUrl": "https://alpunto.cr/en/business/sicsoft",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/sicsoft",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=5",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Siku",
+      "profileUrl": "https://alpunto.cr/en/business/siku",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/siku",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=5",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Zunify",
+      "profileUrl": "https://alpunto.cr/en/business/zunify",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/zunify",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=5",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Soefe Software",
+      "profileUrl": "https://alpunto.cr/en/business/soefe-software",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/soefe-software",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Emerald Studio",
+      "profileUrl": "https://alpunto.cr/en/business/emerald-studio",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/emerald-studio",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Flecha Roja Technologies",
+      "profileUrl": "https://alpunto.cr/en/business/flecha-roja-technologies",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/flecha-roja-technologies",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Grupo Asesor en Informática",
+      "profileUrl": "https://alpunto.cr/en/business/grupo-asesor-en-informatica",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/grupo-asesor-en-informatica",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Luminon Studios",
+      "profileUrl": "https://alpunto.cr/en/business/luminon-studios",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/luminon-studios",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Villalta Tech",
+      "profileUrl": "https://alpunto.cr/en/business/villalta-tech",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/villalta-tech",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "WOW Emotions",
+      "profileUrl": "https://alpunto.cr/en/business/wow-emotions",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/wow-emotions",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Opal Interactive",
+      "profileUrl": "https://alpunto.cr/en/business/opal-interactive",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/opal-interactive",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Software Factory CR",
+      "profileUrl": "https://alpunto.cr/en/business/software-factory-cr",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/software-factory-cr",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Atom Soluciones",
+      "profileUrl": "https://alpunto.cr/en/business/atom-soluciones",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/atom-soluciones",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Costa Rica Virtual",
+      "profileUrl": "https://alpunto.cr/en/business/costa-rica-virtual",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/costa-rica-virtual",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Quality XP Development (QXD)",
+      "profileUrl": "https://alpunto.cr/en/business/quality-xp-development-qxd",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/quality-xp-development-qxd",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "TicoDesign",
+      "profileUrl": "https://alpunto.cr/en/business/ticodesign",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/ticodesign",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Web Mentor",
+      "profileUrl": "https://alpunto.cr/en/business/web-mentor",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/web-mentor",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Alternativo Studio",
+      "profileUrl": "https://alpunto.cr/en/business/alternativo-studio",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/alternativo-studio",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Broditec",
+      "profileUrl": "https://alpunto.cr/en/business/broditec",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/broditec",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "DATAi",
+      "profileUrl": "https://alpunto.cr/en/business/datai",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/datai",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "321 Solutions",
+      "profileUrl": "https://alpunto.cr/en/business/321-solutions",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/321-solutions",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Salomon Web Services",
+      "profileUrl": "https://alpunto.cr/en/business/salomon-web-services",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/salomon-web-services",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "ReinSystems",
+      "profileUrl": "https://alpunto.cr/en/business/reinsystems",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/reinsystems",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "10Pearls Costa Rica",
+      "profileUrl": "https://alpunto.cr/en/business/10pearls-costa-rica",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/10pearls-costa-rica",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Cecropia Solutions",
+      "profileUrl": "https://alpunto.cr/en/business/cecropia-solutions",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/cecropia-solutions",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Drago's House",
+      "profileUrl": "https://alpunto.cr/en/business/drago-s-house",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/drago-s-house",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "EX Squared LATAM",
+      "profileUrl": "https://alpunto.cr/en/business/ex-squared-latam",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/ex-squared-latam",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Infosgroup",
+      "profileUrl": "https://alpunto.cr/en/business/infosgroup",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/infosgroup",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Irazu Labs",
+      "profileUrl": "https://alpunto.cr/en/business/irazu-labs",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/irazu-labs",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "People Apps",
+      "profileUrl": "https://alpunto.cr/en/business/people-apps",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/people-apps",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Proximity Costa Rica",
+      "profileUrl": "https://alpunto.cr/en/business/proximity-costa-rica",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/proximity-costa-rica",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Softon Digital (Softon ITG)",
+      "profileUrl": "https://alpunto.cr/en/business/softon-digital-softon-itg",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/softon-digital-softon-itg",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "U Devs",
+      "profileUrl": "https://alpunto.cr/en/business/u-devs",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/u-devs",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "WAM Digital",
+      "profileUrl": "https://alpunto.cr/en/business/wam-digital",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/wam-digital",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "weKnow Inc.",
+      "profileUrl": "https://alpunto.cr/en/business/weknow-inc",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/weknow-inc",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Fuzyon Agency",
+      "profileUrl": "https://alpunto.cr/en/business/fuzyon-agency",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/fuzyon-agency",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "ADVITERS",
+      "profileUrl": "https://alpunto.cr/en/business/adviters",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/adviters",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "GuruX",
+      "profileUrl": "https://alpunto.cr/en/business/gurux",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/gurux",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Cipherio",
+      "profileUrl": "https://alpunto.cr/en/business/cipherio",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/cipherio",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Elva AI",
+      "profileUrl": "https://alpunto.cr/en/business/elva-ai",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/elva-ai",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Interfaz",
+      "profileUrl": "https://alpunto.cr/en/business/interfaz",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/interfaz",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "NW Consulting Services",
+      "profileUrl": "https://alpunto.cr/en/business/nw-consulting-services",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/nw-consulting-services",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Centauro Solutions",
+      "profileUrl": "https://alpunto.cr/en/business/centauro-solutions",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/centauro-solutions",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "DOTCREEK",
+      "profileUrl": "https://alpunto.cr/en/business/dotcreek",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/dotcreek",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "isthmusit software",
+      "profileUrl": "https://alpunto.cr/en/business/isthmusit-software",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/isthmusit-software",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "GTS",
+      "profileUrl": "https://alpunto.cr/en/business/gts",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/gts",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Aurigital",
+      "profileUrl": "https://alpunto.cr/en/business/aurigital",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/aurigital",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Babel Costa Rica",
+      "profileUrl": "https://alpunto.cr/en/business/babel-costa-rica",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/babel-costa-rica",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Dailysoft Technologies CR",
+      "profileUrl": "https://alpunto.cr/en/business/dailysoft-technologies-cr",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/dailysoft-technologies-cr",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Datasoft",
+      "profileUrl": "https://alpunto.cr/en/business/datasoft",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/datasoft",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "DNAMIC",
+      "profileUrl": "https://alpunto.cr/en/business/dnamic",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/dnamic",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Y2K Webs",
+      "profileUrl": "https://alpunto.cr/en/business/y2k-webs",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/y2k-webs",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "GInIEm S.A.",
+      "profileUrl": "https://alpunto.cr/en/business/giniem-s-a",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/giniem-s-a",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Jowasoft",
+      "profileUrl": "https://alpunto.cr/en/business/jowasoft",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/jowasoft",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "SevenSoft",
+      "profileUrl": "https://alpunto.cr/en/business/sevensoft",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/sevensoft",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Snow Software Solutions",
+      "profileUrl": "https://alpunto.cr/en/business/snow-software-solutions",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/snow-software-solutions",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "TICMA DIGITAL",
+      "profileUrl": "https://alpunto.cr/en/business/ticma-digital",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/ticma-digital",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Yakukua",
+      "profileUrl": "https://alpunto.cr/en/business/yakukua",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/yakukua",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Xubliminal",
+      "profileUrl": "https://alpunto.cr/en/business/xubliminal",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/xubliminal",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Unidad22",
+      "profileUrl": "https://alpunto.cr/en/business/unidad22",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/unidad22",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Incompany Solutions S.A.",
+      "profileUrl": "https://alpunto.cr/en/business/incompany-solutions-s-a",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/incompany-solutions-s-a",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "needsOfficialDomainResolution": true
+    }
+  ],
+  "uniqueCandidatesFound": 131,
+  "outputLimit": 1000
+}

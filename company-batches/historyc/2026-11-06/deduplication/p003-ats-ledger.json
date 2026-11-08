@@ -1,0 +1,347 @@
+{
+  "cohortId": "p003-ats-leads",
+  "checkedOn": "2026-11-07",
+  "inputCount": 30,
+  "uniqueCount": 24,
+  "outputCount": 24,
+  "duplicateCount": 6,
+  "missingIdentityCount": 0,
+  "catalog": {
+    "source": "MongoDB + bundled files + prior batches",
+    "mongoCompanies": 1220,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 121,
+    "indexedNames": 1261,
+    "indexedDomains": 1182
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 63,
+    "topTracks": [
+      {
+        "track": "Engineering",
+        "count": 36
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Software Engineering",
+        "count": 3
+      },
+      {
+        "track": "Node.js",
+        "count": 2
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        46
+      ],
+      [
+        "direct",
+        16
+      ],
+      [
+        "unknown",
+        1
+      ]
+    ]
+  },
+  "queryLanes": [
+    {
+      "lane": "Official ATS search CR software roles",
+      "leads": 30,
+      "unique": 24,
+      "duplicateRate": 0.2,
+      "recommendation": "continue or expand this lane"
+    }
+  ],
+  "entries": [
+    {
+      "company": "Livefront",
+      "domain": null,
+      "queryLane": "Official ATS search CR software roles",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Livefront",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Newsela",
+      "domain": null,
+      "queryLane": "Official ATS search CR software roles",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Newsela",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": ""
+    },
+    {
+      "company": "JBS Dev",
+      "domain": null,
+      "queryLane": "Official ATS search CR software roles",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "JBS Dev",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Bluelight Consulting",
+      "domain": null,
+      "queryLane": "Official ATS search CR software roles",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Bluelight Consulting",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": ""
+    },
+    {
+      "company": "CSC Generation",
+      "domain": null,
+      "queryLane": "Official ATS search CR software roles",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "CSC Generation",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": ""
+    },
+    {
+      "company": "R2",
+      "domain": null,
+      "queryLane": "Official ATS search CR software roles",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Fractal River",
+      "domain": null,
+      "queryLane": "Official ATS search CR software roles",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Prometeo Talent",
+      "domain": null,
+      "queryLane": "Official ATS search CR software roles",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Endless Access",
+      "domain": null,
+      "queryLane": "Official ATS search CR software roles",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "AOA",
+      "domain": null,
+      "queryLane": "Official ATS search CR software roles",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "AccelOne",
+      "domain": null,
+      "queryLane": "Official ATS search CR software roles",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Cobalto Talent",
+      "domain": null,
+      "queryLane": "Official ATS search CR software roles",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "VELAIO",
+      "domain": null,
+      "queryLane": "Official ATS search CR software roles",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Upgrade",
+      "domain": null,
+      "queryLane": "Official ATS search CR software roles",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Streamkap",
+      "domain": null,
+      "queryLane": "Official ATS search CR software roles",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Makai Digital",
+      "domain": null,
+      "queryLane": "Official ATS search CR software roles",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "NetForemost",
+      "domain": null,
+      "queryLane": "Official ATS search CR software roles",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "SpryPoint",
+      "domain": null,
+      "queryLane": "Official ATS search CR software roles",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "MagmaLabs",
+      "domain": null,
+      "queryLane": "Official ATS search CR software roles",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Marathon Talent",
+      "domain": null,
+      "queryLane": "Official ATS search CR software roles",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Colibricode",
+      "domain": null,
+      "queryLane": "Official ATS search CR software roles",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Blackfluo.ai",
+      "domain": null,
+      "queryLane": "Official ATS search CR software roles",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "thinkbridge",
+      "domain": null,
+      "queryLane": "Official ATS search CR software roles",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "AOA",
+      "domain": null,
+      "queryLane": "Official ATS search CR software roles",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "AOA",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Fortinet",
+      "domain": null,
+      "queryLane": "Official ATS search CR software roles",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Openvale Group",
+      "domain": null,
+      "queryLane": "Official ATS search CR software roles",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "AltScore",
+      "domain": null,
+      "queryLane": "Official ATS search CR software roles",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Appsilon",
+      "domain": null,
+      "queryLane": "Official ATS search CR software roles",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "DoiT International",
+      "domain": null,
+      "queryLane": "Official ATS search CR software roles",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "MetalBear",
+      "domain": null,
+      "queryLane": "Official ATS search CR software roles",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    }
+  ]
+}

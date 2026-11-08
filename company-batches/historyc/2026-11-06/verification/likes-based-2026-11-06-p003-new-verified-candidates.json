@@ -1,0 +1,149 @@
+[
+  {
+    "name": "Fair Play Labs",
+    "website": "https://fairplaylabs.com/",
+    "careersUrl": "https://fairplaylabs.com/careers/",
+    "model": "unknown",
+    "tracks": ["Software Engineering", "Quality Assurance", "Game Development"],
+    "locations": ["Costa Rica"],
+    "jobs": [
+      {
+        "id": "fair-play-labs-qa-lead",
+        "title": "QA Lead",
+        "location": "Costa Rica, On Site",
+        "url": "https://fairplaylabs.com/job-opening/qa-lead/",
+        "workMode": "On site",
+        "stack": "Unreal Engine, Unity 3D",
+        "eligibility": "Costa Rica",
+        "listingStatus": "Listed on the employer careers page when checked",
+        "checkedOn": "2026-11-06",
+        "technologies": ["Unreal Engine", "Unity 3D"],
+        "roles": ["Quality Assurance"],
+        "levels": ["Lead"]
+      }
+    ],
+    "sourceEvidence": [
+      { "kind": "official-site", "url": "https://fairplaylabs.com/", "checkedOn": "2026-11-06", "note": "The official site identifies Fair Play Labs as a game development studio based in San Jose, Costa Rica." },
+      { "kind": "careers-page", "url": "https://fairplaylabs.com/careers/", "checkedOn": "2026-11-06", "note": "The careers page lists a QA Lead role with Costa Rica, on-site location wording." },
+      { "kind": "job-posting", "url": "https://fairplaylabs.com/job-opening/qa-lead/", "checkedOn": "2026-11-06" }
+    ],
+    "fit": { "status": "strong", "reasons": ["Official game development studio in Costa Rica with an active software QA lead opening."], "profileVersion": "v1", "evaluatedOn": "2026-11-06" },
+    "queryLane": "Official Costa Rica software careers pages 2026-11-06"
+  },
+  {
+    "name": "weKnow Inc.",
+    "website": "https://weknowinc.com/",
+    "careersUrl": "https://weknowinc.com/careers/work-at-weknow/",
+    "model": "outsourcing",
+    "tracks": ["Software Engineering", "Backend", "Full stack", "Drupal"],
+    "locations": ["LATAM"],
+    "jobs": [
+      {
+        "id": "weknow-drupal-tech-lead",
+        "title": "Drupal Tech Lead",
+        "location": "Remote, LATAM",
+        "url": "https://weknowinc.com/careers/work-at-weknow/drupal-tech-lead/",
+        "workMode": "Remote",
+        "stack": "Drupal, PHP, JavaScript, React, SQL",
+        "eligibility": "Remote from Latin America",
+        "listingStatus": "Listed as a current opening on the employer careers page when checked",
+        "checkedOn": "2026-11-06",
+        "technologies": ["Drupal", "PHP", "JavaScript", "React", "SQL"],
+        "roles": ["Backend", "Full stack"],
+        "levels": ["Senior", "Lead"]
+      }
+    ],
+    "sourceEvidence": [
+      { "kind": "official-site", "url": "https://weknowinc.com/", "checkedOn": "2026-11-06", "note": "The company describes nearshore development, staff augmentation, web development, and Drupal services." },
+      { "kind": "careers-page", "url": "https://weknowinc.com/careers/work-at-weknow/", "checkedOn": "2026-11-06", "note": "The employer states current roles are remote within LATAM." },
+      { "kind": "job-posting", "url": "https://weknowinc.com/careers/work-at-weknow/drupal-tech-lead/", "checkedOn": "2026-11-06" }
+    ],
+    "fit": { "status": "strong", "reasons": ["Nearshore software engineering employer with a current senior engineering role explicitly remote within LATAM."], "profileVersion": "v1", "evaluatedOn": "2026-11-06" },
+    "queryLane": "Official LATAM engineering careers 2026-11-06"
+  },
+  {
+    "name": "Convo Relay",
+    "website": "https://convorelay.com/",
+    "careersUrl": "https://dugu.dev/",
+    "model": "direct",
+    "tracks": ["Software Engineering", "Backend", "Product Engineering"],
+    "locations": ["Latin America"],
+    "jobs": [
+      {
+        "id": "convo-relay-software-engineer-ii",
+        "title": "Software Engineer II (Product R&D)",
+        "location": "Remote, Latin America",
+        "url": "https://dugu.dev/",
+        "workMode": "Remote",
+        "stack": "Ruby, Node.js, TypeScript, Python, Java, AWS, SQL",
+        "eligibility": "All roles are 100% remote across Latin America; Dugu describes itself as Convo Relay's dedicated recruitment and operations partner.",
+        "listingStatus": "Listed on Convo Relay's designated LATAM recruitment partner page when checked",
+        "checkedOn": "2026-11-06",
+        "technologies": ["Ruby", "Node.js", "TypeScript", "Python", "Java", "AWS", "SQL"],
+        "roles": ["Backend", "Product Engineering"],
+        "levels": ["Mid-level"]
+      }
+    ],
+    "sourceEvidence": [
+      { "kind": "official-site", "url": "https://convorelay.com/", "checkedOn": "2026-11-06", "note": "Convo's official site describes its video relay and interpreting applications." },
+      { "kind": "careers-page", "url": "https://dugu.dev/", "checkedOn": "2026-11-06", "note": "Dugu states it is Convo Relay's dedicated recruitment and operations partner and lists an active Software Engineer II opening, remote across Latin America." },
+      { "kind": "job-posting", "url": "https://dugu.dev/", "checkedOn": "2026-11-06" }
+    ],
+    "fit": { "status": "possible", "reasons": ["Product software employer with a current Latin America engineering role listed by its named recruitment partner."], "profileVersion": "v1", "evaluatedOn": "2026-11-06" },
+    "queryLane": "Official LATAM engineering careers 2026-11-06"
+  },
+  {
+    "name": "Edenia",
+    "website": "https://edenia.com/",
+    "careersUrl": "https://edenia.com/es/carreras-desarrollador-blockchain",
+    "model": "outsourcing",
+    "tracks": ["Software Engineering", "Backend", "Blockchain", "Infrastructure"],
+    "locations": ["Costa Rica"],
+    "jobs": [],
+    "sourceEvidence": [
+      { "kind": "official-site", "url": "https://edenia.com/", "checkedOn": "2026-11-06", "note": "Edenia says it develops custom software for blockchain and fintech companies and operates from Costa Rica." },
+      { "kind": "careers-page", "url": "https://edenia.com/es/carreras-desarrollador-blockchain", "checkedOn": "2026-11-06", "note": "Current team application page invites candidates to join Edenia's Costa Rica software and infrastructure team; no specific open job title was listed." }
+    ],
+    "fit": { "status": "possible", "reasons": ["Costa Rica software and infrastructure employer with a current career intake page; no individual vacancy was stated on the page checked."], "profileVersion": "v1", "evaluatedOn": "2026-11-06" },
+    "queryLane": "Costa Rica employer official careers wave 3"
+  },
+  {
+    "name": "Aplix",
+    "website": "https://aplix.cr/",
+    "model": "outsourcing",
+    "tracks": ["Software Engineering", "Backend", "JavaScript", "Python", "Java", "SQL", "AI"],
+    "locations": ["Costa Rica"],
+    "jobs": [],
+    "sourceEvidence": [
+      { "kind": "official-site", "url": "https://aplix.cr/", "checkedOn": "2026-11-06", "note": "Aplix describes custom software, ERP, cloud, and AI services from Costa Rica and identifies its software development team and stack." }
+    ],
+    "fit": { "status": "possible", "reasons": ["Costa Rica custom software employer with a software development team; no current public vacancy was listed on the company site checked."], "profileVersion": "v1", "evaluatedOn": "2026-11-06" },
+    "queryLane": "Costa Rica employer official careers wave 3"
+  },
+  {
+    "name": "KyrApps",
+    "website": "https://kyrapps.com/",
+    "model": "direct",
+    "tracks": ["Software Engineering", "Backend", "Apps", "APIs", "QA"],
+    "locations": ["Costa Rica"],
+    "jobs": [],
+    "sourceEvidence": [
+      { "kind": "official-site", "url": "https://kyrapps.com/", "checkedOn": "2026-11-06", "note": "KyrApps describes production software products, custom applications, APIs, QA, and its Costa Rica base." }
+    ],
+    "fit": { "status": "possible", "reasons": ["Costa Rican software product and development company; no current public vacancy or careers page was found in this check."], "profileVersion": "v1", "evaluatedOn": "2026-11-06" },
+    "queryLane": "Costa Rica employer official careers wave 3"
+  },
+  {
+    "name": "Trifecta Software",
+    "website": "https://www.trifectasoftware.com/",
+    "model": "outsourcing",
+    "tracks": ["Software Engineering", "AI", "Custom Software"],
+    "locations": ["Costa Rica"],
+    "jobs": [],
+    "sourceEvidence": [
+      { "kind": "official-site", "url": "https://www.trifectasoftware.com/about/", "checkedOn": "2026-11-06", "note": "The company says it develops custom software, was founded in San Jose, Costa Rica, and is based there." }
+    ],
+    "fit": { "status": "possible", "reasons": ["Costa Rica custom software engineering employer; no current public vacancy or careers page was found in this check."], "profileVersion": "v1", "evaluatedOn": "2026-11-06" },
+    "queryLane": "Costa Rica employer official careers wave 3"
+  }
+]

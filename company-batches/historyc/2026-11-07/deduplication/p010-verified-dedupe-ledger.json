@@ -1,0 +1,1696 @@
+{
+  "cohortId": "likes-based-2026-11-07-p010",
+  "checkedOn": "2026-11-07",
+  "inputFiles": [
+    "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+    "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json"
+  ],
+  "inputCount": 159,
+  "uniqueCount": 148,
+  "outputCount": 148,
+  "duplicateCount": 4,
+  "missingIdentityCount": 7,
+  "catalog": {
+    "source": "MongoDB + bundled files",
+    "mongoCompanies": 1520,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 0,
+    "indexedNames": 1685,
+    "indexedDomains": 1630
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 64,
+    "topTracks": [
+      {
+        "track": "Engineering",
+        "count": 36
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "Software Engineering",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Node.js",
+        "count": 2
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        47
+      ],
+      [
+        "direct",
+        16
+      ],
+      [
+        "unknown",
+        1
+      ]
+    ]
+  },
+  "dislikeBaseline": {
+    "activeDislikedWithCostaRicaOrLatamEvidence": 92,
+    "dislikedTracks": [
+      {
+        "track": "Engineering",
+        "count": 64
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 8
+      },
+      {
+        "track": "Software Engineering",
+        "count": 7
+      },
+      {
+        "track": "Backend",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 5
+      },
+      {
+        "track": "Java Backend",
+        "count": 3
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 3
+      },
+      {
+        "track": "Python",
+        "count": 3
+      },
+      {
+        "track": "Nearshore",
+        "count": 3
+      },
+      {
+        "track": "Full Stack",
+        "count": 3
+      },
+      {
+        "track": "Go",
+        "count": 1
+      },
+      {
+        "track": "Node.js",
+        "count": 1
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        53
+      ],
+      [
+        "direct",
+        35
+      ],
+      [
+        "unknown",
+        4
+      ]
+    ]
+  },
+  "queryLanes": [
+    {
+      "lane": "The Manifest Costa Rica software directory",
+      "leads": 25,
+      "unique": 25,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "CAMTIC Costa Rica ICT member directory",
+      "leads": 20,
+      "unique": 20,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Alpunto Costa Rica software developer directory",
+      "leads": 12,
+      "unique": 12,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "The Manifest Costa Rica software directory — page 4",
+      "leads": 12,
+      "unique": 12,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "The Manifest Costa Rica software directory — page 2",
+      "leads": 11,
+      "unique": 11,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "The Manifest Costa Rica software directory — page 0",
+      "leads": 6,
+      "unique": 6,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "CamSCAT Costa Rica shared-services member directory",
+      "leads": 5,
+      "unique": 5,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Guia TIC Costa Rica technology supplier directory",
+      "leads": 5,
+      "unique": 5,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Enterprise League software directory — Colombia",
+      "leads": 4,
+      "unique": 4,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "GoodFirms Costa Rica software development directory",
+      "leads": 3,
+      "unique": 3,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Find Remote Jobs current software-engineering LATAM feed",
+      "leads": 3,
+      "unique": 3,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official Costa Rica software companies",
+      "leads": 1,
+      "unique": 1,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official Costa Rica employer job pages — software/engineering roles",
+      "leads": 1,
+      "unique": 1,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Nearshore Hub Latin America software provider directory",
+      "leads": 51,
+      "unique": 40,
+      "duplicateRate": 0.216,
+      "recommendation": "continue or expand this lane"
+    }
+  ],
+  "entries": [
+    {
+      "company": "AACROM",
+      "domain": "aacrom.com",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2"
+    },
+    {
+      "company": "AceBuddy",
+      "domain": "acebuddy.net",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2"
+    },
+    {
+      "company": "BEST Resource",
+      "domain": "bestresourcecr.com",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2"
+    },
+    {
+      "company": "Software Solutions S.A.",
+      "domain": "softwaresolutions.co.cr",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3"
+    },
+    {
+      "company": "Soltig",
+      "domain": "soltig.net",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3"
+    },
+    {
+      "company": "Architect Technology Solutions (ATS)",
+      "domain": "atscr.com",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3"
+    },
+    {
+      "company": "Dinámica Consultores Internacional S.A. (DCI)",
+      "domain": "dcicr.com",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3"
+    },
+    {
+      "company": "PIXDEA",
+      "domain": "pixdea.com",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4"
+    },
+    {
+      "company": "Wolk Software",
+      "domain": "wolksoftcr.com",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5"
+    },
+    {
+      "company": "Hermes Soft",
+      "domain": "hermes-soft.com",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6"
+    },
+    {
+      "company": "SECSA",
+      "domain": "secsacr.net",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6"
+    },
+    {
+      "company": "321 Solutions",
+      "domain": "321solutions.net",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4"
+    },
+    {
+      "company": "TheMadFox",
+      "domain": "themadfox.com",
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co"
+    },
+    {
+      "company": "CodeBranch",
+      "domain": "codebranch.co",
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co"
+    },
+    {
+      "company": "Marsodi Tech",
+      "domain": "marsodi.tech",
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co"
+    },
+    {
+      "company": "Shift Active | Inteligencia interactiva",
+      "domain": "shiftactive.com",
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co"
+    },
+    {
+      "company": "aliaxis",
+      "domain": "aliaxis-la.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "Smith",
+      "domain": "smith-nephew.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "catalina",
+      "domain": "catalina.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "Centro Bimbo",
+      "domain": "grupobimbo.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "Cinde",
+      "domain": "cinde.org",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "U Devs",
+      "domain": "u-devs.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1"
+    },
+    {
+      "company": "Knogin",
+      "domain": "knogin.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1"
+    },
+    {
+      "company": "Excel SoftSources",
+      "domain": "excelsoftsources.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1"
+    },
+    {
+      "company": "Cabana Data",
+      "domain": "cabanadata.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1"
+    },
+    {
+      "company": "ARTECH",
+      "domain": "artech-consulting.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1"
+    },
+    {
+      "company": "Software SOEFE S.A.",
+      "domain": "soefe.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1"
+    },
+    {
+      "company": "Broccoli Studios",
+      "domain": "broccolistudios.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1"
+    },
+    {
+      "company": "DATAi",
+      "domain": "dataicr.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1"
+    },
+    {
+      "company": "Cipherio",
+      "domain": "cipherio.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1"
+    },
+    {
+      "company": "isthmusit software",
+      "domain": "isthmusit.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1"
+    },
+    {
+      "company": "Flecha Roja Technologies",
+      "domain": "flecharoja.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1"
+    },
+    {
+      "company": "Centauro Solutions",
+      "domain": "centaurosolutions.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1"
+    },
+    {
+      "company": "Perfiles Tecnológicos",
+      "domain": "perfilestecnologicos.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1"
+    },
+    {
+      "company": "Nexitus",
+      "domain": "nexitus.cr",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=3"
+    },
+    {
+      "company": "Alpha Okami",
+      "domain": "alphaokami.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=3"
+    },
+    {
+      "company": "PilotCore",
+      "domain": "pilotcore.net",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=3"
+    },
+    {
+      "company": "IT-iCO",
+      "domain": "it-ico.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=3"
+    },
+    {
+      "company": "Predisoft",
+      "domain": "predisoft.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=3"
+    },
+    {
+      "company": "App2soft",
+      "domain": "app2soft.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=3"
+    },
+    {
+      "company": "Popo Data Analytics & Software Development",
+      "domain": "polpocr.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=3"
+    },
+    {
+      "company": "SevenSoft",
+      "domain": "sevensoftit.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=3"
+    },
+    {
+      "company": "ISK Global",
+      "domain": "iskglobal.net",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=3"
+    },
+    {
+      "company": "MDG Developers Group",
+      "domain": "mdgdevelopers.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=3"
+    },
+    {
+      "company": "Udersol",
+      "domain": "udersol.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=3"
+    },
+    {
+      "company": "Hangar CR",
+      "domain": "thehangar.cr",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=3"
+    },
+    {
+      "company": "Intelcomp S.A.",
+      "domain": "intelcomp.net",
+      "queryLane": "The Manifest Costa Rica software directory — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=4"
+    },
+    {
+      "company": "PCMASTERCR",
+      "domain": "pcmastercr.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=4"
+    },
+    {
+      "company": "Parso",
+      "domain": "parso.co",
+      "queryLane": "The Manifest Costa Rica software directory — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=4"
+    },
+    {
+      "company": "Arcavi Software",
+      "domain": "arcavisoftware.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=4"
+    },
+    {
+      "company": "NW Ideas",
+      "domain": "nw-ideas.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=4"
+    },
+    {
+      "company": "GECAM Tecnologia",
+      "domain": "gteccr.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=4"
+    },
+    {
+      "company": "C.C. Net Technologies S.A.",
+      "domain": "ccnetcr.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=4"
+    },
+    {
+      "company": "Grupo Argus",
+      "domain": "grupoargus.co.cr",
+      "queryLane": "The Manifest Costa Rica software directory — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=4"
+    },
+    {
+      "company": "BIBA S.A.",
+      "domain": "bibatalentohumano.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=4"
+    },
+    {
+      "company": "LDXLab",
+      "domain": "ldxlab.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=4"
+    },
+    {
+      "company": "ITOS Cloud",
+      "domain": "itoscloud.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=4"
+    },
+    {
+      "company": "Roldma Consultores",
+      "domain": "roldma.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=4"
+    },
+    {
+      "company": "Greencore Solutions",
+      "domain": "greencore.co.cr",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2"
+    },
+    {
+      "company": "Delfix Tecnosoluciones",
+      "domain": "delfixcr.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2"
+    },
+    {
+      "company": "Synapptica",
+      "domain": "synapptica.net",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2"
+    },
+    {
+      "company": "Mecsoft de Costa Rica",
+      "domain": "mecsoftcr.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2"
+    },
+    {
+      "company": "Blackberry&Cross",
+      "domain": "blackberrycross.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2"
+    },
+    {
+      "company": "Colchian",
+      "domain": "colchian.eu",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2"
+    },
+    {
+      "company": "Asystec",
+      "domain": "asystec.io",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2"
+    },
+    {
+      "company": "Hiopos Costa Rica",
+      "domain": "hiopos.co.cr",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2"
+    },
+    {
+      "company": "NearshoreWorks",
+      "domain": "nearshoreworks.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2"
+    },
+    {
+      "company": "deLaGuayaba",
+      "domain": "delaguayaba.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2"
+    },
+    {
+      "company": "RACSA_CR",
+      "domain": "go.cr",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2"
+    },
+    {
+      "company": "People Apps Inc",
+      "domain": "people-apps.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies"
+    },
+    {
+      "company": "Fundamentl Partners",
+      "domain": "fundamentlpartners.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies"
+    },
+    {
+      "company": "Brandy Creativity & Technology",
+      "domain": "brandy.la",
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies"
+    },
+    {
+      "company": "Drago's House",
+      "domain": "dragoshouse.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies"
+    },
+    {
+      "company": "Irazu Labs",
+      "domain": "irazulabs.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies"
+    },
+    {
+      "company": "ColibriCode",
+      "domain": "colibricode.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies"
+    },
+    {
+      "company": "WAM Digital",
+      "domain": "wamdigital.com",
+      "queryLane": "GoodFirms Costa Rica software development directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.goodfirms.co/directory/country/top-software-development-companies/costa-rica"
+    },
+    {
+      "company": "ReinSystems",
+      "domain": "reinsystems.com",
+      "queryLane": "GoodFirms Costa Rica software development directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.goodfirms.co/directory/country/top-software-development-companies/costa-rica"
+    },
+    {
+      "company": "Speend",
+      "domain": "speend.io",
+      "queryLane": "GoodFirms Costa Rica software development directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.goodfirms.co/directory/country/top-software-development-companies/costa-rica"
+    },
+    {
+      "company": "Link Design",
+      "domain": "linkdesign.cr",
+      "queryLane": "Official Costa Rica software companies",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://linkdesign.cr/en/desarrollo-de-software-costa-rica"
+    },
+    {
+      "company": "Mainsoft Ltda.",
+      "domain": "mainsoft.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "OneScreen Solutions",
+      "domain": "onescreenlatam.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "PANDUIT SERVICIOS",
+      "domain": "panduit.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Schneider Electric Centroamérica LTDA",
+      "domain": "se.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "TIQAL S.A.S.",
+      "domain": "darumasoftware.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Publicis Groupe",
+      "domain": "publicisgroupe.com",
+      "queryLane": "Official Costa Rica employer job pages — software/engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://careers.publicisgroupe.com/jobs/180186?lang=en-US"
+    },
+    {
+      "company": "Foundever",
+      "domain": "foundever.com",
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://findremote.jobs/jobs/conversational-designer-remote-any-location-br--2a8b1c7bc6cf"
+    },
+    {
+      "company": "Airalo",
+      "domain": "airalo.com",
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://findremote.jobs/jobs/solutions-architect-latam--7bbb98d2c244"
+    },
+    {
+      "company": "Hire Overseas",
+      "domain": "hireoverseas.com",
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://findremote.jobs/jobs/full-stack-ai-engineer--1ccee3f01fc9"
+    },
+    {
+      "company": "Aliant",
+      "domain": "aliantlaw.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/aliant/"
+    },
+    {
+      "company": "Banco Promérica",
+      "domain": "fi.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/banco-promerica/"
+    },
+    {
+      "company": "CCA Business",
+      "domain": "ccastrategy.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/cca-business/"
+    },
+    {
+      "company": "CLC Comunicación",
+      "domain": "clccomunicacion.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/clc-comunicacion/"
+    },
+    {
+      "company": "Coral",
+      "domain": "coralcr.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/coral-systems/"
+    },
+    {
+      "company": "Ecija",
+      "domain": "ecija.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/ecija/"
+    },
+    {
+      "company": "ECP Consulting Group",
+      "domain": "ecpconsultgroup.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/ecp-consulting-group/"
+    },
+    {
+      "company": "Evicertia",
+      "domain": "evicertia.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/evicertia/"
+    },
+    {
+      "company": "Film Support",
+      "domain": "filmsupport.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/film-support/"
+    },
+    {
+      "company": "Fundación Omar Dengo",
+      "domain": "ac.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/fundacion-omar-dengo/"
+    },
+    {
+      "company": "Global Media Group",
+      "domain": "globalmediagroupgmg.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/global-media-group/"
+    },
+    {
+      "company": "Incredible Workplaces",
+      "domain": "incredibleworkplacescostarica.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/incredible-workplaces/"
+    },
+    {
+      "company": "LYSTO CARD",
+      "domain": "lystocard.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/lysto-card/"
+    },
+    {
+      "company": "Mekanismo",
+      "domain": "mekanismo.net",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/mekanismo-taller-audiovisual/"
+    },
+    {
+      "company": "Navega Training and Consulting SRL",
+      "domain": "navegatraining.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/navega-training-and-consulting-srl/"
+    },
+    {
+      "company": "Progressio Digital",
+      "domain": "progressiodigital.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/progressio-digital/"
+    },
+    {
+      "company": "Prointec",
+      "domain": "prointeccr.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/prointec/"
+    },
+    {
+      "company": "Reelax Media",
+      "domain": "reelaxmedia.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/reelax-media/"
+    },
+    {
+      "company": "RF Grupo Educativo Ltda",
+      "domain": "rfgrupoeducativo.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/rf-grupo-educativo-ltda/"
+    },
+    {
+      "company": "Transcomer",
+      "domain": "transcomer.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-verified-unique-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/transcomer/"
+    },
+    {
+      "company": "LoopStudio",
+      "domain": "loopstudio.dev",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Intraway",
+      "domain": "intraway.com",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Qubika",
+      "domain": "qubika.com",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "GeneXus",
+      "domain": "genexus.com",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "10Pines",
+      "domain": "10pines.com",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Tryolabs",
+      "domain": "tryolabs.com",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Practia",
+      "domain": "practia.global",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Capicua",
+      "domain": "capicua.com",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Eagerworks",
+      "domain": "eagerworks.com",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Ingenious",
+      "domain": "ingenious.agency",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Kaizen Softworks",
+      "domain": "kzsoftworks.com",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Pyxis",
+      "domain": "pyxis.tech",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Qualabs",
+      "domain": "qualabs.com",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Quanam",
+      "domain": "quanam.com",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Baufest",
+      "domain": "baufest.com",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Bitlogic",
+      "domain": "bitlogic.io",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Eryx",
+      "domain": "eryx.co",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Flux IT",
+      "domain": "fluxitsoft.com",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Snoop Consulting",
+      "domain": "snoopconsulting.com",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "ArkusNexus",
+      "domain": "arkusnexus.com",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Hitss",
+      "domain": "hitss.com",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Quarksoft",
+      "domain": "quarksoft.net",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Scio Consulting",
+      "domain": "sciodev.com",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Scio",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Unosquare",
+      "domain": "unosquare.com",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Ceiba Software",
+      "domain": "ceiba.com.co",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Cidenet",
+      "domain": "cidenet.com.co",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Interfell",
+      "domain": "interfell.com",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Sofka Technologies",
+      "domain": "sofka.com.co",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Stefanini",
+      "domain": "stefanini.com",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "TIVIT",
+      "domain": "tivit.com",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Continuum",
+      "domain": "continuumhq.com",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Zenta Group",
+      "domain": "zentagroup.com",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Elaniin",
+      "domain": "elaniin.com",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Canvia",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "ArcTouch",
+      "domain": "arctouch.com",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Compass UOL",
+      "domain": "aircompany.ai",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Intersog",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Making Sense",
+      "domain": "makingsense.com",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Neoris",
+      "domain": "epamneoris.com",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Venturus",
+      "domain": "org.br",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "FDTE",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Nexton",
+      "domain": "nexton.dev",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Ensolvers",
+      "domain": "ensolvers.com",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Moove It",
+      "domain": "qubika.com",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Qubika",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Objective",
+      "domain": "objective.com.br",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Sngular",
+      "domain": "sngular.com",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Tiempo Development",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Zemoga",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Grupo ASSA",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Perficient Latin America",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "PSL",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Zup Innovation",
+      "domain": "zup.com.br",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p010-nearshorehub-official-verified.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Zup",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    }
+  ]
+}

@@ -1,0 +1,1404 @@
+{
+  "cohortId": "likes-based-2026-11-07-p010",
+  "checkedOn": "2026-11-07",
+  "inputFiles": [
+    "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p009-shaped-candidates-v2.json",
+    "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json"
+  ],
+  "inputCount": 119,
+  "uniqueCount": 81,
+  "outputCount": 81,
+  "duplicateCount": 38,
+  "missingIdentityCount": 0,
+  "catalog": {
+    "source": "MongoDB + bundled files",
+    "mongoCompanies": 1520,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 0,
+    "indexedNames": 1618,
+    "indexedDomains": 1512
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 64,
+    "topTracks": [
+      {
+        "track": "Engineering",
+        "count": 36
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "Software Engineering",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Node.js",
+        "count": 2
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        47
+      ],
+      [
+        "direct",
+        16
+      ],
+      [
+        "unknown",
+        1
+      ]
+    ]
+  },
+  "dislikeBaseline": {
+    "activeDislikedWithCostaRicaOrLatamEvidence": 92,
+    "dislikedTracks": [
+      {
+        "track": "Engineering",
+        "count": 64
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 8
+      },
+      {
+        "track": "Software Engineering",
+        "count": 7
+      },
+      {
+        "track": "Backend",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 5
+      },
+      {
+        "track": "Java Backend",
+        "count": 3
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 3
+      },
+      {
+        "track": "Python",
+        "count": 3
+      },
+      {
+        "track": "Nearshore",
+        "count": 3
+      },
+      {
+        "track": "Full Stack",
+        "count": 3
+      },
+      {
+        "track": "Go",
+        "count": 1
+      },
+      {
+        "track": "Node.js",
+        "count": 1
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        53
+      ],
+      [
+        "direct",
+        35
+      ],
+      [
+        "unknown",
+        4
+      ]
+    ]
+  },
+  "queryLanes": [
+    {
+      "lane": "The Manifest Costa Rica software directory",
+      "leads": 6,
+      "unique": 6,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "The Manifest Costa Rica software directory — page 2",
+      "leads": 5,
+      "unique": 5,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Alpunto Costa Rica software developer directory",
+      "leads": 3,
+      "unique": 3,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "The Manifest Costa Rica software directory — page 4",
+      "leads": 3,
+      "unique": 3,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "The Manifest Costa Rica software directory — page 0",
+      "leads": 3,
+      "unique": 3,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Find Remote Jobs current software-engineering LATAM feed",
+      "leads": 3,
+      "unique": 3,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Enterprise League software directory — Colombia",
+      "leads": 1,
+      "unique": 1,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "CamSCAT Costa Rica shared-services member directory",
+      "leads": 1,
+      "unique": 1,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "GoodFirms Costa Rica software development directory",
+      "leads": 1,
+      "unique": 1,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official Costa Rica software companies",
+      "leads": 1,
+      "unique": 1,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Guia TIC Costa Rica technology supplier directory",
+      "leads": 1,
+      "unique": 1,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official Costa Rica employer job pages — software/engineering roles",
+      "leads": 1,
+      "unique": 1,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "CAMTIC Costa Rica ICT member directory",
+      "leads": 1,
+      "unique": 1,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Nearshore Hub Latin America software provider directory",
+      "leads": 89,
+      "unique": 51,
+      "duplicateRate": 0.427,
+      "recommendation": "continue or expand this lane"
+    }
+  ],
+  "entries": [
+    {
+      "company": "Soltig",
+      "domain": "soltig.net",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p009-shaped-candidates-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://soltig.net/producto/estimado-de-impacto-de-desastres-naturales-en-qgis-utilizando-el-complemento-de-inasafe/"
+    },
+    {
+      "company": "SECSA",
+      "domain": "secsacr.net",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p009-shaped-candidates-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://secsacr.net/"
+    },
+    {
+      "company": "321 Solutions",
+      "domain": "321solutions.net",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p009-shaped-candidates-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://321solutions.net/"
+    },
+    {
+      "company": "CodeBranch",
+      "domain": "codebranch.co",
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p009-shaped-candidates-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://codebranch.co/careers/"
+    },
+    {
+      "company": "Cinde",
+      "domain": "cinde.org",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p009-shaped-candidates-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.cinde.org/en/ecosystems#talent-initiatives"
+    },
+    {
+      "company": "Cabana Data",
+      "domain": "cabanadata.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p009-shaped-candidates-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://cabanadata.com/ai-first-move#principio"
+    },
+    {
+      "company": "Broccoli Studios",
+      "domain": "broccolistudios.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p009-shaped-candidates-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://broccolistudios.com/"
+    },
+    {
+      "company": "PilotCore",
+      "domain": "pilotcore.net",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p009-shaped-candidates-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.pilotcore.net/#proceso"
+    },
+    {
+      "company": "IT-iCO",
+      "domain": "it-ico.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p009-shaped-candidates-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.it-ico.com/"
+    },
+    {
+      "company": "MDG Developers Group",
+      "domain": "mdgdevelopers.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p009-shaped-candidates-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://mdgdevelopers.com/careers/"
+    },
+    {
+      "company": "Udersol",
+      "domain": "udersol.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p009-shaped-candidates-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://udersol.com/staffing"
+    },
+    {
+      "company": "PCMASTERCR",
+      "domain": "pcmastercr.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p009-shaped-candidates-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://pcmastercr.com/"
+    },
+    {
+      "company": "Grupo Argus",
+      "domain": "grupoargus.co.cr",
+      "queryLane": "The Manifest Costa Rica software directory — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p009-shaped-candidates-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://grupoargus.co.cr/"
+    },
+    {
+      "company": "ITOS Cloud",
+      "domain": "itoscloud.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p009-shaped-candidates-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.itoscloud.com/"
+    },
+    {
+      "company": "Synapptica",
+      "domain": "synapptica.net",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p009-shaped-candidates-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://synapptica.net/"
+    },
+    {
+      "company": "Asystec",
+      "domain": "asystec.io",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p009-shaped-candidates-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://asystec.io/"
+    },
+    {
+      "company": "Hiopos Costa Rica",
+      "domain": "hiopos.co.cr",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p009-shaped-candidates-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://hiopos.co.cr/"
+    },
+    {
+      "company": "NearshoreWorks",
+      "domain": "nearshoreworks.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p009-shaped-candidates-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://nearshoreworks.com/nearshore-talent-guide/"
+    },
+    {
+      "company": "deLaGuayaba",
+      "domain": "delaguayaba.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p009-shaped-candidates-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://delaguayaba.com/career/"
+    },
+    {
+      "company": "Fundamentl Partners",
+      "domain": "fundamentlpartners.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p009-shaped-candidates-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.fundamentlpartners.com/"
+    },
+    {
+      "company": "Brandy Creativity & Technology",
+      "domain": "brandy.la",
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p009-shaped-candidates-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://brandy.la/"
+    },
+    {
+      "company": "ColibriCode",
+      "domain": "colibricode.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p009-shaped-candidates-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://colibricode.com/careers"
+    },
+    {
+      "company": "WAM Digital",
+      "domain": "wamdigital.com",
+      "queryLane": "GoodFirms Costa Rica software development directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p009-shaped-candidates-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://wamdigital.com/careers"
+    },
+    {
+      "company": "Link Design",
+      "domain": "linkdesign.cr",
+      "queryLane": "Official Costa Rica software companies",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p009-shaped-candidates-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://linkdesign.cr/en/desarrollo-de-software-costa-rica"
+    },
+    {
+      "company": "TIQAL S.A.S.",
+      "domain": "darumasoftware.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p009-shaped-candidates-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.darumasoftware.com/"
+    },
+    {
+      "company": "Publicis Groupe",
+      "domain": "publicisgroupe.com",
+      "queryLane": "Official Costa Rica employer job pages — software/engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p009-shaped-candidates-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://careers.publicisgroupe.com/jobs/180186?lang=en-US"
+    },
+    {
+      "company": "Foundever",
+      "domain": "foundever.com",
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p009-shaped-candidates-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://jobs.foundever.com/?utm_source=corpwebsite&#038;utm_medium=CTAtopbar"
+    },
+    {
+      "company": "Airalo",
+      "domain": "airalo.com",
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p009-shaped-candidates-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.airalo.com/airalo-careers/job-vacancies"
+    },
+    {
+      "company": "Hire Overseas",
+      "domain": "hireoverseas.com",
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p009-shaped-candidates-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.hireoverseas.com/services/managed-talent-hire"
+    },
+    {
+      "company": "Coral",
+      "domain": "coralcr.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p009-shaped-candidates-v2.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.coralcr.com/"
+    },
+    {
+      "company": "Cheesecake Labs",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Cheesecake Labs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "BairesDev",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "BairesDev",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Endava",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Endava",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Improving",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Improving",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "LoopStudio",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Koombea",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Koombea",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Devsu",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Devsu",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Intraway",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Lumenalta",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Lumenalta",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Rootstrap",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Rootstrap",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Qubika",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Svitla Systems",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Svitla Systems",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "GeneXus",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "10Pines",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "AgileEngine",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "AgileEngine",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Tryolabs",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "BEON.tech",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "BEON.tech",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Applaudo Studios",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Applaudo Studios",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Tecla",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Tecla",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Jalasoft",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Jalasoft",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Practia",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Capicua",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Devlane",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Devlane",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Eagerworks",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Ingenious",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Kaizen Softworks",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Pyxis",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Qualabs",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Quanam",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Baufest",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Bitlogic",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Eryx",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Flux IT",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Huenei",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Huenei",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "NaN Labs",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "NaNLABS",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Nearsure",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Nearsure",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Santex",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Santex",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Snoop Consulting",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "ArkusNexus",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Hitss",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Icalia Labs",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Icalia Labs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Quarksoft",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Scio Consulting",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Softtek",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Softtek",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Unosquare",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Wizeline",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Wizeline",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Asesoftware",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Asesoftware",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Ceiba Software",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Cidenet",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Interfell",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Pragma",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Pragma",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Sofka Technologies",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Teravision Technologies",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Teravision Technologies",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Stefanini",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "TIVIT",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Continuum",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "ImageMaker",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Imagemaker",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Zenta Group",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Elaniin",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Canvia",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Tekton Labs",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Tekton Labs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Rootstack",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Rootstack",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "ArcTouch",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Compass UOL",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Distillery",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Distillery",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Intersog",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Making Sense",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Neoris",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Venturus",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Blankfactor",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Blankfactor",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Gorilla Logic",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Gorilla Logic",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Jobsity",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Jobsity",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Modus Create",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Modus Create",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Nexton",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Oowlish",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Oowlish",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Encora",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Encora",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Ensolvers",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Moove It",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Objective",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Praxent",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Praxent",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Sngular",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Tiempo Development",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Zemoga",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "CI&T",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "CI&T",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Globant",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Globant",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Grupo ASSA",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Perficient Latin America",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "PSL",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    },
+    {
+      "company": "Zup Innovation",
+      "domain": null,
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p010-nearshorehub-name-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/"
+    }
+  ]
+}

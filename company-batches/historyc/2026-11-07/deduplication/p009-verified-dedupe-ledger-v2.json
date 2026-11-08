@@ -1,0 +1,2173 @@
+{
+  "cohortId": "likes-based-2026-11-07-p009",
+  "checkedOn": "2026-11-07",
+  "inputFiles": [
+    "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+    "company-batches\\historyc\\2026-11-07\\verification\\p009-prior-strict-reverified.json",
+    "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json"
+  ],
+  "inputCount": 206,
+  "uniqueCount": 108,
+  "outputCount": 108,
+  "duplicateCount": 34,
+  "missingIdentityCount": 64,
+  "catalog": {
+    "source": "MongoDB + bundled files",
+    "mongoCompanies": 1520,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 0,
+    "indexedNames": 1645,
+    "indexedDomains": 1590
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 64,
+    "topTracks": [
+      {
+        "track": "Engineering",
+        "count": 36
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "Software Engineering",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Node.js",
+        "count": 2
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        47
+      ],
+      [
+        "direct",
+        16
+      ],
+      [
+        "unknown",
+        1
+      ]
+    ]
+  },
+  "dislikeBaseline": {
+    "activeDislikedWithCostaRicaOrLatamEvidence": 92,
+    "dislikedTracks": [
+      {
+        "track": "Engineering",
+        "count": 64
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 8
+      },
+      {
+        "track": "Software Engineering",
+        "count": 7
+      },
+      {
+        "track": "Backend",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 5
+      },
+      {
+        "track": "Java Backend",
+        "count": 3
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 3
+      },
+      {
+        "track": "Python",
+        "count": 3
+      },
+      {
+        "track": "Nearshore",
+        "count": 3
+      },
+      {
+        "track": "Full Stack",
+        "count": 3
+      },
+      {
+        "track": "Go",
+        "count": 1
+      },
+      {
+        "track": "Node.js",
+        "count": 1
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        53
+      ],
+      [
+        "direct",
+        35
+      ],
+      [
+        "unknown",
+        4
+      ]
+    ]
+  },
+  "queryLanes": [
+    {
+      "lane": "Guia TIC Costa Rica technology supplier directory",
+      "leads": 5,
+      "unique": 5,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Find Remote Jobs current software-engineering LATAM feed",
+      "leads": 3,
+      "unique": 3,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official Costa Rica employer job pages — software/engineering roles",
+      "leads": 1,
+      "unique": 1,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Alpunto Costa Rica software developer directory",
+      "leads": 15,
+      "unique": 12,
+      "duplicateRate": 0.2,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "The Manifest Costa Rica software directory — page 4",
+      "leads": 15,
+      "unique": 12,
+      "duplicateRate": 0.2,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Enterprise League software directory — Colombia",
+      "leads": 5,
+      "unique": 4,
+      "duplicateRate": 0.2,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "The Manifest Costa Rica software directory",
+      "leads": 34,
+      "unique": 25,
+      "duplicateRate": 0.265,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official Costa Rica software companies",
+      "leads": 2,
+      "unique": 1,
+      "duplicateRate": 0.5,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "GoodFirms Costa Rica software development directory",
+      "leads": 7,
+      "unique": 3,
+      "duplicateRate": 0.571,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "The Manifest Costa Rica software directory — page 2",
+      "leads": 27,
+      "unique": 11,
+      "duplicateRate": 0.593,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "The Manifest Costa Rica software directory — page 0",
+      "leads": 16,
+      "unique": 6,
+      "duplicateRate": 0.625,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "CAMTIC Costa Rica ICT member directory",
+      "leads": 60,
+      "unique": 20,
+      "duplicateRate": 0.667,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "CamSCAT Costa Rica shared-services member directory",
+      "leads": 16,
+      "unique": 5,
+      "duplicateRate": 0.687,
+      "recommendation": "continue or expand this lane"
+    }
+  ],
+  "entries": [
+    {
+      "company": "AACROM",
+      "domain": "aacrom.com",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2"
+    },
+    {
+      "company": "AceBuddy",
+      "domain": "acebuddy.net",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2"
+    },
+    {
+      "company": "BEST Resource",
+      "domain": "bestresourcecr.com",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2"
+    },
+    {
+      "company": "Software Solutions S.A.",
+      "domain": "softwaresolutions.co.cr",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3"
+    },
+    {
+      "company": "Soltig",
+      "domain": "soltig.net",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3"
+    },
+    {
+      "company": "Architect Technology Solutions (ATS)",
+      "domain": "atscr.com",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3"
+    },
+    {
+      "company": "Dinámica Consultores Internacional S.A. (DCI)",
+      "domain": "dcicr.com",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3"
+    },
+    {
+      "company": "PIXDEA",
+      "domain": "pixdea.com",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4"
+    },
+    {
+      "company": "Wolk Software",
+      "domain": "wolksoftcr.com",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5"
+    },
+    {
+      "company": "Hermes Soft",
+      "domain": "hermes-soft.com",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6"
+    },
+    {
+      "company": "SECSA",
+      "domain": "secsacr.net",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6"
+    },
+    {
+      "company": "321 Solutions",
+      "domain": "321solutions.net",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4"
+    },
+    {
+      "company": "TheMadFox",
+      "domain": "themadfox.com",
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co"
+    },
+    {
+      "company": "CodeBranch",
+      "domain": "codebranch.co",
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co"
+    },
+    {
+      "company": "Marsodi Tech",
+      "domain": "marsodi.tech",
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co"
+    },
+    {
+      "company": "Shift Active | Inteligencia interactiva",
+      "domain": "shiftactive.com",
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co"
+    },
+    {
+      "company": "aliaxis",
+      "domain": "aliaxis-la.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "CMA",
+      "domain": null,
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "Smith",
+      "domain": "smith-nephew.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "640px-Bac_credomatic_logo",
+      "domain": null,
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "Baccardi",
+      "domain": null,
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "Bat",
+      "domain": null,
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "Bridgestone",
+      "domain": null,
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "baxter",
+      "domain": null,
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "Bayer",
+      "domain": null,
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "Bill Goslyn",
+      "domain": null,
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "catalina",
+      "domain": "catalina.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "Centro Bimbo",
+      "domain": "grupobimbo.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "Cinde",
+      "domain": "cinde.org",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "U Devs",
+      "domain": "u-devs.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1"
+    },
+    {
+      "company": "Knogin",
+      "domain": "knogin.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1"
+    },
+    {
+      "company": "Excel SoftSources",
+      "domain": "excelsoftsources.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1"
+    },
+    {
+      "company": "Cabana Data",
+      "domain": "cabanadata.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1"
+    },
+    {
+      "company": "ARTECH",
+      "domain": "artech-consulting.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1"
+    },
+    {
+      "company": "Software SOEFE S.A.",
+      "domain": "soefe.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1"
+    },
+    {
+      "company": "Broccoli Studios",
+      "domain": "broccolistudios.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1"
+    },
+    {
+      "company": "DATAi",
+      "domain": "dataicr.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1"
+    },
+    {
+      "company": "Cipherio",
+      "domain": "cipherio.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1"
+    },
+    {
+      "company": "isthmusit software",
+      "domain": "isthmusit.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1"
+    },
+    {
+      "company": "Flecha Roja Technologies",
+      "domain": "flecharoja.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1"
+    },
+    {
+      "company": "Centauro Solutions",
+      "domain": "centaurosolutions.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1"
+    },
+    {
+      "company": "Perfiles Tecnológicos",
+      "domain": "perfilestecnologicos.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1"
+    },
+    {
+      "company": "Nexitus",
+      "domain": "nexitus.cr",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=3"
+    },
+    {
+      "company": "Alpha Okami",
+      "domain": "alphaokami.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=3"
+    },
+    {
+      "company": "PilotCore",
+      "domain": "pilotcore.net",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=3"
+    },
+    {
+      "company": "IT-iCO",
+      "domain": "it-ico.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=3"
+    },
+    {
+      "company": "Predisoft",
+      "domain": "predisoft.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=3"
+    },
+    {
+      "company": "App2soft",
+      "domain": "app2soft.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=3"
+    },
+    {
+      "company": "Popo Data Analytics & Software Development",
+      "domain": "polpocr.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=3"
+    },
+    {
+      "company": "SevenSoft",
+      "domain": "sevensoftit.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=3"
+    },
+    {
+      "company": "ISK Global",
+      "domain": "iskglobal.net",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=3"
+    },
+    {
+      "company": "MDG Developers Group",
+      "domain": "mdgdevelopers.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=3"
+    },
+    {
+      "company": "Udersol",
+      "domain": "udersol.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=3"
+    },
+    {
+      "company": "Hangar CR",
+      "domain": "thehangar.cr",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=3"
+    },
+    {
+      "company": "Intelcomp S.A.",
+      "domain": "intelcomp.net",
+      "queryLane": "The Manifest Costa Rica software directory — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=4"
+    },
+    {
+      "company": "PCMASTERCR",
+      "domain": "pcmastercr.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=4"
+    },
+    {
+      "company": "Parso",
+      "domain": "parso.co",
+      "queryLane": "The Manifest Costa Rica software directory — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=4"
+    },
+    {
+      "company": "Arcavi Software",
+      "domain": "arcavisoftware.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=4"
+    },
+    {
+      "company": "NW Ideas",
+      "domain": "nw-ideas.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=4"
+    },
+    {
+      "company": "GECAM Tecnologia",
+      "domain": "gteccr.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=4"
+    },
+    {
+      "company": "C.C. Net Technologies S.A.",
+      "domain": "ccnetcr.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=4"
+    },
+    {
+      "company": "Grupo Argus",
+      "domain": "grupoargus.co.cr",
+      "queryLane": "The Manifest Costa Rica software directory — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=4"
+    },
+    {
+      "company": "BIBA S.A.",
+      "domain": "bibatalentohumano.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=4"
+    },
+    {
+      "company": "LDXLab",
+      "domain": "ldxlab.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=4"
+    },
+    {
+      "company": "ITOS Cloud",
+      "domain": "itoscloud.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=4"
+    },
+    {
+      "company": "Roldma Consultores",
+      "domain": "roldma.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=4"
+    },
+    {
+      "company": "Faro Creativa Studio",
+      "domain": null,
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2"
+    },
+    {
+      "company": "Altus - LATAM",
+      "domain": null,
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2"
+    },
+    {
+      "company": "MBC Developers",
+      "domain": null,
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2"
+    },
+    {
+      "company": "Greencore Solutions",
+      "domain": "greencore.co.cr",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2"
+    },
+    {
+      "company": "Delfix Tecnosoluciones",
+      "domain": "delfixcr.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2"
+    },
+    {
+      "company": "ieSoft",
+      "domain": null,
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2"
+    },
+    {
+      "company": "Clavis Consultores",
+      "domain": null,
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2"
+    },
+    {
+      "company": "Synapptica",
+      "domain": "synapptica.net",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2"
+    },
+    {
+      "company": "Mecsoft de Costa Rica",
+      "domain": "mecsoftcr.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2"
+    },
+    {
+      "company": "Blackberry&Cross",
+      "domain": "blackberrycross.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2"
+    },
+    {
+      "company": "Colchian",
+      "domain": "colchian.eu",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2"
+    },
+    {
+      "company": "Suma IT",
+      "domain": null,
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2"
+    },
+    {
+      "company": "Asystec",
+      "domain": "asystec.io",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2"
+    },
+    {
+      "company": "Hiopos Costa Rica",
+      "domain": "hiopos.co.cr",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2"
+    },
+    {
+      "company": "NearshoreWorks",
+      "domain": "nearshoreworks.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2"
+    },
+    {
+      "company": "Digital Freses",
+      "domain": null,
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2"
+    },
+    {
+      "company": "deLaGuayaba",
+      "domain": "delaguayaba.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2"
+    },
+    {
+      "company": "RACSA_CR",
+      "domain": "go.cr",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2"
+    },
+    {
+      "company": "EL Lab",
+      "domain": null,
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2"
+    },
+    {
+      "company": "Codisa",
+      "domain": null,
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2"
+    },
+    {
+      "company": "DNAMIC | Databricks Data Solutions",
+      "domain": null,
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies"
+    },
+    {
+      "company": "Interfaz",
+      "domain": null,
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies"
+    },
+    {
+      "company": "People Apps Inc",
+      "domain": "people-apps.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies"
+    },
+    {
+      "company": "Oktara",
+      "domain": null,
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies"
+    },
+    {
+      "company": "Fundamentl Partners",
+      "domain": "fundamentlpartners.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies"
+    },
+    {
+      "company": "Creek Software",
+      "domain": null,
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies"
+    },
+    {
+      "company": "Brandy Creativity & Technology",
+      "domain": "brandy.la",
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies"
+    },
+    {
+      "company": "Drago's House",
+      "domain": "dragoshouse.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies"
+    },
+    {
+      "company": "Irazu Labs",
+      "domain": "irazulabs.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies"
+    },
+    {
+      "company": "Yakukua",
+      "domain": null,
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies"
+    },
+    {
+      "company": "ColibriCode",
+      "domain": "colibricode.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies"
+    },
+    {
+      "company": "NW Consulting Services",
+      "domain": null,
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies"
+    },
+    {
+      "company": "COGNOSYS",
+      "domain": null,
+      "queryLane": "GoodFirms Costa Rica software development directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.goodfirms.co/directory/country/top-software-development-companies/costa-rica"
+    },
+    {
+      "company": "WAM Digital",
+      "domain": "wamdigital.com",
+      "queryLane": "GoodFirms Costa Rica software development directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.goodfirms.co/directory/country/top-software-development-companies/costa-rica"
+    },
+    {
+      "company": "ReinSystems",
+      "domain": "reinsystems.com",
+      "queryLane": "GoodFirms Costa Rica software development directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.goodfirms.co/directory/country/top-software-development-companies/costa-rica"
+    },
+    {
+      "company": "Speend",
+      "domain": "speend.io",
+      "queryLane": "GoodFirms Costa Rica software development directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.goodfirms.co/directory/country/top-software-development-companies/costa-rica"
+    },
+    {
+      "company": "Softon Digital",
+      "domain": null,
+      "queryLane": "GoodFirms Costa Rica software development directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.goodfirms.co/directory/country/top-software-development-companies/costa-rica"
+    },
+    {
+      "company": "Elva AI",
+      "domain": null,
+      "queryLane": "GoodFirms Costa Rica software development directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.goodfirms.co/directory/country/top-software-development-companies/costa-rica"
+    },
+    {
+      "company": "Link Design",
+      "domain": "linkdesign.cr",
+      "queryLane": "Official Costa Rica software companies",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-highyield-official-verified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://linkdesign.cr/en/desarrollo-de-software-costa-rica"
+    },
+    {
+      "company": "Bill Goslyn",
+      "domain": null,
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-prior-strict-reverified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "catalina",
+      "domain": "catalina.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-prior-strict-reverified.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "catalina",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "Cinde",
+      "domain": "cinde.org",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-prior-strict-reverified.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Cinde",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "Soltig",
+      "domain": "soltig.net",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-prior-strict-reverified.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Soltig",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3"
+    },
+    {
+      "company": "SECSA",
+      "domain": "secsacr.net",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-prior-strict-reverified.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "SECSA",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6"
+    },
+    {
+      "company": "321 Solutions",
+      "domain": "321solutions.net",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-prior-strict-reverified.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "321 Solutions",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4"
+    },
+    {
+      "company": "Mainsoft Ltda.",
+      "domain": "mainsoft.co",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-prior-strict-reverified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "OneScreen Solutions",
+      "domain": "onescreenlatam.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-prior-strict-reverified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "PANDUIT SERVICIOS",
+      "domain": "panduit.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-prior-strict-reverified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Schneider Electric Centroamérica LTDA",
+      "domain": "se.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-prior-strict-reverified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "TIQAL S.A.S.",
+      "domain": "darumasoftware.com",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-prior-strict-reverified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "CodeBranch",
+      "domain": "codebranch.co",
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-prior-strict-reverified.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "CodeBranch",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co"
+    },
+    {
+      "company": "Cabana Data",
+      "domain": "cabanadata.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-prior-strict-reverified.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Cabana Data",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1"
+    },
+    {
+      "company": "Broccoli Studios",
+      "domain": "broccolistudios.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-prior-strict-reverified.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Broccoli Studios",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1"
+    },
+    {
+      "company": "DATAi",
+      "domain": "dataicr.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-prior-strict-reverified.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "DATAi",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1"
+    },
+    {
+      "company": "Perfiles Tecnológicos",
+      "domain": "perfilestecnologicos.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-prior-strict-reverified.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Perfiles Tecnológicos",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1"
+    },
+    {
+      "company": "PilotCore",
+      "domain": "pilotcore.net",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-prior-strict-reverified.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "PilotCore",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=3"
+    },
+    {
+      "company": "IT-iCO",
+      "domain": "it-ico.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-prior-strict-reverified.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "IT-iCO",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=3"
+    },
+    {
+      "company": "Popo Data Analytics & Software Development",
+      "domain": "polpocr.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-prior-strict-reverified.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Popo Data Analytics & Software Development",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=3"
+    },
+    {
+      "company": "MDG Developers Group",
+      "domain": "mdgdevelopers.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-prior-strict-reverified.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "MDG Developers Group",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=3"
+    },
+    {
+      "company": "Udersol",
+      "domain": "udersol.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-prior-strict-reverified.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Udersol",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=3"
+    },
+    {
+      "company": "PCMASTERCR",
+      "domain": "pcmastercr.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-prior-strict-reverified.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "PCMASTERCR",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=4"
+    },
+    {
+      "company": "Grupo Argus",
+      "domain": "grupoargus.co.cr",
+      "queryLane": "The Manifest Costa Rica software directory — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-prior-strict-reverified.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Grupo Argus",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=4"
+    },
+    {
+      "company": "ITOS Cloud",
+      "domain": "itoscloud.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 4",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-prior-strict-reverified.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "ITOS Cloud",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=4"
+    },
+    {
+      "company": "Faro Creativa Studio",
+      "domain": null,
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-prior-strict-reverified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2"
+    },
+    {
+      "company": "Clavis Consultores",
+      "domain": null,
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-prior-strict-reverified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2"
+    },
+    {
+      "company": "Synapptica",
+      "domain": "synapptica.net",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-prior-strict-reverified.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Synapptica",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2"
+    },
+    {
+      "company": "Asystec",
+      "domain": "asystec.io",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-prior-strict-reverified.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Asystec",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2"
+    },
+    {
+      "company": "Hiopos Costa Rica",
+      "domain": "hiopos.co.cr",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-prior-strict-reverified.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Hiopos Costa Rica",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2"
+    },
+    {
+      "company": "NearshoreWorks",
+      "domain": "nearshoreworks.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-prior-strict-reverified.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "NearshoreWorks",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2"
+    },
+    {
+      "company": "deLaGuayaba",
+      "domain": "delaguayaba.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-prior-strict-reverified.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "deLaGuayaba",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2"
+    },
+    {
+      "company": "Oktara",
+      "domain": null,
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-prior-strict-reverified.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies"
+    },
+    {
+      "company": "Fundamentl Partners",
+      "domain": "fundamentlpartners.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-prior-strict-reverified.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Fundamentl Partners",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies"
+    },
+    {
+      "company": "Brandy Creativity & Technology",
+      "domain": "brandy.la",
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-prior-strict-reverified.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Brandy Creativity & Technology",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies"
+    },
+    {
+      "company": "ColibriCode",
+      "domain": "colibricode.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-prior-strict-reverified.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "ColibriCode",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies"
+    },
+    {
+      "company": "Publicis Groupe",
+      "domain": "publicisgroupe.com",
+      "queryLane": "Official Costa Rica employer job pages — software/engineering roles",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-prior-strict-reverified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://careers.publicisgroupe.com/jobs/180186?lang=en-US"
+    },
+    {
+      "company": "WAM Digital",
+      "domain": "wamdigital.com",
+      "queryLane": "GoodFirms Costa Rica software development directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-prior-strict-reverified.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "WAM Digital",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://www.goodfirms.co/directory/country/top-software-development-companies/costa-rica"
+    },
+    {
+      "company": "Foundever",
+      "domain": "foundever.com",
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-prior-strict-reverified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://findremote.jobs/jobs/conversational-designer-remote-any-location-br--2a8b1c7bc6cf"
+    },
+    {
+      "company": "Airalo",
+      "domain": "airalo.com",
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-prior-strict-reverified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://findremote.jobs/jobs/solutions-architect-latam--7bbb98d2c244"
+    },
+    {
+      "company": "Hire Overseas",
+      "domain": "hireoverseas.com",
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-prior-strict-reverified.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://findremote.jobs/jobs/full-stack-ai-engineer--1ccee3f01fc9"
+    },
+    {
+      "company": "Link Design",
+      "domain": "linkdesign.cr",
+      "queryLane": "Official Costa Rica software companies",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-prior-strict-reverified.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Link Design",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://linkdesign.cr/en/desarrollo-de-software-costa-rica"
+    },
+    {
+      "company": "ActionCOACH Costa Rica",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/actioncoach-costa-rica/"
+    },
+    {
+      "company": "Aliant",
+      "domain": "aliantlaw.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/aliant/"
+    },
+    {
+      "company": "ARI Casa de Cambio Internacional S.A.",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/ari-casa-de-cambio-internacional-s-a/"
+    },
+    {
+      "company": "Banco Promérica",
+      "domain": "fi.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/banco-promerica/"
+    },
+    {
+      "company": "CCA Business",
+      "domain": "ccastrategy.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/cca-business/"
+    },
+    {
+      "company": "CLC Comunicación",
+      "domain": "clccomunicacion.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/clc-comunicacion/"
+    },
+    {
+      "company": "CResiliencia",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/cresiliencia/"
+    },
+    {
+      "company": "Coral",
+      "domain": "coralcr.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/coral-systems/"
+    },
+    {
+      "company": "Dentons",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/dentos/"
+    },
+    {
+      "company": "Didi",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/didi/"
+    },
+    {
+      "company": "Ecija",
+      "domain": "ecija.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/ecija/"
+    },
+    {
+      "company": "ECP Consulting Group",
+      "domain": "ecpconsultgroup.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/ecp-consulting-group/"
+    },
+    {
+      "company": "E-motions",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/e-motions/"
+    },
+    {
+      "company": "Entrust Consultores",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/entrust-consultores/"
+    },
+    {
+      "company": "ESICOM",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/esicom/"
+    },
+    {
+      "company": "Evicertia",
+      "domain": "evicertia.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/evicertia/"
+    },
+    {
+      "company": "FVCR Ferias Virtuales",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/fvcr-ferias-virtuales/"
+    },
+    {
+      "company": "Figueroa Producciones",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/figueroa-producciones/"
+    },
+    {
+      "company": "Film Support",
+      "domain": "filmsupport.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/film-support/"
+    },
+    {
+      "company": "Fundación Omar Dengo",
+      "domain": "ac.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/fundacion-omar-dengo/"
+    },
+    {
+      "company": "Global Media Group",
+      "domain": "globalmediagroupgmg.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/global-media-group/"
+    },
+    {
+      "company": "Grupo Mutual",
+      "domain": "fi.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Banco Promérica",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://www.camtic.org/project/grupo-mutual/"
+    },
+    {
+      "company": "Hermes Soft",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/hermes-soft/"
+    },
+    {
+      "company": "Incredible Workplaces",
+      "domain": "incredibleworkplacescostarica.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/incredible-workplaces/"
+    },
+    {
+      "company": "Infoefectiva",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/infoefectiva/"
+    },
+    {
+      "company": "IT Learning Solution",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/it-learning-solution/"
+    },
+    {
+      "company": "JAFU",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/jafu/"
+    },
+    {
+      "company": "Kal-í CR",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/kal-i-cr/"
+    },
+    {
+      "company": "Kínetos",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/kinetos/"
+    },
+    {
+      "company": "Kruger Innova CR",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/kruger-innova-costa-rica/"
+    },
+    {
+      "company": "Liberty",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/telefonica/"
+    },
+    {
+      "company": "LYSTO CARD",
+      "domain": "lystocard.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/lysto-card/"
+    },
+    {
+      "company": "Mawi",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/mawi/"
+    },
+    {
+      "company": "Mekanismo",
+      "domain": "mekanismo.net",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/mekanismo-taller-audiovisual/"
+    },
+    {
+      "company": "Micra Consulting",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/micra-consulting/"
+    },
+    {
+      "company": "Morpho Animation",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/morpho-animation-studio/"
+    },
+    {
+      "company": "Movitext",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/movitext/"
+    },
+    {
+      "company": "MT MMV INTEGRADORES",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/mt-mmv-integradores/"
+    },
+    {
+      "company": "Navega Training and Consulting SRL",
+      "domain": "navegatraining.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/navega-training-and-consulting-srl/"
+    },
+    {
+      "company": "Neotecnologías",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/neotecnologias/"
+    },
+    {
+      "company": "Parque la Libertad",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/parque-la-libertad/"
+    },
+    {
+      "company": "Pignataro Abogados",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/pignataro-abogados/"
+    },
+    {
+      "company": "PricewaterhouseCooper",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/pricewaterhousecooper/"
+    },
+    {
+      "company": "PRIDES",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/prides/"
+    },
+    {
+      "company": "Producción Filmica VB",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/produccion-filmica-vb/"
+    },
+    {
+      "company": "Progressio Digital",
+      "domain": "progressiodigital.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/progressio-digital/"
+    },
+    {
+      "company": "Prointec",
+      "domain": "prointeccr.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/prointec/"
+    },
+    {
+      "company": "R.A.C.S.A.",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/radiografica-costarricense-s-a/"
+    },
+    {
+      "company": "Reelax Media",
+      "domain": "reelaxmedia.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/reelax-media/"
+    },
+    {
+      "company": "RF Grupo Educativo Ltda",
+      "domain": "rfgrupoeducativo.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/rf-grupo-educativo-ltda/"
+    },
+    {
+      "company": "TecApro",
+      "domain": "tecapro.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "TecApro (Grupo TecApro)",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.camtic.org/project/tecapro/"
+    },
+    {
+      "company": "Telecable",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/telecable/"
+    },
+    {
+      "company": "Tierra de Visitantes",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/tierra-de-visitantes/"
+    },
+    {
+      "company": "Transcomer",
+      "domain": "transcomer.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/transcomer/"
+    },
+    {
+      "company": "Universidad Politécnica",
+      "domain": "ac.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Fundación Omar Dengo",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://www.camtic.org/project/universidad-politecnica-2/"
+    },
+    {
+      "company": "ULACIT y CIT|ULACIT",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/ulacit-y-citulacit/"
+    },
+    {
+      "company": "Universidad Cenfotec",
+      "domain": "ac.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Fundación Omar Dengo",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://www.camtic.org/project/u-cenfotec/"
+    },
+    {
+      "company": "Universidad Latina",
+      "domain": null,
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "lead",
+      "reason": "missing company name or official website/domain",
+      "sourceUrl": "https://www.camtic.org/project/universidad-latina/"
+    },
+    {
+      "company": "U. Hispanoamericana",
+      "domain": "ac.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Fundación Omar Dengo",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://www.camtic.org/project/universidad-hispanoamericana/"
+    },
+    {
+      "company": "Universidad San Marcos",
+      "domain": "ac.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-07\\verification\\p009-camtic-official-verified-v4.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Fundación Omar Dengo",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://www.camtic.org/project/universidad-san-marcos/"
+    }
+  ]
+}

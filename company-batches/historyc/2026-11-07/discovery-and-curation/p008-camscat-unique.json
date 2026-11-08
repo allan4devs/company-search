@@ -1,0 +1,161 @@
+{
+  "cohortId": "likes-based-2026-11-07-p008-camscat",
+  "generatedOn": "2026-11-07",
+  "catalog": {
+    "source": "MongoDB + bundled files + prior batches",
+    "mongoCompanies": 1520,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 421,
+    "indexedNames": 1550,
+    "indexedDomains": 1495
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 63,
+    "topTracks": [
+      {
+        "track": "Engineering",
+        "count": 36
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Software Engineering",
+        "count": 3
+      },
+      {
+        "track": "Node.js",
+        "count": 2
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        46
+      ],
+      [
+        "direct",
+        16
+      ],
+      [
+        "unknown",
+        1
+      ]
+    ]
+  },
+  "candidates": [
+    {
+      "name": "aliaxis",
+      "website": "https://www.aliaxis-la.com/",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "name": "CMA",
+      "website": "http://www.cma-cgm.com/",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "name": "Smith",
+      "website": "https://www.smith-nephew.com/",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "name": "640px-Bac_credomatic_logo",
+      "website": "https://www.baccredomatic.com/",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "name": "Baccardi",
+      "website": "https://www.bacardi.com/",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "name": "Bat",
+      "website": "https://www.bat.com/",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "name": "Bridgestone",
+      "website": "https://www.bridgestoneamericas.com/",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "name": "baxter",
+      "website": "https://www.baxter.com/",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "name": "Bayer",
+      "website": "https://www.bayer.com/",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "name": "Bill Goslyn",
+      "website": "https://www.billgosling.com/",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "name": "catalina",
+      "website": "https://www.catalina.com/",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "name": "Centro Bimbo",
+      "website": "https://www.grupobimbo.com/",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "name": "Cinde",
+      "website": "https://www.cinde.org/",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    }
+  ],
+  "uniqueCandidatesFound": 13,
+  "outputLimit": 1000
+}

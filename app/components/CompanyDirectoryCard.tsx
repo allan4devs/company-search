@@ -62,8 +62,13 @@ function CompanyDirectoryCardView({
         <span className="min-w-0 flex-1 truncate font-semibold text-white">
           {company.name}
         </span>
-        <button type="button" aria-label={`Like ${company.name}`} aria-pressed={!!preference?.liked} onClick={() => void onPreferenceChange(company.key, { liked: !preference?.liked }, "like")} className={`rounded-lg p-2 ${preference?.liked ? "text-pink-400" : "text-zinc-500 hover:text-pink-300"}`}><Heart size={18} fill={preference?.liked ? "currentColor" : "none"} /></button>
-        <button type="button" aria-label={`Dislike ${company.name}`} aria-pressed={!!preference?.disliked} onClick={() => void onPreferenceChange(company.key, { disliked: !preference?.disliked }, "dislike")} className={`rounded-lg p-2 ${preference?.disliked ? "text-amber-400" : "text-zinc-500 hover:text-amber-300"}`}><ThumbsDown size={18} /></button>
+        {company.tags?.includes("new") ? (
+          <span className="shrink-0 rounded-full border border-teal-300/30 bg-teal-300/10 px-2 py-1 text-[10px] font-bold uppercase tracking-wide text-teal-200">
+            New
+          </span>
+        ) : null}
+        <button type="button" aria-label={`${preference?.liked ? "Unlike" : "Like"} ${company.name}`} aria-pressed={!!preference?.liked} onClick={() => void onPreferenceChange(company.key, { liked: !preference?.liked, disliked: false }, "like")} className={`rounded-lg p-2 ${preference?.liked ? "text-pink-400" : "text-zinc-500 hover:text-pink-300"}`}><Heart size={18} fill={preference?.liked ? "currentColor" : "none"} /></button>
+        <button type="button" aria-label={`${preference?.disliked ? "Undo dislike for" : "Dislike"} ${company.name}`} aria-pressed={!!preference?.disliked} onClick={() => void onPreferenceChange(company.key, { disliked: !preference?.disliked, liked: false }, "dislike")} className={`rounded-lg p-2 ${preference?.disliked ? "text-amber-400" : "text-zinc-500 hover:text-amber-300"}`}><ThumbsDown size={18} fill={preference?.disliked ? "currentColor" : "none"} /></button>
         <span className="text-xs text-zinc-500">View details</span>
       </article>
       {company.roleEvidence ? (

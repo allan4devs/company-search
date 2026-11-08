@@ -1,0 +1,2129 @@
+{
+  "cohortId": "likes-based-2026-11-07-p008",
+  "checkedOn": "2026-11-07",
+  "sourceInput": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-current-unique.json",
+  "inputCandidateCount": 439,
+  "candidateOffset": 400,
+  "candidateCount": 39,
+  "remainingCandidateCount": 0,
+  "queryLanes": [
+    {
+      "lane": "Official Costa Rica employer job pages — software/engineering roles",
+      "checked": 1,
+      "reachable": 1,
+      "regionAndFit": 1,
+      "localOrEligibleAndFit": 1,
+      "regionAndFitRate": 1,
+      "localOrEligibleAndFitRate": 1,
+      "recommendation": "continue, then compare against the next batch"
+    },
+    {
+      "lane": "GoodFirms Costa Rica software development directory",
+      "checked": 6,
+      "reachable": 4,
+      "regionAndFit": 2,
+      "localOrEligibleAndFit": 1,
+      "regionAndFitRate": 0.333,
+      "localOrEligibleAndFitRate": 0.167,
+      "recommendation": "continue, then compare against the next batch"
+    },
+    {
+      "lane": "Sortlist software development directory — Chile",
+      "checked": 3,
+      "reachable": 3,
+      "regionAndFit": 0,
+      "localOrEligibleAndFit": 0,
+      "regionAndFitRate": 0,
+      "localOrEligibleAndFitRate": 0,
+      "recommendation": "continue, then compare against the next batch"
+    },
+    {
+      "lane": "Sortlist software development directory — Brazil",
+      "checked": 18,
+      "reachable": 18,
+      "regionAndFit": 0,
+      "localOrEligibleAndFit": 0,
+      "regionAndFitRate": 0,
+      "localOrEligibleAndFitRate": 0,
+      "recommendation": "continue, then compare against the next batch"
+    },
+    {
+      "lane": "Sortlist software development directory — Uruguay",
+      "checked": 11,
+      "reachable": 8,
+      "regionAndFit": 1,
+      "localOrEligibleAndFit": 0,
+      "regionAndFitRate": 0.091,
+      "localOrEligibleAndFitRate": 0,
+      "recommendation": "continue, then compare against the next batch"
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Devlabs",
+      "website": "https://devlabs.cl/",
+      "domain": "devlabs.cl",
+      "profileUrl": "https://www.sortlist.com/agency/devlabs",
+      "directoryLocation": "Antofagasta, Chile",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/chile-cl",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://devlabs.cl/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://devlabs.cl/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://devlabs.cl/",
+          "snippet": "devlabs - Agencia digital y desarrollo de software Donde la innovación y la creatividad se fusionan para dar vida a soluciones digitales épicas. Comienza tu experiencia La revolución digital comienza "
+        },
+        {
+          "url": "https://devlabs.cl/",
+          "snippet": "ias innovadoras, te ayudamos a alcanzar tus objetivos comerciales y destacar entre la competencia. Conoce más Desarrollo de aplicaciones web Creamos aplicaciones web personalizadas que no solo cumplen con tus necesidades comerciales, sino que también sorprenden a tus usuarios. Desde ap"
+        },
+        {
+          "url": "https://devlabs.cl/",
+          "snippet": "a, utilizamos las últimas tecnologías y tendencias para ofrecerte una experiencia web excepcional. Conoce más Desarrollo de aplicaciones móviles Creamos aplicaciones móviles personalizadas que no solo cumplen con tus necesidades comerciales, sino que también sorprenden a tus usuarios. "
+        },
+        {
+          "url": "https://devlabs.cl/",
+          "snippet": "les que impulsen el crecimiento de tu empresa. Equipo de expertos Nuestro equipo está formado por expertos en desarrollo de software, marketing digital y diseño. Juntos, combinamos nuestras habilidades y conocimientos para ofrecerte soluciones digitales de vanguardia. Enfoque disru"
+        },
+        {
+          "url": "https://devlabs.cl/",
+          "snippet": "devlabs - Agencia digital y desarrollo de software Donde la innovación y la creatividad se fusionan para dar vida a soluciones digitales épicas. Comienza tu experiencia La revolución digital comienza "
+        },
+        {
+          "url": "https://devlabs.cl/",
+          "snippet": "ias innovadoras, te ayudamos a alcanzar tus objetivos comerciales y destacar entre la competencia. Conoce más Desarrollo de aplicaciones web Creamos aplicaciones web personalizadas que no solo cumplen con tus necesidades comerciales, sino que también sorprenden a tus usuarios. Desde ap"
+        },
+        {
+          "url": "https://devlabs.cl/",
+          "snippet": "a, utilizamos las últimas tecnologías y tendencias para ofrecerte una experiencia web excepcional. Conoce más Desarrollo de aplicaciones móviles Creamos aplicaciones móviles personalizadas que no solo cumplen con tus necesidades comerciales, sino que también sorprenden a tus usuarios. "
+        },
+        {
+          "url": "https://devlabs.cl/",
+          "snippet": "les que impulsen el crecimiento de tu empresa. Equipo de expertos Nuestro equipo está formado por expertos en desarrollo de software, marketing digital y diseño. Juntos, combinamos nuestras habilidades y conocimientos para ofrecerte soluciones digitales de vanguardia. Enfoque disru"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "UniVerso 693",
+      "website": "https://universo693.com/",
+      "domain": "www.universo693.com",
+      "profileUrl": "https://www.sortlist.com/agency/universo693",
+      "directoryLocation": "Villa Alemana, Chile",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/chile-cl",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://universo693.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://universo693.com/nosotros",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://universo693.com/contacto",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://universo693.com/",
+          "snippet": "instead of just /llms.txt --> Desarrollo de Software a Medida, IA & Soluciones ProPyme en Chile | Uni-Verso693 Uni-Verso 693 🌱 Impulsa PyME Páginas Web Servicios Agentes de IA cognitivos y automatizaci"
+        },
+        {
+          "url": "https://universo693.com/",
+          "snippet": " a servidores VPS de alto rendimiento sin caídas Diagnóstico tecnológico y hoja de ruta EBS 693 Decisiones de software e IA con retorno de inversión medible Diagnóstico EBS Casos de éxito Nosotros Blog Audit gratis Bóveda Cliente ES Contáctanos Bóveda EN Estudio de In"
+        },
+        {
+          "url": "https://universo693.com/",
+          "snippet": "BS Casos de éxito Nosotros Blog Audit gratis Bóveda Cliente ES Contáctanos Bóveda EN Estudio de Ingeniería de Software & Inteligencia Artificial · Chile Desarrollo de Software a Medida, Apps Móviles, Inteligencia Artificial y Sistemas de Alta Velocidad en Chile ¿Qué e"
+        },
+        {
+          "url": "https://universo693.com/",
+          "snippet": " éxito Nosotros Blog Audit gratis Bóveda Cliente ES Contáctanos Bóveda EN Estudio de Ingeniería de Software & Inteligencia Artificial · Chile Desarrollo de Software a Medida, Apps Móviles, Inteligencia Artificial y Sistemas de Alta Velocidad en Chile ¿Qué es UNIVERSO693 y qué resuel"
+        },
+        {
+          "url": "https://universo693.com/nosotros",
+          "snippet": "instead of just /llms.txt --> Nosotros: equipo de software, producto e IA | Uni-Verso693 Uni-Verso 693 🌱 Impulsa PyME Páginas Web Servicios Agentes de IA cognitivos y automatización Inteligencia entrenada co"
+        },
+        {
+          "url": "https://universo693.com/nosotros",
+          "snippet": " a servidores VPS de alto rendimiento sin caídas Diagnóstico tecnológico y hoja de ruta EBS 693 Decisiones de software e IA con retorno de inversión medible Diagnóstico EBS Casos de éxito Nosotros Blog Audit gratis Bóveda Cliente ES Contáctanos Bóveda EN Nosotros Un e"
+        },
+        {
+          "url": "https://universo693.com/nosotros",
+          "snippet": " de éxito Nosotros Blog Audit gratis Bóveda Cliente ES Contáctanos Bóveda EN Nosotros Un equipo que construye software con criterio de producto Uni-Verso693 diseña, desarrolla y opera soluciones digitales e inteligencia artificial para empresas que quieren crecer con "
+        },
+        {
+          "url": "https://universo693.com/nosotros",
+          "snippet": "ue construye software con criterio de producto Uni-Verso693 diseña, desarrolla y opera soluciones digitales e inteligencia artificial para empresas que quieren crecer con tecnología confiable. 7 a 28 d de la idea a producción en la nube 100% código propio y soberanía en tu Bóveda iO"
+        },
+        {
+          "url": "https://universo693.com/contacto",
+          "snippet": " a servidores VPS de alto rendimiento sin caídas Diagnóstico tecnológico y hoja de ruta EBS 693 Decisiones de software e IA con retorno de inversión medible Diagnóstico EBS Casos de éxito Nosotros Blog Audit gratis Bóveda Cliente ES Contáctanos Bóveda EN Contacto Conv"
+        },
+        {
+          "url": "https://universo693.com/contacto",
+          "snippet": "por WhatsApp Nombre completo * Correo corporativo * Teléfono / WhatsApp * Empresa / sitio web ¿Qué necesitas? Desarrollo de software a medida Agentes de IA y automatización Aplicación móvil Web, e-commerce o producto digital Consultoría y arquitectura Otro / no estoy seguro Diagnós"
+        },
+        {
+          "url": "https://universo693.com/contacto",
+          "snippet": "to Enviar solicitud Tu información es confidencial y no la compartimos con terceros. Uni-Verso 693 Empresa de desarrollo de software: plataformas a medida, agentes de IA, apps móviles y producto digital para empresas que quieren dominar el mañana. contacto@universo693.com Servicios"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Innobate",
+      "website": "https://innobate.cl/",
+      "domain": "innobate.cl",
+      "profileUrl": "https://www.sortlist.com/agency/innobate",
+      "directoryLocation": "Santiago, Chile",
+      "queryLane": "Sortlist software development directory — Chile",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/chile-cl",
+      "careersUrl": "https://innobate.cl/#proceso",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://innobate.cl/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://innobate.cl/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://innobate.cl/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://innobate.cl/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [],
+      "likelyFit": false,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "IDIP Tecnologia",
+      "website": "https://www.idip.com.br/",
+      "domain": "www.idip.com.br",
+      "profileUrl": "https://www.sortlist.com/agency/idip-tecnologia",
+      "directoryLocation": "Fortaleza, Brazil",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.idip.com.br/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [],
+      "likelyFit": false,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "1367 Studio",
+      "website": "https://www.1367studio.com/",
+      "domain": "www.1367studio.com",
+      "profileUrl": "https://www.sortlist.com/agency/1367-studio",
+      "directoryLocation": "Florianópolis, Brazil",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.1367studio.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.1367studio.com/about",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.1367studio.com/contact",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://www.1367studio.com/",
+          "snippet": "Next.js & Sanity Agency for SaaS Teams | 1367 Studio Projects About us Blog Contact us Explore Our Work Our Work Inside 1367 Inside 1367 Get in touch Get in touch Blog Blog Our Work "
+        },
+        {
+          "url": "https://www.1367studio.com/",
+          "snippet": "Legal Notice Your product outgrew its website. We rebuild it on Next.js & Sanity. Official Sanity partner for SaaS founders and product teams whose site no longer sells what they've built. Book a call Every month on a stack that can't keep up costs you leads, spee"
+        },
+        {
+          "url": "https://www.1367studio.com/",
+          "snippet": "CMS your team avoids. Operations held together with spreadsheets. We fix that with Next.js, Sanity and custom software built to scale. &ldquo;The new site captures our expertise and personality in a way that feels authentic. It gives prospective clients confidence bef"
+        },
+        {
+          "url": "https://www.1367studio.com/",
+          "snippet": "rms Marketing websites Customer portals eCommerce Web Platforms Marketing websites Customer portals eCommerce Software Products SaaS platforms Custom WEB applications Business tools Software Products SaaS platforms Custom WEB applications Business tools Enterprise Sys"
+        },
+        {
+          "url": "https://www.1367studio.com/about",
+          "snippet": "ork Inside 1367 Inside 1367 Get in touch Get in touch Blog Blog Our Work Privacy Policy Legal Notice We build software, systems, and digital platforms engineered for scale. Robust architecture, clean code, and thoughtful execution come together to create solutions tha"
+        },
+        {
+          "url": "https://www.1367studio.com/about",
+          "snippet": "1367 Get in touch Get in touch Blog Blog Our Work Privacy Policy Legal Notice We build software, systems, and digital platforms engineered for scale. Robust architecture, clean code, and thoughtful execution come together to create solutions that perform today and evolve with"
+        },
+        {
+          "url": "https://www.1367studio.com/about",
+          "snippet": "Get in touch Blog Blog Our Work Privacy Policy Legal Notice We build software, systems, and digital platforms engineered for scale. Robust architecture, clean code, and thoughtful execution come together to create solutions that perform today and evolve with tomorrow."
+        },
+        {
+          "url": "https://www.1367studio.com/about",
+          "snippet": "together to create solutions that perform today and evolve with tomorrow. We craft premium websites, apps and SaaS platforms, paired with the design and branding that set ambitious businesses apart. We also build AI agentic systems. At 1367, we take building serio"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Ateliware",
+      "website": "https://ateliware.com/pt-br/",
+      "domain": "ateliware.com",
+      "profileUrl": "https://www.sortlist.com/agency/ateliware",
+      "directoryLocation": "Wommelgem, Belgium",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://ateliware.com/pt-br/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://ateliware.com/pt-br/",
+          "snippet": "Software House Sob Medida | Ateliware Pular para o conteúdo principal Pular para o rodapé Entrar em contato Serviços Inteligência Artificial Sobre Cases Blog "
+        },
+        {
+          "url": "https://ateliware.com/pt-br/",
+          "snippet": "es Blog Contato EN PT Entrar em contato Microsoft Dynamics Desenvolvimento Soluções digitais Design Ateliê de Software e IA Soluções de software e IA focadas em resolver problemas que geram e impulsionam negócios de projetos que deram certo Entrar em contato @keyframe"
+        },
+        {
+          "url": "https://ateliware.com/pt-br/",
+          "snippet": "ar em contato Microsoft Dynamics Desenvolvimento Soluções digitais Design Ateliê de Software e IA Soluções de software e IA focadas em resolver problemas que geram e impulsionam negócios de projetos que deram certo Entrar em contato @keyframes crescer { 0% { width: 0;"
+        },
+        {
+          "url": "https://ateliware.com/pt-br/",
+          "snippet": "Acessar case Financeiro Sistema operacional que mudou o negócio Fizemos toda a base da operação financeira da fintech, do zero Acessar case Indústria Implementação recorde em 8 meses Migração do ERP Dynamics 365 F&O com integridade total de 16 mil ativos em 48h Acess"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Codi Solutions",
+      "website": "https://codisolutions.com.br/",
+      "domain": "codisolutions.com.br",
+      "profileUrl": "https://www.sortlist.com/agency/codi-solutions",
+      "directoryLocation": "Campinas, Brazil",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br",
+      "careersUrl": "https://codisolutions.com.br/#/trabalhe-conosco",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://codisolutions.com.br/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://codisolutions.com.br/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://codisolutions.com.br/",
+          "snippet": "omunicca Blog Conversar sobre meu projeto CODI SOLUTIONS Tecnologia que faz negócios avançarem. Desenvolvemos softwares, plataformas, automações e integrações para transformar desafios reais em soluções que fazem sentido para sua empresa. Conversar sobre meu projeto E"
+        },
+        {
+          "url": "https://codisolutions.com.br/",
+          "snippet": "m e onde a informação se perde. Avaliamos o que é possível conectar e como. Avaliar uma integração SOLUÇÕES / SOFTWARE SOB MEDIDA Um software pensado para a realidade do seu negócio. Desenvolvemos sistemas a partir dos processos, das regras e das necessidades que torn"
+        },
+        {
+          "url": "https://codisolutions.com.br/",
+          "snippet": "e perde. Avaliamos o que é possível conectar e como. Avaliar uma integração SOLUÇÕES / SOFTWARE SOB MEDIDA Um software pensado para a realidade do seu negócio. Desenvolvemos sistemas a partir dos processos, das regras e das necessidades que tornam sua operação única. "
+        },
+        {
+          "url": "https://codisolutions.com.br/",
+          "snippet": "sistemas a partir dos processos, das regras e das necessidades que tornam sua operação única. Conversar sobre software sob medida Montar um exemplo ILUSTRAÇÃO Cadastros Etapas Responsáveis Relatórios 01 — QUANDO UMA SOLUÇÃO PRÓPRIA FAZ SENTIDO? Nem todo desafio pede u"
+        },
+        {
+          "url": "https://codisolutions.com.br/",
+          "snippet": "omunicca Blog Conversar sobre meu projeto CODI SOLUTIONS Tecnologia que faz negócios avançarem. Desenvolvemos softwares, plataformas, automações e integrações para transformar desafios reais em soluções que fazem sentido para sua empresa. Conversar sobre meu projeto E"
+        },
+        {
+          "url": "https://codisolutions.com.br/",
+          "snippet": "m e onde a informação se perde. Avaliamos o que é possível conectar e como. Avaliar uma integração SOLUÇÕES / SOFTWARE SOB MEDIDA Um software pensado para a realidade do seu negócio. Desenvolvemos sistemas a partir dos processos, das regras e das necessidades que torn"
+        },
+        {
+          "url": "https://codisolutions.com.br/",
+          "snippet": "e perde. Avaliamos o que é possível conectar e como. Avaliar uma integração SOLUÇÕES / SOFTWARE SOB MEDIDA Um software pensado para a realidade do seu negócio. Desenvolvemos sistemas a partir dos processos, das regras e das necessidades que tornam sua operação única. "
+        },
+        {
+          "url": "https://codisolutions.com.br/",
+          "snippet": "sistemas a partir dos processos, das regras e das necessidades que tornam sua operação única. Conversar sobre software sob medida Montar um exemplo ILUSTRAÇÃO Cadastros Etapas Responsáveis Relatórios 01 — QUANDO UMA SOLUÇÃO PRÓPRIA FAZ SENTIDO? Nem todo desafio pede u"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "TAO Inteligência",
+      "website": "https://taointeligencia.com.br/",
+      "domain": "taofinance.com.br",
+      "profileUrl": "https://www.sortlist.com/agency/tao-inteligencia",
+      "directoryLocation": "São Paulo, Brazil",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://taointeligencia.com.br/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://taointeligencia.com.br/",
+          "snippet": "inha empresa Explorar GUIA ↓ Sua operação, seu sistema Sistemas sob medida Quando sua operação não cabe em um software pronto. Criamos sistemas adaptados ao jeito real como sua empresa trabalha. Quero um sistema para minha operação Explorar Sistemas sob medida ↓ Opera"
+        },
+        {
+          "url": "https://taointeligencia.com.br/",
+          "snippet": " o conhecimento da minha empresa Sistemas sob medida · Case real de acervo Quando sua operação não cabe em um software pronto. Criamos sistemas internos adaptados ao fluxo real da empresa, com cadastros, controles, alertas, históricos, documentos, dashboards e acompan"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Nexus Consultoria e BPMS",
+      "website": "https://www.nexusbpm.com.br/",
+      "domain": "www.nexusbpm.com.br",
+      "profileUrl": "https://www.sortlist.com/agency/nexus-consultoria-e-bpms",
+      "directoryLocation": "São Paulo, Brazil",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.nexusbpm.com.br/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://www.nexusbpm.com.br/",
+          "snippet": "ada etapa realmente precisa. A decisão passa a se apoiar em números, não em opinião. Não vendemos licenças de software. Nosso trabalho é deixar o conhecimento do seu negócio registrado e utilizável: processos que a equipe consegue seguir, novos colaboradores que apren"
+        },
+        {
+          "url": "https://www.nexusbpm.com.br/",
+          "snippet": " clientes Ver processos do setor → Por que Nexus O que muda ao trabalhar com a Nexus Foco no processo, não no software Não revendemos sistema. A recomendação vale para a ferramenta que você já usa ou para a que vier a escolher. Consultor sênior do início ao fim Mais d"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Overthure Tech",
+      "website": "https://overthure.com/",
+      "domain": "overthure.com",
+      "profileUrl": "https://www.sortlist.com/agency/overthure-tech",
+      "directoryLocation": "Curitiba, Brazil",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://overthure.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [],
+      "likelyFit": false,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Barroco Consulting",
+      "website": "https://barroco-consult-psi.vercel.app/",
+      "domain": "barroco-consult-psi.vercel.app",
+      "profileUrl": "https://www.sortlist.com/agency/barroco-consulting",
+      "directoryLocation": "Porto da Folha, Brazil",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://barroco-consult-psi.vercel.app/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://barroco-consult-psi.vercel.app/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://barroco-consult-psi.vercel.app/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://barroco-consult-psi.vercel.app/",
+          "snippet": "o content BARROCO CONSULT Services QI How we work Sectors Stack About Contact PT-BR AI-Multiplied QA Every QA engineer we place delivers the output of a whole QA team. Barroco Consult is a QA consultancy for startups and early-stage tech companies. Our experienced QA "
+        },
+        {
+          "url": "https://barroco-consult-psi.vercel.app/",
+          "snippet": " QA team. Barroco Consult is a QA consultancy for startups and early-stage tech companies. Our experienced QA engineers work AI-multiplied: backed by our own agentic QA tool, QI, each one plans, generates, runs and reports tests at the scale of an entire team. 100% re"
+        },
+        {
+          "url": "https://barroco-consult-psi.vercel.app/",
+          "snippet": "le of an entire team. 100% remote. Free 30-min QA assessment Talk to us See services Unmute Services What our engineers deliver, from the first test to a mature QA process. End-to-end test automation Robust, maintainable UI suites built to run on every pull request. W"
+        },
+        {
+          "url": "https://barroco-consult-psi.vercel.app/",
+          "snippet": "and setting up a QA function from scratch. QI: our agentic QA engine QI is the in-house tool every one of our engineers works with. Powered by agentic AI on top of Playwright, it turns requirements into executed tests and a clear quality report. Reads Jira tickets and"
+        },
+        {
+          "url": "https://barroco-consult-psi.vercel.app/",
+          "snippet": "o content BARROCO CONSULT Services QI How we work Sectors Stack About Contact PT-BR AI-Multiplied QA Every QA engineer we place delivers the output of a whole QA team. Barroco Consult is a QA consultancy for startups and early-stage tech companies. Our experienced QA "
+        },
+        {
+          "url": "https://barroco-consult-psi.vercel.app/",
+          "snippet": " QA team. Barroco Consult is a QA consultancy for startups and early-stage tech companies. Our experienced QA engineers work AI-multiplied: backed by our own agentic QA tool, QI, each one plans, generates, runs and reports tests at the scale of an entire team. 100% re"
+        },
+        {
+          "url": "https://barroco-consult-psi.vercel.app/",
+          "snippet": "le of an entire team. 100% remote. Free 30-min QA assessment Talk to us See services Unmute Services What our engineers deliver, from the first test to a mature QA process. End-to-end test automation Robust, maintainable UI suites built to run on every pull request. W"
+        },
+        {
+          "url": "https://barroco-consult-psi.vercel.app/",
+          "snippet": "and setting up a QA function from scratch. QI: our agentic QA engine QI is the in-house tool every one of our engineers works with. Powered by agentic AI on top of Playwright, it turns requirements into executed tests and a clear quality report. Reads Jira tickets and"
+        },
+        {
+          "url": "https://barroco-consult-psi.vercel.app/",
+          "snippet": "o content BARROCO CONSULT Services QI How we work Sectors Stack About Contact PT-BR AI-Multiplied QA Every QA engineer we place delivers the output of a whole QA team. Barroco Consult is a QA consultancy for startups and early-stage tech companies. Our experienced QA "
+        },
+        {
+          "url": "https://barroco-consult-psi.vercel.app/",
+          "snippet": " QA team. Barroco Consult is a QA consultancy for startups and early-stage tech companies. Our experienced QA engineers work AI-multiplied: backed by our own agentic QA tool, QI, each one plans, generates, runs and reports tests at the scale of an entire team. 100% re"
+        },
+        {
+          "url": "https://barroco-consult-psi.vercel.app/",
+          "snippet": "le of an entire team. 100% remote. Free 30-min QA assessment Talk to us See services Unmute Services What our engineers deliver, from the first test to a mature QA process. End-to-end test automation Robust, maintainable UI suites built to run on every pull request. W"
+        },
+        {
+          "url": "https://barroco-consult-psi.vercel.app/",
+          "snippet": "and setting up a QA function from scratch. QI: our agentic QA engine QI is the in-house tool every one of our engineers works with. Powered by agentic AI on top of Playwright, it turns requirements into executed tests and a clear quality report. Reads Jira tickets and"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Slomski Solutions",
+      "website": "https://www.slomskisolutions.com.br/",
+      "domain": "www.slomskisolutions.com.br",
+      "profileUrl": "https://www.sortlist.com/agency/slomski-solutions",
+      "directoryLocation": "São Paulo, Brazil",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.slomskisolutions.com.br/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.slomskisolutions.com.br/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.slomskisolutions.com.br/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://www.slomskisolutions.com.br/",
+          "snippet": "Slomski Solutions | Engenharia de Software e Produtos Digitais SLOMSKI SOLUTIONS Expertise Produtos Empresa Contato PT EN 01 SLOMSKI SOLUTIONS Engenharia digital para desafios complexos. Arqui"
+        },
+        {
+          "url": "https://www.slomskisolutions.com.br/",
+          "snippet": " Produtos Empresa Contato PT EN 01 SLOMSKI SOLUTIONS Engenharia digital para desafios complexos. Arquitetura, software e inteligência aplicada à construção de produtos digitais. Ideias Arquitetura Código Produtos Evolução ↓ Explore 02 Essência Transformamos complexida"
+        },
+        {
+          "url": "https://www.slomskisolutions.com.br/",
+          "snippet": "ansformamos complexidade em produtos digitais claros, robustos e preparados para evoluir. Unimos arquitetura, software e inteligência para resolver problemas reais, traduzindo desafios complexos em soluções digitais de alto valor. 03 Expertise Expertise 01 Arquitetura"
+        },
+        {
+          "url": "https://www.slomskisolutions.com.br/",
+          "snippet": "s, traduzindo desafios complexos em soluções digitais de alto valor. 03 Expertise Expertise 01 Arquitetura de Software Estruturas sólidas para produtos digitais escaláveis, sustentáveis e preparados para evoluir. 02 Engenharia de Produtos Digitais Da estratégia à impl"
+        },
+        {
+          "url": "https://www.slomskisolutions.com.br/",
+          "snippet": "Slomski Solutions | Engenharia de Software e Produtos Digitais SLOMSKI SOLUTIONS Expertise Produtos Empresa Contato PT EN 01 SLOMSKI SOLUTIONS Engenharia digital para desafios complexos. Arqui"
+        },
+        {
+          "url": "https://www.slomskisolutions.com.br/",
+          "snippet": " Produtos Empresa Contato PT EN 01 SLOMSKI SOLUTIONS Engenharia digital para desafios complexos. Arquitetura, software e inteligência aplicada à construção de produtos digitais. Ideias Arquitetura Código Produtos Evolução ↓ Explore 02 Essência Transformamos complexida"
+        },
+        {
+          "url": "https://www.slomskisolutions.com.br/",
+          "snippet": "ansformamos complexidade em produtos digitais claros, robustos e preparados para evoluir. Unimos arquitetura, software e inteligência para resolver problemas reais, traduzindo desafios complexos em soluções digitais de alto valor. 03 Expertise Expertise 01 Arquitetura"
+        },
+        {
+          "url": "https://www.slomskisolutions.com.br/",
+          "snippet": "s, traduzindo desafios complexos em soluções digitais de alto valor. 03 Expertise Expertise 01 Arquitetura de Software Estruturas sólidas para produtos digitais escaláveis, sustentáveis e preparados para evoluir. 02 Engenharia de Produtos Digitais Da estratégia à impl"
+        },
+        {
+          "url": "https://www.slomskisolutions.com.br/",
+          "snippet": "Slomski Solutions | Engenharia de Software e Produtos Digitais SLOMSKI SOLUTIONS Expertise Produtos Empresa Contato PT EN 01 SLOMSKI SOLUTIONS Engenharia digital para desafios complexos. Arqui"
+        },
+        {
+          "url": "https://www.slomskisolutions.com.br/",
+          "snippet": " Produtos Empresa Contato PT EN 01 SLOMSKI SOLUTIONS Engenharia digital para desafios complexos. Arquitetura, software e inteligência aplicada à construção de produtos digitais. Ideias Arquitetura Código Produtos Evolução ↓ Explore 02 Essência Transformamos complexida"
+        },
+        {
+          "url": "https://www.slomskisolutions.com.br/",
+          "snippet": "ansformamos complexidade em produtos digitais claros, robustos e preparados para evoluir. Unimos arquitetura, software e inteligência para resolver problemas reais, traduzindo desafios complexos em soluções digitais de alto valor. 03 Expertise Expertise 01 Arquitetura"
+        },
+        {
+          "url": "https://www.slomskisolutions.com.br/",
+          "snippet": "s, traduzindo desafios complexos em soluções digitais de alto valor. 03 Expertise Expertise 01 Arquitetura de Software Estruturas sólidas para produtos digitais escaláveis, sustentáveis e preparados para evoluir. 02 Engenharia de Produtos Digitais Da estratégia à impl"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "AlphaCorp AI",
+      "website": "https://alphacorp.ai/",
+      "domain": "alphacorp.ai",
+      "profileUrl": "https://www.sortlist.com/agency/alphacorp-ai",
+      "directoryLocation": "Rio de Janeiro, Brazil",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://alphacorp.ai/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://alphacorp.ai/about",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://alphacorp.ai/contact",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://alphacorp.ai/",
+          "snippet": "nt Company | AlphaCorp AI Skip to content Home About Services Stack AI Education Blog Contact PT The Offer AI Engineering Studio AI Agent Development Company AlphaCorp AI is an AI agent development company that builds custom AI agents and automation systems to help your "
+        },
+        {
+          "url": "https://alphacorp.ai/",
+          "snippet": " 15 + Projects Delivered 10 + Clients Worldwide 30 + AI Agents Built Ignas Vaitukaitis Founder & CEO The team Engineers, not a sales bench Miguel de Frias Chief Technology Officer Ignas Vaitukaitis Founder & CEO The team Engineers, not a sales bench Miguel de Frias Ch"
+        },
+        {
+          "url": "https://alphacorp.ai/",
+          "snippet": "ngineers, not a sales bench Miguel de Frias Chief Technology Officer Ignas Vaitukaitis Founder & CEO The team Engineers, not a sales bench Miguel de Frias Chief Technology Officer RustyRAG Web Summit Rio 2026 Beatriz Sampaio Head of Marketing RustyRAG Web Summit Rio 2"
+        },
+        {
+          "url": "https://alphacorp.ai/",
+          "snippet": "e ones building with AI today. Proud husband and father to a two-year-old son. Since 2018 Building enterprise software Background ERP & AI Mid to large enterprises, Europe Focus AI Agents Since GPT API went public 03 Stack The Stack We Ship On We pick the best tool fo"
+        },
+        {
+          "url": "https://alphacorp.ai/about",
+          "snippet": "n Blog Contact PT The Offer About AlphaCorp AI We get teams ready for the age of intelligent machines. The AI engineering studio building agents, RAG systems, and automation that actually work. Book a Free Call → Meet the Team Creators of RustyRAG Rio de Janeiro 🇧🇷 Rem"
+        },
+        {
+          "url": "https://alphacorp.ai/about",
+          "snippet": "re RustyRAG Delaware Healthcare Government Hospitality Tech & Startups Ignas Vaitukaitis Founder & CEO · AI & Software Engineer since 2018 Upwork ★ TOP RATED 100% Job Success 01 Why We Exist We believe the future belongs to companies that build with AI today. Mission "
+        },
+        {
+          "url": "https://alphacorp.ai/about",
+          "snippet": "AG Delaware Healthcare Government Hospitality Tech & Startups Ignas Vaitukaitis Founder & CEO · AI & Software Engineer since 2018 Upwork ★ TOP RATED 100% Job Success 01 Why We Exist We believe the future belongs to companies that build with AI today. Mission We get te"
+        },
+        {
+          "url": "https://alphacorp.ai/about",
+          "snippet": "ours and work in English, Portuguese, and Spanish. Ignas Vaitukaitis Founder & CEO Ignas has built enterprise software since 2018, with deep roots in ERP and AI at mid-size and large European companies. He came up through Dublin and Vilnius, working to European data a"
+        },
+        {
+          "url": "https://alphacorp.ai/contact",
+          "snippet": "itch. Book a free call Services Generative AI Development Custom AI Development AI Chatbot Development Custom Software Development SaaS Development Financial Software Development LLM Fine Tuning AI Strategy Consulting DevOps Consulting AI Governance Consulting All ser"
+        },
+        {
+          "url": "https://alphacorp.ai/contact",
+          "snippet": "l Services Generative AI Development Custom AI Development AI Chatbot Development Custom Software Development SaaS Development Financial Software Development LLM Fine Tuning AI Strategy Consulting DevOps Consulting AI Governance Consulting All services Company Abo"
+        },
+        {
+          "url": "https://alphacorp.ai/contact",
+          "snippet": "velopment Custom AI Development AI Chatbot Development Custom Software Development SaaS Development Financial Software Development LLM Fine Tuning AI Strategy Consulting DevOps Consulting AI Governance Consulting All services Company About Our Stack Blog Newsletter AI"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "inite",
+      "website": "https://inite.ai/en",
+      "domain": "inite.ai",
+      "profileUrl": "https://www.sortlist.com/agency/inite",
+      "directoryLocation": "Florianópolis, Brazil",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br",
+      "careersUrl": "https://inite.ai/en/atlas/category/career",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://inite.ai/en",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://inite.ai/en/atlas/category/career",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://inite.ai/en/about",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://inite.ai/en",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://inite.ai/en",
+          "snippet": "vable Made with Base44 Made with Bolt Made with Replit By category Sales HR Security Analytics Agents Support Developer tools LLM operations Finance Automation Marketing Meetings Knowledge Retrieval (RAG) Voice Documents Legal Data Health Localization Creative & media "
+        },
+        {
+          "url": "https://inite.ai/en/atlas/category/career",
+          "snippet": "n your data 46 Free trial 33 Official MCP server 152 OpenAPI spec 25 Show only Categories All 28,403 Building Developer tools 4,360 Agents 968 Security 875 Data 579 LLM operations 266 Retrieval (RAG) 74 AI agent payments 37 Coding 16 Customers and sales Marketing 3,109"
+        },
+        {
+          "url": "https://inite.ai/en/atlas/category/career",
+          "snippet": "52 OpenAPI spec 25 By tag For consumers 139 Writing 55 Small business 53 Search 47 Workflow automation 36 For developers 22 Agents 21 Chat assistant 20 Analytics 18 Usage-based pricing 17 Browser extension 12 Data extraction 10 Who it is for Personal use 27 Developers "
+        },
+        {
+          "url": "https://inite.ai/en/atlas/category/career",
+          "snippet": " 20 Analytics 18 Usage-based pricing 17 Browser extension 12 Data extraction 10 Who it is for Personal use 27 Developers 11 One person 8 Small team 4 How it runs Hosted only 259 Desktop app 5 Ranked by use Price Free to start 172 Under $20/mo 86 $20–100/mo 42 Over $100"
+        },
+        {
+          "url": "https://inite.ai/en/atlas/category/career",
+          "snippet": " hiring pages, then exposes them through a CLI and MCP server. 3.8k Active From $5/mo #11 O Outtalent Coaches software engineers for technical job interviews through mentor sessions on coding, system design and behavioral rounds, plus referrals and offer negotiation. "
+        },
+        {
+          "url": "https://inite.ai/en",
+          "snippet": "vable Made with Base44 Made with Bolt Made with Replit By category Sales HR Security Analytics Agents Support Developer tools LLM operations Finance Automation Marketing Meetings Knowledge Retrieval (RAG) Voice Documents Legal Data Health Localization Creative & media "
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Epicora Software House",
+      "website": "https://epicora.com.br/",
+      "domain": "epicora.com.br",
+      "profileUrl": "https://www.sortlist.com/agency/epicora",
+      "directoryLocation": "Chapecó, Brazil",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://epicora.com.br/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://epicora.com.br/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://epicora.com.br/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://epicora.com.br/",
+          "snippet": "Epicora | Software house em Chapecó — software sob medida Pular para o conteúdo Sobre Serviços Cases Blog FAQ Contato PT EN ES Entrar em Contato Software house de siste"
+        },
+        {
+          "url": "https://epicora.com.br/",
+          "snippet": "Epicora | Software house em Chapecó — software sob medida Pular para o conteúdo Sobre Serviços Cases Blog FAQ Contato PT EN ES Entrar em Contato Software house de sistemas, produtos e IA sob medid"
+        },
+        {
+          "url": "https://epicora.com.br/",
+          "snippet": " — software sob medida Pular para o conteúdo Sobre Serviços Cases Blog FAQ Contato PT EN ES Entrar em Contato Software house de sistemas, produtos e IA sob medida Software sob medida que gera resultado para a sua empresa A Epicora é a software house que projeta, const"
+        },
+        {
+          "url": "https://epicora.com.br/",
+          "snippet": "rviços Cases Blog FAQ Contato PT EN ES Entrar em Contato Software house de sistemas, produtos e IA sob medida Software sob medida que gera resultado para a sua empresa A Epicora é a software house que projeta, constrói e sustenta sistemas de gestão, produtos digitais "
+        },
+        {
+          "url": "https://epicora.com.br/",
+          "snippet": "Epicora | Software house em Chapecó — software sob medida Pular para o conteúdo Sobre Serviços Cases Blog FAQ Contato PT EN ES Entrar em Contato Software house de siste"
+        },
+        {
+          "url": "https://epicora.com.br/",
+          "snippet": "Epicora | Software house em Chapecó — software sob medida Pular para o conteúdo Sobre Serviços Cases Blog FAQ Contato PT EN ES Entrar em Contato Software house de sistemas, produtos e IA sob medid"
+        },
+        {
+          "url": "https://epicora.com.br/",
+          "snippet": " — software sob medida Pular para o conteúdo Sobre Serviços Cases Blog FAQ Contato PT EN ES Entrar em Contato Software house de sistemas, produtos e IA sob medida Software sob medida que gera resultado para a sua empresa A Epicora é a software house que projeta, const"
+        },
+        {
+          "url": "https://epicora.com.br/",
+          "snippet": "rviços Cases Blog FAQ Contato PT EN ES Entrar em Contato Software house de sistemas, produtos e IA sob medida Software sob medida que gera resultado para a sua empresa A Epicora é a software house que projeta, constrói e sustenta sistemas de gestão, produtos digitais "
+        },
+        {
+          "url": "https://epicora.com.br/",
+          "snippet": "Epicora | Software house em Chapecó — software sob medida Pular para o conteúdo Sobre Serviços Cases Blog FAQ Contato PT EN ES Entrar em Contato Software house de siste"
+        },
+        {
+          "url": "https://epicora.com.br/",
+          "snippet": "Epicora | Software house em Chapecó — software sob medida Pular para o conteúdo Sobre Serviços Cases Blog FAQ Contato PT EN ES Entrar em Contato Software house de sistemas, produtos e IA sob medid"
+        },
+        {
+          "url": "https://epicora.com.br/",
+          "snippet": " — software sob medida Pular para o conteúdo Sobre Serviços Cases Blog FAQ Contato PT EN ES Entrar em Contato Software house de sistemas, produtos e IA sob medida Software sob medida que gera resultado para a sua empresa A Epicora é a software house que projeta, const"
+        },
+        {
+          "url": "https://epicora.com.br/",
+          "snippet": "rviços Cases Blog FAQ Contato PT EN ES Entrar em Contato Software house de sistemas, produtos e IA sob medida Software sob medida que gera resultado para a sua empresa A Epicora é a software house que projeta, constrói e sustenta sistemas de gestão, produtos digitais "
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Criativo Master",
+      "website": "https://criativomaster.com/",
+      "domain": "criativomaster.com",
+      "profileUrl": "https://www.sortlist.com/agency/criativo-master",
+      "directoryLocation": "Campinas, Brazil",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://criativomaster.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://criativomaster.com/",
+          "snippet": "ntes. Loja Virtual Lojas profissionais para vender online com segurança, organização e facilidade. Sistemas & Softwares Sistemas e plataformas sob medida para digitalizar processos da sua empresa. Automações Automações para reduzir tarefas manuais, integrar ferramenta"
+        },
+        {
+          "url": "https://criativomaster.com/",
+          "snippet": ", receber pedidos, processar pagamentos e vender pela internet com segurança e organização. 04 SYS Sistemas & Softwares Sistemas, portais e plataformas personalizados para organizar operações, atender necessidades específicas e digitalizar processos importantes da sua"
+        },
+        {
+          "url": "https://criativomaster.com/",
+          "snippet": " Master Projeto Seu site, loja ou app criado, publicado e pronto para usar Tenha um site, loja, landing page, software ou app criado do início à publicação, com visual profissional, estrutura organizada e conteúdo pensado para apresentar sua empresa com clareza e conf"
+        },
+        {
+          "url": "https://criativomaster.com/",
+          "snippet": ", publicado e pronto para sua marca usar com mais profissionalismo. Projeto completo para site, loja virtual, software ou app Visual profissional para todos os dispositivos Páginas estruturadas para apresentar sua marca Textos do projeto com foco em clareza e conversã"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Quilha Digital - Agência de Marketing",
+      "website": "https://quilhadigital.com.br/",
+      "domain": "quilhadigital.com.br",
+      "profileUrl": "https://www.sortlist.com/agency/quilha-digital-agencia-de-marketing",
+      "directoryLocation": "Curitiba, Brazil",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://quilhadigital.com.br/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [],
+      "likelyFit": false,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "CERBO",
+      "website": "https://www.cerbo.cc/pt",
+      "domain": "www.cerbo.cc",
+      "profileUrl": "https://www.sortlist.com/agency/cerbo",
+      "directoryLocation": "Caxias do Sul, Brazil",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.cerbo.cc/pt",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.cerbo.cc/pt/about",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.cerbo.cc/pt",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [],
+      "likelyFit": false,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "One Growth Media",
+      "website": "https://onegrowth.media/",
+      "domain": "onegrowth.media",
+      "profileUrl": "https://www.sortlist.com/agency/one-growth-media",
+      "directoryLocation": "Manaus, Brazil",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://onegrowth.media/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [],
+      "likelyFit": false,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Armel-x Tecnologia",
+      "website": "https://armelx.com/",
+      "domain": "armelx.com",
+      "profileUrl": "https://www.sortlist.com/agency/armel-x-tecnologia",
+      "directoryLocation": "Teófilo Otoni, Brazil",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://armelx.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://armelx.com/",
+          "snippet": "logia Transformamos desafios de negócios em soluções digitais que geram resultados. A Armel-x Tecnologia cria softwares, produtos digitais, experiências e soluções inteligentes para empresas que desejam inovar, crescer e operar com mais eficiência. Solicitar orçamento"
+        },
+        {
+          "url": "https://armelx.com/",
+          "snippet": "tratégia, design e tecnologia para construir uma solução alinhada aos objetivos do seu projeto. Engenharia de software que sustenta o crescimento do seu negócio. Desenvolvimento de Software Sistemas corporativos, portais e plataformas construídos sob medida para o seu"
+        },
+        {
+          "url": "https://armelx.com/",
+          "snippet": "bjetivos do seu projeto. Engenharia de software que sustenta o crescimento do seu negócio. Desenvolvimento de Software Sistemas corporativos, portais e plataformas construídos sob medida para o seu processo. Saiba mais → Aplicativos Mobile Aplicativos Android, iOS e h"
+        },
+        {
+          "url": "https://armelx.com/",
+          "snippet": " e Analytics Dados organizados, confiáveis e transformados em indicadores que orientam decisões. Saiba mais → Cloud e DevOps Infraestrutura resiliente, automatizada e com custo sob controle. Saiba mais → Cibersegurança e LGPD Segurança de aplicações e adequação à L"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Baux Studio",
+      "website": "https://bauxestudio.webflow.io/",
+      "domain": "bauxestudio.webflow.io",
+      "profileUrl": "https://www.sortlist.com/agency/baux-studio",
+      "directoryLocation": "Salvador, Brazil",
+      "queryLane": "Sortlist software development directory — Brazil",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/brazil-br",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://bauxestudio.webflow.io/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://bauxestudio.webflow.io/",
+          "snippet": "flow ou Wordpress E-commerce em Webflow e outras plataformas Sua loja online com expertise Desenvolvimento de Software Criar sistemas e plataformas Desenvolver um sistema personalizado Criar aplicativos Desenvolver um app personalizado Assinatura de design e criativos"
+        },
+        {
+          "url": "https://bauxestudio.webflow.io/",
+          "snippet": "or assinatura Sprint Baux Seu MVP design em 8 dias Nossas marcas Baux Studio Marcas, prints e embalagens Viso Saas para estúdios. e agências CASE DE SUCESSO Transformação digital na Petlove: Conheça este projeto incrível. Conteúdo Blog Nosso conteúdo sobre UX, des"
+        },
+        {
+          "url": "https://bauxestudio.webflow.io/",
+          "snippet": "flow ou Wordpress E-commerce em Webflow e outras plataformas Sua loja online com expertise Desenvolvimento de Software Criar sistemas e plataformas Desenvolver um sistema personalizado Criar aplicativos Desenvolver um app personalizado Assinatura de design e criativos"
+        },
+        {
+          "url": "https://bauxestudio.webflow.io/",
+          "snippet": " Baux Seu MVP design em 8 dias Cases Nossas marcas Nossas marcas Baux Studio Marcas, prints e embalagens Viso Saas para estúdios. e agências CASE DE SUCESSO Transformação digital na Petlove: Conheça este projeto incrível. Sobre Conteúdo Conteúdo Blog Nosso conteúd"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Treeview",
+      "website": "https://treeview.studio/",
+      "domain": "treeview.studio",
+      "profileUrl": "https://www.sortlist.com/agency/treeview",
+      "directoryLocation": "Montevideo, Uruguay",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/uruguay-uy",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://treeview.studio/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://treeview.studio/about",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://treeview.studio/contact",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://treeview.studio/",
+          "snippet": "d ideas into spatial computing apps. Get in touch Get in touch Trusted by the Best Building spatial computing software for the world’s most innovative enterprises. Trusted by the Best Building spatial computing software for the world’s most innovative enterprises. Cas"
+        },
+        {
+          "url": "https://treeview.studio/",
+          "snippet": "omputing software for the world’s most innovative enterprises. Trusted by the Best Building spatial computing software for the world’s most innovative enterprises. Case Studies work. We build spatial computing apps that deliver business impact. View more work View mor"
+        },
+        {
+          "url": "https://treeview.studio/about",
+          "snippet": "Medicine and NEOM. What we do What we do Services. Services. (001) Virtual Reality (VR) Development Custom VR application development for enterprise training, simulation, and immersive experiences using Unity and Unreal Engine. Virtual Reality (VR) Development (002) Augmented Realit"
+        },
+        {
+          "url": "https://treeview.studio/about",
+          "snippet": " scene understanding. Mixed Reality (MR) Development (004) Smart Glasses App Development Custom smart glasses application development for enterprise workflows, remote assistance, and hands-free operations using leading wearable platforms. Smart Glasses App Development (005) AI Glass"
+        },
+        {
+          "url": "https://treeview.studio/about",
+          "snippet": " leading wearable platforms. Smart Glasses App Development (005) AI Glasses App Development Custom AI glasses application development for real-time object recognition, contextual overlays, and intelligent field assistance on next-generation eyewear. AI Glasses App Development (006) "
+        },
+        {
+          "url": "https://treeview.studio/about",
+          "snippet": " environments and operations. Digital Twin Development (007) Apple Vision Pro App Development Custom visionOS application development for spatial computing experiences, immersive interfaces, and enterprise workflows on Apple Vision Pro. Apple Vision Pro App Development (008) Meta Qu"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Solcre Software & Staff Augmentation",
+      "website": "https://www.solcre.com/en/",
+      "domain": "www.solcre.com",
+      "profileUrl": "https://www.sortlist.com/agency/solcre-technology",
+      "directoryLocation": "Montevideo, Uruguay",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/uruguay-uy",
+      "careersUrl": "https://www.solcre.com/en/work-with-us/",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.solcre.com/en/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.solcre.com/en/work-with-us/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.solcre.com/en/about-us/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.solcre.com/en/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://www.solcre.com/en/",
+          "snippet": "Nearshore Software Development & Staff Augmentation | Solcre Services Digital Product Building Web & Mobile Applications Advanced Corporate Websites and E-commerce Solu"
+        },
+        {
+          "url": "https://www.solcre.com/en/",
+          "snippet": "oduct Building Web & Mobile Applications Advanced Corporate Websites and E-commerce Solutions Custom Business Software API & Integration Layers Artificial Intelligence AI Consulting and Opportunity Diagnosis AI Solutions Development and Implementation Intelligent Proc"
+        },
+        {
+          "url": "https://www.solcre.com/en/",
+          "snippet": "taff Augmentation Engagement Models Tech Stacks People Experience & Retention Hardware & Security Our Process Engineering Consultancy Legacy Re−engineering Fractional Product Manager Tech Stack Review Infrastructure Optimization Security Review Engineering Process Review"
+        },
+        {
+          "url": "https://www.solcre.com/en/",
+          "snippet": "s Tech Stacks People Experience & Retention Hardware & Security Our Process Engineering Consultancy Legacy Re−engineering Fractional Product Manager Tech Stack Review Infrastructure Optimization Security Review Engineering Process Review Technologies Backend Java Node.js"
+        },
+        {
+          "url": "https://www.solcre.com/en/work-with-us/",
+          "snippet": "Work with us | Nearshore Software Development & Staff Augmentation | Solcre Services Digital Product Building Web & Mobile Applications Advanced Corporate Websites and E-commerce Solu"
+        },
+        {
+          "url": "https://www.solcre.com/en/work-with-us/",
+          "snippet": "oduct Building Web & Mobile Applications Advanced Corporate Websites and E-commerce Solutions Custom Business Software API & Integration Layers Artificial Intelligence AI Consulting and Opportunity Diagnosis AI Solutions Development and Implementation Intelligent Proc"
+        },
+        {
+          "url": "https://www.solcre.com/en/work-with-us/",
+          "snippet": "taff Augmentation Engagement Models Tech Stacks People Experience & Retention Hardware & Security Our Process Engineering Consultancy Legacy Re−engineering Fractional Product Manager Tech Stack Review Infrastructure Optimization Security Review Engineering Process Review"
+        },
+        {
+          "url": "https://www.solcre.com/en/work-with-us/",
+          "snippet": "s Tech Stacks People Experience & Retention Hardware & Security Our Process Engineering Consultancy Legacy Re−engineering Fractional Product Manager Tech Stack Review Infrastructure Optimization Security Review Engineering Process Review Technologies Backend Java Node.js"
+        },
+        {
+          "url": "https://www.solcre.com/en/about-us/",
+          "snippet": "About | Nearshore Software Development & Staff Augmentation | Solcre Services Digital Product Building Web & Mobile Applications Advanced Corporate Websites and E-commerce Solu"
+        },
+        {
+          "url": "https://www.solcre.com/en/about-us/",
+          "snippet": "oduct Building Web & Mobile Applications Advanced Corporate Websites and E-commerce Solutions Custom Business Software API & Integration Layers Artificial Intelligence AI Consulting and Opportunity Diagnosis AI Solutions Development and Implementation Intelligent Proc"
+        },
+        {
+          "url": "https://www.solcre.com/en/about-us/",
+          "snippet": "taff Augmentation Engagement Models Tech Stacks People Experience & Retention Hardware & Security Our Process Engineering Consultancy Legacy Re−engineering Fractional Product Manager Tech Stack Review Infrastructure Optimization Security Review Engineering Process Review"
+        },
+        {
+          "url": "https://www.solcre.com/en/about-us/",
+          "snippet": "s Tech Stacks People Experience & Retention Hardware & Security Our Process Engineering Consultancy Legacy Re−engineering Fractional Product Manager Tech Stack Review Infrastructure Optimization Security Review Engineering Process Review Technologies Backend Java Node.js"
+        },
+        {
+          "url": "https://www.solcre.com/en/",
+          "snippet": "Nearshore Software Development & Staff Augmentation | Solcre Services Digital Product Building Web & Mobile Applications Advanced Corporate Websites and E-commerce Solu"
+        },
+        {
+          "url": "https://www.solcre.com/en/",
+          "snippet": "oduct Building Web & Mobile Applications Advanced Corporate Websites and E-commerce Solutions Custom Business Software API & Integration Layers Artificial Intelligence AI Consulting and Opportunity Diagnosis AI Solutions Development and Implementation Intelligent Proc"
+        },
+        {
+          "url": "https://www.solcre.com/en/",
+          "snippet": "taff Augmentation Engagement Models Tech Stacks People Experience & Retention Hardware & Security Our Process Engineering Consultancy Legacy Re−engineering Fractional Product Manager Tech Stack Review Infrastructure Optimization Security Review Engineering Process Review"
+        },
+        {
+          "url": "https://www.solcre.com/en/",
+          "snippet": "s Tech Stacks People Experience & Retention Hardware & Security Our Process Engineering Consultancy Legacy Re−engineering Fractional Product Manager Tech Stack Review Infrastructure Optimization Security Review Engineering Process Review Technologies Backend Java Node.js"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Nicven Tech",
+      "website": "https://nicventech.com/",
+      "domain": "nicventech.com",
+      "profileUrl": "https://www.sortlist.com/agency/nicven-tech",
+      "directoryLocation": "Montevideo, Uruguay",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/uruguay-uy",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://nicventech.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://nicventech.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://nicventech.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://nicventech.com/",
+          "snippet": "en Tech — Llevá tu negocio a internet Nicven Tech Servicios ▾ Páginas Web Landing pages y sitios corporativos Software a Medida Sistemas y automatización Hosting Administrado y con soporte Pronto Portfolio ¿Por qué nosotros? Contacto Proyectos realizados Hablar por Wh"
+        },
+        {
+          "url": "https://nicventech.com/",
+          "snippet": "to Portfolio ¿Por qué nosotros? Contacto Proyectos realizados Hablar por WhatsApp Agencia de desarrollo web y software · Uruguay Llevá tu negocio a internet en 7 días Diseñamos y desarrollamos tu presencia digital desde cero. Rápido, profesional y con soporte real. Co"
+        },
+        {
+          "url": "https://nicventech.com/",
+          "snippet": "uí tu web Ver planes → scroll Servicios Tres líneas de negocio para tu empresa Desde una landing rápida hasta software a medida. Encontrá la solución que se adapta a tu negocio. Lanzamiento 43% OFF USD 350 USD 199 Landing Page / One Page Ideal para emprendedores, prof"
+        },
+        {
+          "url": "https://nicventech.com/",
+          "snippet": "ioritario 30 días Ideal para tiendas físicas Entrega en 10 días Ver más detalles → ¿Tu proyecto necesita más? Software a Medida 20% OFF lanzamiento Sistemas, automatizaciones y aplicaciones desarrolladas desde cero para las necesidades específicas de tu negocio. Cotiz"
+        },
+        {
+          "url": "https://nicventech.com/",
+          "snippet": "en Tech — Llevá tu negocio a internet Nicven Tech Servicios ▾ Páginas Web Landing pages y sitios corporativos Software a Medida Sistemas y automatización Hosting Administrado y con soporte Pronto Portfolio ¿Por qué nosotros? Contacto Proyectos realizados Hablar por Wh"
+        },
+        {
+          "url": "https://nicventech.com/",
+          "snippet": "to Portfolio ¿Por qué nosotros? Contacto Proyectos realizados Hablar por WhatsApp Agencia de desarrollo web y software · Uruguay Llevá tu negocio a internet en 7 días Diseñamos y desarrollamos tu presencia digital desde cero. Rápido, profesional y con soporte real. Co"
+        },
+        {
+          "url": "https://nicventech.com/",
+          "snippet": "uí tu web Ver planes → scroll Servicios Tres líneas de negocio para tu empresa Desde una landing rápida hasta software a medida. Encontrá la solución que se adapta a tu negocio. Lanzamiento 43% OFF USD 350 USD 199 Landing Page / One Page Ideal para emprendedores, prof"
+        },
+        {
+          "url": "https://nicventech.com/",
+          "snippet": "ioritario 30 días Ideal para tiendas físicas Entrega en 10 días Ver más detalles → ¿Tu proyecto necesita más? Software a Medida 20% OFF lanzamiento Sistemas, automatizaciones y aplicaciones desarrolladas desde cero para las necesidades específicas de tu negocio. Cotiz"
+        },
+        {
+          "url": "https://nicventech.com/",
+          "snippet": "en Tech — Llevá tu negocio a internet Nicven Tech Servicios ▾ Páginas Web Landing pages y sitios corporativos Software a Medida Sistemas y automatización Hosting Administrado y con soporte Pronto Portfolio ¿Por qué nosotros? Contacto Proyectos realizados Hablar por Wh"
+        },
+        {
+          "url": "https://nicventech.com/",
+          "snippet": "to Portfolio ¿Por qué nosotros? Contacto Proyectos realizados Hablar por WhatsApp Agencia de desarrollo web y software · Uruguay Llevá tu negocio a internet en 7 días Diseñamos y desarrollamos tu presencia digital desde cero. Rápido, profesional y con soporte real. Co"
+        },
+        {
+          "url": "https://nicventech.com/",
+          "snippet": "uí tu web Ver planes → scroll Servicios Tres líneas de negocio para tu empresa Desde una landing rápida hasta software a medida. Encontrá la solución que se adapta a tu negocio. Lanzamiento 43% OFF USD 350 USD 199 Landing Page / One Page Ideal para emprendedores, prof"
+        },
+        {
+          "url": "https://nicventech.com/",
+          "snippet": "ioritario 30 días Ideal para tiendas físicas Entrega en 10 días Ver más detalles → ¿Tu proyecto necesita más? Software a Medida 20% OFF lanzamiento Sistemas, automatizaciones y aplicaciones desarrolladas desde cero para las necesidades específicas de tu negocio. Cotiz"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Ecnoz",
+      "website": "https://ecnoz.com/",
+      "domain": "ecnoz.com",
+      "profileUrl": "https://www.sortlist.com/agency/ecnoz",
+      "directoryLocation": "Montevideo, Uruguay",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/uruguay-uy",
+      "careersUrl": "https://ecnoz.com/solicitud-de-empleo/",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://ecnoz.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://ecnoz.com/solicitud-de-empleo/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://ecnoz.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://ecnoz.com/data-center-colocation/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://ecnoz.com/",
+          "snippet": "Servicios IT y Ciberseguridad | Ecnoz Ir al contenido principal Ecnoz TI & Ciberseguridad Nosotros Nosotros Conocé quiénes somos, nuestra experiencia y cómo acompañamos a empresas"
+        },
+        {
+          "url": "https://ecnoz.com/",
+          "snippet": "Servicios IT y Ciberseguridad | Ecnoz Ir al contenido principal Ecnoz TI & Ciberseguridad Nosotros Nosotros Conocé quiénes somos, nuestra experiencia y cómo acompañamos a empresas en sus desafíos tecnológicos. Nuestras Políticas Consultá n"
+        },
+        {
+          "url": "https://ecnoz.com/",
+          "snippet": "egral de tecnología. Casos de éxito Conocé proyectos reales donde Ecnoz resolvió desafíos de infraestructura, cloud, seguridad y operación IT. Partners Servicios &#038; Soluciones Soporte y Operaciones Soporte IT Outsourcing IT NOC Soporte White Label Desarrollo y "
+        },
+        {
+          "url": "https://ecnoz.com/",
+          "snippet": "bel Desarrollo y Automatización Aplicaciones de negocio DevOps Automatización Integraciones Infraestructura y Cloud Cloud Data Center & Colocation Continuidad del negocio Infraestructura IT Consultoría Servicios profesionales Consultoría estratégica Ciberseguridad "
+        },
+        {
+          "url": "https://ecnoz.com/solicitud-de-empleo/",
+          "snippet": "Únete a Ecnoz: Oportunidades de Empleo en IT y Cibersegurida Ir al contenido principal Ecnoz TI & Ciberseguridad Nosotros Nosotros Conocé quiénes somos, nuestra experiencia y cómo acompañamos a empresas en sus desafíos tecnológicos. Nuestras Políticas Consultá n"
+        },
+        {
+          "url": "https://ecnoz.com/solicitud-de-empleo/",
+          "snippet": "egral de tecnología. Casos de éxito Conocé proyectos reales donde Ecnoz resolvió desafíos de infraestructura, cloud, seguridad y operación IT. Partners Servicios &#038; Soluciones Soporte y Operaciones Soporte IT Outsourcing IT NOC Soporte White Label Desarrollo y "
+        },
+        {
+          "url": "https://ecnoz.com/solicitud-de-empleo/",
+          "snippet": "bel Desarrollo y Automatización Aplicaciones de negocio DevOps Automatización Integraciones Infraestructura y Cloud Cloud Data Center & Colocation Continuidad del negocio Infraestructura IT Consultoría Servicios profesionales Consultoría estratégica Ciberseguridad "
+        },
+        {
+          "url": "https://ecnoz.com/solicitud-de-empleo/",
+          "snippet": "sarrollo y Automatización Aplicaciones de negocio DevOps Automatización Integraciones Infraestructura y Cloud Cloud Data Center & Colocation Continuidad del negocio Infraestructura IT Consultoría Servicios profesionales Consultoría estratégica Ciberseguridad Cibers"
+        },
+        {
+          "url": "https://ecnoz.com/",
+          "snippet": "Servicios IT y Ciberseguridad | Ecnoz Ir al contenido principal Ecnoz TI & Ciberseguridad Nosotros Nosotros Conocé quiénes somos, nuestra experiencia y cómo acompañamos a empresas"
+        },
+        {
+          "url": "https://ecnoz.com/",
+          "snippet": "Servicios IT y Ciberseguridad | Ecnoz Ir al contenido principal Ecnoz TI & Ciberseguridad Nosotros Nosotros Conocé quiénes somos, nuestra experiencia y cómo acompañamos a empresas en sus desafíos tecnológicos. Nuestras Políticas Consultá n"
+        },
+        {
+          "url": "https://ecnoz.com/",
+          "snippet": "egral de tecnología. Casos de éxito Conocé proyectos reales donde Ecnoz resolvió desafíos de infraestructura, cloud, seguridad y operación IT. Partners Servicios &#038; Soluciones Soporte y Operaciones Soporte IT Outsourcing IT NOC Soporte White Label Desarrollo y "
+        },
+        {
+          "url": "https://ecnoz.com/",
+          "snippet": "bel Desarrollo y Automatización Aplicaciones de negocio DevOps Automatización Integraciones Infraestructura y Cloud Cloud Data Center & Colocation Continuidad del negocio Infraestructura IT Consultoría Servicios profesionales Consultoría estratégica Ciberseguridad "
+        },
+        {
+          "url": "https://ecnoz.com/data-center-colocation/",
+          "snippet": "Servicios de Data Center y Colocation | Ecnoz Ir al contenido principal Ecnoz TI & Ciberseguridad Nosotros Nosotros Conocé quiénes somos, nuestra experiencia y cómo acompañamos a empresas en sus desafíos tecnológicos. Nuestras Políticas Consultá n"
+        },
+        {
+          "url": "https://ecnoz.com/data-center-colocation/",
+          "snippet": "egral de tecnología. Casos de éxito Conocé proyectos reales donde Ecnoz resolvió desafíos de infraestructura, cloud, seguridad y operación IT. Partners Servicios &#038; Soluciones Soporte y Operaciones Soporte IT Outsourcing IT NOC Soporte White Label Desarrollo y "
+        },
+        {
+          "url": "https://ecnoz.com/data-center-colocation/",
+          "snippet": "bel Desarrollo y Automatización Aplicaciones de negocio DevOps Automatización Integraciones Infraestructura y Cloud Cloud Data Center & Colocation Continuidad del negocio Infraestructura IT Consultoría Servicios profesionales Consultoría estratégica Ciberseguridad "
+        },
+        {
+          "url": "https://ecnoz.com/data-center-colocation/",
+          "snippet": "sarrollo y Automatización Aplicaciones de negocio DevOps Automatización Integraciones Infraestructura y Cloud Cloud Data Center & Colocation Continuidad del negocio Infraestructura IT Consultoría Servicios profesionales Consultoría estratégica Ciberseguridad Cibers"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Firox Uruguay",
+      "website": "https://firox.uy/",
+      "domain": "firox.uy",
+      "profileUrl": "https://www.sortlist.com/agency/firox-uruguay",
+      "directoryLocation": "Montevideo, Uruguay",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/uruguay-uy",
+      "careersUrl": "https://firox.uy/empleos",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://firox.uy/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://firox.uy/empleos",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://firox.uy/nosotros",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://firox.uy/contacto",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "LATAM"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://firox.uy/empleos",
+          "snippet": "cionan, este es tu lugar. Ver puestos Contactar 06 — Cómo trabajamos Cómo es el día a día acá. Remoto en toda LATAM, ciclos cortos de entrega y un stack moderno. Así se ve trabajar en Firox. Desde donde estés Remoto Remoto talento de toda LATAM Ciclos de entrega 2-"
+        },
+        {
+          "url": "https://firox.uy/empleos",
+          "snippet": "s de entrega y un stack moderno. Así se ve trabajar en Firox. Desde donde estés Remoto Remoto talento de toda LATAM Ciclos de entrega 2-3 sem 2 - 3 sem lanzamos y mejoramos Next.js · React · Shopify Stack Stack moderno, sin plantillas Proyectos con impacto Real Rea"
+        },
+        {
+          "url": "https://firox.uy/empleos",
+          "snippet": "cervezas los viernes. Prometemos trabajo con sentido, autonomía real y un equipo que se banca. Remoto en toda LATAM Trabajá desde cualquier país de Latinoamérica. Coordinamos por objetivos, no por horas frente a la pantalla. Pago por proyecto Cobrás un porcentaje d"
+        }
+      ],
+      "officialFitSnippets": [],
+      "likelyFit": false,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": true
+    },
+    {
+      "name": "SpaceDev",
+      "website": "https://spacedev.io/",
+      "domain": "spacedev.io",
+      "profileUrl": "https://www.sortlist.com/agency/spacedev",
+      "directoryLocation": "Montevideo, Uruguay",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/uruguay-uy",
+      "careersUrl": "https://spacedev.io/careers",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://spacedev.io/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://spacedev.io/careers",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://spacedev.io/about-us",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://spacedev.io/contact",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://spacedev.io/about-us",
+          "snippet": "provided by SpaceDev has been exemplary.\" Monzoor Ullah, COO at Byrrgis Crypto Trading Platform Development · Costa Rica · Oct 2025 The team The people behind the products CEO & Co-founder Federico Sendra 10+ yrs Web3 & AI Tech strategist turning complexity into clarity"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://spacedev.io/",
+          "snippet": " Agentic AI Development Product Discovery BlockAudit: Blockchain Security Industries Banking Energy Finance & Fintech Gaming Healthcare Real Estate Supply Chain & Logistics Telecommunications Web3 Compliance Our Work About About Us FAQs Events Calendar SpaceDev in th"
+        },
+        {
+          "url": "https://spacedev.io/",
+          "snippet": " Agentic AI Development Product Discovery BlockAudit: Blockchain Security Industries Banking Energy Finance & Fintech Gaming Healthcare Real Estate Supply Chain & Logistics Telecommunications Web3 Compliance Our Work About About Us FAQs Events Calendar SpaceDev in th"
+        },
+        {
+          "url": "https://spacedev.io/",
+          "snippet": "touch Finally: Your&#160; Flexible Reliable Fast Flexible Tech Partner. Blockchain Development Company & Web3 Software Partner SpaceDev builds custom Web3 and blockchain solutions, from dApps and smart contracts to DeFi and token infrastructure, for startups, fintechs"
+        },
+        {
+          "url": "https://spacedev.io/",
+          "snippet": "Web3 and blockchain solutions, from dApps and smart contracts to DeFi and token infrastructure, for startups, fintechs and enterprises that need a technical partner with real depth. Trusted by Key Takeaways Who we are: a blockchain development company and Web3 softwa"
+        },
+        {
+          "url": "https://spacedev.io/careers",
+          "snippet": "Careers at SpaceDev: Join our remote engineering team Skip to main content Our Expertise Blockchain Development Smart Contract Development Asset Tokenization dApp Development Decentralized Identity "
+        },
+        {
+          "url": "https://spacedev.io/careers",
+          "snippet": " Agentic AI Development Product Discovery BlockAudit: Blockchain Security Industries Banking Energy Finance & Fintech Gaming Healthcare Real Estate Supply Chain & Logistics Telecommunications Web3 Compliance Our Work About About Us FAQs Events Calendar SpaceDev in th"
+        },
+        {
+          "url": "https://spacedev.io/careers",
+          "snippet": " Agentic AI Development Product Discovery BlockAudit: Blockchain Security Industries Banking Energy Finance & Fintech Gaming Healthcare Real Estate Supply Chain & Logistics Telecommunications Web3 Compliance Our Work About About Us FAQs Events Calendar SpaceDev in th"
+        },
+        {
+          "url": "https://spacedev.io/careers",
+          "snippet": "our career? Look no further! Explore our open positions and join us on this exciting journey. Full Stack Web3 Developer 100% Remote Apply now Backend Web3 Developer 100% Remote Apply now Frontend React Web3 Developer 100% Remote Apply now React Native Developer 100% Re"
+        },
+        {
+          "url": "https://spacedev.io/about-us",
+          "snippet": " Agentic AI Development Product Discovery BlockAudit: Blockchain Security Industries Banking Energy Finance & Fintech Gaming Healthcare Real Estate Supply Chain & Logistics Telecommunications Web3 Compliance Our Work About About Us FAQs Events Calendar SpaceDev in th"
+        },
+        {
+          "url": "https://spacedev.io/about-us",
+          "snippet": " Agentic AI Development Product Discovery BlockAudit: Blockchain Security Industries Banking Energy Finance & Fintech Gaming Healthcare Real Estate Supply Chain & Logistics Telecommunications Web3 Compliance Our Work About About Us FAQs Events Calendar SpaceDev in th"
+        },
+        {
+          "url": "https://spacedev.io/about-us",
+          "snippet": "contracts, and architecture that cannot scale. SpaceDev was founded to eliminate those risks. We combine deep engineering discipline with real-world blockchain experience to deliver outcomes, not just code. Who we partner with Founders building Web3 protocols From token "
+        },
+        {
+          "url": "https://spacedev.io/about-us",
+          "snippet": "egration over disruption. We bring blockchain into your stack without betting the business on it. How we work Engineering-first. Security-validated. Outcome-driven. 01 Architecture first, code second We design the system before writing a single line. Solid foundations pr"
+        },
+        {
+          "url": "https://spacedev.io/contact",
+          "snippet": " Agentic AI Development Product Discovery BlockAudit: Blockchain Security Industries Banking Energy Finance & Fintech Gaming Healthcare Real Estate Supply Chain & Logistics Telecommunications Web3 Compliance Our Work About About Us FAQs Events Calendar SpaceDev in th"
+        },
+        {
+          "url": "https://spacedev.io/contact",
+          "snippet": " Agentic AI Development Product Discovery BlockAudit: Blockchain Security Industries Banking Energy Finance & Fintech Gaming Healthcare Real Estate Supply Chain & Logistics Telecommunications Web3 Compliance Our Work About About Us FAQs Events Calendar SpaceDev in th"
+        },
+        {
+          "url": "https://spacedev.io/contact",
+          "snippet": " to reach the stars? Full name * Email * What do you need help with? * Please select Build a product Existing Software Rescue Staff Augmentation Discovery Sprint - Technical consultancy Interested in a partnership with SpaceDev Other How did you find us? * Please sele"
+        },
+        {
+          "url": "https://spacedev.io/contact",
+          "snippet": "ct Development that Sparks Innovation Product Development that Sparks Innovation SpaceDev is a blockchain and software development partner helping companies build, audit, and scale secure Web3 products for real-world use cases. Get in touch Our Hubs United States - 25"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Infuy",
+      "website": "https://infuy.com/",
+      "domain": "www.infuy.com",
+      "profileUrl": "https://www.sortlist.com/agency/infuy",
+      "directoryLocation": "Montevideo, Uruguay",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/uruguay-uy",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://infuy.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [],
+      "likelyFit": false,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "EvoSoft",
+      "website": "http://www.evosoftuy.com/",
+      "domain": "www.evosoftuy.com",
+      "profileUrl": "https://www.sortlist.com/agency/evosoft",
+      "directoryLocation": "Montevideo, Uruguay",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/uruguay-uy",
+      "officialSiteStatus": "fetch failed",
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "DevXtend",
+      "website": "http://www.devxtend.com/",
+      "domain": "www.devxtend.com",
+      "profileUrl": "https://www.sortlist.com/agency/devxtend",
+      "directoryLocation": "Montevideo, Uruguay",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/uruguay-uy",
+      "officialSiteStatus": "HTTP 403",
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Asap Developers",
+      "website": "https://asapdevelopers.com/",
+      "domain": "www.asapdevelopers.com",
+      "profileUrl": "https://www.sortlist.com/agency/asap-developers",
+      "directoryLocation": "Montevideo, Uruguay",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/uruguay-uy",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://asapdevelopers.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://asapdevelopers.com/about-us/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://asapdevelopers.com/contact/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://asapdevelopers.com/",
+          "snippet": "AI Agency | AI App Developers | asap developers Hit enter to search or ESC to close Work Services Contact AI Agency San Francisco: Transforming Businesses with Artificial Intelli"
+        },
+        {
+          "url": "https://asapdevelopers.com/",
+          "snippet": "AI Agency | AI App Developers | asap developers Hit enter to search or ESC to close Work Services Contact AI Agency San Francisco: Transforming Businesses with Artificial Intelligence Partner with"
+        },
+        {
+          "url": "https://asapdevelopers.com/",
+          "snippet": "vices Contact AI Agency San Francisco: Transforming Businesses with Artificial Intelligence Partner with asap developers to unlock efficiency, innovation, and growth through tailored AI strategies and intelligent automation. Get Started What we do Web Development We of"
+        },
+        {
+          "url": "https://asapdevelopers.com/",
+          "snippet": "ncy, innovation, and growth through tailored AI strategies and intelligent automation. Get Started What we do Web Development We offer full-stack development focused on responsive design. Stand out in the digital world with a stunning, mobile-friendly website tailored to you"
+        },
+        {
+          "url": "https://asapdevelopers.com/about-us/",
+          "snippet": "About us - asap developers Hit enter to search or ESC to close Work Services Contact Software engineers you can trust Our mission is to make our clients’ ideas a reality by pa"
+        },
+        {
+          "url": "https://asapdevelopers.com/about-us/",
+          "snippet": "About us - asap developers Hit enter to search or ESC to close Work Services Contact Software engineers you can trust Our mission is to make our clients’ ideas a reality by passionately building innovative quality products. COMMITMENT DEDICATI"
+        },
+        {
+          "url": "https://asapdevelopers.com/about-us/",
+          "snippet": "About us - asap developers Hit enter to search or ESC to close Work Services Contact Software engineers you can trust Our mission is to make our clients’ ideas a reality by passionately building innovative quality products. COMMITMENT DEDICATION TEAM O"
+        },
+        {
+          "url": "https://asapdevelopers.com/about-us/",
+          "snippet": "ND DETERMINATION STRONG RELATIONSHIPS Bringing your ideas to life asap has been offering agile web and mobile application development services for San Francisco Bay Area companies since 2008. With a team of almost 20 hard-working members, we&#8217;re big enough to tackle almost any "
+        },
+        {
+          "url": "https://asapdevelopers.com/contact/",
+          "snippet": "asap developers | Contact Us | San Francisco Company Hit enter to search or ESC to close Work Services Contact Let&#8217;s work together Need help with rapid protot"
+        },
+        {
+          "url": "https://asapdevelopers.com/contact/",
+          "snippet": "St, 14th floor, San Francisco, CA 94105 415 967 3920 Montevideo 18 de Julio 1117 Apt. 601 +598 2408 1699 asap developers office locations San Francisco 535 Mission St, 14th floor San Francisco, CA 94105 (+1)415 967 3920 Montevideo, Uruguay 18 de Julio 1117, Apt. 601 (+"
+        },
+        {
+          "url": "https://asapdevelopers.com/contact/",
+          "snippet": "loor San Francisco, CA 94105 (+1)415 967 3920 Montevideo, Uruguay 18 de Julio 1117, Apt. 601 (+598) 2903 8419 Software development company React Native Development Company &#8211; App Development Services Python Development Company &#8211; Web and Mobile App Developme"
+        },
+        {
+          "url": "https://asapdevelopers.com/contact/",
+          "snippet": "ompany &#8211; App Development Services Python Development Company &#8211; Web and Mobile App Development App Developers Los Angeles Mobile App Development Company React Native Development Company Cross-Platform App Development Python Development Company Web and Mobile"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Pyspring",
+      "website": "http://www.pyspring.com/",
+      "domain": "www.pyspring.com",
+      "profileUrl": "https://www.sortlist.com/agency/pyspring",
+      "directoryLocation": "Montevideo, Uruguay",
+      "queryLane": "Sortlist software development directory — Uruguay",
+      "sourceUrl": "https://www.sortlist.com/s/software-development/uruguay-uy",
+      "officialSiteStatus": "fetch failed",
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Publicis Groupe",
+      "website": "https://www.publicisgroupe.com/fr/splash",
+      "careersUrl": "https://careers.publicisgroupe.com/jobs/180186?lang=en-US",
+      "sourceJobUrl": "https://careers.publicisgroupe.com/jobs/180186?lang=en-US",
+      "jobTitle": "Senior DevOps Engineer",
+      "jobLocation": "San Jose, Costa Rica",
+      "queryLane": "Official Costa Rica employer job pages — software/engineering roles",
+      "sourceUrl": "https://careers.publicisgroupe.com/jobs/180186?lang=en-US",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.publicisgroupe.com/fr/splash",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://careers.publicisgroupe.com/jobs/180186?lang=en-US",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://careers.publicisgroupe.com/jobs/180186?lang=en-US",
+          "snippet": "Senior DevOps Engineer in San Jose, Costa Rica | Publicis Groupe Holdings B.V tag of every page in order to be established before any other subsequent calls or data added to the object and arrays "
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://careers.publicisgroupe.com/jobs/180186?lang=en-US",
+          "snippet": "Senior DevOps Engineer in San Jose, Costa Rica | Publicis Groupe Holdings B.V tag of every page in order to be established before any other subsequent calls or data added t"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "COGNOSYS",
+      "website": "https://www.cognosys.com.bo/",
+      "queryLane": "GoodFirms Costa Rica software development directory",
+      "sourceUrl": "https://www.goodfirms.co/directory/country/top-software-development-companies/costa-rica",
+      "officialSiteStatus": "fetch failed",
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "WAM Digital",
+      "website": "https://wamdigital.com/",
+      "queryLane": "GoodFirms Costa Rica software development directory",
+      "sourceUrl": "https://www.goodfirms.co/directory/country/top-software-development-companies/costa-rica",
+      "careersUrl": "https://wamdigital.com/careers",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://wamdigital.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://wamdigital.com/careers",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://wamdigital.com/about-us",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://wamdigital.com/contact",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica",
+        "LATAM"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://wamdigital.com/",
+          "snippet": "Creative & Digital Production Agency in Costa Rica | WAM Digital About Us Services Work Blog Careers Contact Us Home About Us Services Work Blog Careers Contact Us We design and build products experie"
+        },
+        {
+          "url": "https://wamdigital.com/",
+          "snippet": ", and web development, so you can stay focused on your business while we handle everything, hassle-free. From Costa Rica to the world. Our values and vision are deeply inspired by Pura Vida and a commitment to a greener future , reflecting our roots in Costa Rica. As a "
+        },
+        {
+          "url": "https://wamdigital.com/",
+          "snippet": "es and vision are deeply inspired by Pura Vida and a commitment to a greener future , reflecting our roots in Costa Rica. As a bridge for regional talent and production, we promote sustainability through clean resources and eco-conscious innovation . 0 k ad units built "
+        },
+        {
+          "url": "https://wamdigital.com/",
+          "snippet": "ar. 0 % of them built with clean energy . Colombia WAM Office Brazil WAM Office Denmark Our clients locations Costa Rica WAM’s Headquarters Boston Our clients locations Phoenix Our clients locations New York Our clients locations London Our clients locations Argentina W"
+        },
+        {
+          "url": "https://wamdigital.com/",
+          "snippet": " high-quality digital solutions powered by 98.9% clean energy, minimizing environmental impact and leveraging Costa Rica’s renewable infrastructure. Flexibility & Diversification We design tailored work models for each company, ensuring unique, scalable solutions that p"
+        },
+        {
+          "url": "https://wamdigital.com/",
+          "snippet": "t shape visibility in modern search engines and AI-driven discovery. February 24, 2026 The Strategic Depth of Costa Rican Production: Why the Nearshore Advantage Goes Beyond the Clock Costa Rica’s nearshore advantage goes beyond time zone alignment. Discover how educati"
+        },
+        {
+          "url": "https://wamdigital.com/",
+          "snippet": "ary 24, 2026 The Strategic Depth of Costa Rican Production: Why the Nearshore Advantage Goes Beyond the Clock Costa Rica’s nearshore advantage goes beyond time zone alignment. Discover how education, cultural fluency, sustainability, and long-term stability enable scala"
+        },
+        {
+          "url": "https://wamdigital.com/",
+          "snippet": "ntact FAQs Contact Info US +1 (267) 882 2489 contact@wamdigital.com Careers Join our team! Explore careers CR Costa Rica COL Colombia BR Brazil ARG Argentina © 2026 WAM Digital. All Rights Reserved."
+        },
+        {
+          "url": "https://wamdigital.com/careers",
+          "snippet": "Careers at WAM Digital | Join Our Creative & Technology Agency in Costa Rica About Us Services Work Blog Careers Contact Us Home About Us Services Work Blog Careers Contact Us Your skills can take you to the next level . We’re"
+        },
+        {
+          "url": "https://wamdigital.com/careers",
+          "snippet": "We are seeking a highly skilled Image Retoucher to join our creative production team. Apply Now Our Locations Costa Rica’s Central Time Zone is ideal when real-time collaboration is a must. Costa Rica WAM’s Headquarters Colombia WAM Office Brazil WAM Office Argentina WA"
+        },
+        {
+          "url": "https://wamdigital.com/careers",
+          "snippet": "team. Apply Now Our Locations Costa Rica’s Central Time Zone is ideal when real-time collaboration is a must. Costa Rica WAM’s Headquarters Colombia WAM Office Brazil WAM Office Argentina WAM Office 01 Costa Rica 02 Colombia 03 Brazil 04 Argentina Let&#x27;s create desi"
+        },
+        {
+          "url": "https://wamdigital.com/careers",
+          "snippet": "ration is a must. Costa Rica WAM’s Headquarters Colombia WAM Office Brazil WAM Office Argentina WAM Office 01 Costa Rica 02 Colombia 03 Brazil 04 Argentina Let&#x27;s create design collaborate innovate develop build together. About Us Services Cases Blog Contact FAQs Co"
+        },
+        {
+          "url": "https://wamdigital.com/careers",
+          "snippet": "ntact FAQs Contact Info US +1 (267) 882 2489 contact@wamdigital.com Careers Join our team! Explore careers CR Costa Rica COL Colombia BR Brazil ARG Argentina © 2026 WAM Digital. All Rights Reserved."
+        },
+        {
+          "url": "https://wamdigital.com/about-us",
+          "snippet": "About WAM Digital | Digital Production, Creative & Technology Agency in Costa Rica About Us Services Work Blog Careers Contact Us Home About Us Services Work Blog Careers Contact Us About Us. WAM Digital is a creative and technology"
+        },
+        {
+          "url": "https://wamdigital.com/about-us",
+          "snippet": "About Us Services Work Blog Careers Contact Us About Us. WAM Digital is a creative and technology agency from Costa Rica, powered by global talent. We build digital experiences through design, animation, and web development. 0 + Projects 0 + Brands 0 + Awards Why choose"
+        },
+        {
+          "url": "https://wamdigital.com/about-us",
+          "snippet": "ng to make an impact, innovate, or scale? We have the creative and technological expertise to make it happen. LATAM’s Certified Talent. We have an international multidisciplinary team of experts in design, development, animation, media, and more, ready to adapt to "
+        },
+        {
+          "url": "https://wamdigital.com/about-us",
+          "snippet": " high-quality digital solutions powered by 98.9% clean energy, minimizing environmental impact and leveraging Costa Rica’s renewable infrastructure. Flexibility & Diversification We design tailored work models for each company, ensuring unique, scalable solutions that p"
+        },
+        {
+          "url": "https://wamdigital.com/about-us",
+          "snippet": "ntact FAQs Contact Info US +1 (267) 882 2489 contact@wamdigital.com Careers Join our team! Explore careers CR Costa Rica COL Colombia BR Brazil ARG Argentina © 2026 WAM Digital. All Rights Reserved."
+        },
+        {
+          "url": "https://wamdigital.com/contact",
+          "snippet": "Contact WAM Digital | Creative & Technology Agency in Costa Rica About Us Services Work Blog Careers Contact Us Home About Us Services Work Blog Careers Contact Us Consider us an extension of your team and let’s be"
+        },
+        {
+          "url": "https://wamdigital.com/contact",
+          "snippet": "th our studio today. Write, call, or simply stop by our office. There should always be a good excuse to visit Costa Rica. US +1 (267) 882 2489 contact@wamdigital.com Fill The Form Contact Us Full Name Email Address Phone Number Where did you learn about us? Subject Your"
+        },
+        {
+          "url": "https://wamdigital.com/contact",
+          "snippet": "ntact FAQs Contact Info US +1 (267) 882 2489 contact@wamdigital.com Careers Join our team! Explore careers CR Costa Rica COL Colombia BR Brazil ARG Argentina © 2026 WAM Digital. All Rights Reserved."
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://wamdigital.com/",
+          "snippet": "we combine proven skills and official certifications to deliver seamless digital production, advertising, and web development, so you can stay focused on your business while we handle everything, hassle-free. From Costa Rica to the world. Our values and vision are deeply ins"
+        },
+        {
+          "url": "https://wamdigital.com/careers",
+          "snippet": "eers Contact Us Your skills can take you to the next level . We’re a diverse group of designers, strategists, engineers, and wordsmiths creating things people love to use. We help the world’s most progressive brands solve problems, seize opportunities, and generate gr"
+        },
+        {
+          "url": "https://wamdigital.com/careers",
+          "snippet": "r innovation-driven people ready to make an impact. See more We’re a diverse group of designers, strategists, engineers, and wordsmiths creating things people love to use. We help the world’s most progressive brands solve problems, seize opportunities, and generate gr"
+        },
+        {
+          "url": "https://wamdigital.com/about-us",
+          "snippet": "agency from Costa Rica, powered by global talent. We build digital experiences through design, animation, and web development. 0 + Projects 0 + Brands 0 + Awards Why choose WAM? From web design, animation, and digital production to interactive banners, QA, and staff augmenta"
+        },
+        {
+          "url": "https://wamdigital.com/about-us",
+          "snippet": "deas into motion — creating engaging 2D, 3D, and motion graphics that bring brands and stories to life across digital platforms. See More Web Design & Dev We design and develop responsive, user-focused websites that combine creativity and technology to deliver seamless digita"
+        },
+        {
+          "url": "https://wamdigital.com/about-us",
+          "snippet": "deas into motion — creating engaging 2D, 3D, and motion graphics that bring brands and stories to life across digital platforms. See More Web Design and Development We design and develop responsive, user-focused websites that combine creativity and technology to deliver seaml"
+        },
+        {
+          "url": "https://wamdigital.com/contact",
+          "snippet": "deas into motion — creating engaging 2D, 3D, and motion graphics that bring brands and stories to life across digital platforms. See More Web Design & Dev We design and develop responsive, user-focused websites that combine creativity and technology to deliver seamless digita"
+        },
+        {
+          "url": "https://wamdigital.com/contact",
+          "snippet": "deas into motion — creating engaging 2D, 3D, and motion graphics that bring brands and stories to life across digital platforms. See More Web Design and Development We design and develop responsive, user-focused websites that combine creativity and technology to deliver seaml"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "ReinSystems",
+      "website": "https://reinsystems.com/",
+      "queryLane": "GoodFirms Costa Rica software development directory",
+      "sourceUrl": "https://www.goodfirms.co/directory/country/top-software-development-companies/costa-rica",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://reinsystems.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://reinsystems.com/",
+          "snippet": "1/0dJjtnKHcb/RuNezrRBy7EPTyT2lXeY0D3vuigfmy2UYtNC+rPI+1t/Knj/NEe1bfx/a3xuL+d9YfalqWq5d9cqF3epaetimc5i2+thUTMzRsAASD+OLsIiLubJgrw4D88jnqNqDebDIkLmBbg/UsP++kjcYckHLpywVQfWQslyiIwP60N4EP6dw6cJOcHfwUSd+78sf4zMdEFIPfYtK/xrFHc8iOwQeRFQM0xQoCOLrxTNT3zXhnhwmwKXTs0TJoW0Wwb"
+        },
+        {
+          "url": "https://reinsystems.com/",
+          "snippet": "YytDy4nLn2y6vHiEyeZH25gsK9+i2AQTeHVkrZQ+9nxSnWIAt05+OkTmNejens1x4cQyr/qD5Kt1nOhsvh2aZE4B7G2AZmlwIDkWDm8a81AHGlsAAS+ncvw6FEARQFtPQz7wIxCUsvGTMrZ4Obsv2ZHRzzm7/1oYc65aTlC05iDG9FwXdgOILvApRozkW8L1P2eXIOuWl5O9fL63Tr1Tc07PtpsXfNh4aVuXCtyjalgitfCJLrhlud8a7h6+iC20WZ5tHJBK"
+        },
+        {
+          "url": "https://reinsystems.com/",
+          "snippet": "QRMo6vv03wG3gXCfhiuu87asCDxncIqfMCzSALiMt0/lhfS7OItsVzmLE+yNNWYa6pLLkDE1e/7ZyuVCY457QD8Eg5Bwu4GUFhn2ihALauf/3MSaasJ+Q4qSXRGxXdItIue3YTxPqWNN/W3ZpLHgFDOEvOHYTO4+4dKcl8CzOgNKkFErR54jpnyFpsguc3b0vH02+SEpwm7cDFtaJd4dtdeD8AD6CrvXw6SLS6k10EK/sXvCtErbOW14hWQh4d0ZXEtuQw8m"
+        },
+        {
+          "url": "https://reinsystems.com/",
+          "snippet": "6WNOCyFTHXDUN2vKL5fzB7M8FdRqokiuQ33wXpi5E6ZgEGNVmuDoDrbEMgNlnA0x+FptOjC2nbs/T1o0pDy9xthMGJ2Iqq4EjUfN3287WvyDRuSAasVxwU0rbxe1raZKQ7gx8dxLvrG22bOrG8+vBOC9myNF3T9i8u7kcj8poIMKkt/MTTJhB5fSQ4mrU6BLUImzFU+Y/e1wdKjeU0U1iwX5k6uLbSIWl3VnJUAXNkRKJMKS2QMsjG0kE2ZnCTXfY1bQN8lV"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Speend",
+      "website": "https://speend.io/",
+      "queryLane": "GoodFirms Costa Rica software development directory",
+      "sourceUrl": "https://www.goodfirms.co/directory/country/top-software-development-companies/costa-rica",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://speend.io/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://speend.io/contacts/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "LATAM"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://speend.io/",
+          "snippet": " provider delivering white-label brokerage infrastructure (prime-of-prime, MT5 bridge) to brokers across CIS, LATAM and Europe. Read more iGaming platform provider iGaming A B2B iGaming platform provider supplying turnkey solutions to operators across the world. Re"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://speend.io/",
+          "snippet": "t platforms Instant deposits, no chargebacks VPN, proxy and privacy services Payments without card dependency SaaS, AI and web services Flexible subscriptions and recurring payments Startups and freelancers Start working instantly Sign up Fees No hidden fees. The "
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Softon Digital",
+      "website": "https://www.softonitg.com/",
+      "queryLane": "GoodFirms Costa Rica software development directory",
+      "sourceUrl": "https://www.goodfirms.co/directory/country/top-software-development-companies/costa-rica",
+      "officialSiteStatus": "fetch failed",
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Elva AI",
+      "website": "https://elvaai.com/",
+      "queryLane": "GoodFirms Costa Rica software development directory",
+      "sourceUrl": "https://www.goodfirms.co/directory/country/top-software-development-companies/costa-rica",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://elvaai.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [],
+      "likelyFit": false,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    }
+  ]
+}

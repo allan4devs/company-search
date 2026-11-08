@@ -1,0 +1,271 @@
+[
+  {
+    "name": "SimSpace",
+    "website": "https://simspace.com/",
+    "careersUrl": "https://jobs.ashbyhq.com/simspace-corporation",
+    "locations": ["Costa Rica"],
+    "model": "direct",
+    "tracks": ["Software Engineering", "Full Stack", "Cybersecurity"],
+    "queryLane": "Official Ashby Costa Rica engineering postings",
+    "jobs": [
+      {
+        "id": "simspace-f174dcb1-6766-4620-a182-c81c848e4fdd",
+        "title": "Software Engineer, Fullstack",
+        "location": "Remote - Costa Rica",
+        "url": "https://jobs.ashbyhq.com/simspace-corporation/f174dcb1-6766-4620-a182-c81c848e4fdd",
+        "workMode": "Remote",
+        "eligibility": "The employer's Ashby listing specifies Remote - Costa Rica.",
+        "listingStatus": "Listed on the employer's Ashby board when checked",
+        "checkedOn": "2026-11-06",
+        "technologies": ["TypeScript", "React", "Kotlin", "Spring Boot"],
+        "roles": ["Software Engineering", "Full Stack"]
+      }
+    ],
+    "sourceEvidence": [
+      { "kind": "official-site", "url": "https://simspace.com/", "checkedOn": "2026-11-06" },
+      { "kind": "careers-page", "url": "https://jobs.ashbyhq.com/simspace-corporation", "checkedOn": "2026-11-06" },
+      { "kind": "job-posting", "url": "https://jobs.ashbyhq.com/simspace-corporation/f174dcb1-6766-4620-a182-c81c848e4fdd", "checkedOn": "2026-11-06" }
+    ],
+    "fit": { "status": "strong", "reasons": ["A current full-stack software engineering posting explicitly allows remote work from Costa Rica."], "profileVersion": "v1", "evaluatedOn": "2026-11-06" }
+  },
+  {
+    "name": "Excel Nearshore",
+    "website": "https://excelnearshore.com/",
+    "careersUrl": "https://excelnearshore.com/careers/",
+    "locations": ["Costa Rica"],
+    "model": "outsourcing",
+    "tracks": ["Software Engineering", "Full Stack", "Nearshore"],
+    "queryLane": "Costa Rica nearshore employer career pages",
+    "jobs": [
+      {
+        "id": "excel-nearshore-full-stack-developer-2026-11",
+        "title": "Full-Stack Developer",
+        "location": "Remote work from: México / Costa Rica",
+        "url": "https://excelnearshore.com/job/full-stack-developer/",
+        "workMode": "Remote",
+        "eligibility": "The employer's posting lists remote work from Mexico or Costa Rica.",
+        "listingStatus": "Listed on the employer's careers page when checked",
+        "checkedOn": "2026-11-06",
+        "technologies": ["PHP", "Node.js", "PostgreSQL", "JavaScript"],
+        "roles": ["Software Engineering", "Full Stack"]
+      }
+    ],
+    "sourceEvidence": [
+      { "kind": "official-site", "url": "https://excelnearshore.com/", "checkedOn": "2026-11-06" },
+      { "kind": "careers-page", "url": "https://excelnearshore.com/careers/", "checkedOn": "2026-11-06" },
+      { "kind": "job-posting", "url": "https://excelnearshore.com/job/full-stack-developer/", "checkedOn": "2026-11-06" }
+    ],
+    "fit": { "status": "strong", "reasons": ["The employer's active full-stack posting explicitly accepts candidates working remotely from Costa Rica."], "profileVersion": "v1", "evaluatedOn": "2026-11-06" }
+  },
+  {
+    "name": "Neverfail",
+    "website": "https://neverfail.com/",
+    "careersUrl": "https://neverfail.com/careers/",
+    "locations": ["San Jose, Costa Rica"],
+    "model": "direct",
+    "tracks": ["Software Engineering", "DevOps", "Cybersecurity"],
+    "queryLane": "Costa Rica employer career pages",
+    "jobs": [
+      {
+        "id": "neverfail-devsecops-engineer-cr",
+        "title": "DevSecOps Engineer",
+        "location": "San Jose, Costa Rica",
+        "url": "https://neverfail.com/careers/devsecops-engineer/",
+        "workMode": "Remote",
+        "eligibility": "The employer's careers page lists San Jose, Costa Rica and Remote: Yes.",
+        "listingStatus": "Listed on the employer's careers page when checked",
+        "checkedOn": "2026-11-06",
+        "roles": ["DevOps", "Security Engineering"]
+      }
+    ],
+    "sourceEvidence": [
+      { "kind": "official-site", "url": "https://neverfail.com/", "checkedOn": "2026-11-06" },
+      { "kind": "careers-page", "url": "https://neverfail.com/careers/", "checkedOn": "2026-11-06" },
+      { "kind": "job-posting", "url": "https://neverfail.com/careers/devsecops-engineer/", "checkedOn": "2026-11-06" }
+    ],
+    "fit": { "status": "strong", "reasons": ["The employer lists current DevSecOps, developer, and DevOps roles in San Jose, Costa Rica."], "profileVersion": "v1", "evaluatedOn": "2026-11-06" }
+  },
+  {
+    "name": "Empyra",
+    "website": "https://www.empyra.com/",
+    "careersUrl": "https://www.empyra.com/careers",
+    "locations": ["Costa Rica"],
+    "model": "unknown",
+    "tracks": ["Software Engineering", "Full Stack", "JavaScript", "React", "Node.js"],
+    "queryLane": "Costa Rica employer career pages",
+    "jobs": [],
+    "sourceEvidence": [
+      { "kind": "official-site", "url": "https://www.empyra.com/", "checkedOn": "2026-11-06" },
+      { "kind": "careers-page", "url": "https://www.empyra.com/careers", "checkedOn": "2026-11-06" }
+    ],
+    "fit": { "status": "possible", "reasons": ["The official careers page lists Costa Rica Software Developer openings and names JavaScript, React, Node.js, and REST APIs; an individual posting URL is not provided."], "profileVersion": "v1", "evaluatedOn": "2026-11-06" }
+  },
+  {
+    "name": "First Factory",
+    "website": "https://firstfactory.com/",
+    "careersUrl": "https://jobs.firstfactory.com/",
+    "locations": ["Costa Rica", "LATAM"],
+    "model": "outsourcing",
+    "tracks": ["Software Engineering", "Java", "React", "Nearshore"],
+    "queryLane": "Costa Rica nearshore employer career pages",
+    "jobs": [
+      {
+        "id": "firstfactory-652478",
+        "title": "Senior Software Engineer (Java & React)",
+        "location": "Heredia, Costa Rica (hybrid)",
+        "url": "https://jobs.firstfactory.com/jobs/652478-senior-software-engineer-java-react",
+        "workMode": "Hybrid",
+        "eligibility": "The employer's Teamtailor board lists Heredia and Hybrid.",
+        "listingStatus": "Listed on the employer's Teamtailor board when checked",
+        "checkedOn": "2026-11-06",
+        "technologies": ["Java", "React"],
+        "roles": ["Software Engineering"]
+      }
+    ],
+    "sourceEvidence": [
+      { "kind": "official-site", "url": "https://firstfactory.com/about", "checkedOn": "2026-11-06" },
+      { "kind": "careers-page", "url": "https://jobs.firstfactory.com/", "checkedOn": "2026-11-06" },
+      { "kind": "job-posting", "url": "https://jobs.firstfactory.com/jobs/652478-senior-software-engineer-java-react", "checkedOn": "2026-11-06" }
+    ],
+    "fit": { "status": "strong", "reasons": ["The employer's current Costa Rica and LATAM nearshore team has a Java and React software engineering opening in Heredia."], "profileVersion": "v1", "evaluatedOn": "2026-11-06" }
+  },
+  {
+    "name": "GFT Technologies",
+    "website": "https://www.gft.com/",
+    "careersUrl": "https://jobs.gft.com/Costarica/go/costa-rica/4412301/",
+    "locations": ["Heredia, Costa Rica"],
+    "model": "outsourcing",
+    "tracks": ["Software Engineering", "DevOps", "AI Engineering"],
+    "queryLane": "Official Costa Rica ATS postings",
+    "jobs": [
+      {
+        "id": "gft-1450443833",
+        "title": "Software Engineer Expert",
+        "location": "Heredia, Costa Rica",
+        "url": "https://jobs.gft.com/Costarica/job/Heredia-Software-Engineer-Expert-40101/1450443833/",
+        "workMode": "Remote",
+        "eligibility": "The employer's Costa Rica job board lists this role in Heredia and marks it Remote.",
+        "listingStatus": "Listed on the employer's ATS when checked",
+        "checkedOn": "2026-11-06",
+        "roles": ["Software Engineering"]
+      }
+    ],
+    "sourceEvidence": [
+      { "kind": "official-site", "url": "https://www.gft.com/", "checkedOn": "2026-11-06" },
+      { "kind": "careers-page", "url": "https://jobs.gft.com/Costarica/go/costa-rica/4412301/", "checkedOn": "2026-11-06" },
+      { "kind": "job-posting", "url": "https://jobs.gft.com/Costarica/job/Heredia-Software-Engineer-Expert-40101/1450443833/", "checkedOn": "2026-11-06" }
+    ],
+    "fit": { "status": "strong", "reasons": ["The official Costa Rica ATS lists software engineering roles in Heredia, including a remote role."], "profileVersion": "v1", "evaluatedOn": "2026-11-06" }
+  },
+  {
+    "name": "Moody's",
+    "website": "https://www.moodys.com/",
+    "careersUrl": "https://careers.moodys.com/en/location/costa-rica-jobs/49841/3624060/2/2",
+    "locations": ["Heredia, Costa Rica"],
+    "model": "direct",
+    "tracks": ["Software Engineering", "Data Engineering", "AI Engineering"],
+    "queryLane": "Official Costa Rica ATS postings",
+    "jobs": [
+      {
+        "id": "moodys-101929017648",
+        "title": "Software Engineer",
+        "location": "Heredia, Costa Rica",
+        "url": "https://careers.moodys.com/en/job/heredia/software-engineer/49841/101929017648",
+        "workMode": "Not stated",
+        "eligibility": "The employer's careers posting lists Heredia, Costa Rica.",
+        "listingStatus": "Listed on the employer's careers site when checked",
+        "checkedOn": "2026-11-06",
+        "technologies": ["Python", "React", "JavaScript", "TypeScript"],
+        "roles": ["Software Engineering", "Workflow Engineering"]
+      }
+    ],
+    "sourceEvidence": [
+      { "kind": "official-site", "url": "https://www.moodys.com/", "checkedOn": "2026-11-06" },
+      { "kind": "careers-page", "url": "https://careers.moodys.com/en/location/costa-rica-jobs/49841/3624060/2/2", "checkedOn": "2026-11-06" },
+      { "kind": "job-posting", "url": "https://careers.moodys.com/en/job/heredia/software-engineer/49841/101929017648", "checkedOn": "2026-11-06" }
+    ],
+    "fit": { "status": "strong", "reasons": ["The employer has multiple software engineering roles listed in Heredia, Costa Rica."], "profileVersion": "v1", "evaluatedOn": "2026-11-06" }
+  },
+  {
+    "name": "Wipro",
+    "website": "https://www.wipro.com/",
+    "careersUrl": "https://careers.wipro.com/",
+    "locations": ["Costa Rica"],
+    "model": "outsourcing",
+    "tracks": ["Software Engineering", "Full Stack", "Data Engineering"],
+    "queryLane": "Official Costa Rica ATS postings",
+    "jobs": [
+      {
+        "id": "wipro-210117",
+        "title": "Fullstack Developer (CR)",
+        "location": "Costa Rica",
+        "url": "https://careers.wipro.com/job/Costa-Rica-Fullstack-Developer-(CR)-CRI/210117-en_US/",
+        "eligibility": "The employer's careers posting is for a Software Engineer based in Costa Rica.",
+        "listingStatus": "Listed on the employer's careers site when checked",
+        "checkedOn": "2026-11-06",
+        "technologies": ["React", "TypeScript", "Python", "Node.js"],
+        "roles": ["Software Engineering", "Full Stack"]
+      }
+    ],
+    "sourceEvidence": [
+      { "kind": "official-site", "url": "https://www.wipro.com/", "checkedOn": "2026-11-06" },
+      { "kind": "careers-page", "url": "https://careers.wipro.com/", "checkedOn": "2026-11-06" },
+      { "kind": "job-posting", "url": "https://careers.wipro.com/job/Costa-Rica-Fullstack-Developer-(CR)-CRI/210117-en_US/", "checkedOn": "2026-11-06" }
+    ],
+    "fit": { "status": "strong", "reasons": ["The employer lists a full-stack software engineering role based in Costa Rica."], "profileVersion": "v1", "evaluatedOn": "2026-11-06" }
+  },
+  {
+    "name": "Cargill",
+    "website": "https://www.cargill.com/",
+    "careersUrl": "https://careers.cargill.com/",
+    "locations": ["Heredia, Costa Rica"],
+    "model": "direct",
+    "tracks": ["Software Engineering", "Digital Technology"],
+    "queryLane": "Official Costa Rica ATS postings",
+    "jobs": [
+      {
+        "id": "cargill-333011",
+        "title": "Software Engineer - Food",
+        "location": "Heredia, Costa Rica",
+        "url": "https://careers.cargill.com/en/job/heredia/software-engineer-food/23251/100320539904",
+        "eligibility": "The employer's careers posting lists Heredia, Costa Rica.",
+        "listingStatus": "Listed on the employer's careers site when checked",
+        "checkedOn": "2026-11-06",
+        "roles": ["Software Engineering"]
+      }
+    ],
+    "sourceEvidence": [
+      { "kind": "official-site", "url": "https://www.cargill.com/", "checkedOn": "2026-11-06" },
+      { "kind": "careers-page", "url": "https://careers.cargill.com/", "checkedOn": "2026-11-06" },
+      { "kind": "job-posting", "url": "https://careers.cargill.com/en/job/heredia/software-engineer-food/23251/100320539904", "checkedOn": "2026-11-06" }
+    ],
+    "fit": { "status": "strong", "reasons": ["The employer lists a software engineering role based in Heredia, Costa Rica."], "profileVersion": "v1", "evaluatedOn": "2026-11-06" }
+  },
+  {
+    "name": "Hangar Worldwide",
+    "website": "https://www.hangarworldwide.com/",
+    "careersUrl": "https://hangar.bamboohr.com/careers",
+    "locations": ["Costa Rica (Heredia)"],
+    "model": "outsourcing",
+    "tracks": ["Software Engineering", "Data Engineering", "Web Development"],
+    "queryLane": "Official BambooHR engineering postings",
+    "jobs": [
+      {
+        "id": "hangar-bamboohr-1185",
+        "title": "Data Engineer",
+        "location": "Costa Rica, Heredia",
+        "url": "https://hangar.bamboohr.com/careers/1185",
+        "eligibility": "The employer's public BambooHR careers feed lists Costa Rica, Heredia as the location.",
+        "listingStatus": "Listed in the employer's BambooHR feed when checked",
+        "checkedOn": "2026-11-06",
+        "roles": ["Data Engineering"]
+      }
+    ],
+    "sourceEvidence": [
+      { "kind": "official-site", "url": "https://www.hangarworldwide.com/", "checkedOn": "2026-11-06" },
+      { "kind": "careers-page", "url": "https://hangar.bamboohr.com/careers", "checkedOn": "2026-11-06" },
+      { "kind": "job-posting", "url": "https://hangar.bamboohr.com/careers/1185", "checkedOn": "2026-11-06" }
+    ],
+    "fit": { "status": "strong", "reasons": ["The official site offers software and data engineering services, and the employer's ATS feed lists an engineering role in Costa Rica."], "profileVersion": "v1", "evaluatedOn": "2026-11-06" }
+  }
+]

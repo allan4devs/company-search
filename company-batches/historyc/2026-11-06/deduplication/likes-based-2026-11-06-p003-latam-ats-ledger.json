@@ -1,0 +1,175 @@
+{
+  "cohortId": "likes-based-2026-11-06-p003",
+  "checkedOn": "2026-11-06",
+  "inputCount": 8,
+  "uniqueCount": 0,
+  "outputCount": 0,
+  "duplicateCount": 8,
+  "missingIdentityCount": 0,
+  "catalog": {
+    "source": "MongoDB + bundled files + prior batches",
+    "mongoCompanies": 1220,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 121,
+    "indexedNames": 1237,
+    "indexedDomains": 1182
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 63,
+    "topTracks": [
+      {
+        "track": "Engineering",
+        "count": 36
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Software Engineering",
+        "count": 3
+      },
+      {
+        "track": "Node.js",
+        "count": 2
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        46
+      ],
+      [
+        "direct",
+        16
+      ],
+      [
+        "unknown",
+        1
+      ]
+    ]
+  },
+  "queryLanes": [
+    {
+      "lane": "Official LATAM ATS engineering roles",
+      "leads": 8,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    }
+  ],
+  "entries": [
+    {
+      "company": "Reacher",
+      "domain": "reacherapp.com",
+      "queryLane": "Official LATAM ATS engineering roles",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Reacher",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.reacherapp.com/"
+    },
+    {
+      "company": "Wagmo",
+      "domain": "wagmo.io",
+      "queryLane": "Official LATAM ATS engineering roles",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Wagmo",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://wagmo.io/"
+    },
+    {
+      "company": "Empirical",
+      "domain": "goempirical.com",
+      "queryLane": "Official LATAM ATS engineering roles",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Empirical",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.goempirical.com/"
+    },
+    {
+      "company": "NetBox Labs",
+      "domain": "netboxlabs.com",
+      "queryLane": "Official LATAM ATS engineering roles",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "NetBox Labs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://netboxlabs.com/"
+    },
+    {
+      "company": "Singular",
+      "domain": "singular.net",
+      "queryLane": "Official LATAM ATS engineering roles",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Singular",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.singular.net/"
+    },
+    {
+      "company": "Siena AI",
+      "domain": "siena.cx",
+      "queryLane": "Official LATAM ATS engineering roles",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Siena AI",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.siena.cx/"
+    },
+    {
+      "company": "G2i",
+      "domain": "g2i.co",
+      "queryLane": "Official LATAM ATS engineering roles",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "G2i",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://g2i.co/"
+    },
+    {
+      "company": "Savvy Wealth",
+      "domain": "savvywealth.com",
+      "queryLane": "Official LATAM ATS engineering roles",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Savvy Wealth",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.savvywealth.com/"
+    }
+  ]
+}

@@ -1,0 +1,2014 @@
+{
+  "cohortId": "costa-rica-2026-11-06",
+  "checkedOn": "2026-11-06",
+  "inputFiles": [
+    "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+    "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json"
+  ],
+  "inputCount": 208,
+  "uniqueCount": 190,
+  "outputCount": 190,
+  "duplicateCount": 18,
+  "missingIdentityCount": 0,
+  "catalog": {
+    "source": "MongoDB + bundled files + prior batches",
+    "mongoCompanies": 1320,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 221,
+    "indexedNames": 1527,
+    "indexedDomains": 1394
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 63,
+    "topTracks": [
+      {
+        "track": "Engineering",
+        "count": 36
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Software Engineering",
+        "count": 3
+      },
+      {
+        "track": "Node.js",
+        "count": 2
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        46
+      ],
+      [
+        "direct",
+        16
+      ],
+      [
+        "unknown",
+        1
+      ]
+    ]
+  },
+  "queryLanes": [
+    {
+      "lane": "CAMTIC Costa Rica ICT member directory",
+      "leads": 112,
+      "unique": 112,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "unspecified",
+      "leads": 96,
+      "unique": 78,
+      "duplicateRate": 0.187,
+      "recommendation": "continue or expand this lane"
+    }
+  ],
+  "entries": [
+    {
+      "company": "Addax",
+      "domain": "addaxdevelopment.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/addax/"
+    },
+    {
+      "company": "ActionCOACH Costa Rica",
+      "domain": "actioncoachiberoamerica.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/actioncoach-costa-rica/"
+    },
+    {
+      "company": "Aliant",
+      "domain": "aliantlaw.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/aliant/"
+    },
+    {
+      "company": "Análisis MBC",
+      "domain": "analisis.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/analisis-mbc/"
+    },
+    {
+      "company": "ARI Casa de Cambio Internacional S.A.",
+      "domain": "ariari.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/ari-casa-de-cambio-internacional-s-a/"
+    },
+    {
+      "company": "Asesoftware",
+      "domain": "asesoftware.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/asesoftware/"
+    },
+    {
+      "company": "ATESA",
+      "domain": "atesacr.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/atesa/"
+    },
+    {
+      "company": "Aura Interactiva",
+      "domain": "aurainteractiva.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/aura-interactiva/"
+    },
+    {
+      "company": "Avocash",
+      "domain": "avocashenlinea.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/avocash/"
+    },
+    {
+      "company": "Babel",
+      "domain": "babelgroup.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/babel/"
+    },
+    {
+      "company": "Banco Promérica",
+      "domain": "fi.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/banco-promerica/"
+    },
+    {
+      "company": "BIS",
+      "domain": "bis.co.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/business-integrators-systems/"
+    },
+    {
+      "company": "CANU ARTS",
+      "domain": "canuarts.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/canu-arts/"
+    },
+    {
+      "company": "CCA Business",
+      "domain": "ccastrategy.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/cca-business/"
+    },
+    {
+      "company": "CLC Comunicación",
+      "domain": "clccomunicacion.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/clc-comunicacion/"
+    },
+    {
+      "company": "Cloud Business Solutions",
+      "domain": "cbs.co.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/cloud-business-solutions/"
+    },
+    {
+      "company": "CResiliencia",
+      "domain": "wa.link",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/cresiliencia/"
+    },
+    {
+      "company": "CNET",
+      "domain": "cnet.co.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/cnet/"
+    },
+    {
+      "company": "COASIN",
+      "domain": "coasin.co.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/coasin/"
+    },
+    {
+      "company": "Coding Ninja",
+      "domain": "coding-ninja.net",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/coding-ninja/"
+    },
+    {
+      "company": "Componentes El Orbe",
+      "domain": "elorbe.la",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/componentes-el-orbe/"
+    },
+    {
+      "company": "Coral",
+      "domain": "coralcr.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/coral-systems/"
+    },
+    {
+      "company": "CSI Consultores",
+      "domain": "csi-cr.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/csi-consultores/"
+    },
+    {
+      "company": "Daytona Soft",
+      "domain": "daytonasoft.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/daytona-soft/"
+    },
+    {
+      "company": "Dentons",
+      "domain": "dentons.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/dentos/"
+    },
+    {
+      "company": "Detektor",
+      "domain": "detektor.co.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/detektor/"
+    },
+    {
+      "company": "Didi",
+      "domain": "didiglobal.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/didi/"
+    },
+    {
+      "company": "dLocal",
+      "domain": "dlocal.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/dlocal/"
+    },
+    {
+      "company": "EA Tech Consulting",
+      "domain": "eatechconsulting.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/eatechconsulting/"
+    },
+    {
+      "company": "Ecija",
+      "domain": "ecija.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/ecija/"
+    },
+    {
+      "company": "ECP Consulting Group",
+      "domain": "ecpconsultgroup.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/ecp-consulting-group/"
+    },
+    {
+      "company": "Elefat",
+      "domain": "elefat.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/elefat/"
+    },
+    {
+      "company": "E-motions",
+      "domain": "emotions.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/e-motions/"
+    },
+    {
+      "company": "Entrust Consultores",
+      "domain": "oratechla.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/entrust-consultores/"
+    },
+    {
+      "company": "Equifax Inc.",
+      "domain": "equifax.co.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/equifax-inc/"
+    },
+    {
+      "company": "ESICOM",
+      "domain": "esicomsa.net",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/esicom/"
+    },
+    {
+      "company": "Evicertia",
+      "domain": "evicertia.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/evicertia/"
+    },
+    {
+      "company": "EXSQ LATAM/EX Squared LATAM",
+      "domain": "exsquared.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/ex-squared-latam/"
+    },
+    {
+      "company": "FVCR Ferias Virtuales",
+      "domain": "feriasvirtualescr.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/fvcr-ferias-virtuales/"
+    },
+    {
+      "company": "Figueroa Producciones",
+      "domain": "tricolin.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/figueroa-producciones/"
+    },
+    {
+      "company": "Film Support",
+      "domain": "filmsupport.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/film-support/"
+    },
+    {
+      "company": "Fundación Omar Dengo",
+      "domain": "ac.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/fundacion-omar-dengo/"
+    },
+    {
+      "company": "Fusionet",
+      "domain": "fusionetcorp.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/fusionet/"
+    },
+    {
+      "company": "GBSYS",
+      "domain": "gbsys.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/gbsys/"
+    },
+    {
+      "company": "Global Media Group",
+      "domain": "gmgp.biz",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/global-media-group/"
+    },
+    {
+      "company": "Globalex",
+      "domain": "globalex.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/globalex/"
+    },
+    {
+      "company": "Growth Hackers",
+      "domain": "growthhacker.services",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/growth-hackers/"
+    },
+    {
+      "company": "Grupo Asesor",
+      "domain": "grupoasesor.net",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/grupo-asesor/"
+    },
+    {
+      "company": "Grupo CMA",
+      "domain": "grupocma.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/grupo-cma/"
+    },
+    {
+      "company": "Grupo Más",
+      "domain": "grupomas.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/grupo-mas/"
+    },
+    {
+      "company": "Grupo T&#038;TA",
+      "domain": "ttaca.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/grupo-tta/"
+    },
+    {
+      "company": "GSI",
+      "domain": "e-gsi.net",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/gsi/"
+    },
+    {
+      "company": "Hermes Soft",
+      "domain": "hermes-soft.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/hermes-soft/"
+    },
+    {
+      "company": "Hologic",
+      "domain": "hologic.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/hologic/"
+    },
+    {
+      "company": "Huawei Technologies",
+      "domain": "huawei.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/huawei-technologies-costa-rica-s-a/"
+    },
+    {
+      "company": "Incredible Workplaces",
+      "domain": "incredibleworkplacescostarica.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/incredible-workplaces/"
+    },
+    {
+      "company": "Incompany",
+      "domain": "incompany.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/incompany/"
+    },
+    {
+      "company": "Infoefectiva",
+      "domain": "infoefectiva.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/infoefectiva/"
+    },
+    {
+      "company": "INFOTREC",
+      "domain": "infotrec.co.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/infotrec/"
+    },
+    {
+      "company": "IMPESA",
+      "domain": "impesa.net",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/impesa/"
+    },
+    {
+      "company": "Impulsa IT Solutions",
+      "domain": "impulsait.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/impulsa-it-solutions/"
+    },
+    {
+      "company": "IT Learning Solution",
+      "domain": "flane.com.pa",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/it-learning-solution/"
+    },
+    {
+      "company": "JAFU",
+      "domain": "figueresulate.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/jafu/"
+    },
+    {
+      "company": "Kal-í CR",
+      "domain": "wa.me",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/kal-i-cr/"
+    },
+    {
+      "company": "Kínetos",
+      "domain": "kinetos.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/kinetos/"
+    },
+    {
+      "company": "Kruger Innova CR",
+      "domain": "krugercorp.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/kruger-innova-costa-rica/"
+    },
+    {
+      "company": "Legadmi",
+      "domain": "legadmi.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/legadmi/"
+    },
+    {
+      "company": "Liberty",
+      "domain": "libertycr.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/telefonica/"
+    },
+    {
+      "company": "Loymark",
+      "domain": "loymark.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/loymark/"
+    },
+    {
+      "company": "LYSTO CARD",
+      "domain": "lystocard.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/lysto-card/"
+    },
+    {
+      "company": "Masterlex",
+      "domain": "masterlex.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/masterlex/"
+    },
+    {
+      "company": "Mekanismo",
+      "domain": "audiovisualcostarica.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/mekanismo-taller-audiovisual/"
+    },
+    {
+      "company": "Modul Apps",
+      "domain": "modulappscr.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/modul-apps/"
+    },
+    {
+      "company": "Morpho Animation",
+      "domain": "morpho.tv",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/morpho-animation-studio/"
+    },
+    {
+      "company": "Movitext",
+      "domain": "movitext.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/movitext/"
+    },
+    {
+      "company": "MT MMV INTEGRADORES",
+      "domain": "mt2005.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/mt-mmv-integradores/"
+    },
+    {
+      "company": "Navasoft",
+      "domain": "navasoftsoluciones.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/navasoft/"
+    },
+    {
+      "company": "Navega Training and Consulting SRL",
+      "domain": "navegatraining.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/navega-training-and-consulting-srl/"
+    },
+    {
+      "company": "Navegalo",
+      "domain": "navegalo.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/navegalo/"
+    },
+    {
+      "company": "Neotecnologías",
+      "domain": "neotecnologias.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/neotecnologias/"
+    },
+    {
+      "company": "Next Curve",
+      "domain": "nextcurve.io",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/next-curve/"
+    },
+    {
+      "company": "Nóvaq",
+      "domain": "novaq.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/novaq/"
+    },
+    {
+      "company": "NOVUS ERP",
+      "domain": "novussoftware.la",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/novus-erp/"
+    },
+    {
+      "company": "OPTEC SISTEMAS S.A.",
+      "domain": "optecsistemas.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/optec-sistemas-s-a/"
+    },
+    {
+      "company": "Orcase",
+      "domain": "orcase.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/orcase/"
+    },
+    {
+      "company": "Parque la Libertad",
+      "domain": "parquelalibertad.org",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/parque-la-libertad/"
+    },
+    {
+      "company": "Piscium Security",
+      "domain": "piscium.net",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/piscium-security/"
+    },
+    {
+      "company": "PricewaterhouseCooper",
+      "domain": "pwc.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/pricewaterhousecooper/"
+    },
+    {
+      "company": "Producción Filmica VB",
+      "domain": "vbfps.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/produccion-filmica-vb/"
+    },
+    {
+      "company": "Progressio Digital",
+      "domain": "progressiodigital.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/progressio-digital/"
+    },
+    {
+      "company": "Prointec",
+      "domain": "prointeccr.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/prointec/"
+    },
+    {
+      "company": "Prosoft",
+      "domain": "prosoft.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/prosoft/"
+    },
+    {
+      "company": "R.A.C.S.A.",
+      "domain": "go.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/radiografica-costarricense-s-a/"
+    },
+    {
+      "company": "Reelax Media",
+      "domain": "reelaxmedia.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/reelax-media/"
+    },
+    {
+      "company": "RF Grupo Educativo Ltda",
+      "domain": "rfgrupoeducativo.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/rf-grupo-educativo-ltda/"
+    },
+    {
+      "company": "S-COM",
+      "domain": "s-com.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/s-com/"
+    },
+    {
+      "company": "Siftia",
+      "domain": "siftia.tech",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/siftia/"
+    },
+    {
+      "company": "Simplexity Consulting",
+      "domain": "simplexityla.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/simplexity-consulting/"
+    },
+    {
+      "company": "SmartSoft",
+      "domain": "smartsoftint.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/smartsoft/"
+    },
+    {
+      "company": "Solvai",
+      "domain": "it.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/solvai/"
+    },
+    {
+      "company": "Talentify",
+      "domain": "talentify.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/talentify/"
+    },
+    {
+      "company": "TecApro",
+      "domain": "tecapro.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/tecapro/"
+    },
+    {
+      "company": "Telecable",
+      "domain": "telecablecr.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/telecable/"
+    },
+    {
+      "company": "Three Rivers Software",
+      "domain": "3riverssoftware.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/three-rivers-software/"
+    },
+    {
+      "company": "Tierra de Visitantes",
+      "domain": "visitantesesperados.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/tierra-de-visitantes/"
+    },
+    {
+      "company": "Transcomer",
+      "domain": "transcomer.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/transcomer/"
+    },
+    {
+      "company": "Truesec",
+      "domain": "true-sec.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/truesec/"
+    },
+    {
+      "company": "TuanisApps SRL",
+      "domain": "tuanisapps.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/tuanisapps-srl/"
+    },
+    {
+      "company": "Vertix Solutions",
+      "domain": "vertixsolutions.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/vertix-solutions/"
+    },
+    {
+      "company": "Whizmo",
+      "domain": "whizmo.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/whizmo-2/"
+    },
+    {
+      "company": "XperSoft",
+      "domain": "xpersoft.net",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/xpersoft/"
+    },
+    {
+      "company": "Yoopy",
+      "domain": "yoopy.app",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/yoopy/"
+    },
+    {
+      "company": "TekTegrity, Inc.",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "FusionHit",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "FusionHit",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": ""
+    },
+    {
+      "company": "ITS Infocom",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Seidor Crystalis Centroamérica",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Isthmus Software",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Novacomp",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Novacomp",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": ""
+    },
+    {
+      "company": "GBM (an IBM alliance Company)",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Pernix-Solutions",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "DoubleDigit",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "TRT Lodging",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Grupo CMA",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Grupo CMA",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Intelicolab",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "CODISA Software Corp",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "3Pillar Global Costa Rica",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Cooperativa Sulá Batsú",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "ADN Datacenters",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Tecnova Soluciones",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Advision Development",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Testing Software",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "SmartSoft",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "SmartSoft",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Grupo Asesor En Informática S.A.",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Nortec Consulting",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Stereocarto",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Conzultek",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Alta Tecnología S.A.",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Continex S.A.",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Pertec Global Services",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "NAVSAT",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "BD Consultores",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Logical Data",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Geotecnologías S.A.",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "SPC Internacional",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "H&CO Latam",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "SOIN",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "SOIN",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Grupo Babel",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Fast Lane LATAM",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Consulting Group",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Corporación Font S.A.",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Datasys",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "El ORBE",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Grupo Prides",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Grupo Prides",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": ""
+    },
+    {
+      "company": "FT Technologies",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "FEDEK IT Solutions",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "ACNet Center",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Logosoft",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Outcoding",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Factor K Software",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Factor K Software",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": ""
+    },
+    {
+      "company": "SIS Technologies",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Golabs",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Golabs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Smart Metrics",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Auty",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Pertec Global Services",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Pertec Global Services",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Aurens",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Javer",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "SUMMIT TECHNOLOGIES",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "ISM Services",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "SOCIUM",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Crowd Intelligence",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Digital Information Strategy",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "DNAMIC",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Mawi",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "GBSYS",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "GBSYS",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Rivet Logic Corporation",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Quid Solutions",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "3Pillar Global Costa Rica",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "3Pillar Global Costa Rica",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Tecnova Soluciones",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Tecnova Soluciones",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Monarch Business Consulting",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Micra Consulting",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Loymark",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Loymark",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Grupo Asesor en Informática S.A.",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Grupo Asesor En Informática S.A.",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Softon Digital",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Nortec Consulting",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Nortec Consulting",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": ""
+    },
+    {
+      "company": "STEREOCARTO SL",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Conzultek",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Conzultek",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Grupo Continex S.A.",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "NAVSAT - Navegación Satelital de Costa Rica S.A.",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "ubiqs insurtech",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Centauro Solutions",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Edify Software Consulting",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Edify Software Consulting",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": ""
+    },
+    {
+      "company": "SWAT Consulting Services",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Informatech Costa Rica",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Aplicom S.A.",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Corporación ACS",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Altus - LATAM",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Ingenium Latin America",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "PC Central",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Atom Soluciones",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Industria 4.0",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "COCOCO",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "PIXDEA",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Interfaz",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Legadmi",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Legadmi",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Creek Software",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Quarzo Tecnología",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Namutek Fintech",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    },
+    {
+      "company": "Cámara de Tecnologías de Información y Comunicación",
+      "domain": null,
+      "queryLane": "unspecified",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\contactout-costa-rica-it-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": ""
+    }
+  ]
+}

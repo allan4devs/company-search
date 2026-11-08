@@ -1,0 +1,38 @@
+{
+  "cohortId": "p024-domain-resolution-10-2026-11-07",
+  "measuredOn": "2026-11-07",
+  "benchmarkType": "Domain-resolution replay of the saved p019 unresolved pool; no profile fetch, verification, or import",
+  "inputFile": "company-batches/historyc/2026-11-07/batch-runs/p024-domain-resolution-10-2026-11-07/resolver-input.json",
+  "inputCandidateCount": 113,
+  "searchBudget": 10,
+  "livePerNameSearches": 10,
+  "searchEngineRequests": 20.0,
+  "searchEngineCandidateCount": 2,
+  "wikidataCandidateCount": 6,
+  "deferredPerNameSearches": 97,
+  "allWebsiteCandidates": 8,
+  "cacheEnabled": false,
+  "timingsMs": {
+    "inputReadMs": 2,
+    "cacheReadAndMatchMs": 1,
+    "wikidataBatchMs": 770,
+    "liveSearchWallMs": 16839,
+    "cacheWriteMs": 0,
+    "outputWriteMs": 5,
+    "totalMs": 17624
+  },
+  "comparison": {
+    "p019DomainResolverMs": 73132,
+    "p024DomainResolverMs": 17624,
+    "wallTimeReductionMs": 55508,
+    "wallTimeReductionPercent": 75.9,
+    "p019AllCandidates": 13,
+    "p019WikidataCandidates": 6,
+    "p019SearchEngineCandidates": 7,
+    "p024AllCandidates": 8,
+    "p024WikidataCandidates": 6,
+    "p024SearchEngineCandidates": 2,
+    "note": "The bounded run deferred 97 of 107 candidates that had no Wikidata suggestion, so the lower time trades off search coverage; this is a timing comparison, not a quality-equivalent run."
+  },
+  "perNameSearchAggregateMs": 84187.0
+}

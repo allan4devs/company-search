@@ -1,0 +1,151 @@
+{
+  "cohortId": "likes-based-2026-11-06-p003",
+  "checkedOn": "2026-11-06",
+  "inputCount": 6,
+  "uniqueCount": 2,
+  "outputCount": 2,
+  "duplicateCount": 4,
+  "missingIdentityCount": 0,
+  "catalog": {
+    "source": "MongoDB + bundled files + prior batches",
+    "mongoCompanies": 1220,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 121,
+    "indexedNames": 1239,
+    "indexedDomains": 1182
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 63,
+    "topTracks": [
+      {
+        "track": "Engineering",
+        "count": 36
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Software Engineering",
+        "count": 3
+      },
+      {
+        "track": "Node.js",
+        "count": 2
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        46
+      ],
+      [
+        "direct",
+        16
+      ],
+      [
+        "unknown",
+        1
+      ]
+    ]
+  },
+  "queryLanes": [
+    {
+      "lane": "Official ATS Costa Rica engineering roles wave 3",
+      "leads": 6,
+      "unique": 2,
+      "duplicateRate": 0.667,
+      "recommendation": "continue or expand this lane"
+    }
+  ],
+  "entries": [
+    {
+      "company": "Panoptyc",
+      "domain": null,
+      "queryLane": "Official ATS Costa Rica engineering roles wave 3",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://jobs.ashbyhq.com/Panoptyc/972da09e-25cd-41c1-928d-3ca11f19e5fc"
+    },
+    {
+      "company": "JBS Dev",
+      "domain": null,
+      "queryLane": "Official ATS Costa Rica engineering roles wave 3",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "JBS Dev",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.ashbyhq.com/jbs-dev/47fc67e3-edf7-4b95-ab81-a10dcbea60c2"
+    },
+    {
+      "company": "Backblaze",
+      "domain": null,
+      "queryLane": "Official ATS Costa Rica engineering roles wave 3",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Backblaze",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/backblaze/jobs/5442462008"
+    },
+    {
+      "company": "Newsela",
+      "domain": null,
+      "queryLane": "Official ATS Costa Rica engineering roles wave 3",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Newsela",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/newsela/jobs/8249272"
+    },
+    {
+      "company": "Olly Olly",
+      "domain": null,
+      "queryLane": "Official ATS Costa Rica engineering roles wave 3",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://jobs.ashbyhq.com/olly-olly/ba012649-c92f-48a4-be77-b605c40d43a3"
+    },
+    {
+      "company": "TrueML",
+      "domain": null,
+      "queryLane": "Official ATS Costa Rica engineering roles wave 3",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "TrueML",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.lever.co/trueml/27b3510e-7be3-4a3f-8727-78f91fff688d"
+    }
+  ]
+}

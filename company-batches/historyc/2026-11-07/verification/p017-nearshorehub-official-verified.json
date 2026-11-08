@@ -1,0 +1,1833 @@
+{
+  "cohortId": "nearshorehub-latam-2026-11-07",
+  "checkedOn": "2026-11-07",
+  "sourceInput": "company-batches\\historyc\\2026-11-07\\other\\p017-nearshorehub-sites.json",
+  "inputCandidateCount": 31,
+  "candidateOffset": 0,
+  "candidateCount": 31,
+  "remainingCandidateCount": 0,
+  "elapsedMs": 7207,
+  "officialPagesChecked": 62,
+  "verifierOptions": {
+    "concurrency": 24,
+    "maxFollowupPages": 2
+  },
+  "queryLanes": [
+    {
+      "lane": "Nearshore Hub Latin America software provider directory",
+      "checked": 31,
+      "reachable": 24,
+      "regionAndFit": 8,
+      "localOrEligibleAndFit": 1,
+      "regionAndFitRate": 0.258,
+      "localOrEligibleAndFitRate": 0.032,
+      "recommendation": "pause: fewer than 15% passed fit plus location; try a new source or segment"
+    }
+  ],
+  "candidates": [
+    {
+      "name": "LoopStudio",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/loopstudio/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/loopstudio/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true,
+      "website": "https://loopstudio.dev/",
+      "profilePageUrl": "https://thenearshorehub.com/es/empresas/loopstudio/",
+      "profileFetchStatus": 200,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 3,
+      "careersUrl": "https://loopstudio.dev/jobs/",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://loopstudio.dev/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://loopstudio.dev/about-us/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://loopstudio.dev/jobs/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://loopstudio.dev/jobs/",
+          "snippet": "Cambodia Cameroon Canada Central African Republic Chad Chile China Colombia Comoros Congo (Congo-Brazzaville) Costa Rica Croatia Cuba Cyprus Czechia (Czech Republic) Democratic Republic of the Congo Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador "
+        }
+      ],
+      "officialRegionalPresenceSnippets": [],
+      "regionalPresenceCountries": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://loopstudio.dev/",
+          "snippet": "Top Secure Software Development & Design - LoopStudio Skip to content Meet our LoopStudio Team at Black Hat & DEFCON 2024 BOOK SLOT About Us Case Studies What We Offer C"
+        },
+        {
+          "url": "https://loopstudio.dev/",
+          "snippet": " Black Hat & DEFCON 2024 BOOK SLOT About Us Case Studies What We Offer Close What We Offer Open What We Offer Cybersecurity Take your Cybersecurity product from idea to validated prototype in 1 week. AI Product Design Sprint AI-Powered Design Sprints Five days of research,"
+        },
+        {
+          "url": "https://loopstudio.dev/",
+          "snippet": " BOOK SLOT About Us Case Studies What We Offer Close What We Offer Open What We Offer Cybersecurity Take your Cybersecurity product from idea to validated prototype in 1 week. AI Product Design Sprint AI-Powered Design Sprints Five days of research, design, and user testin"
+        },
+        {
+          "url": "https://loopstudio.dev/",
+          "snippet": "als. AI Workflows Automation We replace manual processing with AI agents connected to your real data sources. Data Engineering We centralize your data into a warehouse with pipelines, dashboards, and governance. Product Re-Design Audit interface, flows, and conversion data. T"
+        },
+        {
+          "url": "https://loopstudio.dev/about-us/",
+          "snippet": " Black Hat & DEFCON 2024 BOOK SLOT About Us Case Studies What We Offer Close What We Offer Open What We Offer Cybersecurity Take your Cybersecurity product from idea to validated prototype in 1 week. AI Product Design Sprint AI-Powered Design Sprints Five days of research,"
+        },
+        {
+          "url": "https://loopstudio.dev/about-us/",
+          "snippet": " BOOK SLOT About Us Case Studies What We Offer Close What We Offer Open What We Offer Cybersecurity Take your Cybersecurity product from idea to validated prototype in 1 week. AI Product Design Sprint AI-Powered Design Sprints Five days of research, design, and user testin"
+        },
+        {
+          "url": "https://loopstudio.dev/about-us/",
+          "snippet": "als. AI Workflows Automation We replace manual processing with AI agents connected to your real data sources. Data Engineering We centralize your data into a warehouse with pipelines, dashboards, and governance. Product Re-Design Audit interface, flows, and conversion data. T"
+        },
+        {
+          "url": "https://loopstudio.dev/about-us/",
+          "snippet": ", thoughts we had, knowledge we’d like to share and more. Jobs LET'S TALK About us Case Studies What We Offer Cybersecurity AI Product Design Sprint MVP Development Staffing &#038; Dedicated Teams AI Prototype to Production AI Workflows Automation Legacy Modernization Syst"
+        },
+        {
+          "url": "https://loopstudio.dev/jobs/",
+          "snippet": " Black Hat & DEFCON 2024 BOOK SLOT About Us Case Studies What We Offer Close What We Offer Open What We Offer Cybersecurity Take your Cybersecurity product from idea to validated prototype in 1 week. AI Product Design Sprint AI-Powered Design Sprints Five days of research,"
+        },
+        {
+          "url": "https://loopstudio.dev/jobs/",
+          "snippet": " BOOK SLOT About Us Case Studies What We Offer Close What We Offer Open What We Offer Cybersecurity Take your Cybersecurity product from idea to validated prototype in 1 week. AI Product Design Sprint AI-Powered Design Sprints Five days of research, design, and user testin"
+        },
+        {
+          "url": "https://loopstudio.dev/jobs/",
+          "snippet": "als. AI Workflows Automation We replace manual processing with AI agents connected to your real data sources. Data Engineering We centralize your data into a warehouse with pipelines, dashboards, and governance. Product Re-Design Audit interface, flows, and conversion data. T"
+        },
+        {
+          "url": "https://loopstudio.dev/jobs/",
+          "snippet": ", thoughts we had, knowledge we’d like to share and more. Jobs LET'S TALK About us Case Studies What We Offer Cybersecurity AI Product Design Sprint MVP Development Staffing &#038; Dedicated Teams AI Prototype to Production AI Workflows Automation Legacy Modernization Syst"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": false
+    },
+    {
+      "name": "Qubika",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/qubika/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/qubika/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true,
+      "website": "https://qubika.com/",
+      "profilePageUrl": "https://thenearshorehub.com/es/empresas/qubika/",
+      "profileFetchStatus": 200,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 3,
+      "careersUrl": "https://qubika.com/work/youscience/",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://qubika.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://qubika.com/about-us/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://qubika.com/work/youscience/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialRegionalPresenceSnippets": [],
+      "regionalPresenceCountries": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://qubika.com/",
+          "snippet": "ive to AI-Native We are shaping the future of next-generation applications by seamlessly integrating advanced data engineering and AI solutions with high-quality UX and robust security. Featured Pillars AccelerateAI Qubika’s comprehensive framework of best practices, workflow"
+        },
+        {
+          "url": "https://qubika.com/",
+          "snippet": ". This ensures we deliver immediate business value with our customized solutions. Learn more Forward-Deployed Engineering Qubika’s certified Forward-Deployed Engineers turn business priorities into production AI, with ownership from discovery through deployment. Learn mo"
+        },
+        {
+          "url": "https://qubika.com/",
+          "snippet": "ue with our customized solutions. Learn more Forward-Deployed Engineering Qubika’s certified Forward-Deployed Engineers turn business priorities into production AI, with ownership from discovery through deployment. Learn more about Qubika FDEs Qubika Studios Product D"
+        },
+        {
+          "url": "https://qubika.com/",
+          "snippet": "n. Artificial Intelligence Agentic AI, GenAI, machine learning, NLP, computer vision. Data Data manipulation, engineering, visualization, and prediction. App Solutions Native or hybrid, SDK development, integrations, app store positioning. Cloud, SRE, & DevOps Cloud migr"
+        },
+        {
+          "url": "https://qubika.com/about-us/",
+          "snippet": "ive to AI-Native We are shaping the future of next-generation applications by seamlessly integrating advanced data engineering and AI solutions with high-quality UX and robust security. Featured Pillars AccelerateAI Qubika’s comprehensive framework of best practices, workflow"
+        },
+        {
+          "url": "https://qubika.com/about-us/",
+          "snippet": ". This ensures we deliver immediate business value with our customized solutions. Learn more Forward-Deployed Engineering Qubika’s certified Forward-Deployed Engineers turn business priorities into production AI, with ownership from discovery through deployment. Learn mo"
+        },
+        {
+          "url": "https://qubika.com/about-us/",
+          "snippet": "ue with our customized solutions. Learn more Forward-Deployed Engineering Qubika’s certified Forward-Deployed Engineers turn business priorities into production AI, with ownership from discovery through deployment. Learn more about Qubika FDEs Qubika Studios Product D"
+        },
+        {
+          "url": "https://qubika.com/about-us/",
+          "snippet": "n. Artificial Intelligence Agentic AI, GenAI, machine learning, NLP, computer vision. Data Data manipulation, engineering, visualization, and prediction. App Solutions Native or hybrid, SDK development, integrations, app store positioning. Cloud, SRE, & DevOps Cloud migr"
+        },
+        {
+          "url": "https://qubika.com/work/youscience/",
+          "snippet": "ive to AI-Native We are shaping the future of next-generation applications by seamlessly integrating advanced data engineering and AI solutions with high-quality UX and robust security. Featured Pillars AccelerateAI Qubika’s comprehensive framework of best practices, workflow"
+        },
+        {
+          "url": "https://qubika.com/work/youscience/",
+          "snippet": ". This ensures we deliver immediate business value with our customized solutions. Learn more Forward-Deployed Engineering Qubika’s certified Forward-Deployed Engineers turn business priorities into production AI, with ownership from discovery through deployment. Learn mo"
+        },
+        {
+          "url": "https://qubika.com/work/youscience/",
+          "snippet": "ue with our customized solutions. Learn more Forward-Deployed Engineering Qubika’s certified Forward-Deployed Engineers turn business priorities into production AI, with ownership from discovery through deployment. Learn more about Qubika FDEs Qubika Studios Product D"
+        },
+        {
+          "url": "https://qubika.com/work/youscience/",
+          "snippet": "n. Artificial Intelligence Agentic AI, GenAI, machine learning, NLP, computer vision. Data Data manipulation, engineering, visualization, and prediction. App Solutions Native or hybrid, SDK development, integrations, app store positioning. Cloud, SRE, & DevOps Cloud migr"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": false
+    },
+    {
+      "name": "GeneXus",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/genexus/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/genexus/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.genexus.com/en/",
+      "profilePageUrl": "https://thenearshorehub.com/es/empresas/genexus/",
+      "profileFetchStatus": 200,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 3,
+      "careersUrl": "https://www.genexus.com/en/company/work-with-us",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.genexus.com/en/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.genexus.com/en/company",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.genexus.com/en/company/work-with-us",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Latin America"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://www.genexus.com/en/",
+          "snippet": "It's You. What's new on GeneXus 18 Watch it again #GX29 The most important business and technology meeting in Latin America: GX29 Builders. Watch it again GeneXus in Action: Customer Testimonials Discover the impact of GeneXus, told by those who matter most: our customers."
+        }
+      ],
+      "officialRegionalPresenceSnippets": [],
+      "regionalPresenceCountries": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://www.genexus.com/en/",
+          "snippet": "an one. Combine generative and deterministic AI to build faster, evolve without rework, and govern enterprise software by design. Technology Agnostic Integration Use Cases Platform Overview Explore GeneXus from end to end. Agentic Development AI agents that build on y"
+        },
+        {
+          "url": "https://www.genexus.com/en/",
+          "snippet": "tions Connect to any system, API, or platform without vendor lock-in. Technologies Deploy to web, mobile, and cloud from a single, technology-agnostic model. GeneXus Query™ Automatic Dashboards, Reporting and Intelligence for your apps. Use Cases From legacy modern"
+        },
+        {
+          "url": "https://www.genexus.com/en/",
+          "snippet": "te a GeneXus account Login Recover password Learn Online Courses Documentation Whitepapers GeneXus FAQ Create Developer Tools Download Center My apps Extend Create an Extension Create a Pattern Create a User Control Create a Design System Publish on Marketplace Become "
+        },
+        {
+          "url": "https://www.genexus.com/en/",
+          "snippet": "tension Create a Pattern Create a User Control Create a Design System Publish on Marketplace Become a Partner Developers Training Pricing Helpful links First Steps Documentation Training Get Help Search Support Stackoverflow Forum Contact Us Help Log in Log in Platform"
+        },
+        {
+          "url": "https://www.genexus.com/en/company",
+          "snippet": "an one. Combine generative and deterministic AI to build faster, evolve without rework, and govern enterprise software by design. Technology Agnostic Integration Use Cases Platform Overview Explore GeneXus from end to end. Agentic Development AI agents that build on y"
+        },
+        {
+          "url": "https://www.genexus.com/en/company",
+          "snippet": "tions Connect to any system, API, or platform without vendor lock-in. Technologies Deploy to web, mobile, and cloud from a single, technology-agnostic model. GeneXus Query™ Automatic Dashboards, Reporting and Intelligence for your apps. Use Cases From legacy modern"
+        },
+        {
+          "url": "https://www.genexus.com/en/company",
+          "snippet": "te a GeneXus account Login Recover password Learn Online Courses Documentation Whitepapers GeneXus FAQ Create Developer Tools Download Center My apps Extend Create an Extension Create a Pattern Create a User Control Create a Design System Publish on Marketplace Become "
+        },
+        {
+          "url": "https://www.genexus.com/en/company",
+          "snippet": "tension Create a Pattern Create a User Control Create a Design System Publish on Marketplace Become a Partner Developers Training Pricing Helpful links First Steps Documentation Training Get Help Search Support Stackoverflow Forum Contact Us Help Log in Log in Platform"
+        },
+        {
+          "url": "https://www.genexus.com/en/company/work-with-us",
+          "snippet": "Native Mobile Apps Generator Whitepapers GeneXus™ FAQ Plans & Pricing Success Stories GeneXus for SAP GeneXus Cloud Services Legacy Modernization My apps Downloads Learn GeneXus Free Online Courses First steps Courses calendar Certifications Learn on mobile Academi"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": false
+    },
+    {
+      "name": "10Pines",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/10pines/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/10pines/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true,
+      "website": "https://10pines.com/",
+      "profilePageUrl": "https://thenearshorehub.com/es/empresas/10pines/",
+      "profileFetchStatus": 200,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 1,
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://10pines.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialRegionalPresenceSnippets": [],
+      "regionalPresenceCountries": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://10pines.com/",
+          "snippet": "--> 10Pines • Software Development Services - Argentina You need to enable JavaScript to run this app."
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": false
+    },
+    {
+      "name": "Tryolabs",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/tryolabs/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/tryolabs/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true,
+      "website": "https://tryolabs.com/",
+      "profilePageUrl": "https://thenearshorehub.com/es/empresas/tryolabs/",
+      "profileFetchStatus": 200,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 3,
+      "careersUrl": "https://tryolabs.com/careers",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://tryolabs.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://tryolabs.com/services/center-of-excellence",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://tryolabs.com/careers",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialRegionalPresenceSnippets": [],
+      "regionalPresenceCountries": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://tryolabs.com/",
+          "snippet": "article -> SERVICES Discovery & Strategy AI strategy & adoption AI Roadmap Change Management Forward Deployed Engineers How it works Build & Develop ML & Data Science Video Analytics Price Optimization Product Matching Data engineering Data Migration & Data Lake Gener"
+        },
+        {
+          "url": "https://tryolabs.com/",
+          "snippet": " Engineers How it works Build & Develop ML & Data Science Video Analytics Price Optimization Product Matching Data engineering Data Migration & Data Lake Generative & agentic AI AI Agents & Copilot Workflow Automation Scale & Optimize MLOps & AI operations LLMOps Center of Ex"
+        },
+        {
+          "url": "https://tryolabs.com/",
+          "snippet": "GOOD CASE STUDIES COMPANY About us Partnerships Careers RESOURCES Guides Collections Newsroom BLOG Contact us Engineering Deploying Scaling Engineering Engineering AI built for your business AI and data consulting for enterprises. We partner with you to turn business cha"
+        },
+        {
+          "url": "https://tryolabs.com/",
+          "snippet": "t us Partnerships Careers RESOURCES Guides Collections Newsroom BLOG Contact us Engineering Deploying Scaling Engineering Engineering AI built for your business AI and data consulting for enterprises. We partner with you to turn business challenges into AI systems your t"
+        },
+        {
+          "url": "https://tryolabs.com/services/center-of-excellence",
+          "snippet": "article -> SERVICES Discovery & Strategy AI strategy & adoption AI Roadmap Change Management Forward Deployed Engineers How it works Build & Develop ML & Data Science Video Analytics Price Optimization Product Matching Data engineering Data Migration & Data Lake Gener"
+        },
+        {
+          "url": "https://tryolabs.com/services/center-of-excellence",
+          "snippet": " Engineers How it works Build & Develop ML & Data Science Video Analytics Price Optimization Product Matching Data engineering Data Migration & Data Lake Generative & agentic AI AI Agents & Copilot Workflow Automation Scale & Optimize MLOps & AI operations LLMOps Center of Ex"
+        },
+        {
+          "url": "https://tryolabs.com/services/center-of-excellence",
+          "snippet": " capabilities while we deliver together. Work with experts Your teams working side by side with our AI and ML engineers, learning through hands-on technical support on real projects. Leadership mentoring Foster technical leaders within your organization through target"
+        },
+        {
+          "url": "https://tryolabs.com/services/center-of-excellence",
+          "snippet": " AI & Data Let&#x27;s talk hello@tryolabs.com Services Custom AI AI strategy & adoption MLOps & AI operations Data engineering Video Analytics insights AI 4 Good Blog Industry cases About About us Partnerships Careers Terms and Conditions | © 2026 . All rights reserved."
+        },
+        {
+          "url": "https://tryolabs.com/careers",
+          "snippet": "article -> SERVICES Discovery & Strategy AI strategy & adoption AI Roadmap Change Management Forward Deployed Engineers How it works Build & Develop ML & Data Science Video Analytics Price Optimization Product Matching Data engineering Data Migration & Data Lake Gener"
+        },
+        {
+          "url": "https://tryolabs.com/careers",
+          "snippet": " Engineers How it works Build & Develop ML & Data Science Video Analytics Price Optimization Product Matching Data engineering Data Migration & Data Lake Generative & agentic AI AI Agents & Copilot Workflow Automation Scale & Optimize MLOps & AI operations LLMOps Center of Ex"
+        },
+        {
+          "url": "https://tryolabs.com/careers",
+          "snippet": "re a team of scientists who happen to have a common passion: data . Agostina Larrazabal Lead Machine Learning Engineer Agustín Castro Machine Learning Engineer Agustin Lucas Machine Learning Engineer Agustina Pizarro Lead Designer Alan Descoins Chief Executive Officer"
+        },
+        {
+          "url": "https://tryolabs.com/careers",
+          "snippet": "e a common passion: data . Agostina Larrazabal Lead Machine Learning Engineer Agustín Castro Machine Learning Engineer Agustin Lucas Machine Learning Engineer Agustina Pizarro Lead Designer Alan Descoins Chief Executive Officer (CEO) Alejandra Duarte Head of People Al"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": false
+    },
+    {
+      "name": "Capicua",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/capicua/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/capicua/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.capicua.com/",
+      "profilePageUrl": "https://thenearshorehub.com/es/empresas/capicua/",
+      "profileFetchStatus": 200,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 3,
+      "careersUrl": "https://www.capicua.com/jobs",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.capicua.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.capicua.com/about",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.capicua.com/jobs",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialRegionalPresenceSnippets": [],
+      "regionalPresenceCountries": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://www.capicua.com/",
+          "snippet": " Sprints Product Strategy Product Design Go-to-market Product Growth Product Scaling ProductOps TechOps QAOps CloudOps SecOps Shaped Clarity™ Work About Blog Build With Clarity Shaped Clarity™ Services Product Validation Product-Market Fit Product Growth Work About"
+        },
+        {
+          "url": "https://www.capicua.com/",
+          "snippet": "e and Content Distribution platform for marketers to drive real ROI. Healthcare Cogsworth Next-Gen Scheduling Software for Business Cogsworth capitalized on global communications shifts, and Capicua helped scale and sharpen the B2B scheduling platform trusted by Audi "
+        },
+        {
+          "url": "https://www.capicua.com/",
+          "snippet": "e product debt, UX thinking and scaling digital products. What We Think Technology Align Product Planning and Engineering Execution Learn how to align product planning and engineering execution, avoid the common mistakes in aligning product and engineering, and turn AI s"
+        },
+        {
+          "url": "https://www.capicua.com/",
+          "snippet": " We Think Technology Align Product Planning and Engineering Execution Learn how to align product planning and engineering execution, avoid the common mistakes in aligning product and engineering, and turn AI speed into value. Strategy Strategic Thinking and Strategic Pla"
+        },
+        {
+          "url": "https://www.capicua.com/about",
+          "snippet": " Sprints Product Strategy Product Design Go-to-market Product Growth Product Scaling ProductOps TechOps QAOps CloudOps SecOps Shaped Clarity™ Work About Blog Build With Clarity Shaped Clarity™ Services Product Validation Product-Market Fit Product Growth Work About"
+        },
+        {
+          "url": "https://www.capicua.com/about",
+          "snippet": "duct drift, leads chasing better alignment and startups seeking growth. Technology Align Product Planning and Engineering Execution Learn how to align product planning and engineering execution, avoid the common mistakes in aligning product and engineering, and turn AI s"
+        },
+        {
+          "url": "https://www.capicua.com/about",
+          "snippet": "g growth. Technology Align Product Planning and Engineering Execution Learn how to align product planning and engineering execution, avoid the common mistakes in aligning product and engineering, and turn AI speed into value. Strategy Strategic Thinking and Strategic Pla"
+        },
+        {
+          "url": "https://www.capicua.com/about",
+          "snippet": "rn how to align product planning and engineering execution, avoid the common mistakes in aligning product and engineering, and turn AI speed into value. Strategy Strategic Thinking and Strategic Planning Strategic thinking turns uncertainty into clear product bets. Learn"
+        },
+        {
+          "url": "https://www.capicua.com/jobs",
+          "snippet": " Sprints Product Strategy Product Design Go-to-market Product Growth Product Scaling ProductOps TechOps QAOps CloudOps SecOps Shaped Clarity™ Work About Blog Build With Clarity Shaped Clarity™ Services Product Validation Product-Market Fit Product Growth Work About"
+        },
+        {
+          "url": "https://www.capicua.com/jobs",
+          "snippet": "impact! If you’re looking for your next personal and professional challenge, join our team! Senior Full Stack Developer Develop logical architectures for mission-critical enterprise application systems as a Senior Full Stack Developer Full Time / Remote Apply QA Automa"
+        },
+        {
+          "url": "https://www.capicua.com/jobs",
+          "snippet": "oper Develop logical architectures for mission-critical enterprise application systems as a Senior Full Stack Developer Full Time / Remote Apply QA Automation Maintain high-quality standards for the next-generation SaaS-based platforms as a QA Automation engineer Full "
+        },
+        {
+          "url": "https://www.capicua.com/jobs",
+          "snippet": "tack Developer Full Time / Remote Apply QA Automation Maintain high-quality standards for the next-generation SaaS-based platforms as a QA Automation engineer Full Time / Remote Apply UX UI Designer Deliver outstanding, intuitive, and usable digital products in yo"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": false
+    },
+    {
+      "name": "Kaizen Softworks",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/kaizen-softworks/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/kaizen-softworks/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.kzsoftworks.com/",
+      "profilePageUrl": "https://thenearshorehub.com/es/empresas/kaizen-softworks/",
+      "profileFetchStatus": 200,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 1,
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.kzsoftworks.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialRegionalPresenceSnippets": [],
+      "regionalPresenceCountries": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://www.kzsoftworks.com/",
+          "snippet": "Custom Software Development | On-Time & On-Budget | Kaizen Softworks Custom code > Head). If a font file is replaced in Site settings > Fonts, its URL changes: updat"
+        },
+        {
+          "url": "https://www.kzsoftworks.com/",
+          "snippet": "We’ll be at SmartSense LIVE26, October 7-9. Stop by our booth. Services Product Discovery UI/UX Design Custom Software Solutions Staff Augmentation Our Work About About Us Meet Our Team Careers Blog Start a conversation Start a conversation We run only one sprint per "
+        },
+        {
+          "url": "https://www.kzsoftworks.com/",
+          "snippet": "r month . Next slot closes on Aug 25 2026 Reserve a slot Services Our Work About Blog Start a conversation AI Software Design & Development Team Extension Prototype to Production Turn a working AI prototype into production software. AI Validation Sprint Test an AI ide"
+        },
+        {
+          "url": "https://www.kzsoftworks.com/",
+          "snippet": "tware Design & Development Team Extension Prototype to Production Turn a working AI prototype into production software. AI Validation Sprint Test an AI idea before investing in production. Agents Automate multi-step work with AI agents. Custom MCP Development Connect "
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": false
+    },
+    {
+      "name": "Qualabs",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/qualabs/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/qualabs/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.qualabs.com/",
+      "profilePageUrl": "https://thenearshorehub.com/es/empresas/qualabs/",
+      "profileFetchStatus": 200,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 3,
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.qualabs.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.qualabs.com/team",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.qualabs.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialRegionalPresenceSnippets": [],
+      "regionalPresenceCountries": [],
+      "officialFitSnippets": [],
+      "likelyFit": false,
+      "fitReviewReason": "education provider; engineering terms describe courses or instruction, not a software employer",
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": false
+    },
+    {
+      "name": "Quanam",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/quanam/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/quanam/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true,
+      "website": "https://quanam.com/",
+      "profilePageUrl": "https://thenearshorehub.com/es/empresas/quanam/",
+      "profileFetchStatus": 200,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 1,
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://quanam.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "LATAM"
+      ],
+      "officialLocationSnippets": [],
+      "officialRegionalPresenceSnippets": [
+        {
+          "url": "https://quanam.com/",
+          "country": "Mexico",
+          "snippet": "ste, 29017 São Paulo, Brasil Rua Deputado João Sussumu Hirata, 600, cj. 112, Vila Andrade, CEP: 05715-010, SP Ciudad de México, México Pedregal 24, Piso 2 Oficina 300, Colonia Molino del Rey, Delegación Miguel Hidalgo, CP 11040 Santiago de Chile,"
+        },
+        {
+          "url": "https://quanam.com/",
+          "country": "Chile",
+          "snippet": "México, México Pedregal 24, Piso 2 Oficina 300, Colonia Molino del Rey, Delegación Miguel Hidalgo, CP 11040 Santiago de Chile, Chile Alfredo Barros Errázuriz 1954, Oficina 1703, Providencia © 2026 Política de privacidad Configuración de Cookies "
+        },
+        {
+          "url": "https://quanam.com/",
+          "country": "Uruguay",
+          "snippet": " somos Desarrollo Sostenible Cumplimiento Blog Sumate Contacto +(598) 2902 21 18 quanam@quanam.com Oficinas Montevideo, Uruguay Canelones 1370 Piso 5, CP 11100 Philadelphia, USA 2929 Arch Street, Suite 1700, (2212), Philadelphia PA 19104 Málaga, E"
+        }
+      ],
+      "regionalPresenceCountries": [
+        "Mexico",
+        "Chile",
+        "Uruguay"
+      ],
+      "officialFitSnippets": [],
+      "likelyFit": false,
+      "fitReviewReason": "education provider; engineering terms describe courses or instruction, not a software employer",
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": true
+    },
+    {
+      "name": "Bitlogic",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/bitlogic/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/bitlogic/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true,
+      "website": "https://bitlogic.io/",
+      "profilePageUrl": "https://thenearshorehub.com/es/empresas/bitlogic/",
+      "profileFetchStatus": 200,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 3,
+      "careersUrl": "https://bitlogic.io/software-development-services/staff-augmentation/",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://bitlogic.io/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://bitlogic.io/software-development-services/agile-teams/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://bitlogic.io/software-development-services/staff-augmentation/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialRegionalPresenceSnippets": [],
+      "regionalPresenceCountries": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://bitlogic.io/",
+          "snippet": "tech for humans, by humans We drive the digital modernization of educational institutions through the design, engineering, and agile development of software solutions built to transform academic management, empower educators, and support every student throughout their ac"
+        },
+        {
+          "url": "https://bitlogic.io/",
+          "snippet": "e digital modernization of educational institutions through the design, engineering, and agile development of software solutions built to transform academic management, empower educators, and support every student throughout their academic journey. We do it with close"
+        },
+        {
+          "url": "https://bitlogic.io/",
+          "snippet": "design the future of education together. WHAT WE DO? PRODUCT DEVELOPMENT We design and build custom education software. We turn complexity into integrated, scalable, and secure systems—reducing technical risk and driving growth and academic quality. AGILE TEAM We buil"
+        },
+        {
+          "url": "https://bitlogic.io/software-development-services/agile-teams/",
+          "snippet": " evolution of educational institutions. Hiring an external Agile Team means outsourcing the management of the software development lifecycle to specialists who work under agile principles. This can include everything from analysis and design to development, testing, a"
+        },
+        {
+          "url": "https://bitlogic.io/software-development-services/agile-teams/",
+          "snippet": "continuous enhancement, feature expansion, and maintenance of existing systems. Agile Teams typically include software developers, DevOps engineers, QA specialists, UX designers, project managers, and other key roles, adjusting dynamically to the project’s needs. This"
+        },
+        {
+          "url": "https://bitlogic.io/software-development-services/agile-teams/",
+          "snippet": "s enhancement, feature expansion, and maintenance of existing systems. Agile Teams typically include software developers, DevOps engineers, QA specialists, UX designers, project managers, and other key roles, adjusting dynamically to the project’s needs. This flexibili"
+        },
+        {
+          "url": "https://bitlogic.io/software-development-services/agile-teams/",
+          "snippet": "ure expansion, and maintenance of existing systems. Agile Teams typically include software developers, DevOps engineers, QA specialists, UX designers, project managers, and other key roles, adjusting dynamically to the project’s needs. This flexibility ensures the rig"
+        },
+        {
+          "url": "https://bitlogic.io/software-development-services/staff-augmentation/",
+          "snippet": "s, by humans. Our teams are made up of highly skilled professionals with experience in educational platforms, cloud architectures, and AI applied to education. People who don’t just write code, but understand how technology impacts learning, teaching, and instituti"
+        },
+        {
+          "url": "https://bitlogic.io/software-development-services/staff-augmentation/",
+          "snippet": "a acelerar sus procesos o cubrir brechas técnicas integrando de forma inmediata especialistas individuales de software senior enfocados en tecnología educativa. PRODUCT DEVELOPMENT Choose Product Development if you have a complete vision and need a strategic tech part"
+        },
+        {
+          "url": "https://bitlogic.io/software-development-services/staff-augmentation/",
+          "snippet": " full responsibility for a specific scope of work We’re transforming education through technology What is LTI application development? Educational integration with LTI applications Read this blog Benchlab and the Future of Higher Education Benchlab's case: Improving scalability, usa"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": false
+    },
+    {
+      "name": "Flux IT",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/flux-it/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/flux-it/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.fluxitsoft.com/",
+      "profilePageUrl": "https://thenearshorehub.com/es/empresas/flux-it/",
+      "profileFetchStatus": 200,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 1,
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.fluxitsoft.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialRegionalPresenceSnippets": [],
+      "regionalPresenceCountries": [],
+      "officialFitSnippets": [],
+      "likelyFit": false,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": false
+    },
+    {
+      "name": "Snoop Consulting",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/snoop/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/snoop/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true,
+      "website": "https://snoopconsulting.com/",
+      "profilePageUrl": "https://thenearshorehub.com/es/empresas/snoop/",
+      "profileFetchStatus": 200,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 3,
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://snoopconsulting.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://snoopconsulting.com/nosotros/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://snoopconsulting.com/contacto/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "LATAM"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://snoopconsulting.com/",
+          "snippet": "adosky a la Industria Argentina del Software Reconocidos por Freshworks como Rising Star Partner of the Year (LATAM) Categoría CEO del Año Premios Sadosky a la Industria Argentina del Software Categoría Trayectoria Empresarial Premios Sadosky a la Industria Argenti"
+        },
+        {
+          "url": "https://snoopconsulting.com/nosotros/",
+          "snippet": "adosky a la Industria Argentina del Software Reconocidos por Freshworks como Rising Star Partner of the Year (LATAM) Categoría CEO del Año Premios Sadosky a la Industria Argentina del Software Categoría Trayectoria Empresarial Premios Sadosky a la Industria Argenti"
+        }
+      ],
+      "officialRegionalPresenceSnippets": [],
+      "regionalPresenceCountries": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://snoopconsulting.com/",
+          "snippet": "ágiles, seguras y escalables Educación Innovación en procesos de enseñanza Servicios Profesionales Asesoría y desarrollo de software Manufactura e Industria Optimización y automatización industrial Herramientas Mobile Ver más API Management Ver más Interfaces Conversacionales Ver m"
+        },
+        {
+          "url": "https://snoopconsulting.com/",
+          "snippet": "omatización industrial Herramientas Mobile Ver más API Management Ver más Interfaces Conversacionales Ver más Cloud / DevOps Ver más Reconocimientos Sergio Candelo Empresario del Año Premios Sadosky a la Industria Argentina del Software Categoría Compromiso con la "
+        },
+        {
+          "url": "https://snoopconsulting.com/",
+          "snippet": "DevOps Ver más Reconocimientos Sergio Candelo Empresario del Año Premios Sadosky a la Industria Argentina del Software Categoría Compromiso con la Calidad Premios Sadosky a la Industria Argentina del Software Reconocidos por Freshworks como Rising Star Partner of the "
+        },
+        {
+          "url": "https://snoopconsulting.com/",
+          "snippet": "stria Argentina del Software Categoría Compromiso con la Calidad Premios Sadosky a la Industria Argentina del Software Reconocidos por Freshworks como Rising Star Partner of the Year (LATAM) Categoría CEO del Año Premios Sadosky a la Industria Argentina del Software C"
+        },
+        {
+          "url": "https://snoopconsulting.com/nosotros/",
+          "snippet": "tico La Plata. Reconocimientos Sergio Candelo Empresario del Año Premios Sadosky a la Industria Argentina del Software Categoría Compromiso con la Calidad Premios Sadosky a la Industria Argentina del Software Reconocidos por Freshworks como Rising Star Partner of the "
+        },
+        {
+          "url": "https://snoopconsulting.com/nosotros/",
+          "snippet": "stria Argentina del Software Categoría Compromiso con la Calidad Premios Sadosky a la Industria Argentina del Software Reconocidos por Freshworks como Rising Star Partner of the Year (LATAM) Categoría CEO del Año Premios Sadosky a la Industria Argentina del Software C"
+        },
+        {
+          "url": "https://snoopconsulting.com/nosotros/",
+          "snippet": "mo Rising Star Partner of the Year (LATAM) Categoría CEO del Año Premios Sadosky a la Industria Argentina del Software Categoría Trayectoria Empresarial Premios Sadosky a la Industria Argentina del Software A La Excelencia Institucional Empresaria Primera Empresa Arge"
+        },
+        {
+          "url": "https://snoopconsulting.com/nosotros/",
+          "snippet": "dustria Argentina del Software Categoría Trayectoria Empresarial Premios Sadosky a la Industria Argentina del Software A La Excelencia Institucional Empresaria Primera Empresa Argentina en Ganarlo Premio Idea 3 ra Mejor Consultora Innovación Infotechnology Consultoría"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": false
+    },
+    {
+      "name": "ArkusNexus",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/arkusnexus/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/arkusnexus/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.arkusnexus.com/",
+      "profilePageUrl": "https://thenearshorehub.com/es/empresas/arkusnexus/",
+      "profileFetchStatus": 200,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 3,
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.arkusnexus.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.arkusnexus.com/ai-development-team",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.arkusnexus.com/contact-us?intent=consulting",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialRegionalPresenceSnippets": [],
+      "regionalPresenceCountries": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://www.arkusnexus.com/",
+          "snippet": "ArkusNexus | Agentic Software Development & AI Consulting keeps the blocking version for the no-JS case, where onload never fires. `data-nonblocking` is read by scripts/prerender."
+        },
+        {
+          "url": "https://www.arkusnexus.com/",
+          "snippet": "e use cookies. Analytics and advertising, only if you accept. Decline Accept Skip to content Services Agentic Software Development Senior engineers who build with AI AI Consulting From AI hype to AI that works Speed to Deal First closed deals for funded solo founders "
+        },
+        {
+          "url": "https://www.arkusnexus.com/",
+          "snippet": " advertising, only if you accept. Decline Accept Skip to content Services Agentic Software Development Senior engineers who build with AI AI Consulting From AI hype to AI that works Speed to Deal First closed deals for funded solo founders Blog About About Us Who we a"
+        },
+        {
+          "url": "https://www.arkusnexus.com/",
+          "snippet": "Us Who we are and how we work Life at Arkus Our culture and our people Pods shipping today Let's Talk Agentic Software Development · AI Consulting Hire senior engineers who build with AI. Nearshore Product Engineers who join your team. In your time zone, at a fixed mo"
+        },
+        {
+          "url": "https://www.arkusnexus.com/ai-development-team",
+          "snippet": "e use cookies. Analytics and advertising, only if you accept. Decline Accept Skip to content Services Agentic Software Development Senior engineers who build with AI AI Consulting From AI hype to AI that works Speed to Deal First closed deals for funded solo founders "
+        },
+        {
+          "url": "https://www.arkusnexus.com/ai-development-team",
+          "snippet": " advertising, only if you accept. Decline Accept Skip to content Services Agentic Software Development Senior engineers who build with AI AI Consulting From AI hype to AI that works Speed to Deal First closed deals for funded solo founders Blog About About Us Who we a"
+        },
+        {
+          "url": "https://www.arkusnexus.com/ai-development-team",
+          "snippet": "Us Who we are and how we work Life at Arkus Our culture and our people Pods shipping today Let's Talk Agentic Software Development · for SaaS and product companies Hire a senior development team that builds with AI. Senior Product Engineers who join your team and ship"
+        },
+        {
+          "url": "https://www.arkusnexus.com/ai-development-team",
+          "snippet": "rk Life at Arkus Our culture and our people Pods shipping today Let's Talk Agentic Software Development · for SaaS and product companies Hire a senior development team that builds with AI. Senior Product Engineers who join your team and ship your backlog with AI a"
+        },
+        {
+          "url": "https://www.arkusnexus.com/contact-us?intent=consulting",
+          "snippet": "e use cookies. Analytics and advertising, only if you accept. Decline Accept Skip to content Services Agentic Software Development Senior engineers who build with AI AI Consulting From AI hype to AI that works Speed to Deal First closed deals for funded solo founders "
+        },
+        {
+          "url": "https://www.arkusnexus.com/contact-us?intent=consulting",
+          "snippet": " advertising, only if you accept. Decline Accept Skip to content Services Agentic Software Development Senior engineers who build with AI AI Consulting From AI hype to AI that works Speed to Deal First closed deals for funded solo founders Blog About About Us Who we a"
+        },
+        {
+          "url": "https://www.arkusnexus.com/contact-us?intent=consulting",
+          "snippet": "w we work Life at Arkus Our culture and our people Pods shipping today Let's Talk AI-native development · for SaaS and product companies Talk to an engineer. What happens after you reach out We reply within one business day. A real person reads every message. Ther"
+        },
+        {
+          "url": "https://www.arkusnexus.com/contact-us?intent=consulting",
+          "snippet": "d our people Pods shipping today Let's Talk AI-native development · for SaaS and product companies Talk to an engineer. What happens after you reach out We reply within one business day. A real person reads every message. There is no autoresponder. We ask a few scopin"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": false
+    },
+    {
+      "name": "Hitss",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/hitss/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/hitss/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.hitss.com/",
+      "profilePageUrl": "https://thenearshorehub.com/es/empresas/hitss/",
+      "profileFetchStatus": 200,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 3,
+      "careersUrl": "https://www.hitss.com/nosotros/",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.hitss.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.hitss.com/nosotros/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.hitss.com/industryspecializedretail/",
+          "status": 0,
+          "error": "HTTP 404"
+        }
+      ],
+      "officialLocations": [
+        "LATAM"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://www.hitss.com/",
+          "snippet": " de las empresas confunde las dos. AGENTES. DE INTELIGENCIA ARTIFICIAL PARA EMPRESAS: Qué está funcionando en LATAM y qué todavía es promesa. COMO EVALUAR UN PROVEEDOR DE INTEGRACIÓN TECNOLÓGICA: 12 criterios que los CIO de LATAM no pueden ignorar en 2026. NUESTRAS"
+        },
+        {
+          "url": "https://www.hitss.com/",
+          "snippet": "M y qué todavía es promesa. COMO EVALUAR UN PROVEEDOR DE INTEGRACIÓN TECNOLÓGICA: 12 criterios que los CIO de LATAM no pueden ignorar en 2026. NUESTRAS CERTIFICACIONES En HITSS tu talento impulsa la transformación En HITSS no solo creamos soluciones tecnológicas, c"
+        }
+      ],
+      "officialRegionalPresenceSnippets": [],
+      "regionalPresenceCountries": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://www.hitss.com/",
+          "snippet": "rmación Banking and Financial Services Vigia Master Suite CSS - Platform Machine Life Extended HealthCare TCA Software Solutions VentSupport Omara Connect2MyDoctor - Moments Healthcare Vitaris Eniax Care Smart Cities & Smart Communities Smart Lighting Hipertextuales- "
+        },
+        {
+          "url": "https://www.hitss.com/",
+          "snippet": "SERVICIO DIGITAL EXPERIENCIA MEJORADA DE RED Retail Sistematízanos de gestión de pedidos (OMS) SuperApp (WhaleCloud) Scan & Go Prevención de Robo Self Checkout Pasillo infinito Asistencia a cliente (clienteling) Señalización digital Pick Up Lockers Remote selling C"
+        },
+        {
+          "url": "https://www.hitss.com/",
+          "snippet": ") Planeación de la demanda y abasto inteligente --> Prácticas Prácticas Category 1 Very beautiful. Category 2 Software Development Testing Factory Data, AI & Information Management Cloud Services HyperAutomation AMS & Observability (Service OPS) Category 2 CRM ERP Int"
+        },
+        {
+          "url": "https://www.hitss.com/",
+          "snippet": " Category 1 Very beautiful. Category 2 Software Development Testing Factory Data, AI & Information Management Cloud Services HyperAutomation AMS & Observability (Service OPS) Category 2 CRM ERP Integral Connectivity Cyber Security Integral Connectivity IoT & Edge -"
+        },
+        {
+          "url": "https://www.hitss.com/nosotros/",
+          "snippet": "rmación Banking and Financial Services Vigia Master Suite CSS - Platform Machine Life Extended HealthCare TCA Software Solutions VentSupport Omara Connect2MyDoctor - Moments Healthcare Vitaris Eniax Care Smart Cities & Smart Communities Smart Lighting Hipertextuales- "
+        },
+        {
+          "url": "https://www.hitss.com/nosotros/",
+          "snippet": "SERVICIO DIGITAL EXPERIENCIA MEJORADA DE RED Retail Sistematízanos de gestión de pedidos (OMS) SuperApp (WhaleCloud) Scan & Go Prevención de Robo Self Checkout Pasillo infinito Asistencia a cliente (clienteling) Señalización digital Pick Up Lockers Remote selling C"
+        },
+        {
+          "url": "https://www.hitss.com/nosotros/",
+          "snippet": ") Planeación de la demanda y abasto inteligente --> Prácticas Prácticas Category 1 Very beautiful. Category 2 Software Development Testing Factory Data, AI & Information Management Cloud Services HyperAutomation AMS & Observability (Service OPS) Category 2 CRM ERP Int"
+        },
+        {
+          "url": "https://www.hitss.com/nosotros/",
+          "snippet": " Category 1 Very beautiful. Category 2 Software Development Testing Factory Data, AI & Information Management Cloud Services HyperAutomation AMS & Observability (Service OPS) Category 2 CRM ERP Integral Connectivity Cyber Security Integral Connectivity IoT & Edge -"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": false
+    },
+    {
+      "name": "Quarksoft",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/quarksoft/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/quarksoft/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true,
+      "website": "https://quarksoft.net/",
+      "profilePageUrl": "https://thenearshorehub.com/es/empresas/quarksoft/",
+      "profileFetchStatus": 200,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 3,
+      "careersUrl": "https://quarksoft.net/trabaja_con_nosotros/",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://quarksoft.net/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://quarksoft.net/trabaja_con_nosotros/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://quarksoft.net/contacto/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialRegionalPresenceSnippets": [],
+      "regionalPresenceCountries": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://quarksoft.net/",
+          "snippet": "bierno Servicios Business Applications Administración de aplicaciones (AMS) Productos Gestión de Proyectos de Software Plataforma de Integración Biométrica Identidad e historia Cultura Talento QS Innovación Blog Select Page Somos Quarksoft®, el orgullo de innovar Apor"
+        },
+        {
+          "url": "https://quarksoft.net/",
+          "snippet": "cios Business Applications Administración de Aplicaciones (AMS) Consultoría Productos Gestión de Proyectos de Software Plataforma de Integración Biométrica Facebook X Todos los Derechos Reservados 2025. Quarksoft® S.A P.I de C.V."
+        },
+        {
+          "url": "https://quarksoft.net/trabaja_con_nosotros/",
+          "snippet": "bierno Servicios Business Applications Administración de aplicaciones (AMS) Productos Gestión de Proyectos de Software Plataforma de Integración Biométrica Identidad e historia Cultura Talento QS Innovación Blog Select Page Trabaja en Quarksoft® Oportunidades Trabaja "
+        },
+        {
+          "url": "https://quarksoft.net/trabaja_con_nosotros/",
+          "snippet": ", procedemos a contratarte y a integrarte como elemento de nuestra empresa. Vacantes destacadas: Ingeniero de Software Quarksoft - CDMX Ver detalles Ingeniero de Software Java Sr Quarksoft - CDMX Ver detalles Arquitecto de Software Java Quarksoft - CDMX Ver detalles I"
+        },
+        {
+          "url": "https://quarksoft.net/trabaja_con_nosotros/",
+          "snippet": "nto de nuestra empresa. Vacantes destacadas: Ingeniero de Software Quarksoft - CDMX Ver detalles Ingeniero de Software Java Sr Quarksoft - CDMX Ver detalles Arquitecto de Software Java Quarksoft - CDMX Ver detalles Ingeniero de Software Java Chief Quarksoft - CDMX Ver"
+        },
+        {
+          "url": "https://quarksoft.net/trabaja_con_nosotros/",
+          "snippet": "tware Quarksoft - CDMX Ver detalles Ingeniero de Software Java Sr Quarksoft - CDMX Ver detalles Arquitecto de Software Java Quarksoft - CDMX Ver detalles Ingeniero de Software Java Chief Quarksoft - CDMX Ver detalles Ingeniero de Software C# .Net Sr Quarksoft - CDMX V"
+        },
+        {
+          "url": "https://quarksoft.net/contacto/",
+          "snippet": "bierno Servicios Business Applications Administración de aplicaciones (AMS) Productos Gestión de Proyectos de Software Plataforma de Integración Biométrica Identidad e historia Cultura Talento QS Innovación Blog Select Page Contacto En Quarksoft® nos ponemos a tus órd"
+        },
+        {
+          "url": "https://quarksoft.net/contacto/",
+          "snippet": "cios Business Applications Administración de Aplicaciones (AMS) Consultoría Productos Gestión de Proyectos de Software Plataforma de Integración Biométrica Facebook X Todos los Derechos Reservados 2025. Quarksoft® S.A P.I de C.V."
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": false
+    },
+    {
+      "name": "Scio Consulting",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/scio/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/scio/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true,
+      "website": "https://sciodev.com/",
+      "profilePageUrl": "https://thenearshorehub.com/es/empresas/scio/",
+      "profileFetchStatus": 200,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 1,
+      "careersUrl": "https://careers.sciodev.com/",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://sciodev.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Latin America",
+        "LATAM"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://sciodev.com/",
+          "snippet": " nearshore matter in Scio’s model? Nearshore makes real-time collaboration practical. Engineers in Mexico and Latin America work in hours that overlap with the U.S. business day, making live stand-ups, code reviews, technical discussions, and unplanned problem-solving easi"
+        }
+      ],
+      "officialRegionalPresenceSnippets": [
+        {
+          "url": "https://sciodev.com/",
+          "country": "Mexico",
+          "snippet": "g teams for mid-market software companies in the US and Canada. Twenty years, one time zone. Main Development Center in Mexico Who we help PE-backed portfolios Tech & Software companies Businesses running on proprietary software Solutions Integra"
+        }
+      ],
+      "regionalPresenceCountries": [
+        "Mexico"
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://sciodev.com/",
+          "snippet": "Nearshore Software Development Partner | Scio Who we help Solutions Services About us Blog Careers Schedule a call → PE-backed Portfolios Add capacity across portfolio "
+        },
+        {
+          "url": "https://sciodev.com/",
+          "snippet": "Schedule a call → PE-backed Portfolios Add capacity across portfolio companies without headcount risk. Tech & Software Companies Ship the roadmap when hiring locally is slower than the deadline. Businesses running on proprietary software Keep the platform the business"
+        },
+        {
+          "url": "https://sciodev.com/",
+          "snippet": "Companies Ship the roadmap when hiring locally is slower than the deadline. Businesses running on proprietary software Keep the platform the business runs on maintained and moving. Integrated engineering teams Teams that work inside your environment, not beside it. Sp"
+        },
+        {
+          "url": "https://sciodev.com/",
+          "snippet": "sses running on proprietary software Keep the platform the business runs on maintained and moving. Integrated engineering teams Teams that work inside your environment, not beside it. Specialized engineering capability Senior expertise in the stack you already run, not a"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": true
+    },
+    {
+      "name": "TIVIT",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/tivit/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/tivit/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true,
+      "website": "https://tivit.com/",
+      "profilePageUrl": "https://thenearshorehub.com/es/empresas/tivit/",
+      "profileFetchStatus": 200,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 2,
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://tivit.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://tivit.com/cybersecurity/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialRegionalPresenceSnippets": [],
+      "regionalPresenceCountries": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://tivit.com/",
+          "snippet": "& Smart System Digital Workplace ITSM TIVIT Workflow Soluções Antifraude e Crédito APIs & Conectores Soluções Cloud Microsoft 365 Private Cloud Public Cloud Hybrid Cloud Cloud Services OneCloud GPU for AI Cybersecurity TIVIT Defense SOC DevSecOps Governance, Risk &"
+        },
+        {
+          "url": "https://tivit.com/",
+          "snippet": "lace ITSM TIVIT Workflow Soluções Antifraude e Crédito APIs & Conectores Soluções Cloud Microsoft 365 Private Cloud Public Cloud Hybrid Cloud Cloud Services OneCloud GPU for AI Cybersecurity TIVIT Defense SOC DevSecOps Governance, Risk & Compliance (GRC) Threat & V"
+        },
+        {
+          "url": "https://tivit.com/",
+          "snippet": "IT Workflow Soluções Antifraude e Crédito APIs & Conectores Soluções Cloud Microsoft 365 Private Cloud Public Cloud Hybrid Cloud Cloud Services OneCloud GPU for AI Cybersecurity TIVIT Defense SOC DevSecOps Governance, Risk & Compliance (GRC) Threat & Vulnerability "
+        },
+        {
+          "url": "https://tivit.com/",
+          "snippet": "oluções Antifraude e Crédito APIs & Conectores Soluções Cloud Microsoft 365 Private Cloud Public Cloud Hybrid Cloud Cloud Services OneCloud GPU for AI Cybersecurity TIVIT Defense SOC DevSecOps Governance, Risk & Compliance (GRC) Threat & Vulnerability Management (T"
+        },
+        {
+          "url": "https://tivit.com/cybersecurity/",
+          "snippet": "& Smart System Digital Workplace ITSM TIVIT Workflow Soluções Antifraude e Crédito APIs & Conectores Soluções Cloud Microsoft 365 Private Cloud Public Cloud Hybrid Cloud Cloud Services OneCloud GPU for AI Cybersecurity TIVIT Defense SOC DevSecOps Governance, Risk &"
+        },
+        {
+          "url": "https://tivit.com/cybersecurity/",
+          "snippet": "lace ITSM TIVIT Workflow Soluções Antifraude e Crédito APIs & Conectores Soluções Cloud Microsoft 365 Private Cloud Public Cloud Hybrid Cloud Cloud Services OneCloud GPU for AI Cybersecurity TIVIT Defense SOC DevSecOps Governance, Risk & Compliance (GRC) Threat & V"
+        },
+        {
+          "url": "https://tivit.com/cybersecurity/",
+          "snippet": "IT Workflow Soluções Antifraude e Crédito APIs & Conectores Soluções Cloud Microsoft 365 Private Cloud Public Cloud Hybrid Cloud Cloud Services OneCloud GPU for AI Cybersecurity TIVIT Defense SOC DevSecOps Governance, Risk & Compliance (GRC) Threat & Vulnerability "
+        },
+        {
+          "url": "https://tivit.com/cybersecurity/",
+          "snippet": "oluções Antifraude e Crédito APIs & Conectores Soluções Cloud Microsoft 365 Private Cloud Public Cloud Hybrid Cloud Cloud Services OneCloud GPU for AI Cybersecurity TIVIT Defense SOC DevSecOps Governance, Risk & Compliance (GRC) Threat & Vulnerability Management (T"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": false
+    },
+    {
+      "name": "Zenta Group",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/zenta-group/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/zenta-group/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true,
+      "website": "https://zentagroup.com/",
+      "profilePageUrl": "https://thenearshorehub.com/es/empresas/zenta-group/",
+      "profileFetchStatus": 200,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 3,
+      "careersUrl": "https://zentagroup.com/services/taas/",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://zentagroup.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://zentagroup.com/us/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://zentagroup.com/services/taas/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialRegionalPresenceSnippets": [],
+      "regionalPresenceCountries": [],
+      "officialFitSnippets": [],
+      "likelyFit": false,
+      "fitReviewReason": "education provider; engineering terms describe courses or instruction, not a software employer",
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": false
+    },
+    {
+      "name": "Canvia",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/canvia/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/canvia/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true,
+      "website": "",
+      "profilePageUrl": "https://thenearshorehub.com/es/empresas/canvia/",
+      "profileFetchStatus": 200,
+      "officialSiteStatus": "HTTP 503",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Intersog",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/intersog/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/intersog/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true,
+      "website": "",
+      "profilePageUrl": "https://thenearshorehub.com/es/empresas/intersog/",
+      "profileFetchStatus": 200,
+      "officialSiteStatus": "HTTP 403",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Venturus",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/venturus/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/venturus/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.venturus.org.br/",
+      "profilePageUrl": "https://thenearshorehub.com/es/empresas/venturus/",
+      "profileFetchStatus": 200,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 1,
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.venturus.org.br/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialRegionalPresenceSnippets": [],
+      "regionalPresenceCountries": [],
+      "officialFitSnippets": [],
+      "likelyFit": false,
+      "fitReviewReason": "education provider; engineering terms describe courses or instruction, not a software employer",
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": false
+    },
+    {
+      "name": "Nexton",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/nexton/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/nexton/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true,
+      "website": "https://nexton.dev/talent",
+      "profilePageUrl": "https://thenearshorehub.com/es/empresas/nexton/",
+      "profileFetchStatus": 200,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 3,
+      "careersUrl": "https://nexton.dev/talent/#homeJoinUs",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://nexton.dev/talent",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://nexton.dev/about",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://nexton.dev/talent/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "LATAM",
+        "Latin America"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://nexton.dev/talent",
+          "snippet": "hip. Demétrio Alves Sr. Backend Engineer GiveFreely Review on 4.4 Review on 4.4 On a mission to empower 2000+ Latam Engineers by placing them in top US companies by 2025. Long-term remote opportunities at US companies waiting for you Apply Now © 2026 All rights res"
+        },
+        {
+          "url": "https://nexton.dev/about",
+          "snippet": "or Companies For Talent Think like Engineers Feel as Humans Act with Purpose We are transforming the lives of Latin American engineers by bridging them to US opportunities. We We believe believe that We drive efficiency through data. We succeed when our customers succeed. "
+        },
+        {
+          "url": "https://nexton.dev/about",
+          "snippet": "Sr. Controller / F&A Manager Recruiting Mariana Couceiro Director of Recruiting On a mission to empower 2000+ Latam Engineers by placing them in top US companies by 2025 On a mission to empower 2000+ Latam Engineers by placing them in top US companies by 2025 Behin"
+        },
+        {
+          "url": "https://nexton.dev/about",
+          "snippet": "on to empower 2000+ Latam Engineers by placing them in top US companies by 2025 On a mission to empower 2000+ Latam Engineers by placing them in top US companies by 2025 Behind every line of code an Engineer is developing his potential. No matter where in the world"
+        },
+        {
+          "url": "https://nexton.dev/about",
+          "snippet": "Nexton is a human-powered company building nearshore engineering teams for US companies. We hand-match senior Latin American engineers, and every one of them is vetted by another engineer before you see the profile. Since 2017, we have matched 1,500+ engineers with 350+ US"
+        },
+        {
+          "url": "https://nexton.dev/about",
+          "snippet": "ton name Nearshore technology staffing company (nexton.dev) serving US companies with software engineers from Latin America. Not affiliated with Nexton, the master-planned residential community in Summerville, South Carolina (nexton.com); nor with NEXTON Group, the French "
+        },
+        {
+          "url": "https://nexton.dev/talent/",
+          "snippet": "hip. Demétrio Alves Sr. Backend Engineer GiveFreely Review on 4.4 Review on 4.4 On a mission to empower 2000+ Latam Engineers by placing them in top US companies by 2025. Long-term remote opportunities at US companies waiting for you Apply Now © 2026 All rights res"
+        }
+      ],
+      "officialRegionalPresenceSnippets": [],
+      "regionalPresenceCountries": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://nexton.dev/talent",
+          "snippet": "US Long-term remote engineering opportunities | Nexton Discover the latest Tech Salaries and Benefits Trends For Companies Apply Now Hey Engineer! Apply Now Talent Advice About Next"
+        },
+        {
+          "url": "https://nexton.dev/talent",
+          "snippet": "ring opportunities | Nexton Discover the latest Tech Salaries and Benefits Trends For Companies Apply Now Hey Engineer! Apply Now Talent Advice About Nexton For Companies Apply Now For Companies For Engineers. By Engineers. For Engineers. By Engineers. Let our team ha"
+        },
+        {
+          "url": "https://nexton.dev/talent",
+          "snippet": "panies Apply Now Hey Engineer! Apply Now Talent Advice About Nexton For Companies Apply Now For Companies For Engineers. By Engineers. For Engineers. By Engineers. Let our team hand-match you with long-term remote opportunities at US companies. Apply Now 350+ US Compa"
+        },
+        {
+          "url": "https://nexton.dev/talent",
+          "snippet": "ow Hey Engineer! Apply Now Talent Advice About Nexton For Companies Apply Now For Companies For Engineers. By Engineers. For Engineers. By Engineers. Let our team hand-match you with long-term remote opportunities at US companies. Apply Now 350+ US Companies already h"
+        },
+        {
+          "url": "https://nexton.dev/about",
+          "snippet": "We are Nexton. Thinking like Engineers, Feeling as Humans. | Nexton Discover the latest Tech Salaries and Benefits Trends For Talent Book a Call About Us Become an Ambassador Our Blog Car"
+        },
+        {
+          "url": "https://nexton.dev/about",
+          "snippet": " Become an Ambassador Our Blog Careers at Nexton For Companies For Talent For Companies For Talent Think like Engineers Feel as Humans Act with Purpose We are transforming the lives of Latin American engineers by bridging them to US opportunities. We We believe believ"
+        },
+        {
+          "url": "https://nexton.dev/about",
+          "snippet": "r Talent Think like Engineers Feel as Humans Act with Purpose We are transforming the lives of Latin American engineers by bridging them to US opportunities. We We believe believe that We drive efficiency through data. We succeed when our customers succeed. We are pro"
+        },
+        {
+          "url": "https://nexton.dev/about",
+          "snippet": "ceed when our customers succeed. We are proudly accountable. We do the right thing. We unite as one team. For Engineers. By Engineers. + Diego Sternberg + Agustín Di Luciano + Lucas Arana And our unique Human Touch In an era dominated by AI, our primary differentiator"
+        },
+        {
+          "url": "https://nexton.dev/talent/",
+          "snippet": "US Long-term remote engineering opportunities | Nexton Discover the latest Tech Salaries and Benefits Trends For Companies Apply Now Hey Engineer! Apply Now Talent Advice About Next"
+        },
+        {
+          "url": "https://nexton.dev/talent/",
+          "snippet": "ring opportunities | Nexton Discover the latest Tech Salaries and Benefits Trends For Companies Apply Now Hey Engineer! Apply Now Talent Advice About Nexton For Companies Apply Now For Companies For Engineers. By Engineers. For Engineers. By Engineers. Let our team ha"
+        },
+        {
+          "url": "https://nexton.dev/talent/",
+          "snippet": "panies Apply Now Hey Engineer! Apply Now Talent Advice About Nexton For Companies Apply Now For Companies For Engineers. By Engineers. For Engineers. By Engineers. Let our team hand-match you with long-term remote opportunities at US companies. Apply Now 350+ US Compa"
+        },
+        {
+          "url": "https://nexton.dev/talent/",
+          "snippet": "ow Hey Engineer! Apply Now Talent Advice About Nexton For Companies Apply Now For Companies For Engineers. By Engineers. For Engineers. By Engineers. Let our team hand-match you with long-term remote opportunities at US companies. Apply Now 350+ US Companies already h"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": false
+    },
+    {
+      "name": "Ensolvers",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/ensolvers/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/ensolvers/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.ensolvers.com/",
+      "profilePageUrl": "https://thenearshorehub.com/es/empresas/ensolvers/",
+      "profileFetchStatus": 200,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 3,
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.ensolvers.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.ensolvers.com/about",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.ensolvers.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Latin America"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://www.ensolvers.com/",
+          "snippet": "re ahead of potential issues. Learn More Outperforming other regions and markets Why growing companies choose Latin American software development teams over Asia, Europe and domestic. COST PER HOUR $$ HIGH QUALITY & TIMELY OUTPUT ‍ Best-in-Class TIME ZONE & COMMUNICATION E"
+        },
+        {
+          "url": "https://www.ensolvers.com/",
+          "snippet": "re ahead of potential issues. Learn More Outperforming other regions and markets Why growing companies choose Latin American software development teams over Asia, Europe and domestic. COST PER HOUR $$ HIGH QUALITY & TIMELY OUTPUT ‍ Best-in-Class TIME ZONE & COMMUNICATION E"
+        }
+      ],
+      "officialRegionalPresenceSnippets": [],
+      "regionalPresenceCountries": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://www.ensolvers.com/",
+          "snippet": "Nearshore Software Development Company | Ensolvers SOLUTIONS AI Solutions Customized Software Development System Integration DevOps & Architecture Services Maintenance "
+        },
+        {
+          "url": "https://www.ensolvers.com/",
+          "snippet": "Nearshore Software Development Company | Ensolvers SOLUTIONS AI Solutions Customized Software Development System Integration DevOps & Architecture Services Maintenance & Tech Support PRODUCTS Hirelens: AI-Driven recruitment ATS Please Smile (C"
+        },
+        {
+          "url": "https://www.ensolvers.com/",
+          "snippet": "ly, featuring top Latin artists and creating unforgettable experiences for the Latin culture. The Challenge Reengineer the Uforia mobile app for iOS and Android with a custom-built CMS. Applied Tech Stack React Native, achieving 85% code reuse while maintaining native"
+        },
+        {
+          "url": "https://www.ensolvers.com/",
+          "snippet": "resell third-party tickets. How Self-Healing Long Polling Connector in Java Works Emanuel Gialleonardo Indart Software Engineer & Solver Find out why... Your best engineer is also your biggest liability. The risk isn&#x27;t that they&#x27;ll quit. It&#x27;s that every"
+        },
+        {
+          "url": "https://www.ensolvers.com/about",
+          "snippet": "About | Ensolvers SOLUTIONS AI Solutions Customized Software Development System Integration DevOps & Architecture Services Maintenance & Tech Support PRODUCTS Hirelens: AI-Driven recruitment ATS Please Smile (C"
+        },
+        {
+          "url": "https://www.ensolvers.com/about",
+          "snippet": "isi. mindfulness Born from a vision, built by Solvers. Ensolvers was founded in 2017 by a group of passionate engineers driven by a shared belief: technology isn&#x27;t a destination, it&#x27;s a journey. Nearly a decade later, we’ve learned something crucial: our cli"
+        },
+        {
+          "url": "https://www.ensolvers.com/about",
+          "snippet": "ion, it&#x27;s a journey. Nearly a decade later, we’ve learned something crucial: our clients don’t just need software. They need a partner who listens, works alongside them, and crafts solutions from scratch that align with their goals and drive innovation in their d"
+        },
+        {
+          "url": "https://www.ensolvers.com/about",
+          "snippet": "ney we’re on. Esteban Robles Luna Co-Founder and CEO Maria Soledad Balboa CFO Maximiliano Gialleonardo Indart Engineering Manager Manuel Rivero Engineering Manager Laura Rios People Care Manager An Idea of People Powering Solutions You see, behind every line of code and "
+        },
+        {
+          "url": "https://www.ensolvers.com/",
+          "snippet": "Nearshore Software Development Company | Ensolvers SOLUTIONS AI Solutions Customized Software Development System Integration DevOps & Architecture Services Maintenance "
+        },
+        {
+          "url": "https://www.ensolvers.com/",
+          "snippet": "Nearshore Software Development Company | Ensolvers SOLUTIONS AI Solutions Customized Software Development System Integration DevOps & Architecture Services Maintenance & Tech Support PRODUCTS Hirelens: AI-Driven recruitment ATS Please Smile (C"
+        },
+        {
+          "url": "https://www.ensolvers.com/",
+          "snippet": "ly, featuring top Latin artists and creating unforgettable experiences for the Latin culture. The Challenge Reengineer the Uforia mobile app for iOS and Android with a custom-built CMS. Applied Tech Stack React Native, achieving 85% code reuse while maintaining native"
+        },
+        {
+          "url": "https://www.ensolvers.com/",
+          "snippet": "resell third-party tickets. How Self-Healing Long Polling Connector in Java Works Emanuel Gialleonardo Indart Software Engineer & Solver Find out why... Your best engineer is also your biggest liability. The risk isn&#x27;t that they&#x27;ll quit. It&#x27;s that every"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": false
+    },
+    {
+      "name": "Moove It",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/moove-it/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/moove-it/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true,
+      "website": "https://qubika.com/mooveit/",
+      "profilePageUrl": "https://thenearshorehub.com/es/empresas/moove-it/",
+      "profileFetchStatus": 200,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 1,
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://qubika.com/mooveit/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialRegionalPresenceSnippets": [],
+      "regionalPresenceCountries": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://qubika.com/mooveit/",
+          "snippet": "ive to AI-Native We are shaping the future of next-generation applications by seamlessly integrating advanced data engineering and AI solutions with high-quality UX and robust security. Featured Pillars AccelerateAI Qubika’s comprehensive framework of best practices, workflow"
+        },
+        {
+          "url": "https://qubika.com/mooveit/",
+          "snippet": ". This ensures we deliver immediate business value with our customized solutions. Learn more Forward-Deployed Engineering Qubika’s certified Forward-Deployed Engineers turn business priorities into production AI, with ownership from discovery through deployment. Learn mo"
+        },
+        {
+          "url": "https://qubika.com/mooveit/",
+          "snippet": "ue with our customized solutions. Learn more Forward-Deployed Engineering Qubika’s certified Forward-Deployed Engineers turn business priorities into production AI, with ownership from discovery through deployment. Learn more about Qubika FDEs Qubika Studios Product D"
+        },
+        {
+          "url": "https://qubika.com/mooveit/",
+          "snippet": "n. Artificial Intelligence Agentic AI, GenAI, machine learning, NLP, computer vision. Data Data manipulation, engineering, visualization, and prediction. App Solutions Native or hybrid, SDK development, integrations, app store positioning. Cloud, SRE, & DevOps Cloud migr"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": false
+    },
+    {
+      "name": "Sngular",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/sngular/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/sngular/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.sngular.com/",
+      "profilePageUrl": "https://thenearshorehub.com/es/empresas/sngular/",
+      "profileFetchStatus": 200,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 3,
+      "careersUrl": "https://www.sngular.com/talent-and-culture/talent",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.sngular.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.sngular.com/industries/health",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.sngular.com/talent-and-culture/talent",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Latin America"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://www.sngular.com/",
+          "snippet": "hnology consultancy with over 1,500 professionals and an international presence in Europe, the United States, Latin America and the Middle East. The company serves large, industry-leading organisations, supporting them in the development of digital products, the modernisat"
+        }
+      ],
+      "officialRegionalPresenceSnippets": [],
+      "regionalPresenceCountries": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://www.sngular.com/",
+          "snippet": "e\"> AI Everywhere Transform your Business with the Power of AI Multiply your Skills Modernization with Google Cloud Develop your applications, processes and projects in the cloud We Can Help Creating emotional journeys At Sngular Culture & Entertainment, we don´t j"
+        },
+        {
+          "url": "https://www.sngular.com/",
+          "snippet": "Multiply your Skills Modernization with Google Cloud Develop your applications, processes and projects in the cloud We Can Help Creating emotional journeys At Sngular Culture & Entertainment, we don´t just design experiences; we craft emotional journeys that leave "
+        },
+        {
+          "url": "https://www.sngular.com/",
+          "snippet": "neys that leave lasting impressions Start your journey Building the Future of Healthcare Leverage technology, cloud, data, and AI to achieve outstanding competitive advantage Learn about our services We are Sngular Sngular is a global technology consultancy with ov"
+        },
+        {
+          "url": "https://www.sngular.com/",
+          "snippet": "adoption of next-generation technologies. Sngular combines expertise in consultancy, artificial intelligence, software engineering, design, data, cloud computing and technology talent to tackle strategic projects in sectors such as banking, insurance, retail, energy, "
+        },
+        {
+          "url": "https://www.sngular.com/industries/health",
+          "snippet": " Sciences We empower healthcare providers, pharmaceutical and life sciences companies to leverage technology, cloud, data, and AI to achieve outstanding competitive advantage. Building the Future of Healthcare: The Unconventional, Delivered The future of healthcare"
+        },
+        {
+          "url": "https://www.sngular.com/industries/health",
+          "snippet": " Drug discovery and repurposing We provide real access to Google DeepMind models and the most advanced Google Cloud technology to apply it to medicine. Do you want to predict the behavior of your product with different formulations or doses to guarantee its stabili"
+        },
+        {
+          "url": "https://www.sngular.com/industries/health",
+          "snippet": "hile optimizing operations and engaging with HCPs and patients effectively. We offer a comprehensive suite of software and AI-powered solutions designed to help you overcome these hurdles and thrive. Our solutions are built on a foundation of innovation, industry best"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": false
+    },
+    {
+      "name": "Tiempo Development",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/tiempo-development/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/tiempo-development/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true,
+      "website": "",
+      "profilePageUrl": "https://thenearshorehub.com/es/empresas/tiempo-development/",
+      "profileFetchStatus": 200,
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Zemoga",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/zemoga/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/zemoga/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true,
+      "website": "",
+      "profilePageUrl": "https://thenearshorehub.com/es/empresas/zemoga/",
+      "profileFetchStatus": 200,
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Grupo ASSA",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/grupo-assa/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/grupo-assa/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true,
+      "website": "",
+      "profilePageUrl": "https://thenearshorehub.com/es/empresas/grupo-assa/",
+      "profileFetchStatus": 200,
+      "officialSiteStatus": "HTTP 403",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Perficient Latin America",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/perficient-latam/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/perficient-latam/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true,
+      "website": "",
+      "profilePageUrl": "https://thenearshorehub.com/es/empresas/perficient-latam/",
+      "profileFetchStatus": 200,
+      "officialSiteStatus": "HTTP 429",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "PSL",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/psl/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/psl/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true,
+      "website": "",
+      "profilePageUrl": "https://thenearshorehub.com/es/empresas/psl/",
+      "profileFetchStatus": 200,
+      "officialSiteStatus": "HTTP 429",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Zup Innovation",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/zup/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/zup/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true,
+      "website": "https://zup.com.br/",
+      "profilePageUrl": "https://thenearshorehub.com/es/empresas/zup/",
+      "profileFetchStatus": 200,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 1,
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://zup.com.br/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialRegionalPresenceSnippets": [],
+      "regionalPresenceCountries": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://zup.com.br/",
+          "snippet": "regar valor com IA para seus clientes, por André Palma Quero conhecer → TI Inside Coluna Marcos Bonas Harness engineering: conheça o termo que está cada vez mais em alta Quero conhecer → Blog Zup Labs Conheça nosso laboratório de Pesquisa e Inovação em Gen AI Quero conhe"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": false
+    }
+  ]
+}

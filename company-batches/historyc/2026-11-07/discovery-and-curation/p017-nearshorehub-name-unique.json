@@ -1,0 +1,398 @@
+{
+  "cohortId": "likes-based-2026-11-07-p017",
+  "generatedOn": "2026-11-07",
+  "catalog": {
+    "source": "MongoDB + bundled files",
+    "mongoCompanies": 1620,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 0,
+    "indexedNames": 1668,
+    "indexedDomains": 1582
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 66,
+    "topTracks": [
+      {
+        "track": "Engineering",
+        "count": 36
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "Software Engineering",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Node.js",
+        "count": 2
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        47
+      ],
+      [
+        "direct",
+        16
+      ],
+      [
+        "unknown",
+        3
+      ]
+    ]
+  },
+  "dislikeBaseline": {
+    "activeDislikedWithCostaRicaOrLatamEvidence": 98,
+    "dislikedTracks": [
+      {
+        "track": "Engineering",
+        "count": 64
+      },
+      {
+        "track": "Software Engineering",
+        "count": 13
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 8
+      },
+      {
+        "track": "Backend",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 5
+      },
+      {
+        "track": "Java Backend",
+        "count": 3
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 3
+      },
+      {
+        "track": "Python",
+        "count": 3
+      },
+      {
+        "track": "Nearshore",
+        "count": 3
+      },
+      {
+        "track": "Full Stack",
+        "count": 3
+      },
+      {
+        "track": "Go",
+        "count": 1
+      },
+      {
+        "track": "Node.js",
+        "count": 1
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        53
+      ],
+      [
+        "direct",
+        35
+      ],
+      [
+        "unknown",
+        10
+      ]
+    ]
+  },
+  "candidates": [
+    {
+      "name": "LoopStudio",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/loopstudio/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/loopstudio/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Qubika",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/qubika/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/qubika/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "GeneXus",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/genexus/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/genexus/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "10Pines",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/10pines/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/10pines/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Tryolabs",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/tryolabs/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/tryolabs/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Capicua",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/capicua/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/capicua/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Kaizen Softworks",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/kaizen-softworks/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/kaizen-softworks/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Qualabs",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/qualabs/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/qualabs/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Quanam",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/quanam/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/quanam/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Bitlogic",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/bitlogic/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/bitlogic/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Flux IT",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/flux-it/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/flux-it/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Snoop Consulting",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/snoop/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/snoop/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "ArkusNexus",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/arkusnexus/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/arkusnexus/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Hitss",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/hitss/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/hitss/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Quarksoft",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/quarksoft/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/quarksoft/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Scio Consulting",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/scio/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/scio/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "TIVIT",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/tivit/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/tivit/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Zenta Group",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/zenta-group/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/zenta-group/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Canvia",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/canvia/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/canvia/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Intersog",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/intersog/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/intersog/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Venturus",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/venturus/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/venturus/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Nexton",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/nexton/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/nexton/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Ensolvers",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/ensolvers/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/ensolvers/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Moove It",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/moove-it/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/moove-it/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Sngular",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/sngular/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/sngular/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Tiempo Development",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/tiempo-development/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/tiempo-development/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Zemoga",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/zemoga/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/zemoga/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Grupo ASSA",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/grupo-assa/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/grupo-assa/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Perficient Latin America",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/perficient-latam/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/perficient-latam/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "PSL",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/psl/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/psl/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Zup Innovation",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/zup/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/zup/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    }
+  ],
+  "uniqueCandidatesFound": 31,
+  "outputLimit": 1000
+}

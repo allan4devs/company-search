@@ -1,0 +1,1288 @@
+{
+  "cohortId": "likes-based-2026-11-07-p008",
+  "checkedOn": "2026-11-07",
+  "sourceInput": "company-batches\\historyc\\2026-11-07\\reporting\\p008-manifest-page2-survivors.json",
+  "inputCandidateCount": 20,
+  "candidateOffset": 0,
+  "candidateCount": 20,
+  "remainingCandidateCount": 0,
+  "queryLanes": [
+    {
+      "lane": "The Manifest Costa Rica software directory — page 2",
+      "checked": 20,
+      "reachable": 15,
+      "regionAndFit": 10,
+      "localOrEligibleAndFit": 7,
+      "regionAndFitRate": 0.5,
+      "localOrEligibleAndFitRate": 0.35,
+      "recommendation": "continue, then compare against the next batch"
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Faro Creativa Studio",
+      "website": "https://infosgroup.cr/web/guest/inicio",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://infosgroup.cr/web/guest/inicio",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://infosgroup.cr/nosotros",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://wvw.infosgroup.cr/contacto",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://infosgroup.cr/web/guest/inicio",
+          "snippet": "Infosgroup - Empresa de desarrollo de software en Costa Rica --> Inicio (current) Nosotros (current) Servicios (current) Capacitaciones (current) Blog (current) Contacto infos-redes-sociales - Empresa de Desarr"
+        },
+        {
+          "url": "https://infosgroup.cr/web/guest/inicio",
+          "snippet": "nt) Nosotros (current) Servicios (current) Capacitaciones (current) Blog (current) Contacto © 2023 Infosgroup Costa Rica. All Rights Reserved"
+        },
+        {
+          "url": "https://infosgroup.cr/nosotros",
+          "snippet": "ías más eficaces . Es por eso que fuimos pioneros en el uso de mejores prácticas de ingeniería de software en Costa Rica y distribuidores para Centroamérica de la línea de metodología y productos Rational Software (actualmente IBM Rational), obteniendo varios reconocimi"
+        },
+        {
+          "url": "https://infosgroup.cr/nosotros",
+          "snippet": "nt) Nosotros (current) Servicios (current) Capacitaciones (current) Blog (current) Contacto © 2023 Infosgroup Costa Rica. All Rights Reserved"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://infosgroup.cr/web/guest/inicio",
+          "snippet": "Infosgroup - Empresa de desarrollo de software en Costa Rica --> Inicio (current) Nosotros (current) Servicios (current) Capacitaciones (current) Blog (current) Contacto infos-redes-sociales - Emp"
+        },
+        {
+          "url": "https://infosgroup.cr/web/guest/inicio",
+          "snippet": "rrent) Servicios (current) Capacitaciones (current) Blog (current) Contacto infos-redes-sociales - Empresa de Desarrollo de Software Queremos ser el proveedor que diseñe la solución tecnológica exacta para tu negocio Más de 20 años ejecutando proyectos 100% exitosos Contactar Consu"
+        },
+        {
+          "url": "https://infosgroup.cr/web/guest/inicio",
+          "snippet": "e tu empresa necesita es es corregir procesos insatisfactorios, identificándolos y mejorándolos, junto con el desarrollo de software que permita sistematizar estos procesos. De esta manera, tu compañía tendrá un mayor rendimiento, brindará un mejor servicio al cliente, y por lo tan"
+        },
+        {
+          "url": "https://infosgroup.cr/web/guest/inicio",
+          "snippet": "ocimiento que tenemos en mejores prácticas en innovación de procesos, arquitectura empresarial, ingeniería de software, metodología ágil y administración de proyectos, diseñaremos y ejecutaremos una estrategia de innovación para tu empresa, además de asesorar a tu equ"
+        },
+        {
+          "url": "https://infosgroup.cr/nosotros",
+          "snippet": "presa, ayudamos a tu equipo a entender, adoptar y aplicar las mejores prácticas de procesos, de ingeniería de software y de administración de proyectos para que puedas ejecutarlas sin depender de nosotros. SOBRE NOSOTROS INFOSGROUP Fue hace ya más de 20 años que comen"
+        },
+        {
+          "url": "https://infosgroup.cr/nosotros",
+          "snippet": "z más generalizada por la falta de conocimiento en las prácticas que sí funcionan en materia de ingeniería de software, tuvimos claro cuál sería nuestra misión: Queríamos ser, más que un grupo de expertos en el tema, un equipo de asesores tecnológicos , capaces no sol"
+        },
+        {
+          "url": "https://infosgroup.cr/nosotros",
+          "snippet": "as metodologías más eficaces . Es por eso que fuimos pioneros en el uso de mejores prácticas de ingeniería de software en Costa Rica y distribuidores para Centroamérica de la línea de metodología y productos Rational Software (actualmente IBM Rational), obteniendo var"
+        },
+        {
+          "url": "https://infosgroup.cr/nosotros",
+          "snippet": "de software en Costa Rica y distribuidores para Centroamérica de la línea de metodología y productos Rational Software (actualmente IBM Rational), obteniendo varios reconocimientos como partner clave en la región . Además, nos certificamos como Project Managers por el"
+        },
+        {
+          "url": "https://wvw.infosgroup.cr/contacto",
+          "snippet": "48 horas . ALGUNAS EMPRESAS QUE HAN CONFIADO EN NOSOTROS COMO ALIADO PARA SUS PROYECTOS Control de calidad de software Pruebas de desempeño Desarrollo web y de apps Sistema Integrado de Logística Desarrollo de portal transaccional Portal Institucional INVU Transformac"
+        },
+        {
+          "url": "https://wvw.infosgroup.cr/contacto",
+          "snippet": "aluación de personal Integración de aplicaciones Tracking de Contenedores y facturación Control de calidad de software Pruebas de desempeño Desarrollo web y de apps Sistema Integrado de Logística Desarrollo de portal transaccional Portal Institucional INVU Transformac"
+        },
+        {
+          "url": "https://wvw.infosgroup.cr/contacto",
+          "snippet": "RIALES Queremos ser su proveedor aliado Tenemos más de 21 años de experiencia en proyectos empresariales y de tecnología de la información en diversas industrias; hemos desarrollado proyectos en Centroamérica, México, Ecuador, Chile y España. Dominamos la ingeniería de software así como "
+        },
+        {
+          "url": "https://wvw.infosgroup.cr/contacto",
+          "snippet": "s; hemos desarrollado proyectos en Centroamérica, México, Ecuador, Chile y España. Dominamos la ingeniería de software así como las técnicas y prácticas para el análisis de negocios y procesos. Poseemos personal certificado y especializado en el dominio de metodología"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Altus - LATAM",
+      "website": "https://altus.cr/",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2",
+      "officialSiteStatus": "fetch failed",
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "MBC Developers",
+      "website": "https://www.mbcdevelopers.com/",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2",
+      "officialSiteStatus": "fetch failed",
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Greencore Solutions",
+      "website": "https://www.greencore.co.cr/",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.greencore.co.cr/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.greencore.co.cr/contacto",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://www.greencore.co.cr/",
+          "snippet": "nformación Escr&iacute;benos Info@greencore.co.cr Tel: +(506) 4070-0015 ​Paseo Col&oacute;n, San Jos&eacute;, Costa Rica C&eacute;dula Jur&iacute;dica ​3-102-415633 Síguenos Contacto T&eacute;rminos & Condiciones &copy; 2025 by RAFX Studio&trade; Go Up Nosotros Producto"
+        },
+        {
+          "url": "https://www.greencore.co.cr/contacto",
+          "snippet": "nformación Escr&iacute;benos Info@greencore.co.cr Tel: +(506) 4070-0015 ​Paseo Col&oacute;n, San Jos&eacute;, Costa Rica C&eacute;dula Jur&iacute;dica ​3-102-415633 Síguenos Contacto T&eacute;rminos & Condiciones &copy; 2025 by RAFX Studio&trade; Go Up Nosotros Producto"
+        }
+      ],
+      "officialFitSnippets": [],
+      "likelyFit": false,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Delfix Tecnosoluciones",
+      "website": "https://delfixcr.com/",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://delfixcr.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://delfixcr.com/aboutus",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://delfixcr.com/contactus",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://delfixcr.com/",
+          "snippet": "ntáctenos 4001-3192 [email&#160;protected] 200 metros al sur 50 al oeste de la Pops. Curridabat San José (CR) Costa Rica Encuentranos en Waze y Google Maps Derechos reservados &copy; Delfix Tecnosoluciones S.A."
+        },
+        {
+          "url": "https://delfixcr.com/aboutus",
+          "snippet": "​o​​​​​​​​​​​​​​​​​​​​ ¿Por qué trabajar con Delfix? Certificados Somos el primer partner Gold certificado en Costa Rica en las ultimas versiones. V15, 16 y 17 de Odoo. Experiencia Nuestros analistas y desarrolladores están dedicados 100% a Odoo, contamos con años de ex"
+        },
+        {
+          "url": "https://delfixcr.com/aboutus",
+          "snippet": "ntáctenos 4001-3192 [email&#160;protected] 200 metros al sur 50 al oeste de la Pops. Curridabat San José (CR) Costa Rica Encuentranos en Waze y Google Maps Derechos reservados &copy; Delfix Tecnosoluciones S.A."
+        },
+        {
+          "url": "https://delfixcr.com/contactus",
+          "snippet": "gunta * Correo electrónico a Enviar Delfix 200 metros al sur 50 al oeste de la Pops. Curridabat San José (CR) Costa Rica 4001-3192 [email&#160;protected] To install this Web App in your iPhone/iPad press and then Add to Home Screen. Síguenos: Síganos Medios de comunicac"
+        },
+        {
+          "url": "https://delfixcr.com/contactus",
+          "snippet": "ntáctenos 4001-3192 [email&#160;protected] 200 metros al sur 50 al oeste de la Pops. Curridabat San José (CR) Costa Rica Encuentranos en Waze y Google Maps Derechos reservados &copy; Delfix Tecnosoluciones S.A."
+        }
+      ],
+      "officialFitSnippets": [],
+      "likelyFit": false,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "ieSoft",
+      "website": "https://www.iesoft.net/",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2",
+      "officialSiteStatus": "fetch failed",
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Clavis Consultores",
+      "website": "https://www.clavisco.com/",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2",
+      "careersUrl": "https://www.clavisco.com/empleo",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.clavisco.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.clavisco.com/empleo",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.clavisco.com/contacto",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://www.clavisco.com/",
+          "snippet": " 1 Revisión de Procesos Soluciones Soluciones personalizadas Solver Soluciones personalizadas Solver Oficinas Costa Rica Colombia Costa Rica Colombia Contacto Cursos SAP Business One Cursos presenciales Cursos virtuales Cursos presenciales Cursos virtuales Historias de "
+        },
+        {
+          "url": "https://www.clavisco.com/",
+          "snippet": "sos Soluciones Soluciones personalizadas Solver Soluciones personalizadas Solver Oficinas Costa Rica Colombia Costa Rica Colombia Contacto Cursos SAP Business One Cursos presenciales Cursos virtuales Cursos presenciales Cursos virtuales Historias de éxito Webinar Carrer"
+        },
+        {
+          "url": "https://www.clavisco.com/",
+          "snippet": "s su gesti&oacute;n con informaci&oacute;n clave para decidir con certeza. Historias de éxito Países Colombia Costa Rica Conocer más HISTORIAS DE &Eacute;XITO SAP BUSINESS ONE OFICINAS Acompa&ntilde;amos a las empresas en su proceso de transformaci&oacute;n digital en A"
+        },
+        {
+          "url": "https://www.clavisco.com/",
+          "snippet": "ute;guenos Enlaces SAP Business One Nuestros servicios Nuestras soluciones Historias de &eacute;xito Oficinas Costa Rica 400m oeste y 150m sur del AMPM, diagonal a Coopem&eacute;dicos, Sabana Sur.San Jos&eacute;, Provincia de San Jos&eacute;, Costa Rica. (506) 4001-5771"
+        },
+        {
+          "url": "https://www.clavisco.com/",
+          "snippet": " 150m sur del AMPM, diagonal a Coopem&eacute;dicos, Sabana Sur.San Jos&eacute;, Provincia de San Jos&eacute;, Costa Rica. (506) 4001-5771 / (506) 7051-2532 ​ Segunda planta, Plaza La Tormenta, San Jos&eacute;, San Isidro de El General, Barrio Boston, 11901 (506) 4001-57"
+        },
+        {
+          "url": "https://www.clavisco.com/empleo",
+          "snippet": " 1 Revisión de Procesos Soluciones Soluciones personalizadas Solver Soluciones personalizadas Solver Oficinas Costa Rica Colombia Costa Rica Colombia Contacto Cursos SAP Business One Cursos presenciales Cursos virtuales Cursos presenciales Cursos virtuales Historias de "
+        },
+        {
+          "url": "https://www.clavisco.com/empleo",
+          "snippet": "sos Soluciones Soluciones personalizadas Solver Soluciones personalizadas Solver Oficinas Costa Rica Colombia Costa Rica Colombia Contacto Cursos SAP Business One Cursos presenciales Cursos virtuales Cursos presenciales Cursos virtuales Historias de éxito Webinar Carrer"
+        },
+        {
+          "url": "https://www.clavisco.com/empleo",
+          "snippet": "s su gesti&oacute;n con informaci&oacute;n clave para decidir con certeza. Historias de éxito Países Colombia Costa Rica Conocer más HISTORIAS DE &Eacute;XITO SAP BUSINESS ONE OFICINAS Acompa&ntilde;amos a las empresas en su proceso de transformaci&oacute;n digital en A"
+        },
+        {
+          "url": "https://www.clavisco.com/empleo",
+          "snippet": "ute;guenos Enlaces SAP Business One Nuestros servicios Nuestras soluciones Historias de &eacute;xito Oficinas Costa Rica 400m oeste y 150m sur del AMPM, diagonal a Coopem&eacute;dicos, Sabana Sur.San Jos&eacute;, Provincia de San Jos&eacute;, Costa Rica. (506) 4001-5771"
+        },
+        {
+          "url": "https://www.clavisco.com/empleo",
+          "snippet": " 150m sur del AMPM, diagonal a Coopem&eacute;dicos, Sabana Sur.San Jos&eacute;, Provincia de San Jos&eacute;, Costa Rica. (506) 4001-5771 / (506) 7051-2532 ​ Segunda planta, Plaza La Tormenta, San Jos&eacute;, San Isidro de El General, Barrio Boston, 11901 (506) 4001-57"
+        },
+        {
+          "url": "https://www.clavisco.com/contacto",
+          "snippet": " 1 Revisión de Procesos Soluciones Soluciones personalizadas Solver Soluciones personalizadas Solver Oficinas Costa Rica Colombia Costa Rica Colombia Contacto Cursos SAP Business One Cursos presenciales Cursos virtuales Cursos presenciales Cursos virtuales Historias de "
+        },
+        {
+          "url": "https://www.clavisco.com/contacto",
+          "snippet": "sos Soluciones Soluciones personalizadas Solver Soluciones personalizadas Solver Oficinas Costa Rica Colombia Costa Rica Colombia Contacto Cursos SAP Business One Cursos presenciales Cursos virtuales Cursos presenciales Cursos virtuales Historias de éxito Webinar Carrer"
+        },
+        {
+          "url": "https://www.clavisco.com/contacto",
+          "snippet": "s su gesti&oacute;n con informaci&oacute;n clave para decidir con certeza. Historias de éxito Países Colombia Costa Rica Conocer más HISTORIAS DE &Eacute;XITO SAP BUSINESS ONE OFICINAS Acompa&ntilde;amos a las empresas en su proceso de transformaci&oacute;n digital en A"
+        },
+        {
+          "url": "https://www.clavisco.com/contacto",
+          "snippet": "ute;guenos Enlaces SAP Business One Nuestros servicios Nuestras soluciones Historias de &eacute;xito Oficinas Costa Rica 400m oeste y 150m sur del AMPM, diagonal a Coopem&eacute;dicos, Sabana Sur.San Jos&eacute;, Provincia de San Jos&eacute;, Costa Rica. (506) 4001-5771"
+        },
+        {
+          "url": "https://www.clavisco.com/contacto",
+          "snippet": " 150m sur del AMPM, diagonal a Coopem&eacute;dicos, Sabana Sur.San Jos&eacute;, Provincia de San Jos&eacute;, Costa Rica. (506) 4001-5771 / (506) 7051-2532 ​ Segunda planta, Plaza La Tormenta, San Jos&eacute;, San Isidro de El General, Barrio Boston, 11901 (506) 4001-57"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://www.clavisco.com/empleo",
+          "snippet": "egura y continua de la infraestructura tecnol&oacute;gica sobre la cual operan y se entregan los servicios de software de la compa&ntilde;&iacute;a. Soporte El Departamento de Soporte tiene como principal objetivo asegurar la continuidad operativa y el rendimiento &oa"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Synapptica",
+      "website": "https://synapptica.net/",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://synapptica.net/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://synapptica.net/company.html",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://synapptica.net/contact.html",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://synapptica.net/",
+          "snippet": "tos y precios atractivos para nuestros clientes. Desde el 2019 somos orgullosos representantes de la marca en Costa Rica, ofreciendo un catálogo de opciones de licenciamiento para nuestros clientes de primer nivel. La seguridad informática siempre será una de nuestras p"
+        },
+        {
+          "url": "https://synapptica.net/",
+          "snippet": "os y enfóquese plenamente en la operativa propia de su negocio. Jose Porras Núñez, CEO Hablemos --> San José, Costa Rica Oficentro La Sabana, Torre 6 Piso 7 | Info@synapptica.net | Tel. (506) 8510 - 9339 &copy; Copyright . Todos los derechos reservados."
+        },
+        {
+          "url": "https://synapptica.net/company.html",
+          "snippet": "p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum repellendus dolores, error. --> San José, Costa Rica Oficentro La Sabana, Torre 6 Piso 7 | Info@synapptica.net | Tel. (506) 8510 - 9339 &copy; Copyright . Todos los derechos reservados."
+        },
+        {
+          "url": "https://synapptica.net/contact.html",
+          "snippet": "orenos, San José Escribanos: info@synapptica.net Llámenos: 506-8309 3292 WhatsApp: 506-83093292 --> San José, Costa Rica Oficentro La Sabana, Torre 6 Piso 7 | Info@synapptica.net | Tel. (506) 8510 - 9339 &copy; Copyright . Todos los derechos reservados."
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://synapptica.net/",
+          "snippet": "pptica Innovación y Tecnológia Facebook Linkedin Instagram Inicio Quienes somos --> Servicios Agencia Digital Desarrollo de Software Soporte Técnico Soluciones Heimdall Broker SIP Qmatic Gestión de colas Cita previa online Soluciones de cola virtual SICOI Bar - Restaurante Comercio"
+        },
+        {
+          "url": "https://synapptica.net/",
+          "snippet": "xperiencia productiva y placentera. Nuestro equipo se compone de consultores informáticos, desarrolladores de software y apps, diseñadores gráficos, social manager y equipos de alto desempeño. Somos una familia, somos Synapptica. ¿Qué hacemos? Nos encargamos de empode"
+        },
+        {
+          "url": "https://synapptica.net/",
+          "snippet": "rantiza. Hacemos más productivo su negocio. Analizamos, diseñamos, desarrollamos e implementamos proyectos de software en múltiples plataformas. Garantizamos la continuidad de su servicio. Nuestros técnicos estan capacitados en todas las áreas para garantizar un buen "
+        },
+        {
+          "url": "https://synapptica.net/company.html",
+          "snippet": "ny Video demonstration &times; Facebook Linkedin Instagram Inicio Quienes somos --> Servicios Agencia Digital Desarrollo de Software Soporte Técnico Soluciones Heimdall Broker SIP Qmatic Gestión de colas Cita previa online Soluciones de cola virtual SICOI Bar - Restaurante Comercio"
+        },
+        {
+          "url": "https://synapptica.net/company.html",
+          "snippet": "aperiam minus corporis, nesciunt nobis quaerat voluptatumunt qui similique. A team of passinate designers and developers who are unmatched Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem libero adipisci odit, iure quibusdam veniam eius perferendis num"
+        },
+        {
+          "url": "https://synapptica.net/contact.html",
+          "snippet": "Synapptica a un click Facebook Linkedin Instagram Inicio Quienes somos --> Servicios Agencia Digital Desarrollo de Software Soporte Técnico Soluciones Heimdall Broker SIP Qmatic Gestión de colas Cita previa online Soluciones de cola virtual Blog Contáctenos Contáctenos Ini"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Mecsoft de Costa Rica",
+      "website": "https://mecsoftcr.com/",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://mecsoftcr.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://mecsoftcr.com/?page_id=393",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://mecsoftcr.com/",
+          "snippet": "Inicio - Mecsoft de Costa Rica Inicio Nosotros Servicios -Digitalización de procesos de manufactura -Gestión de documentación para procesos de las ingenierías y arquitectura -Ed"
+        },
+        {
+          "url": "https://mecsoftcr.com/",
+          "snippet": "d y rentabilidad de esas empresas. Mecsoft surge de un proyecto de investigación del Instituto Tecnológico de Costa Rica en la década de los 90&#8217;s y por más de 20 años ha logrado consolidar una prestigiosa cartera de más de 500 clientes. CONOCE MÁS Nace MECSOFT Año"
+        },
+        {
+          "url": "https://mecsoftcr.com/?page_id=393",
+          "snippet": "Nosotros - Mecsoft de Costa Rica Inicio Nosotros Servicios -Digitalización de procesos de manufactura -Gestión de documentación para procesos de las ingenierías y arquitectura -Ed"
+        },
+        {
+          "url": "https://mecsoftcr.com/?page_id=393",
+          "snippet": "a 4.0, que acelera la curva de aprendizaje y el retorno de la inversión. Éxitos demostrados dentro y fuera de Costa Rica. Hemos potenciado el recurso humano técnico en las compañias de nuestros clientes. Algunos de nuestros clientes Nuestros Aliados Contáctanos  (506) "
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://mecsoftcr.com/",
+          "snippet": " automáticas según estado. Panel de control gerencial. ¿Quiénes somos? En Mecsoft nos dedicamos a adaptar las tecnologías digitales a las capacidades y necesidades de la industria local, principalmente en los sectores de manufactura avanzada y liviana y el sector de la construcció"
+        },
+        {
+          "url": "https://mecsoftcr.com/",
+          "snippet": "de 500 clientes. CONOCE MÁS Nace MECSOFT Años de experiencia Nace el Consorcio Clientes satisfechos Brindando servicios tecnológicos desde 1999 Nuestro propósito: ayudarle a las empresas a alcanzar la transformación digital que requieren para mantenerse competitivas. Ninguna empres"
+        },
+        {
+          "url": "https://mecsoftcr.com/",
+          "snippet": "onstrucción. Algunos de nuestros clientes A continuación algunos de nuestros clientes a los que les brindamos soluciones tecnológicas con lo que hemos logrado una relación de confianza y satisfacción mutua a largo plazo. Nuestros Aliados Contáctanos  (506) 2235-6363  Moravia, San "
+        },
+        {
+          "url": "https://mecsoftcr.com/",
+          "snippet": "s de 20 años de experiencia como empresa especializada en soluciones técnicas y en la venta y capacitación en software de primer nivel. Además ahora somos el consorcio de Internet of Things (C- IoT). Nombre Dirección de correo electrónico Mensaje Enviar Facebook Twitt"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Blackberry&Cross",
+      "website": "https://blackberrycross.com/",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2",
+      "careersUrl": "https://blackberrycross.com/lean-job-shop-unidades-productivas-manufactura/",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://blackberrycross.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://blackberrycross.com/lean-job-shop-unidades-productivas-manufactura/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://blackberrycross.com/contactenos-blackberry-cross/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://blackberrycross.com/",
+          "snippet": "nalysis Machine Learning [no code] Análisis de Causa Raíz Platiquemos rifa curso grátis inyección de plástico costa rica américa latina Sorteo Curso Inyección de Plástico Ver banner superior Blackberry & Cross™ Le ayudamos a mejorar sus procesos, aumentar la productivid"
+        },
+        {
+          "url": "https://blackberrycross.com/",
+          "snippet": "os los derechos reservados Copyright 2005-2026 soluciones@blackberrycross.com (506) 47-04-8067 Hecho con ♥ en Costa Rica"
+        },
+        {
+          "url": "https://blackberrycross.com/lean-job-shop-unidades-productivas-manufactura/",
+          "snippet": "os los derechos reservados Copyright 2005-2026 soluciones@blackberrycross.com (506) 47-04-8067 Hecho con ♥ en Costa Rica"
+        },
+        {
+          "url": "https://blackberrycross.com/contactenos-blackberry-cross/",
+          "snippet": "os los derechos reservados Copyright 2005-2026 soluciones@blackberrycross.com (506) 47-04-8067 Hecho con ♥ en Costa Rica"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://blackberrycross.com/",
+          "snippet": "lemas LEAN Six Sigma OPEX Herrramientas Estadísticas Tecnología de Plásticos Portales Tecnología de Plásticos Software TRACtion EngineRoom Blog BBCross Contáctenos Blackberry &#038; Cross Noticias Blackberry &#038; Cross Eventos Acerca de Blackberry &#038; Cross Coord"
+        },
+        {
+          "url": "https://blackberrycross.com/",
+          "snippet": " de calidad y fortalecer su competitividad empresarial. Desde 20 años nos especializamos en licenciamiento de software, e-learning, capacitación y servicios especializados en Excelencia Operacional, Ingeniería de Calidad, Análisis de datos y Proyectos de mejora contin"
+        },
+        {
+          "url": "https://blackberrycross.com/",
+          "snippet": " nos hemos dedicado a diseñar, comercializar y dar soporte a soluciones de capacitación, mentoría, asesoría y software orientado al mejoramiento e innovación. Atendemos industrias de dispositivos médicos, manufactura de alimentos y manufactura discreta Nuestros servic"
+        },
+        {
+          "url": "https://blackberrycross.com/",
+          "snippet": " Ingeniería de procesos Simulación de procesos Reducción de costos en manufactura Benchmarking Menú Servicios Software Blackberry &#038; Cross Cursos Mentoring Noticias Blackberry &#038; Cross Blog BBcross Academy Precios Menú Términos y condiciones Blackberry &#038; "
+        },
+        {
+          "url": "https://blackberrycross.com/lean-job-shop-unidades-productivas-manufactura/",
+          "snippet": "lemas LEAN Six Sigma OPEX Herrramientas Estadísticas Tecnología de Plásticos Portales Tecnología de Plásticos Software TRACtion EngineRoom Blog BBCross Contáctenos Blackberry &#038; Cross Noticias Blackberry &#038; Cross Eventos Acerca de Blackberry &#038; Cross Coord"
+        },
+        {
+          "url": "https://blackberrycross.com/lean-job-shop-unidades-productivas-manufactura/",
+          "snippet": "abajo Administración Visual del Lugar de Trabajo TPM: Conceptos Básicos TPM: Conceptos Básicos Menú Servicios Software Blackberry &#038; Cross Cursos Mentoring Noticias Blackberry &#038; Cross Blog BBcross Academy Precios Menú Términos y condiciones Blackberry &#038; "
+        },
+        {
+          "url": "https://blackberrycross.com/contactenos-blackberry-cross/",
+          "snippet": "lemas LEAN Six Sigma OPEX Herrramientas Estadísticas Tecnología de Plásticos Portales Tecnología de Plásticos Software TRACtion EngineRoom Blog BBCross Contáctenos Blackberry &#038; Cross Noticias Blackberry &#038; Cross Eventos Acerca de Blackberry &#038; Cross Coord"
+        },
+        {
+          "url": "https://blackberrycross.com/contactenos-blackberry-cross/",
+          "snippet": "ENTORING ESPECIALIZADO Contacte a un asesor Si tiene consultas o dudas sobre cómo seleccionar entrenamientos, software o e-learning, complete el siguiente formulario. ¿Desea conocer más sobre nosotros? ACERCA DE BLACKBERRY&CROSS Menú Servicios Software Blackberry &#03"
+        },
+        {
+          "url": "https://blackberrycross.com/contactenos-blackberry-cross/",
+          "snippet": "omplete el siguiente formulario. ¿Desea conocer más sobre nosotros? ACERCA DE BLACKBERRY&CROSS Menú Servicios Software Blackberry &#038; Cross Cursos Mentoring Noticias Blackberry &#038; Cross Blog BBcross Academy Precios Menú Términos y condiciones Blackberry &#038; "
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Colchian",
+      "website": "https://www.colchian.eu/",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.colchian.eu/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://www.colchian.eu/",
+          "snippet": "Colchian --> DO YOU NEED GAMING SOFTWARE? Check out our products and services. The fastest way to grow your business with the leader in Technology Check out our options and features included"
+        },
+        {
+          "url": "https://www.colchian.eu/",
+          "snippet": "rn more. BOSS is incredibly especially extremely powerful, easy to use and open Colchian’s Betting Operations Software Suite comprehends a variety of tools for the modern online gaming operator. Built for scalability and user friendliness, it is the software your play"
+        },
+        {
+          "url": "https://www.colchian.eu/",
+          "snippet": "ariety of tools for the modern online gaming operator. Built for scalability and user friendliness, it is the software your players need. Sports Horse Racing Casino BOSS Our Features Internationalization Multilingual / Multicurrency software Responsive Web apps HTML /"
+        },
+        {
+          "url": "https://www.colchian.eu/",
+          "snippet": " players need. Sports Horse Racing Casino BOSS Our Features Internationalization Multilingual / Multicurrency software Responsive Web apps HTML / CSS mobile and desktop applications Applications Service Provider We host your gaming systems Information Service Provider"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Suma IT",
+      "website": "https://www.suma-it.com/",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2",
+      "officialSiteStatus": "fetch failed",
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Asystec",
+      "website": "https://asystec.io/",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://asystec.io/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://asystec.io/about",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://asystec.io/contact",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://asystec.io/",
+          "snippet": "Asystec | Software e inteligencia artificial en Costa Rica NUEVO Asystec POS: conocelo y descargalo » Síguenos en X Asystec Software Software para negocios Nexo de Asystec Asystec POS Restaurante Pro FitPro D"
+        },
+        {
+          "url": "https://asystec.io/",
+          "snippet": "software e IA para su empresa. Conozca Nexo, el agente de inteligencia artificial de Asystec para empresas en Costa Rica. Automatice reportes, ventas, marketing y operaciones según las necesidades de su negocio. Conocer Nexo de Asystec Qué puede hacer Nexo Usted define "
+        },
+        {
+          "url": "https://asystec.io/",
+          "snippet": "Los portales con login muestran solo información visible sin credenciales. Sitio comercial y catálogo Candock Costa Rica Presencia digital para muelles flotantes modulares, dry docks, plataformas para motos acuáticas, accesorios y anclajes en Costa Rica. Catálogo para r"
+        },
+        {
+          "url": "https://asystec.io/",
+          "snippet": "gital para muelles flotantes modulares, dry docks, plataformas para motos acuáticas, accesorios y anclajes en Costa Rica. Catálogo para residencias, marinas, hoteles, clubes náuticos y operaciones turísticas. Ruta directa para productos, cotización, contacto y asesoría "
+        },
+        {
+          "url": "https://asystec.io/",
+          "snippet": "ónica Factura Pro Sitio y producto en línea para emitir comprobantes electrónicos de forma rápida y segura en Costa Rica. Beneficios orientados a reducción de costos, seguridad, calidad de servicio y ahorro de tiempo. Operación desde distintos dispositivos con aceptació"
+        },
+        {
+          "url": "https://asystec.io/",
+          "snippet": " • Asystec POS El POS que mantiene tu negocio activo incluso sin internet Sistema de escritorio para pymes en Costa Rica con facturación electrónica TRIBU/Hacienda, app móvil, seguridad y autoupdate. 100% offline para operación diaria Alto rendimiento en caja e inventar"
+        },
+        {
+          "url": "https://asystec.io/",
+          "snippet": "no dudes en ponerte en contacto con nosotros a través de los siguientes medios: Dirección Esparza Puntarenas, Costa Rica Teléfono Teléfono: +506 8975-4741 Correo: info@asystec.io Horario Lunes - Viernes: 8:00 - 17:00 Sábado y Domingo: Cerrado ¿Listo para empezar? Nombre"
+        },
+        {
+          "url": "https://asystec.io/",
+          "snippet": "cesitas POS, facturación electrónica, inventario, cobros, CRM o una plataforma a la medida para tu negocio en Costa Rica. Solicitar demo o diagnóstico Comparte tu operación actual y coordinamos una revisión comercial enfocada en el problema que quieres resolver. Escribi"
+        },
+        {
+          "url": "https://asystec.io/",
+          "snippet": " cobrar Autoridad Sobre Asystec Casos y portafolio Preguntas frecuentes Contacto Contacto Esparza Puntarenas, Costa Rica Telefono: +506 8975-4741 Info: info@asystec.io Social Términos y Condiciones · Política de Privacidad Hecho con ❤ por Asystec - Todos los derechos re"
+        },
+        {
+          "url": "https://asystec.io/about",
+          "snippet": "Asystec | Empresa de software e IA en Costa Rica NUEVO Asystec POS: conocelo y descargalo » Síguenos en X Asystec Software Software para negocios Nexo de Asystec Asystec POS Restaurante Pro FitPro D"
+        },
+        {
+          "url": "https://asystec.io/about",
+          "snippet": "a Consultas Plugin JRest Descargar Asystec Desk Contacto Solicitar demo Software e inteligencia artificial en Costa Rica Conoce Asystec y las soluciones para tu negocio Desarrollamos software e inteligencia artificial para pymes, comercios y equipos operativos en Costa "
+        },
+        {
+          "url": "https://asystec.io/about",
+          "snippet": "ara tu negocio Desarrollamos software e inteligencia artificial para pymes, comercios y equipos operativos en Costa Rica. Conectamos ventas, facturación, cobros, inventario y reportes; con Nexo de Asystec también evaluamos tareas que tu equipo puede automatizar según su"
+        },
+        {
+          "url": "https://asystec.io/about",
+          "snippet": "uración electrónica, inventario, cobros, CRM, reportes, integraciones y plataformas a medida para negocios en Costa Rica. Datos verificables de Asystec Encuentra nuestra ubicación, medios de contacto y oferta de software para evaluar si podemos ayudarte con la operación"
+        },
+        {
+          "url": "https://asystec.io/about",
+          "snippet": "tware para evaluar si podemos ayudarte con la operación de tu negocio. Nombre comercial Asystec Pais atendido Costa Rica Ubicacion Esparza, Puntarenas, Costa Rica Contacto info@asystec.io / +506 8975-4741 Que hace Asystec El portafolio combina productos propios, intelig"
+        },
+        {
+          "url": "https://asystec.io/about",
+          "snippet": " la operación de tu negocio. Nombre comercial Asystec Pais atendido Costa Rica Ubicacion Esparza, Puntarenas, Costa Rica Contacto info@asystec.io / +506 8975-4741 Que hace Asystec El portafolio combina productos propios, inteligencia artificial y desarrollo de plataform"
+        },
+        {
+          "url": "https://asystec.io/about",
+          "snippet": "ntas frecuentes sobre Asystec Que es Asystec? Asystec es una empresa de software e inteligencia artificial en Costa Rica. Desarrolla e implementa soluciones para vender, facturar, cobrar, controlar inventario, revisar reportes y automatizar tareas empresariales. Que pro"
+        },
+        {
+          "url": "https://asystec.io/about",
+          "snippet": "ión humana. Para que negocios trabaja Asystec? Asystec atiende pymes, comercios y operaciones de servicios en Costa Rica, incluyendo restaurantes, minisuper, ferreterias, distribuidores, gimnasios, talleres, retail y servicios profesionales. Como contacto a Asystec para"
+        },
+        {
+          "url": "https://asystec.io/about",
+          "snippet": " cobrar Autoridad Sobre Asystec Casos y portafolio Preguntas frecuentes Contacto Contacto Esparza Puntarenas, Costa Rica Telefono: +506 8975-4741 Info: info@asystec.io Social Términos y Condiciones · Política de Privacidad Hecho con ❤ por Asystec - Todos los derechos re"
+        },
+        {
+          "url": "https://asystec.io/contact",
+          "snippet": "Contacto y demo de software e IA en Costa Rica | Asystec NUEVO Asystec POS: conocelo y descargalo » Síguenos en X Asystec Software Software para negocios Nexo de Asystec Asystec POS Restaurante Pr"
+        },
+        {
+          "url": "https://asystec.io/contact",
+          "snippet": "nica, inventario, cobros, CRM, reportes, multi-sucursal, integraciones o software a medida para tu negocio en Costa Rica. Preparar la demo Escribir por WhatsApp Para una migración, basta con describir el origen y el resultado esperado. No envíes contraseñas, llaves, cer"
+        },
+        {
+          "url": "https://asystec.io/contact",
+          "snippet": " cobrar Autoridad Sobre Asystec Casos y portafolio Preguntas frecuentes Contacto Contacto Esparza Puntarenas, Costa Rica Telefono: +506 8975-4741 Info: info@asystec.io Social Términos y Condiciones · Política de Privacidad Hecho con ❤ por Asystec - Todos los derechos re"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://asystec.io/",
+          "snippet": "Asystec | Software e inteligencia artificial en Costa Rica NUEVO Asystec POS: conocelo y descargalo » Síguenos en X Asystec Software Software para negocios Nexo de Asys"
+        },
+        {
+          "url": "https://asystec.io/",
+          "snippet": "Asystec | Software e inteligencia artificial en Costa Rica NUEVO Asystec POS: conocelo y descargalo » Síguenos en X Asystec Software Software para negocios Nexo de Asystec Asystec POS Restaurant"
+        },
+        {
+          "url": "https://asystec.io/",
+          "snippet": "ware e inteligencia artificial en Costa Rica NUEVO Asystec POS: conocelo y descargalo » Síguenos en X Asystec Software Software para negocios Nexo de Asystec Asystec POS Restaurante Pro FitPro Diseño de plataformas Cobros Pro Factura Pro TallerApp Jas Admin Instalador"
+        },
+        {
+          "url": "https://asystec.io/",
+          "snippet": "teligencia artificial en Costa Rica NUEVO Asystec POS: conocelo y descargalo » Síguenos en X Asystec Software Software para negocios Nexo de Asystec Asystec POS Restaurante Pro FitPro Diseño de plataformas Cobros Pro Factura Pro TallerApp Jas Admin Instaladores Recurs"
+        },
+        {
+          "url": "https://asystec.io/about",
+          "snippet": "Asystec | Empresa de software e IA en Costa Rica NUEVO Asystec POS: conocelo y descargalo » Síguenos en X Asystec Software Software para negocios Nexo de Asystec Asystec POS Resta"
+        },
+        {
+          "url": "https://asystec.io/about",
+          "snippet": "tec | Empresa de software e IA en Costa Rica NUEVO Asystec POS: conocelo y descargalo » Síguenos en X Asystec Software Software para negocios Nexo de Asystec Asystec POS Restaurante Pro FitPro Diseño de plataformas Cobros Pro Factura Pro TallerApp Jas Admin Instalador"
+        },
+        {
+          "url": "https://asystec.io/about",
+          "snippet": "resa de software e IA en Costa Rica NUEVO Asystec POS: conocelo y descargalo » Síguenos en X Asystec Software Software para negocios Nexo de Asystec Asystec POS Restaurante Pro FitPro Diseño de plataformas Cobros Pro Factura Pro TallerApp Jas Admin Instaladores Recurs"
+        },
+        {
+          "url": "https://asystec.io/about",
+          "snippet": "istema POS Cambiar sistema de facturacion Alternativas a Excel Organizar cuentas por cobrar POS local vs nube Software local vs extranjero Costo de un POS Preguntas frecuentes Casos y portafolio Documentación Asystec POS Factura Pro Cobros Pro JRestaurante Herramienta"
+        },
+        {
+          "url": "https://asystec.io/contact",
+          "snippet": "Contacto y demo de software e IA en Costa Rica | Asystec NUEVO Asystec POS: conocelo y descargalo » Síguenos en X Asystec Software Software para negocios Nexo de Asystec Asystec"
+        },
+        {
+          "url": "https://asystec.io/contact",
+          "snippet": "emo de software e IA en Costa Rica | Asystec NUEVO Asystec POS: conocelo y descargalo » Síguenos en X Asystec Software Software para negocios Nexo de Asystec Asystec POS Restaurante Pro FitPro Diseño de plataformas Cobros Pro Factura Pro TallerApp Jas Admin Instalador"
+        },
+        {
+          "url": "https://asystec.io/contact",
+          "snippet": "ftware e IA en Costa Rica | Asystec NUEVO Asystec POS: conocelo y descargalo » Síguenos en X Asystec Software Software para negocios Nexo de Asystec Asystec POS Restaurante Pro FitPro Diseño de plataformas Cobros Pro Factura Pro TallerApp Jas Admin Instaladores Recurs"
+        },
+        {
+          "url": "https://asystec.io/contact",
+          "snippet": "istema POS Cambiar sistema de facturacion Alternativas a Excel Organizar cuentas por cobrar POS local vs nube Software local vs extranjero Costo de un POS Preguntas frecuentes Casos y portafolio Documentación Asystec POS Factura Pro Cobros Pro JRestaurante Herramienta"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Hiopos Costa Rica",
+      "website": "https://hiopos.co.cr/",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://hiopos.co.cr/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://hiopos.co.cr/quienes-somos/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://hiopos.co.cr/hioffice/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://hiopos.co.cr/",
+          "snippet": "Inicio - Hiopos Costa Rica Ir al contenido Negocios Restaurantes Comercios Bar/Cafetería Estética y Belleza Supermercados Heladerías Fast Food Carnicerías Pizzerías Panaderías "
+        },
+        {
+          "url": "https://hiopos.co.cr/quienes-somos/",
+          "snippet": "¿Quiénes Somos? - Hiopos Costa Rica Ir al contenido Negocios Restaurantes Comercios Bar/Cafetería Estética y Belleza Supermercados Heladerías Fast Food Carnicerías Pizzerías Panaderías "
+        },
+        {
+          "url": "https://hiopos.co.cr/quienes-somos/",
+          "snippet": "za TPV all in one TPV Retail TPV SUN Venta Desasistida Impresora térmica Pago en línea ¿Quiénes somos? Hiopos Costa Rica forma parte del grupo ICG, una empresa multinacional que crea soluciones tecnológicas para pequeñas, medianas y grandes empresas para los sectores de"
+        },
+        {
+          "url": "https://hiopos.co.cr/quienes-somos/",
+          "snippet": ":00 p.m. Domingo y Feriado de 9:00 a.m a 9:00 p.m. Correo: info@hioposcr.com Ubicacion: Curridabat, San José, Costa Rica ¿Dónde nos encontramos? +506 44041600 Negocios Restaurantes Comercios Estética y belleza Supermercados Bares y Cafés Negocios Carnicerías Heladerías "
+        },
+        {
+          "url": "https://hiopos.co.cr/hioffice/",
+          "snippet": "Hioffice - Hiopos Costa Rica Ir al contenido Negocios Restaurantes Comercios Bar/Cafetería Estética y Belleza Supermercados Heladerías Fast Food Carnicerías Pizzerías Panaderías "
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://hiopos.co.cr/",
+          "snippet": " línea Características de HIOPOS Punto de venta de fácil uso HIOPOS es la solución ideal para tu negocio, con software intuitivo y con una innovadora usabilidad táctil Multinegocio y multiterminal Escalable, con todas las funcionalidades según tus necesidades. Permite"
+        },
+        {
+          "url": "https://hiopos.co.cr/",
+          "snippet": "do en caso de desconexiones a Internet Actualizaciones gratuitas Actualizaciones de las últimas novedades del software sin cargos adicionales Almacenamiento seguro Información siempre disponible en la nube con la máxima seguridad de tus datos Multi idioma Configura tu"
+        },
+        {
+          "url": "https://hiopos.co.cr/",
+          "snippet": "a e idioma con tan solo un click Punto de venta de fácil uso HIOPOS es la solución ideal para tu negocio, con software intuitivo y con una innovadora usabilidad táctil Multinegocio y multiterminal Escalable, con todas las funcionalidades según tus necesidades. Permite"
+        },
+        {
+          "url": "https://hiopos.co.cr/",
+          "snippet": "do en caso de desconexiones a Internet Actualizaciones gratuitas Actualizaciones de las últimas novedades del software sin cargos adicionales Almacenamiento seguro Información siempre disponible en la nube con la máxima seguridad de tus datos Multi idioma Configura tu"
+        },
+        {
+          "url": "https://hiopos.co.cr/quienes-somos/",
+          "snippet": "Pago en línea ¿Quiénes somos? Hiopos Costa Rica forma parte del grupo ICG, una empresa multinacional que crea soluciones tecnológicas para pequeñas, medianas y grandes empresas para los sectores de hostelería, hotelería y retail que van desde el desarrollo de Software de Punto de Ve"
+        },
+        {
+          "url": "https://hiopos.co.cr/quienes-somos/",
+          "snippet": "ra pequeñas, medianas y grandes empresas para los sectores de hostelería, hotelería y retail que van desde el desarrollo de Software de Punto de Venta hasta la gestión de cadenas centralizadas y franquicias. 7 empresas, incluida la sucursal estadounidense llamada ICG Software Corpo"
+        },
+        {
+          "url": "https://hiopos.co.cr/quienes-somos/",
+          "snippet": "a gestión de cadenas centralizadas y franquicias. 7 empresas, incluida la sucursal estadounidense llamada ICG Software Corporation, y está compuesta por dos divisiones comerciales (ICG Solutions, HIOPOS). Innovando desde 1985. El grupo se puso en marcha hace más de tr"
+        },
+        {
+          "url": "https://hiopos.co.cr/hioffice/",
+          "snippet": "nto de artículos y precios Exportación de ventas e importación de artículos. ¿Qué es HiOffice? HiOffice es un software de gestión de negocios (“Back Office”) de tipo ERP (Enterprise Resource Planning o Planificación de recursos empresariales). Obtenga información de v"
+        },
+        {
+          "url": "https://hiopos.co.cr/hioffice/",
+          "snippet": "e ventas, además importa artículos y precios a partir de una hoja de cálculo. Principales funcionalidades del software Centralización de ventas y cierres de caja de Hiopos. Tecnología web service. Estadísticas de venta y control. Configuración y centralización de vari"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "NearshoreWorks",
+      "website": "https://nearshoreworks.com/",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2",
+      "careersUrl": "https://nearshoreworks.com/nearshore-talent-guide/",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://nearshoreworks.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://nearshoreworks.com/nearshore-talent-guide/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://calculator.nearshoreworks.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://nearshoreworks.com/contact-us/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Latin America",
+        "LATAM",
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://nearshoreworks.com/",
+          "snippet": "cale Your IT and Development Teams We make it easy for US-based companies to recruit and retain the top 1% of Latin America’s talent all in your timezone. Get Started With Us Trusted By Leading Brands From idea to outcome, we got you covered Data Engineering Transform your"
+        },
+        {
+          "url": "https://nearshoreworks.com/",
+          "snippet": "rojects. Contact Us Contact Us Where our works paces become yours NearshoreWorks Hubs are designed to be your LATAM home base, seamlessly extending your team&#8217;s culture. Our offices across Latin America provide the infrastructure and space for collaboration, f"
+        },
+        {
+          "url": "https://nearshoreworks.com/",
+          "snippet": "s are designed to be your LATAM home base, seamlessly extending your team&#8217;s culture. Our offices across Latin America provide the infrastructure and space for collaboration, fostering an innovative and productive environment. Learn more Why tech leaders trust Nearsho"
+        },
+        {
+          "url": "https://nearshoreworks.com/",
+          "snippet": "eaders trust NearshoreWorks 01 Proven Expertise We have over 8 years of experience in providing the top 1% of Latin America&#8217;s tech talent to US companies, ensuring you get the best. 02 AI-Enhanced Productivity Our team members are AI-trained and certified, leveraging"
+        },
+        {
+          "url": "https://nearshoreworks.com/",
+          "snippet": "d and certified, leveraging AI to deliver your projects smarter and more efficiently. 03 Cultural Synergy Our LATAM teams excel in collaboration, boasting excellent English skills and a deep cultural connection. 04 US Expertise Managed and founded by a US-based lea"
+        },
+        {
+          "url": "https://nearshoreworks.com/",
+          "snippet": "w much you can save with our Nearshore Cost Saving Calculator NearshoreWorks is the easy way to hire the best Latin American talent on demand. Get an instant Nearshore cost savings estimate in seconds with our Nearshore cost savings calculator. Build your team, see your sa"
+        },
+        {
+          "url": "https://nearshoreworks.com/",
+          "snippet": "riers High turnover rates Hidden cost Let NearshoreWorks do the hard work for you Access the top 1% of vetted Latam talent Interview candidates within 48 hours 98.5% retention rate, so you avoid project disruption The most bang for your buck with affordable, talent"
+        },
+        {
+          "url": "https://nearshoreworks.com/",
+          "snippet": "e digital platform. Read more August 20, 2024 Guide Nearshore Outsourcing Guide: Top Nearshore Destination in Latin America Consider nearshoring for your business: access top IT talent without long-distance communication or cultural barriers. Latin America offers skilled t"
+        },
+        {
+          "url": "https://nearshoreworks.com/",
+          "snippet": "nearshoring for your business: access top IT talent without long-distance communication or cultural barriers. Latin America offers skilled talent and cost savings, making it a key market for outsourcing IT services. Read more August 20, 2024 Blog Nearshore Outsourcing Near"
+        },
+        {
+          "url": "https://nearshoreworks.com/",
+          "snippet": "projects, helping you build smarter solutions in less time. Are you ready to partner with top 1% of talent in Latin America? See how we can transform your visions into reality. Let’s Build Your Nearshore Team Services Why NearshoreWorks Our Impact Our Insights Contact Us A"
+        },
+        {
+          "url": "https://nearshoreworks.com/",
+          "snippet": "vices Why NearshoreWorks Our Impact Our Insights Contact Us Atlanta, GA [HQ] Chicago, IL Dallas, TX San José, Costa Rica [HQ] Bogota, Colombia Medellin, Colombia Barranquilla Colombia ©2024 NearshoreWorks Inc. All rights reserved. Privacy Policy Terms and Conditions Rec"
+        },
+        {
+          "url": "https://nearshoreworks.com/",
+          "snippet": " Dowload Nearshore Tech Talent 2024 Report An overview of the fast-changing software development landscape in Latin America in 2024."
+        },
+        {
+          "url": "https://nearshoreworks.com/nearshore-talent-guide/",
+          "snippet": "Insights Nearshore Tech Talent 2024 Report An overview of the fast-changing software development landscape in Latin America in 2024. What's inside Political Stability Gauge political climates affecting tech talent and business. IT Ecosystem Discover hubs of innovation and "
+        },
+        {
+          "url": "https://nearshoreworks.com/nearshore-talent-guide/",
+          "snippet": "vices Why NearshoreWorks Our Impact Our Insights Contact Us Atlanta, GA [HQ] Chicago, IL Dallas, TX San José, Costa Rica [HQ] Bogota, Colombia Medellin, Colombia Barranquilla Colombia ©2024 NearshoreWorks Inc. All rights reserved. Privacy Policy Terms and Conditions Rec"
+        },
+        {
+          "url": "https://nearshoreworks.com/nearshore-talent-guide/",
+          "snippet": " Dowload Nearshore Tech Talent 2024 Report An overview of the fast-changing software development landscape in Latin America in 2024."
+        },
+        {
+          "url": "https://nearshoreworks.com/contact-us/",
+          "snippet": "w much you can save with our Nearshore Cost Saving Calculator NearshoreWorks is the easy way to hire the best Latin American talent on demand. Get an instant Nearshore cost savings estimate in seconds with our Nearshore cost savings calculator. Build your team, see your sa"
+        },
+        {
+          "url": "https://nearshoreworks.com/contact-us/",
+          "snippet": "ad, Suite 120 30341 Chicago, IL 333 N Green St, Suite 800, 60607 Dallas, TX 4514 Cole Avenue, Suite 600 75205 LATAM Offices San Jose, Costa Rica LATAM Headquarters Plaza Cronos, Office #25-26 Curridabat, San Jose, 1180 Medellin, Colombia Carrera 43A 11A-44 Medellin"
+        },
+        {
+          "url": "https://nearshoreworks.com/contact-us/",
+          "snippet": "ago, IL 333 N Green St, Suite 800, 60607 Dallas, TX 4514 Cole Avenue, Suite 600 75205 LATAM Offices San Jose, Costa Rica LATAM Headquarters Plaza Cronos, Office #25-26 Curridabat, San Jose, 1180 Medellin, Colombia Carrera 43A 11A-44 Medellin, Antioquia 050031 Barranquil"
+        },
+        {
+          "url": "https://nearshoreworks.com/contact-us/",
+          "snippet": " N Green St, Suite 800, 60607 Dallas, TX 4514 Cole Avenue, Suite 600 75205 LATAM Offices San Jose, Costa Rica LATAM Headquarters Plaza Cronos, Office #25-26 Curridabat, San Jose, 1180 Medellin, Colombia Carrera 43A 11A-44 Medellin, Antioquia 050031 Barranquilla, Co"
+        },
+        {
+          "url": "https://nearshoreworks.com/contact-us/",
+          "snippet": "vices Why NearshoreWorks Our Impact Our Insights Contact Us Atlanta, GA [HQ] Chicago, IL Dallas, TX San José, Costa Rica [HQ] Bogota, Colombia Medellin, Colombia Barranquilla Colombia ©2024 NearshoreWorks Inc. All rights reserved. Privacy Policy Terms and Conditions Rec"
+        },
+        {
+          "url": "https://nearshoreworks.com/contact-us/",
+          "snippet": " Dowload Nearshore Tech Talent 2024 Report An overview of the fast-changing software development landscape in Latin America in 2024."
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://nearshoreworks.com/",
+          "snippet": "in your timezone. Get Started With Us Trusted By Leading Brands From idea to outcome, we got you covered Data Engineering Transform your data into actionable insights with user-focused dashboards and analytics. Software Development Agile development for secure, high-perf"
+        },
+        {
+          "url": "https://nearshoreworks.com/",
+          "snippet": "red Data Engineering Transform your data into actionable insights with user-focused dashboards and analytics. Software Development Agile development for secure, high-performance cloud solutions. QA Testing Ensure impeccable software with comprehensive testing. DevOps "
+        },
+        {
+          "url": "https://nearshoreworks.com/",
+          "snippet": "th user-focused dashboards and analytics. Software Development Agile development for secure, high-performance cloud solutions. QA Testing Ensure impeccable software with comprehensive testing. DevOps Seamless setup, maintenance, and monitoring for continuous integr"
+        },
+        {
+          "url": "https://nearshoreworks.com/",
+          "snippet": "ware Development Agile development for secure, high-performance cloud solutions. QA Testing Ensure impeccable software with comprehensive testing. DevOps Seamless setup, maintenance, and monitoring for continuous integration and delivery. UX/UI Design Create engaging,"
+        },
+        {
+          "url": "https://nearshoreworks.com/nearshore-talent-guide/",
+          "snippet": "Why NearshoreWorks Our Impact Our Insights Nearshore Tech Talent 2024 Report An overview of the fast-changing software development landscape in Latin America in 2024. What's inside Political Stability Gauge political climates affecting tech talent and business. IT Eco"
+        },
+        {
+          "url": "https://nearshoreworks.com/nearshore-talent-guide/",
+          "snippet": "mpact Our Insights Contact Us FREE Dowload Nearshore Tech Talent 2024 Report An overview of the fast-changing software development landscape in Latin America in 2024."
+        },
+        {
+          "url": "https://nearshoreworks.com/contact-us/",
+          "snippet": "mpact Our Insights Contact Us FREE Dowload Nearshore Tech Talent 2024 Report An overview of the fast-changing software development landscape in Latin America in 2024."
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Digital Freses",
+      "website": "https://digitalfreses.com/",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://digitalfreses.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://digitalfreses.com/",
+          "snippet": "uction circle_dots Awesome Site in The Making An amazing site is coming to this web address. Check back soon! clouds_shape"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "deLaGuayaba",
+      "website": "https://delaguayaba.com/",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2",
+      "careersUrl": "https://delaguayaba.com/career/",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://delaguayaba.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://delaguayaba.com/career/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://delaguayaba.com/about-us/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://delaguayaba.com/contact/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://delaguayaba.com/",
+          "snippet": "et. More about us Services Portfolio About us Career Blog Follow us Follow Follow Follow Contact us San José, Costa Rica info@delaguayaba.com 2020 © deLaGuayaba. Todos los derechos reservados. Cerrar"
+        },
+        {
+          "url": "https://delaguayaba.com/career/",
+          "snippet": "es. More about us Services Portfolio About us Career Blog Follow us Follow Follow Follow Contact us San José, Costa Rica info@delaguayaba.com 2020 © deLaGuayaba. Todos los derechos reservados. Cerrar"
+        },
+        {
+          "url": "https://delaguayaba.com/about-us/",
+          "snippet": "ent More about us Services Portfolio About us Career Blog Follow us Follow Follow Follow Contact us San José, Costa Rica info@delaguayaba.com 2020 © deLaGuayaba. Todos los derechos reservados. Cerrar"
+        },
+        {
+          "url": "https://delaguayaba.com/contact/",
+          "snippet": "Tech Leader Developer Student Other Company Name: Country: Project Details/Reason for Contacting: Internships Costa Rica Phone Email 2024 Selection Closed Career Costa Rica Phone Email &#916; Follow Us More about us Services Portfolio About us Career Blog Follow us Foll"
+        },
+        {
+          "url": "https://delaguayaba.com/contact/",
+          "snippet": "untry: Project Details/Reason for Contacting: Internships Costa Rica Phone Email 2024 Selection Closed Career Costa Rica Phone Email &#916; Follow Us More about us Services Portfolio About us Career Blog Follow us Follow Follow Follow Contact us San José, Costa Rica inf"
+        },
+        {
+          "url": "https://delaguayaba.com/contact/",
+          "snippet": " Us More about us Services Portfolio About us Career Blog Follow us Follow Follow Follow Contact us San José, Costa Rica info@delaguayaba.com 2020 © deLaGuayaba. Todos los derechos reservados. Cerrar"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://delaguayaba.com/",
+          "snippet": "deLaGuayaba ‣ Mobile App and Web Development | Innovative Solutions DevOps Services Portfolio About us Blog MAKE AN APPOINTMENT IMPACT YOUR SUCCESS We are your strategic partner on the journey t"
+        },
+        {
+          "url": "https://delaguayaba.com/",
+          "snippet": "any our clients with support and guidance, ensuring they reach their goals. INNOVATIVE TECH SERVICES Advanced Software Expertise : Propel your business forward with cutting-edge software solutions. Mobile Application Innovation : Craft user-centric mobile applications"
+        },
+        {
+          "url": "https://delaguayaba.com/",
+          "snippet": " goals. INNOVATIVE TECH SERVICES Advanced Software Expertise : Propel your business forward with cutting-edge software solutions. Mobile Application Innovation : Craft user-centric mobile applications tailored to your enterprise needs. Bespoke Website Development : Cr"
+        },
+        {
+          "url": "https://delaguayaba.com/",
+          "snippet": "rt, management, maintenance, and reliable web hosting. Unlock the full potential of your business with expert software and mobile app development, designed for innovation and user-centric experiences. Ignite your startup journey with specialized consulting, optimize p"
+        },
+        {
+          "url": "https://delaguayaba.com/career/",
+          "snippet": "deLaGuayaba ‣ Desarrollo de aplicaciones móviles y plataformas web DevOps Services Portfolio About us Blog MAKE AN APPOINTMENT BE A GUAYABO! At Delaguayaba, we believe in the power of innova"
+        },
+        {
+          "url": "https://delaguayaba.com/about-us/",
+          "snippet": "deLaGuayaba ‣ Desarrollo de aplicaciones móviles y plataformas web DevOps Services Portfolio About us Blog MAKE AN APPOINTMENT A PASSIONATE TEAM, ALWAYS READY FOR NEW CHALLENGES We breathe d"
+        },
+        {
+          "url": "https://delaguayaba.com/about-us/",
+          "snippet": "th our clients to create solutions that optimize their company. WHY OPT FOR DLG? We are a team of experienced engineers who use agile methodologies to quickly adapt to the needs of your business, prioritize excellent communication to understand your requirements, and "
+        },
+        {
+          "url": "https://delaguayaba.com/contact/",
+          "snippet": "deLaGuayaba ‣ Desarrollo de aplicaciones móviles y plataformas web DevOps Services Portfolio About us Blog MAKE AN APPOINTMENT Get in touch with us! Which team would you like to contact?: Sa"
+        },
+        {
+          "url": "https://delaguayaba.com/contact/",
+          "snippet": " Sales Human Resources First Name: Last Name: Phone: Company Email: What is your role?: Executive Tech Leader Developer Student Other Company Name: Country: Project Details/Reason for Contacting: Internships Costa Rica Phone Email 2024 Selection Closed Career Costa Ric"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "RACSA_CR",
+      "website": "https://www.racsa.go.cr/",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2",
+      "careersUrl": "https://www.racsa.go.cr/trabaje-con-nosotros/",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.racsa.go.cr/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.racsa.go.cr/trabaje-con-nosotros/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.racsa.go.cr/servicios/solucion-de-infraestructura-y-nube/colocation/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://www.racsa.go.cr/",
+          "snippet": "RACSA | Servicios y Soluciones Digitales en Costa Rica SERVICIOS CONECTIVIDAD EMPRESARIAL Internet Empresarial Redes VPN SD WAN SOLUCIONES 5G Internet fijo 5G Redes Empresariales 5G SOLUCIONES DIGITALES B"
+        },
+        {
+          "url": "https://www.racsa.go.cr/",
+          "snippet": " información y respaldando sus operaciones VES Ventanilla Electrónica de Servicios Pasaporte ¿Piensa salir de Costa Rica? Somos los expertos en Pasaportes Conocer más ControlPAS ¿Cuenta con permisos de armas? Por el bien de todos le ayudamos. CONOCER MÁS DIMEX ¿Piensa p"
+        },
+        {
+          "url": "https://www.racsa.go.cr/",
+          "snippet": "lPAS ¿Cuenta con permisos de armas? Por el bien de todos le ayudamos. CONOCER MÁS DIMEX ¿Piensa permanecer en Costa Rica? Le ayudamos con su documento DIMEX. Conocer más SOMOS RACSA Administración Código Corporativo de Ética y Conducta Gobierno Corporativo Historia Junt"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://www.racsa.go.cr/",
+          "snippet": "ad (VID) INFRAESTRUCTURA Y NUBE Alojamiento de equipos Colocation y Housing Amazon AWS AWS Backup AWS Compute Cloud AWS Contact Center AWS Disaster Recovery CISCO Cloud Networking Cloud Security Cloud Collaboration Servicios Administrados Videovigilancia SOLUCIONES"
+        },
+        {
+          "url": "https://www.racsa.go.cr/",
+          "snippet": "s Colocation y Housing Amazon AWS AWS Backup AWS Compute Cloud AWS Contact Center AWS Disaster Recovery CISCO Cloud Networking Cloud Security Cloud Collaboration Servicios Administrados Videovigilancia SOLUCIONES GESTIONADAS Espacios Públicos Conectados – ZIi INTER"
+        },
+        {
+          "url": "https://www.racsa.go.cr/",
+          "snippet": "using Amazon AWS AWS Backup AWS Compute Cloud AWS Contact Center AWS Disaster Recovery CISCO Cloud Networking Cloud Security Cloud Collaboration Servicios Administrados Videovigilancia SOLUCIONES GESTIONADAS Espacios Públicos Conectados – ZIi INTERNET FIJO 5G SECTO"
+        },
+        {
+          "url": "https://www.racsa.go.cr/",
+          "snippet": "S AWS Backup AWS Compute Cloud AWS Contact Center AWS Disaster Recovery CISCO Cloud Networking Cloud Security Cloud Collaboration Servicios Administrados Videovigilancia SOLUCIONES GESTIONADAS Espacios Públicos Conectados – ZIi INTERNET FIJO 5G SECTORES CIUDADANO E"
+        },
+        {
+          "url": "https://www.racsa.go.cr/trabaje-con-nosotros/",
+          "snippet": "ad (VID) INFRAESTRUCTURA Y NUBE Alojamiento de equipos Colocation y Housing Amazon AWS AWS Backup AWS Compute Cloud AWS Contact Center AWS Disaster Recovery CISCO Cloud Networking Cloud Security Cloud Collaboration Servicios Administrados Videovigilancia SOLUCIONES"
+        },
+        {
+          "url": "https://www.racsa.go.cr/trabaje-con-nosotros/",
+          "snippet": "s Colocation y Housing Amazon AWS AWS Backup AWS Compute Cloud AWS Contact Center AWS Disaster Recovery CISCO Cloud Networking Cloud Security Cloud Collaboration Servicios Administrados Videovigilancia SOLUCIONES GESTIONADAS Espacios Públicos Conectados – ZIi INTER"
+        },
+        {
+          "url": "https://www.racsa.go.cr/trabaje-con-nosotros/",
+          "snippet": "using Amazon AWS AWS Backup AWS Compute Cloud AWS Contact Center AWS Disaster Recovery CISCO Cloud Networking Cloud Security Cloud Collaboration Servicios Administrados Videovigilancia SOLUCIONES GESTIONADAS Espacios Públicos Conectados – ZIi INTERNET FIJO 5G SECTO"
+        },
+        {
+          "url": "https://www.racsa.go.cr/trabaje-con-nosotros/",
+          "snippet": "S AWS Backup AWS Compute Cloud AWS Contact Center AWS Disaster Recovery CISCO Cloud Networking Cloud Security Cloud Collaboration Servicios Administrados Videovigilancia SOLUCIONES GESTIONADAS Espacios Públicos Conectados – ZIi INTERNET FIJO 5G SECTORES CIUDADANO E"
+        },
+        {
+          "url": "https://www.racsa.go.cr/servicios/solucion-de-infraestructura-y-nube/colocation/",
+          "snippet": "ad (VID) INFRAESTRUCTURA Y NUBE Alojamiento de equipos Colocation y Housing Amazon AWS AWS Backup AWS Compute Cloud AWS Contact Center AWS Disaster Recovery CISCO Cloud Networking Cloud Security Cloud Collaboration Servicios Administrados Videovigilancia SOLUCIONES"
+        },
+        {
+          "url": "https://www.racsa.go.cr/servicios/solucion-de-infraestructura-y-nube/colocation/",
+          "snippet": "s Colocation y Housing Amazon AWS AWS Backup AWS Compute Cloud AWS Contact Center AWS Disaster Recovery CISCO Cloud Networking Cloud Security Cloud Collaboration Servicios Administrados Videovigilancia SOLUCIONES GESTIONADAS Espacios Públicos Conectados – ZIi INTER"
+        },
+        {
+          "url": "https://www.racsa.go.cr/servicios/solucion-de-infraestructura-y-nube/colocation/",
+          "snippet": "using Amazon AWS AWS Backup AWS Compute Cloud AWS Contact Center AWS Disaster Recovery CISCO Cloud Networking Cloud Security Cloud Collaboration Servicios Administrados Videovigilancia SOLUCIONES GESTIONADAS Espacios Públicos Conectados – ZIi INTERNET FIJO 5G SECTO"
+        },
+        {
+          "url": "https://www.racsa.go.cr/servicios/solucion-de-infraestructura-y-nube/colocation/",
+          "snippet": "S AWS Backup AWS Compute Cloud AWS Contact Center AWS Disaster Recovery CISCO Cloud Networking Cloud Security Cloud Collaboration Servicios Administrados Videovigilancia SOLUCIONES GESTIONADAS Espacios Públicos Conectados – ZIi INTERNET FIJO 5G SECTORES CIUDADANO E"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "EL Lab",
+      "website": "https://www.labwebcr.com/",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.labwebcr.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [],
+      "likelyFit": false,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Codisa",
+      "website": "https://www.codisa.com/",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2",
+      "officialSiteStatus": "fetch failed",
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    }
+  ]
+}

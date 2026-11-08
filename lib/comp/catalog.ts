@@ -41,6 +41,7 @@ export type CompanyCard = {
   key: string; name: string; names: string[]; website?: string; careersUrl?: string;
   tracks: string[]; locations: string[]; records: number; model: string;
   categories?: string[];
+  tags?: string[];
   jobs: CompanyJob[]; legacyKeys?: string[];
   nearshore?: NearshoreCompany; discovery?: CompanyDiscovery;
   roleEvidence?: { source: string; checkedOn: string };
@@ -212,16 +213,117 @@ export function companySignals(company: CompanyCard): CompanySignals {
   return signals;
 }
 
-export type CompanyFilters = { query: string; technology: string; role: string; level: string; region: string };
+export type CompanyFilters = {
+  query: string;
+  technology: string;
+  role: string;
+  level: string;
+  region: string;
+  latamCostaRicaFilter?: boolean;
+  hideWithoutDomain?: boolean;
+  country?: string;
+};
 const companySearchTextCache = new WeakMap<CompanyCard, string>();
+const companyDetailsTextCache = new WeakMap<CompanyCard, string>();
+const companyCountryTextCache = new WeakMap<CompanyCard, string>();
+
+const companyCountryAliases = [
+  { country: "Argentina", aliases: ["argentina"] },
+  { country: "Azerbaijan", aliases: ["azerbaijan"] },
+  { country: "Bolivia", aliases: ["bolivia"] },
+  { country: "Brazil", aliases: ["brazil"] },
+  { country: "Canada", aliases: ["canada"] },
+  { country: "Chile", aliases: ["chile"] },
+  { country: "Colombia", aliases: ["colombia"] },
+  { country: "Costa Rica", aliases: ["costa rica"] },
+  { country: "Ecuador", aliases: ["ecuador"] },
+  { country: "El Salvador", aliases: ["el salvador"] },
+  { country: "France", aliases: ["france"] },
+  { country: "Guatemala", aliases: ["guatemala"] },
+  { country: "Guyana", aliases: ["guyana"] },
+  { country: "Honduras", aliases: ["honduras"] },
+  { country: "Jamaica", aliases: ["jamaica"] },
+  { country: "India", aliases: ["india"] },
+  { country: "Ireland", aliases: ["ireland"] },
+  { country: "Kazakhstan", aliases: ["kazakhstan"] },
+  { country: "Kyrgyzstan", aliases: ["kyrgyzstan"] },
+  { country: "Mexico", aliases: ["mexico"] },
+  { country: "Netherlands", aliases: ["netherlands", "the netherlands"] },
+  { country: "Nicaragua", aliases: ["nicaragua"] },
+  { country: "Panama", aliases: ["panama"] },
+  { country: "Paraguay", aliases: ["paraguay"] },
+  { country: "Peru", aliases: ["peru"] },
+  { country: "Poland", aliases: ["poland"] },
+  { country: "Portugal", aliases: ["portugal"] },
+  { country: "Dominican Republic", aliases: ["dominican republic"] },
+  { country: "South Africa", aliases: ["south africa"] },
+  { country: "Singapore", aliases: ["singapore"] },
+  { country: "Spain", aliases: ["spain"] },
+  { country: "Tajikistan", aliases: ["tajikistan"] },
+  { country: "Turkey", aliases: ["turkey", "türkiye"] },
+  { country: "United Kingdom", aliases: ["united kingdom", "uk", "u k", "great britain", "britain", "england", "scotland", "wales"] },
+  { country: "United States", aliases: ["united states", "united states of america", "usa", "us", "u s"] },
+  { country: "Uruguay", aliases: ["uruguay"] },
+  { country: "Uzbekistan", aliases: ["uzbekistan"] },
+  { country: "Venezuela", aliases: ["venezuela"] },
+  { country: "Suriname", aliases: ["suriname"] },
+] as const;
+
+function normalizeCountryText(value: string) {
+  return value
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+function companyCountryText(company: CompanyCard) {
+  const cached = companyCountryTextCache.get(company);
+  if (cached) return cached;
+  const text = normalizeCountryText([
+    ...company.locations,
+    company.discovery?.region || "",
+    company.research?.region || "",
+    company.nearshore?.region || "",
+  ].join(" "));
+  companyCountryTextCache.set(company, text);
+  return text;
+}
+
+function companyMatchesCountry(company: CompanyCard, country: string) {
+  const countryEntry = companyCountryAliases.find(
+    (entry) => entry.country === country,
+  );
+  if (!countryEntry) return false;
+  const text = ` ${companyCountryText(company)} `;
+  return countryEntry.aliases.some((alias) =>
+    text.includes(` ${normalizeCountryText(alias)} `),
+  );
+}
+
+export function availableCompanyCountries(companies: CompanyCard[]) {
+  return companyCountryAliases
+    .filter(({ country }) => companies.some((company) => companyMatchesCountry(company, country)))
+    .map(({ country }) => country)
+    .sort((left, right) => left.localeCompare(right));
+}
 
 function companySearchText(company: CompanyCard, signals: CompanySignals) {
   const cached = companySearchTextCache.get(company);
   if (cached) return cached;
-  const text = [company.name, ...company.names, company.website || "", ...company.tracks, ...company.locations,
+  const text = [company.name, ...company.names, company.website || "", ...company.tracks, ...company.locations, ...(company.tags || []),
     ...signals.technologies, ...signals.roles, ...signals.levels, ...company.jobs.flatMap(job => [job.title, job.stack || ""]),
     company.discovery?.region || "", ...(company.fit?.reasons || []), company.nearshore ? "nearshore" : ""].join(" ").toLowerCase();
   companySearchTextCache.set(company, text);
+  return text;
+}
+
+function companyDetailsText(company: CompanyCard) {
+  const cached = companyDetailsTextCache.get(company);
+  if (cached) return cached;
+  const text = JSON.stringify(company).toLowerCase();
+  companyDetailsTextCache.set(company, text);
   return text;
 }
 
@@ -230,7 +332,13 @@ export function matchesCompanyFilters(company: CompanyCard, filters: CompanyFilt
   const text = companySearchText(company, signals);
   const region = company.discovery?.region || company.locations.join(" ");
   const queryWords = filters.query.trim().toLowerCase().split(/\s+/).filter(Boolean);
-  return queryWords.every(word => text.includes(word))
+  const latamCostaRicaMatches =
+    !filters.latamCostaRicaFilter ||
+    /\blatam\b|costa[\s-]*rica/i.test(companyDetailsText(company));
+  return latamCostaRicaMatches
+    && (!filters.hideWithoutDomain || !!companyDomain(company.website))
+    && (!filters.country || filters.country === "all" || companyMatchesCountry(company, filters.country))
+    && queryWords.every(word => text.includes(word))
     && (filters.technology === "all" || signals.technologies.includes(filters.technology))
     && (filters.role === "all" || signals.roles.includes(filters.role))
     && (filters.level === "all" || signals.levels.includes(filters.level))

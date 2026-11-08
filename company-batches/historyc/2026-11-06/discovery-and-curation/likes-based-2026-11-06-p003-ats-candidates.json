@@ -1,0 +1,228 @@
+[
+  {
+    "name": "MagmaLabs",
+    "website": "https://www.magmalabs.io/",
+    "careersUrl": "https://magmalabs.bamboohr.com/careers",
+    "locations": ["Latin America (company says it hires engineers across Mexico and Latin America)"],
+    "model": "outsourcing",
+    "tracks": ["Software Engineering", "Full Stack", "React", "Node.js", "Ruby on Rails"],
+    "jobs": [],
+    "sourceEvidence": [
+      { "kind": "official-site", "url": "https://www.magmalabs.io/about-us", "checkedOn": "2026-11-06" },
+      { "kind": "careers-page", "url": "https://magmalabs.bamboohr.com/careers", "checkedOn": "2026-11-06" }
+    ],
+    "fit": { "status": "possible", "reasons": ["The official company page says it hires engineers across Mexico and Latin America; current software-engineering openings are on its BambooHR board, with individual role locations to confirm."], "profileVersion": "v1", "evaluatedOn": "2026-11-06" },
+    "queryLane": "Official BambooHR and nearshore careers"
+  },
+  {
+    "name": "Nikola Digital Lab",
+    "website": "https://www.nikoladigitallab.com/",
+    "careersUrl": "https://www.nikoladigitallab.com/careers",
+    "locations": ["Costa Rica (company base; role eligibility not stated)"],
+    "model": "outsourcing",
+    "tracks": ["Software Engineering", "Full Stack", "Frontend", "Backend", "Java", "React"],
+    "jobs": [],
+    "sourceEvidence": [
+      { "kind": "official-site", "url": "https://www.nikoladigitallab.com/about", "checkedOn": "2026-11-06" },
+      { "kind": "careers-page", "url": "https://www.nikoladigitallab.com/careers", "checkedOn": "2026-11-06" }
+    ],
+    "fit": { "status": "possible", "reasons": ["The official company page says Nikola is based in Costa Rica and its careers page lists software development roles; eligibility for each role is not stated."], "profileVersion": "v1", "evaluatedOn": "2026-11-06" },
+    "queryLane": "Costa Rica nearshore company careers"
+  },
+  {
+    "name": "Talent Booster Costa Rica",
+    "website": "https://talentboostercr.com/",
+    "careersUrl": "https://careers.talentboostercr.com/",
+    "locations": ["Costa Rica (San José office; candidate roles vary)"],
+    "model": "outsourcing",
+    "tracks": ["Software Engineering", "IT Staffing", "Nearshore"],
+    "jobs": [],
+    "sourceEvidence": [
+      { "kind": "official-site", "url": "https://talentboostercr.com/", "checkedOn": "2026-11-06" },
+      { "kind": "careers-page", "url": "https://talentboostercr.com/reclutamiento-para-tics", "checkedOn": "2026-11-06" },
+      { "kind": "career-portal", "url": "https://careers.talentboostercr.com/", "checkedOn": "2026-11-06" }
+    ],
+    "fit": { "status": "possible", "reasons": ["The official site lists a Costa Rica location, an IT software factory, and a candidate vacancies portal; no specific current engineering vacancy was saved."], "profileVersion": "v1", "evaluatedOn": "2026-11-06" },
+    "queryLane": "Costa Rica software-factory and careers sources"
+  },
+  {
+    "name": "R2",
+    "website": "https://r2.co/",
+    "careersUrl": "https://r2.co/careers",
+    "locations": ["LATAM"],
+    "model": "direct",
+    "tracks": ["Software Engineering", "Data Engineering", "Fintech"],
+    "jobs": [
+      { "id": "r2-bamboo-178", "title": "Staff Software Engineer (LatAm Only)", "location": "LATAM", "url": "https://r2.bamboohr.com/careers/178", "eligibility": "The employer's BambooHR listing title says LatAm Only.", "listingStatus": "Listed on employer BambooHR board when checked", "checkedOn": "2026-11-06", "roles": ["Software Engineering"], "levels": ["Staff"] }
+    ],
+    "sourceEvidence": [
+      { "kind": "official-site", "url": "https://r2.co/", "checkedOn": "2026-11-06" },
+      { "kind": "careers-page", "url": "https://r2.co/careers", "checkedOn": "2026-11-06" },
+      { "kind": "job-posting", "url": "https://r2.bamboohr.com/careers/178", "checkedOn": "2026-11-06" }
+    ],
+    "fit": { "status": "strong", "reasons": ["A current engineering role on the employer's ATS is explicitly limited to LATAM."], "profileVersion": "v1", "evaluatedOn": "2026-11-06" },
+    "queryLane": "Official BambooHR LATAM engineering roles"
+  },
+  {
+    "name": "Qventus",
+    "website": "https://www.qventus.com/",
+    "careersUrl": "https://www.qventus.com/company/working-qventus/job/",
+    "locations": ["Latin America"],
+    "model": "direct",
+    "tracks": ["Software Engineering", "AI Engineering", "HealthTech"],
+    "jobs": [
+      { "id": "qventus-4472326009", "title": "Sr. Software Engineer - PAT Assist", "location": "Remote, Latin America", "url": "https://www.qventus.com/company/working-qventus/job?gh_jid=4472326009", "workMode": "Remote", "eligibility": "The employer's Greenhouse feed lists Remote, Latin America.", "listingStatus": "Listed on employer Greenhouse board when checked", "checkedOn": "2026-11-06", "roles": ["Software Engineering"] }
+    ],
+    "sourceEvidence": [
+      { "kind": "official-site", "url": "https://www.qventus.com/", "checkedOn": "2026-11-06" },
+      { "kind": "careers-page", "url": "https://www.qventus.com/company/working-qventus/job/", "checkedOn": "2026-11-06" },
+      { "kind": "job-posting", "url": "https://www.qventus.com/company/working-qventus/job?gh_jid=4472326009", "checkedOn": "2026-11-06" }
+    ],
+    "fit": { "status": "strong", "reasons": ["The employer's current Greenhouse feed lists a remote software-engineering role in Latin America."], "profileVersion": "v1", "evaluatedOn": "2026-11-06" },
+    "queryLane": "Official Greenhouse Latin America engineering roles"
+  },
+  {
+    "name": "Oowlish Technology",
+    "website": "https://www.oowlish.com/",
+    "careersUrl": "https://www.oowlish.com/careers",
+    "locations": ["Costa Rica", "Latin America"],
+    "model": "outsourcing",
+    "tracks": ["Software Engineering", "Cloud Engineering", "Streaming"],
+    "jobs": [
+      { "id": "oowlish-17dc9523", "title": "Senior Video Streaming & Real-Time Media Engineer", "location": "Mexico City / Bogotá, D.C. / Guatemala / San Salvador / Costa Rica / Montevideo / Medellín / São Paulo", "url": "https://jobs.lever.co/oowlish/17dc9523-7f32-47b5-8d41-d27bb3d99032", "workMode": "Remote", "stack": "AWS, WebRTC, GStreamer or FFmpeg", "eligibility": "Costa Rica is listed among the role's locations on the employer's Lever posting.", "listingStatus": "Listed on employer Lever board when checked", "checkedOn": "2026-11-06", "technologies": ["AWS", "WebRTC"], "roles": ["Software Engineering", "Cloud Engineering"], "levels": ["Senior"] }
+    ],
+    "sourceEvidence": [
+      { "kind": "official-site", "url": "https://www.oowlish.com/", "checkedOn": "2026-11-06" },
+      { "kind": "careers-page", "url": "https://www.oowlish.com/careers", "checkedOn": "2026-11-06" },
+      { "kind": "job-posting", "url": "https://jobs.lever.co/oowlish/17dc9523-7f32-47b5-8d41-d27bb3d99032", "checkedOn": "2026-11-06" }
+    ],
+    "fit": { "status": "strong", "reasons": ["The employer's current remote engineering posting explicitly lists Costa Rica among its locations."], "profileVersion": "v1", "evaluatedOn": "2026-11-06" },
+    "queryLane": "Official Lever Costa Rica engineering roles"
+  },
+  {
+    "name": "Homeward",
+    "website": "https://www.homeward.com/",
+    "careersUrl": "https://job-boards.greenhouse.io/homeward",
+    "locations": ["Latin America"],
+    "model": "direct",
+    "tracks": ["Software Engineering", "FinTech", "PropTech"],
+    "jobs": [
+      { "id": "homeward-8191859002", "title": "Senior Software Engineer, Back-end (LatAm)", "location": "Latin America", "url": "https://job-boards.greenhouse.io/homeward/jobs/8191859002", "workMode": "Remote", "eligibility": "The posting says Homeward is only accepting candidates based in Latin America.", "listingStatus": "Listed on employer Greenhouse board when checked", "checkedOn": "2026-11-06", "roles": ["Backend"], "levels": ["Senior"] }
+    ],
+    "sourceEvidence": [
+      { "kind": "official-site", "url": "https://www.homeward.com/", "checkedOn": "2026-11-06" },
+      { "kind": "careers-page", "url": "https://job-boards.greenhouse.io/homeward", "checkedOn": "2026-11-06" },
+      { "kind": "job-posting", "url": "https://job-boards.greenhouse.io/homeward/jobs/8191859002", "checkedOn": "2026-11-06" }
+    ],
+    "fit": { "status": "strong", "reasons": ["The employer's current remote backend-engineering post says applicants must be based in Latin America."], "profileVersion": "v1", "evaluatedOn": "2026-11-06" },
+    "queryLane": "Official Greenhouse Latin America engineering roles"
+  },
+  {
+    "name": "Factored",
+    "website": "https://www.factored.ai/",
+    "careersUrl": "https://www.factored.ai/latam/careers",
+    "locations": ["Latin America"],
+    "model": "outsourcing",
+    "tracks": ["Software Engineering", "AI Engineering", "Data Engineering", "Python"],
+    "jobs": [
+      { "id": "factored-4514946008", "title": "Senior AI Engineer", "location": "Latin America", "url": "https://job-boards.greenhouse.io/factored/jobs/4514946008", "workMode": "Remote", "eligibility": "The employer's Greenhouse posting lists Latin America and says the role is fully remote.", "listingStatus": "Listed on employer Greenhouse board when checked", "checkedOn": "2026-11-06", "stack": "Python, MCP, LangGraph, AWS", "technologies": ["Python", "AWS"], "roles": ["Software Engineering", "AI Engineering"], "levels": ["Senior"] }
+    ],
+    "sourceEvidence": [
+      { "kind": "official-site", "url": "https://www.factored.ai/", "checkedOn": "2026-11-06" },
+      { "kind": "careers-page", "url": "https://www.factored.ai/latam/careers", "checkedOn": "2026-11-06" },
+      { "kind": "job-posting", "url": "https://job-boards.greenhouse.io/factored/jobs/4514946008", "checkedOn": "2026-11-06" }
+    ],
+    "fit": { "status": "strong", "reasons": ["The employer lists a fully remote senior AI engineering role in Latin America and describes a client-embedded engineering model."], "profileVersion": "v1", "evaluatedOn": "2026-11-06" },
+    "queryLane": "Official Greenhouse Latin America engineering roles"
+  },
+  {
+    "name": "SecurityScorecard",
+    "website": "https://securityscorecard.com/",
+    "careersUrl": "https://securityscorecard.com/company/careers/",
+    "locations": ["LATAM"],
+    "model": "direct",
+    "tracks": ["Software Engineering", "AI Engineering", "Cybersecurity"],
+    "jobs": [
+      { "id": "securityscorecard-8324966", "title": "Distinguished Software Engineer, AI", "location": "Remote (US/CAN/LATAM)", "url": "https://job-boards.greenhouse.io/securityscorecard/jobs/8324966", "workMode": "Remote", "eligibility": "The employer's posting lists Remote (US/CAN/LATAM).", "listingStatus": "Listed on employer Greenhouse board when checked", "checkedOn": "2026-11-06", "stack": "TypeScript, Go, AWS", "technologies": ["TypeScript", "Go", "AWS"], "roles": ["Software Engineering", "AI Engineering"], "levels": ["Distinguished"] }
+    ],
+    "sourceEvidence": [
+      { "kind": "official-site", "url": "https://securityscorecard.com/", "checkedOn": "2026-11-06" },
+      { "kind": "careers-page", "url": "https://securityscorecard.com/company/careers/", "checkedOn": "2026-11-06" },
+      { "kind": "job-posting", "url": "https://job-boards.greenhouse.io/securityscorecard/jobs/8324966", "checkedOn": "2026-11-06" }
+    ],
+    "fit": { "status": "strong", "reasons": ["A current remote software-engineering role on the employer's Greenhouse board explicitly includes LATAM."], "profileVersion": "v1", "evaluatedOn": "2026-11-06" },
+    "queryLane": "Official Greenhouse Latin America engineering roles"
+  },
+  {
+    "name": "Nortal",
+    "website": "https://nortal.com/",
+    "careersUrl": "https://careers.nortal.com/",
+    "locations": ["LATAM"],
+    "model": "outsourcing",
+    "tracks": ["Software Engineering", "Full Stack", "AI Engineering", "Python", "Frontend"],
+    "jobs": [
+      { "id": "nortal-5268685007", "title": "(1609) Senior AI Engineer (Full Stack)", "location": "Latin America - Remote", "url": "https://job-boards.greenhouse.io/nortal/jobs/5268685007", "workMode": "Remote", "eligibility": "The employer's Greenhouse listing states Latin America - Remote.", "listingStatus": "Listed on employer Greenhouse board when checked", "checkedOn": "2026-11-06", "roles": ["Software Engineering", "AI Engineering", "Full Stack"], "levels": ["Senior"] }
+    ],
+    "sourceEvidence": [
+      { "kind": "official-site", "url": "https://nortal.com/", "checkedOn": "2026-11-06" },
+      { "kind": "careers-page", "url": "https://careers.nortal.com/", "checkedOn": "2026-11-06" },
+      { "kind": "job-posting", "url": "https://job-boards.greenhouse.io/nortal/jobs/5268685007", "checkedOn": "2026-11-06" }
+    ],
+    "fit": { "status": "strong", "reasons": ["Nortal's current Greenhouse board lists a remote full-stack engineering role in Latin America."], "profileVersion": "v1", "evaluatedOn": "2026-11-06" },
+    "queryLane": "Official Greenhouse Latin America engineering roles"
+  },
+  {
+    "name": "JBS Dev",
+    "website": "https://www.jbs.dev/",
+    "careersUrl": "https://www.jbs.dev/our-team/careers/",
+    "locations": ["Costa Rica"],
+    "model": "outsourcing",
+    "tracks": ["Software Engineering", "Java", "Full Stack", "Cloud Engineering"],
+    "jobs": [
+      { "id": "jbsdev-b9bc55c3", "title": "Senior Software Developer (Java) - Costa Rica", "location": "Costa Rica", "url": "https://jobs.ashbyhq.com/jbs-dev/b9bc55c3-3ad6-4422-a407-132bda0dfc89", "workMode": "Remote", "eligibility": "The employer's posting says candidates must reside in and be authorized to work in Costa Rica.", "listingStatus": "Listed on employer's Ashby board when checked", "checkedOn": "2026-11-06", "stack": "Java, REST APIs, SQL", "technologies": ["Java", "SQL"], "roles": ["Backend", "Software Engineering"], "levels": ["Senior"] }
+    ],
+    "sourceEvidence": [
+      { "kind": "official-site", "url": "https://www.jbs.dev/", "checkedOn": "2026-11-06" },
+      { "kind": "careers-page", "url": "https://www.jbs.dev/our-team/careers/", "checkedOn": "2026-11-06" },
+      { "kind": "job-posting", "url": "https://jobs.ashbyhq.com/jbs-dev/b9bc55c3-3ad6-4422-a407-132bda0dfc89", "checkedOn": "2026-11-06" }
+    ],
+    "fit": { "status": "strong", "reasons": ["The employer's current remote software-development posting requires residence and work authorization in Costa Rica."], "profileVersion": "v1", "evaluatedOn": "2026-11-06" },
+    "queryLane": "Official Ashby Costa Rica engineering roles"
+  },
+  {
+    "name": "RYZ Labs",
+    "website": "https://www.ryzlabs.com/",
+    "careersUrl": "https://www.ryzlabs.com/careers",
+    "locations": ["LATAM"],
+    "model": "outsourcing",
+    "tracks": ["Software Engineering", "Full Stack", "Backend", "Frontend", "TypeScript", "React"],
+    "jobs": [
+      { "id": "ryzlabs-a5906268", "title": "Product Support Engineer", "location": "Buenos Aires; Remote", "url": "https://jobs.lever.co/RyzLabs/a5906268-6f3e-4a49-b992-bc3806c59f97", "workMode": "Remote", "eligibility": "Only for candidates based in Latam; the posting describes software engineering work fixing product issues.", "listingStatus": "Listed on employer Lever board when checked", "checkedOn": "2026-11-06", "stack": "TypeScript, React, SQL", "technologies": ["TypeScript", "React", "SQL"], "roles": ["Software Engineering", "Product Support"], "levels": [] }
+    ],
+    "sourceEvidence": [
+      { "kind": "official-site", "url": "https://www.ryzlabs.com/", "checkedOn": "2026-11-06" },
+      { "kind": "careers-page", "url": "https://www.ryzlabs.com/careers", "checkedOn": "2026-11-06" },
+      { "kind": "job-posting", "url": "https://jobs.lever.co/RyzLabs/a5906268-6f3e-4a49-b992-bc3806c59f97", "checkedOn": "2026-11-06" }
+    ],
+    "fit": { "status": "strong", "reasons": ["A current remote engineering post on the employer's Lever board is only for candidates based in Latin America and describes software engineering work."], "profileVersion": "v1", "evaluatedOn": "2026-11-06" },
+    "queryLane": "Official Lever Latin America engineering roles"
+  },
+  {
+    "name": "Muttdata",
+    "website": "https://www.muttdata.ai/",
+    "careersUrl": "https://jobs.lever.co/muttdata",
+    "locations": ["LATAM"],
+    "model": "outsourcing",
+    "tracks": ["Software Engineering", "Data Engineering", "AI Engineering", "Python"],
+    "jobs": [
+      { "id": "muttdata-fc857e57", "title": "#8 Data Engineer Senior - Databricks - Latam", "location": "Remote - Latam", "url": "https://jobs.lever.co/muttdata/fc857e57-d162-455e-87fe-64c324c9708a", "workMode": "Remote", "eligibility": "The employer's Lever posting is labeled Remote - Latam; exact eligible countries are not listed.", "listingStatus": "Listed on employer Lever board when checked", "checkedOn": "2026-11-06", "stack": "Databricks", "technologies": ["Databricks"], "roles": ["Data Engineering"], "levels": ["Senior"] }
+    ],
+    "sourceEvidence": [
+      { "kind": "official-site", "url": "https://www.muttdata.ai/", "checkedOn": "2026-11-06" },
+      { "kind": "careers-page", "url": "https://www.muttdata.ai/culture", "checkedOn": "2026-11-06" },
+      { "kind": "job-posting", "url": "https://jobs.lever.co/muttdata/fc857e57-d162-455e-87fe-64c324c9708a", "checkedOn": "2026-11-06" }
+    ],
+    "fit": { "status": "possible", "reasons": ["The current remote data-engineering listing is labeled Latam, but it does not enumerate eligible countries."], "profileVersion": "v1", "evaluatedOn": "2026-11-06" },
+    "queryLane": "Official Lever Latin America engineering roles"
+  }
+]

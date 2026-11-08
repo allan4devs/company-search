@@ -1,0 +1,2556 @@
+{
+  "cohortId": "likes-based-2026-11-06-p005-directory",
+  "checkedOn": "2026-11-06",
+  "inputFiles": [
+    "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+    "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+    "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p004-discovery-unique.json"
+  ],
+  "inputCount": 268,
+  "uniqueCount": 260,
+  "outputCount": 260,
+  "duplicateCount": 8,
+  "missingIdentityCount": 0,
+  "catalog": {
+    "source": "MongoDB + bundled files + prior batches",
+    "mongoCompanies": 1320,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 221,
+    "indexedNames": 1597,
+    "indexedDomains": 1542
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 63,
+    "topTracks": [
+      {
+        "track": "Engineering",
+        "count": 36
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Software Engineering",
+        "count": 3
+      },
+      {
+        "track": "Node.js",
+        "count": 2
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        46
+      ],
+      [
+        "direct",
+        16
+      ],
+      [
+        "unknown",
+        1
+      ]
+    ]
+  },
+  "queryLanes": [
+    {
+      "lane": "CAMTIC Costa Rica ICT member directory",
+      "leads": 112,
+      "unique": 112,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Costa Rica employer directory and careers",
+      "leads": 10,
+      "unique": 10,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Costa Rica employer official careers wave 3",
+      "leads": 1,
+      "unique": 1,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Guía TIC Costa Rica technology supplier directory",
+      "leads": 125,
+      "unique": 124,
+      "duplicateRate": 0.008,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "CamSCAT Costa Rica shared-services member directory",
+      "leads": 20,
+      "unique": 13,
+      "duplicateRate": 0.35,
+      "recommendation": "continue or expand this lane"
+    }
+  ],
+  "entries": [
+    {
+      "company": "Addax",
+      "domain": "addaxdevelopment.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/addax/"
+    },
+    {
+      "company": "ActionCOACH Costa Rica",
+      "domain": "actioncoachiberoamerica.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/actioncoach-costa-rica/"
+    },
+    {
+      "company": "Aliant",
+      "domain": "aliantlaw.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/aliant/"
+    },
+    {
+      "company": "Análisis MBC",
+      "domain": "analisis.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/analisis-mbc/"
+    },
+    {
+      "company": "ARI Casa de Cambio Internacional S.A.",
+      "domain": "ariari.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/ari-casa-de-cambio-internacional-s-a/"
+    },
+    {
+      "company": "Asesoftware",
+      "domain": "asesoftware.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/asesoftware/"
+    },
+    {
+      "company": "ATESA",
+      "domain": "atesacr.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/atesa/"
+    },
+    {
+      "company": "Aura Interactiva",
+      "domain": "aurainteractiva.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/aura-interactiva/"
+    },
+    {
+      "company": "Avocash",
+      "domain": "avocashenlinea.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/avocash/"
+    },
+    {
+      "company": "Babel",
+      "domain": "babelgroup.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/babel/"
+    },
+    {
+      "company": "Banco Promérica",
+      "domain": "fi.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/banco-promerica/"
+    },
+    {
+      "company": "BIS",
+      "domain": "bis.co.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/business-integrators-systems/"
+    },
+    {
+      "company": "CANU ARTS",
+      "domain": "canuarts.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/canu-arts/"
+    },
+    {
+      "company": "CCA Business",
+      "domain": "ccastrategy.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/cca-business/"
+    },
+    {
+      "company": "CLC Comunicación",
+      "domain": "clccomunicacion.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/clc-comunicacion/"
+    },
+    {
+      "company": "Cloud Business Solutions",
+      "domain": "cbs.co.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/cloud-business-solutions/"
+    },
+    {
+      "company": "CResiliencia",
+      "domain": "wa.link",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/cresiliencia/"
+    },
+    {
+      "company": "CNET",
+      "domain": "cnet.co.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/cnet/"
+    },
+    {
+      "company": "COASIN",
+      "domain": "coasin.co.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/coasin/"
+    },
+    {
+      "company": "Coding Ninja",
+      "domain": "coding-ninja.net",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/coding-ninja/"
+    },
+    {
+      "company": "Componentes El Orbe",
+      "domain": "elorbe.la",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/componentes-el-orbe/"
+    },
+    {
+      "company": "Coral",
+      "domain": "coralcr.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/coral-systems/"
+    },
+    {
+      "company": "CSI Consultores",
+      "domain": "csi-cr.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/csi-consultores/"
+    },
+    {
+      "company": "Daytona Soft",
+      "domain": "daytonasoft.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/daytona-soft/"
+    },
+    {
+      "company": "Dentons",
+      "domain": "dentons.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/dentos/"
+    },
+    {
+      "company": "Detektor",
+      "domain": "detektor.co.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/detektor/"
+    },
+    {
+      "company": "Didi",
+      "domain": "didiglobal.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/didi/"
+    },
+    {
+      "company": "dLocal",
+      "domain": "dlocal.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/dlocal/"
+    },
+    {
+      "company": "EA Tech Consulting",
+      "domain": "eatechconsulting.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/eatechconsulting/"
+    },
+    {
+      "company": "Ecija",
+      "domain": "ecija.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/ecija/"
+    },
+    {
+      "company": "ECP Consulting Group",
+      "domain": "ecpconsultgroup.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/ecp-consulting-group/"
+    },
+    {
+      "company": "Elefat",
+      "domain": "elefat.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/elefat/"
+    },
+    {
+      "company": "E-motions",
+      "domain": "emotions.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/e-motions/"
+    },
+    {
+      "company": "Entrust Consultores",
+      "domain": "oratechla.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/entrust-consultores/"
+    },
+    {
+      "company": "Equifax Inc.",
+      "domain": "equifax.co.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/equifax-inc/"
+    },
+    {
+      "company": "ESICOM",
+      "domain": "esicomsa.net",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/esicom/"
+    },
+    {
+      "company": "Evicertia",
+      "domain": "evicertia.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/evicertia/"
+    },
+    {
+      "company": "EXSQ LATAM/EX Squared LATAM",
+      "domain": "exsquared.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/ex-squared-latam/"
+    },
+    {
+      "company": "FVCR Ferias Virtuales",
+      "domain": "feriasvirtualescr.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/fvcr-ferias-virtuales/"
+    },
+    {
+      "company": "Figueroa Producciones",
+      "domain": "tricolin.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/figueroa-producciones/"
+    },
+    {
+      "company": "Film Support",
+      "domain": "filmsupport.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/film-support/"
+    },
+    {
+      "company": "Fundación Omar Dengo",
+      "domain": "ac.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/fundacion-omar-dengo/"
+    },
+    {
+      "company": "Fusionet",
+      "domain": "fusionetcorp.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/fusionet/"
+    },
+    {
+      "company": "GBSYS",
+      "domain": "gbsys.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/gbsys/"
+    },
+    {
+      "company": "Global Media Group",
+      "domain": "gmgp.biz",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/global-media-group/"
+    },
+    {
+      "company": "Globalex",
+      "domain": "globalex.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/globalex/"
+    },
+    {
+      "company": "Growth Hackers",
+      "domain": "growthhacker.services",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/growth-hackers/"
+    },
+    {
+      "company": "Grupo Asesor",
+      "domain": "grupoasesor.net",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/grupo-asesor/"
+    },
+    {
+      "company": "Grupo CMA",
+      "domain": "grupocma.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/grupo-cma/"
+    },
+    {
+      "company": "Grupo Más",
+      "domain": "grupomas.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/grupo-mas/"
+    },
+    {
+      "company": "Grupo T&#038;TA",
+      "domain": "ttaca.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/grupo-tta/"
+    },
+    {
+      "company": "GSI",
+      "domain": "e-gsi.net",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/gsi/"
+    },
+    {
+      "company": "Hermes Soft",
+      "domain": "hermes-soft.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/hermes-soft/"
+    },
+    {
+      "company": "Hologic",
+      "domain": "hologic.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/hologic/"
+    },
+    {
+      "company": "Huawei Technologies",
+      "domain": "huawei.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/huawei-technologies-costa-rica-s-a/"
+    },
+    {
+      "company": "Incredible Workplaces",
+      "domain": "incredibleworkplacescostarica.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/incredible-workplaces/"
+    },
+    {
+      "company": "Incompany",
+      "domain": "incompany.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/incompany/"
+    },
+    {
+      "company": "Infoefectiva",
+      "domain": "infoefectiva.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/infoefectiva/"
+    },
+    {
+      "company": "INFOTREC",
+      "domain": "infotrec.co.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/infotrec/"
+    },
+    {
+      "company": "IMPESA",
+      "domain": "impesa.net",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/impesa/"
+    },
+    {
+      "company": "Impulsa IT Solutions",
+      "domain": "impulsait.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/impulsa-it-solutions/"
+    },
+    {
+      "company": "IT Learning Solution",
+      "domain": "flane.com.pa",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/it-learning-solution/"
+    },
+    {
+      "company": "JAFU",
+      "domain": "figueresulate.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/jafu/"
+    },
+    {
+      "company": "Kal-í CR",
+      "domain": "wa.me",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/kal-i-cr/"
+    },
+    {
+      "company": "Kínetos",
+      "domain": "kinetos.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/kinetos/"
+    },
+    {
+      "company": "Kruger Innova CR",
+      "domain": "krugercorp.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/kruger-innova-costa-rica/"
+    },
+    {
+      "company": "Legadmi",
+      "domain": "legadmi.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/legadmi/"
+    },
+    {
+      "company": "Liberty",
+      "domain": "libertycr.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/telefonica/"
+    },
+    {
+      "company": "Loymark",
+      "domain": "loymark.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/loymark/"
+    },
+    {
+      "company": "LYSTO CARD",
+      "domain": "lystocard.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/lysto-card/"
+    },
+    {
+      "company": "Masterlex",
+      "domain": "masterlex.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/masterlex/"
+    },
+    {
+      "company": "Mekanismo",
+      "domain": "audiovisualcostarica.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/mekanismo-taller-audiovisual/"
+    },
+    {
+      "company": "Modul Apps",
+      "domain": "modulappscr.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/modul-apps/"
+    },
+    {
+      "company": "Morpho Animation",
+      "domain": "morpho.tv",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/morpho-animation-studio/"
+    },
+    {
+      "company": "Movitext",
+      "domain": "movitext.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/movitext/"
+    },
+    {
+      "company": "MT MMV INTEGRADORES",
+      "domain": "mt2005.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/mt-mmv-integradores/"
+    },
+    {
+      "company": "Navasoft",
+      "domain": "navasoftsoluciones.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/navasoft/"
+    },
+    {
+      "company": "Navega Training and Consulting SRL",
+      "domain": "navegatraining.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/navega-training-and-consulting-srl/"
+    },
+    {
+      "company": "Navegalo",
+      "domain": "navegalo.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/navegalo/"
+    },
+    {
+      "company": "Neotecnologías",
+      "domain": "neotecnologias.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/neotecnologias/"
+    },
+    {
+      "company": "Next Curve",
+      "domain": "nextcurve.io",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/next-curve/"
+    },
+    {
+      "company": "Nóvaq",
+      "domain": "novaq.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/novaq/"
+    },
+    {
+      "company": "NOVUS ERP",
+      "domain": "novussoftware.la",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/novus-erp/"
+    },
+    {
+      "company": "OPTEC SISTEMAS S.A.",
+      "domain": "optecsistemas.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/optec-sistemas-s-a/"
+    },
+    {
+      "company": "Orcase",
+      "domain": "orcase.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/orcase/"
+    },
+    {
+      "company": "Parque la Libertad",
+      "domain": "parquelalibertad.org",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/parque-la-libertad/"
+    },
+    {
+      "company": "Piscium Security",
+      "domain": "piscium.net",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/piscium-security/"
+    },
+    {
+      "company": "PricewaterhouseCooper",
+      "domain": "pwc.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/pricewaterhousecooper/"
+    },
+    {
+      "company": "Producción Filmica VB",
+      "domain": "vbfps.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/produccion-filmica-vb/"
+    },
+    {
+      "company": "Progressio Digital",
+      "domain": "progressiodigital.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/progressio-digital/"
+    },
+    {
+      "company": "Prointec",
+      "domain": "prointeccr.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/prointec/"
+    },
+    {
+      "company": "Prosoft",
+      "domain": "prosoft.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/prosoft/"
+    },
+    {
+      "company": "R.A.C.S.A.",
+      "domain": "go.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/radiografica-costarricense-s-a/"
+    },
+    {
+      "company": "Reelax Media",
+      "domain": "reelaxmedia.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/reelax-media/"
+    },
+    {
+      "company": "RF Grupo Educativo Ltda",
+      "domain": "rfgrupoeducativo.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/rf-grupo-educativo-ltda/"
+    },
+    {
+      "company": "S-COM",
+      "domain": "s-com.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/s-com/"
+    },
+    {
+      "company": "Siftia",
+      "domain": "siftia.tech",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/siftia/"
+    },
+    {
+      "company": "Simplexity Consulting",
+      "domain": "simplexityla.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/simplexity-consulting/"
+    },
+    {
+      "company": "SmartSoft",
+      "domain": "smartsoftint.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/smartsoft/"
+    },
+    {
+      "company": "Solvai",
+      "domain": "it.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/solvai/"
+    },
+    {
+      "company": "Talentify",
+      "domain": "talentify.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/talentify/"
+    },
+    {
+      "company": "TecApro",
+      "domain": "tecapro.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/tecapro/"
+    },
+    {
+      "company": "Telecable",
+      "domain": "telecablecr.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/telecable/"
+    },
+    {
+      "company": "Three Rivers Software",
+      "domain": "3riverssoftware.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/three-rivers-software/"
+    },
+    {
+      "company": "Tierra de Visitantes",
+      "domain": "visitantesesperados.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/tierra-de-visitantes/"
+    },
+    {
+      "company": "Transcomer",
+      "domain": "transcomer.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/transcomer/"
+    },
+    {
+      "company": "Truesec",
+      "domain": "true-sec.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/truesec/"
+    },
+    {
+      "company": "TuanisApps SRL",
+      "domain": "tuanisapps.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/tuanisapps-srl/"
+    },
+    {
+      "company": "Vertix Solutions",
+      "domain": "vertixsolutions.com",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/vertix-solutions/"
+    },
+    {
+      "company": "Whizmo",
+      "domain": "whizmo.cr",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/whizmo-2/"
+    },
+    {
+      "company": "XperSoft",
+      "domain": "xpersoft.net",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/xpersoft/"
+    },
+    {
+      "company": "Yoopy",
+      "domain": "yoopy.app",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\camtic-members-full-unique-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camtic.org/project/yoopy/"
+    },
+    {
+      "company": "12LAB",
+      "domain": "12lab.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Ablerex Latam",
+      "domain": "ablerexlatam.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "ADATEC SAS",
+      "domain": "adatec.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "ADN Software",
+      "domain": "adnsoftware.com.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "AITE SOLUTIONS",
+      "domain": "aitesol.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "AJAX SYSTEMS",
+      "domain": "ajax.systems",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "AlfaPeople Andino SA",
+      "domain": "alfapeople.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "alltic sas",
+      "domain": "alltic.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "APEX SECURITY",
+      "domain": "apexsecurity.com.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "APPROPIA OPEN SOURCE S.A.S.",
+      "domain": "appropia.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "APPSUS SAS",
+      "domain": "appsus.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "ARCHIVOS Y SISTEMAS AYS SAS",
+      "domain": "siged.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "ARMATURA COLOMBIA",
+      "domain": "armaturacolombia.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "ASSOINCO SAS",
+      "domain": "assoincoingenieria.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Athika SAS",
+      "domain": "athika.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "AUDITBRAIN SAS",
+      "domain": "auditbrain.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "BIOFILE SAS BIC",
+      "domain": "biofile.com.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Bizneo HR",
+      "domain": "bizneo.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Cerca Technology SAS",
+      "domain": "cercatechnology.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "CERO K S.A.S.",
+      "domain": "saiasoftware.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "CHARMEX LATINOAMERICA",
+      "domain": "charmex.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "CLOUD PULSE",
+      "domain": "becloudpulse.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Cobalto Software Lab",
+      "domain": "27cobalto.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "COMPUCOM SAS",
+      "domain": "compucom.com.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "CONECTA, SOFTWARE Y PROCESOS S.A.S.",
+      "domain": "conectacarga.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "CONSENSUS SAS",
+      "domain": "consensussa.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "ControLT SAS",
+      "domain": "controlt.io",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "COSMO CONSULT",
+      "domain": "cosmoconsult.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "CTN Global Colombia",
+      "domain": "ctnglobal.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "CYMETRIA Group S.A.S.",
+      "domain": "cymetria.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Datascoring de Colombia",
+      "domain": "datascoring.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "DEVCOGNITIO SAS",
+      "domain": "devco.com.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Digital Consulting Group",
+      "domain": "digitalcg.com.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "DINAMICA C.D.",
+      "domain": "dinamicacd.com.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "DINAMICAPPS SAS",
+      "domain": "dinamicapps.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "DISEÑO Y APLICACIONES",
+      "domain": "scorpiosoftware.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "DRIVIN",
+      "domain": "driv.in",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "DYALOGO SAS",
+      "domain": "dyalogo.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Dynamics IT S.A.",
+      "domain": "dynamicsitla.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "E-TakeOff SAS",
+      "domain": "e-takeoff.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "EasyBI",
+      "domain": "easybi.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "EL CREATIVO WEB S.A.S",
+      "domain": "elcreativoweb.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "ELEARNING SOLUTIONS LTDA",
+      "domain": "e-learning.com.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Enterprise Business Solutions – EBS LTDA",
+      "domain": "ebsltda.com.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "eSoft Colombia SAS",
+      "domain": "esoft.com.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "EXPERIS COLOMBIA",
+      "domain": "experis.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "FINAC S.A.S.",
+      "domain": "finac.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "FLEXIWEB LIMITADA",
+      "domain": "flexiwebltda.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "FOMPLUS",
+      "domain": "fomplus.net",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "FORWARTY",
+      "domain": "myforwarty.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Front Tech",
+      "domain": "fronttech.com.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "GCON4",
+      "domain": "gcon4.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Giitic S.A.S.",
+      "domain": "giitic.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "GROWING TECH SAS",
+      "domain": "growingtech.com.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Grupo NW S.A.S.",
+      "domain": "gruponw.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "HEINSOHN BUSINESS TECHNOLOGY",
+      "domain": "heinsohn.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "IBIS CREATIVA",
+      "domain": "ibiscreativa.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "ICONOI",
+      "domain": "iconoi.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "ICR Evolution",
+      "domain": "icr-evolution.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "ilana lab S.A.S.",
+      "domain": "ilanalab.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Imaginatio Digital Agency - Línea Oza Learn",
+      "domain": "imaginatio.com.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "iMedical Services S.A.S.",
+      "domain": "imedicalservices.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "IMPROSOFT S.A.S.",
+      "domain": "mejoramiso.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "INFORMACIÓN GERENCIAL LTDA.",
+      "domain": "informaciongerencial.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Innova Systems S.A.S.",
+      "domain": "innova.com.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Innovasoft – CLASS Software Académico",
+      "domain": "innovasof.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "INNOVASOFT COLOMBIA SAS",
+      "domain": "guiatic.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "INSITU MOBILE SOFTWARE S.A.",
+      "domain": "insitusales.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "KCP Dynamics SL",
+      "domain": "kcpdynamics.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Latic Latinoamérica",
+      "domain": "latic.lat",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "LED SCREEN MASTERS & SUPPLIES S.A.S. / LED MASTER",
+      "domain": "theledmaster.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Lite Thinking",
+      "domain": "litethinking.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Lyntik",
+      "domain": "lyntik.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Mainsoft Ltda.",
+      "domain": "mainsoft.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "MEKATTA",
+      "domain": "mekatta.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "NEOSOFTWARE INGENIERIA SAS",
+      "domain": "neosoftwareingenieria.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Netsoft - Negocios en Tecnología y Software HGEG S.A. de C.V.",
+      "domain": "netsoft.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "NETTHPLUS SAS",
+      "domain": "netthplus.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Next Audit & Consulting SAS",
+      "domain": "nextayc.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "NEXXT SOLUTIONS - INFRAESTRUCTURA",
+      "domain": "nexxtsolutions.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Nicomar Electronics - Powest",
+      "domain": "powest.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Noren Thermal Solutions",
+      "domain": "norenthermal.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "NovaIP",
+      "domain": "novaip.com.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "NOVOSTEK",
+      "domain": "novostek.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "OasisCom",
+      "domain": "oasiscom.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "OneScreen Solutions",
+      "domain": "onescreenlatam.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Oracle NetSuite",
+      "domain": "netsuite.com.mx",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "ORBIS CORPORATION SAS",
+      "domain": "orbis.com.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "PANDUIT SERVICIOS",
+      "domain": "panduit.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "PRODYGYTEK SAS",
+      "domain": "prodygytek.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Prosoft",
+      "domain": "prosoft.cr",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Prosoft",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "PSC PROSOL COLOMBIA SAS",
+      "domain": "prosol.com.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Q10 SAS",
+      "domain": "q10.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "RC Cloud Tech",
+      "domain": "rccloudtech.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "RECURSOS & TECNOLOGIA SAS",
+      "domain": "recursosytecnologia.com.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Rempro Software",
+      "domain": "rempro.co.cr",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Risktech",
+      "domain": "risktech.com.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "RSN IT SOLUTIONS SAS",
+      "domain": "informaweberp.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "S.U.S - Soluciones Universales Sistemáticas",
+      "domain": "sus.com.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "SAMA WIFI SA DE CV",
+      "domain": "samawifi.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Schneider Electric Centroamérica LTDA",
+      "domain": "se.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Seidor Colombia",
+      "domain": "seidorcolombia.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "SIAFF CONSULTORES, S.A. DE C.V",
+      "domain": "siaff.net",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "SISCOMPUTO LTDA",
+      "domain": "siscomputo.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Softland Colombia SAS",
+      "domain": "softland.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "SOFTTOOLS S.A.S",
+      "domain": "softtools.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "SOLTEC SALUD SAS",
+      "domain": "soltecsalud.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "SOLUCIONES GENIALES SAS",
+      "domain": "solgenial.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Soporte y Compañía SAS",
+      "domain": "infomante.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Sprime",
+      "domain": "sprime.com.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "SUPREMA INC",
+      "domain": "supremainc.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "SYNERGY TPC SAS",
+      "domain": "synergytpc.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "talento cloud",
+      "domain": "talento.cloud",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Tickelia, Legalización de viáticos y gastos de empresa",
+      "domain": "tickelia.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "TIQAL S.A.S.",
+      "domain": "darumasoftware.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "TKH Security LLC",
+      "domain": "tkhsecurity.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Todosistemas STI",
+      "domain": "todosistemassti.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Tripp Lite",
+      "domain": "tripplite.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "UNIÓN SOLUCIONES SISTEMAS DE INFORMACIÓN",
+      "domain": "unionsoluciones.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "VENDTY SAS",
+      "domain": "vendty.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "VIRTUAL TECHNOLOGIES SAS",
+      "domain": "virtual.com.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Visual Control",
+      "domain": "visualcontrol.com.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "WAHHU",
+      "domain": "wahhu.com",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "WebLink Technology Solutions Ltda.",
+      "domain": "cloud-bricks.net",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "XIMIL TECHNOLOGIES SAS",
+      "domain": "ximil.co",
+      "queryLane": "Guía TIC Costa Rica technology supplier directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://guiatic.com/cr/directorio"
+    },
+    {
+      "company": "Accenture",
+      "domain": "accenture.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Accenture",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "aliaxis",
+      "domain": "aliaxis-la.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "Align",
+      "domain": "aligntech.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Align Technology",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "AMAZON",
+      "domain": "amazon.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Amazon",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "CMA",
+      "domain": "cma-cgm.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "Smith",
+      "domain": "smith-nephew.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "Auxis",
+      "domain": "auxis.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Auxis",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "640px-Bac_credomatic_logo",
+      "domain": "baccredomatic.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "Baccardi",
+      "domain": "bacardi.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "Bat",
+      "domain": "bat.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "Bridgestone",
+      "domain": "bridgestoneamericas.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "baxter",
+      "domain": "baxter.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "Bayer",
+      "domain": "bayer.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "Bill Goslyn",
+      "domain": "billgosling.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "BlackBaud",
+      "domain": "blackbaud.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Blackbaud",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "EY",
+      "domain": "ey.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "EY",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "Cargill",
+      "domain": "cargill.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Cargill",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "catalina",
+      "domain": "catalina.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "Centro Bimbo",
+      "domain": "grupobimbo.com",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "Cinde",
+      "domain": "cinde.org",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\costa-rica-directory-leads-2026-11-06.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/"
+    },
+    {
+      "company": "Netlify",
+      "domain": "netlify.com",
+      "queryLane": "Costa Rica employer directory and careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p004-discovery-unique.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.netlify.com/careers/"
+    },
+    {
+      "company": "OfferFit",
+      "domain": "offerfit.ai",
+      "queryLane": "Costa Rica employer directory and careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p004-discovery-unique.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.offerfit.ai/careers"
+    },
+    {
+      "company": "OfferUp",
+      "domain": "offerup.com",
+      "queryLane": "Costa Rica employer directory and careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p004-discovery-unique.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://about.offerup.com/careers/engineering/"
+    },
+    {
+      "company": "StreamYard",
+      "domain": "streamyard.com",
+      "queryLane": "Costa Rica employer directory and careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p004-discovery-unique.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://boards.greenhouse.io/streamyard"
+    },
+    {
+      "company": "Workramp",
+      "domain": "workramp.com",
+      "queryLane": "Costa Rica employer directory and careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p004-discovery-unique.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://jobs.lever.co/workramp"
+    },
+    {
+      "company": "Yalo",
+      "domain": "yalo.com",
+      "queryLane": "Costa Rica employer directory and careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p004-discovery-unique.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.yalo.com/careers"
+    },
+    {
+      "company": "Flatirons",
+      "domain": "flatirons.com",
+      "queryLane": "Costa Rica employer directory and careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p004-discovery-unique.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://flatirons.com/careers"
+    },
+    {
+      "company": "Outliant",
+      "domain": "outliant.com",
+      "queryLane": "Costa Rica employer directory and careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p004-discovery-unique.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://outliant.com/careers/"
+    },
+    {
+      "company": "Tech9",
+      "domain": "tech9.com",
+      "queryLane": "Costa Rica employer directory and careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p004-discovery-unique.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://tech9.com/careers/"
+    },
+    {
+      "company": "Interfaz",
+      "domain": "interfaz.io",
+      "queryLane": "Costa Rica employer directory and careers",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p004-discovery-unique.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://interfaz.io/careers/"
+    },
+    {
+      "company": "Trifecta Software",
+      "domain": "trifectasoftware.com",
+      "queryLane": "Costa Rica employer official careers wave 3",
+      "sourceFile": "company-batches\\historyc\\2026-11-06\\discovery-and-curation\\likes-based-2026-11-06-p004-discovery-unique.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.trifectasoftware.com/"
+    }
+  ]
+}

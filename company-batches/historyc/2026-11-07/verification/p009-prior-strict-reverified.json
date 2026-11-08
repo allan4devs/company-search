@@ -1,0 +1,2910 @@
+{
+  "cohortId": "likes-based-2026-11-07-p009",
+  "checkedOn": "2026-11-07",
+  "sourceInput": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p009-prior-strict-candidates.json",
+  "inputCandidateCount": 41,
+  "candidateOffset": 0,
+  "candidateCount": 41,
+  "remainingCandidateCount": 0,
+  "elapsedMs": 7094,
+  "officialPagesChecked": 57,
+  "verifierOptions": {
+    "concurrency": 24,
+    "maxFollowupPages": 2
+  },
+  "queryLanes": [
+    {
+      "lane": "The Manifest Costa Rica software directory — page 2",
+      "checked": 7,
+      "reachable": 5,
+      "regionAndFit": 7,
+      "localOrEligibleAndFit": 7,
+      "regionAndFitRate": 1,
+      "localOrEligibleAndFitRate": 1,
+      "recommendation": "continue, then compare against the next batch"
+    },
+    {
+      "lane": "Guia TIC Costa Rica technology supplier directory",
+      "checked": 5,
+      "reachable": 1,
+      "regionAndFit": 5,
+      "localOrEligibleAndFit": 5,
+      "regionAndFitRate": 1,
+      "localOrEligibleAndFitRate": 1,
+      "recommendation": "continue, then compare against the next batch"
+    },
+    {
+      "lane": "The Manifest Costa Rica software directory — page 0",
+      "checked": 4,
+      "reachable": 3,
+      "regionAndFit": 4,
+      "localOrEligibleAndFit": 4,
+      "regionAndFitRate": 1,
+      "localOrEligibleAndFitRate": 1,
+      "recommendation": "continue, then compare against the next batch"
+    },
+    {
+      "lane": "Alpunto Costa Rica software developer directory",
+      "checked": 3,
+      "reachable": 3,
+      "regionAndFit": 3,
+      "localOrEligibleAndFit": 3,
+      "regionAndFitRate": 1,
+      "localOrEligibleAndFitRate": 1,
+      "recommendation": "continue, then compare against the next batch"
+    },
+    {
+      "lane": "The Manifest Costa Rica software directory — page 4",
+      "checked": 3,
+      "reachable": 3,
+      "regionAndFit": 3,
+      "localOrEligibleAndFit": 3,
+      "regionAndFitRate": 1,
+      "localOrEligibleAndFitRate": 1,
+      "recommendation": "continue, then compare against the next batch"
+    },
+    {
+      "lane": "Find Remote Jobs current software-engineering LATAM feed",
+      "checked": 3,
+      "reachable": 3,
+      "regionAndFit": 3,
+      "localOrEligibleAndFit": 3,
+      "regionAndFitRate": 1,
+      "localOrEligibleAndFitRate": 1,
+      "recommendation": "continue, then compare against the next batch"
+    },
+    {
+      "lane": "Enterprise League software directory — Colombia",
+      "checked": 1,
+      "reachable": 1,
+      "regionAndFit": 1,
+      "localOrEligibleAndFit": 1,
+      "regionAndFitRate": 1,
+      "localOrEligibleAndFitRate": 1,
+      "recommendation": "continue, then compare against the next batch"
+    },
+    {
+      "lane": "Official Costa Rica employer job pages — software/engineering roles",
+      "checked": 1,
+      "reachable": 1,
+      "regionAndFit": 1,
+      "localOrEligibleAndFit": 1,
+      "regionAndFitRate": 1,
+      "localOrEligibleAndFitRate": 1,
+      "recommendation": "continue, then compare against the next batch"
+    },
+    {
+      "lane": "GoodFirms Costa Rica software development directory",
+      "checked": 1,
+      "reachable": 1,
+      "regionAndFit": 1,
+      "localOrEligibleAndFit": 1,
+      "regionAndFitRate": 1,
+      "localOrEligibleAndFitRate": 1,
+      "recommendation": "continue, then compare against the next batch"
+    },
+    {
+      "lane": "Official Costa Rica software companies",
+      "checked": 1,
+      "reachable": 1,
+      "regionAndFit": 1,
+      "localOrEligibleAndFit": 1,
+      "regionAndFitRate": 1,
+      "localOrEligibleAndFitRate": 1,
+      "recommendation": "continue, then compare against the next batch"
+    },
+    {
+      "lane": "The Manifest Costa Rica software directory",
+      "checked": 9,
+      "reachable": 7,
+      "regionAndFit": 8,
+      "localOrEligibleAndFit": 8,
+      "regionAndFitRate": 0.889,
+      "localOrEligibleAndFitRate": 0.889,
+      "recommendation": "continue, then compare against the next batch"
+    },
+    {
+      "lane": "CamSCAT Costa Rica shared-services member directory",
+      "checked": 3,
+      "reachable": 2,
+      "regionAndFit": 3,
+      "localOrEligibleAndFit": 2,
+      "regionAndFitRate": 1,
+      "localOrEligibleAndFitRate": 0.667,
+      "recommendation": "continue, then compare against the next batch"
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Bill Goslyn",
+      "website": "",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/",
+      "careersUrl": "https://www.billgosling.com/careers/",
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPages": [
+        {
+          "url": "https://www.billgosling.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.billgosling.com/careers/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.billgosling.com/about-bill-gosling/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.billgosling.com/contact-us/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false,
+      "officialPagesChecked": 1
+    },
+    {
+      "name": "catalina",
+      "website": "https://www.catalina.com/",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/",
+      "careersUrl": "https://jobs.catalina.com/",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.catalina.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.catalina.com/company",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://jobs.catalina.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://jobs.catalina.com/",
+          "snippet": "ght, bold people and help us fuel the innovation that changes a global marketplace. --> --> United States --> Costa Rica --> Europe --> --> --> --> --> Our success is the Talent of its Teams Explore our opportunities! --> Infillion Catalina view opportunities united sta"
+        },
+        {
+          "url": "https://jobs.catalina.com/",
+          "snippet": "s Teams Explore our opportunities! --> Infillion Catalina view opportunities united states view opportunities Costa Rica Catalina Europe view opportunities france view opportunities united kingdom view opportunities italy Our People What sets our data science teams apar"
+        },
+        {
+          "url": "https://jobs.catalina.com/",
+          "snippet": "e data entrusted to the company and maintaining consumer trust. Catalina has operations in the United States, Costa Rica, and Europe. To learn more, please visit www.catalina.com . Catalina values your privacy and is committed to protecting your personal information. Pl"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://www.catalina.com/company",
+          "snippet": "Catalina? See how Catalina’s solutions can help your business thrive. Learn More Careers Are you a data nerd, developer, or digital media guru? Learn more about joining the team and explore current job opportunities. Reach Out Brands And Agencies That Trust Us Don’t ju"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 3
+    },
+    {
+      "name": "Cinde",
+      "website": "https://www.cinde.org/en",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/",
+      "careersUrl": "https://www.cinde.org/en/ecosystems#talent-initiatives",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.cinde.org/en",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica",
+        "Latin America"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://www.cinde.org/en",
+          "snippet": "CINDE | Costa Rica: A natural hub for life-centered solutions CONTACT US en es Main sections Home Our Services Why Costa Rica Incentives Growth Ecosystems About CINDE R"
+        },
+        {
+          "url": "https://www.cinde.org/en",
+          "snippet": " | Costa Rica: A natural hub for life-centered solutions CONTACT US en es Main sections Home Our Services Why Costa Rica Incentives Growth Ecosystems About CINDE Resources Press & Events Explore Costa Rica Key Sectors Technologies Capabilities Free Zones Strategic Allie"
+        },
+        {
+          "url": "https://www.cinde.org/en",
+          "snippet": "ns Home Our Services Why Costa Rica Incentives Growth Ecosystems About CINDE Resources Press & Events Explore Costa Rica Key Sectors Technologies Capabilities Free Zones Strategic Allies Rising Cities Nearshoring in Costa Rica Explore our ecosystem » CONTACT US en es SE"
+        },
+        {
+          "url": "https://www.cinde.org/en",
+          "snippet": "ore Costa Rica Key Sectors Technologies Capabilities Free Zones Strategic Allies Rising Cities Nearshoring in Costa Rica Explore our ecosystem » CONTACT US en es SERVICES WHY COSTA RICA OUR ESSENCE KEY SECTORS ABOUT RESOURCES PRESS Why Costa Rica Why Costa Rica? People "
+        },
+        {
+          "url": "https://www.cinde.org/en",
+          "snippet": "trategic Allies Rising Cities Nearshoring in Costa Rica Explore our ecosystem » CONTACT US en es SERVICES WHY COSTA RICA OUR ESSENCE KEY SECTORS ABOUT RESOURCES PRESS Why Costa Rica Why Costa Rica? People Centered Hub to reach Sustainable Productivity People Planet Pros"
+        },
+        {
+          "url": "https://www.cinde.org/en",
+          "snippet": "re our ecosystem » CONTACT US en es SERVICES WHY COSTA RICA OUR ESSENCE KEY SECTORS ABOUT RESOURCES PRESS Why Costa Rica Why Costa Rica? People Centered Hub to reach Sustainable Productivity People Planet Prosperity Future Thinking Building the next era of human capital"
+        },
+        {
+          "url": "https://www.cinde.org/en",
+          "snippet": "m » CONTACT US en es SERVICES WHY COSTA RICA OUR ESSENCE KEY SECTORS ABOUT RESOURCES PRESS Why Costa Rica Why Costa Rica? People Centered Hub to reach Sustainable Productivity People Planet Prosperity Future Thinking Building the next era of human capital CINDE Jobs EPI"
+        },
+        {
+          "url": "https://www.cinde.org/en",
+          "snippet": "uilding the next era of human capital CINDE Jobs EPI Talent Tools for Success+ Investor Guides Nearshoring in Costa Rica Incentives A competitive package to reach true ROI Free Trade Zone Regime Partners Strategic Allies Free Trade Zones Our Essence Open explorer » Enab"
+        },
+        {
+          "url": "https://www.cinde.org/en",
+          "snippet": "ERVICES REQUEST CONSULTING Join our collaborative ecosystem Learn how CINDE has been a key enabler for FDI in Costa Rica Play video A proven partner for operational sustainability Unlock shared growth, true ROI and lasting impact EXPLORE SECTORS REQUEST CONSULTING Becom"
+        },
+        {
+          "url": "https://www.cinde.org/en",
+          "snippet": "r where you can rest from business or make it happen Play video Beyond biodiversity to drive business success Costa Rica: your choice for business, naturally EXPLORE SECTORS REQUEST CONSULTING Become a success story Discover why you can trust Costa Rica for a greener fu"
+        },
+        {
+          "url": "https://www.cinde.org/en",
+          "snippet": " for business, naturally EXPLORE SECTORS REQUEST CONSULTING Become a success story Discover why you can trust Costa Rica for a greener future Play video WHY COSTA RICA A natural hub for life-centered solutions Find the sweet spot to drive your sustainable productivity L"
+        },
+        {
+          "url": "https://www.cinde.org/en",
+          "snippet": "T CONSULTING Become a success story Discover why you can trust Costa Rica for a greener future Play video WHY COSTA RICA A natural hub for life-centered solutions Find the sweet spot to drive your sustainable productivity LEARN MORE PEOPLE PLANET PROSPERITY Let's grow s"
+        },
+        {
+          "url": "https://www.cinde.org/en",
+          "snippet": "row better. Let's grow together. Find your strategic ally Get further guidance for your investment journey in Costa Rica through CINDE's Strategic Allies. Explore allies EXPLORE OUR ECOSYSTEM It's all converging! A dynamic mix of capabilites and technologies that create"
+        },
+        {
+          "url": "https://www.cinde.org/en",
+          "snippet": "nologies that create unique opportunities for the investment sectors OUR ESSENCE A proven formula for success Costa Rica attracts businesses who know the importance of productive sustainability, leveraging growth through advanced human capabilities, converging technolog"
+        },
+        {
+          "url": "https://www.cinde.org/en",
+          "snippet": " its most valuable asset: its people; with the goal of contributing to the social and economic development of Costa Rica. Our proven track record speaks by itself. C&B Processes Creative Industries Digital Tech Life Sciences Manufacturing Tourism Infrastructure Wellbein"
+        },
+        {
+          "url": "https://www.cinde.org/en",
+          "snippet": "d #2 in the Americas for number of jobs created per 1 million people. IBM Global Locations Trends, 2019 #1 in Latin America in the Human Capital Index, followed by Uruguay, Chile, and Argentina According to the ranking conducted by ADEN Business School 150 Costa Rica expor"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://www.cinde.org/en",
+          "snippet": "ign Lifelong Learning Diversity & Inclusion Creativity Environmental Awareness Exponential Technologies VR/AR Cloud Robotics Big Data/Analytics Cybersecurity AI/Machine Learning UX/UI Internet of Things 3D Printing Automation/RPA New Materials R&D Growth Ecosystems"
+        },
+        {
+          "url": "https://www.cinde.org/en",
+          "snippet": "Inclusion Creativity Environmental Awareness Exponential Technologies VR/AR Cloud Robotics Big Data/Analytics Cybersecurity AI/Machine Learning UX/UI Internet of Things 3D Printing Automation/RPA New Materials R&D Growth Ecosystems Investment incentives Free Trade Zones Fu"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": true,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 1
+    },
+    {
+      "name": "Soltig",
+      "profileUrl": "https://alpunto.cr/en/business/soltig",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/soltig",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "needsOfficialDomainResolution": true,
+      "website": "https://soltig.net/producto/estimado-de-impacto-de-desastres-naturales-en-qgis-utilizando-el-complemento-de-inasafe/",
+      "domain": "soltig.net",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://soltig.net/es/",
+          "domain": "soltig.net",
+          "label": "soltig.net/es/",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200,
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://soltig.net/producto/estimado-de-impacto-de-desastres-naturales-en-qgis-utilizando-el-complemento-de-inasafe/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://soltig.net/producto/estimado-de-impacto-de-desastres-naturales-en-qgis-utilizando-el-complemento-de-inasafe/",
+          "snippet": "tig.net Dirección: Centro de Comercio Internacional de Alajuela, Primer piso, oficina 10. Alajuela, Alajuela, Costa Rica. Horario de Oficina: De Lunes a Viernes de 8am hasta las 5pm. Políticas legales Teléfonos +506 4001-5214 Correo electrónico info@soltig.net Dirección"
+        },
+        {
+          "url": "https://soltig.net/producto/estimado-de-impacto-de-desastres-naturales-en-qgis-utilizando-el-complemento-de-inasafe/",
+          "snippet": "tig.net Dirección: Centro de Comercio Internacional de Alajuela, Primer piso, oficina 10. Alajuela, Alajuela, Costa Rica. Horario de Oficina: De Lunes a Viernes de 8am hasta las 5pm. &#10005; Acceder Nombre de usuario o correo electrónico * Contraseña * Recuérdame Acced"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://soltig.net/producto/estimado-de-impacto-de-desastres-naturales-en-qgis-utilizando-el-complemento-de-inasafe/",
+          "snippet": "acto de desastres naturales con QGIS - INASafe - SOLTIG ¿Quiénes somos? ¿Qué hacemos? Inteligencia de Mercado Servicios de TI gestionados Formación Digital a la Medida Sistemas de Información Geográfica Únete a nuestro equipo Contáctanos Educación continua Nuestra oferta Aul"
+        },
+        {
+          "url": "https://soltig.net/producto/estimado-de-impacto-de-desastres-naturales-en-qgis-utilizando-el-complemento-de-inasafe/",
+          "snippet": "uiénes somos? ¿Qué hacemos? Inteligencia de Mercado Servicios de TI gestionados Formación Digital a la Medida Sistemas de Información Geográfica Únete a nuestro equipo Contáctanos Educación continua Nuestra oferta Aula Virtual 0 0 &#10005; ¿Quiénes somos? ¿Qué hacemos? Inteligencia "
+        },
+        {
+          "url": "https://soltig.net/producto/estimado-de-impacto-de-desastres-naturales-en-qgis-utilizando-el-complemento-de-inasafe/",
+          "snippet": "ación continua Nuestra oferta Aula Virtual 0 0 &#10005; ¿Quiénes somos? ¿Qué hacemos? Inteligencia de mercado Servicios de TI gestionados Formación Digital a la Medida Sistemas de Informacion Geografica Únete a nuestro equipo Contáctanos Educación continua Tienda Aula virtua"
+        },
+        {
+          "url": "https://soltig.net/producto/estimado-de-impacto-de-desastres-naturales-en-qgis-utilizando-el-complemento-de-inasafe/",
+          "snippet": "uiénes somos? ¿Qué hacemos? Inteligencia de mercado Servicios de TI gestionados Formación Digital a la Medida Sistemas de Informacion Geografica Únete a nuestro equipo Contáctanos Educación continua Tienda Aula virtual ¿Quiénes somos? ¿Qué hacemos? Inteligencia de mercado Servicios "
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 1
+    },
+    {
+      "name": "SECSA",
+      "profileUrl": "https://alpunto.cr/en/business/secsa",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/secsa",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "needsOfficialDomainResolution": true,
+      "website": "https://secsacr.net/",
+      "domain": "secsacr.net",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://secsacr.net/",
+          "domain": "secsacr.net",
+          "label": "secsacr.net/",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200,
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://secsacr.net/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://secsacr.net/",
+          "snippet": "ral Telefónica +(506) 4001-3175 Email info@secsacr.net WhatsApp +(506) 6316-7807 Ubicación de nuestra oficina Costa Rica, Alajuela, Orotina Horario de oficina Lunes a Viernes 8 am – 5 pm Soporte soporte@secsacr.net Somos una empresa costarricense © SECSA — Costa Rica. R"
+        },
+        {
+          "url": "https://secsacr.net/",
+          "snippet": " de oficina Lunes a Viernes 8 am – 5 pm Soporte soporte@secsacr.net Somos una empresa costarricense © SECSA — Costa Rica. Reservados todos los derechos. +(506) 4001-3175 · soporte@secsacr.net"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://secsacr.net/",
+          "snippet": "SECSA | Software Administrativo ERP, Facturación Electrónica y Consultoría IT +(506) 6316-7807 Central Telefónica +(506) 4001-3175 Inicio Nosotros Servicios Sistemas "
+        },
+        {
+          "url": "https://secsacr.net/",
+          "snippet": "stemas Módulos ERP Contáctenos Bienvenidos a SECSA Nos tomamos con responsabilidad nuestros logros y valores. Desarrollo de software y consultorías informáticas. Nuestro Software Administrativo ERP y Facturación Electrónica le brindará la transformación digital de su Empresa. SECSA"
+        },
+        {
+          "url": "https://secsacr.net/",
+          "snippet": "os con responsabilidad nuestros logros y valores. Desarrollo de software y consultorías informáticas. Nuestro Software Administrativo ERP y Facturación Electrónica le brindará la transformación digital de su Empresa. SECSA es una empresa de capital costarricense dedic"
+        },
+        {
+          "url": "https://secsacr.net/",
+          "snippet": "gital de su Empresa. SECSA es una empresa de capital costarricense dedicada al desarrollo e implementación de software, así como la prestación de servicios en el área de la informática. Desde sus inicios se ha caracterizado por brindar soluciones inmediatas, con altos"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 1
+    },
+    {
+      "name": "321 Solutions",
+      "profileUrl": "https://alpunto.cr/en/business/321-solutions",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/321-solutions",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "needsOfficialDomainResolution": true,
+      "website": "https://321solutions.net/",
+      "domain": "321solutions.net",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://321solutions.net/",
+          "domain": "321solutions.net",
+          "label": "321solutions.net",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200,
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://321solutions.net/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://321solutions.net/",
+          "snippet": "Digital Agency in Costa Rica | Web, Apps & Marketing Services Web Design & Development Ecommerce Stores Mobile App Development Booking Systems Most Popular Custom Software Techno"
+        },
+        {
+          "url": "https://321solutions.net/",
+          "snippet": "s Marketing Digital Marketing SEO Services Google Ads Work About Contact ES Get a Free Quote Digital Agency · Costa Rica Your digital partner in Costa Rica: websites, apps & growth . One team that builds the technology your business runs on — websites, apps, online stor"
+        },
+        {
+          "url": "https://321solutions.net/",
+          "snippet": "ervices Google Ads Work About Contact ES Get a Free Quote Digital Agency · Costa Rica Your digital partner in Costa Rica: websites, apps & growth . One team that builds the technology your business runs on — websites, apps, online stores, and the marketing to get them f"
+        },
+        {
+          "url": "https://321solutions.net/",
+          "snippet": "ree Quote See What We Do Web · Apps · Ecommerce SEO & Marketing Bilingual EN / ES 321solutions.net One team · Costa Rica Web · Apps · Growth Start your project → Built for results One team, one plan Conversion-first We build to sell, not just to look good English & Span"
+        },
+        {
+          "url": "https://321solutions.net/",
+          "snippet": "ds and internal tools that take the manual work off your day. Custom software &rarr; Why us Why businesses in Costa Rica choose 321 Solutions Plenty of people have a website. Far fewer have one that actually brings them customers. That gap is exactly where we work. Resu"
+        },
+        {
+          "url": "https://321solutions.net/",
+          "snippet": "mmunicate in English and Spanish — real copy in both, never auto-translated. Local, and here to stay Based in Costa Rica, we know your market, we can meet in person, and we don't vanish after launch. One team, end to end Website, app, store and marketing — all from the "
+        },
+        {
+          "url": "https://321solutions.net/",
+          "snippet": ", and a straight answer about what your business actually needs. Ready when you are Already here or moving to Costa Rica — we work remotely and get you live fast. How it works How working with us works You stay focused on your business. We carry the project. 01 Talk A f"
+        },
+        {
+          "url": "https://321solutions.net/",
+          "snippet": "ch, support, and help you get found — long after go-live. Who we build for Built for the businesses that move Costa Rica We know what each industry needs from its technology — because we've built for them. Tourism & tour operators Fill your calendar with direct bookings"
+        },
+        {
+          "url": "https://321solutions.net/",
+          "snippet": "ions The questions we hear most from business owners deciding who to work with. What does a digital agency in Costa Rica do? A digital agency builds and grows your business's presence online — and a full-service one like ours does it all with a single team. That means d"
+        },
+        {
+          "url": "https://321solutions.net/",
+          "snippet": "ffic to it — one team, one plan, one point of contact. How much does it cost to work with a digital agency in Costa Rica? It depends on what you actually need — a one-page site is a very different project from a booking platform plus an ongoing campaign. What we promise"
+        },
+        {
+          "url": "https://321solutions.net/",
+          "snippet": " presence is a real source of income, an agency is the safer bet. Can you work with my business if I'm not in Costa Rica? Absolutely. We work with clients already in the country and with people running or launching a business in Costa Rica from abroad. Calls, design rev"
+        },
+        {
+          "url": "https://321solutions.net/",
+          "snippet": "a? Absolutely. We work with clients already in the country and with people running or launching a business in Costa Rica from abroad. Calls, design reviews and approvals all happen remotely, in English or Spanish, and we stay in close contact throughout. Many clients se"
+        },
+        {
+          "url": "https://321solutions.net/",
+          "snippet": "ready by the time they land. What kinds of businesses do you work with? Mostly small and medium businesses in Costa Rica that depend on being found and booked online — with a strong focus on tourism: tour operators, surf schools, hotels and lodges, restaurants and local"
+        },
+        {
+          "url": "https://321solutions.net/",
+          "snippet": "s, and you'll see how it's performing. Do you work in both English and Spanish? Yes, fully bilingual — and in Costa Rica that's a real advantage, not a checkbox. We build and communicate in English and Spanish, with proper copywriting in each language rather than auto-t"
+        },
+        {
+          "url": "https://321solutions.net/",
+          "snippet": "Free Quote Message Us on WhatsApp Conversion-focused web design, apps and digital marketing for businesses in Costa Rica — in English & Spanish. Services Web Design Ecommerce Stores Mobile Apps Booking Systems Custom Software Technology Consulting Digital Marketing Comp"
+        },
+        {
+          "url": "https://321solutions.net/",
+          "snippet": "n Tamarindo Get in touch WhatsApp (+506) 8765 8584 (+506) 8765 8584 info@321solutions.net Huacas, Guanacaste, Costa Rica © 2026 321 Solutions. All rights reserved. Built in Costa Rica · Bilingual EN / ES WhatsApp"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://321solutions.net/",
+          "snippet": "Services Web Design & Development Ecommerce Stores Mobile App Development Booking Systems Most Popular Custom Software Technology Consulting Industries Tourism & Tour Operators Surf Schools Hotels & Lodges Restaurants Marketing Digital Marketing SEO Services Google Ad"
+        },
+        {
+          "url": "https://321solutions.net/",
+          "snippet": "ng your business needs online, from one team Most businesses juggle a web designer, a separate marketer and a developer who all point at each other when something breaks. We put it under one roof. Web Design & Development Fast, mobile-first sites built around how you a"
+        },
+        {
+          "url": "https://321solutions.net/",
+          "snippet": "t you ranking on Google and run the campaigns that bring customers to the door. SEO & marketing &rarr; Custom Software CRMs, dashboards and internal tools that take the manual work off your day. Custom software &rarr; Why us Why businesses in Costa Rica choose 321 Sol"
+        },
+        {
+          "url": "https://321solutions.net/",
+          "snippet": "ing &rarr; Custom Software CRMs, dashboards and internal tools that take the manual work off your day. Custom software &rarr; Why us Why businesses in Costa Rica choose 321 Solutions Plenty of people have a website. Far fewer have one that actually brings them custome"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": true,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 1
+    },
+    {
+      "name": "Mainsoft Ltda.",
+      "profileUrl": "https://guiatic.com/cr/directorio/385-mainsoft-ltda",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "",
+      "domain": "mainsoft.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.mainsoft.co/",
+          "domain": "mainsoft.co",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200,
+      "careersUrl": "https://www.mainsoft.co/empleos",
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPages": [
+        {
+          "url": "https://www.mainsoft.co/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.mainsoft.co/empleos",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.mainsoft.co/nosotros",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.mainsoft.co/contacto",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "LATAM"
+      ],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": true,
+      "officialPagesChecked": 1
+    },
+    {
+      "name": "OneScreen Solutions",
+      "profileUrl": "https://guiatic.com/cr/directorio/453-onescreen-solutions",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "",
+      "domain": "onescreenlatam.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://onescreenlatam.com/",
+          "domain": "onescreenlatam.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200,
+      "careersUrl": "",
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPages": [
+        {
+          "url": "https://onescreenlatam.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://onescreenlatam.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "LATAM",
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false,
+      "officialPagesChecked": 1
+    },
+    {
+      "name": "PANDUIT SERVICIOS",
+      "profileUrl": "https://guiatic.com/cr/directorio/141-panduit-servicios",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "",
+      "domain": "panduit.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.panduit.com/",
+          "domain": "panduit.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "http://panduitblog.com/",
+          "domain": "panduitblog.com",
+          "label": "Blog",
+          "score": 0
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200,
+      "careersUrl": "",
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPages": [
+        {
+          "url": "https://www.panduit.com/en.html",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.panduit.com/en/about/about-panduit/case-studies/first-nations-schools-extended-reach-cable-case-study.html",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.panduit.com/en/support/contact-us.html",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Latin America"
+      ],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false,
+      "officialPagesChecked": 1
+    },
+    {
+      "name": "Schneider Electric Centroamérica LTDA",
+      "profileUrl": "https://guiatic.com/cr/directorio/465-schneider-electric-centroamerica-ltda",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "",
+      "domain": "se.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.se.com/cr/es/",
+          "domain": "se.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://blogespanol.se.com/",
+          "domain": "blogespanol.se.com",
+          "label": "Blog",
+          "score": 0
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200,
+      "careersUrl": "https://www.se.com/cr/es/about-us/careers/overview/",
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPages": [
+        {
+          "url": "https://www.se.com/cr/es/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.se.com/cr/es/about-us/careers/overview/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.se.com/cr/es/about-us/university/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.se.com/cr/es/work/support/customer-care/contact-sales/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false,
+      "officialPagesChecked": 1
+    },
+    {
+      "name": "TIQAL S.A.S.",
+      "profileUrl": "https://guiatic.com/cr/directorio/399-tiqal-s-a-s",
+      "queryLane": "Guia TIC Costa Rica technology supplier directory",
+      "sourceUrl": "https://guiatic.com/cr/directorio",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.darumasoftware.com/",
+      "domain": "darumasoftware.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.darumasoftware.com/",
+          "domain": "darumasoftware.com",
+          "label": "Sitio web",
+          "score": 1
+        },
+        {
+          "url": "https://35sxu7f6z1.execute-api.us-east-1.amazonaws.com/ProdStage",
+          "domain": "35sxu7f6z1.execute-api.us-east-1.amazonaws.com",
+          "label": "HoneyPot link",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200,
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.darumasoftware.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://www.darumasoftware.com/",
+          "snippet": "res. +150.000 Usuarios +9 Países +90% Usuarios satisfechos Deseo contactarme Colombia Mexico Guatemala Panamá Costa Rica Argentina Perú Ecuador Rep. Dom Centro de recursos Fortalece tus conocimientos para una mejor gestión de calidad en tu organización Blog Noticias Cas"
+        },
+        {
+          "url": "https://www.darumasoftware.com/",
+          "snippet": " Centro-Africana Chad Chile China Isla de Navidad Islas Cocos Colombia Comores República del Congo Islas Cook Costa Rica Croacia Cuba Chipre República Checa Costa de Marfil Dinamarca Djibouti, Yibuti Dominica República Dominicana Ecuador Egipto El Salvador Guinea Ecuato"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://www.darumasoftware.com/",
+          "snippet": "HomePage - Daruma Software Skip to content Productos Todos los productos Control de Documentos Documentos externos, legales y normativos Gestión de Auditorías Administración de"
+        },
+        {
+          "url": "https://www.darumasoftware.com/",
+          "snippet": "Commission FSSC 22000 BPM Bonsucro Recursos Centro de recursos Blog Centro de ayuda Agenda una llamada Daruma Software para sistemas de gestión de calidad Transformamos la gestión de los modelos de mejora para potenciar la productividad de las personas y organizacione"
+        },
+        {
+          "url": "https://www.darumasoftware.com/",
+          "snippet": "dad de las personas y organizaciones. Ver productos Probar demo Clientes que confían en nosotros Sobre Daruma software Transformamos las actividades de gestión de calidad de las organizaciones para que estas logren alcanzar una auténtica cultura de mejora continua. Es"
+        },
+        {
+          "url": "https://www.darumasoftware.com/",
+          "snippet": "ros productos Transformamos los procesos de gestión de calidad de tu organización mejorando su productividad. Software para gestión de Documentos externos, legales y normativos Administra de manera segura los documentos externos que impactan la gestión de tu organizac"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 1
+    },
+    {
+      "name": "CodeBranch",
+      "profileUrl": "https://enterpriseleague.com/company/codebranch",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/codebranch",
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co",
+      "needsOfficialDomainResolution": true,
+      "website": "https://codebranch.co/",
+      "domain": "codebranch.co",
+      "profileFetchStatus": 200,
+      "careersUrl": "https://codebranch.co/careers/",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://codebranch.co/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "LATAM"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://codebranch.co/",
+          "snippet": "lauses — your team size adapts to your project reality, not the other way around. 07 Nearshore, US Time Zones LATAM-based teams aligned to your working hours. Real-time collaboration, no overnight handoffs. 08 20+ Years of Experience Architecture, technology leader"
+        },
+        {
+          "url": "https://codebranch.co/",
+          "snippet": " Retail &middot; 501-1,000 Employees Canada CodeBranch Solution CodeBranch is based in Colombia — competitive LATAM rates without compromising on quality or time zone alignment. See How We Deal with Common Challenges Already Building? Already have a team or a proto"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://codebranch.co/",
+          "snippet": "Agentic Software Development | CodeBranch Skip to content Services Software Product Definition Dedicated Development Teams Scope-Based Development AI Agent Developmen"
+        },
+        {
+          "url": "https://codebranch.co/",
+          "snippet": "Agentic Software Development | CodeBranch Skip to content Services Software Product Definition Dedicated Development Teams Scope-Based Development AI Agent Development MVP Development AI Team Performance Boost Vibe-to-Product"
+        },
+        {
+          "url": "https://codebranch.co/",
+          "snippet": "g Hospitality Finance Education Logistics Audio & Music Consumer Electronics Connected Devices Cryptocurrency SaaS See all industries → About About CodeBranch Nearshore Development AI Readiness Assessment How We Work Project Management Platform Challenges FAQ Tech"
+        },
+        {
+          "url": "https://codebranch.co/",
+          "snippet": " Challenges FAQ Technologies Blog Content Hub Glossary Careers Case Studies EN EN ES Contact Us Menu Services Software Product Definition Dedicated Development Teams Scope-Based Development AI Agent Development MVP Development AI Team Performance Boost Vibe-to-Product"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 1
+    },
+    {
+      "name": "Cabana Data",
+      "website": "https://cabanadata.com/",
+      "domain": "cabanadata.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1",
+      "careersUrl": "https://cabanadata.com/ai-first-move#principio",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://cabanadata.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://cabanadata.com/",
+          "snippet": "Consultoría de IA en Costa Rica | Cabana Data Skip to main content 🇨🇷 Inicio Nosotros Capacidades Blog Contacto 🇺🇸EN Switch language Agendar una conversación Toggle Menu Consult"
+        },
+        {
+          "url": "https://cabanadata.com/",
+          "snippet": "s medianas Sepa por dónde empezar con IA. Y empiece bien. Somos una consultoría de inteligencia artificial en Costa Rica para empresas medianas de Latinoamérica. Le ayudamos a elegir por dónde empezar, con evidencia de su operación, y a poner el primer caso en producció"
+        },
+        {
+          "url": "https://cabanadata.com/",
+          "snippet": "s siguientes. 10 semanas, en dos ciclos Precio fijo, sin \"depende\" Ver AI First Move Una consultoría de IA en Costa Rica que trabaja con evidencia Cada recomendación sale de entrevistas a su gente y de la revisión directa de sus sistemas, no de un benchmark genérico. Si"
+        },
+        {
+          "url": "https://cabanadata.com/",
+          "snippet": "ta IA Capacidades Nosotros Blog Contacto info@cabanadata.com +506 8511-5245 © 2026 cabanadata.com · San José, Costa Rica 🇨🇷 Política de Privacidad"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://cabanadata.com/",
+          "snippet": "upuesto Cotizamos proyectos a medida con el mismo equipo que entrega Ruta IA y AI First Move. Ver capacidades Data Engineering Ingeniería de datos: integración de sistemas, data warehouse y dashboards. Data Consulting Consultoría de datos: gobierno, calidad y arquitectura de "
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 1
+    },
+    {
+      "name": "Broccoli Studios",
+      "website": "https://broccolistudios.com/",
+      "domain": "projectbroccoli.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://broccolistudios.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://broccolistudios.com/",
+          "snippet": "solo escríbanos a - info@broccolistudios.com +506 4000-0403 info@broccolistudios.com San José, Freses, 11801, Costa Rica Menu About Us Our Mission Meet the Team Our Projects Contact Explorar What We Offer Our Story Latest News Help Center Newsletter Acepto todos los tér"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://broccolistudios.com/",
+          "snippet": "mencemos su proyecto 00 Proyectos 00 Clientes 00 Años de experiencia Nuestro blog Noticias y Artículos 01 Nov Web Development ¿Cómo escribir un blog? by Broccoli Studios 01 Nov Social Marketing Sacale provecho a Instagram by Broccoli Studios 08 Dec Social Marketing Leave a C"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 1
+    },
+    {
+      "name": "DATAi",
+      "website": "https://dataicr.com/",
+      "domain": "www.dataicr.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://dataicr.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://dataicr.com/contacto/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://dataicr.com/",
+          "snippet": "Business Intelligence Costa Rica | DATAi Saltar al contenido Inicio Acerca de Contacto Servicios DATAi Green DATAi Outsourcing DATAi SOFT Alternar el menú Business Intelligence y Ana"
+        },
+        {
+          "url": "https://dataicr.com/",
+          "snippet": "een DATAi Outsourcing DATAi SOFT Alternar el menú Business Intelligence y Analítica Avanzada para Empresas en Costa Rica Transformamos datos en decisiones estratégicas Business Intelligence, Analítica Avanzada e Inteligencia Artificial para empresas en Costa Rica y Cent"
+        },
+        {
+          "url": "https://dataicr.com/",
+          "snippet": " decisiones estratégicas Business Intelligence, Analítica Avanzada e Inteligencia Artificial para empresas en Costa Rica y Centroamérica. Habla con un consultor Business Intelligence Dashboards ejecutivos en Power BI, reportes automatizados y KPIs en tiempo real para to"
+        },
+        {
+          "url": "https://dataicr.com/",
+          "snippet": "gradas en tus flujos de trabajo. ¿Por qué elegir DATAi? Somos el aliado estratégico de datos para empresas en Costa Rica que quieren crecer con información confiable, rápida y accionable. Equipo local con experiencia en el mercado centroamericano Implementaciones ágiles"
+        },
+        {
+          "url": "https://dataicr.com/",
+          "snippet": "ansformamos datos en decisiones estratégicas. Business Intelligence, Analítica Avanzada e IA para empresas en Costa Rica. [email&#160;protected] San José, Costa Rica Navegación Inicio Acerca de Servicios DATAi Green DATAi Outsourcing DATAi SOFT Contacto Nuestros Servici"
+        },
+        {
+          "url": "https://dataicr.com/",
+          "snippet": " Business Intelligence, Analítica Avanzada e IA para empresas en Costa Rica. [email&#160;protected] San José, Costa Rica Navegación Inicio Acerca de Servicios DATAi Green DATAi Outsourcing DATAi SOFT Contacto Nuestros Servicios Business Intelligence Analítica Avanzada I"
+        },
+        {
+          "url": "https://dataicr.com/contacto/",
+          "snippet": "Contacto DATAi – Business Intelligence Costa Rica Saltar al contenido Inicio Acerca de Contacto Servicios DATAi Green DATAi Outsourcing DATAi SOFT Alternar el menú Contacto Hablemos de tus datos Nues"
+        },
+        {
+          "url": "https://dataicr.com/contacto/",
+          "snippet": "o * Empresa Nombre Teléfono Empresa Teléfono Comentario o mensaje Enviar Información de contacto 📍 San José, Costa Rica 🌎 Operamos en CR, GT, SV, HN, NI y PA 📧 [email&#160;protected] 🕐 Lunes a viernes · 8:00 am – 6:00 pm ¿Por qué contactar a DATAi? Consultoría inici"
+        },
+        {
+          "url": "https://dataicr.com/contacto/",
+          "snippet": "ansformamos datos en decisiones estratégicas. Business Intelligence, Analítica Avanzada e IA para empresas en Costa Rica. [email&#160;protected] San José, Costa Rica Navegación Inicio Acerca de Servicios DATAi Green DATAi Outsourcing DATAi SOFT Contacto Nuestros Servici"
+        },
+        {
+          "url": "https://dataicr.com/contacto/",
+          "snippet": " Business Intelligence, Analítica Avanzada e IA para empresas en Costa Rica. [email&#160;protected] San José, Costa Rica Navegación Inicio Acerca de Servicios DATAi Green DATAi Outsourcing DATAi SOFT Contacto Nuestros Servicios Business Intelligence Analítica Avanzada I"
+        }
+      ],
+      "officialFitSnippets": [],
+      "likelyFit": false,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 2
+    },
+    {
+      "name": "Perfiles Tecnológicos",
+      "website": "",
+      "domain": "www.perfilestecnologicos.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1",
+      "careersUrl": "",
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPages": [
+        {
+          "url": "https://pertecglobal.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "LATAM",
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false,
+      "officialPagesChecked": 1
+    },
+    {
+      "name": "PilotCore",
+      "website": "https://www.pilotcore.net/",
+      "domain": "pilotcore.net",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=3",
+      "careersUrl": "https://www.pilotcore.net/#proceso",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.pilotcore.net/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://www.pilotcore.net/",
+          "snippet": "PilotCore - Soluciones Informáticas y SaaS | Desarrollo de Software Costa Rica PilotCore Servicios Cómo trabajamos Nosotros ES Contáctanos Equipo de software · Costa Rica Software a medida, hecho por gente que habla tu idioma So"
+        },
+        {
+          "url": "https://www.pilotcore.net/",
+          "snippet": "rollo de Software Costa Rica PilotCore Servicios Cómo trabajamos Nosotros ES Contáctanos Equipo de software · Costa Rica Software a medida, hecho por gente que habla tu idioma Somos un equipo de software en San Carlos, Costa Rica: construimos sistemas a medida, aplicaci"
+        },
+        {
+          "url": "https://www.pilotcore.net/",
+          "snippet": " Costa Rica Software a medida, hecho por gente que habla tu idioma Somos un equipo de software en San Carlos, Costa Rica: construimos sistemas a medida, aplicaciones web y móviles y productos SaaS para empresas de aquí y del exterior, en español y en inglés, en tu misma"
+        },
+        {
+          "url": "https://www.pilotcore.net/",
+          "snippet": "a horaria Nos formamos en un programa que combinó inglés y desarrollo de software. Trabajamos con clientes de Costa Rica y del exterior en el idioma que prefieran, con facturación local y contrato de por medio. Español e inglés Reuniones, documentación y código en cualq"
+        },
+        {
+          "url": "https://www.pilotcore.net/",
+          "snippet": "rso, antes que hablar de logros que todavía no existen. En desarrollo Aventones Plataforma de carpooling para Costa Rica: coordina viajes compartidos entre personas que hacen la misma ruta todos los días. App móvil y backend propios. Ver más → En desarrollo Luxa Asisten"
+        },
+        {
+          "url": "https://www.pilotcore.net/",
+          "snippet": "itorio, la documentación y los accesos quedan a nombre de tu empresa. ¿Pueden facturar a una empresa fuera de Costa Rica? Sí. Somos una sociedad anónima costarricense (3-101-942887) y facturamos a clientes del exterior con contrato de por medio. ¿Trabajan en inglés? Sí."
+        },
+        {
+          "url": "https://www.pilotcore.net/",
+          "snippet": "aje * Contáctanos PilotCore Desarrollo de software a medida, aplicaciones web y móviles, y soluciones SaaS en Costa Rica. Navegación Inicio Servicios Nosotros Contacto Aviso Legal Contacto Ubicación San Carlos, Alajuela, Costa Rica Email admin@pilotcore.net WhatsApp +50"
+        },
+        {
+          "url": "https://www.pilotcore.net/",
+          "snippet": "osta Rica. Navegación Inicio Servicios Nosotros Contacto Aviso Legal Contacto Ubicación San Carlos, Alajuela, Costa Rica Email admin@pilotcore.net WhatsApp +506 6283-0917 © 2026 3-101-942887 SOCIEDAD ANONIMA . Todos los derechos reservados. Urbanización Cañaveral, Casa "
+        },
+        {
+          "url": "https://www.pilotcore.net/",
+          "snippet": "IMA . Todos los derechos reservados. Urbanización Cañaveral, Casa F-27, Ciudad Quesada, San Carlos, Alajuela, Costa Rica"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://www.pilotcore.net/",
+          "snippet": "PilotCore - Soluciones Informáticas y SaaS | Desarrollo de Software Costa Rica PilotCore Servicios Cómo trabajamos Nosotros ES Contáctanos Equipo de software · Costa Rica Software a med"
+        },
+        {
+          "url": "https://www.pilotcore.net/",
+          "snippet": "PilotCore - Soluciones Informáticas y SaaS | Desarrollo de Software Costa Rica PilotCore Servicios Cómo trabajamos Nosotros ES Contáctanos Equipo de software · Costa Rica Software a medida, he"
+        },
+        {
+          "url": "https://www.pilotcore.net/",
+          "snippet": "PilotCore - Soluciones Informáticas y SaaS | Desarrollo de Software Costa Rica PilotCore Servicios Cómo trabajamos Nosotros ES Contáctanos Equipo de software · Costa Rica Software a medida, hecho por gente que habla t"
+        },
+        {
+          "url": "https://www.pilotcore.net/",
+          "snippet": "aaS | Desarrollo de Software Costa Rica PilotCore Servicios Cómo trabajamos Nosotros ES Contáctanos Equipo de software · Costa Rica Software a medida, hecho por gente que habla tu idioma Somos un equipo de software en San Carlos, Costa Rica: construimos sistemas a med"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 1
+    },
+    {
+      "name": "IT-iCO",
+      "website": "https://www.it-ico.com/",
+      "domain": "www.it-ico.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=3",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.it-ico.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica",
+        "Latin America"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://www.it-ico.com/",
+          "snippet": "rozah Economical website for a new restaurant in Nosara Perozah.com Tesoro Tico Biggest ecommerce platform in Costa Rica without plastic Tesorotico.com Integrated bespoke Systems adapted to your business-needs Time is money and every business’s goal should be to work as"
+        },
+        {
+          "url": "https://www.it-ico.com/",
+          "snippet": "me accounting and much more. Another recent app is for an international law firm operating in USA, Panama and Costa Rica. The app connects to their current CRM is Zoho. Other apps are less business oriented, like our worldwide free universal radio app for windows. Read "
+        },
+        {
+          "url": "https://www.it-ico.com/",
+          "snippet": " Read More Who are We? We are a team of professionals with intelligence in all I.T. fields. We are located in Costa Rica, under German management with collaborators from many other countries. Regard us as your personal I.T. and Marketing Manager so you can concentrate o"
+        },
+        {
+          "url": "https://www.it-ico.com/",
+          "snippet": "dvance Your Business Contact us Now Recents posts from our Blog MACHINE LEARNING TO COMBAT ILLEGAL FISHING IN COSTA RICA July 5, 2020 MACHINE LEARNING TO COMBAT ILLEGAL FISHING IN COSTA RICA Costa Rica is being assisted by OceanMind to investigate illegal fishing throug"
+        },
+        {
+          "url": "https://www.it-ico.com/",
+          "snippet": "E LEARNING TO COMBAT ILLEGAL FISHING IN COSTA RICA July 5, 2020 MACHINE LEARNING TO COMBAT ILLEGAL FISHING IN COSTA RICA Costa Rica is being assisted by OceanMind to investigate illegal fishing through new technology that works using machine learning. It is&hellip; HOW "
+        },
+        {
+          "url": "https://www.it-ico.com/",
+          "snippet": "TO COMBAT ILLEGAL FISHING IN COSTA RICA July 5, 2020 MACHINE LEARNING TO COMBAT ILLEGAL FISHING IN COSTA RICA Costa Rica is being assisted by OceanMind to investigate illegal fishing through new technology that works using machine learning. It is&hellip; HOW ARTIFICIAL "
+        },
+        {
+          "url": "https://www.it-ico.com/",
+          "snippet": "grim statistic: More than half of all small businesses fail within five years. The main reason is the&hellip; COSTA RICA LOSES ITS CURRENCY February 4, 2020 COSTA RICA LOSES ITS CURRENCY Costa Rica loses its currency; this is a result of considerable expenses that coin "
+        },
+        {
+          "url": "https://www.it-ico.com/",
+          "snippet": "inesses fail within five years. The main reason is the&hellip; COSTA RICA LOSES ITS CURRENCY February 4, 2020 COSTA RICA LOSES ITS CURRENCY Costa Rica loses its currency; this is a result of considerable expenses that coin production has in connection with the most rece"
+        },
+        {
+          "url": "https://www.it-ico.com/",
+          "snippet": ". The main reason is the&hellip; COSTA RICA LOSES ITS CURRENCY February 4, 2020 COSTA RICA LOSES ITS CURRENCY Costa Rica loses its currency; this is a result of considerable expenses that coin production has in connection with the most recent technological advancements."
+        },
+        {
+          "url": "https://www.it-ico.com/",
+          "snippet": "s. We&hellip; About Us We are a team of professionals with intelligence in all I.T. fields. We are located in Costa Rica, under German management with collaborators from many other countries. Regard us as your personal I.T. Manager so you can concentrate on the essentia"
+        },
+        {
+          "url": "https://www.it-ico.com/",
+          "snippet": "g Social Media Our Privacy Policy Our Terms of Service Articles MACHINE LEARNING TO COMBAT ILLEGAL FISHING IN COSTA RICA HOW ARTIFICIAL INTELLIGENCE CAN SAVE SMALL AND MEDIUM SIZED COMPANIES COSTA RICA LOSES ITS CURRENCY SERIOUSLY, UPDATE YOUR OLD EQUIPMENT WITH WINDOWS"
+        },
+        {
+          "url": "https://www.it-ico.com/",
+          "snippet": "TO COMBAT ILLEGAL FISHING IN COSTA RICA HOW ARTIFICIAL INTELLIGENCE CAN SAVE SMALL AND MEDIUM SIZED COMPANIES COSTA RICA LOSES ITS CURRENCY SERIOUSLY, UPDATE YOUR OLD EQUIPMENT WITH WINDOWS 7 AND YOUR WINDOWS SERVERS NOW! ARTIFICIAL INTELLIGENCE AND ITS EVOLUTION IN COS"
+        },
+        {
+          "url": "https://www.it-ico.com/",
+          "snippet": " YOUR OLD EQUIPMENT WITH WINDOWS 7 AND YOUR WINDOWS SERVERS NOW! ARTIFICIAL INTELLIGENCE AND ITS EVOLUTION IN COSTA RICAN MEDICINE COSTA RICA, LEADER IN THE USE OF SOCIAL MEDIA EN LATIN AMERICA THE HEAVY IMPACT OF VAT ON THE TECHNOLOGY SECTOR IN COSTA RICA Site Map Home"
+        },
+        {
+          "url": "https://www.it-ico.com/",
+          "snippet": "ITH WINDOWS 7 AND YOUR WINDOWS SERVERS NOW! ARTIFICIAL INTELLIGENCE AND ITS EVOLUTION IN COSTA RICAN MEDICINE COSTA RICA, LEADER IN THE USE OF SOCIAL MEDIA EN LATIN AMERICA THE HEAVY IMPACT OF VAT ON THE TECHNOLOGY SECTOR IN COSTA RICA Site Map Home Our Services Overvie"
+        },
+        {
+          "url": "https://www.it-ico.com/",
+          "snippet": "ICIAL INTELLIGENCE AND ITS EVOLUTION IN COSTA RICAN MEDICINE COSTA RICA, LEADER IN THE USE OF SOCIAL MEDIA EN LATIN AMERICA THE HEAVY IMPACT OF VAT ON THE TECHNOLOGY SECTOR IN COSTA RICA Site Map Home Our Services Overview Artificial Intelligence (Daily) Automation​ Web / "
+        },
+        {
+          "url": "https://www.it-ico.com/",
+          "snippet": " RICA, LEADER IN THE USE OF SOCIAL MEDIA EN LATIN AMERICA THE HEAVY IMPACT OF VAT ON THE TECHNOLOGY SECTOR IN COSTA RICA Site Map Home Our Services Overview Artificial Intelligence (Daily) Automation​ Web / App / System / Software – Development Direct Marketing for loca"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://www.it-ico.com/",
+          "snippet": "pment & Marketing Home Our Services Overview Artificial Intelligence (Daily) Automation​ Web / App / System / Software – Development Direct Marketing for local and international Businesses​ Social Media Strategics and Management Graphic Design, Branding and Print medi"
+        },
+        {
+          "url": "https://www.it-ico.com/",
+          "snippet": "d more Contact Us Home Our Services Overview Artificial Intelligence (Daily) Automation​ Web / App / System / Software – Development Direct Marketing for local and international Businesses​ Social Media Strategics and Management Graphic Design, Branding and Print medi"
+        },
+        {
+          "url": "https://www.it-ico.com/",
+          "snippet": "g lists, compressing the reducing time by 50%. Another client needed a supplier and purchase order management software within his existing WordPress store. None of the existing solutions were useful, so we helped him and created a new one. He published the WordPress P"
+        },
+        {
+          "url": "https://www.it-ico.com/",
+          "snippet": "g the workload away from you in anything related to I.T. , Design or Digital Marketing. Our services include: Software development, app creation, web site development, SEO, social media management, Automation, Marketing, artificial Intelligence and much more! “Read mo"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 1
+    },
+    {
+      "name": "Popo Data Analytics & Software Development",
+      "website": "",
+      "domain": "polpocr.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=3",
+      "careersUrl": "",
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPages": [
+        {
+          "url": "https://polpocr.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://polpocr.com/about-us/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://polpocr.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false,
+      "officialPagesChecked": 1
+    },
+    {
+      "name": "MDG Developers Group",
+      "website": "https://mdgdevelopers.com/",
+      "domain": "mdgdevelopers.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=3",
+      "careersUrl": "https://mdgdevelopers.com/careers/",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://mdgdevelopers.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://mdgdevelopers.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://mdgdevelopers.com/careers/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica",
+        "Latin America"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://mdgdevelopers.com/",
+          "snippet": "volutionizing the broadcast industry with their advanced scheduling software. Read More » April 13, 2024 Blog Costa Rica Nearshore Staff Augmentation: A Contemporary Approach to IT Staffing In the modern era of technological advancement, companies worldwide are continua"
+        },
+        {
+          "url": "https://mdgdevelopers.com/",
+          "snippet": "volutionizing the broadcast industry with their advanced scheduling software. Read More » April 13, 2024 Blog Costa Rica Nearshore Staff Augmentation: A Contemporary Approach to IT Staffing In the modern era of technological advancement, companies worldwide are continua"
+        },
+        {
+          "url": "https://mdgdevelopers.com/careers/",
+          "snippet": "e promise transparency, constant support, and a commitment to your growth. Our team is predominantly based in Latin America, allowing us to bring unique perspectives and innovation to the global market. Career Growth: We're dedicated to building tech leaders of tomorrow. B"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://mdgdevelopers.com/",
+          "snippet": "MDG | Minds Developers Group | Solutions that elevate | ?? Skip to content Home Who we are Services Infinity Media E-nvoice Outsourcing Careers Partner Program Blog Englis"
+        },
+        {
+          "url": "https://mdgdevelopers.com/",
+          "snippet": "e Outsourcing Careers Partner Program Blog English Español Contáctenos Building Tomorrow's Business Landscape Software solutions as dynamic as your vision. With MDG, experience the future of SaaS through our comprehensive suite of services and products designed to ele"
+        },
+        {
+          "url": "https://mdgdevelopers.com/",
+          "snippet": "omorrow's Business Landscape Software solutions as dynamic as your vision. With MDG, experience the future of SaaS through our comprehensive suite of services and products designed to elevate your business operations and accelerate growth. See our SaaS Solutions C"
+        },
+        {
+          "url": "https://mdgdevelopers.com/",
+          "snippet": "ve suite of services and products designed to elevate your business operations and accelerate growth. See our SaaS Solutions Contact Us More than 500 companies trust MDG /Ventura Payroll 365 Payroll and HR Management Reimagined Simplify and optimize HR and payroll"
+        },
+        {
+          "url": "https://mdgdevelopers.com/",
+          "snippet": "MDG | Minds Developers Group | Solutions that elevate | ?? Skip to content Home Who we are Services Infinity Media E-nvoice Outsourcing Careers Partner Program Blog Englis"
+        },
+        {
+          "url": "https://mdgdevelopers.com/",
+          "snippet": "e Outsourcing Careers Partner Program Blog English Español Contáctenos Building Tomorrow's Business Landscape Software solutions as dynamic as your vision. With MDG, experience the future of SaaS through our comprehensive suite of services and products designed to ele"
+        },
+        {
+          "url": "https://mdgdevelopers.com/",
+          "snippet": "omorrow's Business Landscape Software solutions as dynamic as your vision. With MDG, experience the future of SaaS through our comprehensive suite of services and products designed to elevate your business operations and accelerate growth. See our SaaS Solutions C"
+        },
+        {
+          "url": "https://mdgdevelopers.com/",
+          "snippet": "ve suite of services and products designed to elevate your business operations and accelerate growth. See our SaaS Solutions Contact Us More than 500 companies trust MDG /Ventura Payroll 365 Payroll and HR Management Reimagined Simplify and optimize HR and payroll"
+        },
+        {
+          "url": "https://mdgdevelopers.com/careers/",
+          "snippet": "Roles Search We currently have no job openings /Solutions that Elevate Building Tomorrow's Business Landscape Software solutions as dynamic as your vision. With MDG, experience the future of SaaS Get Started Now Jki-linkedin-light Jki-facebook-light Instagram Quick Li"
+        },
+        {
+          "url": "https://mdgdevelopers.com/careers/",
+          "snippet": "omorrow's Business Landscape Software solutions as dynamic as your vision. With MDG, experience the future of SaaS Get Started Now Jki-linkedin-light Jki-facebook-light Instagram Quick Links Home Infinity e-nvoice Outsourcing Help & Support FAQ Blog Contact Suppor"
+        },
+        {
+          "url": "https://mdgdevelopers.com/careers/",
+          "snippet": "ing Help & Support FAQ Blog Contact Support Privacy Terms Subscribe to our newsletter Email Submit © 2024 MDG Developers LLC. All rights reserved. MDG offers Equal Opportunities. Designed and developed by Scroll To Top /Ventura Nómina 365 Programa tu Demo. Ingresa todo"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 3
+    },
+    {
+      "name": "Udersol",
+      "website": "https://udersol.com/",
+      "domain": "www.udersol.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=3",
+      "careersUrl": "https://udersol.com/staffing",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://udersol.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://udersol.com/",
+          "snippet": "nto de talento hasta agentes de IA — te damos exactamente lo que tu operación necesita. Staffing Tu equipo en Costa Rica, sin fricción legal ni administrativa. Staff Augmentation Contratación flexible que se ajusta a tu demanda actual, sin las cargas de largo plazo del "
+        },
+        {
+          "url": "https://udersol.com/",
+          "snippet": " cargas de largo plazo del empleo tradicional Administración de personal (EAS) Contrata talento legalmente en Costa Rica sin entidad local — nos encargamos de todo para que te enfoques en resultados Reclutamiento Le quitamos las adivinanzas a la contratación: del sourci"
+        },
+        {
+          "url": "https://udersol.com/",
+          "snippet": "luciones de reclutamiento y gestión a la medida. Beneficio clave Ahorro de costos, acceso al mejor talento de Costa Rica y una contratación simple y sin fricción. Modelo end-to-end Soluciones integrales que cubren todo: del reclutamiento a la administración de personal."
+        },
+        {
+          "url": "https://udersol.com/",
+          "snippet": "persona el mismo día, en español o inglés. Nombre Empresa Email País Selecciona tu país Estados Unidos Canadá Costa Rica México Otro ¿Qué necesitas? Talento (staffing / reclutamiento) Software (desarrollo / agentes IA) Ambos Cuéntanos brevemente Agendar llamada Sin spam"
+        },
+        {
+          "url": "https://udersol.com/",
+          "snippet": "spam. Solo usamos tus datos para coordinar la llamada. UDERSOL Nearshoring Talent. Desarrollamos tu IA. Desde Costa Rica para toda América. Servicios Staff Augmentation Administración de personal Reclutamiento Desarrollo & Agentes IA Empresa Nosotros Staffing Blog Conta"
+        },
+        {
+          "url": "https://udersol.com/",
+          "snippet": "tros Staffing Blog Contacto Contacto joaquin.ramos@udersol.com (+506) 8334-9352 LinkedIn Plaza Roble, Escazú, Costa Rica © 2026 Udersol · Escazú, Costa Rica Talento y tecnología nearshore"
+        },
+        {
+          "url": "https://udersol.com/",
+          "snippet": " joaquin.ramos@udersol.com (+506) 8334-9352 LinkedIn Plaza Roble, Escazú, Costa Rica © 2026 Udersol · Escazú, Costa Rica Talento y tecnología nearshore"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://udersol.com/",
+          "snippet": "o a la shortlist de los mejores candidatos Ver servicios de staffing → Desarrollo & Agentes IA Construimos el software que tu operación necesita. Desarrollo web a la medida Plataformas, portales y sistemas internos Agentes de IA conversacionales Atención, ventas y age"
+        },
+        {
+          "url": "https://udersol.com/",
+          "snippet": "eta Ver servicios de desarrollo → // En acción Talento Nearshore Pipeline de reclutamiento MF María Fernández Cybersecurity Engineer Colocada · full-time AC Ana Castro AI Consultant Contratada · día 14 CR Carlos Rojas Salesforce Business Analyst Entrevista final Ver servic"
+        },
+        {
+          "url": "https://udersol.com/",
+          "snippet": "ios de desarrollo → // En acción Talento Nearshore Pipeline de reclutamiento MF María Fernández Cybersecurity Engineer Colocada · full-time AC Ana Castro AI Consultant Contratada · día 14 CR Carlos Rojas Salesforce Business Analyst Entrevista final Ver servicios de st"
+        },
+        {
+          "url": "https://udersol.com/",
+          "snippet": "tración de personal. // Equipo Joaquín Ramos de Anaya nearshore.talent + recruiting + ai Diego Ramos de Anaya software.engineer + ai.lead // Testimonios ★★★★★ “Con UderSol encontramos más que un proveedor: un socio que entiende nuestras necesidades, respeta nuestro ri"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": true,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 1
+    },
+    {
+      "name": "PCMASTERCR",
+      "website": "https://pcmastercr.com/",
+      "domain": "pcmastercr.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 4",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=4",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://pcmastercr.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://pcmastercr.com/",
+          "snippet": "Soluciones informáticas e IA en Costa Rica | PCMASTERCR Servicios Proceso Filosofía Contacto Más info call 70098063 bolt Consultoría Gratuita Consultoría menu Servicios Proceso Filosofía FAQ C"
+        },
+        {
+          "url": "https://pcmastercr.com/",
+          "snippet": "onsultoría Gratuita Consultoría menu Servicios Proceso Filosofía FAQ Contacto Más info Informática e IA desde Costa Rica Soluciones informáticas aplicadas a la actualidad. En PCMASTERCR ayudamos a personas y empresas en Costa Rica con tecnología clara y útil: sitios web"
+        },
+        {
+          "url": "https://pcmastercr.com/",
+          "snippet": "Costa Rica Soluciones informáticas aplicadas a la actualidad. En PCMASTERCR ayudamos a personas y empresas en Costa Rica con tecnología clara y útil: sitios web, mantenimiento de computadoras, sistemas, presencia en Google Maps e soluciones con inteligencia artificial ."
+        },
+        {
+          "url": "https://pcmastercr.com/",
+          "snippet": "ocal Pack. Gestión estratégica de su Perfil de Negocio, optimización de reseñas y geolocalización avanzada en Costa Rica. share_location Top 3 Local Pack Posicionado Ver optimización local arrow_forward build MANTENIMIENTO PC SOLUCIONES DIGITALES & SOPORTE Mantenimiento"
+        },
+        {
+          "url": "https://pcmastercr.com/",
+          "snippet": "proyecto. Resolución técnica Preguntas frecuentes Respuestas claras sobre nuestras soluciones informáticas en Costa Rica. ¿Cuánto tiempo toma desarrollar un sitio web profesional? expand_more Depende de la complejidad del proyecto. Una landing page puede estar lista en "
+        },
+        {
+          "url": "https://pcmastercr.com/",
+          "snippet": "fesionales e implementamos estrategias de geolocalización para que su empresa domine las búsquedas locales en Costa Rica y aparezca en el Local Pack. ¿Ofrecen mantenimiento web después de la entrega? expand_more Sí. Contamos con planes de mantenimiento preventivo y corr"
+        },
+        {
+          "url": "https://pcmastercr.com/",
+          "snippet": "mpromisos ocultos. Contáctenos por WhatsApp para una cotización personalizada. ¿Trabajan solo con empresas de Costa Rica? expand_more Nuestra base de operaciones está en San José, Costa Rica, pero trabajamos con clientes de toda Centroamérica y Latinoamérica. Nuestro en"
+        },
+        {
+          "url": "https://pcmastercr.com/",
+          "snippet": "alizada. ¿Trabajan solo con empresas de Costa Rica? expand_more Nuestra base de operaciones está en San José, Costa Rica, pero trabajamos con clientes de toda Centroamérica y Latinoamérica. Nuestro enfoque en soluciones digitales nos permite colaborar de manera remota c"
+        },
+        {
+          "url": "https://pcmastercr.com/",
+          "snippet": "e cualquier ubicación, manteniendo siempre la cercanía y calidad en la comunicación. OPERANDO DESDE SAN JOSÉ, COSTA RICA Hablemos de su próximo paso Cuéntenos qué necesita: una página, que su computadora vuelva a trabajar bien, un sistema a medida o cómo usar inteligenc"
+        },
+        {
+          "url": "https://pcmastercr.com/",
+          "snippet": "ASTER CR Soluciones informáticas para hoy: web, soporte de equipos, sistemas e inteligencia artificial, desde Costa Rica. Sistemas Operativos 100% Online CONTACTO DIRECTO person Pablo Castro location_on San José, Costa Rica mail pcastro@pcmastercr.com call 70098063 NAVE"
+        },
+        {
+          "url": "https://pcmastercr.com/",
+          "snippet": " desde Costa Rica. Sistemas Operativos 100% Online CONTACTO DIRECTO person Pablo Castro location_on San José, Costa Rica mail pcastro@pcmastercr.com call 70098063 NAVEGACIÓN Servicios Proceso FAQ Contacto CONSULTORÍA INMEDIATA Diagnóstico gratuito y cotizaciones persona"
+        },
+        {
+          "url": "https://pcmastercr.com/",
+          "snippet": "isos para su proyecto digital. chat WhatsApp Directo © 2026 PCMASTERCR . Innovación y Precisión Técnica desde Costa Rica. Privacidad // Términos // Seguridad"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://pcmastercr.com/",
+          "snippet": "Soluciones informáticas e IA en Costa Rica | PCMASTERCR Servicios Proceso Filosofía Contacto Más info call 70098063 bolt Consultoría Gratuita Consultoría menu Servicios Proc"
+        },
+        {
+          "url": "https://pcmastercr.com/",
+          "snippet": "Gratuita Consultoría menu Servicios Proceso Filosofía FAQ Contacto Más info Informática e IA desde Costa Rica Soluciones informáticas aplicadas a la actualidad. En PCMASTERCR ayudamos a personas y empresas en Costa Rica con tecnología clara y útil: sitios web, mantenimiento de compu"
+        },
+        {
+          "url": "https://pcmastercr.com/",
+          "snippet": " Revisando infraestructura... > Preparando apoyo con IA... > Mejorando su operación... > Listo. Qué ofrecemos Soluciones informáticas Web, mantenimiento, sistemas y herramientas con inteligencia artificial para el día a día de su negocio. Si tiene dudas sobre IA u otra necesidad tec"
+        },
+        {
+          "url": "https://pcmastercr.com/",
+          "snippet": "s, optimización integral de equipos y creación de landing pages de alta conversión con continuidad asegurada. engineering Continuidad Operativa Máxima Conocer más servicios arrow_forward AI AUDITORÍAS CON INTELIGENCIA ARTIFICIAL DIAGNÓSTICO AUTOMATIZADO Análisis heurísti"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 1
+    },
+    {
+      "name": "Grupo Argus",
+      "website": "https://grupoargus.co.cr/",
+      "domain": "grupoargus.co.cr",
+      "queryLane": "The Manifest Costa Rica software directory — page 4",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=4",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://grupoargus.co.cr/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://grupoargus.co.cr/",
+          "snippet": "Grupo Argus — Soluciones tecnológicas en Costa Rica Inicio Nosotros Productos Soporte Contacto Hablemos Inicio Nosotros Productos Soporte Contacto Hablemos Soluciones tecnológicas · Costa Rica El compa"
+        },
+        {
+          "url": "https://grupoargus.co.cr/",
+          "snippet": "uctos Soporte Contacto Hablemos Inicio Nosotros Productos Soporte Contacto Hablemos Soluciones tecnológicas · Costa Rica El compañero de su negocio. Punto de venta, facturación electrónica, sistemas médicos, web y hosting. 14 años desarrollando soluciones para más de 1."
+        },
+        {
+          "url": "https://grupoargus.co.cr/",
+          "snippet": " electrónica, sistemas médicos, web y hosting. 14 años desarrollando soluciones para más de 1.000 empresas en Costa Rica. Ver productos Solicitar demo Nuestra suite Una familia, un mismo ADN. 9.000+ usuarios activos 14 Años en el mercado 1.000+ Clientes activos 9.000+ U"
+        },
+        {
+          "url": "https://grupoargus.co.cr/",
+          "snippet": " de comprobantes, recepción automática de documentos, CABYS y validación. Hecho para el régimen tributario de Costa Rica. Conocer más → Gestión de clínicas Expediente clínico, agenda y facturación en una sola plataforma. Recordatorios de cita por WhatsApp y correo, rece"
+        },
+        {
+          "url": "https://grupoargus.co.cr/",
+          "snippet": "auditado por BAC Credomatic. Cercano Hablamos el idioma del cliente, no el del manual técnico. Local Hecho en Costa Rica, para la realidad fiscal y comercial del país. Útil Software que resuelve, no que abruma. Suma, no agrega complejidad. Confían en nosotros Más de 1.0"
+        },
+        {
+          "url": "https://grupoargus.co.cr/",
+          "snippet": "ftware que resuelve, no que abruma. Suma, no agrega complejidad. Confían en nosotros Más de 1.000 empresas en Costa Rica Centro de soporte ¿Tiene una duda? Encuentre la respuesta. Preguntas frecuentes, guías del knowledge base y muy pronto un asistente que responde con "
+        },
+        {
+          "url": "https://grupoargus.co.cr/",
+          "snippet": "cumentación de nuestros sistemas. Ir a Soporte Escribir por WhatsApp Desarrollamos soluciones tecnológicas en Costa Rica. Software de gestión, facturación electrónica y servicios web con más de 14 años de experiencia. Navegación Inicio Nosotros Productos Soporte Contact"
+        },
+        {
+          "url": "https://grupoargus.co.cr/",
+          "snippet": "0350 info@grupoargus.co.cr F I Y © 2026 Grupo Argus. Todos los derechos reservados. Soluciones tecnológicas · Costa Rica"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://grupoargus.co.cr/",
+          "snippet": " WhatsApp y correo, recetas y control por especialidad bajo Argus Salud. Conocer más → Servicios Más allá del software. Presencia digital e infraestructura, bajo el respaldo de Grupo Argus, para que sus sistemas operen sin fricción. Presencia digital Paquetes Web Dise"
+        },
+        {
+          "url": "https://grupoargus.co.cr/",
+          "snippet": "nimiento y soporte continuo Integración con sus sistemas Argus Solicitar servicio → Infraestructura Hosting & Cloud Hosting compartido, reseller y cómputo en la nube con SSL y respaldos diarios. La misma infraestructura que sostiene los sistemas de más de 1.000 emp"
+        },
+        {
+          "url": "https://grupoargus.co.cr/",
+          "snippet": "ducto? Vea nuestros sistemas . Por qué Grupo Argus Estabilidad, cumplimiento y respaldo. Somos proveedores de software auditados por BAC Credomatic. Infraestructura robusta, datos seguros con SSL y respaldos diarios, y un equipo que conoce su industria. Conozca la emp"
+        },
+        {
+          "url": "https://grupoargus.co.cr/",
+          "snippet": "que conoce su industria. Conozca la empresa Centro de soporte Confiable Estabilidad 24/7, respaldos diarios y software auditado por BAC Credomatic. Cercano Hablamos el idioma del cliente, no el del manual técnico. Local Hecho en Costa Rica, para la realidad fiscal y c"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 1
+    },
+    {
+      "name": "ITOS Cloud",
+      "website": "https://www.itoscloud.com/",
+      "domain": "www.itoscloud.com",
+      "queryLane": "The Manifest Costa Rica software directory — page 4",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=4",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.itoscloud.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://www.itoscloud.com/",
+          "snippet": "ITOS Contact Information +506 6294 8398 businessdevelopment@itoscloud.com Tibás, Costa Rica Nosotros Nosotros ITOS Cloud Productos Itos Cloud APS Industria Servicios Implementación Desarrollo Soporte Soporte Itos Blog © 2024 ITOS- All Rights"
+        },
+        {
+          "url": "https://www.itoscloud.com/",
+          "snippet": "E. Contáctanos → Contacto telefónico +506 6294 8398 Correo businessdevelopment@itoscloud.com Dirección Tibás, Costa Rica © 2026 ITOS- All Rights Reserved."
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://www.itoscloud.com/",
+          "snippet": "ITOS Contact Information +506 6294 8398 businessdevelopment@itoscloud.com Tibás, Costa Rica Nosotros Nosotros ITOS Cloud Productos Itos Cloud APS Industria Servicios Implementación Desarrollo Soporte Soporte Itos Blog ©"
+        },
+        {
+          "url": "https://www.itoscloud.com/",
+          "snippet": "Contact Information +506 6294 8398 businessdevelopment@itoscloud.com Tibás, Costa Rica Nosotros Nosotros ITOS Cloud Productos Itos Cloud APS Industria Servicios Implementación Desarrollo Soporte Soporte Itos Blog © 2024 ITOS- All Rights Reserved. Nosotros Nosotros "
+        },
+        {
+          "url": "https://www.itoscloud.com/",
+          "snippet": "506 6294 8398 businessdevelopment@itoscloud.com Tibás, Costa Rica Nosotros Nosotros ITOS Cloud Productos Itos Cloud APS Industria Servicios Implementación Desarrollo Soporte Soporte Itos Blog © 2024 ITOS- All Rights Reserved. Nosotros Nosotros ITOS Cloud Productos "
+        },
+        {
+          "url": "https://www.itoscloud.com/",
+          "snippet": " Implementación Desarrollo Soporte Soporte Itos Blog © 2024 ITOS- All Rights Reserved. Nosotros Nosotros ITOS Cloud Productos Itos Cloud Oracle – Netsuite El CRM que necesitas! SuiteSuccess: Optimización de Implementación de ERP Itos Cloud — (Division Netsuite) Mód"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 1
+    },
+    {
+      "name": "Faro Creativa Studio",
+      "website": "",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2",
+      "careersUrl": "",
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPages": [
+        {
+          "url": "https://infosgroup.cr/web/guest/inicio",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://infosgroup.cr/nosotros",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://wvw.infosgroup.cr/contacto",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false,
+      "officialPagesChecked": 1
+    },
+    {
+      "name": "Clavis Consultores",
+      "website": "",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2",
+      "careersUrl": "https://www.clavisco.com/empleo",
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPages": [
+        {
+          "url": "https://www.clavisco.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.clavisco.com/empleo",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.clavisco.com/contacto",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false,
+      "officialPagesChecked": 1
+    },
+    {
+      "name": "Synapptica",
+      "website": "https://synapptica.net/",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://synapptica.net/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://synapptica.net/",
+          "snippet": "tos y precios atractivos para nuestros clientes. Desde el 2019 somos orgullosos representantes de la marca en Costa Rica, ofreciendo un catálogo de opciones de licenciamiento para nuestros clientes de primer nivel. La seguridad informática siempre será una de nuestras p"
+        },
+        {
+          "url": "https://synapptica.net/",
+          "snippet": "os y enfóquese plenamente en la operativa propia de su negocio. Jose Porras Núñez, CEO Hablemos --> San José, Costa Rica Oficentro La Sabana, Torre 6 Piso 7 | Info@synapptica.net | Tel. (506) 8510 - 9339 &copy; Copyright . Todos los derechos reservados."
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://synapptica.net/",
+          "snippet": "pptica Innovación y Tecnológia Facebook Linkedin Instagram Inicio Quienes somos --> Servicios Agencia Digital Desarrollo de Software Soporte Técnico Soluciones Heimdall Broker SIP Qmatic Gestión de colas Cita previa online Soluciones de cola virtual SICOI Bar - Restaurante Comercio"
+        },
+        {
+          "url": "https://synapptica.net/",
+          "snippet": "xperiencia productiva y placentera. Nuestro equipo se compone de consultores informáticos, desarrolladores de software y apps, diseñadores gráficos, social manager y equipos de alto desempeño. Somos una familia, somos Synapptica. ¿Qué hacemos? Nos encargamos de empode"
+        },
+        {
+          "url": "https://synapptica.net/",
+          "snippet": "rantiza. Hacemos más productivo su negocio. Analizamos, diseñamos, desarrollamos e implementamos proyectos de software en múltiples plataformas. Garantizamos la continuidad de su servicio. Nuestros técnicos estan capacitados en todas las áreas para garantizar un buen "
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 1
+    },
+    {
+      "name": "Asystec",
+      "website": "https://asystec.io/",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://asystec.io/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://asystec.io/",
+          "snippet": "Asystec | Software e inteligencia artificial en Costa Rica NUEVO Asystec POS: conocelo y descargalo » Síguenos en X Asystec Software Software para negocios Nexo de Asystec Asystec POS Restaurante Pro FitPro D"
+        },
+        {
+          "url": "https://asystec.io/",
+          "snippet": "software e IA para su empresa. Conozca Nexo, el agente de inteligencia artificial de Asystec para empresas en Costa Rica. Automatice reportes, ventas, marketing y operaciones según las necesidades de su negocio. Conocer Nexo de Asystec Qué puede hacer Nexo Usted define "
+        },
+        {
+          "url": "https://asystec.io/",
+          "snippet": "Los portales con login muestran solo información visible sin credenciales. Sitio comercial y catálogo Candock Costa Rica Presencia digital para muelles flotantes modulares, dry docks, plataformas para motos acuáticas, accesorios y anclajes en Costa Rica. Catálogo para r"
+        },
+        {
+          "url": "https://asystec.io/",
+          "snippet": "gital para muelles flotantes modulares, dry docks, plataformas para motos acuáticas, accesorios y anclajes en Costa Rica. Catálogo para residencias, marinas, hoteles, clubes náuticos y operaciones turísticas. Ruta directa para productos, cotización, contacto y asesoría "
+        },
+        {
+          "url": "https://asystec.io/",
+          "snippet": "ónica Factura Pro Sitio y producto en línea para emitir comprobantes electrónicos de forma rápida y segura en Costa Rica. Beneficios orientados a reducción de costos, seguridad, calidad de servicio y ahorro de tiempo. Operación desde distintos dispositivos con aceptació"
+        },
+        {
+          "url": "https://asystec.io/",
+          "snippet": " • Asystec POS El POS que mantiene tu negocio activo incluso sin internet Sistema de escritorio para pymes en Costa Rica con facturación electrónica TRIBU/Hacienda, app móvil, seguridad y autoupdate. 100% offline para operación diaria Alto rendimiento en caja e inventar"
+        },
+        {
+          "url": "https://asystec.io/",
+          "snippet": "no dudes en ponerte en contacto con nosotros a través de los siguientes medios: Dirección Esparza Puntarenas, Costa Rica Teléfono Teléfono: +506 8975-4741 Correo: info@asystec.io Horario Lunes - Viernes: 8:00 - 17:00 Sábado y Domingo: Cerrado ¿Listo para empezar? Nombre"
+        },
+        {
+          "url": "https://asystec.io/",
+          "snippet": "cesitas POS, facturación electrónica, inventario, cobros, CRM o una plataforma a la medida para tu negocio en Costa Rica. Solicitar demo o diagnóstico Comparte tu operación actual y coordinamos una revisión comercial enfocada en el problema que quieres resolver. Escribi"
+        },
+        {
+          "url": "https://asystec.io/",
+          "snippet": " cobrar Autoridad Sobre Asystec Casos y portafolio Preguntas frecuentes Contacto Contacto Esparza Puntarenas, Costa Rica Telefono: +506 8975-4741 Info: info@asystec.io Social Términos y Condiciones · Política de Privacidad Hecho con ❤ por Asystec - Todos los derechos re"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://asystec.io/",
+          "snippet": "Asystec | Software e inteligencia artificial en Costa Rica NUEVO Asystec POS: conocelo y descargalo » Síguenos en X Asystec Software Software para negocios Nexo de Asys"
+        },
+        {
+          "url": "https://asystec.io/",
+          "snippet": "ware e inteligencia artificial en Costa Rica NUEVO Asystec POS: conocelo y descargalo » Síguenos en X Asystec Software Software para negocios Nexo de Asystec Asystec POS Restaurante Pro FitPro Diseño de plataformas Cobros Pro Factura Pro TallerApp Jas Admin Instalador"
+        },
+        {
+          "url": "https://asystec.io/",
+          "snippet": "teligencia artificial en Costa Rica NUEVO Asystec POS: conocelo y descargalo » Síguenos en X Asystec Software Software para negocios Nexo de Asystec Asystec POS Restaurante Pro FitPro Diseño de plataformas Cobros Pro Factura Pro TallerApp Jas Admin Instaladores Recurs"
+        },
+        {
+          "url": "https://asystec.io/",
+          "snippet": "istema POS Cambiar sistema de facturacion Alternativas a Excel Organizar cuentas por cobrar POS local vs nube Software local vs extranjero Costo de un POS Preguntas frecuentes Casos y portafolio Documentación Asystec POS Factura Pro Cobros Pro JRestaurante Herramienta"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 1
+    },
+    {
+      "name": "Hiopos Costa Rica",
+      "website": "https://hiopos.co.cr/",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://hiopos.co.cr/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://hiopos.co.cr/quienes-somos/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://hiopos.co.cr/hioffice/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://hiopos.co.cr/",
+          "snippet": "Inicio - Hiopos Costa Rica Ir al contenido Negocios Restaurantes Comercios Bar/Cafetería Estética y Belleza Supermercados Heladerías Fast Food Carnicerías Pizzerías Panaderías "
+        },
+        {
+          "url": "https://hiopos.co.cr/quienes-somos/",
+          "snippet": "¿Quiénes Somos? - Hiopos Costa Rica Ir al contenido Negocios Restaurantes Comercios Bar/Cafetería Estética y Belleza Supermercados Heladerías Fast Food Carnicerías Pizzerías Panaderías "
+        },
+        {
+          "url": "https://hiopos.co.cr/quienes-somos/",
+          "snippet": "za TPV all in one TPV Retail TPV SUN Venta Desasistida Impresora térmica Pago en línea ¿Quiénes somos? Hiopos Costa Rica forma parte del grupo ICG, una empresa multinacional que crea soluciones tecnológicas para pequeñas, medianas y grandes empresas para los sectores de"
+        },
+        {
+          "url": "https://hiopos.co.cr/quienes-somos/",
+          "snippet": ":00 p.m. Domingo y Feriado de 9:00 a.m a 9:00 p.m. Correo: info@hioposcr.com Ubicacion: Curridabat, San José, Costa Rica ¿Dónde nos encontramos? +506 44041600 Negocios Restaurantes Comercios Estética y belleza Supermercados Bares y Cafés Negocios Carnicerías Heladerías "
+        },
+        {
+          "url": "https://hiopos.co.cr/hioffice/",
+          "snippet": "Hioffice - Hiopos Costa Rica Ir al contenido Negocios Restaurantes Comercios Bar/Cafetería Estética y Belleza Supermercados Heladerías Fast Food Carnicerías Pizzerías Panaderías "
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://hiopos.co.cr/",
+          "snippet": " línea Características de HIOPOS Punto de venta de fácil uso HIOPOS es la solución ideal para tu negocio, con software intuitivo y con una innovadora usabilidad táctil Multinegocio y multiterminal Escalable, con todas las funcionalidades según tus necesidades. Permite"
+        },
+        {
+          "url": "https://hiopos.co.cr/",
+          "snippet": "do en caso de desconexiones a Internet Actualizaciones gratuitas Actualizaciones de las últimas novedades del software sin cargos adicionales Almacenamiento seguro Información siempre disponible en la nube con la máxima seguridad de tus datos Multi idioma Configura tu"
+        },
+        {
+          "url": "https://hiopos.co.cr/",
+          "snippet": "a e idioma con tan solo un click Punto de venta de fácil uso HIOPOS es la solución ideal para tu negocio, con software intuitivo y con una innovadora usabilidad táctil Multinegocio y multiterminal Escalable, con todas las funcionalidades según tus necesidades. Permite"
+        },
+        {
+          "url": "https://hiopos.co.cr/",
+          "snippet": "do en caso de desconexiones a Internet Actualizaciones gratuitas Actualizaciones de las últimas novedades del software sin cargos adicionales Almacenamiento seguro Información siempre disponible en la nube con la máxima seguridad de tus datos Multi idioma Configura tu"
+        },
+        {
+          "url": "https://hiopos.co.cr/quienes-somos/",
+          "snippet": "ra pequeñas, medianas y grandes empresas para los sectores de hostelería, hotelería y retail que van desde el desarrollo de Software de Punto de Venta hasta la gestión de cadenas centralizadas y franquicias. 7 empresas, incluida la sucursal estadounidense llamada ICG Software Corpo"
+        },
+        {
+          "url": "https://hiopos.co.cr/quienes-somos/",
+          "snippet": "a gestión de cadenas centralizadas y franquicias. 7 empresas, incluida la sucursal estadounidense llamada ICG Software Corporation, y está compuesta por dos divisiones comerciales (ICG Solutions, HIOPOS). Innovando desde 1985. El grupo se puso en marcha hace más de tr"
+        },
+        {
+          "url": "https://hiopos.co.cr/hioffice/",
+          "snippet": "nto de artículos y precios Exportación de ventas e importación de artículos. ¿Qué es HiOffice? HiOffice es un software de gestión de negocios (“Back Office”) de tipo ERP (Enterprise Resource Planning o Planificación de recursos empresariales). Obtenga información de v"
+        },
+        {
+          "url": "https://hiopos.co.cr/hioffice/",
+          "snippet": "e ventas, además importa artículos y precios a partir de una hoja de cálculo. Principales funcionalidades del software Centralización de ventas y cierres de caja de Hiopos. Tecnología web service. Estadísticas de venta y control. Configuración y centralización de vari"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 3
+    },
+    {
+      "name": "NearshoreWorks",
+      "website": "https://nearshoreworks.com/",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2",
+      "careersUrl": "https://nearshoreworks.com/nearshore-talent-guide/",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://nearshoreworks.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Latin America",
+        "LATAM",
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://nearshoreworks.com/",
+          "snippet": "cale Your IT and Development Teams We make it easy for US-based companies to recruit and retain the top 1% of Latin America’s talent all in your timezone. Get Started With Us Trusted By Leading Brands From idea to outcome, we got you covered Data Engineering Transform your"
+        },
+        {
+          "url": "https://nearshoreworks.com/",
+          "snippet": "rojects. Contact Us Contact Us Where our works paces become yours NearshoreWorks Hubs are designed to be your LATAM home base, seamlessly extending your team&#8217;s culture. Our offices across Latin America provide the infrastructure and space for collaboration, f"
+        },
+        {
+          "url": "https://nearshoreworks.com/",
+          "snippet": "s are designed to be your LATAM home base, seamlessly extending your team&#8217;s culture. Our offices across Latin America provide the infrastructure and space for collaboration, fostering an innovative and productive environment. Learn more Why tech leaders trust Nearsho"
+        },
+        {
+          "url": "https://nearshoreworks.com/",
+          "snippet": "eaders trust NearshoreWorks 01 Proven Expertise We have over 8 years of experience in providing the top 1% of Latin America&#8217;s tech talent to US companies, ensuring you get the best. 02 AI-Enhanced Productivity Our team members are AI-trained and certified, leveraging"
+        },
+        {
+          "url": "https://nearshoreworks.com/",
+          "snippet": "d and certified, leveraging AI to deliver your projects smarter and more efficiently. 03 Cultural Synergy Our LATAM teams excel in collaboration, boasting excellent English skills and a deep cultural connection. 04 US Expertise Managed and founded by a US-based lea"
+        },
+        {
+          "url": "https://nearshoreworks.com/",
+          "snippet": "w much you can save with our Nearshore Cost Saving Calculator NearshoreWorks is the easy way to hire the best Latin American talent on demand. Get an instant Nearshore cost savings estimate in seconds with our Nearshore cost savings calculator. Build your team, see your sa"
+        },
+        {
+          "url": "https://nearshoreworks.com/",
+          "snippet": "riers High turnover rates Hidden cost Let NearshoreWorks do the hard work for you Access the top 1% of vetted Latam talent Interview candidates within 48 hours 98.5% retention rate, so you avoid project disruption The most bang for your buck with affordable, talent"
+        },
+        {
+          "url": "https://nearshoreworks.com/",
+          "snippet": "e digital platform. Read more August 20, 2024 Guide Nearshore Outsourcing Guide: Top Nearshore Destination in Latin America Consider nearshoring for your business: access top IT talent without long-distance communication or cultural barriers. Latin America offers skilled t"
+        },
+        {
+          "url": "https://nearshoreworks.com/",
+          "snippet": "nearshoring for your business: access top IT talent without long-distance communication or cultural barriers. Latin America offers skilled talent and cost savings, making it a key market for outsourcing IT services. Read more August 20, 2024 Blog Nearshore Outsourcing Near"
+        },
+        {
+          "url": "https://nearshoreworks.com/",
+          "snippet": "projects, helping you build smarter solutions in less time. Are you ready to partner with top 1% of talent in Latin America? See how we can transform your visions into reality. Let’s Build Your Nearshore Team Services Why NearshoreWorks Our Impact Our Insights Contact Us A"
+        },
+        {
+          "url": "https://nearshoreworks.com/",
+          "snippet": "vices Why NearshoreWorks Our Impact Our Insights Contact Us Atlanta, GA [HQ] Chicago, IL Dallas, TX San José, Costa Rica [HQ] Bogota, Colombia Medellin, Colombia Barranquilla Colombia ©2024 NearshoreWorks Inc. All rights reserved. Privacy Policy Terms and Conditions Rec"
+        },
+        {
+          "url": "https://nearshoreworks.com/",
+          "snippet": " Dowload Nearshore Tech Talent 2024 Report An overview of the fast-changing software development landscape in Latin America in 2024."
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://nearshoreworks.com/",
+          "snippet": " all in your timezone. Get Started With Us Trusted By Leading Brands From idea to outcome, we got you covered Data Engineering Transform your data into actionable insights with user-focused dashboards and analytics. Software Development Agile development for secure, high-perf"
+        },
+        {
+          "url": "https://nearshoreworks.com/",
+          "snippet": "red Data Engineering Transform your data into actionable insights with user-focused dashboards and analytics. Software Development Agile development for secure, high-performance cloud solutions. QA Testing Ensure impeccable software with comprehensive testing. DevOps "
+        },
+        {
+          "url": "https://nearshoreworks.com/",
+          "snippet": "th user-focused dashboards and analytics. Software Development Agile development for secure, high-performance cloud solutions. QA Testing Ensure impeccable software with comprehensive testing. DevOps Seamless setup, maintenance, and monitoring for continuous integr"
+        },
+        {
+          "url": "https://nearshoreworks.com/",
+          "snippet": "ware Development Agile development for secure, high-performance cloud solutions. QA Testing Ensure impeccable software with comprehensive testing. DevOps Seamless setup, maintenance, and monitoring for continuous integration and delivery. UX/UI Design Create engaging,"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 1
+    },
+    {
+      "name": "deLaGuayaba",
+      "website": "https://delaguayaba.com/",
+      "queryLane": "The Manifest Costa Rica software directory — page 2",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=2",
+      "careersUrl": "https://delaguayaba.com/career/",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://delaguayaba.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://delaguayaba.com/",
+          "snippet": "et. More about us Services Portfolio About us Career Blog Follow us Follow Follow Follow Contact us San José, Costa Rica info@delaguayaba.com 2020 © deLaGuayaba. Todos los derechos reservados. Cerrar"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://delaguayaba.com/",
+          "snippet": "deLaGuayaba ‣ Mobile App and Web Development | Innovative Solutions DevOps Services Portfolio About us Blog MAKE AN APPOINTMENT IMPACT YOUR SUCCESS We are your strategic partner on the journey t"
+        },
+        {
+          "url": "https://delaguayaba.com/",
+          "snippet": "any our clients with support and guidance, ensuring they reach their goals. INNOVATIVE TECH SERVICES Advanced Software Expertise : Propel your business forward with cutting-edge software solutions. Mobile Application Innovation : Craft user-centric mobile applications"
+        },
+        {
+          "url": "https://delaguayaba.com/",
+          "snippet": " goals. INNOVATIVE TECH SERVICES Advanced Software Expertise : Propel your business forward with cutting-edge software solutions. Mobile Application Innovation : Craft user-centric mobile applications tailored to your enterprise needs. Bespoke Website Development : Cr"
+        },
+        {
+          "url": "https://delaguayaba.com/",
+          "snippet": "rt, management, maintenance, and reliable web hosting. Unlock the full potential of your business with expert software and mobile app development, designed for innovation and user-centric experiences. Ignite your startup journey with specialized consulting, optimize p"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 1
+    },
+    {
+      "name": "Oktara",
+      "website": "",
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies",
+      "careersUrl": "",
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPages": [
+        {
+          "url": "https://www.freshconsulting.com/services/software/nearshore-software-development/?utm_source=oktara.com&utm_medium=Web+Traffic&utm_campaign=Redirect",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica",
+        "LATAM"
+      ],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false,
+      "officialPagesChecked": 1
+    },
+    {
+      "name": "Fundamentl Partners",
+      "website": "https://www.fundamentlpartners.com/",
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.fundamentlpartners.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Latin America",
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://www.fundamentlpartners.com/",
+          "snippet": "d, curated selection of resources to support projects or cover peaks and troughs in demand. Both cover US and Latin American time zones. Initial Consultation Initial Consultation Schedule a meeting to discuss your specific needs and challenges. Tailored Assessment We will "
+        },
+        {
+          "url": "https://www.fundamentlpartners.com/",
+          "snippet": "al industries Our Offices 3010 Santa Fe Court 1st Floor Missoula MT 59808 USA Mexico City, Mexico · San José, Costa Rica Solutions Advanced 3D Simulation Human Risk Management Company Contact Legal Privacy Policy Terms of Service ')\"> © 2026 Fundamentl. All rights reser"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://www.fundamentlpartners.com/",
+          "snippet": "rts RESOURCES Blog Careers Docs About Technology for Critical Industries Founded in 2022, Fundamentl provides Technology Services for the Critical Industry sector. Get Started Get Started Robotics Simulation, computer vision and robotic automation for the plant and warehouse flo"
+        },
+        {
+          "url": "https://www.fundamentlpartners.com/",
+          "snippet": "e plant and warehouse floor. Data & AI/ML Governance, business intelligence, predictive and applied AI/ML. OT Cybersecurity Visibility, risk management and fully managed OT security. Enterprise Applications Implementation, configuration, migration and support. Software Dev"
+        },
+        {
+          "url": "https://www.fundamentlpartners.com/",
+          "snippet": " and fully managed OT security. Enterprise Applications Implementation, configuration, migration and support. Software Development Custom applications and platform engineering. Where Robotics, Simulation, AI/ML and Cybersecurity Meet Most technology partners specializ"
+        },
+        {
+          "url": "https://www.fundamentlpartners.com/",
+          "snippet": "s Implementation, configuration, migration and support. Software Development Custom applications and platform engineering. Where Robotics, Simulation, AI/ML and Cybersecurity Meet Most technology partners specialize in one of these. Fundamentl’s engineers work across all"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 1
+    },
+    {
+      "name": "Brandy Creativity & Technology",
+      "website": "https://brandy.la/",
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://brandy.la/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "LATAM"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://brandy.la/",
+          "snippet": " 10 years building a powerhouse team that now serves top local and global brands across 17 markets throughout LATAM and the US. Contact us Our philosophy is simple We believe that great ideas aren’t just born—they’re crafted. That’s why we build everything on three"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://brandy.la/",
+          "snippet": "the heart of everything we do. CREATIVE BUSINESS PARTNERS Brand Strategy Design & Creative Media Intelligence Web Development Experiential Marketing PR & Influencer Marketing Audiovisual & production Organic content Lets talk! Get in touch and we'll invite you over for a Nam"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 1
+    },
+    {
+      "name": "ColibriCode",
+      "website": "https://colibricode.com/",
+      "queryLane": "The Manifest Costa Rica software directory — page 0",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies",
+      "careersUrl": "https://colibricode.com/careers",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://colibricode.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://colibricode.com/about",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://colibricode.com/careers",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Latin America",
+        "Costa Rica",
+        "LATAM"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://colibricode.com/",
+          "snippet": " before we start. Bilingual, US time zones. Denver-based leadership with a nearshore engineering bench across Latin America. We build in Python for AI, Go for scale and security, TypeScript for apps, and PHP for the web you already run. ColibriCode vs. freelancers vs. larg"
+        },
+        {
+          "url": "https://colibricode.com/about",
+          "snippet": "ysCloud, a developer ecosystem that includes an AI coding platform, a PHP framework and email infrastructure. Costa Rican-born and based in Denver. Where we work Headquartered in Denver, Colorado, serving companies across the United States, with a bilingual engineering "
+        },
+        {
+          "url": "https://colibricode.com/about",
+          "snippet": "red in Denver, Colorado, serving companies across the United States, with a bilingual engineering team across Latin America. Headquarters Denver, Colorado Clients Across the United States Engineering Latin America, US hours Let&#x27;s build something that works Get an AI A"
+        },
+        {
+          "url": "https://colibricode.com/about",
+          "snippet": "neering team across Latin America. Headquarters Denver, Colorado Clients Across the United States Engineering Latin America, US hours Let&#x27;s build something that works Get an AI Audit See our work Custom AI systems, models and infrastructure for large industries and gr"
+        },
+        {
+          "url": "https://colibricode.com/careers",
+          "snippet": "Careers at ColibriCode | AI Engineering Jobs, Remote US & LatAm Services Enterprise AI Custom & Fine-Tuned Models Enterprise AI Platforms & Multi-Agent Systems Predictive & Vision AI Private AI Infrastructure AI S"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://colibricode.com/",
+          "snippet": "rnance Business AI AI Agents & Automation Bilingual Voice Agents AI App Development Legacy Modernization + AI Engineering Pods Industries Manufacturing Energy & utilities Aerospace & transportation Healthcare & life sciences Financial services & insurance Logistics & sup"
+        },
+        {
+          "url": "https://colibricode.com/",
+          "snippet": "Healthcare & life sciences Financial services & insurance Logistics & supply chain Legal Education Startups & SaaS Work About Insights Get an AI Audit AI that makes it to production — and stays there Custom AI systems and models, engineered for your business Colib"
+        },
+        {
+          "url": "https://colibricode.com/",
+          "snippet": "About Insights Get an AI Audit AI that makes it to production — and stays there Custom AI systems and models, engineered for your business ColibriCode is a custom AI development company. We design, train, build and run AI for large industries and growing companies — f"
+        },
+        {
+          "url": "https://colibricode.com/",
+          "snippet": " governance and cost control built in from day one. Book a technical briefing Explore enterprise AI Senior AI engineers Custom models and private GPU infrastructure Python, Go, TypeScript, PHP Denver, Colorado English and Spanish Agents Multi-agent platforms Models & "
+        },
+        {
+          "url": "https://colibricode.com/about",
+          "snippet": "rnance Business AI AI Agents & Automation Bilingual Voice Agents AI App Development Legacy Modernization + AI Engineering Pods Industries Manufacturing Energy & utilities Aerospace & transportation Healthcare & life sciences Financial services & insurance Logistics & sup"
+        },
+        {
+          "url": "https://colibricode.com/about",
+          "snippet": "Healthcare & life sciences Financial services & insurance Logistics & supply chain Legal Education Startups & SaaS Work About Insights Get an AI Audit Home / About An AI development company built by engineers who ship Get an AI Audit Our story ColibriCode started "
+        },
+        {
+          "url": "https://colibricode.com/about",
+          "snippet": "Education Startups & SaaS Work About Insights Get an AI Audit Home / About An AI development company built by engineers who ship Get an AI Audit Our story ColibriCode started as a web development and engineering-talent company, building websites and supplying programm"
+        },
+        {
+          "url": "https://colibricode.com/about",
+          "snippet": "bout An AI development company built by engineers who ship Get an AI Audit Our story ColibriCode started as a web development and engineering-talent company, building websites and supplying programmers to businesses. The industry changed — and so did we. Today ColibriCode is"
+        },
+        {
+          "url": "https://colibricode.com/careers",
+          "snippet": "Careers at ColibriCode | AI Engineering Jobs, Remote US & LatAm Services Enterprise AI Custom & Fine-Tuned Models Enterprise AI Platforms & Multi-Agent Systems Predictive & Vision AI Privat"
+        },
+        {
+          "url": "https://colibricode.com/careers",
+          "snippet": "rnance Business AI AI Agents & Automation Bilingual Voice Agents AI App Development Legacy Modernization + AI Engineering Pods Industries Manufacturing Energy & utilities Aerospace & transportation Healthcare & life sciences Financial services & insurance Logistics & sup"
+        },
+        {
+          "url": "https://colibricode.com/careers",
+          "snippet": "Healthcare & life sciences Financial services & insurance Logistics & supply chain Legal Education Startups & SaaS Work About Insights Get an AI Audit Home / Careers Build AI that businesses depend on We are a small, senior team building AI agents, apps and infras"
+        },
+        {
+          "url": "https://colibricode.com/careers",
+          "snippet": " and Spanish spoken daily Open roles There are no open roles right now. We&#x27;re always glad to meet senior engineers, so introduce yourself below. Don&#x27;t see your role? Send your GitHub and a short note to careers@colibricode.com Email us Custom AI systems, mod"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": true,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 3
+    },
+    {
+      "name": "Publicis Groupe",
+      "website": "https://www.publicisgroupe.com/fr/splash",
+      "careersUrl": "https://careers.publicisgroupe.com/jobs/180186?lang=en-US",
+      "sourceJobUrl": "https://careers.publicisgroupe.com/jobs/180186?lang=en-US",
+      "jobTitle": "Senior DevOps Engineer",
+      "jobLocation": "San Jose, Costa Rica",
+      "queryLane": "Official Costa Rica employer job pages — software/engineering roles",
+      "sourceUrl": "https://careers.publicisgroupe.com/jobs/180186?lang=en-US",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.publicisgroupe.com/fr/splash",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://careers.publicisgroupe.com/jobs/180186?lang=en-US",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://careers.publicisgroupe.com/jobs/180186?lang=en-US",
+          "snippet": "Senior DevOps Engineer in San Jose, Costa Rica | Publicis Groupe Holdings B.V tag of every page in order to be established before any other subsequent calls or data added to the object and arrays "
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://careers.publicisgroupe.com/jobs/180186?lang=en-US",
+          "snippet": "Senior DevOps Engineer in San Jose, Costa Rica | Publicis Groupe Holdings B.V tag of every page in order to be established before any other subsequent calls or data added t"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 2
+    },
+    {
+      "name": "WAM Digital",
+      "website": "https://wamdigital.com/",
+      "queryLane": "GoodFirms Costa Rica software development directory",
+      "sourceUrl": "https://www.goodfirms.co/directory/country/top-software-development-companies/costa-rica",
+      "careersUrl": "https://wamdigital.com/careers",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://wamdigital.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://wamdigital.com/",
+          "snippet": "Creative & Digital Production Agency in Costa Rica | WAM Digital About Us Services Work Blog Careers Contact Us Home About Us Services Work Blog Careers Contact Us We design and build products experie"
+        },
+        {
+          "url": "https://wamdigital.com/",
+          "snippet": ", and web development, so you can stay focused on your business while we handle everything, hassle-free. From Costa Rica to the world. Our values and vision are deeply inspired by Pura Vida and a commitment to a greener future , reflecting our roots in Costa Rica. As a "
+        },
+        {
+          "url": "https://wamdigital.com/",
+          "snippet": "es and vision are deeply inspired by Pura Vida and a commitment to a greener future , reflecting our roots in Costa Rica. As a bridge for regional talent and production, we promote sustainability through clean resources and eco-conscious innovation . 0 k ad units built "
+        },
+        {
+          "url": "https://wamdigital.com/",
+          "snippet": "ar. 0 % of them built with clean energy . Colombia WAM Office Brazil WAM Office Denmark Our clients locations Costa Rica WAM’s Headquarters Boston Our clients locations Phoenix Our clients locations New York Our clients locations London Our clients locations Argentina W"
+        },
+        {
+          "url": "https://wamdigital.com/",
+          "snippet": " high-quality digital solutions powered by 98.9% clean energy, minimizing environmental impact and leveraging Costa Rica’s renewable infrastructure. Flexibility & Diversification We design tailored work models for each company, ensuring unique, scalable solutions that p"
+        },
+        {
+          "url": "https://wamdigital.com/",
+          "snippet": "t shape visibility in modern search engines and AI-driven discovery. February 24, 2026 The Strategic Depth of Costa Rican Production: Why the Nearshore Advantage Goes Beyond the Clock Costa Rica’s nearshore advantage goes beyond time zone alignment. Discover how educati"
+        },
+        {
+          "url": "https://wamdigital.com/",
+          "snippet": "ary 24, 2026 The Strategic Depth of Costa Rican Production: Why the Nearshore Advantage Goes Beyond the Clock Costa Rica’s nearshore advantage goes beyond time zone alignment. Discover how education, cultural fluency, sustainability, and long-term stability enable scala"
+        },
+        {
+          "url": "https://wamdigital.com/",
+          "snippet": "ntact FAQs Contact Info US +1 (267) 882 2489 contact@wamdigital.com Careers Join our team! Explore careers CR Costa Rica COL Colombia BR Brazil ARG Argentina © 2026 WAM Digital. All Rights Reserved."
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://wamdigital.com/",
+          "snippet": "we combine proven skills and official certifications to deliver seamless digital production, advertising, and web development, so you can stay focused on your business while we handle everything, hassle-free. From Costa Rica to the world. Our values and vision are deeply ins"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 1
+    },
+    {
+      "name": "Foundever",
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceUrl": "https://findremote.jobs/jobs/conversational-designer-remote-any-location-br--2a8b1c7bc6cf",
+      "sourceFeedUrl": "https://findremote.jobs/feeds/roles/software-engineering/locations/latin-america.json",
+      "leadOnly": true,
+      "roles": [
+        {
+          "title": "Conversational Designer (Remote, Any Location, BR)",
+          "sourceUrl": "https://findremote.jobs/jobs/conversational-designer-remote-any-location-br--2a8b1c7bc6cf",
+          "publishedOn": "2026-09-14T06:26:24.000Z"
+        }
+      ],
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "https://foundever.com/",
+      "websiteResolutionSource": "Wikidata official-website property; candidate URL only",
+      "domainResolutionStatus": "Wikidata suggestion; requires first-party verification",
+      "website": "https://foundever.com/",
+      "officialIdentityVerified": true,
+      "careersUrl": "https://jobs.foundever.com/?utm_source=corpwebsite&#038;utm_medium=CTAtopbar",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://foundever.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://foundever.com/about/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://jobs.foundever.com/?utm_source=corpwebsite&",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://jobs.foundever.com/?utm_source=corpwebsite&",
+          "snippet": " grow with Foundever. Find a job in your country Australia Brazil Bulgaria Canada Canada (ASG) China Colombia Costa Rica Cyprus Denmark Egypt El Salvador Finland France Germany Greece Hungary India Italy Ivory Coast Madagascar Malaysia Mexico Morocco Netherlands New Zea"
+        },
+        {
+          "url": "https://jobs.foundever.com/?utm_source=corpwebsite&",
+          "snippet": "te the life you want. Find a job in your country Australia Brazil Bulgaria Canada Canada (ASG) China Colombia Costa Rica Cyprus Denmark Egypt El Salvador Finland France Germany Greece Hungary India Italy Ivory Coast Madagascar Malaysia Mexico Morocco Netherlands New Zea"
+        },
+        {
+          "url": "https://jobs.foundever.com/?utm_source=corpwebsite&",
+          "snippet": " days more memorable. Find a job in your country Australia Brazil Bulgaria Canada Canada (ASG) China Colombia Costa Rica Cyprus Denmark Egypt El Salvador Finland France Germany Greece Hungary Italy India Ivory Coast Malaysia Mexico Morocco Netherlands New Zealand Nicara"
+        },
+        {
+          "url": "https://jobs.foundever.com/?utm_source=corpwebsite&",
+          "snippet": " days more memorable. Find a job in your country Australia Brazil Bulgaria Canada Canada (ASG) China Colombia Costa Rica Cyprus Denmark Egypt El Salvador Finland France Germany Greece Hungary Italy India Ivory Coast Malaysia Mexico Morocco Netherlands New Zealand Nicara"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://foundever.com/",
+          "snippet": "d system integrators are expanding into the CX space, delivering great customer experience requires more than software. It requires deep operational expertise. We combine high-quality talent, proven CX operations and a solution-based approach to solve problems &#8211;"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": true,
+      "officialPagesChecked": 3
+    },
+    {
+      "name": "Airalo",
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceUrl": "https://findremote.jobs/jobs/solutions-architect-latam--7bbb98d2c244",
+      "sourceFeedUrl": "https://findremote.jobs/feeds/roles/software-engineering/locations/latin-america.json",
+      "leadOnly": true,
+      "roles": [
+        {
+          "title": "Solutions Architect, LatAm",
+          "sourceUrl": "https://findremote.jobs/jobs/solutions-architect-latam--7bbb98d2c244",
+          "publishedOn": "2026-09-13T09:01:09.000Z"
+        }
+      ],
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "https://airalo.com/",
+      "websiteResolutionSource": "Wikidata official-website property; candidate URL only",
+      "domainResolutionStatus": "Wikidata suggestion; requires first-party verification",
+      "website": "https://www.airalo.com/",
+      "officialIdentityVerified": true,
+      "careersUrl": "https://www.airalo.com/airalo-careers/job-vacancies",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.airalo.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.airalo.com/airalo-careers/job-vacancies",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.airalo.com/about-us/about-airalo",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica",
+        "Latin America"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://www.airalo.com/",
+          "snippet": "ns based on entered search term. Locations Opens list of locations for eSIMs. Popular locations United States Costa Rica Mexico Colombia Spain Guatemala Panama Argentina Japan Nicaragua Chile Peru Directs to products for this location when selected. Explore eSIM Store R"
+        },
+        {
+          "url": "https://www.airalo.com/",
+          "snippet": "egional and global eSIMs Africa Africa Safari Asia Caribbean Islands Europe European Union and United Kingdom Latin America Middle East and North Africa North America Oceania Global Displays different content sections related to Airalo's products and features. A better way"
+        },
+        {
+          "url": "https://www.airalo.com/",
+          "snippet": " the shown price. View all locations Directs to all coverage locations when selected. United States $4.00 USD Costa Rica $7.50 USD Mexico $4.00 USD Colombia $4.50 USD Spain $4.00 USD Guatemala $5.00 USD Panama $7.00 USD Argentina $5.00 USD Japan $4.00 USD Nicaragua $6.0"
+        },
+        {
+          "url": "https://www.airalo.com/",
+          "snippet": " the shown price. View all locations Directs to all coverage locations when selected. United States $4.00 USD Costa Rica $7.50 USD Mexico $4.00 USD Colombia $4.50 USD Spain $4.00 USD Guatemala $5.00 USD Panama $7.00 USD Argentina $5.00 USD Japan $4.00 USD Nicaragua $6.0"
+        },
+        {
+          "url": "https://www.airalo.com/airalo-careers/job-vacancies",
+          "snippet": "ns based on entered search term. Locations Opens list of locations for eSIMs. Popular locations United States Costa Rica Mexico Colombia Spain Guatemala Panama Argentina Japan Nicaragua Chile Peru Directs to products for this location when selected. Explore eSIM Store R"
+        },
+        {
+          "url": "https://www.airalo.com/airalo-careers/job-vacancies",
+          "snippet": "egional and global eSIMs Africa Africa Safari Asia Caribbean Islands Europe European Union and United Kingdom Latin America Middle East and North Africa North America Oceania Global Impact Our values Media center Newsroom Working at Airalo Job vacancies Join the Airalo tea"
+        },
+        {
+          "url": "https://www.airalo.com/about-us/about-airalo",
+          "snippet": "ns based on entered search term. Locations Opens list of locations for eSIMs. Popular locations United States Costa Rica Mexico Colombia Spain Guatemala Panama Argentina Japan Nicaragua Chile Peru Directs to products for this location when selected. Explore eSIM Store R"
+        },
+        {
+          "url": "https://www.airalo.com/about-us/about-airalo",
+          "snippet": "egional and global eSIMs Africa Africa Safari Asia Caribbean Islands Europe European Union and United Kingdom Latin America Middle East and North Africa North America Oceania Global About Airalo Huge roaming bills, losing phone service, desperately searching for free WiFi "
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://www.airalo.com/airalo-careers/job-vacancies",
+          "snippet": "try or location. Role type Opens option to filter job vacancies by role type. United Kingdom Senior Analytics Engineer, Finance Full-Time Data View details Directs to details for selected job vacancy. Apply now Directs to option to apply for selected job. Europe MVNO "
+        },
+        {
+          "url": "https://www.airalo.com/airalo-careers/job-vacancies",
+          "snippet": "ancy. Apply now Directs to option to apply for selected job. United Kingdom Director, Enterprise IT Full-Time Engineering View details Directs to details for selected job vacancy. Apply now Directs to option to apply for selected job. Working at Airalo We’re a remote, gl"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false,
+      "officialPagesChecked": 3
+    },
+    {
+      "name": "Hire Overseas",
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceUrl": "https://findremote.jobs/jobs/full-stack-ai-engineer--1ccee3f01fc9",
+      "sourceFeedUrl": "https://findremote.jobs/feeds/roles/software-engineering/locations/latin-america.json",
+      "leadOnly": true,
+      "roles": [
+        {
+          "title": "Full Stack AI Engineer",
+          "sourceUrl": "https://findremote.jobs/jobs/full-stack-ai-engineer--1ccee3f01fc9",
+          "publishedOn": "2026-08-22T17:18:05.000Z"
+        },
+        {
+          "title": "Full Stack Engineer (AI and Agents)",
+          "sourceUrl": "https://findremote.jobs/jobs/full-stack-engineer-ai-and-agents--af6b2a29eea2",
+          "publishedOn": "2026-08-14T21:30:14.000Z"
+        }
+      ],
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "https://hireoverseas.com/",
+      "websiteResolutionSource": "Wikidata official-website property; candidate URL only",
+      "domainResolutionStatus": "Wikidata suggestion; requires first-party verification",
+      "website": "https://www.hireoverseas.com/",
+      "officialIdentityVerified": true,
+      "careersUrl": "https://www.hireoverseas.com/services/managed-talent-hire",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.hireoverseas.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Latin America"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://www.hireoverseas.com/",
+          "snippet": "t, anywhere in the world. We recruit anywhere. Our deepest talent networks are in Southeast Asia, Africa, and Latin America, and every hire works the hours that fit your team. Southeast Asia Exceptional English fluency and deep experience in support, admin, and back-office"
+        },
+        {
+          "url": "https://www.hireoverseas.com/",
+          "snippet": "cy and deep experience in support, admin, and back-office roles, on any US schedule. Hire from Southeast Asia Latin America Full US time-zone overlap and bilingual talent with strong sales, marketing, and engineering benches. Hire from Latin America Africa Native-level Eng"
+        },
+        {
+          "url": "https://www.hireoverseas.com/",
+          "snippet": "ll US time-zone overlap and bilingual talent with strong sales, marketing, and engineering benches. Hire from Latin America Africa Native-level English and standout sales, finance, and customer experience professionals. Hire from Africa Compare the regions Every hire is in"
+        },
+        {
+          "url": "https://www.hireoverseas.com/",
+          "snippet": "d what time zones can you cover? We recruit anywhere in the world. Most placements come from the Philippines, Latin America, and South Africa, and we staff in whichever time zone fits your needs: between those three regions we cover every US schedule, from full EST overlap"
+        },
+        {
+          "url": "https://www.hireoverseas.com/",
+          "snippet": "ources Articles Research & Insights Courses Playbooks Success Stories HO University Hire From The Philippines Latin America South Africa Compare alternatives Company About Us Pricing FAQ Apply for Jobs Refer & Earn Pricing is customized to your role, talent level, and regi"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://www.hireoverseas.com/",
+          "snippet": "r View all 15 Creative & Design AI Video Editor Graphic Designer Product Designer UX/UI Designer Video Editor Engineering & Data Backend Engineers Data Analyst Front End Engineers Full Stack Web Developer QA Tester Unity Developer View all 7 AI & Automation AI Engineer A"
+        },
+        {
+          "url": "https://www.hireoverseas.com/",
+          "snippet": "sign AI Video Editor Graphic Designer Product Designer UX/UI Designer Video Editor Engineering & Data Backend Engineers Data Analyst Front End Engineers Full Stack Web Developer QA Tester Unity Developer View all 7 AI & Automation AI Engineer AI Implementation Special"
+        },
+        {
+          "url": "https://www.hireoverseas.com/",
+          "snippet": "gner Product Designer UX/UI Designer Video Editor Engineering & Data Backend Engineers Data Analyst Front End Engineers Full Stack Web Developer QA Tester Unity Developer View all 7 AI & Automation AI Engineer AI Implementation Specialist AI Automations Manager Claude"
+        },
+        {
+          "url": "https://www.hireoverseas.com/",
+          "snippet": "UI Designer Video Editor Engineering & Data Backend Engineers Data Analyst Front End Engineers Full Stack Web Developer QA Tester Unity Developer View all 7 AI & Automation AI Engineer AI Implementation Specialist AI Automations Manager Claude AI Developer Forward Depl"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": true,
+      "officialPagesChecked": 1
+    },
+    {
+      "name": "Link Design",
+      "website": "https://linkdesign.cr/",
+      "careersUrl": "https://linkdesign.cr/en/desarrollo-de-software-costa-rica",
+      "queryLane": "Official Costa Rica software companies",
+      "officialIdentityVerified": true,
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://linkdesign.cr/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://linkdesign.cr/en/desarrollo-de-software-costa-rica",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://linkdesign.cr/contacto",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://linkdesign.cr/",
+          "snippet": "Link Design | Desarrollo web y software a medida en Costa Rica Link Design Dos brazos. Un mismo criterio para construir software y páginas web a medida. /software Software a la medida Construimos software a medid"
+        },
+        {
+          "url": "https://linkdesign.cr/en/desarrollo-de-software-costa-rica",
+          "snippet": "Custom software development company in Costa Rica | Link Design Link Design Home Work Pricing Process ES EN Let's talk → Let's talk → Custom software Custom software development in Costa Rica We are "
+        },
+        {
+          "url": "https://linkdesign.cr/en/desarrollo-de-software-costa-rica",
+          "snippet": "sign Home Work Pricing Process ES EN Let's talk → Let's talk → Custom software Custom software development in Costa Rica We are Link Design, a San José studio that builds custom software for companies that can no longer run their operation on spreadsheets, WhatsApp and "
+        },
+        {
+          "url": "https://linkdesign.cr/en/desarrollo-de-software-costa-rica",
+          "snippet": "py how your operation works and turn it into software. Since 2020 we have put 26 projects into production for Costa Rican companies in manufacturing, logistics, healthcare, professional services and retail. Book a 30-minute meeting → Message us on WhatsApp → After the f"
+        },
+        {
+          "url": "https://linkdesign.cr/en/desarrollo-de-software-costa-rica",
+          "snippet": " pricing, several warehouses and in-house dispatch. See the system → It connects with what you already use in Costa Rica A custom system does not replace everything you have. It connects to it. These are the integrations we are asked for most often and have already solv"
+        },
+        {
+          "url": "https://linkdesign.cr/en/desarrollo-de-software-costa-rica",
+          "snippet": "ons we are asked for most often and have already solved in real projects. Electronic invoicing with Hacienda, Costa Rica's tax authority: the system issues or receives invoices without leaving the operation. SINPE Móvil, the local mobile payment system, and Costa Rican "
+        },
+        {
+          "url": "https://linkdesign.cr/en/desarrollo-de-software-costa-rica",
+          "snippet": " issues or receives invoices without leaving the operation. SINPE Móvil, the local mobile payment system, and Costa Rican payment gateways for taking payments online. WhatsApp Business: orders, confirmations and customer service with a bot and artificial intelligence, i"
+        },
+        {
+          "url": "https://linkdesign.cr/en/desarrollo-de-software-costa-rica",
+          "snippet": " login, for stores and portals where customers serve themselves. 04 What custom software development costs in Costa Rica A custom system with us costs between USD 1,500 and 15,000, depending on scope. Most of the projects we quoted in the last twelve months fall between"
+        },
+        {
+          "url": "https://linkdesign.cr/en/desarrollo-de-software-costa-rica",
+          "snippet": "ng historical data, which we quote separately when needed. 06 How to choose a software development company in Costa Rica There are good software companies in Costa Rica, and not all of them are good for the same thing. Before you hire anyone, us included, check these se"
+        },
+        {
+          "url": "https://linkdesign.cr/en/desarrollo-de-software-costa-rica",
+          "snippet": "en needed. 06 How to choose a software development company in Costa Rica There are good software companies in Costa Rica, and not all of them are good for the same thing. Before you hire anyone, us included, check these seven things. 01 Ask to browse something they have"
+        },
+        {
+          "url": "https://linkdesign.cr/en/desarrollo-de-software-costa-rica",
+          "snippet": "ng corporate training 07 Who we are We are Link Design, a design and software development studio in San José, Costa Rica. Since 2020 we have built websites and systems for companies in Costa Rica and, under our Kravõnia brand, for companies in Argentina. Today we also h"
+        },
+        {
+          "url": "https://linkdesign.cr/en/desarrollo-de-software-costa-rica",
+          "snippet": "re development studio in San José, Costa Rica. Since 2020 we have built websites and systems for companies in Costa Rica and, under our Kravõnia brand, for companies in Argentina. Today we also have clients in the United States, Mexico and Spain. We are one team coverin"
+        },
+        {
+          "url": "https://linkdesign.cr/en/desarrollo-de-software-costa-rica",
+          "snippet": "k remotely, and discovery happens on site when the operation requires it. We also work with companies outside Costa Rica: today we have clients in the United States, Mexico and Spain. Reach us at hola@linkdesign.cr or +506 7232 5943. We are available Monday to Friday, 8"
+        },
+        {
+          "url": "https://linkdesign.cr/en/desarrollo-de-software-costa-rica",
+          "snippet": "turdays and Sundays, we rest. Frequently asked questions 01 How much does custom software development cost in Costa Rica? Between USD 1,500 and 15,000, depending on scope. Most of our projects fall between USD 3,000 and 9,000: a custom CRM runs around USD 2,600 to 8,000"
+        },
+        {
+          "url": "https://linkdesign.cr/en/desarrollo-de-software-costa-rica",
+          "snippet": "h the rest of the country we work remotely and do discovery on site if the operation requires it. And outside Costa Rica too: today we have clients in the United States, Mexico and Spain. 08 What happens after launch? During the first year we fix any error in what was d"
+        },
+        {
+          "url": "https://linkdesign.cr/en/desarrollo-de-software-costa-rica",
+          "snippet": "@linkdesign.cr Message on WhatsApp Book a meeting Looking for a job? Write to talento@linkdesign.cr San José, Costa Rica Mon-Fri, 8am-5pm Legal ID 3-101-912048 Name * Company Email * WhatsApp / Phone * What do you need? Custom software Website E-commerce Other How shoul"
+        },
+        {
+          "url": "https://linkdesign.cr/contacto",
+          "snippet": "Contacto y reunión de proyecto | Link Design Costa Rica ES EN Link Design Información Formulario Canales hola@linkdesign.cr Escríbenos por WhatsApp Agenda una reunión Información San José, Costa Rica Lunes"
+        },
+        {
+          "url": "https://linkdesign.cr/contacto",
+          "snippet": "mación Formulario Canales hola@linkdesign.cr Escríbenos por WhatsApp Agenda una reunión Información San José, Costa Rica Lunes a viernes, 8 a 17 Sábados y domingos, descansamos ¿Buscas trabajo? Escribe a talento@linkdesign.cr Áreas de trabajo Software a medida Página we"
+        },
+        {
+          "url": "https://linkdesign.cr/contacto",
+          "snippet": "hola@linkdesign.cr Mandar WhatsApp Agendar reunión ¿Buscas trabajo? Escribe a talento@linkdesign.cr San José, Costa Rica L-V, 8 a 17 Cédula jurídica 3-101-912048 Nombre * Empresa Correo * WhatsApp / Teléfono * ¿Qué necesitas? Software a medida Página web E-commerce Otro"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://linkdesign.cr/",
+          "snippet": "Link Design | Desarrollo web y software a medida en Costa Rica Link Design Dos brazos. Un mismo criterio para construir software y páginas web a medida. /software Software a la medida Const"
+        },
+        {
+          "url": "https://linkdesign.cr/",
+          "snippet": "n | Desarrollo web y software a medida en Costa Rica Link Design Dos brazos. Un mismo criterio para construir software y páginas web a medida. /software Software a la medida Construimos software a medida, herramientas internas, integraciones y flujos pensados para equ"
+        },
+        {
+          "url": "https://linkdesign.cr/",
+          "snippet": "dida en Costa Rica Link Design Dos brazos. Un mismo criterio para construir software y páginas web a medida. /software Software a la medida Construimos software a medida, herramientas internas, integraciones y flujos pensados para equipos, negocio y crecimiento. Entra"
+        },
+        {
+          "url": "https://linkdesign.cr/",
+          "snippet": "osta Rica Link Design Dos brazos. Un mismo criterio para construir software y páginas web a medida. /software Software a la medida Construimos software a medida, herramientas internas, integraciones y flujos pensados para equipos, negocio y crecimiento. Entrar a Softw"
+        },
+        {
+          "url": "https://linkdesign.cr/en/desarrollo-de-software-costa-rica",
+          "snippet": "Custom software development company in Costa Rica | Link Design Link Design Home Work Pricing Process ES EN Let's talk → Let's talk → Custom software Custom software"
+        },
+        {
+          "url": "https://linkdesign.cr/en/desarrollo-de-software-costa-rica",
+          "snippet": "pany in Costa Rica | Link Design Link Design Home Work Pricing Process ES EN Let's talk → Let's talk → Custom software Custom software development in Costa Rica We are Link Design, a San José studio that builds custom software for companies that can no longer run thei"
+        },
+        {
+          "url": "https://linkdesign.cr/en/desarrollo-de-software-costa-rica",
+          "snippet": "ca | Link Design Link Design Home Work Pricing Process ES EN Let's talk → Let's talk → Custom software Custom software development in Costa Rica We are Link Design, a San José studio that builds custom software for companies that can no longer run their operation on s"
+        },
+        {
+          "url": "https://linkdesign.cr/en/desarrollo-de-software-costa-rica",
+          "snippet": "m software Custom software development in Costa Rica We are Link Design, a San José studio that builds custom software for companies that can no longer run their operation on spreadsheets, WhatsApp and workarounds. We do not bend your company to fit a system. We copy "
+        },
+        {
+          "url": "https://linkdesign.cr/contacto",
+          "snippet": "nes, 8 a 17 Sábados y domingos, descansamos ¿Buscas trabajo? Escribe a talento@linkdesign.cr Áreas de trabajo Software a medida Página web Nombre * Correo * WhatsApp / Teléfono * ¿Qué necesitas? Software Web E-commerce Contacto por * Mensaje Enviar mensaje → Comencemo"
+        },
+        {
+          "url": "https://linkdesign.cr/contacto",
+          "snippet": "sign.cr Áreas de trabajo Software a medida Página web Nombre * Correo * WhatsApp / Teléfono * ¿Qué necesitas? Software Web E-commerce Contacto por * Mensaje Enviar mensaje → Comencemos a trabajar hoy Esperamos tu mensaje hola@linkdesign.cr Mandar WhatsApp Agendar reun"
+        },
+        {
+          "url": "https://linkdesign.cr/contacto",
+          "snippet": "Rica L-V, 8 a 17 Cédula jurídica 3-101-912048 Nombre * Empresa Correo * WhatsApp / Teléfono * ¿Qué necesitas? Software a medida Página web E-commerce Otro ¿Cómo te contactamos? * Correo WhatsApp Llamada Mensaje Enviar mensaje → © 2026 Link Design. Todos los derechos r"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false,
+      "officialPagesChecked": 3
+    }
+  ]
+}

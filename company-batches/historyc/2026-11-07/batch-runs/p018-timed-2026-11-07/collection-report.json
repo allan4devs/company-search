@@ -1,0 +1,91 @@
+{
+  "cohortId": "likes-based-2026-11-07-p018",
+  "generatedOn": "2026-11-07",
+  "sourceConcurrency": 3,
+  "sourceResults": [],
+  "inputCount": 120,
+  "nameUniqueCount": 104,
+  "targetStrictUniqueCount": 100,
+  "strictUniqueCount": 1,
+  "slices": [
+    {
+      "offset": 0,
+      "input": 104,
+      "websiteResolutionNeeded": 104,
+      "resolvedWithWebsiteCandidate": 3,
+      "siteReadyCandidates": 3,
+      "resolverProcessMs": 23358,
+      "verifierProcessMs": 788,
+      "officialPagesChecked": 3,
+      "elapsedMs": 562,
+      "strictPasses": 1,
+      "queryLanes": [
+        {
+          "lane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+          "checked": 26,
+          "reachable": 1,
+          "regionAndFit": 1,
+          "localOrEligibleAndFit": 1,
+          "regionAndFitRate": 0.038,
+          "localOrEligibleAndFitRate": 0.038,
+          "recommendation": "pause: fewer than 15% passed fit plus location; try a new source or segment"
+        },
+        {
+          "lane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+          "checked": 27,
+          "reachable": 0,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "pause: fewer than 15% passed fit plus location; try a new source or segment"
+        },
+        {
+          "lane": "The Manifest Latin America software developers — page 8 ranks 241-270",
+          "checked": 26,
+          "reachable": 0,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "pause: fewer than 15% passed fit plus location; try a new source or segment"
+        },
+        {
+          "lane": "The Manifest Latin America software developers — page 9 ranks 271-300",
+          "checked": 25,
+          "reachable": 0,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "pause: fewer than 15% passed fit plus location; try a new source or segment"
+        }
+      ],
+      "verificationFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p018-timed-2026-11-07\\site-slice-001-verified.json",
+      "strictPoolWriteMs": 2,
+      "domainDedupeProcessMs": 344
+    }
+  ],
+  "timingsMs": {
+    "sourceFetchWallMs": 0,
+    "sourceFetchSumMs": 0,
+    "inputReadMergeWriteMs": 79,
+    "nameDedupeProcessMs": 2259,
+    "readNameUniqueAndSnapshotMs": 9,
+    "websiteResolutionSumMs": 23358,
+    "websiteVerificationProcessSumMs": 788,
+    "websiteVerificationInternalSumMs": 562,
+    "finalDomainDedupeProcessSumMs": 344,
+    "strictPoolWriteSumMs": 2,
+    "totalElapsedBeforeReportWriteMs": 26855
+  },
+  "rawLeads": "company-batches\\historyc\\2026-11-07\\batch-runs\\p018-timed-2026-11-07\\combined-raw-leads.json",
+  "nameUniqueLeads": "company-batches\\historyc\\2026-11-07\\batch-runs\\p018-timed-2026-11-07\\name-unique-leads.json",
+  "mongoSnapshot": "company-batches\\historyc\\2026-11-07\\batch-runs\\p018-timed-2026-11-07\\mongo-snapshot.json",
+  "dedupeLedger": "company-batches\\historyc\\2026-11-07\\batch-runs\\p018-timed-2026-11-07\\name-dedupe-ledger.json",
+  "strictUniqueLeads": "company-batches\\historyc\\2026-11-07\\batch-runs\\p018-timed-2026-11-07\\strict-domain-unique-leads.json",
+  "strictDedupeLedger": "company-batches\\historyc\\2026-11-07\\batch-runs\\p018-timed-2026-11-07\\strict-domain-dedupe-ledger.json",
+  "timingReport": "company-batches\\historyc\\2026-11-07\\batch-runs\\p018-timed-2026-11-07\\timing-report.json",
+  "artifacts": {},
+  "nextStep": "Add fresh sources or inputs; this run exhausted the available name-unique candidates before reaching the target."
+}

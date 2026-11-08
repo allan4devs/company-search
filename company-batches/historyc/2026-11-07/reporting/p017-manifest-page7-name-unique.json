@@ -1,0 +1,755 @@
+{
+  "cohortId": "likes-based-2026-11-07-p017-page7",
+  "generatedOn": "2026-11-07",
+  "catalog": {
+    "source": "MongoDB + bundled files",
+    "mongoCompanies": 1620,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 0,
+    "indexedNames": 1719,
+    "indexedDomains": 1582
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 66,
+    "topTracks": [
+      {
+        "track": "Engineering",
+        "count": 36
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "Software Engineering",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Node.js",
+        "count": 2
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        47
+      ],
+      [
+        "direct",
+        16
+      ],
+      [
+        "unknown",
+        3
+      ]
+    ]
+  },
+  "dislikeBaseline": {
+    "activeDislikedWithCostaRicaOrLatamEvidence": 101,
+    "dislikedTracks": [
+      {
+        "track": "Engineering",
+        "count": 64
+      },
+      {
+        "track": "Software Engineering",
+        "count": 16
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 8
+      },
+      {
+        "track": "Backend",
+        "count": 6
+      },
+      {
+        "track": "Full-stack",
+        "count": 5
+      },
+      {
+        "track": "Java Backend",
+        "count": 3
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 3
+      },
+      {
+        "track": "Python",
+        "count": 3
+      },
+      {
+        "track": "Nearshore",
+        "count": 3
+      },
+      {
+        "track": "Full Stack",
+        "count": 3
+      },
+      {
+        "track": "Go",
+        "count": 1
+      },
+      {
+        "track": "Node.js",
+        "count": 1
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        54
+      ],
+      [
+        "direct",
+        35
+      ],
+      [
+        "unknown",
+        12
+      ]
+    ]
+  },
+  "candidates": [
+    {
+      "name": "LoopStudio",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/loopstudio/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/loopstudio/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Qubika",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/qubika/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/qubika/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "GeneXus",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/genexus/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/genexus/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "10Pines",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/10pines/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/10pines/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Tryolabs",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/tryolabs/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/tryolabs/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Capicua",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/capicua/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/capicua/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Kaizen Softworks",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/kaizen-softworks/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/kaizen-softworks/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Qualabs",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/qualabs/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/qualabs/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Quanam",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/quanam/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/quanam/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Bitlogic",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/bitlogic/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/bitlogic/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Flux IT",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/flux-it/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/flux-it/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Snoop Consulting",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/snoop/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/snoop/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "ArkusNexus",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/arkusnexus/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/arkusnexus/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Hitss",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/hitss/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/hitss/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Quarksoft",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/quarksoft/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/quarksoft/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Scio Consulting",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/scio/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/scio/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "TIVIT",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/tivit/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/tivit/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Zenta Group",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/zenta-group/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/zenta-group/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Canvia",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/canvia/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/canvia/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Intersog",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/intersog/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/intersog/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Venturus",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/venturus/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/venturus/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Nexton",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/nexton/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/nexton/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Ensolvers",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/ensolvers/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/ensolvers/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Moove It",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/moove-it/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/moove-it/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Sngular",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/sngular/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/sngular/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Tiempo Development",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/tiempo-development/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/tiempo-development/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Zemoga",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/zemoga/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/zemoga/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Grupo ASSA",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/grupo-assa/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/grupo-assa/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Perficient Latin America",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/perficient-latam/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/perficient-latam/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "PSL",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/psl/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/psl/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Zup Innovation",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/zup/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/zup/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Divelement Web Services",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 181,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Exomindset",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 183,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "G360Technologies",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 184,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Gila Software",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 185,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Nareia",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 186,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "DNAMIC | Databricks Data Solutions",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 187,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Alluxi",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 188,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "N-iX Games",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 189,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Sagant",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 191,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Telos Labs",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 192,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Towa - Nearshore Software Excellence",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 193,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Kadabra IT",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 194,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "HMS Software Solutions",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 195,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Kreilabs",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 196,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Sombra",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 197,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Seasoned",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 198,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Smallcode",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 199,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Nextant",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 200,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Squareball Studios",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 202,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Intermedia IT",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 203,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "SmartApp",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 204,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Kreitech",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 207,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "AceBuddy",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 209,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Sancrisoft",
+      "queryLane": "The Manifest Latin America software developers — page 6 ranks 181-210",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=6",
+      "rank": 210,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Whiz, a 10Pearls Company",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 211,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Commit Studio",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 212,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "IRIDIAN",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 213,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Liven",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 214,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Southteams",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 215,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Mobile2you Technology",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 216,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Innuy",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 217,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Vixteam Consultoria e Sistemas SA",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 218,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Digital Sense",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 221,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "iBlue Consulting",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 222,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Avantsoft",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 223,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Ubicutus Apps",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 224,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Xpantion",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 226,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Zennovia",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 227,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "King Tide",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 228,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Infograins Software Solutions",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 229,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Ulfix",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 230,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "TOTS",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 231,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "TEAM International",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 232,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "GoNet",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 233,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Ehecatl",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 234,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Appstract",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 235,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "rinf.tech",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 236,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "SmartUp Software",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 237,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Parafernalia Interativa",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 238,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "Hristov Development",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 239,
+      "needsOfficialDomainResolution": true
+    },
+    {
+      "name": "XOOR Inc.",
+      "queryLane": "The Manifest Latin America software developers — page 7 ranks 211-240",
+      "sourceUrl": "https://themanifest.com/software-development/companies/latin-america?page=7",
+      "rank": 240,
+      "needsOfficialDomainResolution": true
+    }
+  ],
+  "uniqueCandidatesFound": 82,
+  "outputLimit": 1000
+}

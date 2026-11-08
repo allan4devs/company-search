@@ -1,0 +1,858 @@
+{
+  "cohortId": "jobicy-latam-2026-11-07",
+  "generatedOn": "2026-11-07",
+  "discoveryOnly": true,
+  "fetchedJobCount": 109,
+  "regionalEngineeringPostCount": 34,
+  "employerLeadCount": 10,
+  "queryStats": [
+    {
+      "industry": "engineering",
+      "jobs": 59
+    },
+    {
+      "industry": "admin",
+      "jobs": 10
+    },
+    {
+      "industry": "data-science",
+      "jobs": 40
+    },
+    {
+      "industry": "cybersecurity",
+      "jobs": 0
+    },
+    {
+      "industry": "qa-testing",
+      "jobs": 20
+    },
+    {
+      "industry": "technical-support",
+      "jobs": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Canonical",
+      "website": "https://canonical.com/",
+      "careersUrl": "",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM"
+      ],
+      "jobs": [
+        {
+          "id": "jobicy-159594",
+          "title": "Staff Software Engineer for Identity Management (Go/Golang)",
+          "location": "EMEA, LATAM, Canada, USA",
+          "eligibility": "EMEA, LATAM, Canada, USA",
+          "url": "https://jobicy.com/jobs/159594-staff-software-engineer-for-identity-management-go-golang",
+          "workMode": "Remote",
+          "listingStatus": "Current Jobicy listing; not yet confirmed on employer ATS",
+          "checkedOn": "2026-11-07",
+          "technologies": [
+            "Go",
+            "Python",
+            "go"
+          ],
+          "roles": [
+            "Engineering"
+          ],
+          "levels": []
+        },
+        {
+          "id": "jobicy-159593",
+          "title": "Staff Engineer, Development Lifecycle",
+          "location": "EMEA, LATAM, Canada, USA",
+          "eligibility": "EMEA, LATAM, Canada, USA",
+          "url": "https://jobicy.com/jobs/159593-staff-engineer-development-lifecycle",
+          "workMode": "Remote",
+          "listingStatus": "Current Jobicy listing; not yet confirmed on employer ATS",
+          "checkedOn": "2026-11-07",
+          "technologies": [],
+          "roles": [
+            "Engineering"
+          ],
+          "levels": []
+        },
+        {
+          "id": "jobicy-159591",
+          "title": "Software Engineer - Python/Golang - Kubernetes",
+          "location": "EMEA, LATAM, Canada, USA",
+          "eligibility": "EMEA, LATAM, Canada, USA",
+          "url": "https://jobicy.com/jobs/159591-software-engineer-python-golang-kubernetes",
+          "workMode": "Remote",
+          "listingStatus": "Current Jobicy listing; not yet confirmed on employer ATS",
+          "checkedOn": "2026-11-07",
+          "technologies": [
+            "Go",
+            "Python"
+          ],
+          "roles": [
+            "Engineering"
+          ],
+          "levels": []
+        },
+        {
+          "id": "jobicy-159590",
+          "title": "Software Engineer - OpenStack",
+          "location": "EMEA, LATAM, Canada, USA",
+          "eligibility": "EMEA, LATAM, Canada, USA",
+          "url": "https://jobicy.com/jobs/159590-software-engineer-openstack",
+          "workMode": "Remote",
+          "listingStatus": "Current Jobicy listing; not yet confirmed on employer ATS",
+          "checkedOn": "2026-11-07",
+          "technologies": [
+            "Python",
+            "python",
+            "go",
+            "Go"
+          ],
+          "roles": [
+            "Engineering"
+          ],
+          "levels": []
+        },
+        {
+          "id": "jobicy-159587",
+          "title": "Software Engineer, Ceph & Distributed Storage",
+          "location": "EMEA, LATAM, Canada, USA",
+          "eligibility": "EMEA, LATAM, Canada, USA",
+          "url": "https://jobicy.com/jobs/159587-software-engineer-ceph-distributed-storage-2",
+          "workMode": "Remote",
+          "listingStatus": "Current Jobicy listing; not yet confirmed on employer ATS",
+          "checkedOn": "2026-11-07",
+          "technologies": [
+            "go",
+            "Python",
+            "Go"
+          ],
+          "roles": [
+            "Engineering"
+          ],
+          "levels": []
+        },
+        {
+          "id": "jobicy-159482",
+          "title": "Senior Software Engineer - Python/Golang - Kubernetes",
+          "location": "EMEA, LATAM, Canada, USA",
+          "eligibility": "EMEA, LATAM, Canada, USA",
+          "url": "https://jobicy.com/jobs/159482-senior-software-engineer-python-golang-kubernetes",
+          "workMode": "Remote",
+          "listingStatus": "Current Jobicy listing; not yet confirmed on employer ATS",
+          "checkedOn": "2026-11-07",
+          "technologies": [
+            "Go",
+            "Python"
+          ],
+          "roles": [
+            "Engineering"
+          ],
+          "levels": []
+        },
+        {
+          "id": "jobicy-150127",
+          "title": "Senior Software Engineer - MAAS",
+          "location": "EMEA, LATAM, Canada, USA",
+          "eligibility": "EMEA, LATAM, Canada, USA",
+          "url": "https://jobicy.com/jobs/150127-senior-software-engineer-maas",
+          "workMode": "Remote",
+          "listingStatus": "Current Jobicy listing; not yet confirmed on employer ATS",
+          "checkedOn": "2026-11-07",
+          "technologies": [
+            "Python",
+            "Go",
+            "go",
+            "TypeScript",
+            "React"
+          ],
+          "roles": [
+            "Engineering"
+          ],
+          "levels": []
+        },
+        {
+          "id": "jobicy-149985",
+          "title": "Engineering Manager - Public Cloud, Python, Golang",
+          "location": "EMEA, LATAM, Canada, USA",
+          "eligibility": "EMEA, LATAM, Canada, USA",
+          "url": "https://jobicy.com/jobs/149985-engineering-manager-public-cloud-python-golang",
+          "workMode": "Remote",
+          "listingStatus": "Current Jobicy listing; not yet confirmed on employer ATS",
+          "checkedOn": "2026-11-07",
+          "technologies": [
+            "Go",
+            "go",
+            "Python",
+            "Azure",
+            "AWS"
+          ],
+          "roles": [
+            "Engineering"
+          ],
+          "levels": []
+        },
+        {
+          "id": "jobicy-149972",
+          "title": "Software Engineer, Ceph & Distributed Storage",
+          "location": "EMEA, LATAM, Canada, USA",
+          "eligibility": "EMEA, LATAM, Canada, USA",
+          "url": "https://jobicy.com/jobs/149972-software-engineer-ceph-distributed-storage",
+          "workMode": "Remote",
+          "listingStatus": "Current Jobicy listing; not yet confirmed on employer ATS",
+          "checkedOn": "2026-11-07",
+          "technologies": [
+            "go",
+            "Python",
+            "Go"
+          ],
+          "roles": [
+            "Engineering"
+          ],
+          "levels": []
+        },
+        {
+          "id": "jobicy-149970",
+          "title": "Engineering Manager- Ceph & Distributed Storage",
+          "location": "EMEA, LATAM, Canada, USA",
+          "eligibility": "EMEA, LATAM, Canada, USA",
+          "url": "https://jobicy.com/jobs/149970-engineering-manager-ceph-distributed-storage",
+          "workMode": "Remote",
+          "listingStatus": "Current Jobicy listing; not yet confirmed on employer ATS",
+          "checkedOn": "2026-11-07",
+          "technologies": [
+            "go",
+            "Python"
+          ],
+          "roles": [
+            "Engineering"
+          ],
+          "levels": []
+        },
+        {
+          "id": "jobicy-149981",
+          "title": "Software Architect - Containers / Virtualisation",
+          "location": "EMEA, LATAM, Canada, USA",
+          "eligibility": "EMEA, LATAM, Canada, USA",
+          "url": "https://jobicy.com/jobs/149981-software-architect-containers-virtualisation",
+          "workMode": "Remote",
+          "listingStatus": "Current Jobicy listing; not yet confirmed on employer ATS",
+          "checkedOn": "2026-11-07",
+          "technologies": [
+            "go",
+            "Go"
+          ],
+          "roles": [
+            "Engineering"
+          ],
+          "levels": []
+        },
+        {
+          "id": "jobicy-149980",
+          "title": "Engineering Manager for IAM (Identity and Access Management)",
+          "location": "EMEA, LATAM, Canada, USA",
+          "eligibility": "EMEA, LATAM, Canada, USA",
+          "url": "https://jobicy.com/jobs/149980-engineering-manager-for-iam-identity-and-access-management",
+          "workMode": "Remote",
+          "listingStatus": "Current Jobicy listing; not yet confirmed on employer ATS",
+          "checkedOn": "2026-11-07",
+          "technologies": [
+            "Go",
+            "Python"
+          ],
+          "roles": [
+            "Engineering"
+          ],
+          "levels": []
+        },
+        {
+          "id": "jobicy-149969",
+          "title": "Linux devices software engineer - snapd",
+          "location": "EMEA, LATAM, Canada, USA",
+          "eligibility": "EMEA, LATAM, Canada, USA",
+          "url": "https://jobicy.com/jobs/149969-linux-devices-software-engineer-snapd",
+          "workMode": "Remote",
+          "listingStatus": "Current Jobicy listing; not yet confirmed on employer ATS",
+          "checkedOn": "2026-11-07",
+          "technologies": [
+            "Go",
+            "go",
+            "Python"
+          ],
+          "roles": [
+            "Engineering"
+          ],
+          "levels": []
+        },
+        {
+          "id": "jobicy-149978",
+          "title": "Software Engineer - Cloud Images",
+          "location": "EMEA, LATAM, Canada, USA",
+          "eligibility": "EMEA, LATAM, Canada, USA",
+          "url": "https://jobicy.com/jobs/149978-software-engineer-cloud-images",
+          "workMode": "Remote",
+          "listingStatus": "Current Jobicy listing; not yet confirmed on employer ATS",
+          "checkedOn": "2026-11-07",
+          "technologies": [
+            "Go",
+            "Python"
+          ],
+          "roles": [
+            "Engineering"
+          ],
+          "levels": []
+        },
+        {
+          "id": "jobicy-149973",
+          "title": "Software Engineering Manager - Container and Virtualisation Infrastructure",
+          "location": "EMEA, LATAM, Canada, USA",
+          "eligibility": "EMEA, LATAM, Canada, USA",
+          "url": "https://jobicy.com/jobs/149973-software-engineering-manager-container-and-virtualisation-infrastructure",
+          "workMode": "Remote",
+          "listingStatus": "Current Jobicy listing; not yet confirmed on employer ATS",
+          "checkedOn": "2026-11-07",
+          "technologies": [
+            "Go"
+          ],
+          "roles": [
+            "Engineering"
+          ],
+          "levels": []
+        },
+        {
+          "id": "jobicy-158514",
+          "title": "Embedded Linux Senior Software Engineer - Optimisation",
+          "location": "EMEA, LATAM, Canada, USA",
+          "eligibility": "EMEA, LATAM, Canada, USA",
+          "url": "https://jobicy.com/jobs/158514-embedded-linux-senior-software-engineer-optimisation",
+          "workMode": "Remote",
+          "listingStatus": "Current Jobicy listing; not yet confirmed on employer ATS",
+          "checkedOn": "2026-11-07",
+          "technologies": [
+            "Go"
+          ],
+          "roles": [
+            "Engineering"
+          ],
+          "levels": []
+        },
+        {
+          "id": "jobicy-158498",
+          "title": "Devices & IOT Field Engineering Manager (Americas)",
+          "location": "LATAM, Canada, USA",
+          "eligibility": "LATAM, Canada, USA",
+          "url": "https://jobicy.com/jobs/158498-devices-iot-field-engineering-manager-americas-3",
+          "workMode": "Remote",
+          "listingStatus": "Current Jobicy listing; not yet confirmed on employer ATS",
+          "checkedOn": "2026-11-07",
+          "technologies": [
+            "go"
+          ],
+          "roles": [
+            "Engineering"
+          ],
+          "levels": []
+        },
+        {
+          "id": "jobicy-158494",
+          "title": "Containerization & Virtualisation Engineer",
+          "location": "EMEA, LATAM, Canada, USA",
+          "eligibility": "EMEA, LATAM, Canada, USA",
+          "url": "https://jobicy.com/jobs/158494-containerization-virtualisation-engineer-2",
+          "workMode": "Remote",
+          "listingStatus": "Current Jobicy listing; not yet confirmed on employer ATS",
+          "checkedOn": "2026-11-07",
+          "technologies": [
+            "Go",
+            "go",
+            "Python"
+          ],
+          "roles": [
+            "Engineering"
+          ],
+          "levels": []
+        },
+        {
+          "id": "jobicy-158296",
+          "title": "Golang System Software Engineer - Containers / Virtualisation",
+          "location": "EMEA, LATAM, Canada, USA",
+          "eligibility": "EMEA, LATAM, Canada, USA",
+          "url": "https://jobicy.com/jobs/158296-golang-system-software-engineer-containers-virtualisation",
+          "workMode": "Remote",
+          "listingStatus": "Current Jobicy listing; not yet confirmed on employer ATS",
+          "checkedOn": "2026-11-07",
+          "technologies": [
+            "Go",
+            "go"
+          ],
+          "roles": [
+            "Engineering"
+          ],
+          "levels": []
+        },
+        {
+          "id": "jobicy-159598",
+          "title": "Telco Cloud Field Engineer",
+          "location": "EMEA, LATAM, Canada, USA",
+          "eligibility": "EMEA, LATAM, Canada, USA",
+          "url": "https://jobicy.com/jobs/159598-telco-cloud-field-engineer",
+          "workMode": "Remote",
+          "listingStatus": "Current Jobicy listing; not yet confirmed on employer ATS",
+          "checkedOn": "2026-11-07",
+          "technologies": [
+            "Python"
+          ],
+          "roles": [
+            "Engineering"
+          ],
+          "levels": []
+        }
+      ],
+      "queryLane": "Jobicy current LATAM engineering (engineering)",
+      "sourceUrl": "https://jobicy.com/jobs-rss-feed",
+      "leadSource": "Jobicy public remote-jobs API; use as a discovery lead and confirm employer details directly"
+    },
+    {
+      "name": "Customer.io",
+      "website": "https://customer.io/",
+      "careersUrl": "",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM"
+      ],
+      "jobs": [
+        {
+          "id": "jobicy-159342",
+          "title": "Staff Software Engineer, Backend",
+          "location": "LATAM, Canada, USA",
+          "eligibility": "LATAM, Canada, USA",
+          "url": "https://jobicy.com/jobs/159342-staff-software-engineer-backend",
+          "workMode": "Remote",
+          "listingStatus": "Current Jobicy listing; not yet confirmed on employer ATS",
+          "checkedOn": "2026-11-07",
+          "technologies": [
+            "go",
+            "Go",
+            "React",
+            "AWS",
+            "GCP"
+          ],
+          "roles": [
+            "Engineering"
+          ],
+          "levels": []
+        },
+        {
+          "id": "jobicy-159329",
+          "title": "Senior Software Engineer - Backend Platform",
+          "location": "LATAM, Canada, USA",
+          "eligibility": "LATAM, Canada, USA",
+          "url": "https://jobicy.com/jobs/159329-senior-software-engineer-backend-platform",
+          "workMode": "Remote",
+          "listingStatus": "Current Jobicy listing; not yet confirmed on employer ATS",
+          "checkedOn": "2026-11-07",
+          "technologies": [
+            "Go",
+            "React",
+            "go",
+            "AWS",
+            "GCP"
+          ],
+          "roles": [
+            "Engineering"
+          ],
+          "levels": []
+        },
+        {
+          "id": "jobicy-159207",
+          "title": "Senior Developer Experience Engineer, Integrations",
+          "location": "LATAM, Canada, USA",
+          "eligibility": "LATAM, Canada, USA",
+          "url": "https://jobicy.com/jobs/159207-senior-developer-experience-engineer-integrations",
+          "workMode": "Remote",
+          "listingStatus": "Current Jobicy listing; not yet confirmed on employer ATS",
+          "checkedOn": "2026-11-07",
+          "technologies": [
+            "Go",
+            "React",
+            "go",
+            "Kotlin"
+          ],
+          "roles": [
+            "Engineering"
+          ],
+          "levels": []
+        }
+      ],
+      "queryLane": "Jobicy current LATAM engineering (engineering)",
+      "sourceUrl": "https://jobicy.com/jobs-rss-feed",
+      "leadSource": "Jobicy public remote-jobs API; use as a discovery lead and confirm employer details directly"
+    },
+    {
+      "name": "Phantom",
+      "website": "https://phantom.com/",
+      "careersUrl": "",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM"
+      ],
+      "jobs": [
+        {
+          "id": "jobicy-152539",
+          "title": "Senior Software Engineer, Frontend",
+          "location": "LATAM, Canada, Europe, USA",
+          "eligibility": "LATAM, Canada, Europe, USA",
+          "url": "https://jobicy.com/jobs/152539-senior-software-engineer-frontend",
+          "workMode": "Remote",
+          "listingStatus": "Current Jobicy listing; not yet confirmed on employer ATS",
+          "checkedOn": "2026-11-07",
+          "technologies": [
+            "Go",
+            "go",
+            "React",
+            "Typescript",
+            "aws"
+          ],
+          "roles": [
+            "Engineering"
+          ],
+          "levels": []
+        }
+      ],
+      "queryLane": "Jobicy current LATAM engineering (engineering)",
+      "sourceUrl": "https://jobicy.com/jobs-rss-feed",
+      "leadSource": "Jobicy public remote-jobs API; use as a discovery lead and confirm employer details directly"
+    },
+    {
+      "name": "RevenueCat",
+      "website": "https://www.revenuecat.com/",
+      "careersUrl": "",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM"
+      ],
+      "jobs": [
+        {
+          "id": "jobicy-154563",
+          "title": "Senior SDK Engineer",
+          "location": "EMEA, LATAM, Canada, USA",
+          "eligibility": "EMEA, LATAM, Canada, USA",
+          "url": "https://jobicy.com/jobs/154563-senior-sdk-engineer",
+          "workMode": "Remote",
+          "listingStatus": "Current Jobicy listing; not yet confirmed on employer ATS",
+          "checkedOn": "2026-11-07",
+          "technologies": [
+            "Go",
+            "Java",
+            "Kotlin",
+            "go",
+            "Python"
+          ],
+          "roles": [
+            "Engineering"
+          ],
+          "levels": []
+        }
+      ],
+      "queryLane": "Jobicy current LATAM engineering (engineering)",
+      "sourceUrl": "https://jobicy.com/jobs-rss-feed",
+      "leadSource": "Jobicy public remote-jobs API; use as a discovery lead and confirm employer details directly"
+    },
+    {
+      "name": "NetBox Labs",
+      "website": "",
+      "careersUrl": "",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM"
+      ],
+      "jobs": [
+        {
+          "id": "jobicy-154544",
+          "title": "Senior Full Stack Engineer, Observability",
+          "location": "LATAM, UK, USA",
+          "eligibility": "LATAM, UK, USA",
+          "url": "https://jobicy.com/jobs/154544-senior-full-stack-engineer-observability",
+          "workMode": "Remote",
+          "listingStatus": "Current Jobicy listing; not yet confirmed on employer ATS",
+          "checkedOn": "2026-11-07",
+          "technologies": [
+            "Go",
+            "Python",
+            "React",
+            "TypeScript",
+            "go"
+          ],
+          "roles": [
+            "Engineering"
+          ],
+          "levels": []
+        },
+        {
+          "id": "jobicy-154539",
+          "title": "Senior Software Backend Engineer, Foundations",
+          "location": "LATAM, UK, USA",
+          "eligibility": "LATAM, UK, USA",
+          "url": "https://jobicy.com/jobs/154539-senior-software-backend-engineer-foundations",
+          "workMode": "Remote",
+          "listingStatus": "Current Jobicy listing; not yet confirmed on employer ATS",
+          "checkedOn": "2026-11-07",
+          "technologies": [
+            "go",
+            "Python",
+            "Go"
+          ],
+          "roles": [
+            "Engineering"
+          ],
+          "levels": []
+        },
+        {
+          "id": "jobicy-154542",
+          "title": "Senior DevOps Engineer, Observability",
+          "location": "LATAM, UK, USA",
+          "eligibility": "LATAM, UK, USA",
+          "url": "https://jobicy.com/jobs/154542-senior-devops-engineer-observability",
+          "workMode": "Remote",
+          "listingStatus": "Current Jobicy listing; not yet confirmed on employer ATS",
+          "checkedOn": "2026-11-07",
+          "technologies": [
+            "AWS",
+            "Python",
+            "Go",
+            "go"
+          ],
+          "roles": [
+            "Engineering"
+          ],
+          "levels": []
+        }
+      ],
+      "queryLane": "Jobicy current LATAM engineering (engineering)",
+      "sourceUrl": "https://jobicy.com/jobs-rss-feed",
+      "leadSource": "Jobicy public remote-jobs API; use as a discovery lead and confirm employer details directly"
+    },
+    {
+      "name": "Enumerate",
+      "website": "",
+      "careersUrl": "",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM"
+      ],
+      "jobs": [
+        {
+          "id": "jobicy-159001",
+          "title": "Tech Lead",
+          "location": "LATAM",
+          "eligibility": "LATAM",
+          "url": "https://jobicy.com/jobs/159001-tech-lead",
+          "workMode": "Remote",
+          "listingStatus": "Current Jobicy listing; not yet confirmed on employer ATS",
+          "checkedOn": "2026-11-07",
+          "technologies": [
+            "Python",
+            "Java",
+            "Node.js",
+            "Go",
+            "AWS",
+            "GCP",
+            "Azure"
+          ],
+          "roles": [
+            "Engineering"
+          ],
+          "levels": []
+        },
+        {
+          "id": "jobicy-158997",
+          "title": "Full Stack Developer",
+          "location": "LATAM",
+          "eligibility": "LATAM",
+          "url": "https://jobicy.com/jobs/158997-full-stack-developer",
+          "workMode": "Remote",
+          "listingStatus": "Current Jobicy listing; not yet confirmed on employer ATS",
+          "checkedOn": "2026-11-07",
+          "technologies": [
+            "React",
+            "Python",
+            "Node.js",
+            "Java",
+            "Go",
+            "AWS",
+            "GCP",
+            "Azure"
+          ],
+          "roles": [
+            "Engineering"
+          ],
+          "levels": []
+        }
+      ],
+      "queryLane": "Jobicy current LATAM engineering (engineering)",
+      "sourceUrl": "https://jobicy.com/jobs-rss-feed",
+      "leadSource": "Jobicy public remote-jobs API; use as a discovery lead and confirm employer details directly"
+    },
+    {
+      "name": "CodePath",
+      "website": "",
+      "careersUrl": "",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM"
+      ],
+      "jobs": [
+        {
+          "id": "jobicy-152299",
+          "title": "Staff Software Engineer",
+          "location": "LATAM, Canada, Europe, USA",
+          "eligibility": "LATAM, Canada, Europe, USA",
+          "url": "https://jobicy.com/jobs/152299-staff-software-engineer-5",
+          "workMode": "Remote",
+          "listingStatus": "Current Jobicy listing; not yet confirmed on employer ATS",
+          "checkedOn": "2026-11-07",
+          "technologies": [
+            "Go",
+            "Ruby",
+            "go",
+            "GCP"
+          ],
+          "roles": [
+            "Engineering"
+          ],
+          "levels": []
+        }
+      ],
+      "queryLane": "Jobicy current LATAM engineering (engineering)",
+      "sourceUrl": "https://jobicy.com/jobs-rss-feed",
+      "leadSource": "Jobicy public remote-jobs API; use as a discovery lead and confirm employer details directly"
+    },
+    {
+      "name": "Airtm",
+      "website": "",
+      "careersUrl": "",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM"
+      ],
+      "jobs": [
+        {
+          "id": "jobicy-154409",
+          "title": "AI Automation Engineer",
+          "location": "LATAM",
+          "eligibility": "LATAM",
+          "url": "https://jobicy.com/jobs/154409-ai-automation-engineer-2",
+          "workMode": "Remote",
+          "listingStatus": "Current Jobicy listing; not yet confirmed on employer ATS",
+          "checkedOn": "2026-11-07",
+          "technologies": [
+            "go",
+            "Go"
+          ],
+          "roles": [
+            "Engineering"
+          ],
+          "levels": []
+        }
+      ],
+      "queryLane": "Jobicy current LATAM engineering (engineering)",
+      "sourceUrl": "https://jobicy.com/jobs-rss-feed",
+      "leadSource": "Jobicy public remote-jobs API; use as a discovery lead and confirm employer details directly"
+    },
+    {
+      "name": "Launchpad Technologies",
+      "website": "",
+      "careersUrl": "",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM"
+      ],
+      "jobs": [
+        {
+          "id": "jobicy-159460",
+          "title": "Splunk Administrator",
+          "location": "LATAM",
+          "eligibility": "LATAM",
+          "url": "https://jobicy.com/jobs/159460-splunk-administrator",
+          "workMode": "Remote",
+          "listingStatus": "Current Jobicy listing; not yet confirmed on employer ATS",
+          "checkedOn": "2026-11-07",
+          "technologies": [
+            "go",
+            "aws"
+          ],
+          "roles": [
+            "Engineering"
+          ],
+          "levels": []
+        }
+      ],
+      "queryLane": "Jobicy current LATAM engineering (admin)",
+      "sourceUrl": "https://jobicy.com/jobs-rss-feed",
+      "leadSource": "Jobicy public remote-jobs API; use as a discovery lead and confirm employer details directly"
+    },
+    {
+      "name": "UpGuard",
+      "website": "",
+      "careersUrl": "",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM"
+      ],
+      "jobs": [
+        {
+          "id": "jobicy-152340",
+          "title": "IT Operations Analyst",
+          "location": "LATAM",
+          "eligibility": "LATAM",
+          "url": "https://jobicy.com/jobs/152340-it-operations-analyst",
+          "workMode": "Remote",
+          "listingStatus": "Current Jobicy listing; not yet confirmed on employer ATS",
+          "checkedOn": "2026-11-07",
+          "technologies": [
+            "go",
+            "Go",
+            "Python"
+          ],
+          "roles": [
+            "Engineering"
+          ],
+          "levels": []
+        }
+      ],
+      "queryLane": "Jobicy current LATAM engineering (admin)",
+      "sourceUrl": "https://jobicy.com/jobs-rss-feed",
+      "leadSource": "Jobicy public remote-jobs API; use as a discovery lead and confirm employer details directly"
+    }
+  ]
+}

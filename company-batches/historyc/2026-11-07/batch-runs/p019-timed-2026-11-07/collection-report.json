@@ -1,0 +1,331 @@
+{
+  "cohortId": "likes-based-2026-11-07-p019",
+  "generatedOn": "2026-11-07",
+  "sourceConcurrency": 4,
+  "sourceResults": [
+    {
+      "source": "fetch-enterprise-league-leads",
+      "output": "C:\\Users\\aroja\\OneDrive\\Documents\\GitHub\\comp\\company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-enterprise-league-leads.json",
+      "ok": true,
+      "elapsedMs": 1982
+    },
+    {
+      "source": "fetch-aworkado-company-leads",
+      "output": "C:\\Users\\aroja\\OneDrive\\Documents\\GitHub\\comp\\company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-aworkado-company-leads.json",
+      "ok": true,
+      "elapsedMs": 4495
+    },
+    {
+      "source": "fetch-jobicy-regional-engineering-leads",
+      "output": "C:\\Users\\aroja\\OneDrive\\Documents\\GitHub\\comp\\company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-jobicy-regional-engineering-leads.json",
+      "ok": true,
+      "elapsedMs": 1131
+    },
+    {
+      "source": "fetch-globallyremote-company-leads",
+      "output": "C:\\Users\\aroja\\OneDrive\\Documents\\GitHub\\comp\\company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-globallyremote-company-leads.json",
+      "ok": true,
+      "elapsedMs": 4523
+    },
+    {
+      "source": "fetch-camtic-company-leads",
+      "output": "C:\\Users\\aroja\\OneDrive\\Documents\\GitHub\\comp\\company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-camtic-company-leads.json",
+      "ok": true,
+      "elapsedMs": 765
+    },
+    {
+      "source": "fetch-costa-rica-directory-leads",
+      "output": "C:\\Users\\aroja\\OneDrive\\Documents\\GitHub\\comp\\company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-costa-rica-directory-leads.json",
+      "ok": true,
+      "elapsedMs": 1806
+    },
+    {
+      "source": "fetch-alpunto-software-leads",
+      "output": "C:\\Users\\aroja\\OneDrive\\Documents\\GitHub\\comp\\company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\fetch-alpunto-software-leads.json",
+      "ok": true,
+      "elapsedMs": 2027
+    }
+  ],
+  "inputCount": 593,
+  "nameUniqueCount": 329,
+  "targetStrictUniqueCount": 100,
+  "strictUniqueCount": 7,
+  "slices": [
+    {
+      "offset": 0,
+      "input": 200,
+      "directoryProfileResolutionNeeded": 197,
+      "directoryProfileSitesFound": 138,
+      "profileResolveProcessMs": 5381,
+      "websiteResolutionNeeded": 61,
+      "resolvedWithWebsiteCandidate": 10,
+      "fallbackResolveProcessMs": 36365,
+      "siteReadyCandidates": 149,
+      "resolverProcessMs": 36365,
+      "verifierProcessMs": 23020,
+      "officialPagesChecked": 266,
+      "elapsedMs": 22379,
+      "strictPasses": 6,
+      "queryLanes": [
+        {
+          "lane": "Enterprise League software directory — Uruguay",
+          "checked": 15,
+          "reachable": 10,
+          "regionAndFit": 6,
+          "localOrEligibleAndFit": 4,
+          "regionAndFitRate": 0.4,
+          "localOrEligibleAndFitRate": 0.267,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Aworkado remote software engineering — LATAM postings",
+          "checked": 9,
+          "reachable": 8,
+          "regionAndFit": 2,
+          "localOrEligibleAndFit": 2,
+          "regionAndFitRate": 0.222,
+          "localOrEligibleAndFitRate": 0.222,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — Central America",
+          "checked": 35,
+          "reachable": 22,
+          "regionAndFit": 3,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0.086,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "pause: fewer than 15% passed fit plus location; try a new source or segment"
+        },
+        {
+          "lane": "Enterprise League software directory — Mexico",
+          "checked": 7,
+          "reachable": 5,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — Colombia",
+          "checked": 3,
+          "reachable": 2,
+          "regionAndFit": 1,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0.333,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — Argentina",
+          "checked": 16,
+          "reachable": 13,
+          "regionAndFit": 1,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0.063,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — South America",
+          "checked": 1,
+          "reachable": 1,
+          "regionAndFit": 1,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 1,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — Peru",
+          "checked": 5,
+          "reachable": 3,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — Chile",
+          "checked": 7,
+          "reachable": 5,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — Guatemala",
+          "checked": 1,
+          "reachable": 1,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — Panama",
+          "checked": 2,
+          "reachable": 0,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — Brazil",
+          "checked": 50,
+          "reachable": 15,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "pause: fewer than 15% passed fit plus location; try a new source or segment"
+        },
+        {
+          "lane": "Enterprise League software directory — Ecuador",
+          "checked": 4,
+          "reachable": 0,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Jobicy current LATAM engineering (engineering)",
+          "checked": 1,
+          "reachable": 1,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Jobicy current LATAM engineering (admin)",
+          "checked": 1,
+          "reachable": 1,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Globally Remote Jobs Costa Rica listings — official employer link pending",
+          "checked": 1,
+          "reachable": 0,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "CAMTIC Costa Rica ICT member directory",
+          "checked": 42,
+          "reachable": 14,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "pause: fewer than 15% passed fit plus location; try a new source or segment"
+        }
+      ],
+      "verificationFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\site-slice-001-verified.json",
+      "strictPoolWriteMs": 3,
+      "domainDedupeProcessMs": 205
+    },
+    {
+      "offset": 200,
+      "input": 129,
+      "directoryProfileResolutionNeeded": 116,
+      "directoryProfileSitesFound": 64,
+      "profileResolveProcessMs": 2554,
+      "websiteResolutionNeeded": 52,
+      "resolvedWithWebsiteCandidate": 3,
+      "fallbackResolveProcessMs": 36767,
+      "siteReadyCandidates": 80,
+      "resolverProcessMs": 36767,
+      "verifierProcessMs": 13859,
+      "officialPagesChecked": 132,
+      "elapsedMs": 13689,
+      "strictPasses": 9,
+      "queryLanes": [
+        {
+          "lane": "CAMTIC Costa Rica ICT member directory",
+          "checked": 17,
+          "reachable": 11,
+          "regionAndFit": 2,
+          "localOrEligibleAndFit": 2,
+          "regionAndFitRate": 0.118,
+          "localOrEligibleAndFitRate": 0.118,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Alpunto Costa Rica software developer directory",
+          "checked": 67,
+          "reachable": 17,
+          "regionAndFit": 8,
+          "localOrEligibleAndFit": 5,
+          "regionAndFitRate": 0.119,
+          "localOrEligibleAndFitRate": 0.075,
+          "recommendation": "pause: fewer than 15% passed fit plus location; try a new source or segment"
+        },
+        {
+          "lane": "Alpunto Costa Rica SaaS/software company directory",
+          "checked": 32,
+          "reachable": 19,
+          "regionAndFit": 4,
+          "localOrEligibleAndFit": 2,
+          "regionAndFitRate": 0.125,
+          "localOrEligibleAndFitRate": 0.063,
+          "recommendation": "pause: fewer than 15% passed fit plus location; try a new source or segment"
+        },
+        {
+          "lane": "CamSCAT Costa Rica shared-services member directory",
+          "checked": 13,
+          "reachable": 5,
+          "regionAndFit": 1,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0.077,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        }
+      ],
+      "verificationFile": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\site-slice-002-verified.json",
+      "strictPoolWriteMs": 3,
+      "domainDedupeProcessMs": 230
+    }
+  ],
+  "timingsMs": {
+    "sourceFetchWallMs": 4590,
+    "sourceFetchSumMs": 16729,
+    "inputReadMergeWriteMs": 45,
+    "nameDedupeProcessMs": 2233,
+    "readNameUniqueAndSnapshotMs": 19,
+    "websiteResolutionSumMs": 81067,
+    "directoryProfileResolutionSumMs": 7935,
+    "fallbackDomainResolutionSumMs": 73132,
+    "websiteVerificationProcessSumMs": 36879,
+    "websiteVerificationInternalSumMs": 36068,
+    "finalDomainDedupeProcessSumMs": 435,
+    "strictPoolWriteSumMs": 6,
+    "totalElapsedBeforeReportWriteMs": 125311
+  },
+  "rawLeads": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\combined-raw-leads.json",
+  "nameUniqueLeads": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\name-unique-leads.json",
+  "mongoSnapshot": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\mongo-snapshot.json",
+  "dedupeLedger": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\name-dedupe-ledger.json",
+  "strictUniqueLeads": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\strict-domain-unique-leads.json",
+  "strictDedupeLedger": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\strict-domain-dedupe-ledger.json",
+  "timingReport": "company-batches\\historyc\\2026-11-07\\batch-runs\\p019-timed-2026-11-07\\timing-report.json",
+  "artifacts": {},
+  "nextStep": "Add fresh sources or inputs; this run exhausted the available name-unique candidates before reaching the target."
+}

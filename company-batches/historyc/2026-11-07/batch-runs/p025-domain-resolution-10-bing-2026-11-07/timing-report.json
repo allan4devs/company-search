@@ -1,0 +1,46 @@
+{
+  "cohortId": "p025-domain-resolution-10-bing-2026-11-07",
+  "measuredOn": "2026-11-07",
+  "benchmarkType": "Same saved 113-lead post-profile pool and same 10 lead search budget as p024; Bing-only; cache disabled; no verification/import",
+  "inputFile": "company-batches/historyc/2026-11-07/batch-runs/p025-domain-resolution-10-bing-2026-11-07/resolver-input.json",
+  "inputCandidateCount": 113,
+  "searchBudget": 10,
+  "searchEngine": "bing",
+  "livePerNameSearches": 10,
+  "searchEngineRequests": 10.0,
+  "perNameSearchAggregateMs": 3683.0,
+  "engineLatencyMs": {
+    "min": 162,
+    "median": 402,
+    "max": 477,
+    "errors": 0
+  },
+  "wikidataCandidateCount": 6,
+  "searchEngineCandidateCount": 2,
+  "deferredPerNameSearches": 97,
+  "allWebsiteCandidates": 8,
+  "cacheEnabled": false,
+  "timingsMs": {
+    "inputReadMs": 3,
+    "cacheReadAndMatchMs": 1,
+    "wikidataBatchMs": 1082,
+    "liveSearchWallMs": 638,
+    "cacheWriteMs": 0,
+    "outputWriteMs": 5,
+    "totalMs": 1736
+  },
+  "comparisonToP024": {
+    "p024Engine": "both (DDG then Bing)",
+    "p024TotalMs": 17624,
+    "p025TotalMs": 1736,
+    "totalWallReductionPercent": 90.1,
+    "p024LiveSearchWallMs": 16839,
+    "p025LiveSearchWallMs": 638,
+    "liveSearchWallReductionPercent": 96.2,
+    "p024EngineRequests": 20,
+    "p025EngineRequests": 10,
+    "p024SearchEngineCandidates": 2,
+    "p025SearchEngineCandidates": 2,
+    "note": "Same candidate count in this sample, with half the search-engine requests. Results remain unverified and the bounded run deferred 97 candidates."
+  }
+}

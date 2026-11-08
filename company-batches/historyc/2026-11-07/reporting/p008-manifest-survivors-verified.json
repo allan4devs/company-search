@@ -1,0 +1,618 @@
+{
+  "cohortId": "likes-based-2026-11-07-p008-manifest",
+  "checkedOn": "2026-11-07",
+  "sourceInput": "company-batches\\historyc\\2026-11-07\\reporting\\p008-manifest-survivors.json",
+  "inputCandidateCount": 13,
+  "candidateOffset": 0,
+  "candidateCount": 13,
+  "remainingCandidateCount": 0,
+  "queryLanes": [
+    {
+      "lane": "The Manifest Costa Rica software directory",
+      "checked": 13,
+      "reachable": 11,
+      "regionAndFit": 6,
+      "localOrEligibleAndFit": 4,
+      "regionAndFitRate": 0.462,
+      "localOrEligibleAndFitRate": 0.308,
+      "recommendation": "continue, then compare against the next batch"
+    }
+  ],
+  "candidates": [
+    {
+      "name": "U Devs",
+      "website": "https://u-devs.com/",
+      "domain": "u-devs.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://u-devs.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [],
+      "likelyFit": false,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Knogin",
+      "website": "https://www.knogin.com/en",
+      "domain": "www.knogin.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.knogin.com/en",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.knogin.com/en/about",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.knogin.com/en/contact",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://www.knogin.com/en",
+          "snippet": "ustries Book Demo Regional deployment options ISO 27001-aligned controls Open integration surface Deploy from cloud to air-gapped Investigations Incident response Critical infrastructure Municipal operations Shared operating model A single platform can support mult"
+        },
+        {
+          "url": "https://www.knogin.com/en",
+          "snippet": "set. Workflows Operations + intelligence One data model across review, response, and coordination. Deployment Cloud -> sovereign -> air-gapped The same platform foundation in each environment. Controls Governed by design Policy, provenance, and auditability stay in"
+        },
+        {
+          "url": "https://www.knogin.com/en",
+          "snippet": "lear. Lead with the shared platform story and leave specialisation to the pages that need it. Deploy Anywhere SaaS -> On-premise -> Air-gapped Keep the same platform and operating model whether you deploy in the cloud, on sovereign infrastructure, or in disconnect"
+        },
+        {
+          "url": "https://www.knogin.com/en",
+          "snippet": "nywhere SaaS -> On-premise -> Air-gapped Keep the same platform and operating model whether you deploy in the cloud, on sovereign infrastructure, or in disconnected environments. Open Integration Surface REST + GraphQL Connect existing systems, data providers, and "
+        },
+        {
+          "url": "https://www.knogin.com/en/about",
+          "snippet": " information systems could not keep pace with rapidly changing flood conditions. What Would Have Prevented It Cloud-native architecture that scales automatically with demand. Federated coordination platform connecting all responding agencies. Real-time geospatial i"
+        },
+        {
+          "url": "https://www.knogin.com/en/about",
+          "snippet": "t Endures Our technical decisions are driven by one question: Will this work when everything else is failing? Cloudflare Global Edge Deployed across 330+ locations worldwide. Your data stays in your jurisdiction while benefiting from global resilience and sub-100ms"
+        },
+        {
+          "url": "https://www.knogin.com/en/about",
+          "snippet": "ernal networks. Full capability without external dependencies. Complete offline capability Team Expertise Our engineers have shipped mission-critical systems where failure is not an option. “ Our engineers have shipped mission-critical systems for intelligence agencie"
+        },
+        {
+          "url": "https://www.knogin.com/en/about",
+          "snippet": "lity Team Expertise Our engineers have shipped mission-critical systems where failure is not an option. “ Our engineers have shipped mission-critical systems for intelligence agencies, defense contractors, and emergency services. We understand that in our domain, upti"
+        },
+        {
+          "url": "https://www.knogin.com/en/contact",
+          "snippet": "me Human Trafficking Smart Cities Counter-Terrorism Probation & Parole Dispatcher Wellness Docs Documentation Developers API Reference Integration Guide Deployment Security Docs Company About Values & Behaviours Branding Portal Pricing Contact Request Demo © 2026 Knogi"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Excel SoftSources",
+      "website": "https://excelsoftsources.com/",
+      "domain": "excelsoftsources.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1",
+      "officialSiteStatus": "fetch failed",
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Cabana Data",
+      "website": "https://cabanadata.com/",
+      "domain": "cabanadata.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1",
+      "careersUrl": "https://cabanadata.com/ai-first-move#principio",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://cabanadata.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://cabanadata.com/ai-first-move",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://cabanadata.com/about",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://cabanadata.com/contact",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://cabanadata.com/",
+          "snippet": "Consultoría de IA en Costa Rica | Cabana Data Skip to main content 🇨🇷 Inicio Nosotros Capacidades Blog Contacto 🇺🇸EN Switch language Agendar una conversación Toggle Menu Consult"
+        },
+        {
+          "url": "https://cabanadata.com/",
+          "snippet": "s medianas Sepa por dónde empezar con IA. Y empiece bien. Somos una consultoría de inteligencia artificial en Costa Rica para empresas medianas de Latinoamérica. Le ayudamos a elegir por dónde empezar, con evidencia de su operación, y a poner el primer caso en producció"
+        },
+        {
+          "url": "https://cabanadata.com/",
+          "snippet": "s siguientes. 10 semanas, en dos ciclos Precio fijo, sin \"depende\" Ver AI First Move Una consultoría de IA en Costa Rica que trabaja con evidencia Cada recomendación sale de entrevistas a su gente y de la revisión directa de sus sistemas, no de un benchmark genérico. Si"
+        },
+        {
+          "url": "https://cabanadata.com/",
+          "snippet": "ta IA Capacidades Nosotros Blog Contacto info@cabanadata.com +506 8511-5245 © 2026 cabanadata.com · San José, Costa Rica 🇨🇷 Política de Privacidad"
+        },
+        {
+          "url": "https://cabanadata.com/ai-first-move",
+          "snippet": "ta IA Capacidades Nosotros Blog Contacto info@cabanadata.com +506 8511-5245 © 2026 cabanadata.com · San José, Costa Rica 🇨🇷 Política de Privacidad"
+        },
+        {
+          "url": "https://cabanadata.com/about",
+          "snippet": "a de consultoría especializada que entrega soluciones de ingeniería de datos, arquitectura e IA a empresas en Costa Rica y LATAM desde 2021. Hablar con Nuestro Equipo Nuestro Equipo Los Expertos Detrás de Tus Proyectos Somos un equipo de expertos en datos, desarrollo y "
+        },
+        {
+          "url": "https://cabanadata.com/about",
+          "snippet": "ría especializada que entrega soluciones de ingeniería de datos, arquitectura e IA a empresas en Costa Rica y LATAM desde 2021. Hablar con Nuestro Equipo Nuestro Equipo Los Expertos Detrás de Tus Proyectos Somos un equipo de expertos en datos, desarrollo y diseño. "
+        },
+        {
+          "url": "https://cabanadata.com/about",
+          "snippet": " Nuestro objetivo es ser el socio de ingeniería de datos más confiable para las empresas del mercado medio en Costa Rica y LATAM. ¿Tienes un proyecto? Hablar con Nuestro Equipo Ruta IA Capacidades Nosotros Blog Contacto info@cabanadata.com +506 8511-5245 © 2026 cabanada"
+        },
+        {
+          "url": "https://cabanadata.com/about",
+          "snippet": "tivo es ser el socio de ingeniería de datos más confiable para las empresas del mercado medio en Costa Rica y LATAM. ¿Tienes un proyecto? Hablar con Nuestro Equipo Ruta IA Capacidades Nosotros Blog Contacto info@cabanadata.com +506 8511-5245 © 2026 cabanadata.com ·"
+        },
+        {
+          "url": "https://cabanadata.com/about",
+          "snippet": "ta IA Capacidades Nosotros Blog Contacto info@cabanadata.com +506 8511-5245 © 2026 cabanadata.com · San José, Costa Rica 🇨🇷 Política de Privacidad"
+        },
+        {
+          "url": "https://cabanadata.com/contact",
+          "snippet": "ta IA Capacidades Nosotros Blog Contacto info@cabanadata.com +506 8511-5245 © 2026 cabanadata.com · San José, Costa Rica 🇨🇷 Política de Privacidad"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://cabanadata.com/",
+          "snippet": "sultoría de IA para empresas medianas Sepa por dónde empezar con IA. Y empiece bien. Somos una consultoría de inteligencia artificial en Costa Rica para empresas medianas de Latinoamérica. Le ayudamos a elegir por dónde empezar, con evidencia de su operación, y a poner el primer cas"
+        },
+        {
+          "url": "https://cabanadata.com/",
+          "snippet": "to Cotizamos proyectos a medida con el mismo equipo que entrega Ruta IA y AI First Move. Ver capacidades Data Engineering Ingeniería de datos: integración de sistemas, data warehouse y dashboards. Data Consulting Consultoría de datos: gobierno, calidad y arquitectura de "
+        },
+        {
+          "url": "https://cabanadata.com/ai-first-move",
+          "snippet": "ndato, conviene un proyecto directo. Si sus datos no son accesibles hoy, primero conviene un proyecto de Data Engineering. Si necesita un caso grande o varios a la vez, lo cotizamos a medida. Preguntas frecuentes ¿No es caro para un solo caso de uso? No está comprando un"
+        },
+        {
+          "url": "https://cabanadata.com/contact",
+          "snippet": "urismo Manufactura e Industria Salud y Farmacéutica Sector Público y Gobierno Seguros Servicios Profesionales Tecnología de la Información (TI) Telecomunicaciones Transporte y Logística Otro Habla con un Experto → Respondemos en menos de 24 horas hábiles. Ruta IA Capacidades Nosotros Blo"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "ARTECH",
+      "website": "https://www.artech-consulting.com/",
+      "domain": "www.artech-consulting.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.artech-consulting.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://www.artech-consulting.com/",
+          "snippet": "s, Argentina Sucursal Bs.As. artech s.r.l. Edificio A, Piso 2, Forum 1, Pozos de Santa Ana (10903), San José, Costa Rica Sucursal Costa Rica Hagamos la diferencia juntos. PONERSE EN CONTACTO querés formar parte del equipo. VER BÚSQUEDAS ACTIVAS Servicios Productos Nosot"
+        },
+        {
+          "url": "https://www.artech-consulting.com/",
+          "snippet": "l Bs.As. artech s.r.l. Edificio A, Piso 2, Forum 1, Pozos de Santa Ana (10903), San José, Costa Rica Sucursal Costa Rica Hagamos la diferencia juntos. PONERSE EN CONTACTO querés formar parte del equipo. VER BÚSQUEDAS ACTIVAS Servicios Productos Nosotros Carreras Polític"
+        }
+      ],
+      "officialFitSnippets": [],
+      "likelyFit": false,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Software SOEFE S.A.",
+      "website": "https://soefe.com/",
+      "domain": "www.soefe.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://soefe.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://soefe.com/contact-us/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://soefe.com/",
+          "snippet": "os positivos, creando un sitio web integral y detallado para la venta de nuestro producto. Jimena Canet Woods Costa Rica \"La implementación en un país extranjero siempre es una operación delicada. Es importante entender el funcionamiento de los países. Para eso, es nece"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://soefe.com/",
+          "snippet": "cios EN Contáctanos Inicio Servicios EN Inicio Servicios EN Contactános 15+ años Desarrollando Aplicaciones y Software Bienvenido a nuestro Centro de Soluciones de Software. Somos tus expertos en desarrollo de aplicaciones y software. Desde startups hasta empresas, tr"
+        },
+        {
+          "url": "https://soefe.com/",
+          "snippet": "Inicio Servicios EN Contactános 15+ años Desarrollando Aplicaciones y Software Bienvenido a nuestro Centro de Soluciones de Software. Somos tus expertos en desarrollo de aplicaciones y software. Desde startups hasta empresas, transformamos ideas en resultados excepcionales. Contáct"
+        },
+        {
+          "url": "https://soefe.com/",
+          "snippet": "rollando Aplicaciones y Software Bienvenido a nuestro Centro de Soluciones de Software. Somos tus expertos en desarrollo de aplicaciones y software. Desde startups hasta empresas, transformamos ideas en resultados excepcionales. Contáctanos Confiado por líderes de la industria IOS Y AP"
+        },
+        {
+          "url": "https://soefe.com/",
+          "snippet": "are Bienvenido a nuestro Centro de Soluciones de Software. Somos tus expertos en desarrollo de aplicaciones y software. Desde startups hasta empresas, transformamos ideas en resultados excepcionales. Contáctanos Confiado por líderes de la industria IOS Y APLICACIONES "
+        },
+        {
+          "url": "https://soefe.com/contact-us/",
+          "snippet": "os Llámanos CR: +506 8939 5869 Nombre Whatsapp Correo Electrónico Mensaje Enviar Desarrollando Aplicaciones y Software desde 2006 Hablemos / Preguntas Frecuentes / Servicios Copyright ©2026 soefe.com. Reservados todos los derechos. WhatsApp us"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Broccoli Studios",
+      "website": "https://broccolistudios.com/",
+      "domain": "projectbroccoli.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://broccolistudios.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://broccolistudios.com/",
+          "snippet": "solo escríbanos a - info@broccolistudios.com +506 4000-0403 info@broccolistudios.com San José, Freses, 11801, Costa Rica Menu About Us Our Mission Meet the Team Our Projects Contact Explorar What We Offer Our Story Latest News Help Center Newsletter Acepto todos los tér"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://broccolistudios.com/",
+          "snippet": "mencemos su proyecto 00 Proyectos 00 Clientes 00 Años de experiencia Nuestro blog Noticias y Artículos 01 Nov Web Development ¿Cómo escribir un blog? by Broccoli Studios 01 Nov Social Marketing Sacale provecho a Instagram by Broccoli Studios 08 Dec Social Marketing Leave a C"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "DATAi",
+      "website": "https://dataicr.com/",
+      "domain": "www.dataicr.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://dataicr.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://dataicr.com/contacto/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://dataicr.com/",
+          "snippet": "Business Intelligence Costa Rica | DATAi Saltar al contenido Inicio Acerca de Contacto Servicios DATAi Green DATAi Outsourcing DATAi SOFT Alternar el menú Business Intelligence y Ana"
+        },
+        {
+          "url": "https://dataicr.com/",
+          "snippet": "een DATAi Outsourcing DATAi SOFT Alternar el menú Business Intelligence y Analítica Avanzada para Empresas en Costa Rica Transformamos datos en decisiones estratégicas Business Intelligence, Analítica Avanzada e Inteligencia Artificial para empresas en Costa Rica y Cent"
+        },
+        {
+          "url": "https://dataicr.com/",
+          "snippet": " decisiones estratégicas Business Intelligence, Analítica Avanzada e Inteligencia Artificial para empresas en Costa Rica y Centroamérica. Habla con un consultor Business Intelligence Dashboards ejecutivos en Power BI, reportes automatizados y KPIs en tiempo real para to"
+        },
+        {
+          "url": "https://dataicr.com/",
+          "snippet": "gradas en tus flujos de trabajo. ¿Por qué elegir DATAi? Somos el aliado estratégico de datos para empresas en Costa Rica que quieren crecer con información confiable, rápida y accionable. Equipo local con experiencia en el mercado centroamericano Implementaciones ágiles"
+        },
+        {
+          "url": "https://dataicr.com/",
+          "snippet": "ansformamos datos en decisiones estratégicas. Business Intelligence, Analítica Avanzada e IA para empresas en Costa Rica. [email&#160;protected] San José, Costa Rica Navegación Inicio Acerca de Servicios DATAi Green DATAi Outsourcing DATAi SOFT Contacto Nuestros Servici"
+        },
+        {
+          "url": "https://dataicr.com/",
+          "snippet": " Business Intelligence, Analítica Avanzada e IA para empresas en Costa Rica. [email&#160;protected] San José, Costa Rica Navegación Inicio Acerca de Servicios DATAi Green DATAi Outsourcing DATAi SOFT Contacto Nuestros Servicios Business Intelligence Analítica Avanzada I"
+        },
+        {
+          "url": "https://dataicr.com/contacto/",
+          "snippet": "Contacto DATAi – Business Intelligence Costa Rica Saltar al contenido Inicio Acerca de Contacto Servicios DATAi Green DATAi Outsourcing DATAi SOFT Alternar el menú Contacto Hablemos de tus datos Nues"
+        },
+        {
+          "url": "https://dataicr.com/contacto/",
+          "snippet": "llidos Correo electrónico * Empresa Teléfono Comentario o mensaje Enviar Información de contacto 📍 San José, Costa Rica 🌎 Operamos en CR, GT, SV, HN, NI y PA 📧 [email&#160;protected] 🕐 Lunes a viernes · 8:00 am – 6:00 pm ¿Por qué contactar a DATAi? Consultoría inici"
+        },
+        {
+          "url": "https://dataicr.com/contacto/",
+          "snippet": "ansformamos datos en decisiones estratégicas. Business Intelligence, Analítica Avanzada e IA para empresas en Costa Rica. [email&#160;protected] San José, Costa Rica Navegación Inicio Acerca de Servicios DATAi Green DATAi Outsourcing DATAi SOFT Contacto Nuestros Servici"
+        },
+        {
+          "url": "https://dataicr.com/contacto/",
+          "snippet": " Business Intelligence, Analítica Avanzada e IA para empresas en Costa Rica. [email&#160;protected] San José, Costa Rica Navegación Inicio Acerca de Servicios DATAi Green DATAi Outsourcing DATAi SOFT Contacto Nuestros Servicios Business Intelligence Analítica Avanzada I"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://dataicr.com/",
+          "snippet": "esas en Costa Rica Transformamos datos en decisiones estratégicas Business Intelligence, Analítica Avanzada e Inteligencia Artificial para empresas en Costa Rica y Centroamérica. Habla con un consultor Business Intelligence Dashboards ejecutivos en Power BI, reportes automatizados y"
+        },
+        {
+          "url": "https://dataicr.com/",
+          "snippet": "redictivos, segmentación de clientes y análisis de tendencias para anticipar el comportamiento de tu negocio. Inteligencia Artificial Automatización con IA, procesamiento de lenguaje natural y soluciones a medida integradas en tus flujos de trabajo. ¿Por qué elegir DATAi? Somos el a"
+        },
+        {
+          "url": "https://dataicr.com/",
+          "snippet": "DATAi Green DATAi Outsourcing DATAi SOFT Contacto Nuestros Servicios Business Intelligence Analítica Avanzada Inteligencia Artificial DATAi Green DATAi Outsourcing DATAi SOFT &copy; 2026 DATAi. Todos los derechos reservados. Inicio Acerca de Contacto Servicios DATAi Green DATAi Outs"
+        },
+        {
+          "url": "https://dataicr.com/contacto/",
+          "snippet": "DATAi Green DATAi Outsourcing DATAi SOFT Contacto Nuestros Servicios Business Intelligence Analítica Avanzada Inteligencia Artificial DATAi Green DATAi Outsourcing DATAi SOFT &copy; 2026 DATAi. Todos los derechos reservados. Inicio Acerca de Contacto Servicios DATAi Green DATAi Outs"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Cipherio",
+      "website": "https://www.cipherio.com/",
+      "domain": "www.cipherio.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1",
+      "officialSiteStatus": "HTTP 404",
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "isthmusit software",
+      "website": "https://www.3pillar.ai/",
+      "domain": "isthmusit.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.3pillar.ai/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://www.3pillar.ai/",
+          "snippet": "3Pillar: Engineering the Agentic Enterprise | AI-Native, Human-Led Skip to main content What We Do Industries Healthcare Financial Services Insurance High Tech Informatio"
+        },
+        {
+          "url": "https://www.3pillar.ai/",
+          "snippet": "cies, and the business context behind them. Learn more AIRE Governed agentic delivery that combines AI-driven engineering workflows, human oversight, and a proven execution methodology — built for speed and control. Learn more Insights Blog Case Studies Whitepapers & eBo"
+        },
+        {
+          "url": "https://www.3pillar.ai/",
+          "snippet": "& eBooks Webinars The Innovation Engine Podcast The AI-Enabled SDLC: A 5-Level Maturity Model for Responsible Engineering Read more Intelligent Modernization: Adding Clarity, Velocity & Verifiable Value to Legacy Transformation Read more About About Leadership Strategic "
+        },
+        {
+          "url": "https://www.3pillar.ai/",
+          "snippet": ", collaborate together. Learn more Careers Careers Opportunities Career Opportunities Our unique training and software engineering methodologies create exciting opportunities for our employees. Current job openings About 3Pillar is a modern application strategy, desig"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Flecha Roja Technologies",
+      "website": "https://www.flecharoja.com/",
+      "domain": "www.flecharoja.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.flecharoja.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [],
+      "likelyFit": false,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Centauro Solutions",
+      "website": "https://www.centaurosolutions.com/",
+      "domain": "www.centaurosolutions.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1",
+      "careersUrl": "https://www.centaurosolutions.com/en/work-with-us",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.centaurosolutions.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.centaurosolutions.com/en/work-with-us",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://www.centaurosolutions.com/en/work-with-us",
+          "snippet": "? READ MORE YOUR PERFECT FIT FLEXIBLE WFH Enjoy the freedom of a hybrid work setup! Our team is spread across Costa Rica, Europe, and Mexico, working from wherever suits them best. CENTAURO ONE An annual meetup for our rockstar team. This awesome event is all about team"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://www.centaurosolutions.com/",
+          "snippet": " main content Services Case Studies Our DNA Work with us QA Services Talent + tech that fit your needs EXPERT SOFTWARE DEVELOPMENT & OUTSOURCING SOLUTIONS At Centauro, ​teams blossom and ideas find their wings OUR UNIQUE STRENGTHS Throughout the last 15 years, our rel"
+        },
+        {
+          "url": "https://www.centaurosolutions.com/",
+          "snippet": "CTORS We have assembled a team of over 100 professionals, each highly specialized, creative, and with diverse software development and architecture skill sets DIG INTO OUR EXPERTISE Your Outsystems Outsourcing Partner We Know the Future is Low Code By 2024, more than "
+        },
+        {
+          "url": "https://www.centaurosolutions.com/",
+          "snippet": "nces . VIEW MORE CENTAURO LABS A space where we innovate and allow ideas to flow. Centauro Labs serves as our software playground, ensuring continuous training for our team and the development of successful in-house projects like Factura Zen and Condofácil. PRODUCTS F"
+        },
+        {
+          "url": "https://www.centaurosolutions.com/",
+          "snippet": "but it also makes creating an electronic invoice painless and simple. CONDOFÁCIL Condofácil is a cutting-edge software solution developed by Centauro to streamline communication and management within gated communities and residential complexes. OUR DNA Our team-orient"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Perfiles Tecnológicos",
+      "website": "https://pertecglobal.com/",
+      "domain": "www.perfilestecnologicos.com",
+      "queryLane": "The Manifest Costa Rica software directory",
+      "sourceUrl": "https://themanifest.com/cr/software-development/companies?page=1",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://pertecglobal.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "LATAM",
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://pertecglobal.com/",
+          "snippet": "vices IT Outsourcing Software Development Artificial Intelligence About Us Contact us Apply here! USA-English LatAm-Espa&#xF1;ol ARTIFICIAL INTELLIGENCE & AUTOMATION Leverage AI and intelligent automation to improve efficiency, decision-making, and innovation CUSTO"
+        },
+        {
+          "url": "https://pertecglobal.com/",
+          "snippet": "oria@pertecglobal.com TALK DIRECTLY WITH US Karla Gonz&#xE1;lez Commercial Manager kgonzalez@pertecglobal.com COSTA RICA consultoria@pertecglobal.com Artificial Intelligence Software development Cloud computing RPA ITO About us Contact us Job opportunities Quality polic"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://pertecglobal.com/",
+          "snippet": "Pertec Global Services Toggle navigation Menu Services IT Outsourcing Software Development Artificial Intelligence About Us Contact us Apply here! USA-English LatAm-Espa&#xF1;ol ARTIFICIAL INTELLIGENCE & AUTOMATION Leverage AI a"
+        },
+        {
+          "url": "https://pertecglobal.com/",
+          "snippet": "TOMATION Leverage AI and intelligent automation to improve efficiency, decision-making, and innovation CUSTOM SOFTWARE DEVELOPMENT Build tailored, high-performance solutions that integrate seamlessly with your business processes IT OUTSOURCING & STAFF AUGMENTATION Sca"
+        },
+        {
+          "url": "https://pertecglobal.com/",
+          "snippet": " aligned with your operational needs Previous Next TECHNOLOGY THAT DELIVERS REAL BUSINESS OUTCOMES End-to-end technology services enabling innovation at scale and measurable business outcomes We partner with U.S.-based companies and Free Zone–established organizations to design "
+        },
+        {
+          "url": "https://pertecglobal.com/",
+          "snippet": "e have extensive experience providing a wide range of professional profiles to deliver outsourced information technology services. SOFTWARE DEVELOPMENT Through our accelerated application development methodology, we deliver robust and efficient products in shorter timeframes tha"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false
+    }
+  ]
+}

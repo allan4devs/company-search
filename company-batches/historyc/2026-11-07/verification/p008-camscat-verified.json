@@ -1,0 +1,834 @@
+{
+  "cohortId": "likes-based-2026-11-07-p008-camscat",
+  "checkedOn": "2026-11-07",
+  "sourceInput": "company-batches\\historyc\\2026-11-07\\discovery-and-curation\\p008-camscat-unique.json",
+  "inputCandidateCount": 13,
+  "candidateOffset": 0,
+  "candidateCount": 13,
+  "remainingCandidateCount": 0,
+  "queryLanes": [
+    {
+      "lane": "CamSCAT Costa Rica shared-services member directory",
+      "checked": 13,
+      "reachable": 8,
+      "regionAndFit": 4,
+      "localOrEligibleAndFit": 3,
+      "regionAndFitRate": 0.308,
+      "localOrEligibleAndFitRate": 0.231,
+      "recommendation": "continue, then compare against the next batch"
+    }
+  ],
+  "candidates": [
+    {
+      "name": "aliaxis",
+      "website": "https://www.aliaxis-la.com/",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/",
+      "careersUrl": "https://www.aliaxis-la.com/trabajando-en-aliaxis/",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.aliaxis-la.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.aliaxis-la.com/trabajando-en-aliaxis/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.aliaxis-la.com/nosotros/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.aliaxis-la.com/contacto/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://www.aliaxis-la.com/nosotros/",
+          "snippet": "ntregamos : Con nuestra responsabilidad hacia nuestras decisiones y acciones. Trabajando en Aliaxis San José, Costa Rica We Work Escazú Village alila@aliaxis-la.com (506) 2527-0500 Español Inglés Quiénes somos Nosotros Nuestras Marcas Sostenibilidad Innovación Historia "
+        },
+        {
+          "url": "https://www.aliaxis-la.com/contacto/",
+          "snippet": "m vía Barley - El Colegio lote 3 (+57) 8 200-200 colombia@aliaxis-la.com https://www.durman.com.co Ir al mapa Costa Rica Zona Franca Pro Park, al costado oeste de Dos Pinos, Coyol, Alajuela (506) 2436-4700 costarica@aliaxis-la.com https://www.durman.com Ir al mapa El Sa"
+        },
+        {
+          "url": "https://www.aliaxis-la.com/contacto/",
+          "snippet": "onado 7475, Montevideo (+598) 2512 00 00 nicoll@aliaxis-la.com https://www.nicoll.com.uy Ir al mapa San José, Costa Rica Momentum Escazú, 1 piso alila@aliaxis-la.com (506) 2527-0500 Contacto Aruba Afganistán Angola Anguila Islas de Åland Albania Andorra Emiratos Árabes "
+        },
+        {
+          "url": "https://www.aliaxis-la.com/contacto/",
+          "snippet": "e China Costa de Marfil Camerún Congo, República Democrática del Congo Islas Cook Colombia Comoras Cabo Verde Costa Rica Cuba Curazao Isla de Navidad Islas Caimán Chipre Czechia Alemania Yibuti Dominica Dinamarca República Dominicana Argelia Ecuador Egipto Eritrea Sahar"
+        },
+        {
+          "url": "https://www.aliaxis-la.com/contacto/",
+          "snippet": "e China Costa de Marfil Camerún Congo, República Democrática del Congo Islas Cook Colombia Comoras Cabo Verde Costa Rica Cuba Curazao Isla de Navidad Islas Caimán Chipre Czechia Alemania Yibuti Dominica Dinamarca República Dominicana Argelia Ecuador Egipto Eritrea Sahar"
+        },
+        {
+          "url": "https://www.aliaxis-la.com/contacto/",
+          "snippet": "l) Correo electrónico País &#8212;Por favor, elige una opción&#8212; Guatemala El Salvador Honduras Nicaragua Costa Rica Panamá Colombia Chile Uruguay Perú Dirección de la obra Detalle el número de la factura o nota de entrega Seleccione la cantidad de productos distint"
+        },
+        {
+          "url": "https://www.aliaxis-la.com/contacto/",
+          "snippet": "l) Correo electrónico País &#8212;Por favor, elige una opción&#8212; Guatemala El Salvador Honduras Nicaragua Costa Rica Panamá Perú Colombia Chile Uruguay Si su experiencia no fue excelente, háganos saber sus comentarios Español Inglés Quiénes somos Nosotros Nuestras M"
+        }
+      ],
+      "officialFitSnippets": [],
+      "likelyFit": false,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "CMA",
+      "website": "http://www.cma-cgm.com/",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/",
+      "officialSiteStatus": "HTTP 403",
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Smith",
+      "website": "https://www.smith-nephew.com/en/",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/",
+      "careersUrl": "https://www.smith-nephew.com/en/careers",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.smith-nephew.com/en/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.smith-nephew.com/en/careers",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.smith-nephew.com/Error-404.html",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.smith-nephew.com/en/contact-us",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica",
+        "Latin America"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://www.smith-nephew.com/en/careers",
+          "snippet": "nufacturing, Information Technology, Quality Assurance & Regulatory Affairs. in USA, UK, Singapore, Malaysia, Costa Rica, India and Poland. Growing in your role We get that learning is about building on what you already know and finding ways to grow in the direction you"
+        },
+        {
+          "url": "https://www.smith-nephew.com/en/contact-us",
+          "snippet": "anmar Nepal New Zealand Pakistan Philippines Papua New Guinea Sri Lanka Singapore Thailand Uzbekistan Vietnam Latin America Argentina Belize Brazil Chile Costa Rica Colombia Dominican Republic Ecuador El Salvador Mexico Panama Paraguay Peru Puerto Rico Uruguay Venezuela Eu"
+        },
+        {
+          "url": "https://www.smith-nephew.com/en/contact-us",
+          "snippet": " Papua New Guinea Sri Lanka Singapore Thailand Uzbekistan Vietnam Latin America Argentina Belize Brazil Chile Costa Rica Colombia Dominican Republic Ecuador El Salvador Mexico Panama Paraguay Peru Puerto Rico Uruguay Venezuela Europe Austria Albania Belgium Bulgaria Bos"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://www.smith-nephew.com/en/",
+          "snippet": "rnance Sustainability Innovation Latest news View all Loading… What we do Smith+Nephew is a portfolio medical technology company focused on the repair, regeneration and replacement of soft and hard tissue. We exist to restore people's bodies and their self-belief by using techn"
+        },
+        {
+          "url": "https://www.smith-nephew.com/en/",
+          "snippet": "rnance Sustainability Innovation Latest news View all Loading… What we do Smith+Nephew is a portfolio medical technology company focused on the repair, regeneration and replacement of soft and hard tissue. We exist to restore people's bodies and their self-belief by using techn"
+        },
+        {
+          "url": "https://www.smith-nephew.com/en/",
+          "snippet": "re innovation. A future without limits. Discover our story Life Unlimited Smith+Nephew is a portfolio medical technology company focused on the repair, regeneration and replacement of soft and hard tissue. We exist to restore people's bodies and their self-belief by using techn"
+        },
+        {
+          "url": "https://www.smith-nephew.com/en/",
+          "snippet": "hew as Chief Corporate Development & Strategy Officer Explore 2025-06-23 Tech Titans: A spotlight on Women in Engineering Explore Follow us on social media tag where you want the feed to appear --> Powered by Curator.io tag --> Title Text Explore You have selected conten"
+        },
+        {
+          "url": "https://www.smith-nephew.com/en/careers",
+          "snippet": "rnance Sustainability Innovation Latest news View all Loading… What we do Smith+Nephew is a portfolio medical technology company focused on the repair, regeneration and replacement of soft and hard tissue. We exist to restore people's bodies and their self-belief by using techn"
+        },
+        {
+          "url": "https://www.smith-nephew.com/en/careers",
+          "snippet": "rnance Sustainability Innovation Latest news View all Loading… What we do Smith+Nephew is a portfolio medical technology company focused on the repair, regeneration and replacement of soft and hard tissue. We exist to restore people's bodies and their self-belief by using techn"
+        },
+        {
+          "url": "https://www.smith-nephew.com/en/careers",
+          "snippet": "owing them to be marketed and distributed to healthcare professionals and patients with confidence. Research, Engineering & Innovation Innovation is at the heart of Smith+Nephew. From initial concept to prototyping and product development, our Research and Development te"
+        },
+        {
+          "url": "https://www.smith-nephew.com/en/careers",
+          "snippet": " real-world problems and support patient wellbeing. Whether you are a Research Scientist, Product Development Engineer or a Clinical and Medical Affairs Specialist, your technical knowledge and expertise will help us to take the limits off living for even more patient"
+        },
+        {
+          "url": "https://www.smith-nephew.com/en/contact-us",
+          "snippet": "rnance Sustainability Innovation Latest news View all Loading… What we do Smith+Nephew is a portfolio medical technology company focused on the repair, regeneration and replacement of soft and hard tissue. We exist to restore people's bodies and their self-belief by using techn"
+        },
+        {
+          "url": "https://www.smith-nephew.com/en/contact-us",
+          "snippet": "rnance Sustainability Innovation Latest news View all Loading… What we do Smith+Nephew is a portfolio medical technology company focused on the repair, regeneration and replacement of soft and hard tissue. We exist to restore people's bodies and their self-belief by using techn"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "640px-Bac_credomatic_logo",
+      "website": "https://www.baccredomatic.com/",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.baccredomatic.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://www.baccredomatic.com/",
+          "snippet": " web. Presione enter para participar Skip to main content Spanish ES Guatemala Honduras El Salvador Nicaragua Costa Rica Panamá Bahamas Menú Banca Personas ⠀ Conoce como BAC está presente en cada momento Ver más Te damos la bienvenida a Estamos en toda Centroamérica Sel"
+        },
+        {
+          "url": "https://www.baccredomatic.com/",
+          "snippet": "rica Seleccione su país para brindarle una experiencia personalizada Guatemala Honduras El Salvador Nicaragua Costa Rica Panamá Utilizamos cookies para optimizar nuestros servicios y darte una mejor experiencia de navegación. Ok Todos los derechos reservados. 2026© BAC "
+        }
+      ],
+      "officialFitSnippets": [],
+      "likelyFit": false,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Baccardi",
+      "website": "https://www.bacardi.com/",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.bacardi.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://contact.bacardi.com/",
+          "status": 0,
+          "error": "HTTP 403"
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [],
+      "likelyFit": false,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Bat",
+      "website": "https://www.bat.com/",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/",
+      "officialSiteStatus": "HTTP 403",
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Bridgestone",
+      "website": "https://www.bridgestoneamericas.com/",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/",
+      "officialSiteStatus": "HTTP 403",
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "baxter",
+      "website": "https://www.baxter.com/",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/",
+      "officialSiteStatus": "fetch failed",
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Bayer",
+      "website": "https://www.bayer.com/",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/",
+      "officialSiteStatus": "HTTP 403",
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Bill Goslyn",
+      "website": "https://www.billgosling.com/",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/",
+      "careersUrl": "https://www.billgosling.com/careers/",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.billgosling.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.billgosling.com/careers/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.billgosling.com/about-bill-gosling/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.billgosling.com/contact-us/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://www.billgosling.com/",
+          "snippet": "ee from Canada info@billgosling.com Email Find office locations Locations Canada United States United Kingdom Costa Rica Philippines Trinidad and Tobago India ACCREDITATIONS CONTACT US +1 844-200-2467 info@billgosling.com careers@billgosling.com For any HR related inqui"
+        },
+        {
+          "url": "https://www.billgosling.com/",
+          "snippet": "ph@billgosling.com Philippines TTHumanResources@billgosling.com Trinidad & Tobago CostaRicaHR@billgosling.com Costa Rica career.india@billgosling.com India © Bill Gosling Outsourcing 2026. All Rights Reserved. | Privacy Policy | Terms & Conditions | Site Map *Please not"
+        },
+        {
+          "url": "https://www.billgosling.com/careers/",
+          "snippet": "ee from Canada info@billgosling.com Email Find office locations Locations Canada United States United Kingdom Costa Rica Philippines Trinidad and Tobago India ACCREDITATIONS CONTACT US +1 844-200-2467 info@billgosling.com careers@billgosling.com For any HR related inqui"
+        },
+        {
+          "url": "https://www.billgosling.com/careers/",
+          "snippet": "ph@billgosling.com Philippines TTHumanResources@billgosling.com Trinidad & Tobago CostaRicaHR@billgosling.com Costa Rica career.india@billgosling.com India © Bill Gosling Outsourcing 2026. All Rights Reserved. | Privacy Policy | Terms & Conditions | Site Map *Please not"
+        },
+        {
+          "url": "https://www.billgosling.com/about-bill-gosling/",
+          "snippet": "om we affectionately refer to as our \"Goslings\" and shared customers. With operations spanning across Canada, Costa Rica, the Philippines, the UK, the United States, Trinidad, Tobago and India we bring a wealth of knowledge, expertise, and diversity to the core of custo"
+        },
+        {
+          "url": "https://www.billgosling.com/about-bill-gosling/",
+          "snippet": "ee from Canada info@billgosling.com Email Find office locations Locations Canada United States United Kingdom Costa Rica Philippines Trinidad and Tobago India ACCREDITATIONS CONTACT US +1 844-200-2467 info@billgosling.com careers@billgosling.com For any HR related inqui"
+        },
+        {
+          "url": "https://www.billgosling.com/about-bill-gosling/",
+          "snippet": "ph@billgosling.com Philippines TTHumanResources@billgosling.com Trinidad & Tobago CostaRicaHR@billgosling.com Costa Rica career.india@billgosling.com India © Bill Gosling Outsourcing 2026. All Rights Reserved. | Privacy Policy | Terms & Conditions | Site Map *Please not"
+        },
+        {
+          "url": "https://www.billgosling.com/contact-us/",
+          "snippet": "eam Skip to content Connect with us US & Canada +1 844-200-2467 UK +0141 457 7000 Philippines +63 288-320-359 Costa Rica +50641047009 India +91 141 4968080 Trinidad and Tobago +1 868 201 4246 For any HR related inquiries, contact: United States hrnorthamerica@billgoslin"
+        },
+        {
+          "url": "https://www.billgosling.com/contact-us/",
+          "snippet": "merica@billgosling.com Philippines hr.ph@billgosling.com Trinidad and Tobago TTHumanResources@billgosling.com Costa Rica CostaRicaHR@billgosling.com India career.india@billgosling.com info@billgosling.com Email Find A Location Find office locations For Job Inquiries car"
+        },
+        {
+          "url": "https://www.billgosling.com/contact-us/",
+          "snippet": "ee from Canada info@billgosling.com Email Find office locations Locations Canada United States United Kingdom Costa Rica Philippines Trinidad and Tobago India ACCREDITATIONS CONTACT US +1 844-200-2467 info@billgosling.com careers@billgosling.com For any HR related inqui"
+        },
+        {
+          "url": "https://www.billgosling.com/contact-us/",
+          "snippet": "ph@billgosling.com Philippines TTHumanResources@billgosling.com Trinidad & Tobago CostaRicaHR@billgosling.com Costa Rica career.india@billgosling.com India © Bill Gosling Outsourcing 2026. All Rights Reserved. | Privacy Policy | Terms & Conditions | Site Map *Please not"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://www.billgosling.com/",
+          "snippet": "ents of service delivery. Learn More GooseTek GooseTek harnesses the power of automated systems, cutting-edge software, and innovative tools to enhance and simplify communication between individuals, companies, and organizations. Learn More B2B Collections Platform Ou"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "catalina",
+      "website": "https://www.catalina.com/",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/",
+      "careersUrl": "https://jobs.catalina.com/",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.catalina.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://jobs.catalina.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.catalina.com/company",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.catalina.com/contact/sales",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://jobs.catalina.com/",
+          "snippet": "ght, bold people and help us fuel the innovation that changes a global marketplace. --> --> United States --> Costa Rica --> Europe --> --> --> --> --> Our success is the Talent of its Teams Explore our opportunities! --> Infillion Catalina view opportunities united sta"
+        },
+        {
+          "url": "https://jobs.catalina.com/",
+          "snippet": "s Teams Explore our opportunities! --> Infillion Catalina view opportunities united states view opportunities Costa Rica Catalina Europe view opportunities france view opportunities united kingdom view opportunities italy Our People What sets our data science teams apar"
+        },
+        {
+          "url": "https://jobs.catalina.com/",
+          "snippet": "e data entrusted to the company and maintaining consumer trust. Catalina has operations in the United States, Costa Rica, and Europe. To learn more, please visit www.catalina.com . Catalina values your privacy and is committed to protecting your personal information. Pl"
+        },
+        {
+          "url": "https://www.catalina.com/contact/sales",
+          "snippet": "mbodia Cameroon Cape Verde Central African Rep Chad Chile China Colombia Comoros Congo {Democratic Rep} Congo Costa Rica Croatia Cuba Cyprus Czech Republic Denmark Djibouti Dominica Dominican Republic East Timor Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estoni"
+        },
+        {
+          "url": "https://www.catalina.com/contact/sales",
+          "snippet": " Contact Us: 800-624-4360 Cincinnati 525 Vine Street Suite 2200 Cincinnati, OH 45202 Contact Us: 800-624-4360 Costa Rica Forum II Business Park, Building J San Jose Costa Rica Contact UK 40rty Building, 40 Caversham Road, Reading, Berkshire, RG1 7EB Contact London Unite"
+        },
+        {
+          "url": "https://www.catalina.com/contact/sales",
+          "snippet": "ite 2200 Cincinnati, OH 45202 Contact Us: 800-624-4360 Costa Rica Forum II Business Park, Building J San Jose Costa Rica Contact UK 40rty Building, 40 Caversham Road, Reading, Berkshire, RG1 7EB Contact London United House 9 Pembridge Road Notting Hill, London W11 3JY C"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://www.catalina.com/company",
+          "snippet": "Catalina? See how Catalina’s solutions can help your business thrive. Learn More Careers Are you a data nerd, developer, or digital media guru? Learn more about joining the team and explore current job opportunities. Reach Out Brands And Agencies That Trust Us Don’t ju"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Centro Bimbo",
+      "website": "https://www.grupobimbo.com/",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/",
+      "careersUrl": "",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.grupobimbo.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.grupobimbo.com/es/nosotros",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.grupobimbo.com/es/inversionistas/contacto",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [],
+      "officialLocationSnippets": [],
+      "officialFitSnippets": [],
+      "likelyFit": false,
+      "regionVerifiedOnOfficialSource": false,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false
+    },
+    {
+      "name": "Cinde",
+      "website": "https://www.cinde.org/en",
+      "queryLane": "CamSCAT Costa Rica shared-services member directory",
+      "sourceUrl": "https://www.camscat.org/directorio-empresas/",
+      "careersUrl": "https://www.cinde.org/en/ecosystems#talent-initiatives",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.cinde.org/en",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.cinde.org/en/ecosystems",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.cinde.org/en/about",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.cinde.org/en/contact",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica",
+        "Latin America"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://www.cinde.org/en",
+          "snippet": "CINDE | Costa Rica: A natural hub for life-centered solutions CONTACT US en es Main sections Home Our Services Why Costa Rica Incentives Growth Ecosystems About CINDE R"
+        },
+        {
+          "url": "https://www.cinde.org/en",
+          "snippet": " | Costa Rica: A natural hub for life-centered solutions CONTACT US en es Main sections Home Our Services Why Costa Rica Incentives Growth Ecosystems About CINDE Resources Press & Events Explore Costa Rica Key Sectors Technologies Capabilities Free Zones Strategic Allie"
+        },
+        {
+          "url": "https://www.cinde.org/en",
+          "snippet": "ns Home Our Services Why Costa Rica Incentives Growth Ecosystems About CINDE Resources Press & Events Explore Costa Rica Key Sectors Technologies Capabilities Free Zones Strategic Allies Rising Cities Nearshoring in Costa Rica Explore our ecosystem » CONTACT US en es SE"
+        },
+        {
+          "url": "https://www.cinde.org/en",
+          "snippet": "ore Costa Rica Key Sectors Technologies Capabilities Free Zones Strategic Allies Rising Cities Nearshoring in Costa Rica Explore our ecosystem » CONTACT US en es SERVICES WHY COSTA RICA OUR ESSENCE KEY SECTORS ABOUT RESOURCES PRESS Why Costa Rica Why Costa Rica? People "
+        },
+        {
+          "url": "https://www.cinde.org/en",
+          "snippet": "trategic Allies Rising Cities Nearshoring in Costa Rica Explore our ecosystem » CONTACT US en es SERVICES WHY COSTA RICA OUR ESSENCE KEY SECTORS ABOUT RESOURCES PRESS Why Costa Rica Why Costa Rica? People Centered Hub to reach Sustainable Productivity People Planet Pros"
+        },
+        {
+          "url": "https://www.cinde.org/en",
+          "snippet": "re our ecosystem » CONTACT US en es SERVICES WHY COSTA RICA OUR ESSENCE KEY SECTORS ABOUT RESOURCES PRESS Why Costa Rica Why Costa Rica? People Centered Hub to reach Sustainable Productivity People Planet Prosperity Future Thinking Building the next era of human capital"
+        },
+        {
+          "url": "https://www.cinde.org/en",
+          "snippet": "m » CONTACT US en es SERVICES WHY COSTA RICA OUR ESSENCE KEY SECTORS ABOUT RESOURCES PRESS Why Costa Rica Why Costa Rica? People Centered Hub to reach Sustainable Productivity People Planet Prosperity Future Thinking Building the next era of human capital CINDE Jobs EPI"
+        },
+        {
+          "url": "https://www.cinde.org/en",
+          "snippet": "uilding the next era of human capital CINDE Jobs EPI Talent Tools for Success+ Investor Guides Nearshoring in Costa Rica Incentives A competitive package to reach true ROI Free Trade Zone Regime Partners Strategic Allies Free Trade Zones Our Essence Open explorer » Enab"
+        },
+        {
+          "url": "https://www.cinde.org/en",
+          "snippet": "ERVICES REQUEST CONSULTING Join our collaborative ecosystem Learn how CINDE has been a key enabler for FDI in Costa Rica Play video A proven partner for operational sustainability Unlock shared growth, true ROI and lasting impact EXPLORE SECTORS REQUEST CONSULTING Becom"
+        },
+        {
+          "url": "https://www.cinde.org/en",
+          "snippet": "r where you can rest from business or make it happen Play video Beyond biodiversity to drive business success Costa Rica: your choice for business, naturally EXPLORE SECTORS REQUEST CONSULTING Become a success story Discover why you can trust Costa Rica for a greener fu"
+        },
+        {
+          "url": "https://www.cinde.org/en",
+          "snippet": " for business, naturally EXPLORE SECTORS REQUEST CONSULTING Become a success story Discover why you can trust Costa Rica for a greener future Play video WHY COSTA RICA A natural hub for life-centered solutions Find the sweet spot to drive your sustainable productivity L"
+        },
+        {
+          "url": "https://www.cinde.org/en",
+          "snippet": "T CONSULTING Become a success story Discover why you can trust Costa Rica for a greener future Play video WHY COSTA RICA A natural hub for life-centered solutions Find the sweet spot to drive your sustainable productivity LEARN MORE PEOPLE PLANET PROSPERITY Let's grow s"
+        },
+        {
+          "url": "https://www.cinde.org/en",
+          "snippet": "row better. Let's grow together. Find your strategic ally Get further guidance for your investment journey in Costa Rica through CINDE's Strategic Allies. Explore allies EXPLORE OUR ECOSYSTEM It's all converging! A dynamic mix of capabilites and technologies that create"
+        },
+        {
+          "url": "https://www.cinde.org/en",
+          "snippet": "nologies that create unique opportunities for the investment sectors OUR ESSENCE A proven formula for success Costa Rica attracts businesses who know the importance of productive sustainability, leveraging growth through advanced human capabilities, converging technolog"
+        },
+        {
+          "url": "https://www.cinde.org/en",
+          "snippet": " its most valuable asset: its people; with the goal of contributing to the social and economic development of Costa Rica. Our proven track record speaks by itself. C&B Processes Creative Industries Digital Tech Life Sciences Manufacturing Tourism Infrastructure Wellbein"
+        },
+        {
+          "url": "https://www.cinde.org/en",
+          "snippet": "d #2 in the Americas for number of jobs created per 1 million people. IBM Global Locations Trends, 2019 #1 in Latin America in the Human Capital Index, followed by Uruguay, Chile, and Argentina According to the ranking conducted by ADEN Business School 150 Costa Rica expor"
+        },
+        {
+          "url": "https://www.cinde.org/en/ecosystems",
+          "snippet": "Costa Rica Investment Opportunities | CINDE CONTACT US en es Main sections Home Our Services Why Costa Rica Incentives Growth Ecosystems About CINDE Resources P"
+        },
+        {
+          "url": "https://www.cinde.org/en/ecosystems",
+          "snippet": "Costa Rica Investment Opportunities | CINDE CONTACT US en es Main sections Home Our Services Why Costa Rica Incentives Growth Ecosystems About CINDE Resources Press & Events Explore Costa Rica Key Sectors Technologies Capabilities Free Zones Strategic Allie"
+        },
+        {
+          "url": "https://www.cinde.org/en/ecosystems",
+          "snippet": "ns Home Our Services Why Costa Rica Incentives Growth Ecosystems About CINDE Resources Press & Events Explore Costa Rica Key Sectors Technologies Capabilities Free Zones Strategic Allies Rising Cities Nearshoring in Costa Rica Explore our ecosystem » CONTACT US en es SE"
+        },
+        {
+          "url": "https://www.cinde.org/en/ecosystems",
+          "snippet": "ore Costa Rica Key Sectors Technologies Capabilities Free Zones Strategic Allies Rising Cities Nearshoring in Costa Rica Explore our ecosystem » CONTACT US en es SERVICES WHY COSTA RICA OUR ESSENCE KEY SECTORS ABOUT RESOURCES PRESS Why Costa Rica Why Costa Rica? People "
+        },
+        {
+          "url": "https://www.cinde.org/en/ecosystems",
+          "snippet": "trategic Allies Rising Cities Nearshoring in Costa Rica Explore our ecosystem » CONTACT US en es SERVICES WHY COSTA RICA OUR ESSENCE KEY SECTORS ABOUT RESOURCES PRESS Why Costa Rica Why Costa Rica? People Centered Hub to reach Sustainable Productivity People Planet Pros"
+        },
+        {
+          "url": "https://www.cinde.org/en/ecosystems",
+          "snippet": "re our ecosystem » CONTACT US en es SERVICES WHY COSTA RICA OUR ESSENCE KEY SECTORS ABOUT RESOURCES PRESS Why Costa Rica Why Costa Rica? People Centered Hub to reach Sustainable Productivity People Planet Prosperity Future Thinking Building the next era of human capital"
+        },
+        {
+          "url": "https://www.cinde.org/en/ecosystems",
+          "snippet": "m » CONTACT US en es SERVICES WHY COSTA RICA OUR ESSENCE KEY SECTORS ABOUT RESOURCES PRESS Why Costa Rica Why Costa Rica? People Centered Hub to reach Sustainable Productivity People Planet Prosperity Future Thinking Building the next era of human capital CINDE Jobs EPI"
+        },
+        {
+          "url": "https://www.cinde.org/en/ecosystems",
+          "snippet": "uilding the next era of human capital CINDE Jobs EPI Talent Tools for Success+ Investor Guides Nearshoring in Costa Rica Incentives A competitive package to reach true ROI Free Trade Zone Regime Partners Strategic Allies Free Trade Zones Our Essence Open explorer » Enab"
+        },
+        {
+          "url": "https://www.cinde.org/en/ecosystems",
+          "snippet": "efine how to operate collaborative ecosystems , with third parties and through their business units globally. Costa Rica offers a series of talent capacities and technologies, that also integrate several stakeholders in a truly connected environment. This enables greate"
+        },
+        {
+          "url": "https://www.cinde.org/en/ecosystems",
+          "snippet": "ng hand in hand to make change happen INVESTMENT INCENTIVES A competitive incentive package to reach true ROI Costa Rica's tax incentives offers a strong framework to reach ROI with transparency and equal treatment to any and all investors. Costa Rica’s Free Trade Zone "
+        },
+        {
+          "url": "https://www.cinde.org/en/ecosystems",
+          "snippet": "ntives offers a strong framework to reach ROI with transparency and equal treatment to any and all investors. Costa Rica’s Free Trade Zone Regine meet World Trade Organizations as well as OCDE standards. There is no need for negotiation on a per case basis, incentives a"
+        },
+        {
+          "url": "https://www.cinde.org/en/ecosystems",
+          "snippet": " and toggle according to your needs. The Free Trade Zone Regime The Free Trade Zone Regime is the mainstay of Costa Rica‘s export and investment promotion strategy. It is a set of incentives and benefits granted by the Costa Rican government to companies making new inve"
+        },
+        {
+          "url": "https://www.cinde.org/en/ecosystems",
+          "snippet": " Costa Rica‘s export and investment promotion strategy. It is a set of incentives and benefits granted by the Costa Rican government to companies making new investments in the country and it provides tax incentives on income, imports and exports of goods among many othe"
+        },
+        {
+          "url": "https://www.cinde.org/en/ecosystems",
+          "snippet": "their inventory and re-export or sell to other FTZ companies CONTACT US TO LEARN MORE Discover the incentives Costa Rica’s tax incentives and benefits are standardized by law. They apply to any and all companies that comply with the necessary requirements under the Free"
+        },
+        {
+          "url": "https://www.cinde.org/en/ecosystems",
+          "snippet": "ng on the size of the project. Property transfer tax is applicable for the first 10 years of the operation in Costa Rica. SERVICE PROJECTS & MANUFACTURING PROJECTS* first 8 year period 100% INCOME TAX EXEMPTION following 4 year period 50% INCOME TAX EXEMPTION *NOTE: Man"
+        },
+        {
+          "url": "https://www.cinde.org/en/ecosystems",
+          "snippet": "ng on the size of the project. Property transfer tax is applicable for the first 10 years of the operation in Costa Rica. first 12 year period* 100% INCOME TAX EXEMPTION following 6 year period* 50% INCOME TAX EXEMPTION *NOTE: Tax exemptions and periods may vary dependi"
+        },
+        {
+          "url": "https://www.cinde.org/en/about",
+          "snippet": "CINDE: Your guide for Business & Talent Development CONTACT US en es Main sections Home Our Services Why Costa Rica Incentives Growth Ecosystems About CINDE Resources Press & Events Explore Costa Rica Key Sectors Technologies Capabilities Free Zones Strategic Allie"
+        },
+        {
+          "url": "https://www.cinde.org/en/about",
+          "snippet": "ns Home Our Services Why Costa Rica Incentives Growth Ecosystems About CINDE Resources Press & Events Explore Costa Rica Key Sectors Technologies Capabilities Free Zones Strategic Allies Rising Cities Nearshoring in Costa Rica Explore our ecosystem » CONTACT US en es SE"
+        },
+        {
+          "url": "https://www.cinde.org/en/about",
+          "snippet": "ore Costa Rica Key Sectors Technologies Capabilities Free Zones Strategic Allies Rising Cities Nearshoring in Costa Rica Explore our ecosystem » CONTACT US en es SERVICES WHY COSTA RICA OUR ESSENCE KEY SECTORS ABOUT RESOURCES PRESS Why Costa Rica Why Costa Rica? People "
+        },
+        {
+          "url": "https://www.cinde.org/en/about",
+          "snippet": "trategic Allies Rising Cities Nearshoring in Costa Rica Explore our ecosystem » CONTACT US en es SERVICES WHY COSTA RICA OUR ESSENCE KEY SECTORS ABOUT RESOURCES PRESS Why Costa Rica Why Costa Rica? People Centered Hub to reach Sustainable Productivity People Planet Pros"
+        },
+        {
+          "url": "https://www.cinde.org/en/about",
+          "snippet": "re our ecosystem » CONTACT US en es SERVICES WHY COSTA RICA OUR ESSENCE KEY SECTORS ABOUT RESOURCES PRESS Why Costa Rica Why Costa Rica? People Centered Hub to reach Sustainable Productivity People Planet Prosperity Future Thinking Building the next era of human capital"
+        },
+        {
+          "url": "https://www.cinde.org/en/about",
+          "snippet": "m » CONTACT US en es SERVICES WHY COSTA RICA OUR ESSENCE KEY SECTORS ABOUT RESOURCES PRESS Why Costa Rica Why Costa Rica? People Centered Hub to reach Sustainable Productivity People Planet Prosperity Future Thinking Building the next era of human capital CINDE Jobs EPI"
+        },
+        {
+          "url": "https://www.cinde.org/en/about",
+          "snippet": "uilding the next era of human capital CINDE Jobs EPI Talent Tools for Success+ Investor Guides Nearshoring in Costa Rica Incentives A competitive package to reach true ROI Free Trade Zone Regime Partners Strategic Allies Free Trade Zones Our Essence Open explorer » Enab"
+        },
+        {
+          "url": "https://www.cinde.org/en/about",
+          "snippet": "ide for Business & Talent Development Home of the FDI of the future For more than 40 years, CINDE (the former Costa Rican Investment Promotion Agency) has advised and guided over 400 high-tech companies in their establishment and operation in Costa Rica. As a private, n"
+        },
+        {
+          "url": "https://www.cinde.org/en/about",
+          "snippet": "Promotion Agency) has advised and guided over 400 high-tech companies in their establishment and operation in Costa Rica. As a private, non-profit, and non-political organization, expert in Foreign Direct Investment attraction, retention, and expansion, we are the right"
+        },
+        {
+          "url": "https://www.cinde.org/en/about",
+          "snippet": "ts most valuable asset: its people . Our main goal is to contribute to the social and economic development of Costa Rica. CINDE has ranked as the world's top institution in attracting Foreign Direct Investment (FDI), by the International Trade Center for 5 consecutive y"
+        },
+        {
+          "url": "https://www.cinde.org/en/about",
+          "snippet": "ct investment and nurturing the right investment climate to do so. With a strong Mission Mission: To position Costa Rica as a sustainable country, highly connected with the global economy, reliable to investors; fostered by its growth in modern, high-tech, and knowledge"
+        },
+        {
+          "url": "https://www.cinde.org/en/about",
+          "snippet": "ducation We promote inclusive, high-quality education that fosters employability in future-forward jobs among Costa Rica's workforce. +5000 students from 17 different generations have benefited from \"Tools for Success+\" Explore our latest Impact Report Decent Work and E"
+        },
+        {
+          "url": "https://www.cinde.org/en/about",
+          "snippet": "ur latest Impact Report Industry Innovation and Infrastructure We foster knowledge and innovation and bolster Costa Rica's presence in the knowledge economy through FDI to achieve greater prosperity. 75 total investment projects attracted in 2019 Explore our latest Impa"
+        },
+        {
+          "url": "https://www.cinde.org/en/about",
+          "snippet": " From the beginning of the site selection phase, through the installation and during the operational phase in Costa Rica, the companies will have specialized investment advisory. Including detailed presentations on investment opportunities and business climate, reliable"
+        },
+        {
+          "url": "https://www.cinde.org/en/about",
+          "snippet": "and work in close coordination and planning with established companies to help attract their key suppliers to Costa Rica. --> Explore all our services VISIT OUR NEW SERVICES SECTION CORPORATE GOVERNANCE Led by experience. Driven by talent. Chairman of the Board Fernando"
+        },
+        {
+          "url": "https://www.cinde.org/en/about",
+          "snippet": "rom George Mason University. He also obtained a master's degree in Banking and Finance from the University of Costa Rica, where he completed a degree in Industrial Engineering. Additionally, he participated in the Senior Management Program at IPADE and was awarded the F"
+        },
+        {
+          "url": "https://www.cinde.org/en/contact",
+          "snippet": "CINDE | Contact us: We would love to hear from you! CONTACT US en es Main sections Home Our Services Why Costa Rica Incentives Growth Ecosystems About CINDE Resources Press & Events Explore Costa Rica Key Sectors Technologies Capabilities Free Zones Strategic Allie"
+        },
+        {
+          "url": "https://www.cinde.org/en/contact",
+          "snippet": "ns Home Our Services Why Costa Rica Incentives Growth Ecosystems About CINDE Resources Press & Events Explore Costa Rica Key Sectors Technologies Capabilities Free Zones Strategic Allies Rising Cities Nearshoring in Costa Rica Explore our ecosystem » CONTACT US en es SE"
+        },
+        {
+          "url": "https://www.cinde.org/en/contact",
+          "snippet": "ore Costa Rica Key Sectors Technologies Capabilities Free Zones Strategic Allies Rising Cities Nearshoring in Costa Rica Explore our ecosystem » CONTACT US en es SERVICES WHY COSTA RICA OUR ESSENCE KEY SECTORS ABOUT RESOURCES PRESS Why Costa Rica Why Costa Rica? People "
+        },
+        {
+          "url": "https://www.cinde.org/en/contact",
+          "snippet": "trategic Allies Rising Cities Nearshoring in Costa Rica Explore our ecosystem » CONTACT US en es SERVICES WHY COSTA RICA OUR ESSENCE KEY SECTORS ABOUT RESOURCES PRESS Why Costa Rica Why Costa Rica? People Centered Hub to reach Sustainable Productivity People Planet Pros"
+        },
+        {
+          "url": "https://www.cinde.org/en/contact",
+          "snippet": "re our ecosystem » CONTACT US en es SERVICES WHY COSTA RICA OUR ESSENCE KEY SECTORS ABOUT RESOURCES PRESS Why Costa Rica Why Costa Rica? People Centered Hub to reach Sustainable Productivity People Planet Prosperity Future Thinking Building the next era of human capital"
+        },
+        {
+          "url": "https://www.cinde.org/en/contact",
+          "snippet": "m » CONTACT US en es SERVICES WHY COSTA RICA OUR ESSENCE KEY SECTORS ABOUT RESOURCES PRESS Why Costa Rica Why Costa Rica? People Centered Hub to reach Sustainable Productivity People Planet Prosperity Future Thinking Building the next era of human capital CINDE Jobs EPI"
+        },
+        {
+          "url": "https://www.cinde.org/en/contact",
+          "snippet": "uilding the next era of human capital CINDE Jobs EPI Talent Tools for Success+ Investor Guides Nearshoring in Costa Rica Incentives A competitive package to reach true ROI Free Trade Zone Regime Partners Strategic Allies Free Trade Zones Our Essence Open explorer » Enab"
+        },
+        {
+          "url": "https://www.cinde.org/en/contact",
+          "snippet": "fficial email: invest@cinde.org @cinde @investInCostaRica @invest_cr CINDE --> Let’s talk! Our offices: CINDE Costa Rica Torre Universal, 22nd floor. Sabana Sur, San Jose, Costa Rica +506 2201-2800 CINDE San Francisco +1 (415) 293-8090 One Market Street, Spear Tower. 35"
+        },
+        {
+          "url": "https://www.cinde.org/en/contact",
+          "snippet": "est_cr CINDE --> Let’s talk! Our offices: CINDE Costa Rica Torre Universal, 22nd floor. Sabana Sur, San Jose, Costa Rica +506 2201-2800 CINDE San Francisco +1 (415) 293-8090 One Market Street, Spear Tower. 35th & 36th floors. San Francisco, CA 94105 --> CINDE New York 1"
+        },
+        {
+          "url": "https://www.cinde.org/en/contact",
+          "snippet": "n declared of public interest in 1984, responsible for the attraction of Foreign Direct Investment (FDI) into Costa Rica. What are CINDE's main services? We are devoted to your satisfaction. In a nutshell, we help companies settle in our country providing specialized ad"
+        },
+        {
+          "url": "https://www.cinde.org/en/contact",
+          "snippet": " information, you can download our Services Catalogue here . What are the main investment sectors promoted by Costa Rica? Since its creation in 1982, CINDE has promoted FDI in strategic sectors such as Smart Manufacturing, Knowledge-Intensive Services, and Health & Well"
+        },
+        {
+          "url": "https://www.cinde.org/en/contact",
+          "snippet": " its most valuable asset: its people; with the goal of contributing to the social and economic development of Costa Rica. Our subsectors include Digital Technologies, Creative Industries, Corporate and Business Processes, Manufacturing, Life Sciences, Wellbeing and Tour"
+        },
+        {
+          "url": "https://www.cinde.org/en/contact",
+          "snippet": "nfrastructure. Explore all of our investment sectors here . What kind of goods and services are produced from Costa Rica? Around 4,400 different products like medical devices, electronics, metal mechanics, and 350 food varieties are exported from Costa Rica to 155 desti"
+        },
+        {
+          "url": "https://www.cinde.org/en/contact",
+          "snippet": "fferent products like medical devices, electronics, metal mechanics, and 350 food varieties are exported from Costa Rica to 155 destination countries. In addition, over 100 different business processes such as software development, engineering, design, analytics, AI, su"
+        },
+        {
+          "url": "https://www.cinde.org/en/contact",
+          "snippet": "oftware development, engineering, design, analytics, AI, supply chain, and global services are delivered from Costa Rica in more than 12 languages. How many multinational companies are currently operating in the country? For almost 40 years, CINDE has advised and guided"
+        },
+        {
+          "url": "https://www.cinde.org/en/contact",
+          "snippet": "partner to reach sustainable productivity and drive investment with a purpose. How many jobs are generated in Costa Rica from FDI? The multinational companies established in the sectors of smart manufacturing, knowledge-intensive services and health & wellbeing have gen"
+        }
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://www.cinde.org/en",
+          "snippet": "ign Lifelong Learning Diversity & Inclusion Creativity Environmental Awareness Exponential Technologies VR/AR Cloud Robotics Big Data/Analytics Cybersecurity AI/Machine Learning UX/UI Internet of Things 3D Printing Automation/RPA New Materials R&D Growth Ecosystems"
+        },
+        {
+          "url": "https://www.cinde.org/en",
+          "snippet": "Inclusion Creativity Environmental Awareness Exponential Technologies VR/AR Cloud Robotics Big Data/Analytics Cybersecurity AI/Machine Learning UX/UI Internet of Things 3D Printing Automation/RPA New Materials R&D Growth Ecosystems Investment incentives Free Trade Zones Fu"
+        },
+        {
+          "url": "https://www.cinde.org/en/ecosystems",
+          "snippet": "ign Lifelong Learning Diversity & Inclusion Creativity Environmental Awareness Exponential Technologies VR/AR Cloud Robotics Big Data/Analytics Cybersecurity AI/Machine Learning UX/UI Internet of Things 3D Printing Automation/RPA New Materials R&D Growth Ecosystems"
+        },
+        {
+          "url": "https://www.cinde.org/en/ecosystems",
+          "snippet": "Inclusion Creativity Environmental Awareness Exponential Technologies VR/AR Cloud Robotics Big Data/Analytics Cybersecurity AI/Machine Learning UX/UI Internet of Things 3D Printing Automation/RPA New Materials R&D Growth Ecosystems Investment incentives Free Trade Zones Fu"
+        },
+        {
+          "url": "https://www.cinde.org/en/ecosystems",
+          "snippet": "GNIFICANT SUPPLIERS Companies looking to support businesses already established in the FTZ Regime REAL ESTATE DEVELOPERS Companies looking to develop an industrial park under the Free Trade Zone Regime COMMERCIAL & DISTRIBUTION SERVICES Companies that own their invento"
+        },
+        {
+          "url": "https://www.cinde.org/en/ecosystems",
+          "snippet": "ompanies, startups, and risk capital to increase global competitiveness. Medtech Life-centered Hub Biomedical Cybersecurity Aerospace Medtech Costa Rica has over 20 years of life sciences track record, both in research and in business experience. The existence of quality i"
+        },
+        {
+          "url": "https://www.cinde.org/en/about",
+          "snippet": "ign Lifelong Learning Diversity & Inclusion Creativity Environmental Awareness Exponential Technologies VR/AR Cloud Robotics Big Data/Analytics Cybersecurity AI/Machine Learning UX/UI Internet of Things 3D Printing Automation/RPA New Materials R&D Growth Ecosystems"
+        },
+        {
+          "url": "https://www.cinde.org/en/about",
+          "snippet": "Inclusion Creativity Environmental Awareness Exponential Technologies VR/AR Cloud Robotics Big Data/Analytics Cybersecurity AI/Machine Learning UX/UI Internet of Things 3D Printing Automation/RPA New Materials R&D Growth Ecosystems Investment incentives Free Trade Zones Fu"
+        },
+        {
+          "url": "https://www.cinde.org/en/about",
+          "snippet": "'s degree in Banking and Finance from the University of Costa Rica, where he completed a degree in Industrial Engineering. Additionally, he participated in the Senior Management Program at IPADE and was awarded the Fulbright scholarship to pursue his studies abroad. His "
+        },
+        {
+          "url": "https://www.cinde.org/en/about",
+          "snippet": "e multinational sector, where she stood out for her leadership in corporate services, finance, manufacturing, engineering, and strategic programs in global teams in the high-tech sector. One of the many accolades of her professional career includes transformational proce"
+        },
+        {
+          "url": "https://www.cinde.org/en/contact",
+          "snippet": "ign Lifelong Learning Diversity & Inclusion Creativity Environmental Awareness Exponential Technologies VR/AR Cloud Robotics Big Data/Analytics Cybersecurity AI/Machine Learning UX/UI Internet of Things 3D Printing Automation/RPA New Materials R&D Growth Ecosystems"
+        },
+        {
+          "url": "https://www.cinde.org/en/contact",
+          "snippet": "Inclusion Creativity Environmental Awareness Exponential Technologies VR/AR Cloud Robotics Big Data/Analytics Cybersecurity AI/Machine Learning UX/UI Internet of Things 3D Printing Automation/RPA New Materials R&D Growth Ecosystems Investment incentives Free Trade Zones Fu"
+        },
+        {
+          "url": "https://www.cinde.org/en/contact",
+          "snippet": "rted from Costa Rica to 155 destination countries. In addition, over 100 different business processes such as software development, engineering, design, analytics, AI, supply chain, and global services are delivered from Costa Rica in more than 12 languages. How many "
+        },
+        {
+          "url": "https://www.cinde.org/en/contact",
+          "snippet": "o 155 destination countries. In addition, over 100 different business processes such as software development, engineering, design, analytics, AI, supply chain, and global services are delivered from Costa Rica in more than 12 languages. How many multinational companies a"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": true
+    }
+  ]
+}

@@ -1,0 +1,1711 @@
+{
+  "cohortId": "likes-based-2026-11-06-p003",
+  "checkedOn": "2026-11-06",
+  "inputCount": 161,
+  "uniqueCount": 95,
+  "outputCount": 95,
+  "duplicateCount": 66,
+  "missingIdentityCount": 0,
+  "catalog": {
+    "source": "MongoDB + bundled files + prior batches",
+    "mongoCompanies": 1220,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 121,
+    "indexedNames": 1332,
+    "indexedDomains": 1277
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 63,
+    "topTracks": [
+      {
+        "track": "Engineering",
+        "count": 36
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Software Engineering",
+        "count": 3
+      },
+      {
+        "track": "Node.js",
+        "count": 2
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        46
+      ],
+      [
+        "direct",
+        16
+      ],
+      [
+        "unknown",
+        1
+      ]
+    ]
+  },
+  "queryLanes": [
+    {
+      "lane": "LATAM remote engineering careers",
+      "leads": 53,
+      "unique": 53,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Costa Rica employer directory and careers",
+      "leads": 2,
+      "unique": 2,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official BambooHR and nearshore careers",
+      "leads": 1,
+      "unique": 1,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Costa Rica nearshore company careers",
+      "leads": 1,
+      "unique": 1,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Costa Rica software-factory and careers sources",
+      "leads": 1,
+      "unique": 1,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official BambooHR LATAM engineering roles",
+      "leads": 1,
+      "unique": 1,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official BambooHR engineering postings",
+      "leads": 1,
+      "unique": 1,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Costa Rica employer and careers sources",
+      "leads": 21,
+      "unique": 20,
+      "duplicateRate": 0.048,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Himalayas CR engineering leads; official site verification",
+      "leads": 4,
+      "unique": 2,
+      "duplicateRate": 0.5,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official Latin America employer and careers research",
+      "leads": 4,
+      "unique": 2,
+      "duplicateRate": 0.5,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official Costa Rica employer and careers sources",
+      "leads": 2,
+      "unique": 1,
+      "duplicateRate": 0.5,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official Costa Rica company location and careers",
+      "leads": 2,
+      "unique": 1,
+      "duplicateRate": 0.5,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Himalayas CR engineering leads; official ATS verification",
+      "leads": 11,
+      "unique": 5,
+      "duplicateRate": 0.545,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official LATAM ATS engineering roles",
+      "leads": 7,
+      "unique": 2,
+      "duplicateRate": 0.714,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official Greenhouse Latin America engineering roles",
+      "leads": 5,
+      "unique": 1,
+      "duplicateRate": 0.8,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official Costa Rica ATS engineering roles",
+      "leads": 13,
+      "unique": 1,
+      "duplicateRate": 0.923,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official Lever Costa Rica engineering roles",
+      "leads": 1,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official Ashby Costa Rica engineering roles",
+      "leads": 1,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official Lever Latin America engineering roles",
+      "leads": 2,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official Ashby Costa Rica engineering postings",
+      "leads": 1,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Costa Rica nearshore employer career pages",
+      "leads": 2,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Costa Rica employer career pages",
+      "leads": 2,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official Costa Rica ATS postings",
+      "leads": 4,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Costa Rica technology company career pages",
+      "leads": 2,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Costa Rica and LATAM embedded engineering careers",
+      "leads": 1,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Costa Rica nearshore engineering careers",
+      "leads": 5,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official Costa Rica employer careers sources",
+      "leads": 3,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official LATAM employer careers sources",
+      "leads": 4,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Official Costa Rica engineering roles",
+      "leads": 4,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    }
+  ],
+  "entries": [
+    {
+      "company": "Kenility",
+      "domain": "kenility.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.kenility.com/careers/"
+    },
+    {
+      "company": "Olly Olly",
+      "domain": "ollyolly.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://jobs.ashbyhq.com/olly-olly/ba012649-c92f-48a4-be77-b605c40d43a3/"
+    },
+    {
+      "company": "Parser",
+      "domain": "parserdigital.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.parserdigital.com/careers"
+    },
+    {
+      "company": "Tight Line Software",
+      "domain": "tightlinesoftware.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://careers.tightlinesoftware.com/jobs/7973761-senior-front-end-engineer"
+    },
+    {
+      "company": "Wiset",
+      "domain": "wiset.io",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://wiset.io/jobs/"
+    },
+    {
+      "company": "General Staffing",
+      "domain": "generalstaffing.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.generalstaffing.com/jobs/ongoing-software-developer"
+    },
+    {
+      "company": "Amplemarket",
+      "domain": "amplemarket.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://job-boards.greenhouse.io/amplemarket/jobs/4066973101"
+    },
+    {
+      "company": "4Geeks",
+      "domain": "4geeks.io",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://4geeks.io/en/careers/software-engineer/"
+    },
+    {
+      "company": "Talentus Global",
+      "domain": "talentusglobal.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://jobs.lever.co/TalentusGlobal/9760b72b-c022-4be9-9858-10ea64edef89"
+    },
+    {
+      "company": "Provectus",
+      "domain": "provectus.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://jobs.lever.co/provectus/8f30b06c-5d05-436e-a14d-5daec89c71c2"
+    },
+    {
+      "company": "Fast Dolphin",
+      "domain": "fastdolphin.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.fastdolphin.com/vinculacionpr/vacante.php"
+    },
+    {
+      "company": "Derex Technologies",
+      "domain": "derextech.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://jobs.smartrecruiters.com/derextechnologiesinc/744000158738943-solution-architect-with-insuremo-platform"
+    },
+    {
+      "company": "Fresh Consulting",
+      "domain": "freshconsulting.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://freshconsulting.applytojob.com/apply/jobs/details/FIDNF96Cj1"
+    },
+    {
+      "company": "VML",
+      "domain": "vml.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.vml.com/careers/job/8515068002-cr-front-end-software-developer"
+    },
+    {
+      "company": "Hubstart",
+      "domain": "hubstart.io",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://hubstart.io/careers"
+    },
+    {
+      "company": "Bitlink",
+      "domain": "bitlink.com.co",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.bitlink.com.co/en/trabajo"
+    },
+    {
+      "company": "Neverfail",
+      "domain": "neverfail.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://neverfail.com/careers/"
+    },
+    {
+      "company": "Grupo Mundial",
+      "domain": "grupomundial.cr",
+      "queryLane": "Costa Rica employer and careers sources",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://grupomundial.cr/careers/"
+    },
+    {
+      "company": "Ellipsis Health",
+      "domain": "ellipsishealth.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://ellipsishealth.com/careers/backend-engineer/"
+    },
+    {
+      "company": "Radiant Technologies",
+      "domain": "radiantholdco.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://radiantholdco.com/careers/product-engineer"
+    },
+    {
+      "company": "Get Talento",
+      "domain": "gettalento.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.gettalento.com/careers"
+    },
+    {
+      "company": "Staffy",
+      "domain": "wearestaffy.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://jobs.wearestaffy.com/positions/senior-backend-engineer-java-aws-2100"
+    },
+    {
+      "company": "Akurey",
+      "domain": "akurey.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://akurey.com/careers"
+    },
+    {
+      "company": "SMarDevs",
+      "domain": "smardevs.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://smardevs.com/careers/senior-backend-developer"
+    },
+    {
+      "company": "Waverley Software",
+      "domain": "waverleysoftware.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://waverleysoftware.com/careers/"
+    },
+    {
+      "company": "nCube",
+      "domain": "ncube.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://ncube.com/career"
+    },
+    {
+      "company": "Buenos Bytes",
+      "domain": "buenos-bytes.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.buenos-bytes.com/jobs"
+    },
+    {
+      "company": "Lateral Group",
+      "domain": "lateralgroup.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://careers.lateralgroup.com/jobs/5997769-senior-frontend-engineer-latam"
+    },
+    {
+      "company": "Oceans Code Experts",
+      "domain": "oceanscode.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://oceanscode.com/careers/full-stack-net-developer-reactnative-ds-140"
+    },
+    {
+      "company": "Bridgenext",
+      "domain": "bridgenext.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://argcareers-bridgenext.icims.com/jobs/11098/backend---platform-engineer/job?in_iframe=1"
+    },
+    {
+      "company": "Etleap",
+      "domain": "etleap.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www-old.etleap.com/careers/software-engineer-integrations/"
+    },
+    {
+      "company": "Devsu",
+      "domain": "devsu.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://apply.workable.com/devsu/"
+    },
+    {
+      "company": "Amalga",
+      "domain": "amalgagroup.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.amalgagroup.com/careersv1"
+    },
+    {
+      "company": "RiverMeadow",
+      "domain": "rivermeadow.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.rivermeadow.com/careers"
+    },
+    {
+      "company": "Rite Digital",
+      "domain": "rite.digital",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://rite.digital/careers/"
+    },
+    {
+      "company": "Luxury Presence",
+      "domain": "luxurypresence.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://jobs.lever.co/luxurypresence?location=Latin+America"
+    },
+    {
+      "company": "Designli",
+      "domain": "designli.co",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://designli.co/careers"
+    },
+    {
+      "company": "TD SYNNEX",
+      "domain": "tdsynnex.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://careers.tdsynnex.com/us/en/job/TSQTSBUSR49839EXTERNALENUS/Senior-Infrastructure-Systems-Engineer"
+    },
+    {
+      "company": "GBM",
+      "domain": "gbm.net",
+      "queryLane": "Costa Rica employer and careers sources",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://gbmcostaricacompanyid3101003252.applytojob.com/apply/sfii32Ls8q/Desarrolladora-Full-Stack-NET-Backend"
+    },
+    {
+      "company": "Pearl Talent",
+      "domain": "pearltalent.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://apply.workable.com/pearltalent/j/D3909364ED/apply/"
+    },
+    {
+      "company": "Arenalsoft",
+      "domain": "arenalsoft.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.arenalsoft.com/"
+    },
+    {
+      "company": "LTIMindtree",
+      "domain": "ltimindtree.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.ltimindtree.com/careers/"
+    },
+    {
+      "company": "Lanshore",
+      "domain": "lanshore.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://jobs.smartrecruiters.com/Lanshore/743999805781127-front-end-developer-100-wfh"
+    },
+    {
+      "company": "MasGlobal",
+      "domain": "masglobal.co",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://masglobal.co/careers"
+    },
+    {
+      "company": "Leanware",
+      "domain": "leanware.co",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://leanware.co/careers"
+    },
+    {
+      "company": "CodigoDelSur",
+      "domain": "codigodelsur.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.codigodelsur.com/jobs"
+    },
+    {
+      "company": "Xmartlabs",
+      "domain": "xmartlabs.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://xmartlabs.com/careers"
+    },
+    {
+      "company": "Perform",
+      "domain": "perform.co",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://perform.co/careers"
+    },
+    {
+      "company": "Hakkoda",
+      "domain": "hakkoda.io",
+      "queryLane": "Costa Rica employer and careers sources",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://hakkoda.io/careers/"
+    },
+    {
+      "company": "Parrolabs",
+      "domain": "parrolabs.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.parrolabs.com/careers"
+    },
+    {
+      "company": "NativApps",
+      "domain": "nativapps.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://nativapps.com/carreras/"
+    },
+    {
+      "company": "SOIN",
+      "domain": "soin.co.cr",
+      "queryLane": "Costa Rica employer and careers sources",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.soin.co.cr/careers/junior-software-developer-java"
+    },
+    {
+      "company": "Grupo Prides",
+      "domain": "grupoprides.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.grupoprides.com"
+    },
+    {
+      "company": "Proximity CR",
+      "domain": "proximitycr.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://proximitycr.com/careers"
+    },
+    {
+      "company": "Codieshub",
+      "domain": "codieshub.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://codieshub.com/careers/python-engineer"
+    },
+    {
+      "company": "My VA Support",
+      "domain": "myvasupport.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://myvasupport.zohorecruit.com/jobs/Careers/671760000011805500/"
+    },
+    {
+      "company": "Contably",
+      "domain": "contably.co",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://contably.co/careers"
+    },
+    {
+      "company": "Purple Hiring",
+      "domain": "gowithpurple.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.gowithpurple.com/careers"
+    },
+    {
+      "company": "Scio",
+      "domain": "sciodev.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://careers.sciodev.com/"
+    },
+    {
+      "company": "Greenlight Consulting",
+      "domain": "greenlightconsulting.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://job-boards.greenhouse.io/greenlightconsulting/jobs/5207112008"
+    },
+    {
+      "company": "Motivus",
+      "domain": "motivus.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://motivus.com/careers/node-js-developer/"
+    },
+    {
+      "company": "Lago",
+      "domain": "getlago.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://apply.workable.com/lago-1/j/5939A9FF30/apply"
+    },
+    {
+      "company": "Kitrum",
+      "domain": "kitrum.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://kitrum.com/careers/"
+    },
+    {
+      "company": "Talent2Win",
+      "domain": "talent2win.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://jobs.lever.co/talent-2-win/ae93e720-0f0f-4ba4-94e1-8a13d926584d"
+    },
+    {
+      "company": "Infotech CR",
+      "domain": "cr-infotech.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.cr-infotech.com/careers.html"
+    },
+    {
+      "company": "dotdigital",
+      "domain": "dotdigital.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://careers.dotdigital.com/jobs/8513755-full-stack-engineer-contractor"
+    },
+    {
+      "company": "Bugcrowd",
+      "domain": "bugcrowd.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://job-boards.greenhouse.io/bugcrowd/jobs/8202018"
+    },
+    {
+      "company": "Atelier",
+      "domain": "atelier-app.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.atelier-app.com/carreras"
+    },
+    {
+      "company": "Polanov Tech",
+      "domain": "polanovtech.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://polanovtech.com/careers"
+    },
+    {
+      "company": "Cobre",
+      "domain": "cobre.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://job-boards.greenhouse.io/cobre/jobs/4009743009"
+    },
+    {
+      "company": "Traackr",
+      "domain": "traackr.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://jobs.lever.co/traackr/fc789f3d-6ef6-44ee-bd3d-c7799e8069b2"
+    },
+    {
+      "company": "Sonnet Code",
+      "domain": "sonnetcode.com",
+      "queryLane": "LATAM remote engineering careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.sonnetcode.com/careers"
+    },
+    {
+      "company": "SMASH",
+      "domain": "smashcr.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://smashcr.com/become-a-smasher"
+    },
+    {
+      "company": "ActiveCampaign",
+      "domain": "activecampaign.com",
+      "queryLane": "Costa Rica employer directory and careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.activecampaign.com/about/careers"
+    },
+    {
+      "company": "Datasite",
+      "domain": "datasite.com",
+      "queryLane": "Costa Rica employer directory and careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.datasite.com/en/company/careers"
+    },
+    {
+      "company": "Fractal River",
+      "domain": "fractalriver.com",
+      "queryLane": "Himalayas CR engineering leads; official ATS verification",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://fractal-river.breezy.hr/p/60cec77079df-data-engineer-remote-latin-america"
+    },
+    {
+      "company": "Prometeo Talent",
+      "domain": "prometeotalent.com",
+      "queryLane": "Himalayas CR engineering leads; official ATS verification",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://jobs.prometeotalent.com/jobs/8564566-qa-automation-engineer-100-remote-latam"
+    },
+    {
+      "company": "NetForemost",
+      "domain": "netforemost.com",
+      "queryLane": "Himalayas CR engineering leads; official ATS verification",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://netforemost.zohorecruit.com/jobs"
+    },
+    {
+      "company": "Makai Digital",
+      "domain": "makaihq.com",
+      "queryLane": "Himalayas CR engineering leads; official site verification",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.makaihq.com/careers"
+    },
+    {
+      "company": "thinkbridge",
+      "domain": "thinkbridge.com",
+      "queryLane": "Himalayas CR engineering leads; official site verification",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.thinkbridge.com/about-us"
+    },
+    {
+      "company": "Appsilon",
+      "domain": "appsilon.com",
+      "queryLane": "Himalayas CR engineering leads; official ATS verification",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://appsilon-1739358905.teamtailor.com/"
+    },
+    {
+      "company": "Alpaca",
+      "domain": "alpaca.markets",
+      "queryLane": "Himalayas CR engineering leads; official ATS verification",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://job-boards.greenhouse.io/alpaca"
+    },
+    {
+      "company": "Puzzle",
+      "domain": "puzzle.tech",
+      "queryLane": "Official Latin America employer and careers research",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.puzzle.tech/about-us"
+    },
+    {
+      "company": "CXT Software",
+      "domain": "cxtsoftware.com",
+      "queryLane": "Official LATAM ATS engineering roles",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://jobs.lever.co/cxtsoftware/6f79361c-f637-43dd-8d3d-e97002088b67"
+    },
+    {
+      "company": "Galileo Financial Technologies",
+      "domain": "galileo-ft.com",
+      "queryLane": "Official Costa Rica ATS engineering roles",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://job-boards.greenhouse.io/galileofinancialtechnologies"
+    },
+    {
+      "company": "Blue Coding",
+      "domain": "bluecoding.com",
+      "queryLane": "Official LATAM ATS engineering roles",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://jobs.lever.co/bluecoding/456ce1b0-5a77-4a27-9a82-37d0074f14ec"
+    },
+    {
+      "company": "World Wide Technology",
+      "domain": "wwt.com",
+      "queryLane": "Official Costa Rica employer and careers sources",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.wwt.com/careers-in-the-americas"
+    },
+    {
+      "company": "Workana",
+      "domain": "workana.com",
+      "queryLane": "Official Latin America employer and careers research",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.workana.com/work/devs"
+    },
+    {
+      "company": "SchoolMint",
+      "domain": "schoolmint.com",
+      "queryLane": "Official Costa Rica company location and careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://schoolmint.com/contact-us/"
+    },
+    {
+      "company": "MagmaLabs",
+      "domain": "magmalabs.io",
+      "queryLane": "Official BambooHR and nearshore careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://magmalabs.bamboohr.com/careers"
+    },
+    {
+      "company": "Nikola Digital Lab",
+      "domain": "nikoladigitallab.com",
+      "queryLane": "Costa Rica nearshore company careers",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.nikoladigitallab.com/careers"
+    },
+    {
+      "company": "Talent Booster Costa Rica",
+      "domain": "talentboostercr.com",
+      "queryLane": "Costa Rica software-factory and careers sources",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://careers.talentboostercr.com/"
+    },
+    {
+      "company": "R2",
+      "domain": "r2.co",
+      "queryLane": "Official BambooHR LATAM engineering roles",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://r2.co/careers"
+    },
+    {
+      "company": "Qventus",
+      "domain": "qventus.com",
+      "queryLane": "Official Greenhouse Latin America engineering roles",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://www.qventus.com/company/working-qventus/job/"
+    },
+    {
+      "company": "Oowlish Technology",
+      "domain": "oowlish.com",
+      "queryLane": "Official Lever Costa Rica engineering roles",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Oowlish",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.oowlish.com/careers"
+    },
+    {
+      "company": "Homeward",
+      "domain": "homeward.com",
+      "queryLane": "Official Greenhouse Latin America engineering roles",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Homeward",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/homeward"
+    },
+    {
+      "company": "Factored",
+      "domain": "factored.ai",
+      "queryLane": "Official Greenhouse Latin America engineering roles",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Factored",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.factored.ai/latam/careers"
+    },
+    {
+      "company": "SecurityScorecard",
+      "domain": "securityscorecard.com",
+      "queryLane": "Official Greenhouse Latin America engineering roles",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "SecurityScorecard",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://securityscorecard.com/company/careers/"
+    },
+    {
+      "company": "Nortal",
+      "domain": "nortal.com",
+      "queryLane": "Official Greenhouse Latin America engineering roles",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Nortal",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://careers.nortal.com/"
+    },
+    {
+      "company": "JBS Dev",
+      "domain": "jbs.dev",
+      "queryLane": "Official Ashby Costa Rica engineering roles",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "JBS Dev",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.jbs.dev/our-team/careers/"
+    },
+    {
+      "company": "RYZ Labs",
+      "domain": "ryzlabs.com",
+      "queryLane": "Official Lever Latin America engineering roles",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "RYZ Labs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.ryzlabs.com/careers"
+    },
+    {
+      "company": "Muttdata",
+      "domain": "muttdata.ai",
+      "queryLane": "Official Lever Latin America engineering roles",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Muttdata",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.lever.co/muttdata"
+    },
+    {
+      "company": "SimSpace",
+      "domain": "simspace.com",
+      "queryLane": "Official Ashby Costa Rica engineering postings",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "SimSpace",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.ashbyhq.com/simspace-corporation"
+    },
+    {
+      "company": "Excel Nearshore",
+      "domain": "excelnearshore.com",
+      "queryLane": "Costa Rica nearshore employer career pages",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Excel Nearshore",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://excelnearshore.com/careers/"
+    },
+    {
+      "company": "Neverfail",
+      "domain": "neverfail.com",
+      "queryLane": "Costa Rica employer career pages",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Neverfail",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://neverfail.com/careers/"
+    },
+    {
+      "company": "Empyra",
+      "domain": "empyra.com",
+      "queryLane": "Costa Rica employer career pages",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Empyra",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.empyra.com/careers"
+    },
+    {
+      "company": "First Factory",
+      "domain": "firstfactory.com",
+      "queryLane": "Costa Rica nearshore employer career pages",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "First Factory",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.firstfactory.com/"
+    },
+    {
+      "company": "GFT Technologies",
+      "domain": "gft.com",
+      "queryLane": "Official Costa Rica ATS postings",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "GFT Technologies",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.gft.com/Costarica/go/costa-rica/4412301/"
+    },
+    {
+      "company": "Moody's",
+      "domain": "moodys.com",
+      "queryLane": "Official Costa Rica ATS postings",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Moody's",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://careers.moodys.com/en/location/costa-rica-jobs/49841/3624060/2/2"
+    },
+    {
+      "company": "Wipro",
+      "domain": "wipro.com",
+      "queryLane": "Official Costa Rica ATS postings",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Wipro",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://careers.wipro.com/"
+    },
+    {
+      "company": "Cargill",
+      "domain": "cargill.com",
+      "queryLane": "Official Costa Rica ATS postings",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Cargill",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://careers.cargill.com/"
+    },
+    {
+      "company": "Hangar Worldwide",
+      "domain": "hangarworldwide.com",
+      "queryLane": "Official BambooHR engineering postings",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://hangar.bamboohr.com/careers"
+    },
+    {
+      "company": "Atlas Bench",
+      "domain": "atlas-bench.com",
+      "queryLane": "Costa Rica technology company career pages",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Atlas Bench",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.atlas-bench.com/careers"
+    },
+    {
+      "company": "SMASH",
+      "domain": "smash.cr",
+      "queryLane": "Costa Rica and LATAM embedded engineering careers",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "SMASH",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://smash.cr/become-a-smasher"
+    },
+    {
+      "company": "Solvosoft",
+      "domain": "solvosoft.com",
+      "queryLane": "Costa Rica technology company career pages",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Solvosoft",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://solvosoft.com/jobs/"
+    },
+    {
+      "company": "Kambda",
+      "domain": "kambda.com",
+      "queryLane": "Costa Rica nearshore engineering careers",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Kambda",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.kambda.com/job-openings/"
+    },
+    {
+      "company": "ParallelDevs",
+      "domain": "paralleldevs.com",
+      "queryLane": "Costa Rica nearshore engineering careers",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "ParallelDevs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.paralleldevs.com/jobs/"
+    },
+    {
+      "company": "QAT Global",
+      "domain": "qat.com",
+      "queryLane": "Costa Rica nearshore engineering careers",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "QAT Global",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://qat.com/careers/"
+    },
+    {
+      "company": "Tamarindo Consulting",
+      "domain": "tamarindoconsulting.com",
+      "queryLane": "Costa Rica nearshore engineering careers",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Tamarindo Consulting",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.tamarindoconsulting.com/jobs/"
+    },
+    {
+      "company": "Factor K Software",
+      "domain": "factork-software.com",
+      "queryLane": "Costa Rica nearshore engineering careers",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Factor K Software",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.factork-software.com/careers"
+    },
+    {
+      "company": "Fractal River",
+      "domain": "fractalriver.com",
+      "queryLane": "Himalayas CR engineering leads; official ATS verification",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Fractal River",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://fractal-river.breezy.hr/p/60cec77079df-data-engineer-remote-latin-america"
+    },
+    {
+      "company": "Prometeo Talent",
+      "domain": "prometeotalent.com",
+      "queryLane": "Himalayas CR engineering leads; official ATS verification",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Prometeo Talent",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://jobs.prometeotalent.com/jobs/8564566-qa-automation-engineer-100-remote-latam"
+    },
+    {
+      "company": "NetForemost",
+      "domain": "netforemost.com",
+      "queryLane": "Himalayas CR engineering leads; official ATS verification",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "NetForemost",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://netforemost.zohorecruit.com/jobs"
+    },
+    {
+      "company": "Makai Digital",
+      "domain": "makaihq.com",
+      "queryLane": "Himalayas CR engineering leads; official site verification",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Makai Digital",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://www.makaihq.com/careers"
+    },
+    {
+      "company": "Playbypoint",
+      "domain": "playbypoint.com",
+      "queryLane": "Himalayas CR engineering leads; official ATS verification",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Playbypoint",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://playbypoint.na.teamtailor.com/"
+    },
+    {
+      "company": "thinkbridge",
+      "domain": "thinkbridge.com",
+      "queryLane": "Himalayas CR engineering leads; official site verification",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "thinkbridge",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://www.thinkbridge.com/about-us"
+    },
+    {
+      "company": "Appsilon",
+      "domain": "appsilon.com",
+      "queryLane": "Himalayas CR engineering leads; official ATS verification",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Appsilon",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://appsilon-1739358905.teamtailor.com/"
+    },
+    {
+      "company": "Alpaca",
+      "domain": "alpaca.markets",
+      "queryLane": "Himalayas CR engineering leads; official ATS verification",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Alpaca",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://job-boards.greenhouse.io/alpaca"
+    },
+    {
+      "company": "Puzzle",
+      "domain": "puzzle.tech",
+      "queryLane": "Official Latin America employer and careers research",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Puzzle",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://www.puzzle.tech/about-us"
+    },
+    {
+      "company": "CSC Generation",
+      "domain": "cscgeneration.com",
+      "queryLane": "Official Costa Rica ATS engineering roles",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "CSC Generation",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.lever.co/cscgeneration-2/0ef9eb9f-f2cc-42f4-b8f9-4a34a771b4e0"
+    },
+    {
+      "company": "CXT Software",
+      "domain": "cxtsoftware.com",
+      "queryLane": "Official LATAM ATS engineering roles",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "CXT Software",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://jobs.lever.co/cxtsoftware/6f79361c-f637-43dd-8d3d-e97002088b67"
+    },
+    {
+      "company": "Bluelight Consulting",
+      "domain": "bluelight.co",
+      "queryLane": "Official LATAM ATS engineering roles",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Bluelight Consulting",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.lever.co/bluelightconsulting/e92392b8-7ee5-46eb-8d74-462673820819"
+    },
+    {
+      "company": "Livefront",
+      "domain": "livefront.com",
+      "queryLane": "Official Costa Rica ATS engineering roles",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Livefront",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/livefront/jobs/4243344009"
+    },
+    {
+      "company": "Backblaze",
+      "domain": "backblaze.com",
+      "queryLane": "Official Costa Rica ATS engineering roles",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Backblaze",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/backblaze/jobs/5442462008"
+    },
+    {
+      "company": "Newsela",
+      "domain": "newsela.com",
+      "queryLane": "Official Costa Rica ATS engineering roles",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Newsela",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/newsela/jobs/8249272"
+    },
+    {
+      "company": "SimSpace",
+      "domain": "simspace.com",
+      "queryLane": "Official Costa Rica ATS engineering roles",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "SimSpace",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.ashbyhq.com/simspace-corporation/f174dcb1-6766-4620-a182-c81c848e4fdd"
+    },
+    {
+      "company": "Homera Health",
+      "domain": "homerahealth.com",
+      "queryLane": "Official Costa Rica ATS engineering roles",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Homera Health",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.ashbyhq.com/homera-health/b9fd96f4-00a8-43e6-864a-eea7423ab9b4"
+    },
+    {
+      "company": "Aubrant Digital",
+      "domain": "aubrant.com",
+      "queryLane": "Official Costa Rica ATS engineering roles",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Aubrant Digital",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://ats.rippling.com/epic-software/jobs"
+    },
+    {
+      "company": "Granicus",
+      "domain": "granicus.com",
+      "queryLane": "Official Costa Rica ATS engineering roles",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Granicus",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://globalcareers-granicus.icims.com/jobs/10169/costa-rica-software-engineer/job?in_iframe=1"
+    },
+    {
+      "company": "TransUnion",
+      "domain": "transunion.com",
+      "queryLane": "Official Costa Rica ATS engineering roles",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "TransUnion",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://transunion.wd5.myworkdayjobs.com/en-US/TransUnion/job/Software-Developer_19040620"
+    },
+    {
+      "company": "CapDev",
+      "domain": "capdevcr.com",
+      "queryLane": "Official Costa Rica employer careers sources",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "CapDev",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://capdevcr.com/developers.html"
+    },
+    {
+      "company": "Improving",
+      "domain": "improving.com",
+      "queryLane": "Official Costa Rica employer careers sources",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Improving",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.improving.com/careers/costa-rica/"
+    },
+    {
+      "company": "OfficeSpace Software",
+      "domain": "officespacesoftware.com",
+      "queryLane": "Official Costa Rica ATS engineering roles",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "OfficeSpace Software",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/officespacesoftware"
+    },
+    {
+      "company": "Galileo Financial Technologies",
+      "domain": "galileo-ft.com",
+      "queryLane": "Official Costa Rica ATS engineering roles",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Galileo Financial Technologies",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://job-boards.greenhouse.io/galileofinancialtechnologies"
+    },
+    {
+      "company": "Truelogic",
+      "domain": "truelogic.io",
+      "queryLane": "Official LATAM employer careers sources",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Truelogic",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.truelogic.io/"
+    },
+    {
+      "company": "Gamebreaking Studios",
+      "domain": "gamebreaking.com",
+      "queryLane": "Official LATAM employer careers sources",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Gamebreaking Studios",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://careers.gamebreaking.com/"
+    },
+    {
+      "company": "Admios",
+      "domain": "admios.com",
+      "queryLane": "Official LATAM employer careers sources",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Admios",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.admios.com/careers"
+    },
+    {
+      "company": "Blue Coding",
+      "domain": "bluecoding.com",
+      "queryLane": "Official LATAM ATS engineering roles",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Blue Coding",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://jobs.lever.co/bluecoding/456ce1b0-5a77-4a27-9a82-37d0074f14ec"
+    },
+    {
+      "company": "In All Media Inc",
+      "domain": "inallmedia.com",
+      "queryLane": "Official LATAM ATS engineering roles",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "In All Media",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://inallmedia-llc.breezy.hr/p/8c43c0ef7e89-full-stack-engineer-react-go"
+    },
+    {
+      "company": "Harris Computer",
+      "domain": "harriscomputer.com",
+      "queryLane": "Official Costa Rica ATS engineering roles",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Harris Computer",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://harriscomputer.wd3.myworkdayjobs.com/en-US/1/job/XMLNAME--Remote--Senior-Software-Developer_R0044370-3"
+    },
+    {
+      "company": "Celara Labs",
+      "domain": "celaralabs.com",
+      "queryLane": "Official LATAM employer careers sources",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Celara Labs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://celaralabs.com/talent"
+    },
+    {
+      "company": "Elastic",
+      "domain": "elastic.co",
+      "queryLane": "Official Costa Rica engineering roles",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Elastic",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.elastic.co/jobs/marketing/costa-rica/full-stack-technical-developer/8281841?gh_jid=8281841"
+    },
+    {
+      "company": "Zscaler",
+      "domain": "zscaler.com",
+      "queryLane": "Official Costa Rica engineering roles",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Zscaler",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/zscaler/jobs/5202103007"
+    },
+    {
+      "company": "Confiz",
+      "domain": "confiz.com",
+      "queryLane": "Official Costa Rica engineering roles",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Confiz",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://confiz.simplicant.com/jobs/62781-software-engineer-java-level-iii-costa-rica-remote/detail?referer=jobboard"
+    },
+    {
+      "company": "Johnson Controls",
+      "domain": "johnsoncontrols.com",
+      "queryLane": "Official Costa Rica engineering roles",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Johnson Controls",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.johnsoncontrols.com/job/WD30282267"
+    },
+    {
+      "company": "Syniverse",
+      "domain": "syniverse.com",
+      "queryLane": "Costa Rica employer and careers sources",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Syniverse",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.linkedin.com/company/syniverse/jobs/"
+    },
+    {
+      "company": "World Wide Technology",
+      "domain": "wwt.com",
+      "queryLane": "Official Costa Rica employer and careers sources",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "World Wide Technology",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://www.wwt.com/careers-in-the-americas"
+    },
+    {
+      "company": "Workana",
+      "domain": "workana.com",
+      "queryLane": "Official Latin America employer and careers research",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Workana",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://www.workana.com/work/devs"
+    },
+    {
+      "company": "Freeway Consulting",
+      "domain": "freewayconsulting.com",
+      "queryLane": "Official Costa Rica employer careers sources",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Freeway Consulting",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://freewayconsulting.jazz.co/"
+    },
+    {
+      "company": "SchoolMint",
+      "domain": "schoolmint.com",
+      "queryLane": "Official Costa Rica company location and careers",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "SchoolMint",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://schoolmint.com/contact-us/"
+    },
+    {
+      "company": "Cloudbeds",
+      "domain": "cloudbeds.com",
+      "queryLane": "Official LATAM ATS engineering roles",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Cloudbeds",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/cloudbeds/jobs/4717376005"
+    }
+  ]
+}

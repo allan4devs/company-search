@@ -1,0 +1,1357 @@
+{
+  "cohortId": "likes-based-2026-11-06-p002",
+  "generatedOn": "2026-11-07",
+  "catalog": {
+    "source": "MongoDB + bundled files + prior batches",
+    "mongoCompanies": 1220,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 121,
+    "indexedNames": 1328,
+    "indexedDomains": 1273
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 63,
+    "topTracks": [
+      {
+        "track": "Engineering",
+        "count": 36
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Software Engineering",
+        "count": 3
+      },
+      {
+        "track": "Node.js",
+        "count": 2
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        46
+      ],
+      [
+        "direct",
+        16
+      ],
+      [
+        "unknown",
+        1
+      ]
+    ]
+  },
+  "candidates": [
+    {
+      "name": "Kenility",
+      "website": "https://www.kenility.com",
+      "careersUrl": "https://www.kenility.com/careers/",
+      "sourceUrl": "https://www.kenility.com/careers/",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Olly Olly",
+      "website": "https://www.ollyolly.com",
+      "careersUrl": "https://jobs.ashbyhq.com/olly-olly/ba012649-c92f-48a4-be77-b605c40d43a3/",
+      "sourceUrl": "https://jobs.ashbyhq.com/olly-olly/ba012649-c92f-48a4-be77-b605c40d43a3/",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer and careers sources",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Parser",
+      "website": "https://www.parserdigital.com",
+      "careersUrl": "https://www.parserdigital.com/careers",
+      "sourceUrl": "https://www.parserdigital.com/careers",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Tight Line Software",
+      "website": "https://tightlinesoftware.com",
+      "careersUrl": "https://careers.tightlinesoftware.com",
+      "sourceUrl": "https://careers.tightlinesoftware.com/jobs/7973761-senior-front-end-engineer",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Wiset",
+      "website": "https://wiset.io",
+      "careersUrl": "https://wiset.io/jobs/",
+      "sourceUrl": "https://wiset.io/jobs/",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "General Staffing",
+      "website": "https://www.generalstaffing.com",
+      "careersUrl": "https://www.generalstaffing.com/jobs/ongoing-software-developer",
+      "sourceUrl": "https://www.generalstaffing.com/jobs/ongoing-software-developer",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer and careers sources",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Amplemarket",
+      "website": "https://amplemarket.com",
+      "careersUrl": "https://job-boards.greenhouse.io/amplemarket/jobs/4066973101",
+      "sourceUrl": "https://job-boards.greenhouse.io/amplemarket/jobs/4066973101",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "4Geeks",
+      "website": "https://4geeks.io",
+      "careersUrl": "https://4geeks.io/en/careers/software-engineer/",
+      "sourceUrl": "https://4geeks.io/en/careers/software-engineer/",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Talentus Global",
+      "website": "https://www.talentusglobal.com",
+      "careersUrl": "https://jobs.lever.co/TalentusGlobal/9760b72b-c022-4be9-9858-10ea64edef89",
+      "sourceUrl": "https://jobs.lever.co/TalentusGlobal/9760b72b-c022-4be9-9858-10ea64edef89",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Provectus",
+      "website": "https://provectus.com",
+      "careersUrl": "https://jobs.lever.co/provectus/8f30b06c-5d05-436e-a14d-5daec89c71c2",
+      "sourceUrl": "https://jobs.lever.co/provectus/8f30b06c-5d05-436e-a14d-5daec89c71c2",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Fast Dolphin",
+      "website": "https://www.fastdolphin.com",
+      "careersUrl": "https://www.fastdolphin.com/vinculacionpr/vacante.php",
+      "sourceUrl": "https://www.fastdolphin.com/vinculacionpr/vacante.php",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer and careers sources",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Derex Technologies",
+      "website": "https://derextech.com",
+      "careersUrl": "https://jobs.smartrecruiters.com/derextechnologiesinc/744000158738943-solution-architect-with-insuremo-platform",
+      "sourceUrl": "https://jobs.smartrecruiters.com/derextechnologiesinc/744000158738943-solution-architect-with-insuremo-platform",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Fresh Consulting",
+      "website": "https://freshconsulting.com",
+      "careersUrl": "https://freshconsulting.applytojob.com/apply/jobs/details/FIDNF96Cj1",
+      "sourceUrl": "https://freshconsulting.applytojob.com/apply/jobs/details/FIDNF96Cj1",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer and careers sources",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "VML",
+      "website": "https://www.vml.com",
+      "careersUrl": "https://www.vml.com/careers",
+      "sourceUrl": "https://www.vml.com/careers/job/8515068002-cr-front-end-software-developer",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer and careers sources",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Hubstart",
+      "website": "https://hubstart.io",
+      "careersUrl": "https://hubstart.io/careers",
+      "sourceUrl": "https://hubstart.io/careers",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Bitlink",
+      "website": "https://www.bitlink.com.co",
+      "careersUrl": "https://www.bitlink.com.co/en/trabajo",
+      "sourceUrl": "https://www.bitlink.com.co/en/trabajo",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Neverfail",
+      "website": "https://neverfail.com",
+      "careersUrl": "https://neverfail.com/careers/",
+      "sourceUrl": "https://neverfail.com/careers/",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Grupo Mundial",
+      "website": "https://grupomundial.cr",
+      "careersUrl": "https://grupomundial.cr/careers/",
+      "sourceUrl": "https://grupomundial.cr/careers/",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer and careers sources",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Ellipsis Health",
+      "website": "https://ellipsishealth.com",
+      "careersUrl": "https://ellipsishealth.com/careers/backend-engineer/",
+      "sourceUrl": "https://ellipsishealth.com/careers/backend-engineer/",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Radiant Technologies",
+      "website": "https://radiantholdco.com",
+      "careersUrl": "https://radiantholdco.com/careers/product-engineer",
+      "sourceUrl": "https://radiantholdco.com/careers/product-engineer",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer and careers sources",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Get Talento",
+      "website": "https://www.gettalento.com",
+      "careersUrl": "https://www.gettalento.com/careers",
+      "sourceUrl": "https://www.gettalento.com/careers",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Staffy",
+      "website": "https://wearestaffy.com",
+      "careersUrl": "https://jobs.wearestaffy.com/positions/senior-backend-engineer-java-aws-2100",
+      "sourceUrl": "https://jobs.wearestaffy.com/positions/senior-backend-engineer-java-aws-2100",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Akurey",
+      "website": "https://akurey.com",
+      "careersUrl": "https://akurey.com/careers",
+      "sourceUrl": "https://akurey.com/careers",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer and careers sources",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "SMarDevs",
+      "website": "https://smardevs.com",
+      "careersUrl": "https://smardevs.com/careers/senior-backend-developer",
+      "sourceUrl": "https://smardevs.com/careers/senior-backend-developer",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Waverley Software",
+      "website": "https://waverleysoftware.com",
+      "careersUrl": "https://waverleysoftware.com/careers/",
+      "sourceUrl": "https://waverleysoftware.com/careers/",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "nCube",
+      "website": "https://ncube.com",
+      "careersUrl": "https://ncube.com/career",
+      "sourceUrl": "https://ncube.com/career",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Buenos Bytes",
+      "website": "https://www.buenos-bytes.com",
+      "careersUrl": "https://www.buenos-bytes.com/jobs",
+      "sourceUrl": "https://www.buenos-bytes.com/jobs",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Lateral Group",
+      "website": "https://lateralgroup.com",
+      "careersUrl": "https://careers.lateralgroup.com/jobs/5997769-senior-frontend-engineer-latam",
+      "sourceUrl": "https://careers.lateralgroup.com/jobs/5997769-senior-frontend-engineer-latam",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Oceans Code Experts",
+      "website": "https://oceanscode.com",
+      "careersUrl": "https://oceanscode.com/careers/full-stack-net-developer-reactnative-ds-140",
+      "sourceUrl": "https://oceanscode.com/careers/full-stack-net-developer-reactnative-ds-140",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Bridgenext",
+      "website": "https://bridgenext.com",
+      "careersUrl": "https://argcareers-bridgenext.icims.com/jobs/11098/backend---platform-engineer/job?in_iframe=1",
+      "sourceUrl": "https://argcareers-bridgenext.icims.com/jobs/11098/backend---platform-engineer/job?in_iframe=1",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Etleap",
+      "website": "https://etleap.com",
+      "careersUrl": "https://www-old.etleap.com/careers/software-engineer-integrations/",
+      "sourceUrl": "https://www-old.etleap.com/careers/software-engineer-integrations/",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Devsu",
+      "website": "https://devsu.com",
+      "careersUrl": "https://apply.workable.com/devsu/",
+      "sourceUrl": "https://apply.workable.com/devsu/",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Amalga",
+      "website": "https://www.amalgagroup.com",
+      "careersUrl": "https://www.amalgagroup.com/careersv1",
+      "sourceUrl": "https://www.amalgagroup.com/careersv1",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "RiverMeadow",
+      "website": "https://rivermeadow.com",
+      "careersUrl": "https://www.rivermeadow.com/careers",
+      "sourceUrl": "https://www.rivermeadow.com/careers",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer and careers sources",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Rite Digital",
+      "website": "https://rite.digital",
+      "careersUrl": "https://rite.digital/careers/",
+      "sourceUrl": "https://rite.digital/careers/",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Luxury Presence",
+      "website": "https://luxurypresence.com",
+      "careersUrl": "https://jobs.lever.co/luxurypresence?location=Latin+America",
+      "sourceUrl": "https://jobs.lever.co/luxurypresence?location=Latin+America",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Designli",
+      "website": "https://designli.co",
+      "careersUrl": "https://designli.co/careers",
+      "sourceUrl": "https://designli.co/careers",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "TD SYNNEX",
+      "website": "https://www.tdsynnex.com",
+      "careersUrl": "https://careers.tdsynnex.com/us/en/costa-rica-careers/",
+      "sourceUrl": "https://careers.tdsynnex.com/us/en/job/TSQTSBUSR49839EXTERNALENUS/Senior-Infrastructure-Systems-Engineer",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer and careers sources",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "GBM",
+      "website": "https://www.gbm.net",
+      "careersUrl": "https://gbmcostaricacompanyid3101003252.applytojob.com/apply/sfii32Ls8q/Desarrolladora-Full-Stack-NET-Backend",
+      "sourceUrl": "https://gbmcostaricacompanyid3101003252.applytojob.com/apply/sfii32Ls8q/Desarrolladora-Full-Stack-NET-Backend",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer and careers sources",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Pearl Talent",
+      "website": "https://www.pearltalent.com",
+      "careersUrl": "https://apply.workable.com/pearltalent/j/D3909364ED/apply/",
+      "sourceUrl": "https://apply.workable.com/pearltalent/j/D3909364ED/apply/",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Arenalsoft",
+      "website": "https://www.arenalsoft.com",
+      "careersUrl": "https://www.arenalsoft.com/",
+      "sourceUrl": "https://www.arenalsoft.com/",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer and careers sources",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "LTIMindtree",
+      "website": "https://www.ltimindtree.com",
+      "careersUrl": "https://www.ltimindtree.com/careers/",
+      "sourceUrl": "https://www.ltimindtree.com/careers/",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer and careers sources",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Lanshore",
+      "website": "https://lanshore.com",
+      "careersUrl": "https://jobs.smartrecruiters.com/Lanshore/743999805781127-front-end-developer-100-wfh",
+      "sourceUrl": "https://jobs.smartrecruiters.com/Lanshore/743999805781127-front-end-developer-100-wfh",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "MasGlobal",
+      "website": "https://masglobal.co",
+      "careersUrl": "https://masglobal.co/careers",
+      "sourceUrl": "https://masglobal.co/careers",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Leanware",
+      "website": "https://leanware.co",
+      "careersUrl": "https://leanware.co/careers",
+      "sourceUrl": "https://leanware.co/careers",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "CodigoDelSur",
+      "website": "https://www.codigodelsur.com",
+      "careersUrl": "https://www.codigodelsur.com/jobs",
+      "sourceUrl": "https://www.codigodelsur.com/jobs",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Xmartlabs",
+      "website": "https://xmartlabs.com",
+      "careersUrl": "https://xmartlabs.com/careers",
+      "sourceUrl": "https://xmartlabs.com/careers",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Perform",
+      "website": "https://perform.co",
+      "careersUrl": "https://perform.co/careers",
+      "sourceUrl": "https://perform.co/careers",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Hakkoda",
+      "website": "https://hakkoda.io",
+      "careersUrl": "https://hakkoda.io/careers/",
+      "sourceUrl": "https://hakkoda.io/careers/",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer and careers sources",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Parrolabs",
+      "website": "https://www.parrolabs.com",
+      "careersUrl": "https://www.parrolabs.com/careers",
+      "sourceUrl": "https://www.parrolabs.com/careers",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "NativApps",
+      "website": "https://nativapps.com",
+      "careersUrl": "https://nativapps.com/carreras/",
+      "sourceUrl": "https://nativapps.com/carreras/",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "SOIN",
+      "website": "https://www.soin.co.cr",
+      "careersUrl": "https://www.soin.co.cr/careers/junior-software-developer-java",
+      "sourceUrl": "https://www.soin.co.cr/careers/junior-software-developer-java",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer and careers sources",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Grupo Prides",
+      "website": "https://www.grupoprides.com",
+      "careersUrl": "https://www.grupoprides.com",
+      "sourceUrl": "https://www.grupoprides.com",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer and careers sources",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Proximity CR",
+      "website": "https://proximitycr.com",
+      "careersUrl": "https://proximitycr.com/careers",
+      "sourceUrl": "https://proximitycr.com/careers",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer and careers sources",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Codieshub",
+      "website": "https://codieshub.com",
+      "careersUrl": "https://codieshub.com/careers/python-engineer",
+      "sourceUrl": "https://codieshub.com/careers/python-engineer",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "My VA Support",
+      "website": "https://myvasupport.com",
+      "careersUrl": "https://myvasupport.zohorecruit.com/jobs/Careers/671760000011805500/",
+      "sourceUrl": "https://myvasupport.zohorecruit.com/jobs/Careers/671760000011805500/",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Contably",
+      "website": "https://contably.co",
+      "careersUrl": "https://contably.co/careers",
+      "sourceUrl": "https://contably.co/careers",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Purple Hiring",
+      "website": "https://www.gowithpurple.com",
+      "careersUrl": "https://www.gowithpurple.com/careers",
+      "sourceUrl": "https://www.gowithpurple.com/careers",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Scio",
+      "website": "https://sciodev.com",
+      "careersUrl": "https://careers.sciodev.com/",
+      "sourceUrl": "https://careers.sciodev.com/",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Greenlight Consulting",
+      "website": "https://greenlightconsulting.com",
+      "careersUrl": "https://job-boards.greenhouse.io/greenlightconsulting/jobs/5207112008",
+      "sourceUrl": "https://job-boards.greenhouse.io/greenlightconsulting/jobs/5207112008",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer and careers sources",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Motivus",
+      "website": "https://motivus.com",
+      "careersUrl": "https://motivus.com/careers/node-js-developer/",
+      "sourceUrl": "https://motivus.com/careers/node-js-developer/",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Lago",
+      "website": "https://getlago.com",
+      "careersUrl": "https://apply.workable.com/lago-1/j/5939A9FF30/apply",
+      "sourceUrl": "https://apply.workable.com/lago-1/j/5939A9FF30/apply",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Kitrum",
+      "website": "https://kitrum.com",
+      "careersUrl": "https://kitrum.com/careers/",
+      "sourceUrl": "https://kitrum.com/careers/",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Talent2Win",
+      "website": "https://talent2win.com",
+      "careersUrl": "https://jobs.lever.co/talent-2-win/ae93e720-0f0f-4ba4-94e1-8a13d926584d",
+      "sourceUrl": "https://jobs.lever.co/talent-2-win/ae93e720-0f0f-4ba4-94e1-8a13d926584d",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Infotech CR",
+      "website": "https://www.cr-infotech.com",
+      "careersUrl": "https://www.cr-infotech.com/careers.html",
+      "sourceUrl": "https://www.cr-infotech.com/careers.html",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer and careers sources",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "dotdigital",
+      "website": "https://dotdigital.com",
+      "careersUrl": "https://careers.dotdigital.com/jobs/8513755-full-stack-engineer-contractor",
+      "sourceUrl": "https://careers.dotdigital.com/jobs/8513755-full-stack-engineer-contractor",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Bugcrowd",
+      "website": "https://bugcrowd.com",
+      "careersUrl": "https://job-boards.greenhouse.io/bugcrowd/jobs/8202018",
+      "sourceUrl": "https://job-boards.greenhouse.io/bugcrowd/jobs/8202018",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Atelier",
+      "website": "https://www.atelier-app.com",
+      "careersUrl": "https://www.atelier-app.com/carreras",
+      "sourceUrl": "https://www.atelier-app.com/carreras",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Polanov Tech",
+      "website": "https://polanovtech.com",
+      "careersUrl": "https://polanovtech.com/careers",
+      "sourceUrl": "https://polanovtech.com/careers",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Cobre",
+      "website": "https://www.cobre.com",
+      "careersUrl": "https://job-boards.greenhouse.io/cobre/jobs/4009743009",
+      "sourceUrl": "https://job-boards.greenhouse.io/cobre/jobs/4009743009",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Traackr",
+      "website": "https://www.traackr.com",
+      "careersUrl": "https://jobs.lever.co/traackr/fc789f3d-6ef6-44ee-bd3d-c7799e8069b2",
+      "sourceUrl": "https://jobs.lever.co/traackr/fc789f3d-6ef6-44ee-bd3d-c7799e8069b2",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Sonnet Code",
+      "website": "https://sonnetcode.com",
+      "careersUrl": "https://www.sonnetcode.com/careers",
+      "sourceUrl": "https://www.sonnetcode.com/careers",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering careers",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "SMASH",
+      "website": "https://smashcr.com",
+      "careersUrl": "https://smashcr.com/become-a-smasher",
+      "sourceUrl": "https://smashcr.com/become-a-smasher",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer and careers sources",
+      "model": "outsourcing",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "ActiveCampaign",
+      "website": "https://www.activecampaign.com",
+      "careersUrl": "https://www.activecampaign.com/about/careers",
+      "sourceUrl": "https://www.activecampaign.com/about/careers",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer directory and careers",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Datasite",
+      "website": "https://www.datasite.com",
+      "careersUrl": "https://www.datasite.com/en/company/careers",
+      "sourceUrl": "https://www.datasite.com/en/company/careers",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer directory and careers",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Netlify",
+      "website": "https://www.netlify.com",
+      "careersUrl": "https://www.netlify.com/careers/",
+      "sourceUrl": "https://www.netlify.com/careers/",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer directory and careers",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "OfferFit",
+      "website": "https://www.offerfit.ai",
+      "careersUrl": "https://www.offerfit.ai/careers",
+      "sourceUrl": "https://www.offerfit.ai/careers",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer directory and careers",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "OfferUp",
+      "website": "https://offerup.com",
+      "careersUrl": "https://about.offerup.com/careers/engineering/",
+      "sourceUrl": "https://about.offerup.com/careers/engineering/",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer directory and careers",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Qventus",
+      "website": "https://qventus.com",
+      "careersUrl": "https://qventus.com/careers/",
+      "sourceUrl": "https://qventus.com/careers/",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer directory and careers",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "SchoolMint",
+      "website": "https://schoolmint.com",
+      "careersUrl": "https://schoolmint.com/careers/",
+      "sourceUrl": "https://schoolmint.com/careers/",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer directory and careers",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "StreamYard",
+      "website": "https://streamyard.com",
+      "careersUrl": "https://boards.greenhouse.io/streamyard",
+      "sourceUrl": "https://boards.greenhouse.io/streamyard",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer directory and careers",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Workramp",
+      "website": "https://www.workramp.com",
+      "careersUrl": "https://jobs.lever.co/workramp",
+      "sourceUrl": "https://jobs.lever.co/workramp",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer directory and careers",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Yalo",
+      "website": "https://www.yalo.com",
+      "careersUrl": "https://www.yalo.com/careers",
+      "sourceUrl": "https://www.yalo.com/careers",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer directory and careers",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Flatirons",
+      "website": "https://flatirons.com",
+      "careersUrl": "https://flatirons.com/careers",
+      "sourceUrl": "https://flatirons.com/careers",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer directory and careers",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Outliant",
+      "website": "https://outliant.com",
+      "careersUrl": "https://outliant.com/careers/",
+      "sourceUrl": "https://outliant.com/careers/",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer directory and careers",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Puzzle",
+      "website": "https://puzzle.tech",
+      "careersUrl": "https://puzzle.tech/careers/",
+      "sourceUrl": "https://puzzle.tech/careers/",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer directory and careers",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Tech9",
+      "website": "https://tech9.com",
+      "careersUrl": "https://tech9.com/careers/",
+      "sourceUrl": "https://tech9.com/careers/",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer directory and careers",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "World Wide Technology",
+      "website": "https://www.wwt.com",
+      "careersUrl": "https://www.wwt.com/careers",
+      "sourceUrl": "https://www.wwt.com/careers",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer directory and careers",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Interfaz",
+      "website": "https://interfaz.io",
+      "careersUrl": "https://interfaz.io/careers/",
+      "sourceUrl": "https://interfaz.io/careers/",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica employer directory and careers",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Hangar Worldwide",
+      "website": "https://hangar.com",
+      "careersUrl": "https://hangar.com/careers",
+      "sourceUrl": "https://hangar.com/careers",
+      "locations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Costa Rica official ATS employer roles",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Workana",
+      "website": "https://www.workana.com",
+      "careersUrl": "https://www.workana.com/about/careers",
+      "sourceUrl": "https://www.workana.com/about/careers",
+      "locations": [
+        "LATAM"
+      ],
+      "queryLane": "LATAM remote engineering roles",
+      "model": "direct",
+      "tracks": [
+        "Software Engineering"
+      ]
+    }
+  ],
+  "uniqueCandidatesFound": 91,
+  "outputLimit": 1000
+}

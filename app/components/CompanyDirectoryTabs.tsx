@@ -1,8 +1,7 @@
 import { memo, type Dispatch, type SetStateAction } from "react";
-import {
-  COMPANY_GROUPS,
-  type CompanyDirectoryCategory,
-  type CompanyDirectoryMainFilter,
+import type {
+  CompanyDirectoryCategory,
+  CompanyDirectoryMainFilter,
 } from "../company-directory.constants";
 
 type Props = {
@@ -11,19 +10,24 @@ type Props = {
   groupCounts: Partial<Record<CompanyDirectoryMainFilter, number>>;
   keywordQuery: string;
   setKeywordQuery: (value: string) => void;
+  latamCostaRicaFilter: boolean;
+  setLatamCostaRicaFilter: (value: boolean) => void;
+  hideWithoutDomain: boolean;
+  setHideWithoutDomain: (value: boolean) => void;
+  country: string;
+  setCountry: (value: string) => void;
+  countryOptions: string[];
 };
 
 const savedViewTabs: { key: CompanyDirectoryCategory; label: string }[] = [
-  { key: "all", label: "All" },
+  { key: "all", label: "Total" },
+  { key: "new", label: "New" },
   { key: "likes", label: "Likes" },
   { key: "dislikes", label: "Dislikes" },
   { key: "archived", label: "Archived" },
   { key: "saved-jobs", label: "Saved jobs" },
 ];
-const tabs: { key: CompanyDirectoryMainFilter; label: string }[] = [
-  ...savedViewTabs,
-  ...COMPANY_GROUPS.map(({ key, title }) => ({ key, label: title })),
-];
+const tabs: { key: CompanyDirectoryMainFilter; label: string }[] = savedViewTabs;
 
 function CompanyDirectoryTabsView({
   tab,
@@ -31,10 +35,16 @@ function CompanyDirectoryTabsView({
   groupCounts = {},
   keywordQuery,
   setKeywordQuery,
+  latamCostaRicaFilter,
+  setLatamCostaRicaFilter,
+  hideWithoutDomain,
+  setHideWithoutDomain,
+  country,
+  setCountry,
+  countryOptions,
 }: Props) {
   const selectTab = (key: CompanyDirectoryMainFilter) => {
     setTab(key);
-    if (savedViewTabs.some((item) => item.key === key)) setKeywordQuery("");
   };
   return (
     <div className="mb-6 border-b border-zinc-800 pb-4">
@@ -54,12 +64,40 @@ function CompanyDirectoryTabsView({
       />
       <button
         type="button"
-        onClick={() => setKeywordQuery(keywordQuery === "costa rica" ? "" : "costa rica")}
-        aria-pressed={keywordQuery === "costa rica"}
-        className={`mb-5 w-full rounded-lg border px-3 py-2 text-left text-xs font-semibold ${keywordQuery === "costa rica" ? "border-teal-400 bg-teal-400/10 text-teal-200" : "border-zinc-700 text-zinc-300 hover:border-teal-400"}`}
+        onClick={() => setLatamCostaRicaFilter(!latamCostaRicaFilter)}
+        aria-pressed={latamCostaRicaFilter}
+        className={`mb-5 w-full rounded-lg border px-3 py-2 text-left text-xs font-semibold ${latamCostaRicaFilter ? "border-teal-400 bg-teal-400/10 text-teal-200" : "border-zinc-700 text-zinc-300 hover:border-teal-400"}`}
       >
-        LATAM · Costa Rica keyword filter
+        LATAM · Costa Rica details filter
       </button>
+      <label className="mb-4 flex items-center gap-2 text-xs font-semibold text-zinc-300">
+        <input
+          type="checkbox"
+          checked={hideWithoutDomain}
+          onChange={(event) => setHideWithoutDomain(event.target.checked)}
+          className="h-4 w-4 accent-teal-400"
+        />
+        Hide companies without a domain
+      </label>
+      <label
+        htmlFor="company-country-filter"
+        className="mb-2 block text-xs font-semibold uppercase tracking-wide text-zinc-400"
+      >
+        Company country
+      </label>
+      <select
+        id="company-country-filter"
+        value={country}
+        onChange={(event) => setCountry(event.target.value)}
+        className="mb-5 w-full rounded-lg border border-zinc-700 bg-zinc-950 px-3 py-2 text-sm text-zinc-100 focus:border-teal-400 focus:outline-none"
+      >
+        <option value="all">All countries</option>
+        {countryOptions.map((option) => (
+          <option key={option} value={option}>
+            {option}
+          </option>
+        ))}
+      </select>
       <div
         role="tablist"
         aria-label="Company views"

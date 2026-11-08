@@ -1,0 +1,163 @@
+{
+  "cohortId": "likes-based-2026-11-06-p003",
+  "checkedOn": "2026-11-06",
+  "inputCount": 7,
+  "uniqueCount": 1,
+  "outputCount": 1,
+  "duplicateCount": 6,
+  "missingIdentityCount": 0,
+  "catalog": {
+    "source": "MongoDB + bundled files + prior batches",
+    "mongoCompanies": 1220,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 121,
+    "indexedNames": 1238,
+    "indexedDomains": 1182
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 63,
+    "topTracks": [
+      {
+        "track": "Engineering",
+        "count": 36
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Software Engineering",
+        "count": 3
+      },
+      {
+        "track": "Node.js",
+        "count": 2
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        46
+      ],
+      [
+        "direct",
+        16
+      ],
+      [
+        "unknown",
+        1
+      ]
+    ]
+  },
+  "queryLanes": [
+    {
+      "lane": "Costa Rica employer careers official ATS wave 2",
+      "leads": 7,
+      "unique": 1,
+      "duplicateRate": 0.857,
+      "recommendation": "continue or expand this lane"
+    }
+  ],
+  "entries": [
+    {
+      "company": "Factor K Software",
+      "domain": null,
+      "queryLane": "Costa Rica employer careers official ATS wave 2",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Factor K Software",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://factork-software.com/careers"
+    },
+    {
+      "company": "QAT Global",
+      "domain": null,
+      "queryLane": "Costa Rica employer careers official ATS wave 2",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "QAT Global",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://qat.com/careers/"
+    },
+    {
+      "company": "Kambda",
+      "domain": null,
+      "queryLane": "Costa Rica employer careers official ATS wave 2",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Kambda",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.kambda.com/job-openings/"
+    },
+    {
+      "company": "NextAshore",
+      "domain": null,
+      "queryLane": "Costa Rica employer careers official ATS wave 2",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "NextAshore",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://nextashore.com/jobs"
+    },
+    {
+      "company": "Excel Nearshore",
+      "domain": null,
+      "queryLane": "Costa Rica employer careers official ATS wave 2",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Excel Nearshore",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://excelnearshore.com/careers/"
+    },
+    {
+      "company": "First Factory",
+      "domain": null,
+      "queryLane": "Costa Rica employer careers official ATS wave 2",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "First Factory",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.firstfactory.com/"
+    },
+    {
+      "company": "SMASH",
+      "domain": null,
+      "queryLane": "Costa Rica employer careers official ATS wave 2",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://smashcr.com/become-a-smasher"
+    }
+  ]
+}
