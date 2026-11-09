@@ -123,7 +123,8 @@ async function main() {
     candidates = await mapPool(leads, options.concurrency, async candidate => {
       const profileUrl = candidate.profileUrl || candidate.directoryProfileUrl;
       const page = await fetchHtml(profileUrl);
-      const { profileFetchError, ...resolved } = candidate;
+      const resolved = { ...candidate };
+      delete resolved.profileFetchError;
       return {
         ...resolved,
         website: officialWebsiteFromProfile(page.html, page.url),

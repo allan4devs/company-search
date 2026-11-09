@@ -509,7 +509,11 @@ async function main() {
     seedCompanies: likes.map(company => ({ name: company.name, model: company.model || "unknown", tracks: company.tracks || [] })),
     catalogCompanies: mongo.companies.length,
     sourcePages: allSources,
-    sourceFetchResults: pages.map(({ companies: _companies, ...page }) => page),
+    sourceFetchResults: pages.map(page => {
+      const summary = { ...page };
+      delete summary.companies;
+      return summary;
+    }),
     keywordSearchWallMs,
     sourceFetchWallMs,
     sourcePageCandidateCount: pages.reduce((sum, page) => sum + (page.companies?.length || 0), 0),

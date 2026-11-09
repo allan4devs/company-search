@@ -6,7 +6,6 @@ import { getCostaRicaDate } from "./company-search-utils.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const api = "https://himalayas.app/jobs/api/search";
-const regionPattern = /costa\s+rica|\blatam\b|latin america/i;
 const engineeringPattern = /software|engineer|developer|devops|sre|quality assurance|quality engineer|\bqa\b|data engineer|architect/i;
 const defaultQueries = ["software engineer", "software developer", "full stack engineer", "backend engineer", "frontend engineer", "devops engineer", "data engineer"];
 
@@ -76,7 +75,6 @@ async function main() {
 
   const byEmployer = new Map();
   const seenJobs = new Set();
-  let fetchedJobCount = 0;
   const queryStats = [];
 
   for (const query of options.queries) {
@@ -94,7 +92,6 @@ async function main() {
         const jobKey = String(job.guid || job.applicationLink || `${job.companySlug}:${job.title}`);
         if (seenJobs.has(jobKey)) continue;
         seenJobs.add(jobKey);
-        fetchedJobCount += 1;
         if (!job.companyName || !job.companySlug || !engineeringPattern.test([job.title, ...(job.categories || []), ...(job.parentCategories || [])].join(" "))) continue;
         if (isExplicitlyIneligible(job)) continue;
         const location = locationFor(job);

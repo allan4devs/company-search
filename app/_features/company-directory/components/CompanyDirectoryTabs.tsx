@@ -2,7 +2,7 @@ import { memo, type Dispatch, type SetStateAction } from "react";
 import type {
   CompanyDirectoryCategory,
   CompanyDirectoryMainFilter,
-} from "../company-directory.constants";
+} from "../constants/directory";
 
 type Props = {
   tab: CompanyDirectoryMainFilter;

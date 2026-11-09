@@ -5,7 +5,7 @@ import type { CompanyCard } from "@/lib/comp/catalog";
 import type { CompanyCategory } from "@/lib/comp/categories";
 import type { CompanyPreference } from "@/lib/comp/types";
 import { validatePreference } from "@/lib/comp/types";
-import { COMPANY_PREFERENCES_CACHE_KEY, COMPANY_PREFERENCES_KEY } from "../company-directory.constants";
+import { COMPANY_PREFERENCES_CACHE_KEY, COMPANY_PREFERENCES_KEY } from "../constants/storage";
 
 function readPreferences(key: string): Record<string, CompanyPreference> {
   const stored = localStorage.getItem(key);
@@ -111,5 +111,3 @@ export function useCompanyDirectoryData(initialCompanies: CompanyCard[], initial
 
   return { companies, setCompanies, categories, setCategories, preferences, setPreferences, ready, setReady, canSync, loading, loadError, reload, setReload, notice, setNotice };
 }
-
-export const CompanyDirectory = useCompanyDirectoryData;

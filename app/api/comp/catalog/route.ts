@@ -23,7 +23,6 @@ const knownCategories = new Set(
   COMPANY_CATEGORIES.map((category) => category.key),
 );
 const companyGroupKeys = ["companies"] as const;
-type CompanyGroupKey = (typeof companyGroupKeys)[number];
 
 function readPreferenceKeys(params: URLSearchParams, name: string) {
   return params
@@ -76,7 +75,6 @@ async function searchCatalog(params: URLSearchParams) {
       { status: 400 },
     );
   }
-  const group = requestedGroup as CompanyGroupKey;
   const page = Math.max(
     1,
     Math.min(100_000, Math.floor(Number(params.get("page")) || 1)),

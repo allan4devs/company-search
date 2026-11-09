@@ -6,6 +6,14 @@ import { getCostaRicaDate } from "./company-search-utils.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dataDir = path.join(root, "lib", "comp", "data");
+const defaultOutput = path.join(
+  "company-batches",
+  "historyc",
+  "2026-11-07",
+  "batch-runs",
+  "company-site-crawl",
+  "company-crawl-results.json",
+);
 const scanVersion = 3;
 const today = getCostaRicaDate();
 const USER_AGENT = "TheCompCompanyResearch/2.0 (+public company-site indexing)";
@@ -50,7 +58,7 @@ function parseArgs(args) {
 }
 
 function usage() {
-  console.log("Usage: node scripts/crawl-company-sites.mjs [--input companies.json] [--out company-crawl-results.json] [--concurrency 24] [--limit N] [--offset N] [--refresh]");
+  console.log(`Usage: node scripts/crawl-company-sites.mjs [--input companies.json] [--out ${defaultOutput}] [--concurrency 24] [--limit N] [--offset N] [--refresh]`);
   console.log("Reads the Mongo company catalog when configured; otherwise uses the bundled company files.");
   console.log("Scans the official homepage and a small number of careers, contact, and about pages for company-level info, role-based email, country evidence, and careers/work-with-us links. It does not crawl individual job postings.");
   console.log("Resumes from prior results. Use --refresh to rescan completed sites; --input can point to an exported company array.");
@@ -246,7 +254,6 @@ function isRoleMailbox(email) {
 const CAREER_RE = /(?:careers?|jobs?|employment|vacanc(?:y|ies)|openings?|open[\s_-]+roles?|positions?|work[\s_-]*with[\s_-]*us|join[\s_-]*(?:our|the)?[\s_-]*team|(?:we(?:['’]re|\s+are)|now)[\s_-]+hiring|trabaj(?:a|e|o|ar)|empleos?|oportunidades?|carreiras?|trabalhe[\s_-]*conosco|stellenangebote|karriere|offres?[\s_-]*d['’]emploi|rejoignez[\s_-]*(?:notre|l['’])?\s*equipe)/iu;
 const CONTACT_RE = /(?:contact|cont[aá]ct|contacto|contato|reach[\s_-]*us|get[\s_-]*in[\s_-]*touch|talk[\s_-]*to[\s_-]*us|write[\s_-]*to[\s_-]*us|support|customer[\s_-]*service|atenci[oó]n|consultas)/iu;
 const ABOUT_RE = /(?:about(?:[\s_-]*us)?|company|who[\s_-]*we[\s_-]*are|our[\s_-]*(?:story|company|team)|nosotros|sobre[\s_-]*(?:nosotros|la[\s_-]*empresa)|empresa|acerca[\s_-]*de|quienes[\s_-]*somos)/iu;
-const careerTerms = ["career", "jobs", "employment", "vacanc", "opening", "work-with-us", "work_with_us", "join-our-team", "join-our", "talent", "recruit", "trabaja", "trabaja-con-nosotros", "empleo", "empleos", "oportunidades", "carreira", "trabalhe-conosco", "karriere", "stellenangebote", "offres-d-emploi"];
 const ATS_HOSTS = ["greenhouse.io", "greenhouse.com", "lever.co", "ashbyhq.com", "workable.com", "smartrecruiters.com", "myworkdayjobs.com", "workday.com", "icims.com", "personio.com", "personio.de", "bamboohr.com", "breezy.hr", "recruitee.com", "teamtailor.com", "jobvite.com", "taleo.net", "successfactors.eu", "oraclecloud.com", "applytojob.com", "join.com", "rippling-ats.com", "pinpointhq.com"];
 
 function linkKind(label, url) {
@@ -436,7 +443,25 @@ async function fetchPage(url, options, companyRoot, purpose = "page") {
     const body = await readLimited(response, isHtml ? 2_000_000 : 1_000_000);
     if (!isHtml) return { ...result, documentText: body, xml: true };
     const details = extractPage(body, response.url, companyRoot);
-    const { text, links, careerCandidates, contactCandidates, aboutCandidates, countryEvidence, emails, ...savedDetails } = details;
+    const {
+      careerCandidates,
+      contactCandidates,
+      aboutCandidates,
+      countryEvidence,
+      emails,
+    } = details;
+    const fieldsToOmit = new Set([
+      "text",
+      "links",
+      "careerCandidates",
+      "contactCandidates",
+      "aboutCandidates",
+      "countryEvidence",
+      "emails",
+    ]);
+    const savedDetails = Object.fromEntries(
+      Object.entries(details).filter(([key]) => !fieldsToOmit.has(key)),
+    );
     return { ...result, ...savedDetails, careers: careerCandidates, contacts: contactCandidates, about: aboutCandidates, countryEvidence, emails };
   } catch (error) {
     return { requestedUrl: url, purpose, checkedOn: today, error: error.name === "AbortError" ? "timeout" : clean(error.message || error, 300) };
@@ -632,7 +657,7 @@ async function writeFinalResults(output, value) {
 async function main() {
   const options = parseArgs(process.argv.slice(2));
   if (options.help) { usage(); return; }
-  const output = path.resolve(root, process.env.CRAWL_OUTPUT || options.out || "company-crawl-results.json");
+  const output = path.resolve(root, process.env.CRAWL_OUTPUT || options.out || defaultOutput);
   const { companies: sourceRows, source } = await loadCatalog(options.input);
   const merged = mergeCompanies(sourceRows);
   const allCompanies = merged.companies;

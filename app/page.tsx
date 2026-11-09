@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { COMPANY_CATEGORIES } from "@/lib/comp/categories";
-import { CompanyDirectory } from "./company-directory.context";
+import { CompanyDirectory } from "./_features/company-directory/context/CompanyDirectoryProvider";
 
 export const metadata: Metadata = {
   title: "Comp | Company workspace",

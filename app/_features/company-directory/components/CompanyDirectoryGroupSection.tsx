@@ -8,11 +8,11 @@ import type { CompanyPreference } from "@/lib/comp/types";
 import type {
   CompanyDirectoryGroup,
   CompanyDirectoryMainFilter,
-} from "../company-directory.constants";
+} from "../constants/directory";
 import type {
   CompanyDirectoryGroupSummary,
   CompanyDirectoryViewData,
-} from "../hooks/company-directory-view-types";
+} from "../types";
 import { CompanyDirectoryPagination } from "./CompanyDirectoryPagination";
 import { CompanyDirectoryCard } from "./CompanyDirectoryCard";
 
@@ -23,7 +23,6 @@ type CatalogGroupResult = {
   pageCount: number;
   countryOptions: string[];
   categoryCounts: Record<string, number>;
-  stats: CompanyDirectoryGroupSummary["stats"];
   fastPageOnly?: boolean;
 };
 
@@ -110,20 +109,29 @@ export function CompanyDirectoryGroupSection({
 
   const catalogPreferencesKey = JSON.stringify(
     Object.entries(preferences.preferences)
-      .filter(([, preference]) => preference.liked || preference.disliked || preference.archived || preference.likedJobIds?.length || preference.archivedJobIds?.length || preference.appliedJobIds?.length || preference.addedJobs?.length)
-      .sort(([a], [b]) => a.localeCompare(b))
-      .map(([key, preference]) => [key, {
-        liked: !!preference.liked,
-        disliked: !!preference.disliked,
-        archived: !!preference.archived,
-        likedJobIds: [...(preference.likedJobIds || [])].sort(),
-        archivedJobIds: [...(preference.archivedJobIds || [])].sort(),
-        appliedJobIds: [...(preference.appliedJobIds || [])].sort(),
-        addedJobs: preference.addedJobs || [],
-      }]),
+      .filter(([, preference]) =>
+        preference.liked ||
+        preference.disliked ||
+        preference.archived ||
+        preference.likedJobIds?.length ||
+        preference.archivedJobIds?.length ||
+        preference.appliedJobIds?.length ||
+        preference.addedJobs?.length,
+      )
+      .sort(([left], [right]) => left.localeCompare(right))
+      .map(([key, preference]) => [
+        key,
+        {
+          liked: !!preference.liked,
+          disliked: !!preference.disliked,
+          archived: !!preference.archived,
+          likedJobIds: [...(preference.likedJobIds || [])].sort(),
+          archivedJobIds: [...(preference.archivedJobIds || [])].sort(),
+          appliedJobIds: [...(preference.appliedJobIds || [])].sort(),
+          addedJobs: preference.addedJobs || [],
+        },
+      ]),
   );
-  const catalogPreferencesRef = useRef(catalogPreferencesKey);
-  catalogPreferencesRef.current = catalogPreferencesKey;
   const requestKey = JSON.stringify([
     group.key,
     filter,
@@ -149,7 +157,9 @@ export function CompanyDirectoryGroupSection({
 
   useEffect(() => {
     const controller = new AbortController();
-    const savedPreferences = Object.fromEntries(JSON.parse(catalogPreferencesRef.current)) as Record<string, CompanyPreference>;
+    const savedPreferences = Object.fromEntries(
+      JSON.parse(catalogPreferencesKey),
+    ) as Record<string, CompanyPreference>;
     const liked = Object.entries(savedPreferences)
       .filter(([, preference]) => preference.liked)
       .map(([key]) => key);
@@ -160,7 +170,11 @@ export function CompanyDirectoryGroupSection({
       .filter(([, preference]) => preference.archived)
       .map(([key]) => key);
     const savedJobs = Object.entries(savedPreferences)
-      .filter(([, preference]) => (preference.likedJobIds || []).length > 0 || (preference.addedJobs || []).length > 0)
+      .filter(
+        ([, preference]) =>
+          (preference.likedJobIds || []).length > 0 ||
+          (preference.addedJobs || []).length > 0,
+      )
       .map(([key, preference]) => ({
         key,
         likedJobIds: preference.likedJobIds || [],
@@ -213,7 +227,6 @@ export function CompanyDirectoryGroupSection({
         onSummary(group.key, {
           total: next.total,
           categoryCounts: next.categoryCounts,
-          stats: next.stats,
         });
       }
       setPages((current) =>
@@ -274,7 +287,6 @@ export function CompanyDirectoryGroupSection({
             onSummary(group.key, {
               total: summary.total,
               categoryCounts: summary.categoryCounts,
-              stats: summary.stats,
             });
             summaryLoadedKeyRef.current = summaryKey;
           })
@@ -310,6 +322,7 @@ export function CompanyDirectoryGroupSection({
     country,
     queryTab,
     requestKey,
+    summaryKey,
     onVisibleCompaniesChange,
     onCountryOptionsChange,
   ]);

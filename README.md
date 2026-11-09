@@ -47,6 +47,11 @@ node scripts/import-company-batches.mjs .\company-batch.json
 
 The `POST /api/comp/enrich` endpoint validates source and job URLs, upserts repeated companies by domain or normalized name, and preserves prior evidence. Mongo-backed batches appear in the catalog when MongoDB is configured; the bundled catalog remains available as a fallback.
 
+## Repository structure
+
+The company directory feature layout and staged cleanup plan are in
+[docs/REPOSITORY_STRUCTURE.md](./docs/REPOSITORY_STRUCTURE.md).
+
 ## Comp algorithm
 
 The company discovery, matching, deduplication, and preference-learning method is a product core owned by Allan, as specified by the product owner. Its source strategy, learned signals, and implementation are treated as private product IP intended for future commercialization.

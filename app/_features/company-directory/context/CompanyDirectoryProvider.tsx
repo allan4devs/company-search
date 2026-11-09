@@ -3,10 +3,10 @@
 import { useState } from "react";
 import type { CompanyCard } from "@/lib/comp/catalog";
 import type { CompanyCategory } from "@/lib/comp/categories";
-import type { CompanyDirectoryMainFilter } from "./company-directory.constants";
-import { useCompanyDirectoryData } from "./hooks/use-company-directory-data";
-import { useCompanyDirectoryPreferences } from "./hooks/use-company-directory-preferences";
-import { CompanyDirectoryView } from "./components/CompanyDirectoryView";
+import type { CompanyDirectoryMainFilter } from "../constants/directory";
+import { useCompanyDirectoryData } from "../hooks/use-company-directory-data";
+import { useCompanyDirectoryPreferences } from "../hooks/use-company-directory-preferences";
+import { CompanyDirectoryView } from "../components/CompanyDirectoryView";
 
 type Props = { initialCompanies: CompanyCard[]; initialCategories: CompanyCategory[] };
 

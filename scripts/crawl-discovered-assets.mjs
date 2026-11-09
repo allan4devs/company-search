@@ -5,7 +5,15 @@ import os from "node:os";
 import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const sourcePath = path.join(root, "company-crawl-results.json");
+const sourcePath = path.join(
+  root,
+  "company-batches",
+  "historyc",
+  "2026-11-07",
+  "batch-runs",
+  "company-site-crawl",
+  "company-crawl-results.json",
+);
 const source = JSON.parse(await fs.readFile(sourcePath, "utf8"));
 const journalDir = process.env.ASSET_CRAWL_DIR || path.join(os.tmpdir(), "company-asset-crawl");
 await fs.mkdir(journalDir, { recursive: true });

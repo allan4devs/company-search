@@ -1,6 +1,6 @@
 "use client";
 
-import { COMPANY_GROUPS } from "../company-directory.constants";
+import { COMPANY_GROUPS } from "../constants/directory";
 import {
   CompanyDirectoryGroupSection,
   type CompanyDirectoryGroupSectionProps,

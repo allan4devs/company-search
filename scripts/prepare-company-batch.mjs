@@ -126,7 +126,10 @@ async function main() {
     else if (domainMatch || nameMatch) { status = "duplicate"; reason = `duplicate within this cohort${domainMatch ? ` by ${validation.domain}` : ` by name ${nameMatch}`}`; }
     if (status === "verified" && accepted.length >= options.limit) { status = "lead"; reason = `verified but beyond the ${options.limit}-company output limit`; }
     if (status === "verified") {
-      const { queryLane, searchLane, lane, sourceUrl, notes, canonicalDomain, ...record } = company;
+      const record = { ...company };
+      for (const field of ["queryLane", "searchLane", "lane", "sourceUrl", "notes", "canonicalDomain"]) {
+        delete record[field];
+      }
       record.tags = [...new Set(["new", ...(Array.isArray(record.tags) ? record.tags : [])])];
       accepted.push(record);
       seenNames.set(normalizedName, record.name);

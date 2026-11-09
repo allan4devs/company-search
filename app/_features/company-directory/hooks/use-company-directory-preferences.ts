@@ -4,9 +4,10 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import type { Dispatch, SetStateAction } from "react";
 import type { CompanyCard } from "@/lib/comp/catalog";
 import { validatePreference, type CompanyPreference } from "@/lib/comp/types";
-import { COMPANY_PREFERENCES_CACHE_KEY, COMPANY_PREFERENCES_KEY } from "../company-directory.constants";
-import { matchesCompanyCategory, safeCareersUrl } from "../company-directory.helpers";
-import type { CompanyDirectoryMainFilter } from "../company-directory.constants";
+import { COMPANY_PREFERENCES_CACHE_KEY, COMPANY_PREFERENCES_KEY } from "../constants/storage";
+import { matchesCompanyCategory } from "@/lib/comp/categories";
+import { safeCareersUrl } from "../lib/urls";
+import type { CompanyDirectoryMainFilter } from "../constants/directory";
 
 export function useCompanyDirectoryPreferences(
   companies: CompanyCard[],
@@ -206,5 +207,3 @@ export function useCompanyDirectoryPreferences(
 
   return { preferences, setPreferences, copied, setCopied, reaction, setReaction, updatePreference, saveCareers, clearNotice };
 }
-
-export const CompanyDirectoryPreferences = useCompanyDirectoryPreferences;
