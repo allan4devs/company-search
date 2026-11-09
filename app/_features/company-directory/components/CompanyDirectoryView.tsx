@@ -1,16 +1,18 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
-import { X } from "lucide-react";
 import type { CompanyCard } from "@/lib/comp/catalog";
 import type { CompanyPreference } from "@/lib/comp/types";
 import type { CompanyDirectoryMainFilter } from "../constants/directory";
 import type { CompanyDirectoryViewData } from "../types";
+import { useCompanyDirectoryJobActions } from "../hooks/use-company-directory-job-actions";
 import { useCompanyDirectorySummary } from "../hooks/use-company-directory-summary";
 import { CompanyDirectoryTopbar } from "./CompanyDirectoryTopbar";
 import { CompanyDirectoryTabs } from "./CompanyDirectoryTabs";
 import { AllCompaniesDirectorySection } from "./AllCompaniesDirectorySection";
 import { CompanyDirectoryDetailPanel } from "./CompanyDirectoryDetailPanel";
+import { CompanyDirectoryJobDialog } from "./CompanyDirectoryJobDialog";
+import { CompanyDirectoryUndoToast } from "./CompanyDirectoryUndoToast";
 import styles from "./CompanyDirectoryView.module.css";
 
 type Props = CompanyDirectoryViewData;
@@ -29,15 +31,6 @@ export function CompanyDirectoryView({
   const [editingCareers, setEditingCareers] = useState(false);
   const [careersDraft, setCareersDraft] = useState("");
   const companyConfigRef = useRef<HTMLDetailsElement>(null);
-  const [jobTitle, setJobTitle] = useState("");
-  const [jobUrl, setJobUrl] = useState("");
-  const [jobLocation, setJobLocation] = useState("");
-  const [editingJobId, setEditingJobId] = useState<string | null>(null);
-  const [jobModalOpen, setJobModalOpen] = useState(false);
-  const jobDialogRef = useRef<HTMLDialogElement>(null);
-  const [addingJob, setAddingJob] = useState(false);
-  const [sharingJobId, setSharingJobId] = useState<string | null>(null);
-  const [shareLink, setShareLink] = useState("");
   const [keywordQuery, setKeywordQuery] = useState("");
   const [latamCostaRicaFilter, setLatamCostaRicaFilter] = useState(false);
   const [hideWithoutDomain, setHideWithoutDomain] = useState(false);
@@ -51,26 +44,71 @@ export function CompanyDirectoryView({
   } | null>(null);
   const undoActionId = useRef(0);
   const [selectionRestored, setSelectionRestored] = useState(false);
-  const selectCompany = useCallback((company: CompanyCard | null) => {
-    setSelectedCompany(company);
-    setEditingCareers(false);
-    setCareersDraft("");
-    if (companyConfigRef.current) companyConfigRef.current.open = false;
-    setJobTitle("");
-    setJobUrl("");
-    setJobLocation("");
-    setEditingJobId(null);
-    setJobModalOpen(false);
-    setAddingJob(false);
-    setSharingJobId(null);
-    setShareLink("");
-  }, []);
-  useEffect(() => {
-    const dialog = jobDialogRef.current;
-    if (!dialog) return;
-    if (jobModalOpen && !dialog.open) dialog.showModal();
-    if (!jobModalOpen && dialog.open) dialog.close();
-  }, [jobModalOpen]);
+  const selectedPreference = selectedCompany
+    ? preferences.preferences[selectedCompany.key] ||
+      selectedCompany.legacyKeys
+        ?.map((key) => preferences.preferences[key])
+        .find(Boolean)
+    : undefined;
+  const selectedJobs = selectedCompany
+    ? [...selectedCompany.jobs, ...(selectedPreference?.addedJobs || [])]
+    : [];
+  const savedJobIds = selectedPreference?.likedJobIds || [];
+  const visibleSelectedJobs = jobListFilters.includes(tab)
+    ? selectedJobs.filter((job) => {
+        const jobId = job.id || job.url;
+        const isSaved =
+          savedJobIds.includes(jobId) ||
+          savedJobIds.includes(job.url) ||
+          selectedPreference?.addedJobs?.some((addedJob) => addedJob.id === job.id || addedJob.url === job.url);
+        const isApplied = selectedPreference?.appliedJobIds?.includes(jobId) || selectedPreference?.appliedJobIds?.includes(job.url) || false;
+        const isArchived = selectedPreference?.archivedJobIds?.includes(jobId) || selectedPreference?.archivedJobIds?.includes(job.url) || false;
+        if (!isSaved) return false;
+        if (tab === "applied-jobs") return isApplied && !isArchived;
+        if (tab === "archived-jobs") return isArchived;
+        return !isArchived;
+      })
+    : selectedJobs;
+
+  const jobActions = useCompanyDirectoryJobActions({
+    data,
+    preferences,
+    selectedCompany,
+    selectedPreference,
+    selectedJobs,
+  });
+  const {
+    addingJob,
+    addJob,
+    closeJobModal,
+    editJob,
+    editingJobId,
+    jobLocation,
+    jobModalOpen,
+    jobTitle,
+    jobUrl,
+    openJobModal,
+    removeJob,
+    resetJobForm,
+    setJobLocation,
+    setJobTitle,
+    setJobUrl,
+    shareJob,
+    shareLink,
+    sharingJobId,
+  } = jobActions;
+
+  const selectCompany = useCallback(
+    (company: CompanyCard | null) => {
+      setSelectedCompany(company);
+      setEditingCareers(false);
+      setCareersDraft("");
+      if (companyConfigRef.current) companyConfigRef.current.open = false;
+      resetJobForm();
+    },
+    [resetJobForm],
+  );
+
   useEffect(() => {
     try {
       const saved = sessionStorage.getItem("cv-selected-company-v1");
@@ -106,31 +144,7 @@ export function CompanyDirectoryView({
     window.addEventListener("keydown", closeOnEscape);
     return () => window.removeEventListener("keydown", closeOnEscape);
   }, [selectedCompany, selectCompany]);
-  const selectedPreference = selectedCompany
-    ? preferences.preferences[selectedCompany.key] ||
-      selectedCompany.legacyKeys
-        ?.map((key) => preferences.preferences[key])
-        .find(Boolean)
-    : undefined;
-  const selectedJobs = selectedCompany
-    ? [...selectedCompany.jobs, ...(selectedPreference?.addedJobs || [])]
-    : [];
-  const savedJobIds = selectedPreference?.likedJobIds || [];
-  const visibleSelectedJobs = jobListFilters.includes(tab)
-    ? selectedJobs.filter((job) => {
-        const jobId = job.id || job.url;
-        const isSaved =
-          savedJobIds.includes(jobId) ||
-          savedJobIds.includes(job.url) ||
-          selectedPreference?.addedJobs?.some((addedJob) => addedJob.id === job.id || addedJob.url === job.url);
-        const isApplied = selectedPreference?.appliedJobIds?.includes(jobId) || selectedPreference?.appliedJobIds?.includes(job.url) || false;
-        const isArchived = selectedPreference?.archivedJobIds?.includes(jobId) || selectedPreference?.archivedJobIds?.includes(job.url) || false;
-        if (!isSaved) return false;
-        if (tab === "applied-jobs") return isApplied && !isArchived;
-        if (tab === "archived-jobs") return isArchived;
-        return !isArchived;
-      })
-    : selectedJobs;
+
   useEffect(() => {
     if (!undoAction) return;
     const timeout = window.setTimeout(() => setUndoAction(null), 5000);
@@ -200,55 +214,10 @@ export function CompanyDirectoryView({
     setUndoAction(null);
     await preferences.updatePreference(action.key, action.restore);
   };
-  const addJob = async (event: React.FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
-    if (!selectedCompany) return;
-    setAddingJob(true);
-    const job = {
-        id: editingJobId || `manual-${Date.now()}`,
-        title: jobTitle.trim(),
-        url: jobUrl.trim(),
-        location: jobLocation.trim(),
-      };
-    const addedJobs = editingJobId
-      ? (selectedPreference?.addedJobs || []).map((item) => item.id === editingJobId ? { ...item, ...job } : item)
-      : [...(selectedPreference?.addedJobs || []), job];
-    if (
-      await preferences.updatePreference(selectedCompany.key, { addedJobs })
-    ) {
-      setJobTitle("");
-      setJobUrl("");
-      setJobLocation("");
-      setEditingJobId(null);
-      setJobModalOpen(false);
-    }
-    setAddingJob(false);
-  };
-  const editJob = (job: CompanyCard["jobs"][number]) => {
-    setEditingJobId(job.id || null);
-    setJobTitle(job.title || "");
-    setJobUrl(job.url || "");
-    setJobLocation(job.location || "");
-    setJobModalOpen(true);
-  };
   const editListedJob = (company: CompanyCard, job: CompanyCard["jobs"][number]) => {
     const fullCompany = data.companies.find((item) => item.key === company.key) || company;
     selectCompany(fullCompany);
     editJob(job);
-  };
-  const openJobModal = () => {
-    setEditingJobId(null);
-    setJobTitle("");
-    setJobUrl("");
-    setJobLocation("");
-    setJobModalOpen(true);
-  };
-  const closeJobModal = () => {
-    setJobModalOpen(false);
-    setEditingJobId(null);
-    setJobTitle("");
-    setJobUrl("");
-    setJobLocation("");
   };
   const closeCompanyConfig = () => {
     if (companyConfigRef.current) companyConfigRef.current.open = false;
@@ -294,43 +263,6 @@ export function CompanyDirectoryView({
       (await preferences.saveCareers(selectedCompany, careersDraft))
     ) {
       setEditingCareers(false);
-    }
-  };
-  const removeJob = async (jobId: string) => {
-    if (!selectedCompany || !window.confirm("Remove this job?")) return;
-    const jobUrl = selectedJobs.find((job) => job.id === jobId)?.url;
-    const removedIds = new Set([jobId, jobUrl].filter((id): id is string => !!id));
-    await preferences.updatePreference(selectedCompany.key, {
-      addedJobs: (selectedPreference?.addedJobs || []).filter((job) => job.id !== jobId),
-      likedJobIds: (selectedPreference?.likedJobIds || []).filter((id) => !removedIds.has(id)),
-      archivedJobIds: (selectedPreference?.archivedJobIds || []).filter((id) => !removedIds.has(id)),
-      appliedJobIds: (selectedPreference?.appliedJobIds || []).filter((id) => !removedIds.has(id)),
-    });
-  };
-  const shareJob = async (job: CompanyCard["jobs"][number], fallbackId: string) => {
-    if (!selectedCompany) return;
-    const jobId = job.id || fallbackId;
-    setSharingJobId(jobId);
-    setShareLink("");
-    try {
-      const response = await fetch("/api/comp/share-job", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ companyName: selectedCompany.name, job }),
-      });
-      const payload = await response.json();
-      if (!response.ok) throw new Error(payload.error || "Could not create share link.");
-      const url = `${window.location.origin}/shared-job/${payload.id}`;
-      setShareLink(url);
-      try {
-        await navigator.clipboard.writeText(url);
-      } catch {
-        // The link remains visible for manual copying.
-      }
-    } catch (error) {
-      data.setNotice(error instanceof Error ? error.message : "Could not create share link.");
-    } finally {
-      setSharingJobId(null);
     }
   };
   return (
@@ -446,86 +378,25 @@ export function CompanyDirectoryView({
         shareJob={shareJob}
         shareLink={shareLink}
       />
-      <dialog
-        ref={jobDialogRef}
-        aria-labelledby="job-dialog-title"
-        className={styles.jobDialog}
-        onCancel={(event) => {
-          event.preventDefault();
-          closeJobModal();
-        }}
-        onClick={(event) => {
-          if (event.target === event.currentTarget) closeJobModal();
-        }}
-      >
-        <section className={styles.jobDialogContent}>
-          <header className="mb-3 flex items-center justify-between gap-4">
-            <h2 id="job-dialog-title" className="text-sm font-semibold text-zinc-100">
-              {editingJobId ? "Edit job" : "Add a job"}
-            </h2>
-            <button
-              type="button"
-              onClick={closeJobModal}
-              aria-label="Close job dialog"
-              className="rounded-lg p-1.5 text-zinc-400 hover:bg-zinc-800 hover:text-white"
-            >
-              <X size={18} />
-            </button>
-          </header>
-          <form onSubmit={addJob} className="space-y-3">
-            <input
-              required
-              value={jobTitle}
-              onChange={(event) => setJobTitle(event.target.value)}
-              placeholder="Job title"
-              aria-label="Job title"
-              autoFocus
-              className={styles.jobInput}
-            />
-            <input
-              required
-              type="url"
-              value={jobUrl}
-              onChange={(event) => setJobUrl(event.target.value)}
-              placeholder="https://… job link"
-              aria-label="Job link"
-              className={styles.jobInput}
-            />
-            <input
-              value={jobLocation}
-              onChange={(event) => setJobLocation(event.target.value)}
-              placeholder="Location (optional)"
-              aria-label="Location (optional)"
-              className={styles.jobInput}
-            />
-            <button
-              disabled={!data.ready || addingJob}
-              className="rounded-lg bg-teal-300 px-4 py-2 text-sm font-semibold text-zinc-950 hover:bg-teal-200 disabled:opacity-50"
-            >
-              {addingJob ? "Saving…" : editingJobId ? "Save changes" : "Save job"}
-            </button>
-          </form>
-        </section>
-      </dialog>
+      <CompanyDirectoryJobDialog
+        open={jobModalOpen}
+        editingJobId={editingJobId}
+        addingJob={addingJob}
+        ready={data.ready}
+        jobTitle={jobTitle}
+        setJobTitle={setJobTitle}
+        jobUrl={jobUrl}
+        setJobUrl={setJobUrl}
+        jobLocation={jobLocation}
+        setJobLocation={setJobLocation}
+        onSubmit={addJob}
+        onClose={closeJobModal}
+      />
       </div>
-      {undoAction ? (
-        <div
-          key={undoAction.id}
-          role="status"
-          aria-live="polite"
-          aria-atomic="true"
-          className={styles.undoToast}
-        >
-          <span className="min-w-0 text-sm text-zinc-100">{undoAction.message}</span>
-          <button
-            type="button"
-            onClick={() => void undoLastAction()}
-            className="shrink-0 rounded-lg px-2 py-1 text-sm font-semibold text-teal-300 hover:bg-zinc-800 hover:text-teal-200 focus-visible:outline-2 focus-visible:outline-teal-300"
-          >
-            Undo
-          </button>
-        </div>
-      ) : null}
+      <CompanyDirectoryUndoToast
+        action={undoAction}
+        onUndo={() => void undoLastAction()}
+      />
     </main>
   );
 }
