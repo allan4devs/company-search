@@ -127,7 +127,7 @@ async function main() {
     if (status === "verified" && accepted.length >= options.limit) { status = "lead"; reason = `verified but beyond the ${options.limit}-company output limit`; }
     if (status === "verified") {
       const { queryLane, searchLane, lane, sourceUrl, notes, canonicalDomain, ...record } = company;
-      record.tags = ["new"];
+      record.tags = [...new Set(["new", ...(Array.isArray(record.tags) ? record.tags : [])])];
       accepted.push(record);
       seenNames.set(normalizedName, record.name);
       seenDomains.set(validation.domain, record.name);

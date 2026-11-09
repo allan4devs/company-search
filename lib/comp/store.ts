@@ -1,7 +1,6 @@
-import type { AnyBulkWriteOperation } from "mongodb";
+import type { AnyBulkWriteOperation, Collection } from "mongodb";
 import { getDb } from "@/lib/helpers/mongodb";
 import { COLLECTIONS } from "@/lib/constants/db";
-import { companies as seedCompanies } from "./companies";
 import {
   COMPANY_CATEGORIES,
   companyCategoryKeys,
@@ -27,39 +26,74 @@ type PreferenceRecord = CompanyPreference & {
 };
 export const SHARED_COMPANY_PREFERENCES_OWNER_ID =
   "__shared_company_directory__";
-let indexPromise: Promise<void> | null = null;
+type MigrationRecord = { _id: string; completedAt: Date };
 
-async function ensureIndexes() {
+const indexPromises = new Map<string, Promise<void>>();
+
+function ensureIndex(name: string, create: () => Promise<string>) {
+  let promise = indexPromises.get(name);
+  if (!promise) {
+    promise = create()
+      .then(() => undefined)
+      .catch((error) => {
+        indexPromises.delete(name);
+        throw error;
+      });
+    indexPromises.set(name, promise);
+  }
+  return promise;
+}
+
+async function ensureCompanyNameIndex() {
   const db = await getDb();
-  indexPromise ??= Promise.all([
+  await ensureIndex("company-name", () =>
     db
       .collection(COLLECTIONS.COMP_COMPANIES)
       .createIndex({ name: 1, _id: 1 }, { name: "comp_company_name_order" }),
-    db
-      .collection(COLLECTIONS.COMP_COMPANIES)
-      .createIndex(
-        { model: 1, name: 1, _id: 1 },
-        { name: "comp_company_model_name_order" },
-      ),
-    db
-      .collection(COLLECTIONS.COMP_COMPANIES)
-      .createIndex(
-        { "fit.status": 1, name: 1 },
-        { name: "comp_company_fit_status" },
-      ),
-    db
-      .collection(COLLECTIONS.COMP_CATEGORIES)
-      .createIndex({ order: 1, _id: 1 }, { name: "comp_category_order" }),
+  );
+}
+
+async function ensurePreferenceOwnerIndex() {
+  const db = await getDb();
+  await ensureIndex("preference-owner", () =>
     db
       .collection(COLLECTIONS.COMP_PREFERENCES)
       .createIndex({ ownerId: 1 }, { name: "comp_preferences_owner" }),
-  ])
-    .then(() => undefined)
-    .catch((error) => {
-      indexPromise = null;
-      throw error;
-    });
-  await indexPromise;
+  );
+}
+
+async function ensureCategoryOrderIndex() {
+  const db = await getDb();
+  await ensureIndex("category-order", () =>
+    db
+      .collection(COLLECTIONS.COMP_CATEGORIES)
+      .createIndex({ order: 1, _id: 1 }, { name: "comp_category_order" }),
+  );
+}
+
+async function ensureIndexes() {
+  const db = await getDb();
+  await Promise.all([
+    ensureCompanyNameIndex(),
+    ensurePreferenceOwnerIndex(),
+    ensureCategoryOrderIndex(),
+    ensureIndex("company-model-name", () =>
+      db
+        .collection(COLLECTIONS.COMP_COMPANIES)
+        .createIndex(
+          { model: 1, name: 1, _id: 1 },
+          { name: "comp_company_model_name_order" },
+        ),
+    ),
+    ensureIndex("company-fit-name", () =>
+      db
+        .collection(COLLECTIONS.COMP_COMPANIES)
+        .createIndex(
+          { "fit.status": 1, name: 1 },
+          { name: "comp_company_fit_status" },
+        ),
+    ),
+  ]);
 }
 
 function companyCategories(company: CompanyCard): string[] {
@@ -68,39 +102,47 @@ function companyCategories(company: CompanyCard): string[] {
 function preferenceCategories(preference: CompanyPreference): string[] {
   return preference.liked ? ["likes"] : preference.disliked ? ["dislikes"] : [];
 }
-export async function getCompanies(model?: string): Promise<CompanyCard[]> {
-  const db = await getDb();
-  await ensureIndexes();
-  const collection = db.collection<CompanyRecord>(COLLECTIONS.COMP_COMPANIES);
-  // Stable IDs make the initial import safe across concurrent requests and retries.
-  const migrations = db.collection<{ _id: string; completedAt: Date }>(
-    COLLECTIONS.COMP_MIGRATIONS,
-  );
+
+async function ensureSeedCompanies(
+  collection: Collection<CompanyRecord>,
+  migrations: Collection<MigrationRecord>,
+) {
   const migrationId = "catalog-v3";
-  if (!(await migrations.findOne({ _id: migrationId }))) {
-    await collection.bulkWrite(
-      seedCompanies.map((company) => ({
-        updateOne: {
-          filter: { _id: company.key },
-          update: {
-            $setOnInsert: {
-              ...company,
-              categories: companyCategories(company),
-            },
+  if (await migrations.findOne({ _id: migrationId })) return;
+
+  // The static JSON catalog is only needed when a database has not yet
+  // received its seed records. Keep it out of the normal page request path.
+  const { companies: seedCompanies } = await import("./companies");
+  await collection.bulkWrite(
+    seedCompanies.map((company) => ({
+      updateOne: {
+        filter: { _id: company.key },
+        update: {
+          $setOnInsert: {
+            ...company,
+            categories: companyCategories(company),
           },
-          upsert: true,
         },
-      })),
-    );
-    await migrations.updateOne(
-      { _id: migrationId },
-      { $set: { completedAt: new Date() } },
-      { upsert: true },
-    );
-  }
-  const categoriesMigrationId = "categories-v2";
-  if (!(await migrations.findOne({ _id: categoriesMigrationId }))) {
-    const existing = await collection.find({}).toArray();
+        upsert: true,
+      },
+    })),
+  );
+  await migrations.updateOne(
+    { _id: migrationId },
+    { $set: { completedAt: new Date() } },
+    { upsert: true },
+  );
+}
+
+async function ensureCompanyCategories(
+  collection: Collection<CompanyRecord>,
+  migrations: Collection<MigrationRecord>,
+) {
+  const migrationId = "categories-v2";
+  if (await migrations.findOne({ _id: migrationId })) return;
+
+  const existing = await collection.find({}).toArray();
+  if (existing.length) {
     await collection.bulkWrite(
       existing.map((company) => ({
         updateOne: {
@@ -109,19 +151,58 @@ export async function getCompanies(model?: string): Promise<CompanyCard[]> {
         },
       })),
     );
-    const savedPreferences = await preferences();
-    for (const preference of await savedPreferences.find({}).toArray()) {
-      await savedPreferences.updateOne(
-        { _id: preference._id },
-        { $set: { categories: preferenceCategories(preference) } },
-      );
-    }
-    await migrations.updateOne(
-      { _id: categoriesMigrationId },
-      { $set: { completedAt: new Date() } },
-      { upsert: true },
+  }
+  const savedPreferences = await preferences();
+  const savedPreferenceRows = await savedPreferences.find({}).toArray();
+  if (savedPreferenceRows.length) {
+    await savedPreferences.bulkWrite(
+      savedPreferenceRows.map((preference) => ({
+        updateOne: {
+          filter: { _id: preference._id },
+          update: { $set: { categories: preferenceCategories(preference) } },
+        },
+      })),
     );
   }
+  await migrations.updateOne(
+    { _id: migrationId },
+    { $set: { completedAt: new Date() } },
+    { upsert: true },
+  );
+}
+
+export async function getCompanyPage(page: number, pageSize: number) {
+  const db = await getDb();
+  await ensureCompanyNameIndex();
+  const collection = db.collection<CompanyRecord>(COLLECTIONS.COMP_COMPANIES);
+  const migrations = db.collection<MigrationRecord>(COLLECTIONS.COMP_MIGRATIONS);
+  await ensureSeedCompanies(collection, migrations);
+
+  const [rows, total] = await Promise.all([
+    collection
+      .find({}, { projection: { _id: 0 } })
+      .sort({ name: 1, _id: 1 })
+      .skip((page - 1) * pageSize)
+      .limit(pageSize)
+      .toArray(),
+    collection.countDocuments({}),
+  ]);
+  return {
+    companies: rows.map((company) => ({
+      ...company,
+      categories: companyCategories(company),
+    })),
+    total,
+  };
+}
+
+export async function getCompanies(model?: string): Promise<CompanyCard[]> {
+  const db = await getDb();
+  await ensureIndexes();
+  const collection = db.collection<CompanyRecord>(COLLECTIONS.COMP_COMPANIES);
+  const migrations = db.collection<MigrationRecord>(COLLECTIONS.COMP_MIGRATIONS);
+  await ensureSeedCompanies(collection, migrations);
+  await ensureCompanyCategories(collection, migrations);
   return collection
     .find(model ? { model } : {}, { projection: { _id: 0 } })
     .sort({ name: 1, _id: 1 })
@@ -284,7 +365,7 @@ export async function upsertCompanyEnrichments(
 
 export async function getCategories(): Promise<CompanyCategory[]> {
   const db = await getDb();
-  await ensureIndexes();
+  await ensureCategoryOrderIndex();
   const collection = db.collection<CompanyCategory & { _id: string }>(
     COLLECTIONS.COMP_CATEGORIES,
   );
@@ -318,7 +399,7 @@ const preferences = async () =>
 export async function getPreferences(
   ownerId: string,
 ): Promise<Record<string, CompanyPreference>> {
-  await ensureIndexes();
+  await ensurePreferenceOwnerIndex();
   const rows = await (await preferences()).find({ ownerId }).toArray();
   return Object.fromEntries(
     rows.map((row) => [
@@ -330,6 +411,8 @@ export async function getPreferences(
         careersUrl: row.careersUrl,
         imageUrl: row.imageUrl,
         likedJobIds: row.likedJobIds,
+        archivedJobIds: row.archivedJobIds,
+        appliedJobIds: row.appliedJobIds,
         addedJobs: row.addedJobs,
       },
     ]),

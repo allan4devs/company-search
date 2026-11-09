@@ -1,0 +1,278 @@
+{
+  "cohortId": "usa-latam-2026-p002-2026-11-08",
+  "checkedOn": "2026-11-08",
+  "cohortTag": "usa-latam-2026",
+  "reviewNotes": [
+    "USA cohort membership requires a first-party U.S. headquarters/office source and a dated 2026 engineering hiring source. Current postings show hiring intent and do not prove completed hires.",
+    "Caliza's U.S. location is supported by its 2026 SEC Form D principal-place-of-business address in Miami, Florida. The SEC record is registry evidence, not LATAM hiring evidence.",
+    "TRM Labs' 2026 federal award and company news are separate discovery/supporting sources; neither proves LATAM hiring. The current first-party LATAM software posting is the hiring evidence.",
+    "Six selected names already exist in the broad Comp catalog. Their domain/name matches in the saved Mongo snapshot are intentional upserts to add USA cohort evidence and tags, not new company records.",
+    "66degrees and Goodway Group were excluded from this batch: current company ATS pages did not provide a live LATAM software posting at review time. Siena AI was excluded from the USA cohort because its currently verified U.S. headquarters/office evidence was insufficient under the profile criteria."
+  ],
+  "intentionalExistingUpdates": [
+    { "name": "Backblaze", "canonicalKey": "backblaze.com", "dedupeAction": "update existing record by official root domain" },
+    { "name": "CodePath", "canonicalKey": "codepath.org", "dedupeAction": "update existing record by official root domain" },
+    { "name": "Wagmo", "canonicalKey": "wagmo", "dedupeAction": "update existing record by normalized company name; snapshot record has no website" },
+    { "name": "Sezzle", "canonicalKey": "sezzle.com", "dedupeAction": "update existing record by official root domain" },
+    { "name": "TRM Labs", "canonicalKey": "trmlabs.com", "dedupeAction": "update existing record by official root domain" },
+    { "name": "Glacier", "canonicalKey": "glacier.com", "dedupeAction": "update existing record by official root domain" }
+  ],
+  "overrides": {
+    "Caliza": {
+      "website": "https://www.caliza.com/",
+      "careersUrl": "https://jobs.lever.co/caliza-financial-technologies/",
+      "model": "direct",
+      "tracks": ["Software Engineering", "Backend", "Frontend", "DevOps"],
+      "locations": ["United States - Miami, Florida (principal place of business; SEC Form D)", "LATAM (remote software engineering roles; confirm country on posting)"],
+      "fitStatus": "strong",
+      "fitReason": "U.S. principal office is verified in SEC EDGAR; its official ATS shows 2026 software engineering roles open to remote LATAM candidates.",
+      "jobs": [
+        {
+          "id": "caliza-lever-e0519b77-10e5-4918-8c8d-521641fb3d76",
+          "title": "Senior Software Engineer, Front End, Dashboard",
+          "location": "Remote, LATAM",
+          "url": "https://jobs.lever.co/caliza-financial-technologies/e0519b77-10e5-4918-8c8d-521641fb3d76",
+          "workMode": "Remote",
+          "eligibility": "LATAM; confirm the eligible country and current application status on the employer ATS.",
+          "listingStatus": "Open on the employer ATS as checked 2026-11-08.",
+          "checkedOn": "2026-11-08",
+          "roles": ["Frontend", "Software Engineering"]
+        }
+      ],
+      "supportingEvidence": [
+        { "kind": "other", "url": "https://www.sec.gov/Archives/edgar/data/1879358/000187935826000001/xslFormDX01/primary_doc.xml", "note": "2026 SEC Form D lists Miami, Florida as Caliza Financial Technologies, Inc.'s principal place of business; this establishes U.S. location, not hiring." },
+        { "kind": "job-posting", "url": "https://jobs.lever.co/caliza-financial-technologies/e0519b77-10e5-4918-8c8d-521641fb3d76", "note": "Official Lever software engineering posting states remote LATAM eligibility; it shows hiring intent, not a completed hire." }
+      ]
+    },
+    "Tech Holding": {
+      "website": "https://techholding.co/",
+      "careersUrl": "https://techholding.co/careers/",
+      "model": "outsourcing",
+      "tracks": ["Software Engineering", "AI Engineering", "Consulting"],
+      "locations": ["United States - Los Angeles, California (headquarters)", "LATAM - Mexico (remote contract role)"],
+      "fitStatus": "strong",
+      "fitReason": "Its official site verifies Los Angeles headquarters and software services; the 2026 employer ATS has a remote-Mexico software engineer contract role.",
+      "jobs": [
+        {
+          "id": "techholding-greenhouse-4743075005",
+          "title": "Software Engineer, Spec-Driven AI Development | Contract | Remote, MX",
+          "location": "Mexico, Remote",
+          "url": "https://job-boards.greenhouse.io/techholding/jobs/4743075005",
+          "workMode": "Remote contract",
+          "eligibility": "Remote from Mexico; role supports a U.S.-based client team.",
+          "listingStatus": "Open on the employer ATS as checked 2026-11-08.",
+          "checkedOn": "2026-11-08",
+          "roles": ["Software Engineering", "AI Engineering"]
+        }
+      ],
+      "supportingEvidence": [
+        { "kind": "job-posting", "url": "https://job-boards.greenhouse.io/techholding/jobs/4743075005", "note": "Official Greenhouse posting states Software Engineer, contract, remote Mexico; hiring intent only." }
+      ]
+    },
+    "Utility Profit": {
+      "website": "https://www.utilityprofit.com/",
+      "careersUrl": "https://job-boards.greenhouse.io/utilityprofit",
+      "model": "direct",
+      "tracks": ["Software Engineering", "Frontend", "QA"],
+      "locations": ["United States - Austin, Texas (main office)", "LATAM (worldwide remote engineering role; Mexico preferred)"],
+      "fitStatus": "strong",
+      "fitReason": "Its official site lists the Austin main office; Greenhouse currently lists a full-stack engineering role worldwide with Mexico and U.S. preferred.",
+      "jobs": [
+        {
+          "id": "utilityprofit-greenhouse-4412541009",
+          "title": "Full Stack Software Engineer — AI & Automation",
+          "location": "Remote - Worldwide (Mexico and U.S. preferred)",
+          "url": "https://job-boards.greenhouse.io/utilityprofit/jobs/4412541009",
+          "workMode": "Remote",
+          "eligibility": "Worldwide; Mexico and U.S. preferred.",
+          "listingStatus": "Open on the employer ATS as checked 2026-11-08.",
+          "checkedOn": "2026-11-08",
+          "roles": ["Fullstack", "Software Engineering"]
+        }
+      ],
+      "supportingEvidence": [
+        { "kind": "job-posting", "url": "https://job-boards.greenhouse.io/utilityprofit/jobs/4412541009", "note": "Official Greenhouse posting states worldwide remote and names Mexico and the U.S. as preferred locations; hiring intent only." }
+      ]
+    },
+    "Omnissa": {
+      "website": "https://www.omnissa.com/",
+      "careersUrl": "https://omnissa.wd501.myworkdayjobs.com/en-US/Omnissa_External_Career_Site",
+      "model": "direct",
+      "tracks": ["Software Engineering", "Backend", "Cloud", "Security"],
+      "locations": ["United States - Mountain View, California (headquarters)", "LATAM - Mexico (remote software engineering role)"],
+      "fitStatus": "strong",
+      "fitReason": "Omnissa's official site identifies its California headquarters; Workday lists a full-time senior software engineering role remote from Mexico.",
+      "jobs": [
+        {
+          "id": "omnissa-workday-R-101623",
+          "title": "Sr. Software Engineer, C#.NET",
+          "location": "Remote - Mexico",
+          "url": "https://omnissa.wd501.myworkdayjobs.com/en-US/Omnissa_External_Career_Site/job/Sr-Software-Engineer--C-NET_R-101623",
+          "workMode": "Remote",
+          "eligibility": "Mexico, as stated in the employer Workday posting.",
+          "listingStatus": "Open; posted 30+ days ago and checked on the employer ATS 2026-11-08.",
+          "checkedOn": "2026-11-08",
+          "roles": ["Software Engineering", "Backend"]
+        }
+      ],
+      "supportingEvidence": [
+        { "kind": "job-posting", "url": "https://omnissa.wd501.myworkdayjobs.com/en-US/Omnissa_External_Career_Site/job/Sr-Software-Engineer--C-NET_R-101623", "note": "Official Workday posting lists a full-time senior software engineering role remote from Mexico; hiring intent only." }
+      ]
+    },
+    "Backblaze": {
+      "website": "https://backblaze.com/",
+      "careersUrl": "https://www.backblaze.com/company/jobs",
+      "model": "direct",
+      "tracks": ["Software Engineering", "Storage", "Cloud"],
+      "locations": ["United States - San Francisco, California (corporate headquarters)", "LATAM - Colombia, Costa Rica, Mexico (remote role)"],
+      "fitStatus": "strong",
+      "fitReason": "Backblaze verifies its U.S. headquarters in investor materials and currently lists a software engineering role open across three LATAM countries.",
+      "jobs": [
+        {
+          "id": "backblaze-greenhouse-5204960008",
+          "title": "Sr. Software Engineer",
+          "location": "Remote - Colombia; Costa Rica; Mexico",
+          "url": "https://job-boards.greenhouse.io/backblaze/jobs/5204960008",
+          "workMode": "Remote",
+          "eligibility": "Colombia, Costa Rica, or Mexico, as stated in the employer posting.",
+          "listingStatus": "Open on the employer ATS as checked 2026-11-08.",
+          "checkedOn": "2026-11-08",
+          "roles": ["Software Engineering"]
+        }
+      ],
+      "supportingEvidence": [
+        { "kind": "job-posting", "url": "https://job-boards.greenhouse.io/backblaze/jobs/5204960008", "note": "Official Greenhouse posting lists the role in Colombia, Costa Rica, and Mexico; hiring intent only." }
+      ]
+    },
+    "CodePath": {
+      "website": "https://codepath.org/",
+      "careersUrl": "https://job-boards.greenhouse.io/codepath",
+      "model": "direct",
+      "tracks": ["Software Engineering", "Platform Engineering"],
+      "locations": ["United States - San Francisco, California (organizational address)", "LATAM (Staff Software Engineer posting accepts LATAM applicants)"],
+      "fitStatus": "strong",
+      "fitReason": "CodePath lists a San Francisco address and has a current full-time Staff Software Engineer role explicitly open to remote LATAM applicants.",
+      "jobs": [
+        {
+          "id": "codepath-greenhouse-5212924007",
+          "title": "Staff Software Engineer",
+          "location": "Remote - United States, Europe, Canada, or LATAM",
+          "url": "https://job-boards.greenhouse.io/codepath/jobs/5212924007",
+          "workMode": "Remote",
+          "eligibility": "United States, Europe, Canada, or LATAM; compensation is adjusted by applicant location.",
+          "listingStatus": "Open on the employer ATS as checked 2026-11-08.",
+          "checkedOn": "2026-11-08",
+          "roles": ["Software Engineering", "Fullstack"]
+        }
+      ],
+      "supportingEvidence": [
+        { "kind": "job-posting", "url": "https://job-boards.greenhouse.io/codepath/jobs/5212924007", "note": "Official Greenhouse posting states remote LATAM eligibility and location-adjusted compensation; hiring intent only." }
+      ]
+    },
+    "Wagmo": {
+      "website": "https://wagmo.io/",
+      "careersUrl": "https://jobs.ashbyhq.com/wagmo",
+      "model": "direct",
+      "tracks": ["Software Engineering", "Backend", "AI Engineering"],
+      "locations": ["United States - New York City (headquarters)", "LATAM (remote senior software engineering role)"],
+      "fitStatus": "strong",
+      "fitReason": "Wagmo's first-party ATS states its New York headquarters and lists a full-time Senior Software Engineer role based remotely in Latin America.",
+      "jobs": [
+        {
+          "id": "wagmo-ashby-dbf4dc55-274c-4787-ae01-391d9d93551e",
+          "title": "Senior Software Engineer - LATAM",
+          "location": "Remote - Latin America",
+          "url": "https://jobs.ashbyhq.com/wagmo/dbf4dc55-274c-4787-ae01-391d9d93551e",
+          "workMode": "Remote",
+          "eligibility": "Latin America; at least six hours of overlap with U.S. Eastern Time.",
+          "listingStatus": "Open on the employer ATS as checked 2026-11-08.",
+          "checkedOn": "2026-11-08",
+          "roles": ["Software Engineering", "Backend"]
+        }
+      ],
+      "supportingEvidence": [
+        { "kind": "job-posting", "url": "https://jobs.ashbyhq.com/wagmo/dbf4dc55-274c-4787-ae01-391d9d93551e", "note": "Official Ashby posting identifies a full-time remote LATAM software engineering role and states Wagmo is headquartered in New York City; hiring intent only." }
+      ]
+    },
+    "Sezzle": {
+      "website": "https://sezzle.com/",
+      "careersUrl": "https://job-boards.greenhouse.io/sezzle",
+      "model": "direct",
+      "tracks": ["Software Engineering", "Payments", "Security"],
+      "locations": ["United States - Minneapolis, Minnesota (principal executive office)", "LATAM (remote software engineering role)"],
+      "fitStatus": "strong",
+      "fitReason": "Sezzle's 2026 SEC filing gives its Minneapolis principal office; the active employer ATS lists a Software Engineer II role for LATAM.",
+      "jobs": [
+        {
+          "id": "sezzle-greenhouse-6502997003",
+          "title": "Software Engineer II (LATAM)",
+          "location": "Latin America",
+          "url": "https://job-boards.greenhouse.io/sezzle/jobs/6502997003",
+          "workMode": "Remote",
+          "eligibility": "Latin America, as stated in the employer posting.",
+          "listingStatus": "Open on the employer ATS as checked 2026-11-08.",
+          "checkedOn": "2026-11-08",
+          "roles": ["Software Engineering"]
+        }
+      ],
+      "supportingEvidence": [
+        { "kind": "other", "url": "https://assets.ctfassets.net/6d085vujy22q/3vf0bMHAdjEjvn0TBD8L1S/c5111ee865ac123d6266a4e916979ef5/10-K_-_Sezzle_INC_-_02-26-2026.pdf", "note": "2026 Form 10-K lists Sezzle Inc.'s principal executive offices in Minneapolis, Minnesota." },
+        { "kind": "job-posting", "url": "https://job-boards.greenhouse.io/sezzle/jobs/6502997003", "note": "Official Greenhouse posting lists Software Engineer II (LATAM); hiring intent only." }
+      ]
+    },
+    "TRM Labs": {
+      "website": "https://www.trmlabs.com/",
+      "careersUrl": "https://www.trmlabs.com/careers?team=product",
+      "model": "direct",
+      "tracks": ["Software Engineering", "Backend", "Data Engineering", "Security"],
+      "locations": ["United States - San Francisco, California (headquarters)", "LATAM - South America (remote software engineering role)"],
+      "fitStatus": "strong",
+      "fitReason": "TRM's official sources identify its San Francisco headquarters and a current remote South America backend role; a 2026 federal award is discovery context only.",
+      "jobs": [
+        {
+          "id": "trmlabs-ashby-3500a697-6f75-42b9-ac08-a74fabf99558",
+          "title": "Backend Engineer, Agent Tools (LATAM)",
+          "location": "South America",
+          "url": "https://jobs.ashbyhq.com/trm-labs/3500a697-6f75-42b9-ac08-a74fabf99558?workplaceType=Remote",
+          "workMode": "Remote",
+          "eligibility": "South America (LATAM), as stated in the employer ATS.",
+          "listingStatus": "Open on the employer ATS and listed on the official careers board as checked 2026-11-08.",
+          "checkedOn": "2026-11-08",
+          "roles": ["Software Engineering", "Backend"]
+        }
+      ],
+      "supportingEvidence": [
+        { "kind": "job-posting", "url": "https://jobs.ashbyhq.com/trm-labs/3500a697-6f75-42b9-ac08-a74fabf99558?workplaceType=Remote", "note": "Official ATS states a remote South America Backend Engineer role; hiring intent only." },
+        { "kind": "careers-page", "url": "https://www.trmlabs.com/careers?team=product", "note": "The official careers board lists Backend Engineer, Agent Tools (LATAM), Remote, South America." },
+        { "kind": "official-site", "url": "https://jobs.ashbyhq.com/trm-labs/1eff4d33-7cf1-4682-a548-dcc4abd913f3", "note": "Official TRM ATS description identifies San Francisco headquarters and U.S. hubs." },
+        { "kind": "other", "url": "https://sam.gov/workspace/contract/opp/de13f532c542434c80a3c82002582719/view", "note": "2026 DHS/SAM.gov software-services award surfaced TRM as a public-sector vendor; this award does not establish LATAM hiring." },
+        { "kind": "official-site", "url": "https://www.trmlabs.com/resources/blog/trm-labs-announces-series-c-expansion-at-usd-2-billion-valuation-to-continue-building-crimefighting-ai", "note": "Company blog/newsroom source on 2026 company growth; it is not hiring evidence." }
+      ]
+    },
+    "Glacier": {
+      "website": "https://glacier.com/",
+      "careersUrl": "https://jobs.ashbyhq.com/glacier",
+      "model": "direct",
+      "tracks": ["Software Engineering", "Robotics", "AI", "Platform Engineering"],
+      "locations": ["United States - San Francisco, California (company base)", "LATAM - South America (remote role; joins existing LATAM Fleet software team)"],
+      "fitStatus": "strong",
+      "fitReason": "Glacier's official posting identifies its San Francisco base and says this remote role joins an existing three-person LATAM Fleet software engineering team.",
+      "jobs": [
+        {
+          "id": "glacier-ashby-d6e59c2e-bead-42f8-bd45-055e71e0b844",
+          "title": "System Engineer, Fleet Support - Fully Remote USD - South America",
+          "location": "Remote Latin America based",
+          "url": "https://jobs.ashbyhq.com/glacier/d6e59c2e-bead-42f8-bd45-055e71e0b844/",
+          "workMode": "Remote contract",
+          "eligibility": "Latin America; onboarding and coverage hours are aligned to Pacific Time.",
+          "listingStatus": "Open on the employer ATS as checked 2026-11-08.",
+          "checkedOn": "2026-11-08",
+          "roles": ["Software Engineering", "Systems Engineering"]
+        }
+      ],
+      "supportingEvidence": [
+        { "kind": "job-posting", "url": "https://jobs.ashbyhq.com/glacier/d6e59c2e-bead-42f8-bd45-055e71e0b844/", "note": "Official Ashby posting states the role is fully remote from Latin America and joins an existing three-person LATAM Fleet software engineering team." }
+      ]
+    }
+  }
+}

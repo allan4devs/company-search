@@ -1,0 +1,726 @@
+{
+  "cohortId": "usa-latam-2026-p002-2026-11-08",
+  "checkedOn": "2026-11-08",
+  "inputFiles": [
+    "company-batches\\usa-latam-2026-p002-raw-leads.json"
+  ],
+  "inputCount": 22,
+  "uniqueCount": 6,
+  "outputCount": 6,
+  "duplicateCount": 16,
+  "missingIdentityCount": 0,
+  "catalog": {
+    "source": "saved MongoDB snapshot + bundled files",
+    "mongoCompanies": 1622,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 0,
+    "indexedNames": 1646,
+    "indexedDomains": 1591
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 113,
+    "topTracks": [
+      {
+        "track": "Software Engineering",
+        "count": 54
+      },
+      {
+        "track": "Engineering",
+        "count": 38
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Full Stack",
+        "count": 6
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "Java",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Backend",
+        "count": 3
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        66
+      ],
+      [
+        "direct",
+        26
+      ],
+      [
+        "unknown",
+        21
+      ]
+    ]
+  },
+  "dislikeBaseline": {
+    "activeDislikedWithCostaRicaOrLatamEvidence": 407,
+    "dislikedTracks": [
+      {
+        "track": "Software Engineering",
+        "count": 321
+      },
+      {
+        "track": "Engineering",
+        "count": 62
+      },
+      {
+        "track": "Backend",
+        "count": 11
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 10
+      },
+      {
+        "track": "Nearshore",
+        "count": 8
+      },
+      {
+        "track": "Full Stack",
+        "count": 6
+      },
+      {
+        "track": "Full-stack",
+        "count": 6
+      },
+      {
+        "track": "Fintech",
+        "count": 5
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "Data Engineering",
+        "count": 4
+      },
+      {
+        "track": "Cybersecurity",
+        "count": 4
+      },
+      {
+        "track": "Java Backend",
+        "count": 3
+      }
+    ],
+    "modelMix": [
+      [
+        "unknown",
+        242
+      ],
+      [
+        "outsourcing",
+        101
+      ],
+      [
+        "direct",
+        64
+      ]
+    ]
+  },
+  "preferenceContrast": {
+    "scope": "Active liked/disliked companies with explicit Costa Rica or LATAM evidence; each company counts once per feature.",
+    "likedCompanies": 113,
+    "dislikedCompanies": 407,
+    "models": [
+      {
+        "feature": "outsourcing",
+        "likedCount": 66,
+        "likedRate": 0.584,
+        "dislikedCount": 101,
+        "dislikedRate": 0.248,
+        "likedMinusDisliked": 0.336
+      },
+      {
+        "feature": "direct",
+        "likedCount": 26,
+        "likedRate": 0.23,
+        "dislikedCount": 64,
+        "dislikedRate": 0.157,
+        "likedMinusDisliked": 0.073
+      },
+      {
+        "feature": "unknown",
+        "likedCount": 21,
+        "likedRate": 0.186,
+        "dislikedCount": 242,
+        "dislikedRate": 0.595,
+        "likedMinusDisliked": -0.409
+      }
+    ],
+    "tracks": [
+      {
+        "feature": "Engineering",
+        "likedCount": 38,
+        "likedRate": 0.336,
+        "dislikedCount": 62,
+        "dislikedRate": 0.152,
+        "likedMinusDisliked": 0.184
+      },
+      {
+        "feature": "Nearshore",
+        "likedCount": 9,
+        "likedRate": 0.08,
+        "dislikedCount": 8,
+        "dislikedRate": 0.02,
+        "likedMinusDisliked": 0.06
+      },
+      {
+        "feature": "Java",
+        "likedCount": 6,
+        "likedRate": 0.053,
+        "dislikedCount": 2,
+        "dislikedRate": 0.005,
+        "likedMinusDisliked": 0.048
+      },
+      {
+        "feature": "Full Stack",
+        "likedCount": 6,
+        "likedRate": 0.053,
+        "dislikedCount": 6,
+        "dislikedRate": 0.015,
+        "likedMinusDisliked": 0.038
+      },
+      {
+        "feature": "React + Node Full Stack",
+        "likedCount": 5,
+        "likedRate": 0.044,
+        "dislikedCount": 3,
+        "dislikedRate": 0.007,
+        "likedMinusDisliked": 0.037
+      },
+      {
+        "feature": "React",
+        "likedCount": 4,
+        "likedRate": 0.035,
+        "dislikedCount": 2,
+        "dislikedRate": 0.005,
+        "likedMinusDisliked": 0.03
+      },
+      {
+        "feature": "Java + React Full Stack",
+        "likedCount": 6,
+        "likedRate": 0.053,
+        "dislikedCount": 10,
+        "dislikedRate": 0.025,
+        "likedMinusDisliked": 0.029
+      },
+      {
+        "feature": "Python",
+        "likedCount": 4,
+        "likedRate": 0.035,
+        "dislikedCount": 4,
+        "dislikedRate": 0.01,
+        "likedMinusDisliked": 0.026
+      },
+      {
+        "feature": "JavaScript",
+        "likedCount": 3,
+        "likedRate": 0.027,
+        "dislikedCount": 2,
+        "dislikedRate": 0.005,
+        "likedMinusDisliked": 0.022
+      },
+      {
+        "feature": "Full-stack",
+        "likedCount": 4,
+        "likedRate": 0.035,
+        "dislikedCount": 6,
+        "dislikedRate": 0.015,
+        "likedMinusDisliked": 0.021
+      },
+      {
+        "feature": "Product Engineering",
+        "likedCount": 3,
+        "likedRate": 0.027,
+        "dislikedCount": 3,
+        "dislikedRate": 0.007,
+        "likedMinusDisliked": 0.019
+      },
+      {
+        "feature": "Node.js",
+        "likedCount": 2,
+        "likedRate": 0.018,
+        "dislikedCount": 2,
+        "dislikedRate": 0.005,
+        "likedMinusDisliked": 0.013
+      },
+      {
+        "feature": "Python + React Full Stack",
+        "likedCount": 2,
+        "likedRate": 0.018,
+        "dislikedCount": 2,
+        "dislikedRate": 0.005,
+        "likedMinusDisliked": 0.013
+      },
+      {
+        "feature": "Java Backend",
+        "likedCount": 1,
+        "likedRate": 0.009,
+        "dislikedCount": 3,
+        "dislikedRate": 0.007,
+        "likedMinusDisliked": 0.001
+      },
+      {
+        "feature": "AI Engineering",
+        "likedCount": 1,
+        "likedRate": 0.009,
+        "dislikedCount": 3,
+        "dislikedRate": 0.007,
+        "likedMinusDisliked": 0.001
+      },
+      {
+        "feature": "Backend",
+        "likedCount": 3,
+        "likedRate": 0.027,
+        "dislikedCount": 11,
+        "dislikedRate": 0.027,
+        "likedMinusDisliked": 0
+      },
+      {
+        "feature": "Data Engineering",
+        "likedCount": 1,
+        "likedRate": 0.009,
+        "dislikedCount": 4,
+        "dislikedRate": 0.01,
+        "likedMinusDisliked": -0.001
+      },
+      {
+        "feature": "AI",
+        "likedCount": 0,
+        "likedRate": 0,
+        "dislikedCount": 3,
+        "dislikedRate": 0.007,
+        "likedMinusDisliked": -0.007
+      },
+      {
+        "feature": "Cybersecurity",
+        "likedCount": 0,
+        "likedRate": 0,
+        "dislikedCount": 4,
+        "dislikedRate": 0.01,
+        "likedMinusDisliked": -0.01
+      },
+      {
+        "feature": "Fintech",
+        "likedCount": 0,
+        "likedRate": 0,
+        "dislikedCount": 5,
+        "dislikedRate": 0.012,
+        "likedMinusDisliked": -0.012
+      }
+    ],
+    "roleFamilies": [
+      {
+        "feature": "Full stack",
+        "likedCount": 24,
+        "likedRate": 0.212,
+        "dislikedCount": 27,
+        "dislikedRate": 0.066,
+        "likedMinusDisliked": 0.146
+      },
+      {
+        "feature": "Backend",
+        "likedCount": 10,
+        "likedRate": 0.088,
+        "dislikedCount": 16,
+        "dislikedRate": 0.039,
+        "likedMinusDisliked": 0.049
+      },
+      {
+        "feature": "DevOps / platform",
+        "likedCount": 2,
+        "likedRate": 0.018,
+        "dislikedCount": 4,
+        "dislikedRate": 0.01,
+        "likedMinusDisliked": 0.008
+      },
+      {
+        "feature": "Frontend",
+        "likedCount": 1,
+        "likedRate": 0.009,
+        "dislikedCount": 2,
+        "dislikedRate": 0.005,
+        "likedMinusDisliked": 0.004
+      },
+      {
+        "feature": "Data",
+        "likedCount": 4,
+        "likedRate": 0.035,
+        "dislikedCount": 17,
+        "dislikedRate": 0.042,
+        "likedMinusDisliked": -0.006
+      },
+      {
+        "feature": "Security",
+        "likedCount": 1,
+        "likedRate": 0.009,
+        "dislikedCount": 7,
+        "dislikedRate": 0.017,
+        "likedMinusDisliked": -0.008
+      }
+    ],
+    "usage": "Use as a soft source-priority signal. Do not reject a company on preferences alone or weaken the location/evidence gate."
+  },
+  "queryLanes": [
+    {
+      "lane": "official-careers-latam-swe",
+      "leads": 1,
+      "unique": 1,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "workday-mexico-swe",
+      "leads": 1,
+      "unique": 1,
+      "duplicateRate": 0,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "greenhouse-mexico-swe",
+      "leads": 2,
+      "unique": 1,
+      "duplicateRate": 0.5,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "greenhouse-latam-swe",
+      "leads": 6,
+      "unique": 2,
+      "duplicateRate": 0.667,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "lever-latam-swe",
+      "leads": 4,
+      "unique": 1,
+      "duplicateRate": 0.75,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "greenhouse-costa-rica-engineering",
+      "leads": 1,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "ashby-latam-swe",
+      "leads": 2,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "company-careers-latam-swe",
+      "leads": 1,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "ashby-latam-software-engineer",
+      "leads": 1,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "sec-edgar-form-d-miami-office-2026",
+      "leads": 1,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "sam-gov-2026-software-services-award",
+      "leads": 1,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "company-newsroom-2026",
+      "leads": 1,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    }
+  ],
+  "timingsMs": {
+    "inputReadMs": 2,
+    "mongoLoadOrSnapshotReadMs": 8,
+    "bundledCatalogReadMs": 18,
+    "previousBatchReadMs": 0,
+    "indexBuildMs": 24,
+    "candidateCompareMs": 1,
+    "preferenceAnalysisMs": 9,
+    "preReportWriteElapsedMs": 63
+  },
+  "entries": [
+    {
+      "company": "Backblaze",
+      "domain": "backblaze.com",
+      "queryLane": "greenhouse-latam-swe",
+      "sourceFile": "company-batches\\usa-latam-2026-p002-raw-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Backblaze",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/backblaze/jobs/5204960008"
+    },
+    {
+      "company": "Newsela",
+      "domain": "newsela.com",
+      "queryLane": "greenhouse-latam-swe",
+      "sourceFile": "company-batches\\usa-latam-2026-p002-raw-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Newsela",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/newsela/jobs/8249272"
+    },
+    {
+      "company": "Livefront",
+      "domain": "livefront.com",
+      "queryLane": "greenhouse-costa-rica-engineering",
+      "sourceFile": "company-batches\\usa-latam-2026-p002-raw-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Livefront",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/livefront/jobs/4243344009"
+    },
+    {
+      "company": "Wagmo",
+      "domain": "wagmo.io",
+      "queryLane": "ashby-latam-swe",
+      "sourceFile": "company-batches\\usa-latam-2026-p002-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Wagmo",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.ashbyhq.com/wagmo/dbf4dc55-274c-4787-ae01-391d9d93551e"
+    },
+    {
+      "company": "Caliza",
+      "domain": "caliza.com",
+      "queryLane": "lever-latam-swe",
+      "sourceFile": "company-batches\\usa-latam-2026-p002-raw-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://jobs.lever.co/caliza-financial-technologies/e0519b77-10e5-4918-8c8d-521641fb3d76"
+    },
+    {
+      "company": "Praxent",
+      "domain": "praxent.ai",
+      "queryLane": "greenhouse-latam-swe",
+      "sourceFile": "company-batches\\usa-latam-2026-p002-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Praxent",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/praxent/jobs/7732220003"
+    },
+    {
+      "company": "Tech Holding",
+      "domain": "techholding.co",
+      "queryLane": "official-careers-latam-swe",
+      "sourceFile": "company-batches\\usa-latam-2026-p002-raw-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://techholding.co/careers/4743067005"
+    },
+    {
+      "company": "66degrees",
+      "domain": "66degrees.com",
+      "queryLane": "greenhouse-latam-swe",
+      "sourceFile": "company-batches\\usa-latam-2026-p002-raw-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://job-boards.greenhouse.io/66degrees/jobs/6241755004"
+    },
+    {
+      "company": "Utility Profit",
+      "domain": "utilityprofit.com",
+      "queryLane": "greenhouse-mexico-swe",
+      "sourceFile": "company-batches\\usa-latam-2026-p002-raw-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://job-boards.greenhouse.io/utilityprofit"
+    },
+    {
+      "company": "Goodway Group",
+      "domain": "goodwaygroup.com",
+      "queryLane": "greenhouse-latam-swe",
+      "sourceFile": "company-batches\\usa-latam-2026-p002-raw-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://job-boards.greenhouse.io/goodwaygroup/jobs/6111857004"
+    },
+    {
+      "company": "Sezzle",
+      "domain": "sezzle.com",
+      "queryLane": "greenhouse-mexico-swe",
+      "sourceFile": "company-batches\\usa-latam-2026-p002-raw-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Sezzle",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/sezzle/jobs/6570434003"
+    },
+    {
+      "company": "CodePath",
+      "domain": "codepath.org",
+      "queryLane": "greenhouse-latam-swe",
+      "sourceFile": "company-batches\\usa-latam-2026-p002-raw-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "CodePath",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://job-boards.greenhouse.io/codepath/jobs/5212924007"
+    },
+    {
+      "company": "G2i",
+      "domain": "g2i.co",
+      "queryLane": "ashby-latam-swe",
+      "sourceFile": "company-batches\\usa-latam-2026-p002-raw-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "G2i",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.ashbyhq.com/g2i/d9a764c2-b471-4006-8da1-42f67874fd04"
+    },
+    {
+      "company": "RYZ Labs",
+      "domain": "ryzlabs.com",
+      "queryLane": "lever-latam-swe",
+      "sourceFile": "company-batches\\usa-latam-2026-p002-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "RYZ Labs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.lever.co/RyzLabs/43f7bf38-763e-44b9-a59c-0f0989dfc2fd"
+    },
+    {
+      "company": "Blue Coding",
+      "domain": "bluecoding.com",
+      "queryLane": "lever-latam-swe",
+      "sourceFile": "company-batches\\usa-latam-2026-p002-raw-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Blue Coding",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.lever.co/bluecoding/456ce1b0-5a77-4a27-9a82-37d0074f14ec"
+    },
+    {
+      "company": "Bluelight Consulting",
+      "domain": "bluelightconsulting.com",
+      "queryLane": "lever-latam-swe",
+      "sourceFile": "company-batches\\usa-latam-2026-p002-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Bluelight Consulting",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.lever.co/bluelightconsulting"
+    },
+    {
+      "company": "TRM Labs",
+      "domain": "trmlabs.com",
+      "queryLane": "company-careers-latam-swe",
+      "sourceFile": "company-batches\\usa-latam-2026-p002-raw-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "TRM Labs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.trmlabs.com/careers?team=product"
+    },
+    {
+      "company": "Omnissa",
+      "domain": "omnissa.com",
+      "queryLane": "workday-mexico-swe",
+      "sourceFile": "company-batches\\usa-latam-2026-p002-raw-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://omnissa.wd501.myworkdayjobs.com/en-US/Omnissa_External_Career_Site/job/Sr-Software-Engineer--C-NET_R-101623"
+    },
+    {
+      "company": "Siena AI",
+      "domain": "siena.cx",
+      "queryLane": "ashby-latam-software-engineer",
+      "sourceFile": "company-batches\\usa-latam-2026-p002-raw-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Siena AI",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobs.ashbyhq.com/siena/9b020e8d-d953-4e52-b13e-f20397cc9199/"
+    },
+    {
+      "company": "Caliza",
+      "domain": "caliza.com",
+      "queryLane": "sec-edgar-form-d-miami-office-2026",
+      "sourceFile": "company-batches\\usa-latam-2026-p002-raw-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Caliza",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1879358/000187935826000001/xslFormDX01/primary_doc.xml"
+    },
+    {
+      "company": "TRM Labs",
+      "domain": "trmlabs.com",
+      "queryLane": "sam-gov-2026-software-services-award",
+      "sourceFile": "company-batches\\usa-latam-2026-p002-raw-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "TRM Labs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://sam.gov/workspace/contract/opp/de13f532c542434c80a3c82002582719/view"
+    },
+    {
+      "company": "TRM Labs",
+      "domain": "trmlabs.com",
+      "queryLane": "company-newsroom-2026",
+      "sourceFile": "company-batches\\usa-latam-2026-p002-raw-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "TRM Labs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://www.trmlabs.com/resources/blog/trm-labs-announces-series-c-expansion-at-usd-2-billion-valuation-to-continue-building-crimefighting-ai"
+    }
+  ]
+}

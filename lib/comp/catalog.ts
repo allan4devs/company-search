@@ -227,6 +227,20 @@ const companySearchTextCache = new WeakMap<CompanyCard, string>();
 const companyDetailsTextCache = new WeakMap<CompanyCard, string>();
 const companyCountryTextCache = new WeakMap<CompanyCard, string>();
 
+function normalizeSearchText(value: string) {
+  return value
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase();
+}
+
+export function matchesSearchQuery(query: string, searchableText: string) {
+  const queryWords = normalizeSearchText(query).trim().split(/\s+/).filter(Boolean);
+  if (!queryWords.length) return true;
+  const normalizedText = normalizeSearchText(searchableText);
+  return queryWords.every((word) => normalizedText.includes(word));
+}
+
 const companyCountryAliases = [
   { country: "Argentina", aliases: ["argentina"] },
   { country: "Azerbaijan", aliases: ["azerbaijan"] },
@@ -314,9 +328,10 @@ function companySearchText(company: CompanyCard, signals: CompanySignals) {
   if (cached) return cached;
   const text = [company.name, ...company.names, company.website || "", ...company.tracks, ...company.locations, ...(company.tags || []),
     ...signals.technologies, ...signals.roles, ...signals.levels, ...company.jobs.flatMap(job => [job.title, job.stack || ""]),
-    company.discovery?.region || "", ...(company.fit?.reasons || []), company.nearshore ? "nearshore" : ""].join(" ").toLowerCase();
-  companySearchTextCache.set(company, text);
-  return text;
+    company.discovery?.region || "", ...(company.fit?.reasons || []), company.nearshore ? "nearshore" : ""].join(" ");
+  const normalizedText = normalizeSearchText(text);
+  companySearchTextCache.set(company, normalizedText);
+  return normalizedText;
 }
 
 function companyDetailsText(company: CompanyCard) {
@@ -331,14 +346,14 @@ export function matchesCompanyFilters(company: CompanyCard, filters: CompanyFilt
   const signals = companySignals(company);
   const text = companySearchText(company, signals);
   const region = company.discovery?.region || company.locations.join(" ");
-  const queryWords = filters.query.trim().toLowerCase().split(/\s+/).filter(Boolean);
+  const queryWords = normalizeSearchText(filters.query).trim().split(/\s+/).filter(Boolean);
   const latamCostaRicaMatches =
     !filters.latamCostaRicaFilter ||
     /\blatam\b|costa[\s-]*rica/i.test(companyDetailsText(company));
   return latamCostaRicaMatches
     && (!filters.hideWithoutDomain || !!companyDomain(company.website))
     && (!filters.country || filters.country === "all" || companyMatchesCountry(company, filters.country))
-    && queryWords.every(word => text.includes(word))
+    && queryWords.every((word) => text.includes(word))
     && (filters.technology === "all" || signals.technologies.includes(filters.technology))
     && (filters.role === "all" || signals.roles.includes(filters.role))
     && (filters.level === "all" || signals.levels.includes(filters.level))

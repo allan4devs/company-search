@@ -14,6 +14,7 @@ export const COMPANY_CATEGORIES: CompanyCategory[] = [
   { key: "new", label: "New", group: "Browse", order: 1 },
   { key: "latest-batch", label: "Latest batch", group: "Browse", order: 2 },
   { key: "nearshore", label: "Nearshore", group: "Browse", order: 3 },
+  { key: "usa", label: "USA", group: "Browse", order: 4 },
   { key: "java", label: "Java", group: "Technology", order: 2 },
   { key: "react", label: "React", group: "Technology", order: 3 },
   { key: "python", label: "Python", group: "Technology", order: 4 },
@@ -49,9 +50,18 @@ export function matchesCompanyCategory(
   if (category === "dislikes") return !!preference?.disliked;
   if (category === "archived")
     return !!preference?.archived && !preference?.liked && !preference?.disliked;
+  if (category === "usa")
+    return (
+      company.tags?.includes("usa-latam-2026") === true &&
+      !preference?.liked &&
+      !preference?.disliked &&
+      !preference?.archived
+    );
+  // Saved jobs are independent of the company's like, dislike, and archive state.
+  if (category === "saved-jobs")
+    return !!preference?.likedJobIds?.length || !!preference?.addedJobs?.length;
   if (preference?.archived || preference?.liked || preference?.disliked)
     return false;
-  if (category === "saved-jobs") return !!preference?.likedJobIds?.length;
   if (category === "latest-batch") {
     return !!latestNewBatchId && company.tags?.includes("new") === true && company.extraction?.batchId === latestNewBatchId;
   }
@@ -70,6 +80,7 @@ export function companyCategoryKeys(company: CompanyCard): string[] {
   if (company.model === "outsourcing" || company.model === "direct") categories.add(company.model);
   else categories.add("othermodel");
   if (company.nearshore) categories.add("nearshore");
+  if (company.tags?.includes("usa-latam-2026")) categories.add("usa");
   if (company.research) categories.add("latam");
 
   const signals = companySignals(company);

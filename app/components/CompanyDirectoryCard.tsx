@@ -21,6 +21,16 @@ function CompanyDirectoryCardView({
   onPreferenceChange,
   selected,
 }: Props) {
+  const careersUrl =
+    preference?.careersUrl ||
+    company.careersUrl ||
+    company.nearshore?.careersUrl;
+  const destinationType = careersUrl
+    ? { label: "C", title: "Opens careers page" }
+    : company.website
+      ? { label: "V", title: "Opens company website" }
+      : null;
+
   return (
     <div className={`flex flex-col ${reaction?.leaving ? "card-vanish" : ""}`}>
       <article
@@ -62,26 +72,28 @@ function CompanyDirectoryCardView({
         <span className="min-w-0 flex-1 truncate font-semibold text-white">
           {company.name}
         </span>
-        {company.tags?.includes("new") ? (
-          <span className="shrink-0 rounded-full border border-teal-300/30 bg-teal-300/10 px-2 py-1 text-[10px] font-bold uppercase tracking-wide text-teal-200">
-            New
+        {company.tags?.includes("new") || destinationType ? (
+          <span className="flex shrink-0 items-center gap-1.5">
+            {company.tags?.includes("new") ? (
+              <span className="rounded-full border border-teal-300/30 bg-teal-300/10 px-2 py-1 text-[10px] font-bold uppercase tracking-wide text-teal-200">
+                New
+              </span>
+            ) : null}
+            {destinationType ? (
+              <span
+                title={destinationType.title}
+                aria-label={destinationType.title}
+                className="inline-flex size-6 items-center justify-center rounded-full border border-zinc-700 bg-zinc-800 text-[10px] font-bold text-zinc-200"
+              >
+                {destinationType.label}
+              </span>
+            ) : null}
           </span>
         ) : null}
         <button type="button" aria-label={`${preference?.liked ? "Unlike" : "Like"} ${company.name}`} aria-pressed={!!preference?.liked} onClick={() => void onPreferenceChange(company.key, { liked: !preference?.liked, disliked: false }, "like")} className={`rounded-lg p-2 ${preference?.liked ? "text-pink-400" : "text-zinc-500 hover:text-pink-300"}`}><Heart size={18} fill={preference?.liked ? "currentColor" : "none"} /></button>
         <button type="button" aria-label={`${preference?.disliked ? "Undo dislike for" : "Dislike"} ${company.name}`} aria-pressed={!!preference?.disliked} onClick={() => void onPreferenceChange(company.key, { disliked: !preference?.disliked, liked: false }, "dislike")} className={`rounded-lg p-2 ${preference?.disliked ? "text-amber-400" : "text-zinc-500 hover:text-amber-300"}`}><ThumbsDown size={18} fill={preference?.disliked ? "currentColor" : "none"} /></button>
         <span className="text-xs text-zinc-500">View details</span>
       </article>
-      {company.roleEvidence ? (
-        <a
-          href={company.roleEvidence.source}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mt-2 px-3 py-2 text-xs text-teal-300 underline underline-offset-4"
-        >
-          Employer role feed · Checked {company.roleEvidence.checkedOn}
-          <span className="sr-only"> (opens in a new tab)</span>
-        </a>
-      ) : null}
       {company.nearshore ? (
         <a
           href={company.nearshore.source}
@@ -97,71 +109,6 @@ function CompanyDirectoryCardView({
             {" "}
             for {company.name} (opens in a new tab)
           </span>
-        </a>
-      ) : null}
-      {company.extraction || company.fit ? (
-        <div className="mt-2 rounded-xl border border-zinc-800 bg-zinc-900/40 px-4 py-3 text-xs">
-          {company.extraction ? (
-            <p className="text-zinc-400">
-              Research:{" "}
-              {company.extraction.status === "pending"
-                ? "pending"
-                : "sources saved"}{" "}
-              · Updated {company.extraction.updatedAt.slice(0, 10)}
-              {company.extraction.batchId
-                ? ` · Batch ${company.extraction.batchId}`
-                : ""}
-            </p>
-          ) : null}
-          {company.fit ? (
-            <p className="mt-1 text-teal-200">
-              Profile fit: {company.fit.status}
-              {company.fit.reasons.length
-                ? ` · ${company.fit.reasons.join("; ")}`
-                : ""}{" "}
-              · {company.fit.evaluatedOn}
-            </p>
-          ) : null}
-        </div>
-      ) : null}
-      {company.sourceEvidence?.length ? (
-        <details className="mt-2 rounded-xl border border-zinc-800 bg-zinc-900/40 text-xs">
-          <summary className="cursor-pointer rounded-xl px-4 py-3 font-medium text-teal-300 focus-visible:outline-2 focus-visible:outline-teal-300">
-            Company sources ({company.sourceEvidence.length})
-          </summary>
-          <ul className="space-y-3 px-4 pb-4">
-            {company.sourceEvidence.map((source) => (
-              <li key={`${source.kind}:${source.url}`}>
-                <a
-                  href={source.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-teal-300 underline underline-offset-4"
-                >
-                  {source.kind.replaceAll("-", " ")} · checked{" "}
-                  {source.checkedOn}
-                  <span className="sr-only"> (opens in a new tab)</span>
-                </a>
-                {source.note ? (
-                  <p className="mt-1 leading-5 text-zinc-400">{source.note}</p>
-                ) : null}
-              </li>
-            ))}
-          </ul>
-        </details>
-      ) : null}
-      {company.research ? (
-        <a
-          href={company.research.source}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mt-2 rounded-lg px-3 py-2 text-xs text-teal-300 underline underline-offset-4 hover:text-teal-100"
-        >
-          Hiring evidence: {company.research.role}{" "}
-          <span className="text-zinc-500">
-            (checked {company.research.checkedOn})
-          </span>
-          <span className="sr-only"> (opens in a new tab)</span>
         </a>
       ) : null}
     </div>

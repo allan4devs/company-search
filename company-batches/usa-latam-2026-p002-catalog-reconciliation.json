@@ -1,0 +1,39 @@
+{
+  "batchId": "usa-latam-2026-p002-2026-11-08",
+  "checkedOn": "2026-11-08",
+  "cohortTag": "usa-latam-2026",
+  "importResult": {
+    "submitted": 10,
+    "imported": 10,
+    "created": 4,
+    "updated": 6
+  },
+  "usaFilter": {
+    "before": 10,
+    "after": 20,
+    "verifiedBy": "GET /api/comp/catalog?group=companies&tab=usa&page=1&pageSize=24"
+  },
+  "created": ["Caliza", "Tech Holding", "Utility Profit", "Omnissa"],
+  "updated": ["Backblaze", "CodePath", "Wagmo", "Sezzle", "TRM Labs", "Glacier"],
+  "excludedAfterReview": [
+    {
+      "name": "66degrees",
+      "reason": "Its Greenhouse company board did not show the discovered Mexico software posting when checked on 2026-11-08; listing status was not current enough to include."
+    },
+    {
+      "name": "Goodway Group",
+      "reason": "The current Greenhouse board did not show the discovered LATAM software posting when checked on 2026-11-08."
+    },
+    {
+      "name": "Siena AI",
+      "reason": "The current role was found, but the U.S. headquarters/office evidence did not meet the location standard with enough confidence."
+    }
+  ],
+  "discoverySources": [
+    "Employer ATS feeds: Greenhouse, Lever, Workday, Ashby",
+    "SEC EDGAR Form D filing and Florida company registry for Caliza's Miami principal place of business",
+    "USAspending new-awards registry and SAM.gov notice for TRM Labs; public contract is discovery context only",
+    "TRM Labs company newsroom/blog; company news is supporting context only"
+  ],
+  "caveat": "An active posting is evidence of public hiring intent in 2026, not proof that a hire completed. Glacier's employer posting additionally says it is hiring into an existing LATAM Fleet software engineering team."
+}

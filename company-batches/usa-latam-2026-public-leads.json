@@ -1,0 +1,1939 @@
+{
+  "batchId": "usa-latam-public-leads-2026-11-08",
+  "collectedOn": "2026-11-08",
+  "status": "Initial exploratory pull; use the corrected new-award pull for contract award searches.",
+  "supersededBy": "company-batches/usa-latam-2026-new-award-leads.json",
+  "scope": {
+    "contracts": "Initial query used the USAspending default action_date filter. It can include 2026 modifications to older awards, so its recipients are not a list of awards first signed in 2026.",
+    "newsAndBlogs": "One GDELT DOC article query over its rolling 90-day window, classified by URL path/domain and filtered by title/URL relevance signals; these are candidate classifications, not source validation.",
+    "usage": "Discovery leads only. A contract, article, or blog hit cannot establish LATAM engineering hiring without explicit company-level evidence."
+  },
+  "queryLanes": {
+    "contracts": {
+      "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "filters": {
+        "time_period": [
+          {
+            "start_date": "2026-01-01",
+            "end_date": "2026-11-08"
+          }
+        ],
+        "award_type_codes": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "naics_codes": [
+          "541511",
+          "541512",
+          "541519"
+        ],
+        "recipient_scope": "domestic"
+      },
+      "total": 100,
+      "awards": [
+        {
+          "awardId": "36C10B22N0051EHRM",
+          "recipientName": "ORACLE HEALTH GOVERNMENT SERVICES, INC.",
+          "startDate": "2022-09-28",
+          "awardAmount": 2120623737.86,
+          "awardingAgency": "Department of Veterans Affairs",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "DOCDG133E09CN0094",
+          "recipientName": "L3HARRIS TECHNOLOGIES, INC.",
+          "startDate": "2009-05-27",
+          "awardAmount": 1826088581.86,
+          "awardingAgency": "Department of Commerce",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "W52P1J20C0005",
+          "recipientName": "ACCENTURE FEDERAL SERVICES LLC",
+          "startDate": "2019-12-10",
+          "awardAmount": 1816224958.27,
+          "awardingAgency": "Department of Defense",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "36C10B18N0003",
+          "recipientName": "ORACLE HEALTH GOVERNMENT SERVICES, INC.",
+          "startDate": "2018-05-17",
+          "awardAmount": 1511268663.21,
+          "awardingAgency": "Department of Veterans Affairs",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "36C10B21N10070021",
+          "recipientName": "BOOZ ALLEN HAMILTON INC",
+          "startDate": "2021-05-17",
+          "awardAmount": 1365285599.63,
+          "awardingAgency": "Department of Veterans Affairs",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "28321322FDS030130",
+          "recipientName": "LEIDOS, INC.",
+          "startDate": "2022-06-30",
+          "awardAmount": 1305112748.86,
+          "awardingAgency": "Social Security Administration",
+          "description": null,
+          "naics": {
+            "code": "541519",
+            "description": "OTHER COMPUTER RELATED SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "47QFCA21F0001",
+          "recipientName": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+          "startDate": "2020-11-30",
+          "awardAmount": 1205937997.76,
+          "awardingAgency": "General Services Administration",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "36C10B21N10150056",
+          "recipientName": "BOOZ ALLEN HAMILTON INC",
+          "startDate": "2021-01-08",
+          "awardAmount": 1138891386.64,
+          "awardingAgency": "Department of Veterans Affairs",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "75FCMC18F0045",
+          "recipientName": "SERCO INC",
+          "startDate": "2018-07-01",
+          "awardAmount": 1032865950.58,
+          "awardingAgency": "Department of Health and Human Services",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "47QFCA19F0006",
+          "recipientName": "CACI, INC. - FEDERAL",
+          "startDate": "2019-05-20",
+          "awardAmount": 979385697.35,
+          "awardingAgency": "General Services Administration",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "47QFRA24F0005",
+          "recipientName": "CACI, INC. - FEDERAL",
+          "startDate": "2024-05-01",
+          "awardAmount": 977933614.86,
+          "awardingAgency": "General Services Administration",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "91003119F0003",
+          "recipientName": "ACCENTURE FEDERAL SERVICES LLC",
+          "startDate": "2019-02-20",
+          "awardAmount": 943157459.01,
+          "awardingAgency": "Department of Education",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "47QFCA24F0020",
+          "recipientName": "SALIENT CRGT, INC.",
+          "startDate": "2024-05-17",
+          "awardAmount": 920668088.45,
+          "awardingAgency": "General Services Administration",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "36C10B22N10070023",
+          "recipientName": "BOOZ ALLEN HAMILTON INC",
+          "startDate": "2022-09-28",
+          "awardAmount": 859669885.97,
+          "awardingAgency": "Department of Veterans Affairs",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "47QFCA24F0002",
+          "recipientName": "PERATON INC.",
+          "startDate": "2023-10-31",
+          "awardAmount": 827597429,
+          "awardingAgency": "General Services Administration",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "36C10B19N10070015",
+          "recipientName": "BOOZ ALLEN HAMILTON INC",
+          "startDate": "2019-05-17",
+          "awardAmount": 809754946.8,
+          "awardingAgency": "Department of Veterans Affairs",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "19AQMM21F2945",
+          "recipientName": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+          "startDate": "2021-07-30",
+          "awardAmount": 805559930.65,
+          "awardingAgency": "Department of State",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "75FCMC21F0002",
+          "recipientName": "ACCENTURE FEDERAL SERVICES LLC",
+          "startDate": "2021-07-11",
+          "awardAmount": 796233862.71,
+          "awardingAgency": "Department of Health and Human Services",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "75FCMC23F0010",
+          "recipientName": "SERCO INC",
+          "startDate": "2023-07-01",
+          "awardAmount": 786064459.89,
+          "awardingAgency": "Department of Health and Human Services",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "36C10B18F0278",
+          "recipientName": "CGI FEDERAL INC.",
+          "startDate": "2018-04-25",
+          "awardAmount": 783318157.08,
+          "awardingAgency": "Department of Veterans Affairs",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "36C10B21N10150057",
+          "recipientName": "BOOZ ALLEN HAMILTON INC",
+          "startDate": "2021-09-30",
+          "awardAmount": 753054309.17,
+          "awardingAgency": "Department of Veterans Affairs",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "47QFRA20F0016",
+          "recipientName": "BOOZ ALLEN HAMILTON INC",
+          "startDate": "2020-03-01",
+          "awardAmount": 746401206.1,
+          "awardingAgency": "General Services Administration",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "47QFCA20F0015",
+          "recipientName": "PERATON ENTERPRISE SOLUTIONS LLC",
+          "startDate": "2019-12-18",
+          "awardAmount": 741485202.79,
+          "awardingAgency": "General Services Administration",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "36C10B22N0047EHRM",
+          "recipientName": "ORACLE HEALTH GOVERNMENT SERVICES, INC.",
+          "startDate": "2022-05-01",
+          "awardAmount": 736166310.17,
+          "awardingAgency": "Department of Veterans Affairs",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "70B04C24F00001129",
+          "recipientName": "CACI, INC. - FEDERAL",
+          "startDate": "2024-09-30",
+          "awardAmount": 714227542.39,
+          "awardingAgency": "Department of Homeland Security",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "47QFRA24F0006",
+          "recipientName": "BOOZ ALLEN HAMILTON INC",
+          "startDate": "2024-05-01",
+          "awardAmount": 710558512.24,
+          "awardingAgency": "General Services Administration",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "47QFRA19F0011",
+          "recipientName": "CACI, INC. - FEDERAL",
+          "startDate": "2019-05-08",
+          "awardAmount": 708253079.87,
+          "awardingAgency": "General Services Administration",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "HR001121F0006",
+          "recipientName": "SECURIGENCE LLC",
+          "startDate": "2021-02-03",
+          "awardAmount": 698467543.26,
+          "awardingAgency": "Department of Defense",
+          "description": null,
+          "naics": {
+            "code": "541511",
+            "description": "CUSTOM COMPUTER PROGRAMMING SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "W31P4Q22F0120",
+          "recipientName": "PERATON INC.",
+          "startDate": "2022-04-15",
+          "awardAmount": 688815515.42,
+          "awardingAgency": "Department of Defense",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "DTFA0101CA0065CALL0001",
+          "recipientName": "LEIDOS, INC.",
+          "startDate": "2001-06-18",
+          "awardAmount": 687464600.02,
+          "awardingAgency": "Department of Transportation",
+          "description": null,
+          "naics": {
+            "code": "541519",
+            "description": "OTHER COMPUTER RELATED SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "47QFMA19F0013",
+          "recipientName": "CACI, INC. - FEDERAL",
+          "startDate": "2019-06-01",
+          "awardAmount": 674443628.74,
+          "awardingAgency": "General Services Administration",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "47QFNA21F0001",
+          "recipientName": "BOOZ ALLEN HAMILTON INC",
+          "startDate": "2020-11-01",
+          "awardAmount": 651669390.93,
+          "awardingAgency": "General Services Administration",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "15A00020FAQA00189",
+          "recipientName": "LEIDOS, INC.",
+          "startDate": "2020-05-01",
+          "awardAmount": 639941171.5,
+          "awardingAgency": "Department of Justice",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "47QFMA24F0014",
+          "recipientName": "CACI, INC. - FEDERAL",
+          "startDate": "2024-03-01",
+          "awardAmount": 639647379.4,
+          "awardingAgency": "General Services Administration",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "W9128Z26FA001",
+          "recipientName": "PALANTIR USG INC",
+          "startDate": "2025-10-15",
+          "awardAmount": 637552404.79,
+          "awardingAgency": "Department of Defense",
+          "description": null,
+          "naics": {
+            "code": "541511",
+            "description": "CUSTOM COMPUTER PROGRAMMING SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "W52P1J17C0008",
+          "recipientName": "INTERNATIONAL BUSINESS MACHINES CORPORATION",
+          "startDate": "2016-12-22",
+          "awardAmount": 630714799.62,
+          "awardingAgency": "Department of Defense",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "HC108421F0175",
+          "recipientName": "WORLD WIDE TECHNOLOGY LLC",
+          "startDate": "2021-06-29",
+          "awardAmount": 627456697.85,
+          "awardingAgency": "Department of Defense",
+          "description": null,
+          "naics": {
+            "code": "541519",
+            "description": "OTHER COMPUTER RELATED SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "70B04C20F00001359",
+          "recipientName": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+          "startDate": "2021-09-15",
+          "awardAmount": 615526452.02,
+          "awardingAgency": "Department of Homeland Security",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "47QFCA20F0044",
+          "recipientName": "PARSONS GOVERNMENT SERVICES INC.",
+          "startDate": "2020-09-22",
+          "awardAmount": 612083623.53,
+          "awardingAgency": "General Services Administration",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "HQ014719F0038",
+          "recipientName": "LOCKHEED MARTIN CORPORATION",
+          "startDate": "2019-03-15",
+          "awardAmount": 604095673.66,
+          "awardingAgency": "Department of Defense",
+          "description": null,
+          "naics": {
+            "code": "541511",
+            "description": "CUSTOM COMPUTER PROGRAMMING SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "DTFAWA16C00021",
+          "recipientName": "LEIDOS, INC.",
+          "startDate": "2016-06-28",
+          "awardAmount": 588339594.76,
+          "awardingAgency": "Department of Transportation",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "75FCMC25FJ022",
+          "recipientName": "GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC.",
+          "startDate": "2025-02-20",
+          "awardAmount": 583194637,
+          "awardingAgency": "Department of Health and Human Services",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "HSFEHQ08J2009",
+          "recipientName": "INTERNATIONAL BUSINESS MACHINES CORPORATION",
+          "startDate": "2008-09-05",
+          "awardAmount": 580425327.83,
+          "awardingAgency": "Department of Homeland Security",
+          "description": null,
+          "naics": {
+            "code": "541511",
+            "description": "CUSTOM COMPUTER PROGRAMMING SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "0001",
+          "recipientName": "LOCKHEED MARTIN CORPORATION",
+          "startDate": "2012-01-01",
+          "awardAmount": 580250666.6,
+          "awardingAgency": "Department of Defense",
+          "description": null,
+          "naics": {
+            "code": "541511",
+            "description": "CUSTOM COMPUTER PROGRAMMING SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "36C10B23F0172",
+          "recipientName": "V3GATE, LLC",
+          "startDate": "2023-06-26",
+          "awardAmount": 576889048.72,
+          "awardingAgency": "Department of Veterans Affairs",
+          "description": null,
+          "naics": {
+            "code": "541519",
+            "description": "OTHER COMPUTER RELATED SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "47QFMA21F0003",
+          "recipientName": "GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC.",
+          "startDate": "2020-11-01",
+          "awardAmount": 575507884.38,
+          "awardingAgency": "General Services Administration",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "75FCMC23F0002",
+          "recipientName": "COMPANION DATA SERVICES LLC",
+          "startDate": "2023-09-19",
+          "awardAmount": 574375691.53,
+          "awardingAgency": "Department of Health and Human Services",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "47QFCA23F0058",
+          "recipientName": "BOOZ ALLEN HAMILTON INC",
+          "startDate": "2023-10-23",
+          "awardAmount": 561184437.17,
+          "awardingAgency": "General Services Administration",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "47QFCA20F0032",
+          "recipientName": "BOOZ ALLEN HAMILTON INC",
+          "startDate": "2020-05-08",
+          "awardAmount": 557551246.68,
+          "awardingAgency": "General Services Administration",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "36C10B21N10050019",
+          "recipientName": "TISTA SCIENCE AND TECHNOLOGY CORPORATION",
+          "startDate": "2021-09-29",
+          "awardAmount": 553314914.84,
+          "awardingAgency": "Department of Veterans Affairs",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "GSQ0017AJ0079",
+          "recipientName": "LEIDOS, INC.",
+          "startDate": "2017-08-31",
+          "awardAmount": 540310875.81,
+          "awardingAgency": "General Services Administration",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "SS001730048",
+          "recipientName": "INTERNATIONAL BUSINESS MACHINES CORPORATION",
+          "startDate": "2016-12-31",
+          "awardAmount": 525446095.96,
+          "awardingAgency": "Social Security Administration",
+          "description": null,
+          "naics": {
+            "code": "541511",
+            "description": "CUSTOM COMPUTER PROGRAMMING SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "EDFSA15O0090",
+          "recipientName": "PERATON ENTERPRISE SOLUTIONS LLC",
+          "startDate": "2015-09-28",
+          "awardAmount": 524995456.55,
+          "awardingAgency": "Department of Education",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "36C10B22F0207",
+          "recipientName": "FOUR POINTS TECHNOLOGY, L.L.C.",
+          "startDate": "2022-08-03",
+          "awardAmount": 521824443.39,
+          "awardingAgency": "Department of Veterans Affairs",
+          "description": null,
+          "naics": {
+            "code": "541519",
+            "description": "OTHER COMPUTER RELATED SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "75D30122F15723",
+          "recipientName": "I3 FEDERAL LLC",
+          "startDate": "2022-09-30",
+          "awardAmount": 517998604.78,
+          "awardingAgency": "Department of Health and Human Services",
+          "description": null,
+          "naics": {
+            "code": "541519",
+            "description": "OTHER COMPUTER RELATED SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "36C10B19N0008",
+          "recipientName": "ORACLE HEALTH GOVERNMENT SERVICES, INC.",
+          "startDate": "2019-05-31",
+          "awardAmount": 517019119.91,
+          "awardingAgency": "Department of Veterans Affairs",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "W911S018C0004",
+          "recipientName": "SERCO INC",
+          "startDate": "2018-09-28",
+          "awardAmount": 512784248.57,
+          "awardingAgency": "Department of Defense",
+          "description": null,
+          "naics": {
+            "code": "541519",
+            "description": "OTHER COMPUTER RELATED SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "HHSM500201700002C",
+          "recipientName": "WELLPOINT FEDERAL SOLUTIONS, INC.",
+          "startDate": "2017-02-01",
+          "awardAmount": 505264738,
+          "awardingAgency": "Department of Health and Human Services",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "36C10B21N0048EHRM",
+          "recipientName": "ORACLE HEALTH GOVERNMENT SERVICES, INC.",
+          "startDate": "2021-09-28",
+          "awardAmount": 502408524.86,
+          "awardingAgency": "Department of Veterans Affairs",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "47QFMA24F0013",
+          "recipientName": "DELOITTE CONSULTING LLP",
+          "startDate": "2024-02-17",
+          "awardAmount": 494220245.54,
+          "awardingAgency": "General Services Administration",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "36C10D21N0007",
+          "recipientName": "ACCENTURE FEDERAL SERVICES LLC",
+          "startDate": "2021-03-11",
+          "awardAmount": 494132154.2,
+          "awardingAgency": "Department of Veterans Affairs",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "W519TC23F0051",
+          "recipientName": "CARAHSOFT TECHNOLOGY CORP",
+          "startDate": "2022-12-23",
+          "awardAmount": 487169411.86,
+          "awardingAgency": "Department of Defense",
+          "description": null,
+          "naics": {
+            "code": "541511",
+            "description": "CUSTOM COMPUTER PROGRAMMING SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "47QFCA21F0073",
+          "recipientName": "SALIENT CRGT, INC.",
+          "startDate": "2021-08-27",
+          "awardAmount": 485427274.74,
+          "awardingAgency": "General Services Administration",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "HHSN31600002",
+          "recipientName": "DELOITTE CONSULTING LLP",
+          "startDate": "2014-01-10",
+          "awardAmount": 465552113.42,
+          "awardingAgency": "Department of Health and Human Services",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "47QFCA22F0018",
+          "recipientName": "GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC.",
+          "startDate": "2022-04-04",
+          "awardAmount": 465259426,
+          "awardingAgency": "General Services Administration",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "SECHQ116C0032",
+          "recipientName": "GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC.",
+          "startDate": "2016-02-01",
+          "awardAmount": 461106418.99,
+          "awardingAgency": "Securities and Exchange Commission",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "47QFCA20F0043",
+          "recipientName": "SALIENT CRGT, INC.",
+          "startDate": "2020-09-10",
+          "awardAmount": 455730519.91,
+          "awardingAgency": "General Services Administration",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "140D0423F0882",
+          "recipientName": "GUIDEHOUSE INC.",
+          "startDate": "2023-09-17",
+          "awardAmount": 449635911.7,
+          "awardingAgency": "Department of the Interior",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "47QFCA19F0028",
+          "recipientName": "DELOITTE CONSULTING LLP",
+          "startDate": "2019-09-27",
+          "awardAmount": 448253657.41,
+          "awardingAgency": "General Services Administration",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "FA872625FB025",
+          "recipientName": "GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC.",
+          "startDate": "2025-03-14",
+          "awardAmount": 445976931.05,
+          "awardingAgency": "Department of Defense",
+          "description": null,
+          "naics": {
+            "code": "541511",
+            "description": "CUSTOM COMPUTER PROGRAMMING SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "47QFCA22F0025",
+          "recipientName": "PERATON ENTERPRISE SOLUTIONS LLC",
+          "startDate": "2022-04-26",
+          "awardAmount": 427428665.27,
+          "awardingAgency": "General Services Administration",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "GST0013AJ0065",
+          "recipientName": "CACI NSS, LLC",
+          "startDate": "2013-03-15",
+          "awardAmount": 424302050.63,
+          "awardingAgency": "General Services Administration",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "36C10B22N0045EHRM",
+          "recipientName": "ORACLE HEALTH GOVERNMENT SERVICES, INC.",
+          "startDate": "2022-08-15",
+          "awardAmount": 423192138.04,
+          "awardingAgency": "Department of Veterans Affairs",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "36C10G24N0112",
+          "recipientName": "SOLDIERPOINT DIGITAL HEALTH, LLC",
+          "startDate": "2024-09-07",
+          "awardAmount": 417594481.13,
+          "awardingAgency": "Department of Veterans Affairs",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "36C10B24F0237",
+          "recipientName": "DELOITTE CONSULTING LLP",
+          "startDate": "2024-08-01",
+          "awardAmount": 416988484.17,
+          "awardingAgency": "Department of Veterans Affairs",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "W912DY22F0105",
+          "recipientName": "BAE SYSTEMS TECHNOLOGY SOLUTIONS & SERVICES INC.",
+          "startDate": "2022-08-16",
+          "awardAmount": 415502052.36,
+          "awardingAgency": "Department of Defense",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "89303020FIM000046",
+          "recipientName": "ACCENTURE FEDERAL SERVICES LLC",
+          "startDate": "2020-05-01",
+          "awardAmount": 401671375.8,
+          "awardingAgency": "Department of Energy",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "36C10B24F0365",
+          "recipientName": "SPREZZATURA MANAGEMENT CONSULTING, LLC",
+          "startDate": "2024-09-27",
+          "awardAmount": 401479579.64,
+          "awardingAgency": "Department of Veterans Affairs",
+          "description": null,
+          "naics": {
+            "code": "541511",
+            "description": "CUSTOM COMPUTER PROGRAMMING SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "W15QKN21F0531",
+          "recipientName": "INTERNATIONAL BUSINESS MACHINES CORPORATION",
+          "startDate": "2021-09-27",
+          "awardAmount": 399871201.04,
+          "awardingAgency": "Department of Defense",
+          "description": null,
+          "naics": {
+            "code": "541519",
+            "description": "OTHER COMPUTER RELATED SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "36C10B24F0420",
+          "recipientName": "IT CONCEPTS, INC.",
+          "startDate": "2024-09-30",
+          "awardAmount": 396890308.15,
+          "awardingAgency": "Department of Veterans Affairs",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "47QFCA20F0049",
+          "recipientName": "GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC.",
+          "startDate": "2020-09-25",
+          "awardAmount": 396604521.78,
+          "awardingAgency": "General Services Administration",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "47QFCA23F0039",
+          "recipientName": "LEIDOS, INC.",
+          "startDate": "2023-09-11",
+          "awardAmount": 395932164.33,
+          "awardingAgency": "General Services Administration",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "36C10B22N10030034",
+          "recipientName": "GOVCIO, LLC",
+          "startDate": "2022-08-23",
+          "awardAmount": 389669895.67,
+          "awardingAgency": "Department of Veterans Affairs",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "36C10B23F0319",
+          "recipientName": "METGREEN SOLUTIONS INC",
+          "startDate": "2023-09-22",
+          "awardAmount": 389497831.12,
+          "awardingAgency": "Department of Veterans Affairs",
+          "description": null,
+          "naics": {
+            "code": "541519",
+            "description": "OTHER COMPUTER RELATED SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "47QFCA23F0017",
+          "recipientName": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+          "startDate": "2023-03-02",
+          "awardAmount": 388673246.26,
+          "awardingAgency": "General Services Administration",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "36C10D24F0021",
+          "recipientName": "ACCENTURE FEDERAL SERVICES LLC",
+          "startDate": "2023-12-30",
+          "awardAmount": 383703908.6,
+          "awardingAgency": "Department of Veterans Affairs",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "91003125C0013",
+          "recipientName": "ACCENTURE FEDERAL SERVICES LLC",
+          "startDate": "2025-08-01",
+          "awardAmount": 382920203.11,
+          "awardingAgency": "Department of Education",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "19AQMM24F0570",
+          "recipientName": "MINBURN TECHNOLOGY GROUP, LLC",
+          "startDate": "2024-03-01",
+          "awardAmount": 381129548.01,
+          "awardingAgency": "Department of State",
+          "description": null,
+          "naics": {
+            "code": "541519",
+            "description": "OTHER COMPUTER RELATED SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "HC102819F0141",
+          "recipientName": "GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC.",
+          "startDate": "2019-01-24",
+          "awardAmount": 372673129.51,
+          "awardingAgency": "Department of Defense",
+          "description": null,
+          "naics": {
+            "code": "541519",
+            "description": "OTHER COMPUTER RELATED SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "HQ014718F0022",
+          "recipientName": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+          "startDate": "2018-03-02",
+          "awardAmount": 372240146.87,
+          "awardingAgency": "Department of Defense",
+          "description": null,
+          "naics": {
+            "code": "541511",
+            "description": "CUSTOM COMPUTER PROGRAMMING SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "FA873022F0071",
+          "recipientName": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+          "startDate": "2022-03-24",
+          "awardAmount": 372131250.79,
+          "awardingAgency": "Department of Defense",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "W52P1J20F0674",
+          "recipientName": "BUSINESS MISSION EDGE, LLC",
+          "startDate": "2020-09-28",
+          "awardAmount": 371488605.37,
+          "awardingAgency": "Department of Defense",
+          "description": null,
+          "naics": {
+            "code": "541519",
+            "description": "OTHER COMPUTER RELATED SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "HSBP1017C00137",
+          "recipientName": "ACCENTURE FEDERAL SERVICES LLC",
+          "startDate": "2017-09-30",
+          "awardAmount": 370125532.06,
+          "awardingAgency": "Department of Homeland Security",
+          "description": null,
+          "naics": {
+            "code": "541519",
+            "description": "OTHER COMPUTER RELATED SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "12314418F0020",
+          "recipientName": "ACCENTURE FEDERAL SERVICES LLC",
+          "startDate": "2017-09-19",
+          "awardAmount": 369247718.81,
+          "awardingAgency": "Department of Agriculture",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "W56JSR23F0062",
+          "recipientName": "DELOITTE CONSULTING LLP",
+          "startDate": "2023-05-22",
+          "awardAmount": 367044512.85,
+          "awardingAgency": "Department of Defense",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "36C10B22N10280026",
+          "recipientName": "VETERANS EZ INFO INC.",
+          "startDate": "2022-09-28",
+          "awardAmount": 365845321.91,
+          "awardingAgency": "Department of Veterans Affairs",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "47QFRA20F0003",
+          "recipientName": "BOOZ ALLEN HAMILTON INC",
+          "startDate": "2020-01-03",
+          "awardAmount": 365428152.27,
+          "awardingAgency": "General Services Administration",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "70B02C26F00000035",
+          "recipientName": "ANDURIL INDUSTRIES, INC.",
+          "startDate": "2025-12-25",
+          "awardAmount": 362974500,
+          "awardingAgency": "Department of Homeland Security",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "36C10B26F0287",
+          "recipientName": "THUNDERCAT TECHNOLOGY, LLC",
+          "startDate": "2025-10-01",
+          "awardAmount": 359034041.28,
+          "awardingAgency": "Department of Veterans Affairs",
+          "description": null,
+          "naics": {
+            "code": "541519",
+            "description": "OTHER COMPUTER RELATED SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        },
+        {
+          "awardId": "19AQMM20F1777",
+          "recipientName": "PERATON INC.",
+          "startDate": "2020-07-10",
+          "awardAmount": 353624634.02,
+          "awardingAgency": "Department of State",
+          "description": null,
+          "naics": {
+            "code": "541512",
+            "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+          },
+          "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "interpretation": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+        }
+      ]
+    }
+  },
+  "candidateLeads": [
+    {
+      "name": "ORACLE HEALTH GOVERNMENT SERVICES, INC.",
+      "queryLane": "usaspending-contracts-2026",
+      "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "contractLead": {
+        "awardId": "36C10B22N0051EHRM",
+        "startDate": "2022-09-28",
+        "agency": "Department of Veterans Affairs",
+        "description": null
+      },
+      "note": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+    },
+    {
+      "name": "L3HARRIS TECHNOLOGIES, INC.",
+      "queryLane": "usaspending-contracts-2026",
+      "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "contractLead": {
+        "awardId": "DOCDG133E09CN0094",
+        "startDate": "2009-05-27",
+        "agency": "Department of Commerce",
+        "description": null
+      },
+      "note": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+    },
+    {
+      "name": "ACCENTURE FEDERAL SERVICES LLC",
+      "queryLane": "usaspending-contracts-2026",
+      "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "contractLead": {
+        "awardId": "W52P1J20C0005",
+        "startDate": "2019-12-10",
+        "agency": "Department of Defense",
+        "description": null
+      },
+      "note": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+    },
+    {
+      "name": "BOOZ ALLEN HAMILTON INC",
+      "queryLane": "usaspending-contracts-2026",
+      "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "contractLead": {
+        "awardId": "36C10B21N10070021",
+        "startDate": "2021-05-17",
+        "agency": "Department of Veterans Affairs",
+        "description": null
+      },
+      "note": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+    },
+    {
+      "name": "LEIDOS, INC.",
+      "queryLane": "usaspending-contracts-2026",
+      "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "contractLead": {
+        "awardId": "28321322FDS030130",
+        "startDate": "2022-06-30",
+        "agency": "Social Security Administration",
+        "description": null
+      },
+      "note": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+    },
+    {
+      "name": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+      "queryLane": "usaspending-contracts-2026",
+      "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "contractLead": {
+        "awardId": "47QFCA21F0001",
+        "startDate": "2020-11-30",
+        "agency": "General Services Administration",
+        "description": null
+      },
+      "note": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+    },
+    {
+      "name": "SERCO INC",
+      "queryLane": "usaspending-contracts-2026",
+      "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "contractLead": {
+        "awardId": "75FCMC18F0045",
+        "startDate": "2018-07-01",
+        "agency": "Department of Health and Human Services",
+        "description": null
+      },
+      "note": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+    },
+    {
+      "name": "CACI, INC. - FEDERAL",
+      "queryLane": "usaspending-contracts-2026",
+      "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "contractLead": {
+        "awardId": "47QFCA19F0006",
+        "startDate": "2019-05-20",
+        "agency": "General Services Administration",
+        "description": null
+      },
+      "note": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+    },
+    {
+      "name": "SALIENT CRGT, INC.",
+      "queryLane": "usaspending-contracts-2026",
+      "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "contractLead": {
+        "awardId": "47QFCA24F0020",
+        "startDate": "2024-05-17",
+        "agency": "General Services Administration",
+        "description": null
+      },
+      "note": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+    },
+    {
+      "name": "PERATON INC.",
+      "queryLane": "usaspending-contracts-2026",
+      "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "contractLead": {
+        "awardId": "47QFCA24F0002",
+        "startDate": "2023-10-31",
+        "agency": "General Services Administration",
+        "description": null
+      },
+      "note": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+    },
+    {
+      "name": "CGI FEDERAL INC.",
+      "queryLane": "usaspending-contracts-2026",
+      "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "contractLead": {
+        "awardId": "36C10B18F0278",
+        "startDate": "2018-04-25",
+        "agency": "Department of Veterans Affairs",
+        "description": null
+      },
+      "note": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+    },
+    {
+      "name": "PERATON ENTERPRISE SOLUTIONS LLC",
+      "queryLane": "usaspending-contracts-2026",
+      "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "contractLead": {
+        "awardId": "47QFCA20F0015",
+        "startDate": "2019-12-18",
+        "agency": "General Services Administration",
+        "description": null
+      },
+      "note": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+    },
+    {
+      "name": "SECURIGENCE LLC",
+      "queryLane": "usaspending-contracts-2026",
+      "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "contractLead": {
+        "awardId": "HR001121F0006",
+        "startDate": "2021-02-03",
+        "agency": "Department of Defense",
+        "description": null
+      },
+      "note": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+    },
+    {
+      "name": "PALANTIR USG INC",
+      "queryLane": "usaspending-contracts-2026",
+      "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "contractLead": {
+        "awardId": "W9128Z26FA001",
+        "startDate": "2025-10-15",
+        "agency": "Department of Defense",
+        "description": null
+      },
+      "note": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+    },
+    {
+      "name": "INTERNATIONAL BUSINESS MACHINES CORPORATION",
+      "queryLane": "usaspending-contracts-2026",
+      "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "contractLead": {
+        "awardId": "W52P1J17C0008",
+        "startDate": "2016-12-22",
+        "agency": "Department of Defense",
+        "description": null
+      },
+      "note": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+    },
+    {
+      "name": "WORLD WIDE TECHNOLOGY LLC",
+      "queryLane": "usaspending-contracts-2026",
+      "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "contractLead": {
+        "awardId": "HC108421F0175",
+        "startDate": "2021-06-29",
+        "agency": "Department of Defense",
+        "description": null
+      },
+      "note": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+    },
+    {
+      "name": "PARSONS GOVERNMENT SERVICES INC.",
+      "queryLane": "usaspending-contracts-2026",
+      "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "contractLead": {
+        "awardId": "47QFCA20F0044",
+        "startDate": "2020-09-22",
+        "agency": "General Services Administration",
+        "description": null
+      },
+      "note": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+    },
+    {
+      "name": "LOCKHEED MARTIN CORPORATION",
+      "queryLane": "usaspending-contracts-2026",
+      "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "contractLead": {
+        "awardId": "HQ014719F0038",
+        "startDate": "2019-03-15",
+        "agency": "Department of Defense",
+        "description": null
+      },
+      "note": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+    },
+    {
+      "name": "GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC.",
+      "queryLane": "usaspending-contracts-2026",
+      "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "contractLead": {
+        "awardId": "75FCMC25FJ022",
+        "startDate": "2025-02-20",
+        "agency": "Department of Health and Human Services",
+        "description": null
+      },
+      "note": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+    },
+    {
+      "name": "V3GATE, LLC",
+      "queryLane": "usaspending-contracts-2026",
+      "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "contractLead": {
+        "awardId": "36C10B23F0172",
+        "startDate": "2023-06-26",
+        "agency": "Department of Veterans Affairs",
+        "description": null
+      },
+      "note": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+    },
+    {
+      "name": "COMPANION DATA SERVICES LLC",
+      "queryLane": "usaspending-contracts-2026",
+      "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "contractLead": {
+        "awardId": "75FCMC23F0002",
+        "startDate": "2023-09-19",
+        "agency": "Department of Health and Human Services",
+        "description": null
+      },
+      "note": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+    },
+    {
+      "name": "TISTA SCIENCE AND TECHNOLOGY CORPORATION",
+      "queryLane": "usaspending-contracts-2026",
+      "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "contractLead": {
+        "awardId": "36C10B21N10050019",
+        "startDate": "2021-09-29",
+        "agency": "Department of Veterans Affairs",
+        "description": null
+      },
+      "note": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+    },
+    {
+      "name": "FOUR POINTS TECHNOLOGY, L.L.C.",
+      "queryLane": "usaspending-contracts-2026",
+      "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "contractLead": {
+        "awardId": "36C10B22F0207",
+        "startDate": "2022-08-03",
+        "agency": "Department of Veterans Affairs",
+        "description": null
+      },
+      "note": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+    },
+    {
+      "name": "I3 FEDERAL LLC",
+      "queryLane": "usaspending-contracts-2026",
+      "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "contractLead": {
+        "awardId": "75D30122F15723",
+        "startDate": "2022-09-30",
+        "agency": "Department of Health and Human Services",
+        "description": null
+      },
+      "note": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+    },
+    {
+      "name": "WELLPOINT FEDERAL SOLUTIONS, INC.",
+      "queryLane": "usaspending-contracts-2026",
+      "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "contractLead": {
+        "awardId": "HHSM500201700002C",
+        "startDate": "2017-02-01",
+        "agency": "Department of Health and Human Services",
+        "description": null
+      },
+      "note": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+    },
+    {
+      "name": "DELOITTE CONSULTING LLP",
+      "queryLane": "usaspending-contracts-2026",
+      "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "contractLead": {
+        "awardId": "47QFMA24F0013",
+        "startDate": "2024-02-17",
+        "agency": "General Services Administration",
+        "description": null
+      },
+      "note": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+    },
+    {
+      "name": "CARAHSOFT TECHNOLOGY CORP",
+      "queryLane": "usaspending-contracts-2026",
+      "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "contractLead": {
+        "awardId": "W519TC23F0051",
+        "startDate": "2022-12-23",
+        "agency": "Department of Defense",
+        "description": null
+      },
+      "note": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+    },
+    {
+      "name": "GUIDEHOUSE INC.",
+      "queryLane": "usaspending-contracts-2026",
+      "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "contractLead": {
+        "awardId": "140D0423F0882",
+        "startDate": "2023-09-17",
+        "agency": "Department of the Interior",
+        "description": null
+      },
+      "note": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+    },
+    {
+      "name": "CACI NSS, LLC",
+      "queryLane": "usaspending-contracts-2026",
+      "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "contractLead": {
+        "awardId": "GST0013AJ0065",
+        "startDate": "2013-03-15",
+        "agency": "General Services Administration",
+        "description": null
+      },
+      "note": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+    },
+    {
+      "name": "SOLDIERPOINT DIGITAL HEALTH, LLC",
+      "queryLane": "usaspending-contracts-2026",
+      "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "contractLead": {
+        "awardId": "36C10G24N0112",
+        "startDate": "2024-09-07",
+        "agency": "Department of Veterans Affairs",
+        "description": null
+      },
+      "note": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+    },
+    {
+      "name": "BAE SYSTEMS TECHNOLOGY SOLUTIONS & SERVICES INC.",
+      "queryLane": "usaspending-contracts-2026",
+      "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "contractLead": {
+        "awardId": "W912DY22F0105",
+        "startDate": "2022-08-16",
+        "agency": "Department of Defense",
+        "description": null
+      },
+      "note": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+    },
+    {
+      "name": "SPREZZATURA MANAGEMENT CONSULTING, LLC",
+      "queryLane": "usaspending-contracts-2026",
+      "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "contractLead": {
+        "awardId": "36C10B24F0365",
+        "startDate": "2024-09-27",
+        "agency": "Department of Veterans Affairs",
+        "description": null
+      },
+      "note": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+    },
+    {
+      "name": "IT CONCEPTS, INC.",
+      "queryLane": "usaspending-contracts-2026",
+      "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "contractLead": {
+        "awardId": "36C10B24F0420",
+        "startDate": "2024-09-30",
+        "agency": "Department of Veterans Affairs",
+        "description": null
+      },
+      "note": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+    },
+    {
+      "name": "GOVCIO, LLC",
+      "queryLane": "usaspending-contracts-2026",
+      "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "contractLead": {
+        "awardId": "36C10B22N10030034",
+        "startDate": "2022-08-23",
+        "agency": "Department of Veterans Affairs",
+        "description": null
+      },
+      "note": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+    },
+    {
+      "name": "METGREEN SOLUTIONS INC",
+      "queryLane": "usaspending-contracts-2026",
+      "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "contractLead": {
+        "awardId": "36C10B23F0319",
+        "startDate": "2023-09-22",
+        "agency": "Department of Veterans Affairs",
+        "description": null
+      },
+      "note": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+    },
+    {
+      "name": "MINBURN TECHNOLOGY GROUP, LLC",
+      "queryLane": "usaspending-contracts-2026",
+      "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "contractLead": {
+        "awardId": "19AQMM24F0570",
+        "startDate": "2024-03-01",
+        "agency": "Department of State",
+        "description": null
+      },
+      "note": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+    },
+    {
+      "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+      "queryLane": "usaspending-contracts-2026",
+      "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "contractLead": {
+        "awardId": "HQ014718F0022",
+        "startDate": "2018-03-02",
+        "agency": "Department of Defense",
+        "description": null
+      },
+      "note": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+    },
+    {
+      "name": "BUSINESS MISSION EDGE, LLC",
+      "queryLane": "usaspending-contracts-2026",
+      "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "contractLead": {
+        "awardId": "W52P1J20F0674",
+        "startDate": "2020-09-28",
+        "agency": "Department of Defense",
+        "description": null
+      },
+      "note": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+    },
+    {
+      "name": "VETERANS EZ INFO INC.",
+      "queryLane": "usaspending-contracts-2026",
+      "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "contractLead": {
+        "awardId": "36C10B22N10280026",
+        "startDate": "2022-09-28",
+        "agency": "Department of Veterans Affairs",
+        "description": null
+      },
+      "note": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+    },
+    {
+      "name": "ANDURIL INDUSTRIES, INC.",
+      "queryLane": "usaspending-contracts-2026",
+      "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "contractLead": {
+        "awardId": "70B02C26F00000035",
+        "startDate": "2025-12-25",
+        "agency": "Department of Homeland Security",
+        "description": null
+      },
+      "note": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+    },
+    {
+      "name": "THUNDERCAT TECHNOLOGY, LLC",
+      "queryLane": "usaspending-contracts-2026",
+      "sourceUrl": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "contractLead": {
+        "awardId": "36C10B26F0287",
+        "startDate": "2025-10-01",
+        "agency": "Department of Veterans Affairs",
+        "description": null
+      },
+      "note": "Federal software-services award lead only; this does not prove the recipient hired LATAM software developers."
+    }
+  ],
+  "errors": [
+    {
+      "source": "GDELT public web articles",
+      "message": "HTTP 429 from api.gdeltproject.org: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. All high-traffic users should switch to our ngrams dataset: https://blog.gdeltproject.org/using-the-new-web-ngrams-dataset-to-find-relevant-coverage/. For trend analysis, please see our daily newslet"
+    }
+  ]
+}

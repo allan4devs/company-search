@@ -1,0 +1,436 @@
+{
+  "cohortId": "usa-latam-2026-2026-11-08",
+  "companies": [
+    {
+      "name": "Cloudbeds",
+      "website": "https://www.cloudbeds.com/",
+      "careersUrl": "https://job-boards.greenhouse.io/cloudbeds",
+      "model": "direct",
+      "tracks": ["Software Engineering", "AI Engineering"],
+      "locations": ["United States (San Diego, CA office)", "Latin America"],
+      "tags": ["usa-latam-2026"],
+      "jobs": [{
+        "id": "cloudbeds-4717376005",
+        "title": "Senior Software Engineer",
+        "location": "Latin America; North America",
+        "eligibility": "Latin America; North America",
+        "workMode": "Remote",
+        "stack": "Python; PHP; Java; AI platform",
+        "roles": ["Backend"],
+        "listingStatus": "Open; checked 2026-11-08",
+        "checkedOn": "2026-11-08",
+        "url": "https://job-boards.greenhouse.io/cloudbeds/jobs/4717376005"
+      }],
+      "sourceEvidence": [
+        { "kind": "official-site", "url": "https://www.cloudbeds.com/contact-us/", "checkedOn": "2026-11-08", "note": "Cloudbeds lists its U.S. office in San Diego and names Latin American locations." },
+        { "kind": "job-posting", "url": "https://job-boards.greenhouse.io/cloudbeds/jobs/4717376005", "checkedOn": "2026-11-08", "note": "Current Senior Software Engineer application lists Latin America; North America." }
+      ],
+      "discovery": {
+        "source": "https://job-boards.greenhouse.io/cloudbeds/jobs/4717376005",
+        "sourceName": "Cloudbeds Greenhouse ATS",
+        "checkedOn": "2026-11-08",
+        "region": "United States and Latin America",
+        "remotePolicy": "Posting lists Latin America and North America; remote team.",
+        "careersStatus": "Current Senior Software Engineer posting is open as checked 2026-11-08.",
+        "officialSource": "https://www.cloudbeds.com/contact-us/",
+        "technologies": ["Python", "PHP", "Java"],
+        "roles": ["Software Engineering", "Backend", "AI Engineering"],
+        "levels": ["Senior"]
+      },
+      "fit": {
+        "status": "strong",
+        "reasons": ["Official sources verify a U.S. office and a hospitality software product.", "The current 2026 posting accepts Latin America applicants; it proves hiring intent, not a completed hire."],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-08"
+      }
+    },
+    {
+      "name": "Donorbox",
+      "website": "https://donorbox.org/",
+      "careersUrl": "https://job-boards.greenhouse.io/donorbox",
+      "model": "direct",
+      "tracks": ["Software Engineering", "Product Engineering"],
+      "locations": ["United States (Alexandria, VA office)", "Latin America"],
+      "tags": ["usa-latam-2026"],
+      "jobs": [{
+        "id": "donorbox-4717089005",
+        "title": "Software Engineer (Full Stack)",
+        "location": "Latin America - Remote",
+        "eligibility": "Fully remote based in Latin America",
+        "workMode": "Remote",
+        "stack": "Ruby on Rails; JavaScript; PostgreSQL",
+        "roles": ["Full stack"],
+        "listingStatus": "Open; checked 2026-11-08",
+        "checkedOn": "2026-11-08",
+        "url": "https://job-boards.greenhouse.io/donorbox/jobs/4717089005"
+      }],
+      "sourceEvidence": [
+        { "kind": "official-site", "url": "https://donorbox.org/explore/terms", "checkedOn": "2026-11-08", "note": "Official terms identify Donorbox as a Delaware corporation with its main office in Alexandria, Virginia." },
+        { "kind": "job-posting", "url": "https://job-boards.greenhouse.io/donorbox/jobs/4717089005", "checkedOn": "2026-11-08", "note": "Current full-stack software engineer role is remote and based in Latin America." }
+      ],
+      "discovery": {
+        "source": "https://job-boards.greenhouse.io/donorbox/jobs/4717089005",
+        "sourceName": "Donorbox Greenhouse ATS",
+        "checkedOn": "2026-11-08",
+        "region": "United States and Latin America",
+        "remotePolicy": "Full-stack engineering role is fully remote for candidates based in Latin America.",
+        "careersStatus": "Current Software Engineer (Full Stack) posting is open as checked 2026-11-08.",
+        "officialSource": "https://donorbox.org/explore/terms",
+        "technologies": ["Ruby on Rails", "JavaScript", "PostgreSQL"],
+        "roles": ["Software Engineering", "Full stack"],
+        "levels": ["Mid-level"]
+      },
+      "fit": {
+        "status": "strong",
+        "reasons": ["Official sources verify a U.S. company building fundraising software.", "The current 2026 posting is explicitly based in Latin America; it proves hiring intent, not a completed hire."],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-08"
+      }
+    },
+    {
+      "name": "Homeward",
+      "website": "https://www.homeward.com/",
+      "careersUrl": "https://job-boards.greenhouse.io/homeward",
+      "model": "direct",
+      "tracks": ["Software Engineering", "Product Engineering"],
+      "locations": ["United States (Austin, TX headquarters)", "Latin America"],
+      "tags": ["usa-latam-2026"],
+      "jobs": [{
+        "id": "homeward-8191859002",
+        "title": "Senior Software Engineer, Back-end (LatAm)",
+        "location": "Latin America",
+        "eligibility": "LatAm",
+        "workMode": "Remote",
+        "stack": "Backend software engineering",
+        "roles": ["Backend"],
+        "listingStatus": "Open; checked 2026-11-08",
+        "checkedOn": "2026-11-08",
+        "url": "https://job-boards.greenhouse.io/homeward/jobs/8191859002"
+      }],
+      "sourceEvidence": [
+        { "kind": "official-site", "url": "https://www.homeward.com/about-us", "checkedOn": "2026-11-08", "note": "Homeward states it is headquartered in Austin, Texas." },
+        { "kind": "job-posting", "url": "https://job-boards.greenhouse.io/homeward/jobs/8191859002", "checkedOn": "2026-11-08", "note": "Current backend software engineering role is labeled LatAm and Latin America." }
+      ],
+      "discovery": {
+        "source": "https://job-boards.greenhouse.io/homeward/jobs/8191859002",
+        "sourceName": "Homeward Greenhouse ATS",
+        "checkedOn": "2026-11-08",
+        "region": "United States and Latin America",
+        "remotePolicy": "The current Back-end (LatAm) engineering role is listed for Latin America.",
+        "careersStatus": "Current Senior Software Engineer, Back-end (LatAm) posting is open as checked 2026-11-08.",
+        "officialSource": "https://www.homeward.com/about-us",
+        "technologies": [],
+        "roles": ["Software Engineering", "Backend"],
+        "levels": ["Senior"]
+      },
+      "fit": {
+        "status": "strong",
+        "reasons": ["Homeward is a U.S.-headquartered real estate technology company.", "Its current 2026 backend role is explicitly for Latin America; this is hiring intent, not confirmed completion."],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-08"
+      }
+    },
+    {
+      "name": "SecurityScorecard",
+      "website": "https://securityscorecard.com/",
+      "careersUrl": "https://job-boards.greenhouse.io/securityscorecard",
+      "model": "direct",
+      "tracks": ["Software Engineering", "Security Engineering", "AI Engineering"],
+      "locations": ["United States (New York City headquarters)", "Latin America"],
+      "tags": ["usa-latam-2026"],
+      "jobs": [{
+        "id": "securityscorecard-8324966",
+        "title": "Distinguished Software Engineer, AI",
+        "location": "Remote (US/CAN/LATAM)",
+        "eligibility": "United States, Canada, and Latin America; Argentina and Brazil compensation tiers stated",
+        "workMode": "Remote",
+        "stack": "TypeScript; Go; AWS; AI/LLM systems",
+        "roles": ["Backend", "AI Engineering"],
+        "listingStatus": "Open; checked 2026-11-08",
+        "checkedOn": "2026-11-08",
+        "url": "https://job-boards.greenhouse.io/securityscorecard/jobs/8324966"
+      }],
+      "sourceEvidence": [
+        { "kind": "careers-page", "url": "https://securityscorecard.com/company/careers/", "checkedOn": "2026-11-08", "note": "Official careers page confirms the New York City headquarters." },
+        { "kind": "job-posting", "url": "https://job-boards.greenhouse.io/securityscorecard/jobs/8324966", "checkedOn": "2026-11-08", "note": "Current software engineering role states hiring across the U.S., Canada, and Latin America." }
+      ],
+      "discovery": {
+        "source": "https://job-boards.greenhouse.io/securityscorecard/jobs/8324966",
+        "sourceName": "SecurityScorecard Greenhouse ATS",
+        "checkedOn": "2026-11-08",
+        "region": "United States and Latin America",
+        "remotePolicy": "The role is remote and explicitly open across the United States, Canada, and Latin America.",
+        "careersStatus": "Current Distinguished Software Engineer, AI posting is open as checked 2026-11-08.",
+        "officialSource": "https://securityscorecard.com/company/careers/",
+        "technologies": ["TypeScript", "Go", "AWS"],
+        "roles": ["Software Engineering", "Security Engineering", "AI Engineering"],
+        "levels": ["Senior"]
+      },
+      "fit": {
+        "status": "strong",
+        "reasons": ["Official sources verify U.S. headquarters and a cybersecurity software product.", "The current 2026 software engineering opening accepts Latin America applicants; a posting does not confirm a hire."],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-08"
+      }
+    },
+    {
+      "name": "Canary Technologies",
+      "website": "https://www.canarytechnologies.com/",
+      "careersUrl": "https://jobs.lever.co/canarytechnologies",
+      "model": "direct",
+      "tracks": ["Software Engineering", "Product Engineering", "AI Engineering"],
+      "locations": ["United States (San Francisco, CA headquarters)", "Latin America"],
+      "tags": ["usa-latam-2026"],
+      "jobs": [{
+        "id": "canarytechnologies-0e1532cc-85e4-4f9d-a78c-defc089b14c8",
+        "title": "Senior Software Engineer",
+        "location": "Latin America",
+        "eligibility": "Latin America",
+        "workMode": "Remote",
+        "stack": "JavaScript; Vue.js or React; React Native",
+        "roles": ["Full stack"],
+        "listingStatus": "Open; checked 2026-11-08",
+        "checkedOn": "2026-11-08",
+        "url": "https://jobs.lever.co/canarytechnologies/0e1532cc-85e4-4f9d-a78c-defc089b14c8"
+      }],
+      "sourceEvidence": [
+        { "kind": "official-site", "url": "https://www.canarytechnologies.com/company", "checkedOn": "2026-11-08", "note": "Canary states it is headquartered in San Francisco and builds hotel technology software." },
+        { "kind": "job-posting", "url": "https://jobs.lever.co/canarytechnologies/0e1532cc-85e4-4f9d-a78c-defc089b14c8", "checkedOn": "2026-11-08", "note": "Current remote Senior Software Engineer listing states Latin America." }
+      ],
+      "discovery": {
+        "source": "https://jobs.lever.co/canarytechnologies/0e1532cc-85e4-4f9d-a78c-defc089b14c8",
+        "sourceName": "Canary Technologies Lever ATS",
+        "checkedOn": "2026-11-08",
+        "region": "United States and Latin America",
+        "remotePolicy": "Senior Software Engineer role is remote and lists Latin America.",
+        "careersStatus": "Current Senior Software Engineer posting is open as checked 2026-11-08.",
+        "officialSource": "https://www.canarytechnologies.com/company",
+        "technologies": ["JavaScript", "Vue.js", "React", "React Native"],
+        "roles": ["Software Engineering", "Full stack", "AI Engineering"],
+        "levels": ["Senior"]
+      },
+      "fit": {
+        "status": "strong",
+        "reasons": ["Official company and careers pages verify a U.S. hotel software company with a San Francisco headquarters.", "The current 2026 engineering posting is open to Latin America; a posting does not confirm a completed hire."],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-08"
+      }
+    },
+    {
+      "name": "Engine",
+      "website": "https://www.engine.com/",
+      "careersUrl": "https://job-boards.greenhouse.io/engine",
+      "model": "direct",
+      "tracks": ["Software Engineering", "Product Engineering"],
+      "locations": ["United States (Denver, CO headquarters)", "Latin America"],
+      "tags": ["usa-latam-2026"],
+      "jobs": [{
+        "id": "engine-7994754003",
+        "title": "Senior Software Engineer, Backend - LATAM",
+        "location": "Remote - LATAM",
+        "eligibility": "Candidates based in Latin America",
+        "workMode": "Remote",
+        "stack": "Java; Kotlin; backend systems",
+        "roles": ["Backend"],
+        "listingStatus": "Evergreen; open as checked 2026-11-08",
+        "sourceNotes": "Full-time contractor role for candidates based in Latin America.",
+        "checkedOn": "2026-11-08",
+        "url": "https://job-boards.greenhouse.io/engine/jobs/7994754003"
+      }],
+      "sourceEvidence": [
+        { "kind": "official-site", "url": "https://engine.com/ai-information", "checkedOn": "2026-11-08", "note": "Engine's official company facts identify Denver, Colorado as its headquarters." },
+        { "kind": "job-posting", "url": "https://job-boards.greenhouse.io/engine/jobs/7994754003", "checkedOn": "2026-11-08", "note": "Evergreen full-time contractor Senior Software Engineer role is remote for Latin America candidates." }
+      ],
+      "discovery": {
+        "source": "https://job-boards.greenhouse.io/engine/jobs/7994754003",
+        "sourceName": "Engine Greenhouse ATS",
+        "checkedOn": "2026-11-08",
+        "region": "United States and Latin America",
+        "remotePolicy": "Evergreen contractor role is remote for candidates based in Latin America.",
+        "careersStatus": "Evergreen Senior Software Engineer, Backend - LATAM role is open as checked 2026-11-08.",
+        "officialSource": "https://engine.com/ai-information",
+        "technologies": ["Java", "Kotlin"],
+        "roles": ["Software Engineering", "Backend"],
+        "levels": ["Senior"]
+      },
+      "fit": {
+        "status": "strong",
+        "reasons": ["Official sources verify a U.S.-headquartered business travel software platform.", "An evergreen 2026 backend engineering role is explicitly for LATAM candidates; posting evidence is not proof of a completed hire."],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-08"
+      }
+    },
+    {
+      "name": "Savvy Wealth",
+      "website": "https://www.savvywealth.com/",
+      "careersUrl": "https://www.savvywealth.com/careers",
+      "model": "direct",
+      "tracks": ["Software Engineering", "Fintech Engineering"],
+      "locations": ["United States (New York, NY headquarters)", "Latin America"],
+      "tags": ["usa-latam-2026"],
+      "jobs": [{
+        "id": "savvywealth-c3589bc5-04c0-470d-a50d-2d38d4828710",
+        "title": "Senior Software Engineer (Remote LATAM)",
+        "location": "Latin America; Brazil; Mexico",
+        "eligibility": "Remote candidates based in Latin America",
+        "workMode": "Remote",
+        "stack": "Software engineering; wealth technology platform",
+        "roles": ["Full stack"],
+        "listingStatus": "Open; checked 2026-11-08",
+        "checkedOn": "2026-11-08",
+        "url": "https://jobs.ashbyhq.com/savvy/c3589bc5-04c0-470d-a50d-2d38d4828710"
+      }],
+      "sourceEvidence": [
+        { "kind": "official-site", "url": "https://www.savvywealth.com/about", "checkedOn": "2026-11-08", "note": "Savvy states it is headquartered in New York and builds its technology platform for wealth advisors." },
+        { "kind": "job-posting", "url": "https://jobs.ashbyhq.com/savvy/c3589bc5-04c0-470d-a50d-2d38d4828710", "checkedOn": "2026-11-08", "note": "Current remote Senior Software Engineer role is explicitly open to Latin America candidates." }
+      ],
+      "discovery": {
+        "source": "https://jobs.ashbyhq.com/savvy/c3589bc5-04c0-470d-a50d-2d38d4828710",
+        "sourceName": "Savvy Wealth Ashby ATS",
+        "checkedOn": "2026-11-08",
+        "region": "United States and Latin America",
+        "remotePolicy": "Role is remote and accepts candidates based in Latin America, Brazil, or Mexico.",
+        "careersStatus": "Current Senior Software Engineer (Remote LATAM) posting is open as checked 2026-11-08.",
+        "officialSource": "https://www.savvywealth.com/about",
+        "technologies": [],
+        "roles": ["Software Engineering", "Full stack"],
+        "levels": ["Senior"]
+      },
+      "fit": {
+        "status": "strong",
+        "reasons": ["Savvy's official site verifies its New York headquarters and technology company business.", "The current 2026 software engineering opening is explicitly for Latin America; it records recruiting intent, not a completed hire."],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-08"
+      }
+    },
+    {
+      "name": "Optery",
+      "website": "https://www.optery.com/",
+      "careersUrl": "https://www.optery.com/careers/",
+      "model": "direct",
+      "tracks": ["Software Engineering", "Privacy Engineering"],
+      "locations": ["United States (San Francisco Bay Area headquarters)", "Latin America"],
+      "tags": ["usa-latam-2026"],
+      "jobs": [{
+        "id": "optery-d87200e8-2ec1-4bdb-8b17-f64453cb3684",
+        "title": "Senior Backend Engineer (LATAM)",
+        "location": "Mexico; Argentina; Brazil; Chile; Colombia; Peru; Uruguay",
+        "eligibility": "Remote; candidates based in Latin America",
+        "workMode": "Remote",
+        "stack": "Python; Django; HTMX; React",
+        "roles": ["Backend"],
+        "listingStatus": "Open; checked 2026-11-08",
+        "checkedOn": "2026-11-08",
+        "url": "https://jobs.ashbyhq.com/optery/d87200e8-2ec1-4bdb-8b17-f64453cb3684"
+      }],
+      "sourceEvidence": [
+        { "kind": "official-site", "url": "https://www.optery.com/about-us/", "checkedOn": "2026-11-08", "note": "Optery states that it is headquartered in California's San Francisco Bay Area and provides privacy-removal software." },
+        { "kind": "job-posting", "url": "https://jobs.ashbyhq.com/optery/d87200e8-2ec1-4bdb-8b17-f64453cb3684", "checkedOn": "2026-11-08", "note": "Current remote Senior Backend Engineer posting states it is open to Latin America candidates." }
+      ],
+      "discovery": {
+        "source": "https://jobs.ashbyhq.com/optery/d87200e8-2ec1-4bdb-8b17-f64453cb3684",
+        "sourceName": "Optery Ashby ATS",
+        "checkedOn": "2026-11-08",
+        "region": "United States and Latin America",
+        "remotePolicy": "Remote role open to applicants based in named Latin American countries.",
+        "careersStatus": "Current Senior Backend Engineer (LATAM) posting is open as checked 2026-11-08.",
+        "officialSource": "https://www.optery.com/careers/",
+        "technologies": ["Python", "Django", "React"],
+        "roles": ["Software Engineering", "Backend"],
+        "levels": ["Senior"]
+      },
+      "fit": {
+        "status": "strong",
+        "reasons": ["Official sources verify a California privacy software company and U.S. headquarters.", "The current 2026 backend engineering role is remote for Latin America candidates; the posting is not proof of a completed hire."],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-08"
+      }
+    },
+    {
+      "name": "Atomic Invest",
+      "website": "https://www.atomicvest.com/",
+      "careersUrl": "https://jobs.ashbyhq.com/atomic-invest",
+      "model": "direct",
+      "tracks": ["Software Engineering", "Fintech Engineering"],
+      "locations": ["United States (California and New York offices)", "Latin America"],
+      "tags": ["usa-latam-2026"],
+      "jobs": [{
+        "id": "atomic-invest-2dbcd665-1e90-49b0-b164-4776e85fae25",
+        "title": "Software Engineer, Back End (LATAM)",
+        "location": "LATAM",
+        "eligibility": "Remote from any part of Latin America",
+        "workMode": "Remote",
+        "stack": "Backend financial infrastructure; stablecoin account funding",
+        "roles": ["Backend"],
+        "listingStatus": "Open; checked 2026-11-08",
+        "checkedOn": "2026-11-08",
+        "url": "https://jobs.ashbyhq.com/atomic-invest/2dbcd665-1e90-49b0-b164-4776e85fae25"
+      }],
+      "sourceEvidence": [
+        { "kind": "official-site", "url": "https://www.atomicvest.com/atomicinvest", "checkedOn": "2026-11-08", "note": "AtomicVest describes its U.S. technology company and its software platform for investing services." },
+        { "kind": "job-posting", "url": "https://jobs.ashbyhq.com/atomic-invest/2dbcd665-1e90-49b0-b164-4776e85fae25", "checkedOn": "2026-11-08", "note": "Current backend engineer posting is remote from any part of LATAM and mentions California and New York offices." }
+      ],
+      "discovery": {
+        "source": "https://jobs.ashbyhq.com/atomic-invest/2dbcd665-1e90-49b0-b164-4776e85fae25",
+        "sourceName": "Atomic Invest Ashby ATS",
+        "checkedOn": "2026-11-08",
+        "region": "United States and Latin America",
+        "remotePolicy": "The current backend engineering role can be performed remotely from any part of Latin America.",
+        "careersStatus": "Current Software Engineer, Back End (LATAM) posting is open as checked 2026-11-08.",
+        "officialSource": "https://www.atomicvest.com/atomicinvest",
+        "technologies": [],
+        "roles": ["Software Engineering", "Backend"],
+        "levels": ["Senior"]
+      },
+      "fit": {
+        "status": "strong",
+        "reasons": ["AtomicVest is a U.S. technology company building an investing software platform.", "The current 2026 backend engineering role explicitly accepts LATAM candidates; it does not confirm a completed hire."],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-08"
+      }
+    },
+    {
+      "name": "TrashLab",
+      "website": "https://trashlab.com/",
+      "careersUrl": "https://trashlab.com/careers",
+      "model": "direct",
+      "tracks": ["Software Engineering", "Product Engineering", "AI Engineering"],
+      "locations": ["United States (San Francisco, CA role location)", "Latin America"],
+      "tags": ["usa-latam-2026"],
+      "jobs": [{
+        "id": "trashlab-gem-am9icG9zdDpSRwePwAYzFOEVEcZ6Wcz8",
+        "title": "Senior Software Engineer - LATAM Brazil",
+        "location": "Brazil, Remote",
+        "eligibility": "LATAM Brazil",
+        "workMode": "Remote",
+        "stack": "Waste-management SaaS product engineering",
+        "roles": ["Software Engineering", "Full stack"],
+        "listingStatus": "Listed as open on the official careers page; checked 2026-11-08",
+        "checkedOn": "2026-11-08",
+        "url": "https://jobs.gem.com/trashlab/am9icG9zdDpSRwePwAYzFOEVEcZ6Wcz8"
+      }],
+      "sourceEvidence": [
+        { "kind": "careers-page", "url": "https://trashlab.com/careers", "checkedOn": "2026-11-08", "note": "Official careers page describes TrashLab's software product and lists the LATAM Brazil Senior Software Engineer role plus U.S. roles in San Francisco." },
+        { "kind": "job-posting", "url": "https://jobs.gem.com/trashlab/am9icG9zdDpSRwePwAYzFOEVEcZ6Wcz8", "checkedOn": "2026-11-08", "note": "Career-page-linked Gem application is for a Senior Software Engineer role in LATAM Brazil." }
+      ],
+      "discovery": {
+        "source": "https://jobs.gem.com/trashlab/am9icG9zdDpSRwePwAYzFOEVEcZ6Wcz8",
+        "sourceName": "TrashLab Gem ATS, linked from company careers page",
+        "checkedOn": "2026-11-08",
+        "region": "United States and Latin America",
+        "remotePolicy": "Senior Software Engineer role is remote and listed for LATAM Brazil.",
+        "careersStatus": "Official careers page listed the role as open on 2026-11-08.",
+        "officialSource": "https://trashlab.com/careers",
+        "technologies": [],
+        "roles": ["Software Engineering", "Full stack", "AI Engineering"],
+        "levels": ["Senior"]
+      },
+      "fit": {
+        "status": "strong",
+        "reasons": ["Official careers pages describe a U.S.-located SaaS company that builds waste-hauler software.", "The current 2026 hiring page lists a remote software engineering role for Brazil; this proves intent, not a completed hire."],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-08"
+      }
+    }
+  ]
+}

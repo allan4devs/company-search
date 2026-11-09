@@ -1,5 +1,5 @@
-import { memo, useState } from "react";
-import { ArrowUpRight, Heart, Image, Pencil, Plus, ThumbsDown } from "lucide-react";
+import { memo } from "react";
+import { ArrowUpRight, Heart, ThumbsDown } from "lucide-react";
 import type { CompanyCard } from "@/lib/comp/catalog";
 import type { CompanyPreference } from "@/lib/comp/types";
 
@@ -14,8 +14,6 @@ type Props = {
     change: CompanyPreference,
     type?: "like" | "dislike",
   ) => Promise<boolean>;
-  onSaveCareers: (company: CompanyCard, draft: string) => Promise<boolean>;
-  onCancel: () => void;
 };
 
 function CompanyCardActionsView({
@@ -24,21 +22,12 @@ function CompanyCardActionsView({
   ready,
   reaction,
   onPreferenceChange,
-  onSaveCareers,
-  onCancel,
 }: Props) {
-  const [editing, setEditing] = useState(false);
-  const [draft, setDraft] = useState("");
   const careersUrl =
     preference?.careersUrl ||
     company.careersUrl ||
     company.nearshore?.careersUrl ||
     "";
-
-  function beginEditing() {
-    setDraft(careersUrl);
-    setEditing(true);
-  }
 
   return (
     <>
@@ -58,33 +47,6 @@ function CompanyCardActionsView({
             </span>
           </a>
         ) : null}
-        {!preference?.imageUrl && (company.website || company.nearshore?.website) ? (
-          <button
-            type="button"
-            disabled={!ready}
-            onClick={() => {
-              const website = company.website || company.nearshore?.website;
-              if (!website) return;
-              const domain = new URL(website).hostname;
-              const imageUrl = `https://www.google.com/s2/favicons?domain=${encodeURIComponent(domain)}&sz=128`;
-              void onPreferenceChange(company.key, { imageUrl });
-            }}
-            className="inline-flex items-center gap-2 rounded-lg border border-zinc-700 px-3 py-2 text-xs text-zinc-300 hover:bg-zinc-800 disabled:opacity-50"
-          >
-            <Image size={14} />
-            Crawl image
-          </button>
-        ) : null}
-        <button
-          type="button"
-          disabled={!ready}
-          title={careersUrl ? "Edit careers link" : "Add careers link"}
-          aria-label={`${careersUrl ? "Edit" : "Add"} careers link for ${company.name}`}
-          onClick={beginEditing}
-          className="rounded-lg p-2 text-zinc-300 hover:bg-zinc-800 disabled:opacity-50"
-        >
-          {careersUrl ? <Pencil size={16} /> : <Plus size={16} />}
-        </button>
         <button
           type="button"
           disabled={!ready}
@@ -121,50 +83,6 @@ function CompanyCardActionsView({
           />
         </button>
       </div>
-      {editing ? (
-        <form
-          onSubmit={async (event) => {
-            event.preventDefault();
-            if (await onSaveCareers(company, draft)) setEditing(false);
-          }}
-          className="mt-2 rounded-xl border border-zinc-800 p-3"
-        >
-          <label
-            className="text-xs text-zinc-300"
-            htmlFor={`careers-${company.key}`}
-          >
-            Careers page for {company.name}
-          </label>
-          <input
-            autoFocus
-            required
-            type="url"
-            id={`careers-${company.key}`}
-            value={draft}
-            onChange={(event) => setDraft(event.target.value)}
-            placeholder="https://company.com/careers"
-            className="mt-2 w-full rounded-lg border border-zinc-700 bg-zinc-950 p-2 text-sm"
-          />
-          <div className="mt-2 flex gap-3 text-xs">
-            <button
-              type="submit"
-              className="rounded-lg bg-teal-400 px-3 py-2 font-semibold text-zinc-950"
-            >
-              Save link
-            </button>
-            <button
-              type="button"
-              onClick={() => {
-                setEditing(false);
-                onCancel();
-              }}
-              className="px-3 py-2 text-zinc-400"
-            >
-              Cancel
-            </button>
-          </div>
-        </form>
-      ) : null}
     </>
   );
 }

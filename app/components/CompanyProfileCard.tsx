@@ -1,5 +1,3 @@
-import { Check, Copy } from "lucide-react";
-
 import { memo } from "react";
 
 import type { CompanyCard } from "@/lib/comp/catalog";
@@ -12,21 +10,9 @@ type Props = {
   company: CompanyCard;
 
   preference?: CompanyPreference;
-
-  copied: string | null;
-
-  onCopied: (id: string) => void;
-
-  onCopyError: () => void;
 };
 
-function CompanyProfileCardView({
-  company,
-  preference,
-  copied,
-  onCopied,
-  onCopyError,
-}: Props) {
+function CompanyProfileCardView({ company, preference }: Props) {
   const careersUrl =
     preference?.careersUrl ||
     company.careersUrl ||
@@ -38,72 +24,24 @@ function CompanyProfileCardView({
 
   const tags = signals.technologies;
 
+  const previewJobs = [...company.jobs, ...(preference?.addedJobs || [])];
+
+  const previewRoles = [
+    ...new Set(
+      [company.research?.role, ...previewJobs.map((job) => job.title)].filter(
+        (role): role is string => !!role,
+      ),
+    ),
+  ];
+
   const roleNote = [
     company.research?.notes,
     company.jobs[0]?.sourceNotes,
     company.jobs[0]?.matchReason,
   ].find((note) => note && !/\bcv\b|tailored/i.test(note));
 
-  const details = [
-    company.name,
-
-    company.website,
-
-    preference?.careersUrl ||
-      company.careersUrl ||
-      company.nearshore?.careersUrl,
-
-    tags.join(", "),
-
-    company.research?.region || company.locations.join(" · "),
-
-    company.research?.workMode || company.discovery?.remotePolicy,
-
-    company.research?.role ||
-      company.jobs
-        .map((job) => job.title)
-        .filter(Boolean)
-        .join(" · "),
-
-    roleNote,
-  ]
-    .filter(Boolean)
-    .join("\n");
-
   const note =
     roleNote || (!company.discovery ? company.nearshore?.notes : undefined);
-
-  function copyButton(field: string, text: string) {
-    const id = `${company.key}-${field}`;
-
-    const label = `Copy ${field} for ${company.name}`;
-
-    return (
-      <button
-        type="button"
-        aria-label={label}
-        title={copied === id ? "Copied!" : label}
-
-        onClick={async () => {
-          try {
-            await navigator.clipboard.writeText(text);
-
-            onCopied(id);
-          } catch {
-            onCopyError();
-          }
-        }}
-
-        className="relative z-10 inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-md text-zinc-500 transition hover:bg-zinc-800 hover:text-teal-300 focus-visible:outline-2 focus-visible:outline-teal-300"
-      >
-        {copied === id ? (
-          <Check aria-hidden="true" size={14} className="text-teal-300" />
-        ) : (
-          <Copy aria-hidden="true" size={14} />
-        )}
-      </button>
-    );
-  }
 
   return (
     <>
@@ -146,12 +84,7 @@ function CompanyProfileCardView({
       </div>
 
       <p className="line-clamp-2 min-h-10 text-[15px] font-semibold leading-5 text-zinc-100">
-        {company.research?.role ||
-          company.jobs
-            .map((job) => job.title)
-            .filter(Boolean)
-            .join(" · ") ||
-          "Role not stated"}
+        {previewRoles.join(" · ") || "Role not stated"}
       </p>
 
       <p className="text-xs leading-5 text-zinc-300">
@@ -208,17 +141,12 @@ function CompanyProfileCardView({
         </details>
       ) : null}
 
-      <div className="mt-auto flex items-center justify-between border-t border-zinc-800 pt-3">
+      <div className="mt-auto border-t border-zinc-800 pt-3">
         <span className="rounded-md bg-zinc-800 px-2 py-1 text-[11px] text-zinc-300">
-          {company.jobs.length
-            ? `Role links (${company.jobs.length})`
+          {previewJobs.length
+            ? `Role links (${previewJobs.length})`
             : "Company directory"}
         </span>
-
-        <div className="flex">
-          {copyButton("details", details)}
-          {copyButton("name", company.name)}
-        </div>
       </div>
     </>
   );
@@ -227,18 +155,10 @@ function CompanyProfileCardView({
 function arePropsEqual(previous: Props, next: Props) {
   if (
     previous.company !== next.company ||
-    previous.preference !== next.preference ||
-    previous.onCopied !== next.onCopied ||
-    previous.onCopyError !== next.onCopyError
+    previous.preference !== next.preference
   )
     return false;
-
-  const key = `${next.company.key}-`;
-
-  return (
-    (previous.copied?.startsWith(key) ? previous.copied : null) ===
-    (next.copied?.startsWith(key) ? next.copied : null)
-  );
+  return true;
 }
 
 export const CompanyProfileCard = memo(CompanyProfileCardView, arePropsEqual);

@@ -1,0 +1,440 @@
+{
+  "cohortId": "usa-latam-2026-p002-2026-11-08",
+  "generatedOn": "2026-11-08",
+  "catalog": {
+    "source": "saved MongoDB snapshot + bundled files",
+    "mongoCompanies": 1622,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 0,
+    "indexedNames": 1646,
+    "indexedDomains": 1591
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 113,
+    "topTracks": [
+      {
+        "track": "Software Engineering",
+        "count": 54
+      },
+      {
+        "track": "Engineering",
+        "count": 38
+      },
+      {
+        "track": "Nearshore",
+        "count": 9
+      },
+      {
+        "track": "Full Stack",
+        "count": 6
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 6
+      },
+      {
+        "track": "Java",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Full-stack",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 4
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "JavaScript",
+        "count": 3
+      },
+      {
+        "track": "Backend",
+        "count": 3
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        66
+      ],
+      [
+        "direct",
+        26
+      ],
+      [
+        "unknown",
+        21
+      ]
+    ]
+  },
+  "dislikeBaseline": {
+    "activeDislikedWithCostaRicaOrLatamEvidence": 407,
+    "dislikedTracks": [
+      {
+        "track": "Software Engineering",
+        "count": 321
+      },
+      {
+        "track": "Engineering",
+        "count": 62
+      },
+      {
+        "track": "Backend",
+        "count": 11
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 10
+      },
+      {
+        "track": "Nearshore",
+        "count": 8
+      },
+      {
+        "track": "Full Stack",
+        "count": 6
+      },
+      {
+        "track": "Full-stack",
+        "count": 6
+      },
+      {
+        "track": "Fintech",
+        "count": 5
+      },
+      {
+        "track": "Python",
+        "count": 4
+      },
+      {
+        "track": "Data Engineering",
+        "count": 4
+      },
+      {
+        "track": "Cybersecurity",
+        "count": 4
+      },
+      {
+        "track": "Java Backend",
+        "count": 3
+      }
+    ],
+    "modelMix": [
+      [
+        "unknown",
+        242
+      ],
+      [
+        "outsourcing",
+        101
+      ],
+      [
+        "direct",
+        64
+      ]
+    ]
+  },
+  "preferenceContrast": {
+    "scope": "Active liked/disliked companies with explicit Costa Rica or LATAM evidence; each company counts once per feature.",
+    "likedCompanies": 113,
+    "dislikedCompanies": 407,
+    "models": [
+      {
+        "feature": "outsourcing",
+        "likedCount": 66,
+        "likedRate": 0.584,
+        "dislikedCount": 101,
+        "dislikedRate": 0.248,
+        "likedMinusDisliked": 0.336
+      },
+      {
+        "feature": "direct",
+        "likedCount": 26,
+        "likedRate": 0.23,
+        "dislikedCount": 64,
+        "dislikedRate": 0.157,
+        "likedMinusDisliked": 0.073
+      },
+      {
+        "feature": "unknown",
+        "likedCount": 21,
+        "likedRate": 0.186,
+        "dislikedCount": 242,
+        "dislikedRate": 0.595,
+        "likedMinusDisliked": -0.409
+      }
+    ],
+    "tracks": [
+      {
+        "feature": "Engineering",
+        "likedCount": 38,
+        "likedRate": 0.336,
+        "dislikedCount": 62,
+        "dislikedRate": 0.152,
+        "likedMinusDisliked": 0.184
+      },
+      {
+        "feature": "Nearshore",
+        "likedCount": 9,
+        "likedRate": 0.08,
+        "dislikedCount": 8,
+        "dislikedRate": 0.02,
+        "likedMinusDisliked": 0.06
+      },
+      {
+        "feature": "Java",
+        "likedCount": 6,
+        "likedRate": 0.053,
+        "dislikedCount": 2,
+        "dislikedRate": 0.005,
+        "likedMinusDisliked": 0.048
+      },
+      {
+        "feature": "Full Stack",
+        "likedCount": 6,
+        "likedRate": 0.053,
+        "dislikedCount": 6,
+        "dislikedRate": 0.015,
+        "likedMinusDisliked": 0.038
+      },
+      {
+        "feature": "React + Node Full Stack",
+        "likedCount": 5,
+        "likedRate": 0.044,
+        "dislikedCount": 3,
+        "dislikedRate": 0.007,
+        "likedMinusDisliked": 0.037
+      },
+      {
+        "feature": "React",
+        "likedCount": 4,
+        "likedRate": 0.035,
+        "dislikedCount": 2,
+        "dislikedRate": 0.005,
+        "likedMinusDisliked": 0.03
+      },
+      {
+        "feature": "Java + React Full Stack",
+        "likedCount": 6,
+        "likedRate": 0.053,
+        "dislikedCount": 10,
+        "dislikedRate": 0.025,
+        "likedMinusDisliked": 0.029
+      },
+      {
+        "feature": "Python",
+        "likedCount": 4,
+        "likedRate": 0.035,
+        "dislikedCount": 4,
+        "dislikedRate": 0.01,
+        "likedMinusDisliked": 0.026
+      },
+      {
+        "feature": "JavaScript",
+        "likedCount": 3,
+        "likedRate": 0.027,
+        "dislikedCount": 2,
+        "dislikedRate": 0.005,
+        "likedMinusDisliked": 0.022
+      },
+      {
+        "feature": "Full-stack",
+        "likedCount": 4,
+        "likedRate": 0.035,
+        "dislikedCount": 6,
+        "dislikedRate": 0.015,
+        "likedMinusDisliked": 0.021
+      },
+      {
+        "feature": "Product Engineering",
+        "likedCount": 3,
+        "likedRate": 0.027,
+        "dislikedCount": 3,
+        "dislikedRate": 0.007,
+        "likedMinusDisliked": 0.019
+      },
+      {
+        "feature": "Node.js",
+        "likedCount": 2,
+        "likedRate": 0.018,
+        "dislikedCount": 2,
+        "dislikedRate": 0.005,
+        "likedMinusDisliked": 0.013
+      },
+      {
+        "feature": "Python + React Full Stack",
+        "likedCount": 2,
+        "likedRate": 0.018,
+        "dislikedCount": 2,
+        "dislikedRate": 0.005,
+        "likedMinusDisliked": 0.013
+      },
+      {
+        "feature": "Java Backend",
+        "likedCount": 1,
+        "likedRate": 0.009,
+        "dislikedCount": 3,
+        "dislikedRate": 0.007,
+        "likedMinusDisliked": 0.001
+      },
+      {
+        "feature": "AI Engineering",
+        "likedCount": 1,
+        "likedRate": 0.009,
+        "dislikedCount": 3,
+        "dislikedRate": 0.007,
+        "likedMinusDisliked": 0.001
+      },
+      {
+        "feature": "Backend",
+        "likedCount": 3,
+        "likedRate": 0.027,
+        "dislikedCount": 11,
+        "dislikedRate": 0.027,
+        "likedMinusDisliked": 0
+      },
+      {
+        "feature": "Data Engineering",
+        "likedCount": 1,
+        "likedRate": 0.009,
+        "dislikedCount": 4,
+        "dislikedRate": 0.01,
+        "likedMinusDisliked": -0.001
+      },
+      {
+        "feature": "AI",
+        "likedCount": 0,
+        "likedRate": 0,
+        "dislikedCount": 3,
+        "dislikedRate": 0.007,
+        "likedMinusDisliked": -0.007
+      },
+      {
+        "feature": "Cybersecurity",
+        "likedCount": 0,
+        "likedRate": 0,
+        "dislikedCount": 4,
+        "dislikedRate": 0.01,
+        "likedMinusDisliked": -0.01
+      },
+      {
+        "feature": "Fintech",
+        "likedCount": 0,
+        "likedRate": 0,
+        "dislikedCount": 5,
+        "dislikedRate": 0.012,
+        "likedMinusDisliked": -0.012
+      }
+    ],
+    "roleFamilies": [
+      {
+        "feature": "Full stack",
+        "likedCount": 24,
+        "likedRate": 0.212,
+        "dislikedCount": 27,
+        "dislikedRate": 0.066,
+        "likedMinusDisliked": 0.146
+      },
+      {
+        "feature": "Backend",
+        "likedCount": 10,
+        "likedRate": 0.088,
+        "dislikedCount": 16,
+        "dislikedRate": 0.039,
+        "likedMinusDisliked": 0.049
+      },
+      {
+        "feature": "DevOps / platform",
+        "likedCount": 2,
+        "likedRate": 0.018,
+        "dislikedCount": 4,
+        "dislikedRate": 0.01,
+        "likedMinusDisliked": 0.008
+      },
+      {
+        "feature": "Frontend",
+        "likedCount": 1,
+        "likedRate": 0.009,
+        "dislikedCount": 2,
+        "dislikedRate": 0.005,
+        "likedMinusDisliked": 0.004
+      },
+      {
+        "feature": "Data",
+        "likedCount": 4,
+        "likedRate": 0.035,
+        "dislikedCount": 17,
+        "dislikedRate": 0.042,
+        "likedMinusDisliked": -0.006
+      },
+      {
+        "feature": "Security",
+        "likedCount": 1,
+        "likedRate": 0.009,
+        "dislikedCount": 7,
+        "dislikedRate": 0.017,
+        "likedMinusDisliked": -0.008
+      }
+    ],
+    "usage": "Use as a soft source-priority signal. Do not reject a company on preferences alone or weaken the location/evidence gate."
+  },
+  "candidates": [
+    {
+      "name": "Caliza",
+      "website": "https://www.caliza.com/",
+      "queryLane": "lever-latam-swe",
+      "sourceUrl": "https://jobs.lever.co/caliza-financial-technologies/e0519b77-10e5-4918-8c8d-521641fb3d76"
+    },
+    {
+      "name": "Tech Holding",
+      "website": "https://techholding.co/",
+      "queryLane": "official-careers-latam-swe",
+      "sourceUrl": "https://techholding.co/careers/4743067005"
+    },
+    {
+      "name": "66degrees",
+      "website": "https://www.66degrees.com/",
+      "queryLane": "greenhouse-latam-swe",
+      "sourceUrl": "https://job-boards.greenhouse.io/66degrees/jobs/6241755004"
+    },
+    {
+      "name": "Utility Profit",
+      "website": "https://www.utilityprofit.com/",
+      "queryLane": "greenhouse-mexico-swe",
+      "sourceUrl": "https://job-boards.greenhouse.io/utilityprofit"
+    },
+    {
+      "name": "Goodway Group",
+      "website": "https://goodwaygroup.com/",
+      "queryLane": "greenhouse-latam-swe",
+      "sourceUrl": "https://job-boards.greenhouse.io/goodwaygroup/jobs/6111857004"
+    },
+    {
+      "name": "Omnissa",
+      "website": "https://www.omnissa.com/",
+      "queryLane": "workday-mexico-swe",
+      "sourceUrl": "https://omnissa.wd501.myworkdayjobs.com/en-US/Omnissa_External_Career_Site/job/Sr-Software-Engineer--C-NET_R-101623"
+    }
+  ],
+  "uniqueCandidatesFound": 6,
+  "outputLimit": 1000,
+  "timingsMs": {
+    "inputReadMs": 2,
+    "mongoLoadOrSnapshotReadMs": 8,
+    "bundledCatalogReadMs": 18,
+    "previousBatchReadMs": 0,
+    "indexBuildMs": 24,
+    "candidateCompareMs": 1,
+    "preferenceAnalysisMs": 9,
+    "preReportWriteElapsedMs": 63
+  }
+}

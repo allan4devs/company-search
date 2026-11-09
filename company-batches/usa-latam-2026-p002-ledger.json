@@ -1,0 +1,76 @@
+{
+  "batchId": "usa-latam-2026-p002-2026-11-08",
+  "checkedOn": "2026-11-08",
+  "entries": [
+    {
+      "company": "Caliza",
+      "domain": "caliza.com",
+      "queryLane": "lever-latam-swe + sec-edgar-form-d-miami-office-2026",
+      "status": "verified",
+      "reason": "passed company-level fit and evidence checks"
+    },
+    {
+      "company": "Tech Holding",
+      "domain": "techholding.co",
+      "queryLane": "official-careers-latam-swe",
+      "status": "verified",
+      "reason": "passed company-level fit and evidence checks"
+    },
+    {
+      "company": "Utility Profit",
+      "domain": "utilityprofit.com",
+      "queryLane": "greenhouse-mexico-swe",
+      "status": "verified",
+      "reason": "passed company-level fit and evidence checks"
+    },
+    {
+      "company": "Omnissa",
+      "domain": "omnissa.com",
+      "queryLane": "workday-mexico-swe",
+      "status": "verified",
+      "reason": "passed company-level fit and evidence checks"
+    },
+    {
+      "company": "Backblaze",
+      "domain": "backblaze.com",
+      "queryLane": "greenhouse-latam-swe; intentional existing-company update",
+      "status": "verified",
+      "reason": "passed company-level fit and evidence checks"
+    },
+    {
+      "company": "CodePath",
+      "domain": "codepath.org",
+      "queryLane": "greenhouse-latam-swe; intentional existing-company update",
+      "status": "verified",
+      "reason": "passed company-level fit and evidence checks"
+    },
+    {
+      "company": "Wagmo",
+      "domain": "wagmo.io",
+      "queryLane": "ashby-latam-swe; intentional existing-company update",
+      "status": "verified",
+      "reason": "passed company-level fit and evidence checks"
+    },
+    {
+      "company": "Sezzle",
+      "domain": "sezzle.com",
+      "queryLane": "greenhouse-latam-swe; intentional existing-company update",
+      "status": "verified",
+      "reason": "passed company-level fit and evidence checks"
+    },
+    {
+      "company": "TRM Labs",
+      "domain": "trmlabs.com",
+      "queryLane": "ashby-latam-swe + usaspending/sam-gov + company-newsroom; intentional existing-company update",
+      "status": "verified",
+      "reason": "passed company-level fit and evidence checks"
+    },
+    {
+      "company": "Glacier",
+      "domain": "glacier.com",
+      "queryLane": "ashby-latam-engineering; intentional existing-company update",
+      "status": "verified",
+      "reason": "passed company-level fit and evidence checks"
+    }
+  ]
+}

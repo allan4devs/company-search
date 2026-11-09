@@ -7,6 +7,8 @@ export type CompanyPreference = {
   careersUrl?: string;
   imageUrl?: string;
   likedJobIds?: string[];
+  archivedJobIds?: string[];
+  appliedJobIds?: string[];
   addedJobs?: CompanyJob[];
 };
 export function validatePreference(value: unknown): CompanyPreference {
@@ -34,6 +36,17 @@ export function validatePreference(value: unknown): CompanyPreference {
     )
       throw new Error("Invalid liked jobs.");
     result.likedJobIds = [...new Set(item.likedJobIds)];
+  }
+  for (const key of ["archivedJobIds", "appliedJobIds"] as const) {
+    if (item[key] !== undefined) {
+      if (
+        !Array.isArray(item[key]) ||
+        item[key]!.length > 500 ||
+        item[key]!.some((id) => typeof id !== "string" || id.length > 250)
+      )
+        throw new Error(`Invalid ${key === "archivedJobIds" ? "archived" : "applied"} jobs.`);
+      result[key] = [...new Set(item[key]!)];
+    }
   }
   for (const key of ["liked", "disliked", "archived"] as const) {
     if (item[key] !== undefined) {

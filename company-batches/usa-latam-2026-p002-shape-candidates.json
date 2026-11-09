@@ -1,0 +1,104 @@
+{
+  "candidates": [
+    {
+      "name": "Caliza",
+      "website": "https://www.caliza.com/",
+      "queryLane": "lever-latam-swe + sec-edgar-form-d-miami-office-2026",
+      "officialIdentityVerified": true,
+      "regionalWorkEligibilityVerified": true,
+      "officialFitSnippets": [{ "url": "https://www.caliza.com/our-company", "snippet": "Caliza Financial Technologies, Inc. is a U.S. financial technology company building cross-border payment and treasury software." }],
+      "officialLocationSnippets": [{ "url": "https://www.sec.gov/Archives/edgar/data/1879358/000187935826000001/xslFormDX01/primary_doc.xml", "snippet": "2026 SEC Form D identifies Miami, Florida as the principal place of business for Caliza Financial Technologies, Inc." }],
+      "officialRegionalPresenceSnippets": [{ "url": "https://jobs.lever.co/caliza-financial-technologies/e0519b77-10e5-4918-8c8d-521641fb3d76", "snippet": "Official Lever posting: Senior Software Engineer, Front End, Dashboard, remote LATAM." }]
+    },
+    {
+      "name": "Tech Holding",
+      "website": "https://techholding.co/",
+      "queryLane": "official-careers-latam-swe",
+      "officialIdentityVerified": true,
+      "regionalWorkEligibilityVerified": true,
+      "officialFitSnippets": [{ "url": "https://techholding.co/about", "snippet": "Tech Holding describes its software development, managed services, and staffing solutions." }],
+      "officialLocationSnippets": [{ "url": "https://techholding.co/about", "snippet": "Tech Holding identifies Los Angeles, California as its headquarters." }],
+      "officialRegionalPresenceSnippets": [{ "url": "https://job-boards.greenhouse.io/techholding/jobs/4743075005", "snippet": "Official Greenhouse posting: software engineer contract role, remote from Mexico." }]
+    },
+    {
+      "name": "Utility Profit",
+      "website": "https://www.utilityprofit.com/",
+      "queryLane": "greenhouse-mexico-swe",
+      "officialIdentityVerified": true,
+      "regionalWorkEligibilityVerified": true,
+      "officialFitSnippets": [{ "url": "https://www.utilityprofit.com/about-us", "snippet": "Utility Profit describes a software product and a team of engineers." }],
+      "officialLocationSnippets": [{ "url": "https://www.utilityprofit.com/about-us", "snippet": "Utility Profit lists its main office in Austin, Texas." }],
+      "officialRegionalPresenceSnippets": [{ "url": "https://job-boards.greenhouse.io/utilityprofit/jobs/4412541009", "snippet": "Official Greenhouse posting: Full Stack Software Engineer — AI & Automation, worldwide remote with Mexico and U.S. preferred." }]
+    },
+    {
+      "name": "Omnissa",
+      "website": "https://www.omnissa.com/",
+      "queryLane": "workday-mexico-swe",
+      "officialIdentityVerified": true,
+      "regionalWorkEligibilityVerified": true,
+      "officialFitSnippets": [{ "url": "https://www.omnissa.com/about-us/", "snippet": "Omnissa builds enterprise digital-work software and endpoint security products." }],
+      "officialLocationSnippets": [{ "url": "https://www.omnissa.com/about-us/", "snippet": "Omnissa identifies its headquarters in Mountain View, California." }],
+      "officialRegionalPresenceSnippets": [{ "url": "https://omnissa.wd501.myworkdayjobs.com/en-US/Omnissa_External_Career_Site/job/Sr-Software-Engineer--C-NET_R-101623", "snippet": "Official Workday posting: full-time senior software engineer, remote from Mexico." }]
+    },
+    {
+      "name": "Backblaze",
+      "website": "https://backblaze.com/",
+      "queryLane": "greenhouse-latam-swe; intentional existing-company update",
+      "officialIdentityVerified": true,
+      "regionalWorkEligibilityVerified": true,
+      "officialFitSnippets": [{ "url": "https://www.backblaze.com/company/about", "snippet": "Backblaze develops cloud storage software and services." }],
+      "officialLocationSnippets": [{ "url": "https://ir.backblaze.com/resources/investor-faqs/default.aspx", "snippet": "Backblaze identifies San Francisco, California as its corporate headquarters." }],
+      "officialRegionalPresenceSnippets": [{ "url": "https://job-boards.greenhouse.io/backblaze/jobs/5204960008", "snippet": "Official Greenhouse posting: Sr. Software Engineer remote in Colombia, Costa Rica, or Mexico." }]
+    },
+    {
+      "name": "CodePath",
+      "website": "https://codepath.org/",
+      "queryLane": "greenhouse-latam-swe; intentional existing-company update",
+      "officialIdentityVerified": true,
+      "regionalWorkEligibilityVerified": true,
+      "officialFitSnippets": [{ "url": "https://www.codepath.org/about", "snippet": "CodePath operates an engineering learning platform and employs a software engineering team." }],
+      "officialLocationSnippets": [{ "url": "https://www.codepath.org/contact", "snippet": "CodePath lists its organizational address in San Francisco, California." }],
+      "officialRegionalPresenceSnippets": [{ "url": "https://job-boards.greenhouse.io/codepath/jobs/5212924007", "snippet": "Official Greenhouse posting: Staff Software Engineer remote in the United States, Europe, Canada, or LATAM." }]
+    },
+    {
+      "name": "Wagmo",
+      "website": "https://wagmo.io/",
+      "queryLane": "ashby-latam-swe; intentional existing-company update",
+      "officialIdentityVerified": true,
+      "regionalWorkEligibilityVerified": true,
+      "officialFitSnippets": [{ "url": "https://jobs.ashbyhq.com/wagmo/dbf4dc55-274c-4787-ae01-391d9d93551e", "snippet": "Wagmo describes its pet healthcare product and a senior software engineering opening." }],
+      "officialLocationSnippets": [{ "url": "https://jobs.ashbyhq.com/wagmo/dbf4dc55-274c-4787-ae01-391d9d93551e", "snippet": "Wagmo states it is headquartered in New York City." }],
+      "officialRegionalPresenceSnippets": [{ "url": "https://jobs.ashbyhq.com/wagmo/dbf4dc55-274c-4787-ae01-391d9d93551e", "snippet": "Official Ashby posting: Senior Software Engineer, remote from Latin America." }]
+    },
+    {
+      "name": "Sezzle",
+      "website": "https://sezzle.com/",
+      "queryLane": "greenhouse-latam-swe; intentional existing-company update",
+      "officialIdentityVerified": true,
+      "regionalWorkEligibilityVerified": true,
+      "officialFitSnippets": [{ "url": "https://job-boards.greenhouse.io/sezzle/jobs/6502997003", "snippet": "Sezzle's official posting describes a software engineering role for its payments platform." }],
+      "officialLocationSnippets": [{ "url": "https://assets.ctfassets.net/6d085vujy22q/3vf0bMHAdjEjvn0TBD8L1S/c5111ee865ac123d6266a4e916979ef5/10-K_-_Sezzle_INC_-_02-26-2026.pdf", "snippet": "Sezzle's 2026 Form 10-K lists Minneapolis, Minnesota as its principal executive office." }],
+      "officialRegionalPresenceSnippets": [{ "url": "https://job-boards.greenhouse.io/sezzle/jobs/6502997003", "snippet": "Official Greenhouse posting: Software Engineer II (LATAM), located in Latin America." }]
+    },
+    {
+      "name": "TRM Labs",
+      "website": "https://www.trmlabs.com/",
+      "queryLane": "ashby-latam-swe + usaspending/sam-gov + company-newsroom; intentional existing-company update",
+      "officialIdentityVerified": true,
+      "regionalWorkEligibilityVerified": true,
+      "officialFitSnippets": [{ "url": "https://www.trmlabs.com/", "snippet": "TRM Labs develops AI-powered blockchain intelligence software." }],
+      "officialLocationSnippets": [{ "url": "https://jobs.ashbyhq.com/trm-labs/1eff4d33-7cf1-4682-a548-dcc4abd913f3", "snippet": "Official TRM Labs ATS record identifies the company as headquartered in San Francisco, California." }],
+      "officialRegionalPresenceSnippets": [{ "url": "https://jobs.ashbyhq.com/trm-labs/3500a697-6f75-42b9-ac08-a74fabf99558?workplaceType=Remote", "snippet": "Official ATS posting: Backend Engineer, Agent Tools, remote from South America (LATAM)." }]
+    },
+    {
+      "name": "Glacier",
+      "website": "https://glacier.com/",
+      "queryLane": "ashby-latam-engineering; intentional existing-company update",
+      "officialIdentityVerified": true,
+      "regionalWorkEligibilityVerified": true,
+      "officialFitSnippets": [{ "url": "https://jobs.ashbyhq.com/glacier/d6e59c2e-bead-42f8-bd45-055e71e0b844/", "snippet": "Glacier develops robotics, edge-device, and software systems for recycling operations." }],
+      "officialLocationSnippets": [{ "url": "https://jobs.ashbyhq.com/glacier/d6e59c2e-bead-42f8-bd45-055e71e0b844/", "snippet": "Glacier describes itself as a Series A startup based in San Francisco." }],
+      "officialRegionalPresenceSnippets": [{ "url": "https://jobs.ashbyhq.com/glacier/d6e59c2e-bead-42f8-bd45-055e71e0b844/", "snippet": "Glacier says the remote role joins an existing three-person LATAM Fleet software engineering team." }]
+    }
+  ]
+}

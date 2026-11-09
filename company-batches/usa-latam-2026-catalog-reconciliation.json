@@ -1,0 +1,26 @@
+{
+  "cohortId": "usa-latam-2026-2026-11-08",
+  "checkedOn": "2026-11-08",
+  "catalogSource": "One MongoDB catalog snapshot plus bundled company files",
+  "intent": "Upsert each qualified employer by its existing canonical name/domain when present, so the USA tag and 2026 evidence enrich one entity instead of creating a duplicate.",
+  "importResult": {
+    "status": "imported-and-verified",
+    "submitted": 10,
+    "created": 2,
+    "updated": 8,
+    "usaFilterCountAfterImport": 10,
+    "completedHireEvidence": "Not established by this batch; the 2026 employer postings confirm hiring intent and LATAM eligibility."
+  },
+  "records": [
+    { "name": "Cloudbeds", "status": "intentional-existing-record-update", "matchedCompany": "Cloudbeds", "matchedBy": "official root domain" },
+    { "name": "Donorbox", "status": "intentional-existing-record-update", "matchedCompany": "Donorbox", "matchedBy": "official root domain" },
+    { "name": "Homeward", "status": "intentional-existing-record-update", "matchedCompany": "Homeward", "matchedBy": "official root domain" },
+    { "name": "SecurityScorecard", "status": "intentional-existing-record-update", "matchedCompany": "SecurityScorecard", "matchedBy": "official root domain" },
+    { "name": "Canary Technologies", "status": "intentional-existing-record-update", "matchedCompany": "Canary Technologies", "matchedBy": "official root domain" },
+    { "name": "Engine", "status": "intentional-existing-record-update", "matchedCompany": "Engine", "matchedBy": "normalized name/alias" },
+    { "name": "Savvy Wealth", "status": "intentional-existing-record-update", "matchedCompany": "Savvy Wealth", "matchedBy": "official root domain" },
+    { "name": "Optery", "status": "new-company", "matchedCompany": null, "matchedBy": null },
+    { "name": "Atomic Invest", "status": "intentional-existing-record-update", "matchedCompany": "Atomic Vest", "matchedBy": "official root domain" },
+    { "name": "TrashLab", "status": "new-company", "matchedCompany": null, "matchedBy": null }
+  ]
+}

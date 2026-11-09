@@ -2,7 +2,15 @@ export const COMPANY_PREFERENCES_KEY = "cv-company-preferences-v1";
 export const COMPANY_PREFERENCES_CACHE_KEY = "cv-company-preferences-cache-v1";
 export const COMPANY_DIRECTORY_CACHE_KEY = "company-directory-cache-v1";
 export type CompanyDirectoryCategory =
-  "all" | "new" | "likes" | "dislikes" | "archived" | "saved-jobs";
+  | "all"
+  | "new"
+  | "usa"
+  | "likes"
+  | "dislikes"
+  | "archived"
+  | "saved-jobs"
+  | "applied-jobs"
+  | "archived-jobs";
 
 export const COMPANY_GROUPS = [
   {

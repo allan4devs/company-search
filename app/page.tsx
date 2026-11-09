@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
-import { companies } from "@/lib/comp/companies";
-import { COMPANY_CATEGORIES, companyCategoryKeys } from "@/lib/comp/categories";
-import type { CompanyCard } from "@/lib/comp/catalog";
+import { COMPANY_CATEGORIES } from "@/lib/comp/categories";
 import { CompanyDirectory } from "./company-directory.context";
 
 export const metadata: Metadata = {
@@ -10,11 +8,6 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false },
 };
 
-const prerenderedCompanies: CompanyCard[] = companies.slice(0, 24).map(company => ({
-  ...company,
-  categories: companyCategoryKeys(company),
-}));
-
 export default function CompPage() {
-  return <CompanyDirectory initialCompanies={prerenderedCompanies} initialCategories={COMPANY_CATEGORIES} />;
+  return <CompanyDirectory initialCompanies={[]} initialCategories={COMPANY_CATEGORIES} />;
 }
