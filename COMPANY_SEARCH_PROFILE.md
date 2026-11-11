@@ -29,20 +29,6 @@ This is the working brief for future company discovery and enrichment batches. I
 - Use explicit values such as `Unknown`, `Not stated`, or `Check posting` when evidence is missing. Never fill gaps with guesses.
 - Do not store personal data, credentials, or tracking URLs in evidence links.
 
-## V2 — fast global lookalike review intake
-
-The Comp lookalike V2 workflow is a separate, explicitly unverified review queue. Use only active liked companies from the live catalog as seeds. Build the keyword profile from their saved business-model and engineering-track fields, activate the registry families that match those likes, then search worldwide without filtering by Costa Rica, LATAM, or careers eligibility. Compare returned candidates against one catalog snapshot and each other in memory before adding them. Rank by candidate source-context keyword overlap and aligned source families; use repeat appearances across independent lists as a supporting signal.
-
-For this intake, skip first-party domain, engineering-fit, location, and career verification so the user can review a larger list quickly. Treat every URL found in a source list or search result as a candidate link, not a confirmed official domain. Add only `name`, the candidate `website` when found, an optional `careersUrl` only when a source list directly exposes it, and `tags:["new"]`. Leave locations, tracks, jobs, fit, evidence, and business model unfilled. The import marks records as `pending`; review them in the existing **New** and **Latest batch** views, and add evidence only after human review.
-
-V2 is capped at 100 records per import request, matching the Mongo enrichment endpoint. The keyword registry lives in `scripts/lookalike-keyword-registry.mjs` and currently covers software development services, outsourcing, nearshore, product/full-stack engineering, direct software employers, and frequently liked stack terms. The remote-employer directory is a broad discovery source, not evidence that Allan prefers remote work. Preserve the seed profile, generated query, source URL/snippet, and alignment score in the separate local V2 report so the directory record stays minimal and reviewable. Do not describe these leads as verified or as confirmed LATAM/Costa Rica hiring opportunities.
-
-### V2 LATAM hiring-evidence audit
-
-Run `scripts/audit-v2-latam-hiring.mjs` after a V2 intake when the user asks to check regional hiring. Count only first-party careers evidence that explicitly ties Costa Rica, LATAM, Latin America, or a named Latin American hiring location to candidate eligibility or a role's work location. Do not infer hiring from company offices, customers, markets, a generic careers page, or a broad remote/Americas claim. Store the dated careers source and a location label; do not save individual jobs. Leave inaccessible, identity-unclear, or unsupported leads pending.
-
-On 2026-11-08, this audit checked all 100 lookalikes. One company passed (Alcor); 43 readable careers pages had no explicit regional hiring evidence. The other 56 were incomplete because 25 homepages were inaccessible, 14 company identities could not be confirmed, 15 had no careers source linked from the homepage, and 2 careers pages could not be fetched. Only Alcor's LATAM careers-location evidence was added, with `jobs:[]`. See `company-batches/lookalikes-v2-latam-audit-20261108-report.json`.
-
 ## USA hiring cohort — 2026 LATAM engineering
 
 - Add a company to the curated `USA` directory view only when an official company page, filing, or primary company source verifies a U.S. headquarters or office **and** dated 2026 evidence shows software or adjacent engineering hiring for people based in Latin America. A U.S. customer market, U.S. contract recipient address, or generic “Americas” remote policy alone does not pass.
@@ -51,6 +37,18 @@ On 2026-11-08, this audit checked all 100 lookalikes. One company passed (Alcor)
 - The reusable collector `scripts/fetch-usa-public-source-leads.mjs` saves USAspending new-award records (using `date_type: new_awards_only`) and GDELT news/blog article links. USAspending transaction-action searches can return older awards with 2026 modifications, so use the new-awards date type when the question is who won work in 2026. The GDELT DOC endpoint covers a rolling 90-day window; use archived releases, RSS, or employer ATS history for earlier 2026 evidence. Its output is a lead pool, never an import batch. Use `--contracts-only` when the news feed is rate-limited or unavailable.
 - Use the tag `usa-latam-2026` for reviewed cohort entries. The `USA` tab shows this tag-defined, evidence-reviewed cohort, rather than every U.S. company already in the broader catalog. Preserve other tags, including `new`, when importing. Update existing employers by canonical domain/name instead of inserting a second company record.
 - Keep direct employers and staffing/outsourcing firms distinct in `model`. For agency postings that describe an unnamed U.S. client, record the agency as the employer and do not invent the client's identity. When the client is named, assess whether it is independently verifiable before adding it as a company.
+
+## Automated active-job search and validation
+
+Use `scripts/search-validate-jobs.mjs` when the goal is current postings rather than new employer leads. It loads the live Comp catalog and shared preferences, discovers Greenhouse, Lever, Ashby, and SmartRecruiters boards already linked from saved jobs, then reads each board feed in bounded parallel requests. It accepts only live ATS entries with a relevant engineering title and current ATS title/location or work-eligibility text that explicitly names Costa Rica, LATAM, or Latin America. It excludes generic applications and talent-pool records, deduplicates postings, and caps results per employer.
+
+Preview and validate a 50-job batch without importing:
+
+```powershell
+node scripts/search-validate-jobs.mjs --target 50 --max-per-company 4 --concurrency 8
+```
+
+The script writes the grouped enrichment payload and a report under `company-batches/`. Add `--import` to submit the batch after it has validated the exact target count. That updates existing employer records, adds the `new` tag, and preserves their saved fields. The latest posting batch appears in **New** and **Latest batch** even when an employer is already liked; disliked or archived records stay filtered out. If fewer than the requested number pass every check, the script saves the partial files and skips import. It searches ATS boards discoverable from job URLs already in the Comp catalog; careers pages without a supported linked ATS are reported as unsupported leads for a later source expansion.
 
 ## Scaled discovery workflow
 

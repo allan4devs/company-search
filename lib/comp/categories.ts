@@ -60,11 +60,15 @@ export function matchesCompanyCategory(
   // Saved jobs are independent of the company's like, dislike, and archive state.
   if (category === "saved-jobs")
     return !!preference?.likedJobIds?.length || !!preference?.addedJobs?.length;
+  const isLatestNewBatch = !!latestNewBatchId &&
+    company.tags?.includes("new") === true &&
+    company.extraction?.batchId === latestNewBatchId;
+  if (category === "latest-batch")
+    return isLatestNewBatch && !preference?.disliked && !preference?.archived;
+  if (category === "new" && isLatestNewBatch)
+    return !preference?.disliked && !preference?.archived;
   if (preference?.archived || preference?.liked || preference?.disliked)
     return false;
-  if (category === "latest-batch") {
-    return !!latestNewBatchId && company.tags?.includes("new") === true && company.extraction?.batchId === latestNewBatchId;
-  }
   if (category === "new") return company.tags?.includes("new") || false;
   return company.categories?.includes(category) || false;
 }

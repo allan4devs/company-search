@@ -1,0 +1,4031 @@
+{
+  "cohortId": "comp-ats-jobs-2026-11-09",
+  "generatedOn": "2026-11-09",
+  "startedAt": "2026-11-09T23:51:36.462Z",
+  "completedAt": "2026-11-09T23:51:56.492Z",
+  "method": "Comp catalog snapshot -> batched public employer ATS feeds -> exact posting ID match or current board discovery -> role, explicit location, and per-employer cap checks.",
+  "policy": {
+    "target": 50,
+    "maxPerCompany": 4,
+    "providers": [
+      "Greenhouse",
+      "Lever",
+      "Ashby",
+      "SmartRecruiters"
+    ],
+    "explicitLocationGate": "Current ATS title/location or work-eligibility text must explicitly say Costa Rica, LATAM, or Latin America.",
+    "roleGate": "\\b(?:software engineer|software developer|application engineer|web developer|full[\\s-]?stack|back[\\s-]?end|backend|front[\\s-]?end|frontend|platform engineer|developer experience|site reliability engineer|\\bSRE\\b|devops engineer|data engineer|machine learning engineer|\\bAI engineer|security engineer|cloud engineer|mobile engineer|QA automation engineer|test automation engineer|automation engineer|Java developer|Python developer|React engineer|Node(?:\\.js)? engineer)\\b"
+  },
+  "summary": {
+    "companiesRead": 1636,
+    "savedJobsRead": 2235,
+    "atsBoardsFound": 181,
+    "atsBoardsChecked": 176,
+    "atsBoardErrors": 5,
+    "liveFeedJobs": 10903,
+    "activeRoleAndLocationMatches": 805,
+    "selectedJobs": 50,
+    "selectedCompanies": 27,
+    "refreshedSavedJobs": 33,
+    "newlyFoundOnCurrentEmployerBoards": 17,
+    "preferencesRead": 1464,
+    "importRequested": true,
+    "importCompleted": true
+  },
+  "skips": {
+    "irrelevantTitle": 2440,
+    "noExplicitLocation": 476,
+    "excludedTitle": 12,
+    "duplicatePosting": 4,
+    "archivedCompany": 7171,
+    "companyCap": 11,
+    "duplicateTitle": 101
+  },
+  "boardChecks": [
+    {
+      "board": "ashby:5bluesoftware",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/5bluesoftware",
+      "ok": true,
+      "feedCount": 5,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "greenhouse:able",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/able/jobs?content=true",
+      "ok": true,
+      "feedCount": 8,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "ashby:abridge",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/abridge",
+      "ok": true,
+      "feedCount": 27,
+      "staleSavedIds": 2
+    },
+    {
+      "board": "greenhouse:affirm",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/affirm/jobs?content=true",
+      "ok": true,
+      "feedCount": 221,
+      "staleSavedIds": 6
+    },
+    {
+      "board": "ashby:agility.io",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/agility.io",
+      "ok": true,
+      "feedCount": 5,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "ashby:alchemy",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/alchemy",
+      "ok": true,
+      "feedCount": 19,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "ashby:anagram",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/Anagram",
+      "ok": true,
+      "feedCount": 5,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "lever:anomali",
+      "provider": "lever",
+      "companyCount": 1,
+      "feedUrl": "https://api.lever.co/v0/postings/anomali?mode=json",
+      "ok": true,
+      "feedCount": 6,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "greenhouse:anthropic",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true",
+      "ok": true,
+      "feedCount": 671,
+      "staleSavedIds": 2
+    },
+    {
+      "board": "ashby:anyscale",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/anyscale",
+      "ok": true,
+      "feedCount": 24,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "lever:appen-2",
+      "provider": "lever",
+      "companyCount": 1,
+      "feedUrl": "https://api.lever.co/v0/postings/appen-2?mode=json",
+      "ok": true,
+      "feedCount": 26,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "greenhouse:aptoslabs",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/aptoslabs/jobs?content=true",
+      "ok": true,
+      "feedCount": 7,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "greenhouse:arionkoder",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/arionkoder/jobs?content=true",
+      "ok": true,
+      "feedCount": 17,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "ashby:atomic-invest",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/atomic-invest",
+      "ok": true,
+      "feedCount": 11,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "greenhouse:backblaze",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/backblaze/jobs?content=true",
+      "ok": true,
+      "feedCount": 34,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "lever:cscgeneration-2",
+      "provider": "lever",
+      "companyCount": 2,
+      "feedUrl": "https://api.lever.co/v0/postings/cscgeneration-2?mode=json",
+      "ok": true,
+      "feedCount": 464,
+      "staleSavedIds": 9
+    },
+    {
+      "board": "greenhouse:inter",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/inter/jobs?content=true",
+      "ok": true,
+      "feedCount": 125,
+      "staleSavedIds": 5
+    },
+    {
+      "board": "ashby:baseten",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/baseten",
+      "ok": true,
+      "feedCount": 101,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "lever:bluelightconsulting",
+      "provider": "lever",
+      "companyCount": 1,
+      "feedUrl": "https://api.lever.co/v0/postings/bluelightconsulting?mode=json",
+      "ok": true,
+      "feedCount": 956,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "ashby:brale",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/brale",
+      "ok": true,
+      "feedCount": 2,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "ashby:breakmark",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/breakmark",
+      "ok": true,
+      "feedCount": 50,
+      "staleSavedIds": 2
+    },
+    {
+      "board": "ashby:browserbase",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/browserbase",
+      "ok": true,
+      "feedCount": 9,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "lever:ciandt",
+      "provider": "lever",
+      "companyCount": 1,
+      "feedUrl": "https://api.lever.co/v0/postings/ciandt?mode=json",
+      "ok": true,
+      "feedCount": 128,
+      "staleSavedIds": 8
+    },
+    {
+      "board": "lever:caliza-financial-technologies",
+      "provider": "lever",
+      "companyCount": 1,
+      "feedUrl": "https://api.lever.co/v0/postings/caliza-financial-technologies?mode=json",
+      "ok": true,
+      "feedCount": 17,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "lever:canarytechnologies",
+      "provider": "lever",
+      "companyCount": 1,
+      "feedUrl": "https://api.lever.co/v0/postings/canarytechnologies?mode=json",
+      "ok": true,
+      "feedCount": 13,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "ashby:capchase",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/capchase",
+      "ok": true,
+      "feedCount": 6,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "ashby:careerswift.ai",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/careerswift.ai",
+      "ok": true,
+      "feedCount": 19,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "ashby:cartesia",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/cartesia",
+      "ok": true,
+      "feedCount": 24,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "lever:caseware",
+      "provider": "lever",
+      "companyCount": 1,
+      "feedUrl": "https://api.lever.co/v0/postings/caseware?mode=json",
+      "ok": true,
+      "feedCount": 39,
+      "staleSavedIds": 2
+    },
+    {
+      "board": "greenhouse:chime",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/chime/jobs?content=true",
+      "ok": true,
+      "feedCount": 67,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "ashby:circle",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/circle",
+      "ok": true,
+      "feedCount": 6,
+      "staleSavedIds": 4
+    },
+    {
+      "board": "greenhouse:clara",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/clara/jobs?content=true",
+      "ok": true,
+      "feedCount": 157,
+      "staleSavedIds": 6
+    },
+    {
+      "board": "greenhouse:cloudbeds",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/cloudbeds/jobs?content=true",
+      "ok": true,
+      "feedCount": 36,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "greenhouse:codepath",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/codepath/jobs?content=true",
+      "ok": true,
+      "feedCount": 18,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "ashby:coderabbit",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/coderabbit",
+      "ok": true,
+      "feedCount": 50,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "greenhouse:coderoad",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/coderoad/jobs?content=true",
+      "ok": true,
+      "feedCount": 32,
+      "staleSavedIds": 6
+    },
+    {
+      "board": "lever:coderio",
+      "provider": "lever",
+      "companyCount": 1,
+      "feedUrl": "https://api.lever.co/v0/postings/coderio?mode=json",
+      "ok": true,
+      "feedCount": 38,
+      "staleSavedIds": 2
+    },
+    {
+      "board": "ashby:cognition",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/cognition",
+      "ok": true,
+      "feedCount": 109,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "ashby:cohere",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/cohere",
+      "ok": true,
+      "feedCount": 127,
+      "staleSavedIds": 4
+    },
+    {
+      "board": "smartrecruiters:colibriteams",
+      "provider": "smartrecruiters",
+      "companyCount": 1,
+      "feedUrl": "https://api.smartrecruiters.com/v1/companies/ColibriTeams/postings?limit=100&offset=0",
+      "ok": true,
+      "feedCount": 7,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "ashby:coperniq",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/coperniq",
+      "ok": true,
+      "feedCount": 0,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "greenhouse:cresteo",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/cresteo/jobs?content=true",
+      "ok": true,
+      "feedCount": 2,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "ashby:crusoe",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/Crusoe",
+      "ok": true,
+      "feedCount": 324,
+      "staleSavedIds": 7
+    },
+    {
+      "board": "ashby:cursor",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/cursor",
+      "ok": true,
+      "feedCount": 117,
+      "staleSavedIds": 6
+    },
+    {
+      "board": "ashby:deel",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/deel",
+      "ok": true,
+      "feedCount": 0,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "ashby:deepgram",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/deepgram",
+      "ok": true,
+      "feedCount": 66,
+      "staleSavedIds": 3
+    },
+    {
+      "board": "greenhouse:descript",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/descript/jobs?content=true",
+      "ok": true,
+      "feedCount": 10,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "ashby:devsavant",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/devsavant",
+      "ok": true,
+      "feedCount": 6,
+      "staleSavedIds": 2
+    },
+    {
+      "board": "greenhouse:donorbox",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/donorbox/jobs?content=true",
+      "ok": true,
+      "feedCount": 3,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "ashby:drata",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/drata",
+      "ok": true,
+      "feedCount": 26,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "smartrecruiters:drivntechnologies",
+      "provider": "smartrecruiters",
+      "companyCount": 1,
+      "feedUrl": "https://api.smartrecruiters.com/v1/companies/DrivnTechnologies/postings?limit=100&offset=0",
+      "ok": true,
+      "feedCount": 9,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "ashby:e2b",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/e2b",
+      "ok": true,
+      "feedCount": 13,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "ashby:electricair",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/electricair",
+      "ok": true,
+      "feedCount": 5,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "ashby:elevenlabs",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/elevenlabs",
+      "ok": true,
+      "feedCount": 131,
+      "staleSavedIds": 6
+    },
+    {
+      "board": "ashby:empirical",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/empirical",
+      "ok": true,
+      "feedCount": 8,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "greenhouse:encora10",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/encora10/jobs?content=true",
+      "ok": true,
+      "feedCount": 363,
+      "staleSavedIds": 12
+    },
+    {
+      "board": "greenhouse:engine",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/engine/jobs?content=true",
+      "ok": true,
+      "feedCount": 77,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "greenhouse:externaljobboards",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/externaljobboards/jobs?content=true",
+      "ok": true,
+      "feedCount": 70,
+      "staleSavedIds": 5
+    },
+    {
+      "board": "greenhouse:factored",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/factored/jobs?content=true",
+      "ok": true,
+      "feedCount": 12,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "ashby:factory",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/factory",
+      "ok": true,
+      "feedCount": 66,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "greenhouse:figma",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/figma/jobs?content=true",
+      "ok": true,
+      "feedCount": 146,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "ashby:fireworks",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/fireworks",
+      "ok": true,
+      "feedCount": 90,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "greenhouse:fueledcareers",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/fueledcareers/jobs?content=true",
+      "ok": true,
+      "feedCount": 9,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "ashby:g2i",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/g2i",
+      "ok": true,
+      "feedCount": 40,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "ashby:glacier",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/glacier",
+      "ok": true,
+      "feedCount": 5,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "greenhouse:gleanwork",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/gleanwork/jobs?content=true",
+      "ok": true,
+      "feedCount": 123,
+      "staleSavedIds": 5
+    },
+    {
+      "board": "greenhouse:goodsservices",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/goodsservices/jobs?content=true",
+      "ok": true,
+      "feedCount": 6,
+      "staleSavedIds": 2
+    },
+    {
+      "board": "greenhouse:gusto",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/gusto/jobs?content=true",
+      "ok": true,
+      "feedCount": 80,
+      "staleSavedIds": 6
+    },
+    {
+      "board": "ashby:harvey",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/harvey",
+      "ok": true,
+      "feedCount": 374,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "ashby:hirehangar",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/hirehangar",
+      "ok": true,
+      "feedCount": 116,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "ashby:silver",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/silver",
+      "ok": true,
+      "feedCount": 35,
+      "staleSavedIds": 4
+    },
+    {
+      "board": "ashby:homera-health",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/homera-health",
+      "ok": true,
+      "feedCount": 1,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "greenhouse:homeward",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/homeward/jobs?content=true",
+      "ok": true,
+      "feedCount": 3,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "smartrecruiters:itaccelerate",
+      "provider": "smartrecruiters",
+      "companyCount": 1,
+      "feedUrl": "https://api.smartrecruiters.com/v1/companies/ITAccelerate/postings?limit=100&offset=0",
+      "ok": true,
+      "feedCount": 9,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "ashby:infinity-constellation",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/infinity-constellation",
+      "ok": true,
+      "feedCount": 11,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "ashby:infisical",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/infisical",
+      "ok": true,
+      "feedCount": 12,
+      "staleSavedIds": 3
+    },
+    {
+      "board": "ashby:inngest",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/inngest",
+      "ok": true,
+      "feedCount": 2,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "ashby:jbs-dev",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/jbs-dev",
+      "ok": true,
+      "feedCount": 3,
+      "staleSavedIds": 2
+    },
+    {
+      "board": "lever:tryjeeves",
+      "provider": "lever",
+      "companyCount": 1,
+      "feedUrl": "https://api.lever.co/v0/postings/tryjeeves?mode=json",
+      "ok": true,
+      "feedCount": 71,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "ashby:jetkvm",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/jetkvm",
+      "ok": false,
+      "feedCount": 0,
+      "staleSavedIds": 1,
+      "error": "HTTP 404"
+    },
+    {
+      "board": "ashby:katapult-labs",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/katapult-labs",
+      "ok": true,
+      "feedCount": 4,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "ashby:kindred",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/kindred",
+      "ok": true,
+      "feedCount": 4,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "ashby:kraken.com",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/kraken.com",
+      "ok": true,
+      "feedCount": 89,
+      "staleSavedIds": 4
+    },
+    {
+      "board": "ashby:li.fi",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/li.fi",
+      "ok": true,
+      "feedCount": 1,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "ashby:langchain",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/langchain",
+      "ok": true,
+      "feedCount": 99,
+      "staleSavedIds": 5
+    },
+    {
+      "board": "ashby:latamcent",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/latamcent",
+      "ok": true,
+      "feedCount": 12,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "ashby:lazer",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/lazer",
+      "ok": true,
+      "feedCount": 8,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "greenhouse:livefront",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/livefront/jobs?content=true",
+      "ok": true,
+      "feedCount": 18,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "ashby:llamaindex",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/llamaindex",
+      "ok": true,
+      "feedCount": 4,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "ashby:lovable",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/lovable",
+      "ok": true,
+      "feedCount": 79,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "greenhouse:lumimeds",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/lumimeds/jobs?content=true",
+      "ok": true,
+      "feedCount": 25,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "ashby:luxor",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/luxor",
+      "ok": true,
+      "feedCount": 4,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "ashby:mazedesign",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/mazedesign",
+      "ok": true,
+      "feedCount": 8,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "lever:medialab",
+      "provider": "lever",
+      "companyCount": 1,
+      "feedUrl": "https://api.lever.co/v0/postings/medialab?mode=json",
+      "ok": false,
+      "feedCount": 0,
+      "staleSavedIds": 1,
+      "error": "HTTP 404"
+    },
+    {
+      "board": "greenhouse:mercury",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/mercury/jobs?content=true",
+      "ok": true,
+      "feedCount": 76,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "greenhouse:consensys",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/consensys/jobs?content=true",
+      "ok": true,
+      "feedCount": 11,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "ashby:mistral.ai",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/mistral.ai",
+      "ok": true,
+      "feedCount": 237,
+      "staleSavedIds": 3
+    },
+    {
+      "board": "ashby:modal",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/modal",
+      "ok": true,
+      "feedCount": 44,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "greenhouse:modernhealth",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/modernhealth/jobs?content=true",
+      "ok": true,
+      "feedCount": 2,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "ashby:moovx",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/moovx",
+      "ok": true,
+      "feedCount": 2,
+      "staleSavedIds": 2
+    },
+    {
+      "board": "ashby:motherduck",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/MotherDuck",
+      "ok": true,
+      "feedCount": 6,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "greenhouse:mrbeastyoutube",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/mrbeastyoutube/jobs?content=true",
+      "ok": true,
+      "feedCount": 81,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "lever:muttdata",
+      "provider": "lever",
+      "companyCount": 1,
+      "feedUrl": "https://api.lever.co/v0/postings/muttdata?mode=json",
+      "ok": true,
+      "feedCount": 40,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "ashby:mystenlabs",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/mystenlabs",
+      "ok": true,
+      "feedCount": 10,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "ashby:nectir",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/nectir",
+      "ok": true,
+      "feedCount": 3,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "greenhouse:newsela",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/newsela/jobs?content=true",
+      "ok": true,
+      "feedCount": 11,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "greenhouse:nortal",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/nortal/jobs?content=true",
+      "ok": true,
+      "feedCount": 23,
+      "staleSavedIds": 13
+    },
+    {
+      "board": "ashby:notion",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/notion",
+      "ok": true,
+      "feedCount": 153,
+      "staleSavedIds": 2
+    },
+    {
+      "board": "greenhouse:officespacesoftware",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/officespacesoftware/jobs?content=true",
+      "ok": true,
+      "feedCount": 23,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "ashby:onhires",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/OnHires",
+      "ok": true,
+      "feedCount": 34,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "lever:oowlish",
+      "provider": "lever",
+      "companyCount": 1,
+      "feedUrl": "https://api.lever.co/v0/postings/oowlish?mode=json",
+      "ok": true,
+      "feedCount": 9,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "ashby:openai",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/openai",
+      "ok": true,
+      "feedCount": 819,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "ashby:optery",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/optery",
+      "ok": true,
+      "feedCount": 11,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "ashby:outpost-red",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/outpost-red",
+      "ok": true,
+      "feedCount": 3,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "ashby:outpost",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/outpost",
+      "ok": true,
+      "feedCount": 15,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "lever:palantir",
+      "provider": "lever",
+      "companyCount": 1,
+      "feedUrl": "https://api.lever.co/v0/postings/palantir?mode=json",
+      "ok": true,
+      "feedCount": 304,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "ashby:peec",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/peec",
+      "ok": true,
+      "feedCount": 29,
+      "staleSavedIds": 3
+    },
+    {
+      "board": "ashby:perplexity",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/perplexity",
+      "ok": true,
+      "feedCount": 136,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "ashby:pika",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/pika",
+      "ok": true,
+      "feedCount": 16,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "greenhouse:planetscale",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/planetscale/jobs?content=true",
+      "ok": true,
+      "feedCount": 12,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "ashby:playbook",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/Playbook",
+      "ok": true,
+      "feedCount": 3,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "greenhouse:podium81",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/podium81/jobs?content=true",
+      "ok": true,
+      "feedCount": 71,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "greenhouse:praxent",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/praxent/jobs?content=true",
+      "ok": true,
+      "feedCount": 12,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "ashby:prefect",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/prefect",
+      "ok": true,
+      "feedCount": 6,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "greenhouse:privateidentity",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/privateidentity/jobs?content=true",
+      "ok": true,
+      "feedCount": 4,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "lever:ryzlabs",
+      "provider": "lever",
+      "companyCount": 1,
+      "feedUrl": "https://api.lever.co/v0/postings/RyzLabs?mode=json",
+      "ok": true,
+      "feedCount": 43,
+      "staleSavedIds": 4
+    },
+    {
+      "board": "ashby:railway",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/Railway",
+      "ok": true,
+      "feedCount": 7,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "ashby:ramp",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/ramp",
+      "ok": true,
+      "feedCount": 171,
+      "staleSavedIds": 3
+    },
+    {
+      "board": "ashby:reflow",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/reflow",
+      "ok": true,
+      "feedCount": 15,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "ashby:replit",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/replit",
+      "ok": true,
+      "feedCount": 29,
+      "staleSavedIds": 3
+    },
+    {
+      "board": "ashby:revenuecat",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/revenuecat",
+      "ok": true,
+      "feedCount": 19,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "greenhouse:robinhood",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/robinhood/jobs?content=true",
+      "ok": true,
+      "feedCount": 154,
+      "staleSavedIds": 6
+    },
+    {
+      "board": "ashby:runpod",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/runpod",
+      "ok": true,
+      "feedCount": 22,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "greenhouse:santex",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/santex/jobs?content=true",
+      "ok": true,
+      "feedCount": 7,
+      "staleSavedIds": 3
+    },
+    {
+      "board": "ashby:savvy",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/savvy",
+      "ok": true,
+      "feedCount": 29,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "greenhouse:scaleai",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/scaleai/jobs?content=true",
+      "ok": true,
+      "feedCount": 170,
+      "staleSavedIds": 4
+    },
+    {
+      "board": "ashby:scribe",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/scribe",
+      "ok": true,
+      "feedCount": 30,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "ashby:secureframe",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/secureframe",
+      "ok": true,
+      "feedCount": 8,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "greenhouse:securityscorecard",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/securityscorecard/jobs?content=true",
+      "ok": true,
+      "feedCount": 10,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "ashby:semgrep",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/semgrep",
+      "ok": true,
+      "feedCount": 13,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "smartrecruiters:servicenow",
+      "provider": "smartrecruiters",
+      "companyCount": 1,
+      "feedUrl": "https://api.smartrecruiters.com/v1/companies/ServiceNow/postings?limit=100&offset=0",
+      "ok": true,
+      "feedCount": 100,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "greenhouse:sezzle",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/sezzle/jobs?content=true",
+      "ok": true,
+      "feedCount": 293,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "ashby:siena",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/siena",
+      "ok": true,
+      "feedCount": 9,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "ashby:simspace-corporation",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/simspace-corporation",
+      "ok": true,
+      "feedCount": 18,
+      "staleSavedIds": 4
+    },
+    {
+      "board": "greenhouse:singlestore",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/singlestore/jobs?content=true",
+      "ok": true,
+      "feedCount": 40,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "ashby:socket",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/socket",
+      "ok": true,
+      "feedCount": 26,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "smartrecruiters:softwaremind",
+      "provider": "smartrecruiters",
+      "companyCount": 1,
+      "feedUrl": "https://api.smartrecruiters.com/v1/companies/SoftwareMind/postings?limit=100&offset=0",
+      "ok": true,
+      "feedCount": 50,
+      "staleSavedIds": 3
+    },
+    {
+      "board": "ashby:somnia",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/somnia",
+      "ok": true,
+      "feedCount": 3,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "greenhouse:sourcegraph91",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/sourcegraph91/jobs?content=true",
+      "ok": true,
+      "feedCount": 7,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "ashby:southgeeks",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/southgeeks",
+      "ok": true,
+      "feedCount": 8,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "greenhouse:starburst",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/starburst/jobs?content=true",
+      "ok": true,
+      "feedCount": 38,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "ashby:sunnydata",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/SunnyData",
+      "ok": true,
+      "feedCount": 30,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "ashby:suno",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/suno",
+      "ok": true,
+      "feedCount": 68,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "ashby:supabase",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/supabase",
+      "ok": true,
+      "feedCount": 71,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "ashby:toggl",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/toggl",
+      "ok": false,
+      "feedCount": 0,
+      "staleSavedIds": 1,
+      "error": "HTTP 404"
+    },
+    {
+      "board": "ashby:trm-labs",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/trm-labs",
+      "ok": true,
+      "feedCount": 114,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "greenhouse:tailscale",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/tailscale/jobs?content=true",
+      "ok": true,
+      "feedCount": 76,
+      "staleSavedIds": 3
+    },
+    {
+      "board": "greenhouse:tebra",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/tebra/jobs?content=true",
+      "ok": true,
+      "feedCount": 10,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "greenhouse:techholding",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/techholding/jobs?content=true",
+      "ok": true,
+      "feedCount": 20,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "ashby:goteleport",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/goteleport",
+      "ok": true,
+      "feedCount": 23,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "ashby:tempo",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/tempo",
+      "ok": false,
+      "feedCount": 0,
+      "staleSavedIds": 2,
+      "error": "HTTP 404"
+    },
+    {
+      "board": "lever:terrific-innovation",
+      "provider": "lever",
+      "companyCount": 1,
+      "feedUrl": "https://api.lever.co/v0/postings/terrific-innovation?mode=json",
+      "ok": true,
+      "feedCount": 12,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "ashby:theydo",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/TheyDo",
+      "ok": true,
+      "feedCount": 3,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "ashby:thirstysprout",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/thirstysprout",
+      "ok": false,
+      "feedCount": 0,
+      "staleSavedIds": 1,
+      "error": "HTTP 404"
+    },
+    {
+      "board": "greenhouse:togetherai",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/togetherai/jobs?content=true",
+      "ok": true,
+      "feedCount": 77,
+      "staleSavedIds": 6
+    },
+    {
+      "board": "greenhouse:perform-careers",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/perform-careers/jobs?content=true",
+      "ok": true,
+      "feedCount": 7,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "ashby:triggerdev",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/triggerdev",
+      "ok": true,
+      "feedCount": 6,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "ashby:truelogic",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/truelogic",
+      "ok": true,
+      "feedCount": 87,
+      "staleSavedIds": 18
+    },
+    {
+      "board": "ashby:trust-wallet",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/trust-wallet",
+      "ok": true,
+      "feedCount": 10,
+      "staleSavedIds": 3
+    },
+    {
+      "board": "greenhouse:typeface",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/typeface/jobs?content=true",
+      "ok": true,
+      "feedCount": 18,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "smartrecruiters:uatalents",
+      "provider": "smartrecruiters",
+      "companyCount": 1,
+      "feedUrl": "https://api.smartrecruiters.com/v1/companies/UATalents/postings?limit=100&offset=0",
+      "ok": true,
+      "feedCount": 30,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "lever:ubiminds",
+      "provider": "lever",
+      "companyCount": 1,
+      "feedUrl": "https://api.lever.co/v0/postings/Ubiminds?mode=json",
+      "ok": true,
+      "feedCount": 6,
+      "staleSavedIds": 4
+    },
+    {
+      "board": "greenhouse:udacity",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/udacity/jobs?content=true",
+      "ok": true,
+      "feedCount": 24,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "greenhouse:utilityprofit",
+      "provider": "greenhouse",
+      "companyCount": 1,
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/utilityprofit/jobs?content=true",
+      "ok": true,
+      "feedCount": 10,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "ashby:vanta",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/vanta",
+      "ok": true,
+      "feedCount": 81,
+      "staleSavedIds": 2
+    },
+    {
+      "board": "ashby:wagmo",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/wagmo",
+      "ok": true,
+      "feedCount": 7,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "ashby:wand-ai",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/wand-ai",
+      "ok": true,
+      "feedCount": 18,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "ashby:workhero",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/workhero",
+      "ok": true,
+      "feedCount": 4,
+      "staleSavedIds": 1
+    },
+    {
+      "board": "ashby:workos",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/workos",
+      "ok": true,
+      "feedCount": 28,
+      "staleSavedIds": 0
+    },
+    {
+      "board": "ashby:writer",
+      "provider": "ashby",
+      "companyCount": 1,
+      "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/writer",
+      "ok": true,
+      "feedCount": 46,
+      "staleSavedIds": 18
+    },
+    {
+      "board": "lever:redbee",
+      "provider": "lever",
+      "companyCount": 1,
+      "feedUrl": "https://api.lever.co/v0/postings/redbee?mode=json",
+      "ok": true,
+      "feedCount": 7,
+      "staleSavedIds": 2
+    }
+  ],
+  "unsupportedRegionalSavedJobs": [
+    {
+      "company": "3M",
+      "title": "Senior Software Developer",
+      "url": "https://3m.wd1.myworkdayjobs.com/Search",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "3Pillar Global",
+      "title": "Senior Python Software Engineer",
+      "url": "https://www.3pillar.ai/careers/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "A.Team",
+      "title": "Senior Product Engineer",
+      "url": "https://www.a.team/join",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Abstra",
+      "title": "Senior Java / React Full Stack Engineer",
+      "url": "https://withmira.dev/jobs/abstra-senior-java-react-full-stack-engineer",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Accenture",
+      "title": "Senior Full Stack Developer",
+      "url": "https://www.accenture.com/cr-en/careers/jobsearch",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "ActiveProspect",
+      "title": "Senior Full Stack Product Engineer - Costa Rica",
+      "url": "https://www.linkedin.com/jobs/view/4473180421",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Advancio",
+      "title": "FullStack Engineer",
+      "url": "https://www.advancio.com/careers/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "AgileEngine",
+      "title": "Senior Full Stack Engineer",
+      "url": "https://careers.agileengine.com/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Akamai",
+      "title": "Senior Software Engineer",
+      "url": "https://akamaicareers.inflightcloud.com/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Align Technology",
+      "title": "Mid/Senior Java Developer",
+      "url": "https://jobs.aligntech.com/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Amazon",
+      "title": "Software Development Engineer II",
+      "url": "https://www.amazon.jobs/en/search",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Ampstek",
+      "title": "Senior Full Stack Engineer",
+      "url": "https://www.linkedin.com/jobs/view/4481357728",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Andela",
+      "title": "Senior Software Engineer",
+      "url": "https://www.andela.com/talent",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Applaudo Studios",
+      "title": "Senior Software Engineer",
+      "url": "https://applaudostudios.com/careers/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Appnovation",
+      "title": "Sr. Full-Stack Developer, AI Design-to-Dev",
+      "url": "https://cr.linkedin.com/jobs/view/sr-full-stack-developer-ai-design-to-dev-at-appnovation-4454346102",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Arc",
+      "title": "Senior Full Stack Developer",
+      "url": "https://arc.dev/developer",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Arkkosoft",
+      "title": "Senior Software Developer",
+      "url": "https://arkkosoft.com/careers/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "AspenView Technology Partners",
+      "title": "Full Stack Engineer",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-engineer-at-aspenview-technology-partners-4457008944",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Athena Works",
+      "title": "Mid-Senior Full-Stack Engineer — Java/Python + React, TypeScript, AWS",
+      "url": "",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Athena Works",
+      "title": "Mid-Senior Full-Stack Engineer (Java/Python + React, TypeScript, AWS)",
+      "url": "https://recruiterflow.com/db_84d9b0015205ce7ab8380a53a0ac4024/jobs",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Automattic",
+      "title": "Senior Software Engineer",
+      "url": "https://automattic.com/work-with-us/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Auxis",
+      "title": "Senior Application Developer",
+      "url": "https://www.auxis.com/careers/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Avenga",
+      "title": "Senior Full Stack Engineer",
+      "url": "https://www.avenga.com/career/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Avenue Code",
+      "title": "Sr Full Stack Engineer (Node + React)",
+      "url": "https://www.linkedin.com/jobs/view/4467579274",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Azumo",
+      "title": "Fullstack JavaScript Developer",
+      "url": "https://remotenex.us/job/fullstack-javascript-developer-latin-america-remote?src=azumo",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "BC Tecnología",
+      "title": "Full-Stack Developer – Python / Fastapi / React",
+      "url": "https://www.linkedin.com/jobs/view/4465714539",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "BYDREC",
+      "title": "Senior Full Stack Engineer",
+      "url": "https://bydrec.applytojob.com/apply/vGNqjRAVba/Full-Stack-Engineer-Senior-RemoteLATAM",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "BairesDev",
+      "title": "Senior React/Java Developer",
+      "url": "https://jobs.bairesdev.com/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "BairesDev",
+      "title": "React Native Developer",
+      "url": "https://applicants.bairesdev.com/job/198/170248/apply?lang=en",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "BairesDev",
+      "title": "React/Next.js Developer",
+      "url": "https://applicants.bairesdev.com/job/697/290619/apply?lang=en",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "BairesDev",
+      "title": "Fullstack Python + React Engineer - Remote Work",
+      "url": "https://www.linkedin.com/jobs/view/4480789703",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "BairesDev",
+      "title": "Senior Python/React Fullstack Developer - Remote Work | REF#305579",
+      "url": "https://www.linkedin.com/jobs/view/4476504128",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "BairesDev",
+      "title": "AI Full-stack Engineer (Next + Python) - Remote Work",
+      "url": "https://www.linkedin.com/jobs/view/4481345876",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "BairesDev",
+      "title": "Senior Django Full Stack Engineer - Remote Work | REF#302830",
+      "url": "https://www.linkedin.com/jobs/view/4462079370",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "BairesDev",
+      "title": "Django React Developer - Remote Work",
+      "url": "https://www.linkedin.com/jobs/view/4480498104",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "BairesDev",
+      "title": "Full Stack AI Engineer - Remote Work",
+      "url": "https://www.linkedin.com/jobs/view/4480715360",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "BairesDev",
+      "title": "Senior Software Engineer (Java/React) - Remote Work | REF#294699",
+      "url": "https://www.linkedin.com/jobs/view/senior-software-engineer-java-react-remote-work-ref%23294699-at-bairesdev-4464695721",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Bavardio",
+      "title": "Senior Full-Stack Engineer",
+      "url": "https://www.getonbrd.com/jobs/programming/senior-full-stack-engineer-bavardio-remote",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Bitso",
+      "title": "Matching software engineering role — exact title not recovered",
+      "url": "",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Blankfactor",
+      "title": "Senior Full Stack Engineer",
+      "url": "https://blankfactor.com/careers/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Bluelight Consulting",
+      "title": "Full Stack and Backend NodeJS TypeScript/JavaScript Engineer (Senior)",
+      "url": "https://jobs.lever.co/bluelightconsulting?location=Alajuela%2C%20Costa%20Rica",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Bluelight Consulting",
+      "title": "Senior Python/Flask + React Fullstack Engineer",
+      "url": "https://echojobs.io/job/bluelight-consulting-senior-python-flask-react-fullstack-engineer-remote-latin-america-pq605",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Bluelight Consulting",
+      "title": "Senior Python/Flask+React Fullstack Engineer - Remote, Latin America",
+      "url": "https://cr.linkedin.com/jobs/view/senior-python-flask%2Breact-fullstack-engineer-remote-latin-america-at-bluelight-4469809825",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Bluelight Consulting",
+      "title": "React Engineer",
+      "url": "https://jobs.lever.co/bluelightconsulting",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Bosch",
+      "title": "Senior Software Engineer",
+      "url": "https://jobs.bosch.com/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Braintrust",
+      "title": "Senior Software Engineer",
+      "url": "https://app.usebraintrust.com/talent",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Broadcom",
+      "title": "Senior Software Engineer",
+      "url": "https://careers.broadcom.com/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "BuildEXA",
+      "title": "Ingeniero(a) de software full-stack senior",
+      "url": "https://www.buildexa.cr/careers",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "CI&T",
+      "title": "Senior Software Developer",
+      "url": "https://ciandt.com/us/en-us/careers",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "CRG Solutions",
+      "title": "Senior AI Automation Engineer / Developer",
+      "url": "https://www.crgsolutions.co/careers",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "CSC Generation",
+      "title": "Senior Software Engineer, Ecommerce Web Applications (Costa Rica)",
+      "url": "https://cr.linkedin.com/jobs/view/senior-software-engineer-ecommerce-web-applications-costa-rica-at-csc-generation-4446916769",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Capgemini",
+      "title": "Senior Java Full Stack Developer",
+      "url": "https://www.capgemini.com/careers/join-capgemini/job-search/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Capgemini",
+      "title": "Senior Fullstack Engineer",
+      "url": "https://www.linkedin.com/jobs/view/4470401098",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Ciklum",
+      "title": "Senior Software Engineer",
+      "url": "https://www.ciklum.com/careers",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Cisco",
+      "title": "Senior Software Engineer",
+      "url": "https://jobs.cisco.com/jobs/SearchJobs/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Clara",
+      "title": "Senior Java Backend Engineer",
+      "url": "https://job-boards.greenhouse.io/clara",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Clearfinal",
+      "title": "Senior Backend Engineer / Lead — Fintech Platform & Financial Core",
+      "url": "https://www.clearfinal.com/careers",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "CloudDevs",
+      "title": "Senior Full Stack Developer",
+      "url": "https://clouddevs.com/apply/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Cloudbeds",
+      "title": "Senior Software Engineer — Workflow",
+      "url": "https://www.cloudbeds.com/careers/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Cloudera",
+      "title": "Senior Software Engineer",
+      "url": "https://www.cloudera.com/careers.html",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Cloudflare",
+      "title": "Senior Software Engineer",
+      "url": "https://www.cloudflare.com/careers/jobs/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Coderio",
+      "title": "Senior Full-Stack Developer con experiencia en Node.js y React.js – Remoto (LATAM)",
+      "url": "https://www.linkedin.com/jobs/view/4482709193",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Coforge",
+      "title": "Senior Software Engineer",
+      "url": "https://careers.coforge.com/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Cognizant",
+      "title": "Senior Java Full Stack Developer",
+      "url": "https://careers.cognizant.com/global-en/jobs/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "CommandLink",
+      "title": "Senior Software Engineer — Alerting Platform",
+      "url": "https://www.commandlink.com/company/careers",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Concentrix",
+      "title": "SaaS Solution Architect",
+      "url": "https://cr.linkedin.com/jobs/view/saas-solution-architect-at-concentrix-4382767942",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Confiz",
+      "title": "Full Stack Developer - Level II (JAVA+REACT) Costa Rica ONLY",
+      "url": "https://cr.linkedin.com/jobs/view/full-stack-developer-level-ii-java%2Breact-costa-rica-only-at-confiz-4465881607",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Confiz",
+      "title": "Full Stack Developer - Level III (React / JavaScript / Go (Golang)) Costa Rica ONLY",
+      "url": "https://cr.linkedin.com/jobs/view/full-stack-developer-level-iii-react-javascript-go-golang-costa-rica-only-at-confiz-4462871446",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Convo Relay",
+      "title": "Software Engineer II (Product R&D)",
+      "url": "https://dugu.dev/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "CookUnity",
+      "title": "Senior Full Stack Engineer, Revenue Engine",
+      "url": "https://www.linkedin.com/jobs/view/senior-full-stack-engineer-revenue-engine-at-cookunity-4457109803",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Correlation One",
+      "title": "Senior Software Engineer (Frontend)",
+      "url": "https://job-boards.greenhouse.io/correlationone",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Critical Mass",
+      "title": "Senior Full Stack Developer",
+      "url": "https://www.criticalmass.com/careers",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Crossover",
+      "title": "Senior Software Engineer",
+      "url": "https://www.crossover.com/jobs",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "DXC Technology",
+      "title": "Senior Software Engineer",
+      "url": "https://careers.dxc.com/global/en/search-results",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "DaCodes",
+      "title": "Full Stack Engineer - TypeScript & AWS - English Required - Mexico & LATAM Only",
+      "url": "",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Darwoft",
+      "title": "Senior Full Stack Developer (React & Python)",
+      "url": "https://darwoft.careers-page.com/jobs/1bd6bbfa-39ea-4983-bd15-4a50983f98b1",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "DataArt",
+      "title": "Senior Java Developer",
+      "url": "https://www.dataart.team/vacancies",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "DataArt",
+      "title": "Java Developer with Spring Boot",
+      "url": "https://team.dataart.com/vacancies/JAV00299",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Deel",
+      "title": "Senior Full Stack Engineer",
+      "url": "https://www.deel.com/careers/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Deloitte",
+      "title": "Full-Stack Web Developer, Specialist Manager",
+      "url": "https://cr.linkedin.com/jobs/view/full-stack-web-developer-specialist-manager-at-deloitte-4465120041",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Dev.Pro",
+      "title": "Senior Software Engineer (React.js, Node.js)",
+      "url": "https://career.dev.pro/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Distillery",
+      "title": "Senior Full Stack Engineer",
+      "url": "https://distillery.com/careers/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "EPAM",
+      "title": "Senior Java Developer",
+      "url": "https://www.epam.com/careers/job-listings",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Edify Software Consulting",
+      "title": "Senior Software Engineer",
+      "url": "https://edify.cr/careers/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Elastic",
+      "title": "Senior Software Engineer",
+      "url": "https://jobs.elastic.co/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Emerson",
+      "title": "Senior Software Engineer",
+      "url": "https://www.emerson.com/en-us/careers",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Emerson",
+      "title": "Senior Developer (Oracle SQL, Java, Spring Boot)",
+      "url": "https://www.linkedin.com/jobs/view/4475831173",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Emerson",
+      "title": "Full Stack Developer (Oracle APEX, Java & React)",
+      "url": "https://cr.linkedin.com/jobs/view/full-stack-developer-oracle-apex-java-react-at-emerson-4442755427",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Encora",
+      "title": "Senior Java Full Stack Engineer",
+      "url": "https://careers.encora.com/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Endava",
+      "title": "Senior Java Developer",
+      "url": "https://www.endava.com/careers/jobs",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Enumerate",
+      "title": "PHP & React Software Engineer",
+      "url": "https://job-boards.greenhouse.io/enumerate",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Equifax",
+      "title": "Senior Software Engineer",
+      "url": "https://careers.equifax.com/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Experian",
+      "title": "Senior Software Engineer — Java",
+      "url": "https://jobs.smartrecruiters.com/Experian",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "FPT Latin America",
+      "title": "Senior Full Stack Engineer – Java / Quarkus / React",
+      "url": "https://www.linkedin.com/jobs/view/4452693485/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Factor K Software",
+      "title": "C++ Engineer",
+      "url": "https://factork-software.com/careers",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Factored",
+      "title": "Senior Full-Stack Engineer (Python & React)",
+      "url": "https://job-boards.greenhouse.io/factored",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Fair Play Labs",
+      "title": "QA Lead",
+      "url": "https://fairplaylabs.com/job-opening/qa-lead/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "First Factory",
+      "title": "Frontend and full-stack engineering",
+      "url": "https://jobs.firstfactory.com/jobs",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "First Factory",
+      "title": "Senior Full Stack Engineer (Java & React)",
+      "url": "https://cr.linkedin.com/jobs/view/senior-full-stack-engineer-java-react-at-first-factory-4460639866",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Fiserv",
+      "title": "Senior Software Development Engineer",
+      "url": "https://www.careers.fiserv.com/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Fujitsu",
+      "title": "Senior Python and Kafka Engineer",
+      "url": "https://www.linkedin.com/jobs/view/4476186301",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "FullStack Labs",
+      "title": "Senior Full Stack Engineer",
+      "url": "https://www.fullstack.com/careers",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "FullStack Labs",
+      "title": "Full Stack Engineer (Java + React) - Remote - Latin America",
+      "url": "https://www.linkedin.com/jobs/view/4476381941",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "FullStack Labs",
+      "title": "Senior Full Stack Developer (Python + Vue.js) - Remote - Latin America",
+      "url": "https://www.linkedin.com/jobs/view/4481794328",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "FullStack Labs",
+      "title": "Forward Deployed Engineer (TypeScript + AI) - Remote - Latin America",
+      "url": "https://www.linkedin.com/jobs/view/4482172822",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "FusionHit",
+      "title": "Senior Fullstack Software Engineer — Java",
+      "url": "https://apply.workable.com/fusionhitjobs/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "FusionHit",
+      "title": "Senior Fullstack Software Engineer (Frontend-focused)",
+      "url": "https://www.linkedin.com/jobs/view/4460107366",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "FusionHit",
+      "title": "Senior Fullstack Software Engineer (Backend-focused, Java/Spring Boot)",
+      "url": "https://www.linkedin.com/jobs/view/4460123304",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "GFT Technologies",
+      "title": "Senior Java Developer",
+      "url": "https://www.gft.com/int/en/career",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "GSB Solutions",
+      "title": "Senior Java Full Stack Developer",
+      "url": "https://gsbsolutions.com/careers/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "GitLab",
+      "title": "Senior Fullstack Engineer",
+      "url": "https://about.gitlab.com/jobs/all-jobs/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Globant",
+      "title": "Senior Java Developer",
+      "url": "https://career.globant.com/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Gorilla Logic",
+      "title": "Senior AI Fullstack Engineer - SD",
+      "url": "https://gorillalogic.bamboohr.com/careers/197",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Gorilla Logic",
+      "title": "Senior Fullstack React/Kotlin Engineer - GP",
+      "url": "https://gorillalogic.bamboohr.com/careers/195",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Gorilla Logic",
+      "title": "Senior Fullstack Software Engineer (Python) - AA",
+      "url": "https://gorillalogic.bamboohr.com/careers/194",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Gorilla Logic",
+      "title": "Senior React Native Engineer - GP",
+      "url": "https://gorillalogic.bamboohr.com/careers/198",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Gorilla Logic",
+      "title": "Senior Fullstack Java Software Engineer - AA, Remote: Colombia - Costa Rica, Full Time",
+      "url": "https://gorillalogic.bamboohr.com/careers/34",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Gorilla Logic",
+      "title": "Senior Forward Deployed Engineer, AI Platform - GP, Remote: Colombia - Costa Rica, Fulltime",
+      "url": "https://www.linkedin.com/jobs/view/4466569887",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Gorilla Logic",
+      "title": "Senior Fullstack React/Kotlin Engineer - GP, Remote: Colombia - Costa Rica, Fulltime",
+      "url": "https://cr.linkedin.com/jobs/view/senior-fullstack-react-kotlin-engineer-gp-remote-colombia-costa-rica-fulltime-at-gorilla-logic-4464595819",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Gorilla Logic",
+      "title": "Solution Architect (.NET/C#) - Cloud Enablement, Remote: Colombia - Costa Rica, Fulltime.",
+      "url": "https://cr.linkedin.com/jobs/view/solution-architect-net-c%23-cloud-enablement-remote-colombia-costa-rica-fulltime-at-gorilla-logic-4454492617",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "GovWorx",
+      "title": "Fullstack Engineer - LATAM",
+      "url": "",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Grafana Labs",
+      "title": "Senior Software Engineer",
+      "url": "https://grafana.com/about/careers/open-positions/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Granicus",
+      "title": "Costa Rica Software Engineer",
+      "url": "https://globalcareers-granicus.icims.com/jobs/10169/costa-rica-software-engineer/job",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Growth Acceleration Partners",
+      "title": "Senior Full Stack Engineer",
+      "url": "https://careers.growthaccelerationpartners.com/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "HCLTech",
+      "title": "Senior Technical Lead — Java Full Stack",
+      "url": "https://www.hcltech.com/careers",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "HCLTech",
+      "title": "Full Stack Lead Engineer",
+      "url": "https://www.linkedin.com/jobs/view/4469068201",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "HP Inc.",
+      "title": "Senior Software Developer",
+      "url": "https://jobs.hp.com/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Halo Media",
+      "title": "Senior Backend Developer Node/Python",
+      "url": "https://www.linkedin.com/jobs/view/4449755285",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Hangar Worldwide",
+      "title": "Data Engineer",
+      "url": "https://hangar.bamboohr.com/careers/1185",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Hewlett Packard Enterprise",
+      "title": "Senior Software Engineer",
+      "url": "https://careers.hpe.com/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Hitachi Solutions",
+      "title": "Senior Full Stack Developer",
+      "url": "https://global.hitachi-solutions.com/careers/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Howdy",
+      "title": "Senior Full Stack Engineer",
+      "url": "https://www.howdy.com/developers",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Huenei",
+      "title": "Senior Java Full Stack Developer",
+      "url": "https://www.huenei.com/en/careers/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "IBM",
+      "title": "Application Developer — Full Stack",
+      "url": "https://www.ibm.com/careers/search",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Icalia Labs",
+      "title": "Engineering Network",
+      "url": "https://icalialabs.com/careers/engineering-network.html",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "ImagineX Consulting",
+      "title": "Senior Fullstack Engineer (React/Next.js + Java)",
+      "url": "https://imaginexdigital.applytojob.com/apply/shMSJLuCY0/Senior-Fullstack-Engineer-ReactNextjs-Java",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Improving",
+      "title": "Senior Software Engineer",
+      "url": "https://www.improving.com/careers/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Improving",
+      "title": "Senior Full-Stack Engineer",
+      "url": "https://www.getonbrd.com/jobs/programming/senior-full-stack-engineer-improving-remote",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Improving",
+      "title": "Senior Java Developer + Spring Boot + SQL",
+      "url": "https://www.improving.com/careers/south-america/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "In All Media",
+      "title": "2121 Backend Software Engineer - Shared Platforms",
+      "url": "https://inallmedia-llc.breezy.hr/p/31d5583bb722-2121-backend-software-engineer-shared-platforms",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Infinite Computer Solutions",
+      "title": "Full Stack Engineer",
+      "url": "https://www.linkedin.com/jobs/view/4476857215",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Infotree Global Solutions",
+      "title": "Senior Software Engineer",
+      "url": "https://www.infotreeglobal.com/careers/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Initiumsoft",
+      "title": "Desarrollador Web Senior (.NET)",
+      "url": "https://www.careers-page.com/initiumsoft/job/4R698WYV",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Intel",
+      "title": "Senior Software Application Engineer",
+      "url": "https://jobs.intel.com/en/search-jobs",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Intertec International",
+      "title": "Senior Full Stack Developer",
+      "url": "https://www.intertecintl.com/careers/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Johnson Controls",
+      "title": "Senior Full Stack Software Engineer",
+      "url": "https://jobs.johnsoncontrols.com/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Kake",
+      "title": "Senior Full Stack Engineer (Node/React) - Remote",
+      "url": "https://www.linkedin.com/jobs/view/4473682404",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Kake",
+      "title": "Senior Backend Engineer (TypeScript/Python/C#) - Remote",
+      "url": "https://www.linkedin.com/jobs/view/4474448321",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Kambda",
+      "title": "Senior Software Engineer",
+      "url": "https://www.kambda.com/jobs/senior-software-engineer/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Kodalab",
+      "title": "Senior Full-Stack Engineer",
+      "url": "https://kodalab.ai/careers",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Konrad Group",
+      "title": "Senior Java Developer",
+      "url": "https://www.konrad.com/careers",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Konrad Group",
+      "title": "Senior Full Stack Developer",
+      "url": "https://cr.linkedin.com/jobs/view/senior-full-stack-developer-at-konrad-4447381790",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Koombea",
+      "title": "Senior Full Stack Developer",
+      "url": "https://www.koombea.com/careers/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Kubikware",
+      "title": "Senior Full-Stack Engineer (Node.js & React)",
+      "url": "https://kubikware.freshteam.com/jobs/UVIGv0czdJJW/full-stack-node-js-and-react-engineer-remote",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Kubikware",
+      "title": "Senior Full-Stack Software Engineer (Python/Django)",
+      "url": "https://kubikware.freshteam.com/jobs/6TYxTDI0iI_3/senior-full-stack-software-engineer-python-django-remote",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Lazer",
+      "title": "Senior Full Stack Engineer, Shopify",
+      "url": "https://cr.linkedin.com/jobs/view/senior-full-stack-engineer-shopify-at-lazer-technologies-4433067654",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Lemon.io",
+      "title": "Senior Full Stack Developer",
+      "url": "https://lemon.io/developers/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Lumenalta",
+      "title": "Javascript Fullstack Engineer - Senior",
+      "url": "https://lumenalta.com/jobs/senior-fullstack-javascript",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Lumenalta",
+      "title": "Mid-Level Fullstack Python/React Engineer",
+      "url": "https://lumenalta.com/jobs/python-engineer-mid-level-fullstack-python-react-engineer-557?applying=true",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Lumenalta",
+      "title": "Senior React Developer",
+      "url": "https://lumenalta.com/jobs/react-engineer-senior-react-developer-114",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Lumimeds",
+      "title": "Senior Frontend Engineer (Next.js & React, AI-Native)",
+      "url": "https://job-boards.greenhouse.io/lumimeds",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "MOURI Tech",
+      "title": "Java Full Stack Developer - Costa Rica",
+      "url": "https://www.mouritech.com/careers/latam-job-opening/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Mahisoft",
+      "title": "Senior Full Stack Developer - All LATAM Countries - Fully Remote",
+      "url": "",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Microsoft",
+      "title": "Senior Software Engineer",
+      "url": "https://jobs.careers.microsoft.com/global/en/search",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Modus Create",
+      "title": "Senior Full Stack Engineer",
+      "url": "https://moduscreate.com/careers/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "MongoDB",
+      "title": "Senior Software Engineer",
+      "url": "https://www.mongodb.com/careers/jobs",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Moody's",
+      "title": "Senior Software Engineer",
+      "url": "https://careers.moodys.com/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "N-iX",
+      "title": "Lead Fullstack Engineer (React + Next.js)",
+      "url": "https://careers.n-ix.com/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "NETCOM Business Contact Center",
+      "title": "Solution Architect",
+      "url": "https://cr.linkedin.com/jobs/view/solution-architect-at-netcom-business-contact-center-4469273011",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "NTT DATA",
+      "title": "Senior Java Developer",
+      "url": "https://careers.nttdata.com/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "NaNLABS",
+      "title": "Senior Full Stack Engineer",
+      "url": "https://www.nan-labs.com/careers",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Nearsure",
+      "title": "Senior Full Stack Developer",
+      "url": "https://nearsure.com/en/careers/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Netskope",
+      "title": "Senior Software Engineer",
+      "url": "https://www.netskope.com/company/careers/open-positions",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Newfire Global Partners",
+      "title": "Senior Full-Stack (Java/React)",
+      "url": "https://jobs.newfireglobal.com/careers/senior-full-stack-java-react/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Newfire Global Partners",
+      "title": "Senior/Lead Full Stack Engineer (Node.js + React)",
+      "url": "https://jobs.newfireglobal.com/careers/senior-lead-full-stack-engineer-node-js-react/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Niuro",
+      "title": "Senior Full-Stack Engineer (NestJS, Next.js, TypeScript, GCP)",
+      "url": "https://www.getonbrd.com/jobs/programming/senior-full-stack-engineer-nestjs-nextjr-typescript-gcp-niuro-remote",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Niuro",
+      "title": "Senior Full-Stack Engineer (Node.js, React, AI)",
+      "url": "https://www.getonbrd.com/jobs/programming/full-stack-engineer-node-js-react-ai-niuro-remote",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Novacomp",
+      "title": "Senior Java Developer",
+      "url": "https://www.novacomp.net/careers/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Oowlish",
+      "title": "Senior Frontend Engineer (React)",
+      "url": "https://jobs.lever.co/oowlish?commitment=Remote",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "OpenText",
+      "title": "Senior Software Developer",
+      "url": "https://careers.opentext.com/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Palo Alto Networks",
+      "title": "Senior Software Engineer",
+      "url": "https://jobs.paloaltonetworks.com/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Pearl",
+      "title": "Remote Full-Stack Software Engineer",
+      "url": "https://www.linkedin.com/jobs/view/4478042631",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Perficient",
+      "title": "Senior Java/React Developer",
+      "url": "https://careers.perficient.com/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Playbypoint",
+      "title": "Senior Full Stack Software Engineer - Developer Platform (Remote LATAM)",
+      "url": "",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Prodigious Latin America",
+      "title": "Senior Full Stack Developer",
+      "url": "https://www.prodigious.com/careers/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Proxify",
+      "title": "Senior Full Stack Developer",
+      "url": "https://career.proxify.io/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Proxify",
+      "title": "Senior Python Developer (Fullstack, BE-Heavy)",
+      "url": "https://www.linkedin.com/jobs/view/4418945535",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Proxify",
+      "title": "Senior Backend Developer (Node.js / Nest.js)",
+      "url": "https://www.linkedin.com/jobs/view/4309391653",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Proxify",
+      "title": "Senior Fullstack Developer",
+      "url": "https://cr.linkedin.com/jobs/view/senior-fullstack-developer-at-proxify-4309384407",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Publicis Re:Sources",
+      "title": "AI Full Stack Engineer",
+      "url": "https://www.linkedin.com/jobs/view/4474316679",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Publicis Sapient",
+      "title": "Senior Associate — Full Stack",
+      "url": "https://careers.publicissapient.com/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Puente Talent",
+      "title": "Senior Backend Engineer",
+      "url": "https://puentetalent.com/jobs/senior-backend-engineer-2702",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Pythian",
+      "title": "Lead AI/ML Engineer",
+      "url": "https://ats.rippling.com/pythian/jobs/b94669c0-6fc4-44f5-95e8-2e3f80c06a93",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Qventus",
+      "title": "Sr. Software Engineer - PAT Assist",
+      "url": "https://www.qventus.com/company/working-qventus/job?gh_jid=4472326009",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "R2",
+      "title": "Staff Software Engineer (LatAm Only)",
+      "url": "https://r2.bamboohr.com/careers/178",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Remote",
+      "title": "Senior Backend/Fullstack Engineer",
+      "url": "https://remote.com/openings",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Revelo",
+      "title": "Senior Software Engineer",
+      "url": "https://www.revelo.com/developers",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Rimutee",
+      "title": "Senior Full Stack Developer – Java, React",
+      "url": "https://www.remotery.co/job/remote-senior-full-stack-developer-java-react-at-rimutee-in-latin-america-freelance-ae42db",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Rootstack",
+      "title": "Senior Full Stack Developer",
+      "url": "https://rootstack.com/en/jobs",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Ruzora",
+      "title": "Fullstack TypeScript Engineer (React + Node)",
+      "url": "https://www.ruzora.com/jobs/fullstack-typescript-react-node",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Ruzora",
+      "title": "Senior Full-Stack Python Engineer (React + Python)",
+      "url": "https://www.ruzora.com/jobs/fullstack-python-react",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "SearchAPI",
+      "title": "Matching software engineering role — exact title not recovered",
+      "url": "",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Sezzle",
+      "title": "Software Engineer II (LATAM)",
+      "url": "",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Shrine Development",
+      "title": "Senior or Mid Back End Engineer",
+      "url": "https://shrinedev.com/careers",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Sigma Software",
+      "title": "Full Stack Developer (Python + React), E-commerce",
+      "url": "https://career.sigma.software/vacancy/senior-full-stack-developer-29/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Sigma Software",
+      "title": "Strong Middle/Senior Full-Stack Engineer",
+      "url": "https://career.sigma.software/vacancy/strong-middle-senior-full-stack-engineer-2/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Sigma Software",
+      "title": "Strong Middle/Senior Full-Stack Engineer (Fintech)",
+      "url": "https://career.sigma.software/vacancy/strong-middle-senior-full-stack-engineer-2/?campaign=finance",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Sixsense Labs",
+      "title": "Back-End Developer AWS",
+      "url": "https://www.sixsenselabs.com/careers-1/back-end-developer-aws",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Smartsheet",
+      "title": "Senior Software Engineer",
+      "url": "https://www.smartsheet.com/careers/jobs",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Snap Finance",
+      "title": "Software Developer III",
+      "url": "https://snapfinance.wd1.myworkdayjobs.com/Snap_External_Careers/job/Alajuela/Software-Developer-III_R-2779",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "SoftServe",
+      "title": "Senior Java Software Engineer",
+      "url": "https://career.softserveinc.com/en-us/vacancies",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Software Mind",
+      "title": "Senior Full Stack Engineer",
+      "url": "https://softwaremind.com/career/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Solvd",
+      "title": "Senior Full Stack Engineer",
+      "url": "https://www.solvd.com/careers",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Sophilabs",
+      "title": "Senior Full Stack Engineer",
+      "url": "https://sophilabs.com/careers",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Sparq",
+      "title": "Senior Software Engineer",
+      "url": "https://www.teamsparq.com/careers/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Sparq",
+      "title": "Senior Lead Full Stack Engineer (.NET/Vue)",
+      "url": "https://cr.linkedin.com/jobs/view/senior-lead-full-stack-engineer-net-vue-at-sparq-4469112851",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Sparq",
+      "title": "Principal Solutions Architect",
+      "url": "https://cr.linkedin.com/jobs/view/principal-solutions-architect-at-sparq-4469105988",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Splunk",
+      "title": "Senior Software Engineer",
+      "url": "https://www.splunk.com/en_us/careers/search-jobs.html",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Stord",
+      "title": "Matching software engineering role — exact title not recovered",
+      "url": "",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Stryker",
+      "title": "Senior Software Engineer — Full Stack",
+      "url": "https://careers.stryker.com/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Superside",
+      "title": "Senior Full Stack Engineer",
+      "url": "https://careers.superside.com/jobs",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Svitla Systems",
+      "title": "Senior Full Stack Engineer",
+      "url": "https://svitla.com/career",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "SweatWorks",
+      "title": "Software Engineer - Golang",
+      "url": "https://www.sweatworks.net/careers/open-positions/software-engineer-golang-/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Symmetry",
+      "title": "Junior Mobile Engineer",
+      "url": "https://symmetry.club/en/careers/jr-mobile-engineer",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Syniverse",
+      "title": "Principal Cybersecurity Engineer",
+      "url": "https://syniverse.wd1.myworkdayjobs.com/en-US/SyniverseCareers/job/Costa-Rica-San-Jose/Principal-Cybersecurity-Engineer_R0007423",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "TalentCross (client confidential)",
+      "title": "Sr Fullstack Developer (React, Next, Node, Java)",
+      "url": "https://talentcross.careers-page.com/jobs/7c697809-bcd8-44fc-b5e7-f2b0258fb4b1",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "TeamStation",
+      "title": "Senior Software Engineer (Python/Django, React, Azure)",
+      "url": "https://jobs.teamstation.dev/jobs/819/hiring-senior-software-engineer-pythondjango-react-azure-full-stack-lead-path",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Tecla",
+      "title": "Senior Full Stack Engineer",
+      "url": "https://www.tecla.io/developers",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Tek Experts",
+      "title": "Senior Software Engineer",
+      "url": "https://www.tek-experts.com/careers/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Tekton Labs",
+      "title": "Semi senior Java Developer",
+      "url": "https://careerportal.tektonlabs.com/jobs/semi-senior-java-developer/apply",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Terminal",
+      "title": "Senior Software Engineer",
+      "url": "https://www.terminal.io/engineers",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Terminal",
+      "title": "Senior Fullstack Engineer",
+      "url": "https://www.linkedin.com/jobs/view/4480081391",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Thoughtworks",
+      "title": "Senior Software Developer",
+      "url": "https://www.thoughtworks.com/careers/jobs",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Toptal",
+      "title": "Senior Software Engineer",
+      "url": "https://www.toptal.com/talent/apply",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "TradeStation",
+      "title": "Senior Software Engineer",
+      "url": "https://careers.tradestation.com/positions",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "TransUnion",
+      "title": "Senior Full Stack Developer",
+      "url": "https://transunion.wd5.myworkdayjobs.com/en-US/TransUnion/job/Senior-Full-Stack-Developer_19040270",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "TrashLab",
+      "title": "Senior Software Engineer - LATAM Brazil",
+      "url": "https://jobs.gem.com/trashlab/am9icG9zdDpSRwePwAYzFOEVEcZ6Wcz8",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Truelogic",
+      "title": "Senior Full-Stack Engineer (Modern Backend + React) - Global Insights & Strategy",
+      "url": "https://jobs.truelogic.io/jobs/9af508a7-c9ab-4634-954e-4ffa8126f7a8",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Turing",
+      "title": "Senior Full Stack Developer",
+      "url": "https://www.turing.com/jobs",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "UST",
+      "title": "Senior Java Full Stack Developer",
+      "url": "https://www.ust.com/en/careers",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "UST",
+      "title": "Full Stack Developer (Python)",
+      "url": "https://www.linkedin.com/jobs/view/4445570286",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "UST",
+      "title": "Java AWS Full Stack Software Engineer",
+      "url": "https://cr.linkedin.com/jobs/view/java-aws-full-stack-software-engineer-at-ust-4432715446",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Unisys",
+      "title": "Senior Software Application Engineer",
+      "url": "https://jobs.unisys.com/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Valtech",
+      "title": "Senior Full Stack Developer",
+      "url": "https://www.valtech.com/careers/jobs/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Velozient",
+      "title": "Senior Full Stack Software Engineer",
+      "url": "https://velozient.com/senior-full-stack-software-engineer-2/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Vention",
+      "title": "Senior Full Stack Engineer",
+      "url": "https://ventionteams.com/careers",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Veta Virtual",
+      "title": "Full Stack Software Engineer",
+      "url": "https://www.linkedin.com/jobs/view/4478174076",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Viventium",
+      "title": "Senior Software Engineer — Full Stack Python",
+      "url": "https://portfoliojobs.llrpartners.com/companies/viventium/jobs/87872045-senior-software-engineer-full-stack-python",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Walmart Global Tech",
+      "title": "Java Technical Leader / Senior Developer",
+      "url": "https://careers.walmart.com/technology/software-development-and-engineering",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "We Are TIMS",
+      "title": "Senior Software Engineer (Full-Stack Java/React)",
+      "url": "https://www.careers-page.com/we-are-tims/job/3WR5V65V",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "We Are TIMS",
+      "title": "Senior Software Engineer (Full-Stack Java/React)",
+      "url": "https://remotenex.us/job/sr-software-engineer-bilinge-full-stack-javareact",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "WebCreek",
+      "title": "Junior to Mid-Level Full Stack Software Developer",
+      "url": "https://careers.webcreek.com/positions/junior-to-mid-level-full-stack-software-developer/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "West Monroe",
+      "title": "Senior Software Engineer — AI Assets",
+      "url": "https://www.westmonroe.com/careers/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "West Monroe",
+      "title": "Senior Software Engineer- Tech Ex AI Assets Foundry Team",
+      "url": "https://www.linkedin.com/jobs/view/4461516108",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Wind River",
+      "title": "Senior Software Engineer",
+      "url": "https://careers.windriver.com/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Wizdaa",
+      "title": "Senior React Native & React Engineer",
+      "url": "https://wizdaa.recruitee.com/o/senior-react-native-react-engineer-latam-1",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Wizeline",
+      "title": "Senior Software Engineer",
+      "url": "https://www.wizeline.com/careers/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "World Kinect",
+      "title": "Senior Software Engineer",
+      "url": "https://careers.world-kinect.com/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "X-Team",
+      "title": "Senior Developer",
+      "url": "https://x-team.com/join/",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Zarego",
+      "title": "Full Stack Developer (Java, React) - Remote LATAM",
+      "url": "https://careers-page.com/zarego/job/RY65W696",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "Zscaler",
+      "title": "Senior Software Engineer",
+      "url": "https://www.zscaler.com/careers/search",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "iDelsoft",
+      "title": "Senior Software Engineer - Python/React (LATAM, Remote)",
+      "url": "https://www.careers-page.com/idelsoft/job/6383VW7R",
+      "reason": "unsupported-or-non-ATS"
+    },
+    {
+      "company": "ioet",
+      "title": "Full Stack Engineer",
+      "url": "https://ioet.na.teamtailor.com/jobs/721507-full-stack-engineer",
+      "reason": "unsupported-or-non-ATS"
+    }
+  ],
+  "selectedJobs": [
+    {
+      "company": "Backblaze",
+      "key": "backblaze.com",
+      "title": "Sr. Software Engineer - Application Security",
+      "location": "Remote - Colombia ; Remote - Costa Rica ; Remote - Mexico",
+      "eligibility": "Remote - Colombia ; Remote - Costa Rica ; Remote - Mexico",
+      "url": "https://job-boards.greenhouse.io/backblaze/jobs/5204308008",
+      "checkedOn": "2026-11-09",
+      "score": 19,
+      "atsBoard": "greenhouse:backblaze",
+      "matchedSavedJob": true
+    },
+    {
+      "company": "Able",
+      "key": "able.co",
+      "title": "Senior Software Engineer (Full-Stack, JavaScript)",
+      "location": "Remote, LatAm",
+      "eligibility": "Remote, LatAm",
+      "url": "https://job-boards.greenhouse.io/able/jobs/8390834002",
+      "checkedOn": "2026-11-09",
+      "score": 18,
+      "atsBoard": "greenhouse:able",
+      "matchedSavedJob": true
+    },
+    {
+      "company": "Agility IO",
+      "key": "agilityio.com",
+      "title": "Senior Full Stack Developer",
+      "location": "LATAM (Remote)",
+      "eligibility": "LATAM (Remote)",
+      "url": "https://jobs.ashbyhq.com/agility.io/2320547b-218a-4730-8c43-b55a85819c6b",
+      "checkedOn": "2026-11-09",
+      "score": 18,
+      "atsBoard": "ashby:agility.io",
+      "matchedSavedJob": true
+    },
+    {
+      "company": "Backblaze",
+      "key": "backblaze.com",
+      "title": "Software Engineer, Open Source AI",
+      "location": "Remote - Colombia ; Remote - Costa Rica ; Remote - Mexico",
+      "eligibility": "Remote - Colombia ; Remote - Costa Rica ; Remote - Mexico",
+      "url": "https://job-boards.greenhouse.io/backblaze/jobs/5442462008",
+      "checkedOn": "2026-11-09",
+      "score": 18,
+      "atsBoard": "greenhouse:backblaze",
+      "matchedSavedJob": true
+    },
+    {
+      "company": "Savvy Wealth",
+      "key": "savvywealth.com",
+      "title": "Senior Software Engineer (Remote LATAM)",
+      "location": "Latin America",
+      "eligibility": "Latin America",
+      "url": "https://jobs.ashbyhq.com/savvy/c3589bc5-04c0-470d-a50d-2d38d4828710",
+      "checkedOn": "2026-11-09",
+      "score": 18,
+      "atsBoard": "ashby:savvy",
+      "matchedSavedJob": true
+    },
+    {
+      "company": "Sezzle",
+      "key": "sezzle.com",
+      "title": "Senior Software Engineer with Accounting Experience (LATAM)",
+      "location": "Mexico, Remote",
+      "eligibility": "Mexico, Remote",
+      "url": "https://job-boards.greenhouse.io/sezzle/jobs/7527782003",
+      "checkedOn": "2026-11-09",
+      "score": 18,
+      "atsBoard": "greenhouse:sezzle",
+      "matchedSavedJob": false
+    },
+    {
+      "company": "Atomic Vest",
+      "key": "atomicvest.com",
+      "title": "Software Engineer, Front End",
+      "location": "Remote",
+      "eligibility": "e-first company, and this role is fully remote; however, candidates must be based in Canada or LATAM in the Americas Timezone (GMT-4 to GMT-8) About the role You’ll be our lead front-end engineer",
+      "url": "https://jobs.ashbyhq.com/atomic-invest/6da0c7ef-3cc7-420d-820a-e1647d7f3917",
+      "checkedOn": "2026-11-09",
+      "score": 17,
+      "atsBoard": "ashby:atomic-invest",
+      "matchedSavedJob": false
+    },
+    {
+      "company": "Backblaze",
+      "key": "backblaze.com",
+      "title": "Software Engineer III - B2",
+      "location": "Remote - Colombia ; Remote - Costa Rica ; Remote - Mexico",
+      "eligibility": "Remote - Colombia ; Remote - Costa Rica ; Remote - Mexico",
+      "url": "https://job-boards.greenhouse.io/backblaze/jobs/5465482008",
+      "checkedOn": "2026-11-09",
+      "score": 17,
+      "atsBoard": "greenhouse:backblaze",
+      "matchedSavedJob": false
+    },
+    {
+      "company": "Sezzle",
+      "key": "sezzle.com",
+      "title": "Junior Software Engineer with Accounting Experience (LATAM)",
+      "location": "Latin America",
+      "eligibility": "Latin America",
+      "url": "https://job-boards.greenhouse.io/sezzle/jobs/6668065003",
+      "checkedOn": "2026-11-09",
+      "score": 17,
+      "atsBoard": "greenhouse:sezzle",
+      "matchedSavedJob": false
+    },
+    {
+      "company": "Sezzle",
+      "key": "sezzle.com",
+      "title": "Senior Software Engineer (LATAM)",
+      "location": "Latin America",
+      "eligibility": "Latin America",
+      "url": "https://job-boards.greenhouse.io/sezzle/jobs/5761148003",
+      "checkedOn": "2026-11-09",
+      "score": 17,
+      "atsBoard": "greenhouse:sezzle",
+      "matchedSavedJob": false
+    },
+    {
+      "company": "Sezzle",
+      "key": "sezzle.com",
+      "title": "Senior Software Engineer Full stack (LATAM)",
+      "location": "Latin America",
+      "eligibility": "Latin America",
+      "url": "https://job-boards.greenhouse.io/sezzle/jobs/6605413003",
+      "checkedOn": "2026-11-09",
+      "score": 17,
+      "atsBoard": "greenhouse:sezzle",
+      "matchedSavedJob": true
+    },
+    {
+      "company": "Backblaze",
+      "key": "backblaze.com",
+      "title": "Sr. Software Engineer",
+      "location": "Remote - Colombia ; Remote - Costa Rica ; Remote - Mexico",
+      "eligibility": "Remote - Colombia ; Remote - Costa Rica ; Remote - Mexico",
+      "url": "https://job-boards.greenhouse.io/backblaze/jobs/5204960008",
+      "checkedOn": "2026-11-09",
+      "score": 16,
+      "atsBoard": "greenhouse:backblaze",
+      "matchedSavedJob": true
+    },
+    {
+      "company": "Encora",
+      "key": "encora.com",
+      "title": "Frontend JavaScript Design System Engineer",
+      "location": "Peru",
+      "eligibility": "ience:</strong> 7+ years of frontend development experience.</p> <p><strong>Location:</strong> Costa Rica or Peru.</p> <p><strong>Modality:</strong> Remote only in Costa Rica or Peru.</p> <p>At Coforg",
+      "url": "https://job-boards.greenhouse.io/encora10/jobs/5252711007",
+      "checkedOn": "2026-11-09",
+      "score": 16,
+      "atsBoard": "greenhouse:encora10",
+      "matchedSavedJob": false
+    },
+    {
+      "company": "Encora",
+      "key": "encora.com",
+      "title": "Mid/Senior Full Stack Engineer",
+      "location": "Costa Rica",
+      "eligibility": "Costa Rica",
+      "url": "https://job-boards.greenhouse.io/encora10/jobs/5271041007",
+      "checkedOn": "2026-11-09",
+      "score": 16,
+      "atsBoard": "greenhouse:encora10",
+      "matchedSavedJob": false
+    },
+    {
+      "company": "Encora",
+      "key": "encora.com",
+      "title": "Senior Frontend JavaScript Design System Engineer",
+      "location": "Costa Rica",
+      "eligibility": "Costa Rica",
+      "url": "https://job-boards.greenhouse.io/encora10/jobs/5271908007",
+      "checkedOn": "2026-11-09",
+      "score": 16,
+      "atsBoard": "greenhouse:encora10",
+      "matchedSavedJob": false
+    },
+    {
+      "company": "Wagmo",
+      "key": "wagmo",
+      "title": "Senior Software Engineer - LATAM",
+      "location": "Remote - Latin America",
+      "eligibility": "Remote - Latin America",
+      "url": "https://jobs.ashbyhq.com/wagmo/dbf4dc55-274c-4787-ae01-391d9d93551e",
+      "checkedOn": "2026-11-09",
+      "score": 16,
+      "atsBoard": "ashby:wagmo",
+      "matchedSavedJob": true
+    },
+    {
+      "company": "Backcountry",
+      "key": "backcountry.com",
+      "title": "Senior Backend Engineer - ERP Systems",
+      "location": "Costa Rica",
+      "eligibility": "Costa Rica",
+      "url": "https://jobs.lever.co/cscgeneration-2/0ef9eb9f-f2cc-42f4-b8f9-4a34a771b4e0",
+      "checkedOn": "2026-11-09",
+      "score": 15,
+      "atsBoard": "lever:cscgeneration-2",
+      "matchedSavedJob": true
+    },
+    {
+      "company": "CodeRoad",
+      "key": "coderoad.com",
+      "title": "Senior Fullstack Developer (.NET/React)",
+      "location": "Latin America",
+      "eligibility": "Latin America",
+      "url": "https://job-boards.greenhouse.io/coderoad/jobs/4164246009",
+      "checkedOn": "2026-11-09",
+      "score": 15,
+      "atsBoard": "greenhouse:coderoad",
+      "matchedSavedJob": false
+    },
+    {
+      "company": "CodeRoad",
+      "key": "coderoad.com",
+      "title": "Sr Fullstack Developer (Python/ React)",
+      "location": "Latin America",
+      "eligibility": "Latin America",
+      "url": "https://job-boards.greenhouse.io/coderoad/jobs/4458025009",
+      "checkedOn": "2026-11-09",
+      "score": 15,
+      "atsBoard": "greenhouse:coderoad",
+      "matchedSavedJob": true
+    },
+    {
+      "company": "Cresteo",
+      "key": "cresteo.com",
+      "title": "Software Engineer (Go/Java)",
+      "location": "Remote - Latam",
+      "eligibility": "Remote - Latam",
+      "url": "https://job-boards.greenhouse.io/cresteo/jobs/4739276005",
+      "checkedOn": "2026-11-09",
+      "score": 15,
+      "atsBoard": "greenhouse:cresteo",
+      "matchedSavedJob": true
+    },
+    {
+      "company": "Donorbox",
+      "key": "donorbox.org",
+      "title": "Software Engineer (Full Stack)",
+      "location": "Latin America - Remote",
+      "eligibility": "Latin America - Remote",
+      "url": "https://job-boards.greenhouse.io/donorbox/jobs/4717089005",
+      "checkedOn": "2026-11-09",
+      "score": 15,
+      "atsBoard": "greenhouse:donorbox",
+      "matchedSavedJob": true
+    },
+    {
+      "company": "Engine",
+      "key": "engine",
+      "title": "Senior Software Engineer, Backend - LATAM",
+      "location": "Remote - LATAM",
+      "eligibility": "Remote - LATAM",
+      "url": "https://job-boards.greenhouse.io/engine/jobs/7994754003",
+      "checkedOn": "2026-11-09",
+      "score": 15,
+      "atsBoard": "greenhouse:engine",
+      "matchedSavedJob": true
+    },
+    {
+      "company": "SimSpace",
+      "key": "simspace.com",
+      "title": "Software Engineer - Fullstack",
+      "location": "Remote - Costa Rica",
+      "eligibility": "Remote - Costa Rica",
+      "url": "https://jobs.ashbyhq.com/simspace-corporation/19881e6f-44bb-4da7-8227-719fa999000b",
+      "checkedOn": "2026-11-09",
+      "score": 15,
+      "atsBoard": "ashby:simspace-corporation",
+      "matchedSavedJob": true
+    },
+    {
+      "company": "Tebra",
+      "key": "tebra.com",
+      "title": "Staff Software Engineer, AI Engineering",
+      "location": "Heredia, Heredia, Costa Rica",
+      "eligibility": "Heredia, Heredia, Costa Rica",
+      "url": "https://job-boards.greenhouse.io/tebra/jobs/4666557005",
+      "checkedOn": "2026-11-09",
+      "score": 15,
+      "atsBoard": "greenhouse:tebra",
+      "matchedSavedJob": true
+    },
+    {
+      "company": "Truelogic",
+      "key": "truelogic.io",
+      "title": "Senior Front-End Engineer (Next.js/React) - Real Estate",
+      "location": "LatAm",
+      "eligibility": "LatAm",
+      "url": "https://jobs.ashbyhq.com/truelogic/8c3d2c68-6e98-4330-a87b-14eaaedd3ea1",
+      "checkedOn": "2026-11-09",
+      "score": 15,
+      "atsBoard": "ashby:truelogic",
+      "matchedSavedJob": false
+    },
+    {
+      "company": "Arionkoder",
+      "key": "arionkoder.com",
+      "title": "Full Stack Engineer",
+      "location": "LATAM",
+      "eligibility": "LATAM",
+      "url": "https://job-boards.greenhouse.io/arionkoder/jobs/5434509008",
+      "checkedOn": "2026-11-09",
+      "score": 14,
+      "atsBoard": "greenhouse:arionkoder",
+      "matchedSavedJob": true
+    },
+    {
+      "company": "Atomic Vest",
+      "key": "atomicvest.com",
+      "title": "Senior Software Engineer, Back End",
+      "location": "LATAM",
+      "eligibility": "LATAM",
+      "url": "https://jobs.ashbyhq.com/atomic-invest/2dbcd665-1e90-49b0-b164-4776e85fae25",
+      "checkedOn": "2026-11-09",
+      "score": 14,
+      "atsBoard": "ashby:atomic-invest",
+      "matchedSavedJob": true
+    },
+    {
+      "company": "CodeRoad",
+      "key": "coderoad.com",
+      "title": "Fullstack Developer (Python/ React)",
+      "location": "Latin America",
+      "eligibility": "Latin America",
+      "url": "https://job-boards.greenhouse.io/coderoad/jobs/4458046009",
+      "checkedOn": "2026-11-09",
+      "score": 14,
+      "atsBoard": "greenhouse:coderoad",
+      "matchedSavedJob": true
+    },
+    {
+      "company": "DevSavant",
+      "key": "devsavant.com",
+      "title": "Senior Software Engineer – Backend & AWS Integrations",
+      "location": "LATAM",
+      "eligibility": "LATAM",
+      "url": "https://jobs.ashbyhq.com/devsavant/51c02958-afac-4589-8be5-0339dc1003dd",
+      "checkedOn": "2026-11-09",
+      "score": 14,
+      "atsBoard": "ashby:devsavant",
+      "matchedSavedJob": false
+    },
+    {
+      "company": "Encora",
+      "key": "encora.com",
+      "title": "Mid Full Stack Developer",
+      "location": "Costa Rica",
+      "eligibility": "Costa Rica",
+      "url": "https://job-boards.greenhouse.io/encora10/jobs/5272043007",
+      "checkedOn": "2026-11-09",
+      "score": 14,
+      "atsBoard": "greenhouse:encora10",
+      "matchedSavedJob": false
+    },
+    {
+      "company": "Praxent",
+      "key": "praxent.com",
+      "title": "LATAM Software Engineer(s) (React/Node)",
+      "location": "Remote - International",
+      "eligibility": "Remote - International",
+      "url": "https://job-boards.greenhouse.io/praxent/jobs/7732220003",
+      "checkedOn": "2026-11-09",
+      "score": 14,
+      "atsBoard": "greenhouse:praxent",
+      "matchedSavedJob": true
+    },
+    {
+      "company": "SimSpace",
+      "key": "simspace.com",
+      "title": "Backend Software Engineer (Internet Services Simulation)",
+      "location": "Remote - Costa Rica",
+      "eligibility": "Remote - Costa Rica",
+      "url": "https://jobs.ashbyhq.com/simspace-corporation/5ce06184-1479-44b8-bfd0-c691eb6f125c",
+      "checkedOn": "2026-11-09",
+      "score": 14,
+      "atsBoard": "ashby:simspace-corporation",
+      "matchedSavedJob": true
+    },
+    {
+      "company": "SimSpace",
+      "key": "simspace.com",
+      "title": "Senior Fullstack Engineer",
+      "location": "Remote - Costa Rica",
+      "eligibility": "Remote - Costa Rica",
+      "url": "https://jobs.ashbyhq.com/simspace-corporation/50ac6d17-fb1e-4803-b1b4-c27dda31fdb7",
+      "checkedOn": "2026-11-09",
+      "score": 14,
+      "atsBoard": "ashby:simspace-corporation",
+      "matchedSavedJob": true
+    },
+    {
+      "company": "SimSpace",
+      "key": "simspace.com",
+      "title": "Senior Software Engineer, Cyber Range",
+      "location": "Remote - Costa Rica",
+      "eligibility": "Remote - Costa Rica",
+      "url": "https://jobs.ashbyhq.com/simspace-corporation/f994709a-595b-439d-bb7e-12ad440756f0",
+      "checkedOn": "2026-11-09",
+      "score": 14,
+      "atsBoard": "ashby:simspace-corporation",
+      "matchedSavedJob": true
+    },
+    {
+      "company": "Total Performance Consulting",
+      "key": "totalperformance.com",
+      "title": "Full Stack Web Developer",
+      "location": "LATAM",
+      "eligibility": "LATAM",
+      "url": "https://job-boards.greenhouse.io/perform-careers/jobs/4435248009",
+      "checkedOn": "2026-11-09",
+      "score": 14,
+      "atsBoard": "greenhouse:perform-careers",
+      "matchedSavedJob": true
+    },
+    {
+      "company": "Truelogic",
+      "key": "truelogic.io",
+      "title": "Senior Back-End Developer (Java) - Global Insights & Strategy",
+      "location": "LatAm",
+      "eligibility": "LatAm",
+      "url": "https://jobs.ashbyhq.com/truelogic/7f318f1d-6787-4cbe-b20b-59169fcfd048",
+      "checkedOn": "2026-11-09",
+      "score": 14,
+      "atsBoard": "ashby:truelogic",
+      "matchedSavedJob": true
+    },
+    {
+      "company": "Truelogic",
+      "key": "truelogic.io",
+      "title": "Senior Full-Stack Engineer (Modern Backend + React) - Global Insights & Strategy",
+      "location": "LatAm",
+      "eligibility": "LatAm",
+      "url": "https://jobs.ashbyhq.com/truelogic/9af508a7-c9ab-4634-954e-4ffa8126f7a8",
+      "checkedOn": "2026-11-09",
+      "score": 14,
+      "atsBoard": "ashby:truelogic",
+      "matchedSavedJob": true
+    },
+    {
+      "company": "Arionkoder",
+      "key": "arionkoder.com",
+      "title": "Sr AI Engineer (Backend & Platform)",
+      "location": "LATAM",
+      "eligibility": "LATAM",
+      "url": "https://job-boards.greenhouse.io/arionkoder/jobs/5470073008",
+      "checkedOn": "2026-11-09",
+      "score": 13,
+      "atsBoard": "greenhouse:arionkoder",
+      "matchedSavedJob": false
+    },
+    {
+      "company": "Coderio",
+      "key": "coderio.com",
+      "title": "Senior Full-Stack Developer con experiencia en Node.js y React.js – Remoto (LATAM)",
+      "location": "Argentina",
+      "eligibility": "Argentina",
+      "url": "https://jobs.lever.co/coderio/5057a0ef-22e0-46fc-bddb-d75b470a6af7",
+      "checkedOn": "2026-11-09",
+      "score": 13,
+      "atsBoard": "lever:coderio",
+      "matchedSavedJob": true
+    },
+    {
+      "company": "Coderio",
+      "key": "coderio.com",
+      "title": "Sr Fullstack Engineer",
+      "location": "Argentina",
+      "eligibility": "nization, this is the perfect challenge for you. This position is open only to talent based in LATAM What To Expect In This Role (Responsibilities) Data Modernization: Deep dive into complex lega",
+      "url": "https://jobs.lever.co/coderio/bedf8021-77a5-4835-8cf3-234f209cd61b",
+      "checkedOn": "2026-11-09",
+      "score": 13,
+      "atsBoard": "lever:coderio",
+      "matchedSavedJob": true
+    },
+    {
+      "company": "G2i",
+      "key": "g2i.co",
+      "title": "Senior Software Engineer, AI Training - LATAM",
+      "location": "Remote",
+      "eligibility": "Remote",
+      "url": "https://jobs.ashbyhq.com/g2i/6f5d8b62-52c7-48cb-9362-1dfcf8d815c0",
+      "checkedOn": "2026-11-09",
+      "score": 13,
+      "atsBoard": "ashby:g2i",
+      "matchedSavedJob": true
+    },
+    {
+      "company": "Lumimeds",
+      "key": "lumimeds.com",
+      "title": "Frontend Engineer (Next.js & React, AI-Native) – Remote",
+      "location": "LATAM",
+      "eligibility": "LATAM",
+      "url": "https://job-boards.greenhouse.io/lumimeds/jobs/4355882009",
+      "checkedOn": "2026-11-09",
+      "score": 13,
+      "atsBoard": "greenhouse:lumimeds",
+      "matchedSavedJob": true
+    },
+    {
+      "company": "Newsela",
+      "key": "newsela.com",
+      "title": "Contractor: Full Stack Engineer, Marketing",
+      "location": "Remote - Argentina; Brazil; Colombia; Costa Rica; Mexico",
+      "eligibility": "Remote - Argentina; Brazil; Colombia; Costa Rica; Mexico",
+      "url": "https://job-boards.greenhouse.io/newsela/jobs/8359053",
+      "checkedOn": "2026-11-09",
+      "score": 13,
+      "atsBoard": "greenhouse:newsela",
+      "matchedSavedJob": false
+    },
+    {
+      "company": "Nortal",
+      "key": "nortal.com",
+      "title": "(1620) Semi Senior Full Stack PHP Developer",
+      "location": "Latin America - Remote",
+      "eligibility": "Latin America - Remote",
+      "url": "https://job-boards.greenhouse.io/nortal/jobs/5287641007",
+      "checkedOn": "2026-11-09",
+      "score": 13,
+      "atsBoard": "greenhouse:nortal",
+      "matchedSavedJob": false
+    },
+    {
+      "company": "Praxent",
+      "key": "praxent.com",
+      "title": "LATAM Software Engineer(s) (React/.NET)",
+      "location": "Remote - International",
+      "eligibility": "Remote - International",
+      "url": "https://job-boards.greenhouse.io/praxent/jobs/7732182003",
+      "checkedOn": "2026-11-09",
+      "score": 13,
+      "atsBoard": "greenhouse:praxent",
+      "matchedSavedJob": true
+    },
+    {
+      "company": "South Geeks",
+      "key": "southgeeks.com",
+      "title": "Full-stack Engineer (Java+JS)",
+      "location": "Remote",
+      "eligibility": "sons - Technical training - Career coaching This position is available for candidates based in LATAM.",
+      "url": "https://jobs.ashbyhq.com/southgeeks/3b0ba581-58b9-4e69-9a22-6b06296bfbfa",
+      "checkedOn": "2026-11-09",
+      "score": 13,
+      "atsBoard": "ashby:southgeeks",
+      "matchedSavedJob": true
+    },
+    {
+      "company": "South Geeks",
+      "key": "southgeeks.com",
+      "title": "Staff Software Engineer (AI-Native Full-Stack)",
+      "location": "Remote",
+      "eligibility": "0% remote work - Competitive payment in USD This position is available for candidates based in LATAM.",
+      "url": "https://jobs.ashbyhq.com/southgeeks/9625cdbc-db8e-4772-8a23-afcf2f11c5ca",
+      "checkedOn": "2026-11-09",
+      "score": 13,
+      "atsBoard": "ashby:southgeeks",
+      "matchedSavedJob": true
+    },
+    {
+      "company": "Truelogic",
+      "key": "truelogic.io",
+      "title": "Founding Product FullStack Engineer – AI Fintech (Hybrid, NYC)",
+      "location": "New York",
+      "eligibility": "eir digital transformation goals. Our team of 600+ highly skilled tech professionals, based in Latin America, drives digital disruption by partnering with U.S. companies on their most impactful projects.",
+      "url": "https://jobs.ashbyhq.com/truelogic/17ae8988-ed81-47cb-b46f-626eaff7b641",
+      "checkedOn": "2026-11-09",
+      "score": 13,
+      "atsBoard": "ashby:truelogic",
+      "matchedSavedJob": true
+    },
+    {
+      "company": "Bluelight Consulting",
+      "key": "bluelight.co",
+      "title": "Full Stack and Backend NodeJS TypeScript/JavaScript Engineer (Senior) - Latin America, Remote",
+      "location": "San Miguel, El Salvador",
+      "eligibility": "San Miguel, El Salvador",
+      "url": "https://jobs.lever.co/bluelightconsulting/00a94824-cfb7-491b-9cf4-45ef4382e76b",
+      "checkedOn": "2026-11-09",
+      "score": 12,
+      "atsBoard": "lever:bluelightconsulting",
+      "matchedSavedJob": false
+    },
+    {
+      "company": "Bluelight Consulting",
+      "key": "bluelight.co",
+      "title": "Full Stack and Backend NodeJS TypeScript/JavaScript Engineer (Senior) - Remote, Latin America",
+      "location": "David, Panama",
+      "eligibility": "David, Panama",
+      "url": "https://jobs.lever.co/bluelightconsulting/0192777e-a032-40a2-9382-fb23279eca70",
+      "checkedOn": "2026-11-09",
+      "score": 12,
+      "atsBoard": "lever:bluelightconsulting",
+      "matchedSavedJob": false
+    }
+  ],
+  "importResult": {
+    "imported": 27,
+    "created": 0,
+    "updated": 27,
+    "companies": [
+      {
+        "key": "backblaze.com",
+        "name": "Backblaze",
+        "sourceCount": 16,
+        "created": false
+      },
+      {
+        "key": "able.co",
+        "name": "Able",
+        "sourceCount": 3,
+        "created": false
+      },
+      {
+        "key": "agilityio.com",
+        "name": "Agility IO",
+        "sourceCount": 1,
+        "created": false
+      },
+      {
+        "key": "savvywealth.com",
+        "name": "Savvy Wealth",
+        "sourceCount": 4,
+        "created": false
+      },
+      {
+        "key": "sezzle.com",
+        "name": "Sezzle",
+        "sourceCount": 31,
+        "created": false
+      },
+      {
+        "key": "atomicvest.com",
+        "name": "Atomic Vest",
+        "sourceCount": 4,
+        "created": false
+      },
+      {
+        "key": "encora.com",
+        "name": "Encora",
+        "sourceCount": 28,
+        "created": false
+      },
+      {
+        "key": "wagmo",
+        "name": "Wagmo",
+        "sourceCount": 5,
+        "created": false
+      },
+      {
+        "key": "backcountry.com",
+        "name": "Backcountry",
+        "sourceCount": 3,
+        "created": false
+      },
+      {
+        "key": "coderoad.com",
+        "name": "CodeRoad",
+        "sourceCount": 20,
+        "created": false
+      },
+      {
+        "key": "cresteo.com",
+        "name": "Cresteo",
+        "sourceCount": 3,
+        "created": false
+      },
+      {
+        "key": "donorbox.org",
+        "name": "Donorbox",
+        "sourceCount": 3,
+        "created": false
+      },
+      {
+        "key": "engine",
+        "name": "Engine",
+        "sourceCount": 6,
+        "created": false
+      },
+      {
+        "key": "simspace.com",
+        "name": "SimSpace",
+        "sourceCount": 13,
+        "created": false
+      },
+      {
+        "key": "tebra.com",
+        "name": "Tebra",
+        "sourceCount": 3,
+        "created": false
+      },
+      {
+        "key": "truelogic.io",
+        "name": "Truelogic",
+        "sourceCount": 26,
+        "created": false
+      },
+      {
+        "key": "arionkoder.com",
+        "name": "Arionkoder",
+        "sourceCount": 10,
+        "created": false
+      },
+      {
+        "key": "devsavant.com",
+        "name": "DevSavant",
+        "sourceCount": 6,
+        "created": false
+      },
+      {
+        "key": "praxent.com",
+        "name": "Praxent",
+        "sourceCount": 7,
+        "created": false
+      },
+      {
+        "key": "totalperformance.com",
+        "name": "Total Performance Consulting",
+        "sourceCount": 4,
+        "created": false
+      },
+      {
+        "key": "coderio.com",
+        "name": "Coderio",
+        "sourceCount": 11,
+        "created": false
+      },
+      {
+        "key": "g2i.co",
+        "name": "G2i",
+        "sourceCount": 4,
+        "created": false
+      },
+      {
+        "key": "lumimeds.com",
+        "name": "Lumimeds",
+        "sourceCount": 3,
+        "created": false
+      },
+      {
+        "key": "newsela.com",
+        "name": "Newsela",
+        "sourceCount": 4,
+        "created": false
+      },
+      {
+        "key": "nortal.com",
+        "name": "Nortal",
+        "sourceCount": 13,
+        "created": false
+      },
+      {
+        "key": "southgeeks.com",
+        "name": "South Geeks",
+        "sourceCount": 4,
+        "created": false
+      },
+      {
+        "key": "bluelight.co",
+        "name": "Bluelight Consulting",
+        "sourceCount": 26,
+        "created": false
+      }
+    ]
+  }
+}
