@@ -8,12 +8,17 @@ import { useCompanyDirectoryData } from "../hooks/use-company-directory-data";
 import { useCompanyDirectoryPreferences } from "../hooks/use-company-directory-preferences";
 import { CompanyDirectoryView } from "../components/CompanyDirectoryView";
 
-type Props = { initialCompanies: CompanyCard[]; initialCategories: CompanyCategory[] };
+type Props = {
+  initialCompanies: CompanyCard[];
+  initialCategories: CompanyCategory[];
+  initialTab?: CompanyDirectoryMainFilter;
+  jobsOnly?: boolean;
+};
 
-export function CompanyDirectory({ initialCompanies, initialCategories }: Props) {
-  const [tab, setTab] = useState<CompanyDirectoryMainFilter>("all");
+export function CompanyDirectory({ initialCompanies, initialCategories, initialTab = "all", jobsOnly = false }: Props) {
+  const [tab, setTab] = useState<CompanyDirectoryMainFilter>(initialTab);
   const data = useCompanyDirectoryData(initialCompanies, initialCategories);
   const preferences = useCompanyDirectoryPreferences(data.companies, data.preferences, data.setPreferences, tab, data.ready, data.canSync, data.setNotice);
 
-  return <CompanyDirectoryView data={data} preferences={preferences} tab={tab} setTab={setTab} />;
+  return <CompanyDirectoryView data={data} preferences={preferences} tab={tab} setTab={setTab} jobsOnly={jobsOnly} />;
 }

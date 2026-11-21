@@ -15,4 +15,5 @@ export type CompanyDirectoryViewData = {
   preferences: ReturnType<typeof useCompanyDirectoryPreferences>;
   tab: CompanyDirectoryMainFilter;
   setTab: Dispatch<SetStateAction<CompanyDirectoryMainFilter>>;
+  jobsOnly?: boolean;
 };

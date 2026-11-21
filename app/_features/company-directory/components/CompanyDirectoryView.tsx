@@ -24,6 +24,7 @@ export function CompanyDirectoryView({
   preferences,
   tab,
   setTab,
+  jobsOnly = false,
 }: Props) {
   const [selectedCompany, setSelectedCompany] = useState<CompanyCard | null>(
     null,
@@ -110,16 +111,19 @@ export function CompanyDirectoryView({
   );
 
   useEffect(() => {
-    try {
-      const saved = sessionStorage.getItem("cv-selected-company-v1");
-      if (!saved) return;
-      const parsed = JSON.parse(saved) as CompanyCard;
-      if (parsed && typeof parsed.key === "string") setSelectedCompany(parsed);
-    } catch {
-      sessionStorage.removeItem("cv-selected-company-v1");
-    } finally {
-      setSelectionRestored(true);
-    }
+    const frame = requestAnimationFrame(() => {
+      try {
+        const saved = sessionStorage.getItem("cv-selected-company-v1");
+        if (!saved) return;
+        const parsed = JSON.parse(saved) as CompanyCard;
+        if (parsed && typeof parsed.key === "string") setSelectedCompany(parsed);
+      } catch {
+        sessionStorage.removeItem("cv-selected-company-v1");
+      } finally {
+        setSelectionRestored(true);
+      }
+    });
+    return () => cancelAnimationFrame(frame);
   }, []);
   useEffect(() => {
     if (!selectionRestored) return;
@@ -269,7 +273,7 @@ export function CompanyDirectoryView({
     <main
       className={`min-h-screen bg-zinc-950 text-zinc-100 ${styles.directory}`}
     >
-      <CompanyDirectoryTopbar />
+      <CompanyDirectoryTopbar jobsOnly={jobsOnly} />
       <div
         className={`${styles.layout} ${selectedCompany ? styles.layoutWithDetails : ""}`}
       >
@@ -290,6 +294,7 @@ export function CompanyDirectoryView({
             country={countryFilter}
             setCountry={setCountryFilter}
             countryOptions={summary.countryOptions}
+            jobsOnly={jobsOnly}
           />
         </aside>
         <div className="min-w-0">
@@ -309,7 +314,10 @@ export function CompanyDirectoryView({
           {data.loadError ? (
             <button
               type="button"
-              onClick={() => data.setReload((value) => value + 1)}
+              onClick={() => {
+                data.setReady(false);
+                data.setReload((value) => value + 1);
+              }}
               className="mb-5 rounded-lg bg-teal-400 px-4 py-2 text-zinc-950"
             >
               Retry loading

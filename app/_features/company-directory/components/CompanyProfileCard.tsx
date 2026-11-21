@@ -1,4 +1,5 @@
 import { memo } from "react";
+import Image from "next/image";
 
 import type { CompanyCard } from "@/lib/comp/catalog";
 
@@ -47,9 +48,12 @@ function CompanyProfileCardView({ company, preference }: Props) {
     <>
       <div className="flex items-start gap-3">
       {preference?.imageUrl ? (
-        <img
+        <Image
           src={preference.imageUrl}
           alt={`${company.name} logo`}
+          width={40}
+          height={40}
+          unoptimized
           className="h-10 w-10 shrink-0 rounded-xl border border-zinc-700 bg-white object-contain p-1"
         />
       ) : (

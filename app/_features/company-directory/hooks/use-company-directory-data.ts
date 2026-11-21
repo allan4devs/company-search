@@ -43,15 +43,17 @@ export function useCompanyDirectoryData(initialCompanies: CompanyCard[], initial
 
   useEffect(() => {
     let active = true;
-    setReady(false);
     let localPreferences: Record<string, CompanyPreference> = {};
     let cachedSnapshot: { ownerId: string; preferences: Record<string, CompanyPreference> } | null = null;
     let storageReadError = false;
     try { localPreferences = readPreferences(COMPANY_PREFERENCES_KEY); } catch { storageReadError = true; }
     try { cachedSnapshot = readCachedPreferences(); } catch { storageReadError = true; }
-    setPreferences(hasPreferences(localPreferences) ? localPreferences : cachedSnapshot?.preferences || {});
-    if (storageReadError) setNotice("Some browser preferences could not be loaded. Check browser storage settings before saving changes.");
     const fallbackPreferences = hasPreferences(localPreferences) ? localPreferences : cachedSnapshot?.preferences || {};
+    queueMicrotask(() => {
+      if (!active) return;
+      setPreferences(fallbackPreferences);
+      if (storageReadError) setNotice("Some browser preferences could not be loaded. Check browser storage settings before saving changes.");
+    });
     async function load() {
       setLoadError(false);
       try {

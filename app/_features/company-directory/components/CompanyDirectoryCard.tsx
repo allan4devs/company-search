@@ -1,4 +1,5 @@
 import { memo } from "react";
+import Image from "next/image";
 import { Heart, ThumbsDown } from "lucide-react";
 import type { CompanyCard } from "@/lib/comp/catalog";
 import type { CompanyPreference } from "@/lib/comp/types";
@@ -56,9 +57,12 @@ function CompanyDirectoryCardView({
         className={`group relative flex min-h-24 cursor-pointer items-center gap-4 rounded-2xl border bg-zinc-900/60 p-5 transition hover:border-teal-400/60 hover:bg-zinc-900 hover:shadow-xl hover:shadow-teal-950/20 focus-visible:outline-2 focus-visible:outline-teal-300 ${selected ? "border-teal-400" : "border-zinc-800"}`}
       >
         {preference?.imageUrl ? (
-          <img
+          <Image
             src={preference.imageUrl}
             alt=""
+            width={40}
+            height={40}
+            unoptimized
             className="h-10 w-10 rounded-xl border border-zinc-700 bg-white object-contain p-1"
           />
         ) : (

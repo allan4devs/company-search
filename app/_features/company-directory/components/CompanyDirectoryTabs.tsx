@@ -17,6 +17,7 @@ type Props = {
   country: string;
   setCountry: (value: string) => void;
   countryOptions: string[];
+  jobsOnly?: boolean;
 };
 
 const savedViewTabs: { key: CompanyDirectoryCategory; label: string }[] = [
@@ -46,6 +47,7 @@ function CompanyDirectoryTabsView({
   country,
   setCountry,
   countryOptions,
+  jobsOnly = false,
 }: Props) {
   const selectTab = (key: CompanyDirectoryMainFilter) => {
     setTab(key);
@@ -112,7 +114,7 @@ function CompanyDirectoryTabsView({
         aria-orientation="vertical"
         className="flex flex-col gap-2"
       >
-        {tabs.map(({ key, label }) => (
+        {tabs.filter(({ key }) => jobFilters.includes(key) === jobsOnly).map(({ key, label }) => (
           <button
             key={key}
             type="button"

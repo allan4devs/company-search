@@ -430,7 +430,11 @@ async function main() {
       importCompleted: false,
     },
     skips,
-    boardChecks: boardResults.map(({ jobs, ...result }) => result),
+    boardChecks: boardResults.map((result) =>
+      Object.fromEntries(
+        Object.entries(result).filter(([key]) => key !== "jobs"),
+      ),
+    ),
     unsupportedRegionalSavedJobs: unsupported,
     selectedJobs: selected.map(record => ({ company: record.company.name, key: record.company.key, title: record.job.title, location: record.job.location, eligibility: record.job.eligibility, url: record.job.url, checkedOn: record.job.checkedOn, score: record.score, atsBoard: record.atsBoard, matchedSavedJob: record.matchedSavedJob })),
   };

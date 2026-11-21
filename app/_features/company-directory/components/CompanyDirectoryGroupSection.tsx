@@ -236,7 +236,8 @@ export function CompanyDirectoryGroupSection({
       );
     };
 
-    fetch("/api/comp/catalog", {
+    const endpoint = isJobFilter(filter) ? "/api/comp/jobs" : "/api/comp/catalog";
+    fetch(endpoint, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -266,7 +267,7 @@ export function CompanyDirectoryGroupSection({
         // Let the first page paint before calculating secondary counts and filters.
         const summaryController = new AbortController();
         summaryControllerRef.current = { key: summaryKey, controller: summaryController };
-        void fetch("/api/comp/catalog", {
+        void fetch(endpoint, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(requestBody),
