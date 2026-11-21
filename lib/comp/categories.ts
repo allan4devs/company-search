@@ -64,12 +64,18 @@ export function matchesCompanyCategory(
     company.tags?.includes("new") === true &&
     company.extraction?.batchId === latestNewBatchId;
   if (category === "latest-batch")
-    return isLatestNewBatch && !preference?.disliked && !preference?.archived;
+    return isLatestNewBatch && !preference?.liked && !preference?.disliked && !preference?.archived;
   if (category === "new" && isLatestNewBatch)
-    return !preference?.disliked && !preference?.archived;
+    return !preference?.liked && !preference?.disliked && !preference?.archived;
   if (preference?.archived || preference?.liked || preference?.disliked)
     return false;
-  if (category === "new") return company.tags?.includes("new") || false;
+  if (category === "new")
+    return (
+      company.tags?.includes("new") === true &&
+      !preference?.liked &&
+      !preference?.disliked &&
+      !preference?.archived
+    );
   return company.categories?.includes(category) || false;
 }
 

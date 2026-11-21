@@ -1,0 +1,248 @@
+{
+  "cohortId": "likes-based-2026-11-10-p001",
+  "generatedOn": "2026-11-10",
+  "sourceConcurrency": 3,
+  "sourceResults": [
+    {
+      "source": "fetch-alpunto-software-leads",
+      "output": "C:\\Users\\aroja\\OneDrive\\Documents\\GitHub\\comp\\company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "ok": true,
+      "elapsedMs": 1748
+    },
+    {
+      "source": "fetch-cinde-digital-leads",
+      "output": "C:\\Users\\aroja\\OneDrive\\Documents\\GitHub\\comp\\company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "ok": true,
+      "elapsedMs": 1102
+    },
+    {
+      "source": "fetch-costa-rica-directory-leads",
+      "output": "C:\\Users\\aroja\\OneDrive\\Documents\\GitHub\\comp\\company-batches\\likes-based-2026-11-10-p001\\fetch-costa-rica-directory-leads.json",
+      "ok": true,
+      "elapsedMs": 1655
+    },
+    {
+      "source": "fetch-himalayas-company-leads",
+      "output": "C:\\Users\\aroja\\OneDrive\\Documents\\GitHub\\comp\\company-batches\\likes-based-2026-11-10-p001\\fetch-himalayas-company-leads.json",
+      "ok": false,
+      "error": "timed out after 120000 ms"
+    },
+    {
+      "source": "fetch-nearshore-directory-leads",
+      "output": "C:\\Users\\aroja\\OneDrive\\Documents\\GitHub\\comp\\company-batches\\likes-based-2026-11-10-p001\\fetch-nearshore-directory-leads.json",
+      "ok": true,
+      "elapsedMs": 1375
+    },
+    {
+      "source": "fetch-proveedores-software-leads",
+      "output": "C:\\Users\\aroja\\OneDrive\\Documents\\GitHub\\comp\\company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "ok": true,
+      "elapsedMs": 1399
+    }
+  ],
+  "inputCount": 608,
+  "nameUniqueCount": 200,
+  "targetStrictUniqueCount": 10,
+  "strictUniqueCount": 4,
+  "slices": [
+    {
+      "offset": 0,
+      "input": 200,
+      "directoryProfileResolutionNeeded": 116,
+      "directoryProfileSitesFound": 62,
+      "profileResolveProcessMs": 2336,
+      "websiteResolutionNeeded": 125,
+      "resolvedWithWebsiteCandidate": 11,
+      "fallbackResolveProcessMs": 2461,
+      "domainResolutionCacheHits": 0,
+      "domainResolutionCacheMisses": 125,
+      "perNameDomainSearches": 30,
+      "deferredDomainSearches": 87,
+      "domainResolutionTimingsMs": {
+        "inputReadMs": 3,
+        "cacheReadAndMatchMs": 1,
+        "wikidataBatchMs": 679,
+        "liveSearchWallMs": 1654,
+        "cacheWriteMs": 3,
+        "outputWriteMs": 3,
+        "totalMs": 2351
+      },
+      "remainingDomainSearchBudget": 0,
+      "siteReadyCandidates": 86,
+      "resolverProcessMs": 2461,
+      "verifierProcessMs": 16282,
+      "officialPagesChecked": 140,
+      "elapsedMs": 15852,
+      "strictPasses": 10,
+      "queryLanes": [
+        {
+          "lane": "CINDE Costa Rica digital roster: Ingeniería y diseño",
+          "checked": 2,
+          "reachable": 1,
+          "regionAndFit": 1,
+          "localOrEligibleAndFit": 1,
+          "regionAndFitRate": 0.5,
+          "localOrEligibleAndFitRate": 0.5,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "CamSCAT Costa Rica shared-services member directory",
+          "checked": 13,
+          "reachable": 4,
+          "regionAndFit": 1,
+          "localOrEligibleAndFit": 1,
+          "regionAndFitRate": 0.077,
+          "localOrEligibleAndFitRate": 0.077,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Alpunto Costa Rica software developer directory",
+          "checked": 68,
+          "reachable": 16,
+          "regionAndFit": 8,
+          "localOrEligibleAndFit": 5,
+          "regionAndFitRate": 0.118,
+          "localOrEligibleAndFitRate": 0.074,
+          "recommendation": "pause: fewer than 15% passed fit plus location; try a new source or segment"
+        },
+        {
+          "lane": "Alpunto Costa Rica SaaS/software company directory",
+          "checked": 33,
+          "reachable": 19,
+          "regionAndFit": 4,
+          "localOrEligibleAndFit": 2,
+          "regionAndFitRate": 0.121,
+          "localOrEligibleAndFitRate": 0.061,
+          "recommendation": "pause: fewer than 15% passed fit plus location; try a new source or segment"
+        },
+        {
+          "lane": "CINDE Costa Rica digital roster: Desarrollo de Software, Mantenimiento de Software",
+          "checked": 22,
+          "reachable": 2,
+          "regionAndFit": 1,
+          "localOrEligibleAndFit": 1,
+          "regionAndFitRate": 0.045,
+          "localOrEligibleAndFitRate": 0.045,
+          "recommendation": "pause: fewer than 15% passed fit plus location; try a new source or segment"
+        },
+        {
+          "lane": "CINDE Costa Rica digital roster: Ciberseguridad, Desarrollo de Software, Mantenimiento de Software",
+          "checked": 1,
+          "reachable": 0,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "CINDE Costa Rica digital roster: Ciberseguridad, Desarrollo de Software, Ingeniería y diseño, Mantenimiento de Software",
+          "checked": 4,
+          "reachable": 0,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "CINDE Costa Rica digital roster: Cloud, Desarrollo de Software, Mantenimiento de Software",
+          "checked": 6,
+          "reachable": 2,
+          "regionAndFit": 1,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0.167,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "CINDE Costa Rica digital roster: Desarrollo de Software, Ingeniería y diseño",
+          "checked": 2,
+          "reachable": 0,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "CINDE Costa Rica digital roster: Desarrollo de Software",
+          "checked": 30,
+          "reachable": 0,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "pause: fewer than 15% passed fit plus location; try a new source or segment"
+        },
+        {
+          "lane": "CINDE Costa Rica digital roster: Desarrollo de Software, Ingeniería y diseño, Mantenimiento de Software",
+          "checked": 3,
+          "reachable": 0,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "CINDE Costa Rica digital roster: Ingeniería, reparación y mantenimienti, Ingeniería y diseño",
+          "checked": 1,
+          "reachable": 0,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Nearshore Costa Rica Technology & IT Services directory",
+          "checked": 2,
+          "reachable": 1,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Proveedores de Costa Rica software suppliers directory",
+          "checked": 13,
+          "reachable": 9,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        }
+      ],
+      "verificationFile": "company-batches\\likes-based-2026-11-10-p001\\site-slice-001-verified.json",
+      "strictPoolWriteMs": 5,
+      "domainDedupeProcessMs": 178
+    }
+  ],
+  "timingsMs": {
+    "sourceFetchWallMs": 121145,
+    "sourceFetchSumMs": 7279,
+    "inputReadMergeWriteMs": 46,
+    "nameDedupeProcessMs": 2102,
+    "readNameUniqueAndSnapshotMs": 7,
+    "websiteResolutionSumMs": 4797,
+    "directoryProfileResolutionSumMs": 2336,
+    "fallbackDomainResolutionSumMs": 2461,
+    "websiteVerificationProcessSumMs": 16282,
+    "websiteVerificationInternalSumMs": 15852,
+    "finalDomainDedupeProcessSumMs": 178,
+    "strictPoolWriteSumMs": 5,
+    "totalElapsedBeforeReportWriteMs": 144584
+  },
+  "rawLeads": "company-batches\\likes-based-2026-11-10-p001\\combined-raw-leads.json",
+  "nameUniqueLeads": "company-batches\\likes-based-2026-11-10-p001\\name-unique-leads.json",
+  "mongoSnapshot": "company-batches\\likes-based-2026-11-10-p001\\mongo-snapshot.json",
+  "dedupeLedger": "company-batches\\likes-based-2026-11-10-p001\\name-dedupe-ledger.json",
+  "strictUniqueLeads": "company-batches\\likes-based-2026-11-10-p001\\strict-domain-unique-leads.json",
+  "strictDedupeLedger": "company-batches\\likes-based-2026-11-10-p001\\strict-domain-dedupe-ledger.json",
+  "timingReport": "company-batches\\likes-based-2026-11-10-p001\\timing-report.json",
+  "artifacts": {},
+  "nextStep": "Add fresh sources or inputs; this run exhausted the available name-unique candidates before reaching the target."
+}

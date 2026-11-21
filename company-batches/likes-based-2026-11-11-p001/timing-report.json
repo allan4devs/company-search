@@ -1,0 +1,123 @@
+{
+  "cohortId": "likes-based-2026-11-11-p001",
+  "generatedOn": "2026-11-11",
+  "timingsMs": {
+    "sourceFetchWallMs": 7178,
+    "sourceFetchSumMs": 14726,
+    "inputReadMergeWriteMs": 41,
+    "nameDedupeProcessMs": 1890,
+    "readNameUniqueAndSnapshotMs": 8,
+    "websiteResolutionSumMs": 12967,
+    "directoryProfileResolutionSumMs": 1674,
+    "fallbackDomainResolutionSumMs": 11293,
+    "websiteVerificationProcessSumMs": 3727,
+    "websiteVerificationInternalSumMs": 3608,
+    "finalDomainDedupeProcessSumMs": 176,
+    "strictPoolWriteSumMs": 1,
+    "totalElapsedBeforeReportWriteMs": 26000
+  },
+  "sourceDurations": [
+    {
+      "source": "fetch-aworkado-company-leads",
+      "elapsedMs": 7178,
+      "ok": true,
+      "error": null
+    },
+    {
+      "source": "fetch-jobicy-regional-engineering-leads",
+      "elapsedMs": 2642,
+      "ok": true,
+      "error": null
+    },
+    {
+      "source": "fetch-globallyremote-company-leads",
+      "elapsedMs": 4906,
+      "ok": true,
+      "error": null
+    }
+  ],
+  "verificationSlices": [
+    {
+      "offset": 0,
+      "input": 12,
+      "directoryProfileResolutionNeeded": 9,
+      "directoryProfileSitesFound": 9,
+      "profileResolveProcessMs": 1674,
+      "websiteResolutionNeeded": 2,
+      "resolvedWithWebsiteCandidate": 0,
+      "fallbackResolveProcessMs": 11293,
+      "domainResolutionCacheHits": 0,
+      "domainResolutionCacheMisses": 2,
+      "perNameDomainSearches": 2,
+      "deferredDomainSearches": 0,
+      "domainResolutionTimingsMs": {
+        "inputReadMs": 2,
+        "cacheReadAndMatchMs": 3,
+        "wikidataBatchMs": 873,
+        "liveSearchWallMs": 8419,
+        "cacheWriteMs": 7,
+        "outputWriteMs": 2,
+        "totalMs": 9307
+      },
+      "remainingDomainSearchBudget": null,
+      "siteReadyCandidates": 10,
+      "resolverProcessMs": 11293,
+      "verifierProcessMs": 3727,
+      "officialPagesChecked": 32,
+      "elapsedMs": 3608,
+      "strictPasses": 2,
+      "queryLanes": [
+        {
+          "lane": "Aworkado remote software engineering — LATAM postings",
+          "checked": 8,
+          "reachable": 8,
+          "regionAndFit": 2,
+          "localOrEligibleAndFit": 2,
+          "regionAndFitRate": 0.25,
+          "localOrEligibleAndFitRate": 0.25,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Aworkado remote software engineering — Costa Rica",
+          "checked": 1,
+          "reachable": 1,
+          "regionAndFit": 1,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 1,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Jobicy current LATAM engineering (engineering)",
+          "checked": 1,
+          "reachable": 1,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Globally Remote Jobs Costa Rica listings — official employer link pending",
+          "checked": 2,
+          "reachable": 0,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        }
+      ],
+      "verificationFile": "company-batches\\likes-based-2026-11-11-p001\\site-slice-001-verified.json",
+      "strictPoolWriteMs": 1,
+      "domainDedupeProcessMs": 176
+    }
+  ],
+  "artifacts": {},
+  "targetUniqueCompanies": 10,
+  "domainSearchBudget": null,
+  "domainSearchEngine": "both",
+  "domainCacheEnabled": true,
+  "verifiedDomainUniqueCompanies": 2,
+  "imported": false
+}

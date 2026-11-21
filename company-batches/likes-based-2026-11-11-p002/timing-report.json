@@ -1,0 +1,191 @@
+{
+  "cohortId": "likes-based-2026-11-11-p002",
+  "generatedOn": "2026-11-11",
+  "timingsMs": {
+    "sourceFetchWallMs": 8209,
+    "sourceFetchSumMs": 8208,
+    "inputReadMergeWriteMs": 26,
+    "nameDedupeProcessMs": 1972,
+    "readNameUniqueAndSnapshotMs": 12,
+    "websiteResolutionSumMs": 64398,
+    "directoryProfileResolutionSumMs": 2709,
+    "fallbackDomainResolutionSumMs": 61689,
+    "websiteVerificationProcessSumMs": 12696,
+    "websiteVerificationInternalSumMs": 12060,
+    "finalDomainDedupeProcessSumMs": 0,
+    "strictPoolWriteSumMs": 1,
+    "totalElapsedBeforeReportWriteMs": 87333
+  },
+  "sourceDurations": [
+    {
+      "source": "fetch-enterprise-league-leads",
+      "elapsedMs": 8208,
+      "ok": true,
+      "error": null
+    }
+  ],
+  "verificationSlices": [
+    {
+      "offset": 0,
+      "input": 148,
+      "directoryProfileResolutionNeeded": 148,
+      "directoryProfileSitesFound": 38,
+      "profileResolveProcessMs": 2709,
+      "websiteResolutionNeeded": 110,
+      "resolvedWithWebsiteCandidate": 7,
+      "fallbackResolveProcessMs": 61689,
+      "domainResolutionCacheHits": 0,
+      "domainResolutionCacheMisses": 110,
+      "perNameDomainSearches": 50,
+      "deferredDomainSearches": 55,
+      "domainResolutionTimingsMs": {
+        "inputReadMs": 2,
+        "cacheReadAndMatchMs": 4,
+        "wikidataBatchMs": 1024,
+        "liveSearchWallMs": 58546,
+        "cacheWriteMs": 6,
+        "outputWriteMs": 5,
+        "totalMs": 59594
+      },
+      "remainingDomainSearchBudget": 0,
+      "siteReadyCandidates": 45,
+      "resolverProcessMs": 61689,
+      "verifierProcessMs": 12696,
+      "officialPagesChecked": 70,
+      "elapsedMs": 12060,
+      "strictPasses": 0,
+      "queryLanes": [
+        {
+          "lane": "Enterprise League software directory — Central America",
+          "checked": 35,
+          "reachable": 11,
+          "regionAndFit": 3,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0.086,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "pause: fewer than 15% passed fit plus location; try a new source or segment"
+        },
+        {
+          "lane": "Enterprise League software directory — Mexico",
+          "checked": 8,
+          "reachable": 2,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — Colombia",
+          "checked": 3,
+          "reachable": 0,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — Argentina",
+          "checked": 16,
+          "reachable": 3,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — South America",
+          "checked": 1,
+          "reachable": 0,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — Peru",
+          "checked": 6,
+          "reachable": 0,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — Uruguay",
+          "checked": 15,
+          "reachable": 1,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — Chile",
+          "checked": 7,
+          "reachable": 0,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — Guatemala",
+          "checked": 1,
+          "reachable": 1,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — Panama",
+          "checked": 2,
+          "reachable": 0,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — Brazil",
+          "checked": 50,
+          "reachable": 9,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "pause: fewer than 15% passed fit plus location; try a new source or segment"
+        },
+        {
+          "lane": "Enterprise League software directory — Ecuador",
+          "checked": 4,
+          "reachable": 0,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        }
+      ],
+      "verificationFile": "company-batches\\likes-based-2026-11-11-p002\\site-slice-001-verified.json",
+      "strictPoolWriteMs": 1,
+      "domainDedupeProcessMs": 0
+    }
+  ],
+  "artifacts": {},
+  "targetUniqueCompanies": 10,
+  "domainSearchBudget": 50,
+  "domainSearchEngine": "both",
+  "domainCacheEnabled": true,
+  "verifiedDomainUniqueCompanies": 0,
+  "imported": false
+}

@@ -1,0 +1,18 @@
+{
+  "inputFiles": [
+    "company-batches/v4-latam-engineering-2026-11-11/fetch-himalayas-company-leads.json",
+    "company-batches/v4-latam-engineering-2026-11-11/fetch-jobicy-regional-engineering-leads.json",
+    "company-batches/v4-latam-engineering-2026-11-11/fetch-globallyremote-company-leads.json",
+    "company-batches/v4-latam-engineering-2026-11-11/fetch-findremote-latam-engineering-leads.json"
+  ],
+  "inputNames": 362,
+  "catalogNames": 1660,
+  "uniqueAgainstCatalogAndBatch": 194,
+  "selected": 10,
+  "timingsMs": {
+    "readAndMerge": 12,
+    "inMemoryNameDedupe": 3,
+    "write": 3,
+    "total": 18
+  }
+}

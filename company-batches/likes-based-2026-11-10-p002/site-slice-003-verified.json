@@ -1,0 +1,2165 @@
+{
+  "cohortId": "likes-based-2026-11-10-p002",
+  "checkedOn": "2026-11-10",
+  "sourceInput": "company-batches\\likes-based-2026-11-10-p002\\site-slice-003-verify-input.json",
+  "inputCandidateCount": 60,
+  "candidateOffset": 0,
+  "candidateCount": 60,
+  "remainingCandidateCount": 0,
+  "elapsedMs": 2132,
+  "officialPagesChecked": 35,
+  "verifierOptions": {
+    "concurrency": 24,
+    "maxFollowupPages": 3
+  },
+  "queryLanes": [
+    {
+      "lane": "Proveedores de Costa Rica software suppliers directory",
+      "checked": 60,
+      "reachable": 1,
+      "regionAndFit": 1,
+      "localOrEligibleAndFit": 1,
+      "regionAndFitRate": 0.017,
+      "localOrEligibleAndFitRate": 0.017,
+      "recommendation": "pause: fewer than 15% passed fit plus location; try a new source or segment"
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Tecnología TEC TEL",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/30123456789307",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=8",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 8,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "",
+      "domain": "proveedoresdeamerica.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/",
+          "domain": "proveedoresdeamerica.com",
+          "label": "Proveedores de América",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200,
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Grupo Sosa Centeno",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3101608668",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=8",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 8,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "",
+      "domain": "proveedoresdeamerica.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/",
+          "domain": "proveedoresdeamerica.com",
+          "label": "Proveedores de América",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200,
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "TECNO-RD",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/206670814",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=8",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 8,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "",
+      "domain": "proveedoresdeamerica.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/",
+          "domain": "proveedoresdeamerica.com",
+          "label": "Proveedores de América",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200,
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Avenida Tecnologica",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/31012301711",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=8",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 8,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "",
+      "domain": "proveedoresdeamerica.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/",
+          "domain": "proveedoresdeamerica.com",
+          "label": "Proveedores de América",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200,
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Compuplaza S.A.",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/278",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=8",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 8,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "",
+      "domain": "proveedoresdeamerica.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/",
+          "domain": "proveedoresdeamerica.com",
+          "label": "Proveedores de América",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200,
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Inversiones Gott",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3101634377",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=8",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 8,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "",
+      "domain": "proveedoresdeamerica.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/",
+          "domain": "proveedoresdeamerica.com",
+          "label": "Proveedores de América",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200,
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Mundipapel Z&L S.A",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3101548441",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=8",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 8,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "",
+      "domain": "proveedoresdeamerica.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/",
+          "domain": "proveedoresdeamerica.com",
+          "label": "Proveedores de América",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200,
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "B-MART",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/4876546876545485",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=8",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 8,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "",
+      "domain": "proveedoresdeamerica.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/",
+          "domain": "proveedoresdeamerica.com",
+          "label": "Proveedores de América",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200,
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "SID DE COSTA RICA",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3101355743",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=8",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 8,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "",
+      "domain": "proveedoresdeamerica.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/",
+          "domain": "proveedoresdeamerica.com",
+          "label": "Proveedores de América",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200,
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Actualidad Técnica",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3101229825",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=8",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 8,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "",
+      "domain": "proveedoresdeamerica.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/",
+          "domain": "proveedoresdeamerica.com",
+          "label": "Proveedores de América",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200,
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "AM CÒMPUTO",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/546843524125",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=8",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 8,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "",
+      "domain": "proveedoresdeamerica.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/",
+          "domain": "proveedoresdeamerica.com",
+          "label": "Proveedores de América",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200,
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Consorcio Comercial V & R S.A.",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/5556508",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=8",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 8,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "",
+      "domain": "proveedoresdeamerica.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/",
+          "domain": "proveedoresdeamerica.com",
+          "label": "Proveedores de América",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200,
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Suministros Soma y Soluciones Offiogar",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/30123456789088",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=8",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 8,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "",
+      "domain": "proveedoresdeamerica.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/",
+          "domain": "proveedoresdeamerica.com",
+          "label": "Proveedores de América",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200,
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Asus Costa Rica S.A (ATEK)",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3101589406",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=8",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 8,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "",
+      "domain": "proveedoresdeamerica.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/",
+          "domain": "proveedoresdeamerica.com",
+          "label": "Proveedores de América",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200,
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Musa Tecnológica S.A.",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3-101-24834973",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=8",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 8,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "",
+      "domain": "proveedoresdeamerica.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/",
+          "domain": "proveedoresdeamerica.com",
+          "label": "Proveedores de América",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200,
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Tecnotrade de Costa Rica S.A",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3102606792",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=8",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 8,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "",
+      "domain": "proveedoresdeamerica.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/",
+          "domain": "proveedoresdeamerica.com",
+          "label": "Proveedores de América",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200,
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "BHL Soluciones, S.A",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3101556487",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=8",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 8,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "",
+      "domain": "proveedoresdeamerica.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/",
+          "domain": "proveedoresdeamerica.com",
+          "label": "Proveedores de América",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200,
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "ENERTEC CR",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3102156156",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=8",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 8,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "",
+      "domain": "proveedoresdeamerica.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/",
+          "domain": "proveedoresdeamerica.com",
+          "label": "Proveedores de América",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200,
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Multisuministro Saenz y Rodriguez",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3107258882",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=8",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 8,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "",
+      "domain": "proveedoresdeamerica.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/",
+          "domain": "proveedoresdeamerica.com",
+          "label": "Proveedores de América",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200,
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Teycos Sistemas",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3-102-100685",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=8",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 8,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "",
+      "domain": "proveedoresdeamerica.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/",
+          "domain": "proveedoresdeamerica.com",
+          "label": "Proveedores de América",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200,
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Ecotec Costa Rica",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3-102-200199",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=8",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 8,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "",
+      "domain": "proveedoresdeamerica.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/",
+          "domain": "proveedoresdeamerica.com",
+          "label": "Proveedores de América",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200,
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "O",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/03123456789951470",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=8",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 8,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.proveedoresdeamerica.com/",
+      "domain": "proveedoresdeamerica.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/",
+          "domain": "proveedoresdeamerica.com",
+          "label": "Proveedores de América",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 3,
+      "careersUrl": "https://www.proveedoresdeamerica.com/business-stream.html",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.proveedoresdeamerica.com/aboutus.html",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.proveedoresdeamerica.com/business-stream.html",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Costa Rica",
+        "LATAM"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/",
+          "snippet": "ÁS &rarr; Por qué somos diferentes Tres razones por las que esto solo podía nacer aquí. 01 · ORIGEN Nacida en Costa Rica, proyectada a la región. 10,000 empresas activas en Costa Rica desde 2004. Hoy presentes simultáneamente en 17 países de Latinoamérica. 02 · CONCEPTO"
+        },
+        {
+          "url": "https://www.proveedoresdeamerica.com/",
+          "snippet": "o solo podía nacer aquí. 01 · ORIGEN Nacida en Costa Rica, proyectada a la región. 10,000 empresas activas en Costa Rica desde 2004. Hoy presentes simultáneamente en 17 países de Latinoamérica. 02 · CONCEPTO Diseño basado en las necesidades de las Empresas de LatAm. El "
+        },
+        {
+          "url": "https://www.proveedoresdeamerica.com/",
+          "snippet": "ultáneamente en 17 países de Latinoamérica. 02 · CONCEPTO Diseño basado en las necesidades de las Empresas de LatAm. El Fundador es un emprendedor con décadas de experiencia en sus propias empresas, consultor de organismos internacionales y facilitador de Bridge fo"
+        },
+        {
+          "url": "https://www.proveedoresdeamerica.com/",
+          "snippet": " dinámicas de Latinoamérica. Nuestros países 17 países. Una sola plataforma. Argentina Bolivia Chile Colombia Costa Rica Ecuador El Salvador Guatemala Honduras México Nicaragua Panamá Paraguay Perú República Dominicana Uruguay Venezuela Prueba Social Algunas de las empr"
+        },
+        {
+          "url": "https://www.proveedoresdeamerica.com/aboutus.html",
+          "snippet": "s Evento &larr; Volver al inicio Quiénes somos 22 años construyendo el ecosistema B2B de Latinoamérica. Desde Costa Rica, 2004. Hoy con más de 10.000 empresas activas. Empezamos como un punto de encuentro entre proveedores y compradores en Costa Rica. Veintidós años des"
+        },
+        {
+          "url": "https://www.proveedoresdeamerica.com/aboutus.html",
+          "snippet": "y con más de 10.000 empresas activas. Empezamos como un punto de encuentro entre proveedores y compradores en Costa Rica. Veintidós años después, esa red de empresas se convirtió en el primer Business Framework de Latinoamérica : un ecosistema empresarial con todas las "
+        },
+        {
+          "url": "https://www.proveedoresdeamerica.com/aboutus.html",
+          "snippet": " ruedas de negocios, eventos y operaciones después, el modelo se validó con más de 10.000 empresas activas en Costa Rica. Esa base es lo que nos permite hoy dar un salto de categoría: dejar de ser un sitio de encuentro para convertirnos en la infraestructura completa so"
+        },
+        {
+          "url": "https://www.proveedoresdeamerica.com/aboutus.html",
+          "snippet": " Lo que validamos antes de salir a la región. EXPERIENCIA +22 años Operando ininterrumpidamente desde 2004 en Costa Rica. Dos décadas conociendo cómo compran, venden y se relacionan las empresas latinoamericanas en el día a día. ECOSISTEMA +10.000 empresas Activas dentr"
+        },
+        {
+          "url": "https://www.proveedoresdeamerica.com/aboutus.html",
+          "snippet": "las empresas latinoamericanas en el día a día. ECOSISTEMA +10.000 empresas Activas dentro de la plataforma en Costa Rica. La base sobre la que se construye el lanzamiento regional: relaciones reales, transacciones reales, reputación construida con tiempo. ALCANCE 17 paí"
+        },
+        {
+          "url": "https://www.proveedoresdeamerica.com/aboutus.html",
+          "snippet": "struida con tiempo. ALCANCE 17 países Cobertura simultánea a partir del 4 de mayo de 2026 a las 10:00 AM hora Costa Rica. Lanzamiento regional histórico en un solo evento. OPERACIÓN 1 fundador + IA Una One Person Company en el sentido literal: un solo fundador operando "
+        },
+        {
+          "url": "https://www.proveedoresdeamerica.com/aboutus.html",
+          "snippet": "dor operando con un equipo IA especializado. Lo que Sam Altman anticipó hace dos años, hoy es realidad en B2B latam. Datos legales La empresa detrás del ecosistema. Proveedores de América es operada por Proveedores de América En Línea INC S.A. , sociedad costarrice"
+        },
+        {
+          "url": "https://www.proveedoresdeamerica.com/aboutus.html",
+          "snippet": "a 17 países el 4 de mayo de 2026. Razón social — Proveedores de América En Línea INC S.A. País de operación — Costa Rica · Copyright 2004-2026 Teléfono — +506 4001 7761 WhatsApp — +506 6316-3868 Email — [email&#160;protected] El primer Business Framework de Latinoaméric"
+        }
+      ],
+      "officialRegionalPresenceSnippets": [],
+      "regionalPresenceCountries": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/aboutus.html",
+          "snippet": "l con todas las herramientas de negocios en un solo lugar , potenciado por un equipo IA que opera 24/7. No es software, no es un ERP, no es un CRM, no es un marketplace. Es algo nuevo: un Business Framework. En números Lo que validamos antes de salir a la región. EXPE"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": false
+    },
+    {
+      "name": "Office Depot",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/03123456789951470",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=8",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 8,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "",
+      "domain": "proveedoresdeamerica.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/",
+          "domain": "proveedoresdeamerica.com",
+          "label": "Proveedores de América",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200,
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Office Express LTDA",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/121314",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "",
+      "domain": "proveedoresdeamerica.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/",
+          "domain": "proveedoresdeamerica.com",
+          "label": "Proveedores de América",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200,
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Tecnología Educativa",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3101573251",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "",
+      "domain": "proveedoresdeamerica.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/",
+          "domain": "proveedoresdeamerica.com",
+          "label": "Proveedores de América",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200,
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Computrading de Costa Rica SA",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3101656796",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "",
+      "domain": "proveedoresdeamerica.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/",
+          "domain": "proveedoresdeamerica.com",
+          "label": "Proveedores de América",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200,
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Manía Digital SD, S.A.",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3101237469",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "",
+      "domain": "proveedoresdeamerica.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/",
+          "domain": "proveedoresdeamerica.com",
+          "label": "Proveedores de América",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200,
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Tres Caminos Comercial, S.A.",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3101430526",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "",
+      "domain": "proveedoresdeamerica.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/",
+          "domain": "proveedoresdeamerica.com",
+          "label": "Proveedores de América",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200,
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "SIC Computacion",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3102620009",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "",
+      "domain": "proveedoresdeamerica.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/",
+          "domain": "proveedoresdeamerica.com",
+          "label": "Proveedores de América",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200,
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "DYGA de Costa Rica S.A",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3101231307",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "",
+      "domain": "proveedoresdeamerica.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/",
+          "domain": "proveedoresdeamerica.com",
+          "label": "Proveedores de América",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200,
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Erial BQ S.A",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3101295184",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8010,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 417,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8428
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Arrendadora ATI S.A.",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/30123456789254",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8010,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 426,
+            "pageResultCount": 10,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8436
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "ITX Internacional S.A.",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/301234567897045",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "",
+      "domain": "proveedoresdeamerica.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/",
+          "domain": "proveedoresdeamerica.com",
+          "label": "Proveedores de América",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200,
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "H",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3-102-100300",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8010,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 420,
+            "pageResultCount": 6,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8430
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Human Security",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3-102-100300",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8009,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 407,
+            "pageResultCount": 2,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8416
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Compuchar S.A",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3-102-100180",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8008,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 421,
+            "pageResultCount": 3,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8430
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Litografía e Imprenta Porras JV, S.A.",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/107060373",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8008,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 410,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8418
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Asistencia Informática",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/TEMP-CR-1793393041-1144",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8007,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 371,
+            "pageResultCount": 9,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8404
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Derkon Ldk S.A",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3101399856",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8007,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 407,
+            "pageResultCount": 10,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8414
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Alfa GDR Tecnologias S.A.",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/98586316",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8013,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 299,
+            "pageResultCount": 7,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8313
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "PROINSA PROYECTOS INTELIGENTES",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3101647732",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8006,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 288,
+            "pageResultCount": 10,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8294
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Paulo Sossa",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/110420876",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8004,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 330,
+            "pageResultCount": 10,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8334
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Optilez Inc, S.A.",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3-101-392400",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8003,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 270,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8273
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Conectia Soluciones Integrales de Centro",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3101722002",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8001,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 292,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8294
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Cyberfuel",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3101246627",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "websiteCandidate": "https://cyberfuel.com/",
+      "domainResolutionStatus": "search candidate; requires first-party verification",
+      "domainSearch": {
+        "source": "Bing HTML results after DuckDuckGo had no name-matching result",
+        "checkedOn": "2026-11-10",
+        "candidates": [
+          {
+            "title": "¡Su sitio web en manos de verdaderos expertos! | Cyberfuel .com",
+            "url": "https://cyberfuel.com/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Cyberfuel\" software engineering \"Latin America\""
+          },
+          {
+            "title": "Contáctenos - Cyberfuel .com",
+            "url": "https://cyberfuel.com/contactenos/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Cyberfuel\" software engineering \"Latin America\""
+          },
+          {
+            "title": "Cyberfuel S.A. - GS1 Costa Rica",
+            "url": "https://gs1cr.org/directorio_de_provee/cyberfuel-sa/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Cyberfuel\" software engineering \"Latin America\""
+          },
+          {
+            "title": "Cyberfuel S.A. - Esencial Costa Rica",
+            "url": "https://www.esencialcostarica.com/micrositio/cyberfuel-s-a/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Cyberfuel\" software engineering \"Latin America\""
+          }
+        ],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8009,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 343,
+            "pageResultCount": 7,
+            "matchingResultCount": 5
+          }
+        ],
+        "elapsedMs": 8352
+      },
+      "website": "",
+      "officialSiteStatus": "HTTP 403",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "CORPORACION CF",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3-102-201048",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8007,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 298,
+            "pageResultCount": 10,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8306
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Gori Albisa",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/7654358",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8006,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 306,
+            "pageResultCount": 10,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8312
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "MTM Costa Rica",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/5435323433",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8014,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 271,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8286
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "MULTISERVICIOS ABGN CR.",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3-102-021086",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8000,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 294,
+            "pageResultCount": 2,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8294
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "SOPORTE XPERTO CR",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3-102-021084",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8007,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 304,
+            "pageResultCount": 10,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8311
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Grupo Printer de Costa Rica",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/58758657645634",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=10",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 10,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8005,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 306,
+            "pageResultCount": 10,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8311
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "ALUCATECH S.A",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3-102-021073",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=10",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 10,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8003,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 295,
+            "pageResultCount": 10,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8298
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "HIGH TECH CR",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3-102-201047",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=10",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 10,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8010,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 291,
+            "pageResultCount": 10,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8301
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "MBT COMPUTACIÓN",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3-102-021057",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=10",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 10,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8004,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 303,
+            "pageResultCount": 9,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8307
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Leandro Barrientos",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/TEMP-CR-1793985443-8013",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=10",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 10,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8000,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 291,
+            "pageResultCount": 2,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8291
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Database Technologies S.A",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3101188113",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=10",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 10,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8004,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 415,
+            "pageResultCount": 10,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8419
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "D.T. División de Tecnología LIMCE S.A.",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/5556142",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=10",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 10,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8014,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 382,
+            "pageResultCount": 5,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8396
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "TECNOLAB",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/5556075",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=10",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 10,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8005,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 337,
+            "pageResultCount": 3,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8342
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "Megahardware",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/5556495",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=10",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 10,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8003,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 348,
+            "pageResultCount": 8,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8351
+      },
+      "officialSiteStatus": "no official website resolved",
+      "officialIdentityVerified": false,
+      "officialPagesChecked": 0,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    },
+    {
+      "name": "PBS COSTA RICA",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/301009515",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=10",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 10,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "websiteCandidate": "https://www.pbs.org/",
+      "domainResolutionStatus": "search candidate; requires first-party verification",
+      "domainSearch": {
+        "source": "Bing HTML results after DuckDuckGo had no name-matching result",
+        "checkedOn": "2026-11-10",
+        "candidates": [
+          {
+            "title": "PBS : Public Broadcasting Service",
+            "url": "https://www.pbs.org/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"PBS COSTA RICA\" software engineering \"Latin America\""
+          },
+          {
+            "title": "PBS KIDS",
+            "url": "https://pbskids.org/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"PBS COSTA RICA\" software engineering \"Latin America\""
+          },
+          {
+            "title": "PBS Group — Technology & AI Solutions for Latin America & The …",
+            "url": "https://www.pbs.group/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"PBS COSTA RICA\" software engineering \"Latin America\""
+          },
+          {
+            "title": "PBS News Hour",
+            "url": "https://www.pbs.org/show/newshour/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"PBS COSTA RICA\" software engineering \"Latin America\""
+          }
+        ],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8000,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 374,
+            "pageResultCount": 7,
+            "matchingResultCount": 7
+          }
+        ],
+        "elapsedMs": 8374
+      },
+      "website": "",
+      "officialSiteStatus": "site content does not confirm this company identity",
+      "officialPagesChecked": 1,
+      "officialLocationSnippets": [],
+      "officialFitSnippets": []
+    }
+  ]
+}

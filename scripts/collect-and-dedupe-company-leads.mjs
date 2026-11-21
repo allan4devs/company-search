@@ -38,10 +38,11 @@ const pausedSources = new Map([
 ]);
 const sourceArgs = new Map([
   ["fetch-costa-rica-directory-leads", ["--sources", "camscat"]],
+  ["fetch-himalayas-company-leads", ["--max-pages-per-query", "5"]],
 ]);
 
 function usage() {
-  console.log("Usage: node scripts/collect-and-dedupe-company-leads.mjs [--source fetcher-name ...] [--input leads.json ...] [--cohort id] [--out-dir path] [--source-concurrency 3] [--profile-resolve-concurrency 24] [--resolve-concurrency 8] [--domain-search-budget N] [--domain-search-engine both|bing|ddg] [--no-domain-cache] [--verify-concurrency 24] [--target 100] [--limit 1000] [--import]");
+  console.log("Usage: node scripts/collect-and-dedupe-company-leads.mjs [--source fetcher-name ...] [--input leads.json ...] [--cohort id] [--out-dir path] [--source-concurrency 3] [--profile-resolve-concurrency 24] [--resolve-concurrency 8] [--domain-search-budget N] [--domain-search-engine both|bing|ddg] [--no-domain-cache] [--verify-concurrency 24] [--target 100] [--limit 10000] [--import]");
   console.log("Runs selected fetchers concurrently, bulk-dedupes names, resolves and verifies unique-site slices, then stops at the verified target.");
   console.log("Default sources are Costa Rica-focused: Alpunto, CINDE, CAMSCAT, Himalayas CR roles, nearshore CR, and software providers. Pass --source to choose a custom mix.");
   console.log("Add --input for an already collected directory or Manifest lead file. Use --wikidata-only to avoid per-name search fallback when speed matters more than site-resolution coverage.");
@@ -108,7 +109,7 @@ function parseArgs(args) {
   if (!Number.isInteger(options.sliceSize) || options.sliceSize < 1 || options.sliceSize > 200) throw new Error("--slice-size must be between 1 and 200.");
   if (!Number.isInteger(options.maxPages) || options.maxPages < 1 || options.maxPages > 3) throw new Error("--max-pages must be between 1 and 3.");
   if (!Number.isInteger(options.target) || options.target < 1 || options.target > 1000) throw new Error("--target must be between 1 and 1000.");
-  if (!Number.isInteger(options.limit) || options.limit < 1 || options.limit > 1000) throw new Error("--limit must be between 1 and 1000.");
+  if (!Number.isInteger(options.limit) || options.limit < 1 || options.limit > 10000) throw new Error("--limit must be between 1 and 10000.");
   for (const source of options.sources) if (!fetchers.has(source.replace(/\.mjs$/i, ""))) throw new Error(`Unsupported fetcher: ${source}. Choose an installed fetch-*.mjs script.`);
   return options;
 }
@@ -160,6 +161,30 @@ async function readCandidates(filePath) {
   const input = JSON.parse(await fs.readFile(filePath, "utf8"));
   const candidates = Array.isArray(input) ? input : input.candidates || input.leads || input.companies || [];
   return (Array.isArray(candidates) ? candidates : []).filter(candidate => candidate && typeof candidate.name === "string" && candidate.name.trim());
+}
+
+function interleaveByLane(documents) {
+  const lanes = new Map();
+  for (const document of documents) {
+    for (const candidate of document.candidates) {
+      const lane = String(candidate.queryLane || path.basename(document.path, ".json"));
+      if (!lanes.has(lane)) lanes.set(lane, []);
+      lanes.get(lane).push({ ...candidate, queryLane: lane, sourceFile: path.relative(root, document.path) });
+    }
+  }
+  const queues = [...lanes.values()];
+  const candidates = [];
+  const cursors = queues.map(() => 0);
+  let remaining = true;
+  while (remaining) {
+    remaining = false;
+    for (const [index, queue] of queues.entries()) {
+      if (cursors[index] >= queue.length) continue;
+      remaining = true;
+      candidates.push(queue[cursors[index]++]);
+    }
+  }
+  return candidates;
 }
 
 async function readDocument(filePath) {
@@ -240,12 +265,10 @@ async function main() {
     ...completedSources.map(async result => ({ path: result.output, candidates: await readCandidates(result.output) })),
     ...inputPaths.map(async inputPath => ({ path: inputPath, candidates: await readCandidates(inputPath) })),
   ]);
-  const leads = documents.flatMap(document => document.candidates.map(candidate => ({
+  const leads = interleaveByLane(documents).map(candidate => ({
     ...candidate,
-    queryLane: candidate.queryLane || path.basename(document.path, ".json"),
     sourceUrl: candidate.sourceUrl || candidate.source || "",
-    sourceFile: path.relative(root, document.path),
-  })));
+  }));
   if (!leads.length) throw new Error("The completed sources and input files contained no named company leads.");
 
   const rawPath = path.join(outDir, "combined-raw-leads.json");
@@ -421,12 +444,13 @@ async function main() {
     batchArtifacts.shapedCandidates = path.relative(root, shapedPath);
 
     stageStartedAt = performance.now();
+    const reviewLimit = Math.min(100, options.target);
     const prepareExecution = await runNode(path.join(root, "scripts", "prepare-company-batch.mjs"), [
       shapedPath,
       "--batch-id", cohort,
       "--out", preparedPath,
       "--ledger", preparedLedgerPath,
-      "--limit", "100",
+      "--limit", String(reviewLimit),
     ], "prepare-batch");
     stageTimingsMs.prepareProcessMs = prepareExecution.elapsedMs;
     const preparedDoc = await readDocument(preparedPath);
@@ -434,7 +458,7 @@ async function main() {
     batchArtifacts.preparedBatch = path.relative(root, preparedPath);
     batchArtifacts.preparedCompanies = preparedCount;
     batchArtifacts.preparedLedger = path.relative(root, preparedLedgerPath);
-    if (preparedCount !== 100) throw new Error(`Prepared batch has ${preparedCount} companies; exactly 100 are required before import.`);
+    if (preparedCount !== reviewLimit) throw new Error(`Prepared review batch has ${preparedCount} companies; expected ${reviewLimit}.`);
 
     const importer = path.join(root, "scripts", "import-company-batches.mjs");
     stageStartedAt = performance.now();
@@ -442,7 +466,7 @@ async function main() {
     stageTimingsMs.importDryRunProcessMs = dryRun.elapsedMs;
     batchArtifacts.importDryRunOutput = dryRun.stdout.trim();
 
-    if (options.import) {
+    if (options.import && reviewLimit === 100) {
       const importBaseUrl = "http://localhost:3000";
       const importEnv = { ...process.env, COMPANY_IMPORT_BASE_URL: importBaseUrl };
       stageStartedAt = performance.now();
@@ -464,6 +488,8 @@ async function main() {
 
   stageTimingsMs.totalElapsedBeforeReportWriteMs = Math.round(performance.now() - totalStartedAt);
   const timingReportPath = path.join(outDir, "timing-report.json");
+  const rawLeadCount = leads.length;
+  const laneLeadCounts = Object.fromEntries([...new Set(leads.map(lead => lead.queryLane))].map(lane => [lane, leads.filter(lead => lead.queryLane === lane).length]));
   const timingReport = {
     cohortId: cohort,
     generatedOn: getCostaRicaDate(),
@@ -472,6 +498,8 @@ async function main() {
     verificationSlices: sliceReports,
     artifacts: batchArtifacts,
     targetUniqueCompanies: options.target,
+    rawLeadCount,
+    laneLeadCounts,
     domainSearchBudget: options.domainSearchBudget ?? null,
     domainSearchEngine: options.domainSearchEngine,
     domainCacheEnabled: !options.noDomainCache,

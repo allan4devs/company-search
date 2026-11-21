@@ -8,6 +8,10 @@ The long-term product goal is to search a corpus of hundreds of millions of empl
 
 ## Current algorithm
 
+### V4 company-name workflow
+
+The active V4 discovery workflow is intentionally script-only and name-first. It has three steps: export current Mongo company names and aliases in one read; track the last searched page by exact query; compare manually collected names to that snapshot and to each other before producing a name-only array of new companies. It does not run web searches, contact public sources, enrich companies, or import records. Likes and saved jobs inform Allan's manual search choices. See `docs/company-search-v4.md`.
+
 1. **Collect leads concurrently.** Run independent public source fetchers at bounded concurrency. Preserve the source lane and URL for every lead so yield and evidence can be measured later.
 2. **Take one catalog snapshot.** Read Mongo once for the whole cohort; do not make a database request for every candidate.
 3. **Bulk-deduplicate before enrichment.** Normalize company names and aliases, reduce official websites to root domains, then check each lead against in-memory `Map` indexes. Add each survivor to the same indexes immediately to catch repeats inside the incoming pool.
@@ -106,6 +110,14 @@ The first optimization targets repeated and low-yield network work; hash-map com
 The resolver writes timings for input/cache matching, Wikidata, live search, cache persistence, and output. The collector records cache hits/misses, actual per-name searches, deferred searches, resolver timings, and the remaining run-wide search budget per slice.
 
 **Implementation status:** the cross-run domain cache, geography- and preference-prioritized search budget, run-wide budget plumbing, engine selection, and per-engine timings are implemented in the local scripts. The collector passes the Mongo-derived `preferenceContrast` into domain resolution; only lead fields that match its model, track, or role-family labels affect order. In the same uncached 10-search replay, Bing-only took 1.736 seconds total versus 17.624 seconds with DDG then Bing, with the same raw candidate count. This is a small timing sample, not a verified-company quality claim; 97 names were deferred. The cache's repeat-run benefit remains unmeasured.
+
+## V3 wide-pool discovery — November 11, 2026
+
+The local V3 workspace (`/v3`) runs one new-company search without importing it. It fans out across 14 public-source fetchers, interleaves leads by query lane before the catalog comparison, takes one Mongo snapshot, and advances through 200-candidate verification slices until it finds the requested number of strict, domain-unique survivors or exhausts the configured 10,000-name-unique candidate ceiling. The ceiling is capacity, not a claim that the sources returned 10,000 companies. The UI reports actual raw leads, completed source fetchers, and verified survivors.
+
+The November 11 run produced 1,690 raw leads from 13 completed fetchers; the Himalayas source timed out at its 120-second collector limit before the bounded pagination option was added. The one Mongo snapshot contained 1,636 saved companies; the combined saved and bundled indexes contained 2,563 names/aliases and 1,701 root domains. Name dedupe removed 781 duplicates and retained 909 unique leads. The first 200-candidate verification slice yielded six strict, domain-unique candidates. One was prepared for local review: Gazu Technology (`gazutechnology.com`). Its first-party site describes software/app development and its team/location pages identify a Colombia presence; its careers page lists remote roles, but does not state Costa Rica/LATAM eligibility, so no job was saved and the company fit remains `possible`. Nothing was imported.
+
+The Himalayas fetcher now supports a per-query page ceiling and records pages available/read so the V3 runner can scan beyond its first page without an unbounded crawl. V3 requests five pages per query; the collector continues to later 200-candidate slices if the target has not been reached. Reaching the 10,000 candidate ceiling still depends on source coverage and pagination, and an incomplete or rate-limited lane remains visible in the run report.
 
 ## Product roadmap for very large workloads
 

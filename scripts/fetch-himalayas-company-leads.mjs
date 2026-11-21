@@ -10,26 +10,28 @@ const engineeringPattern = /software|engineer|developer|devops|sre|quality assur
 const defaultQueries = ["software engineer", "software developer", "full stack engineer", "backend engineer", "frontend engineer", "devops engineer", "data engineer"];
 
 function usage() {
-  console.log("Usage: node scripts/fetch-himalayas-company-leads.mjs [--out leads.json] [--max-leads 1000] [--queries \"software engineer,developer\"]");
+  console.log("Usage: node scripts/fetch-himalayas-company-leads.mjs [--out leads.json] [--max-leads 1000] [--max-pages-per-query N] [--queries \"software engineer,developer\"]");
   console.log("Fetches public Costa Rica-eligible remote engineering listings as leads, then groups roles by employer. Verify each employer on official sources before import.");
 }
 
 function parseArgs(args) {
-  const options = { out: "company-batches/himalayas-cr-engineering-leads.json", maxLeads: 1000, queries: defaultQueries };
+  const options = { out: "company-batches/himalayas-cr-engineering-leads.json", maxLeads: 1000, maxPagesPerQuery: Infinity, queries: defaultQueries };
   for (let i = 0; i < args.length; i += 1) {
     const arg = args[i];
     if (arg === "--help" || arg === "-h") { options.help = true; continue; }
-    if (["--out", "--max-leads", "--queries"].includes(arg)) {
+    if (["--out", "--max-leads", "--max-pages-per-query", "--queries"].includes(arg)) {
       const value = args[++i];
       if (!value || value.startsWith("--")) throw new Error(`${arg} requires a value.`);
       if (arg === "--out") options.out = value;
       if (arg === "--max-leads") options.maxLeads = Number(value);
+      if (arg === "--max-pages-per-query") options.maxPagesPerQuery = Number(value);
       if (arg === "--queries") options.queries = value.split(",").map(item => item.trim()).filter(Boolean);
       continue;
     }
     throw new Error(`Unknown option: ${arg}`);
   }
   if (!Number.isInteger(options.maxLeads) || options.maxLeads < 1) throw new Error("--max-leads must be a positive integer.");
+  if (!(options.maxPagesPerQuery === Infinity || (Number.isInteger(options.maxPagesPerQuery) && options.maxPagesPerQuery >= 1 && options.maxPagesPerQuery <= 1000))) throw new Error("--max-pages-per-query must be between 1 and 1000.");
   if (!options.queries.length) throw new Error("Provide at least one search query.");
   return options;
 }
@@ -42,7 +44,7 @@ async function fetchPage(query, page) {
   url.searchParams.set("q", query);
   url.searchParams.set("page", String(page));
   for (let attempt = 0; attempt < 5; attempt += 1) {
-    const response = await fetch(url, { headers: { Accept: "application/json" } });
+    const response = await fetch(url, { headers: { Accept: "application/json" }, signal: AbortSignal.timeout(15000) });
     if (response.status === 429 || response.status === 503) {
       const retrySeconds = Number(response.headers.get("retry-after") || 2 ** attempt);
       await pause(Math.min(30, retrySeconds) * 1000);
@@ -80,7 +82,8 @@ async function main() {
   for (const query of options.queries) {
     const first = await fetchPage(query, 1);
     const limit = Number(first.limit || 20);
-    const totalPages = Math.max(1, Math.ceil(Number(first.totalCount || 0) / limit));
+    const totalPagesAvailable = Math.max(1, Math.ceil(Number(first.totalCount || 0) / limit));
+    const totalPages = Math.min(totalPagesAvailable, options.maxPagesPerQuery);
     let matched = 0;
     let pagesRead = 0;
     for (let page = 1; page <= totalPages && byEmployer.size < options.maxLeads; page += 1) {
@@ -123,7 +126,7 @@ async function main() {
         if (byEmployer.size >= options.maxLeads) break;
       }
     }
-    queryStats.push({ query, totalJobs: Number(first.totalCount || 0), pagesRead, newlyMatchedJobs: matched, uniqueEmployers: byEmployer.size });
+    queryStats.push({ query, totalJobs: Number(first.totalCount || 0), totalPagesAvailable, pagesRead, truncated: pagesRead < totalPagesAvailable, newlyMatchedJobs: matched, uniqueEmployers: byEmployer.size });
     if (byEmployer.size >= options.maxLeads) break;
   }
 
@@ -141,7 +144,7 @@ async function main() {
   }, null, 2)}\n`, "utf8");
   console.log(`Fetched ${seenJobs.size} distinct job listings and grouped them into ${candidates.length} company leads.`);
   console.log(`Wrote ${path.relative(root, outputPath)}; candidates are discovery leads and still need official-site verification.`);
-  for (const stat of queryStats) console.log(`  ${stat.query}: ${stat.totalJobs} postings, ${stat.pagesRead} pages, ${stat.newlyMatchedJobs} location-qualified engineering leads`);
+  for (const stat of queryStats) console.log(`  ${stat.query}: ${stat.totalJobs} postings, ${stat.pagesRead}/${stat.totalPagesAvailable} pages${stat.truncated ? " (more pages available)" : ""}, ${stat.newlyMatchedJobs} location-qualified engineering leads`);
 }
 
 main().catch(error => {

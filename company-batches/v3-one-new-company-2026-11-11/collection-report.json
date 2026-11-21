@@ -1,0 +1,575 @@
+{
+  "cohortId": "v3-one-new-company-2026-11-11",
+  "generatedOn": "2026-11-11",
+  "sourceConcurrency": 4,
+  "sourceResults": [
+    {
+      "source": "fetch-alpunto-software-leads",
+      "output": "C:\\Users\\aroja\\OneDrive\\Documents\\GitHub\\comp\\company-batches\\v3-one-new-company-2026-11-11\\fetch-alpunto-software-leads.json",
+      "ok": true,
+      "elapsedMs": 1642
+    },
+    {
+      "source": "fetch-aworkado-company-leads",
+      "output": "C:\\Users\\aroja\\OneDrive\\Documents\\GitHub\\comp\\company-batches\\v3-one-new-company-2026-11-11\\fetch-aworkado-company-leads.json",
+      "ok": true,
+      "elapsedMs": 5582
+    },
+    {
+      "source": "fetch-camtic-company-leads",
+      "output": "C:\\Users\\aroja\\OneDrive\\Documents\\GitHub\\comp\\company-batches\\v3-one-new-company-2026-11-11\\fetch-camtic-company-leads.json",
+      "ok": true,
+      "elapsedMs": 2863
+    },
+    {
+      "source": "fetch-cinde-digital-leads",
+      "output": "C:\\Users\\aroja\\OneDrive\\Documents\\GitHub\\comp\\company-batches\\v3-one-new-company-2026-11-11\\fetch-cinde-digital-leads.json",
+      "ok": true,
+      "elapsedMs": 1084
+    },
+    {
+      "source": "fetch-costa-rica-directory-leads",
+      "output": "C:\\Users\\aroja\\OneDrive\\Documents\\GitHub\\comp\\company-batches\\v3-one-new-company-2026-11-11\\fetch-costa-rica-directory-leads.json",
+      "ok": true,
+      "elapsedMs": 1790
+    },
+    {
+      "source": "fetch-enterprise-league-leads",
+      "output": "C:\\Users\\aroja\\OneDrive\\Documents\\GitHub\\comp\\company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "ok": true,
+      "elapsedMs": 5174
+    },
+    {
+      "source": "fetch-findremote-latam-engineering-leads",
+      "output": "C:\\Users\\aroja\\OneDrive\\Documents\\GitHub\\comp\\company-batches\\v3-one-new-company-2026-11-11\\fetch-findremote-latam-engineering-leads.json",
+      "ok": true,
+      "elapsedMs": 1197
+    },
+    {
+      "source": "fetch-globallyremote-company-leads",
+      "output": "C:\\Users\\aroja\\OneDrive\\Documents\\GitHub\\comp\\company-batches\\v3-one-new-company-2026-11-11\\fetch-globallyremote-company-leads.json",
+      "ok": true,
+      "elapsedMs": 4304
+    },
+    {
+      "source": "fetch-himalayas-company-leads",
+      "output": "C:\\Users\\aroja\\OneDrive\\Documents\\GitHub\\comp\\company-batches\\v3-one-new-company-2026-11-11\\fetch-himalayas-company-leads.json",
+      "ok": false,
+      "error": "timed out after 120000 ms"
+    },
+    {
+      "source": "fetch-jobicy-regional-engineering-leads",
+      "output": "C:\\Users\\aroja\\OneDrive\\Documents\\GitHub\\comp\\company-batches\\v3-one-new-company-2026-11-11\\fetch-jobicy-regional-engineering-leads.json",
+      "ok": true,
+      "elapsedMs": 1017
+    },
+    {
+      "source": "fetch-nearshore-directory-leads",
+      "output": "C:\\Users\\aroja\\OneDrive\\Documents\\GitHub\\comp\\company-batches\\v3-one-new-company-2026-11-11\\fetch-nearshore-directory-leads.json",
+      "ok": true,
+      "elapsedMs": 1288
+    },
+    {
+      "source": "fetch-nearshorehub-company-leads",
+      "output": "C:\\Users\\aroja\\OneDrive\\Documents\\GitHub\\comp\\company-batches\\v3-one-new-company-2026-11-11\\fetch-nearshorehub-company-leads.json",
+      "ok": true,
+      "elapsedMs": 601
+    },
+    {
+      "source": "fetch-proveedores-software-leads",
+      "output": "C:\\Users\\aroja\\OneDrive\\Documents\\GitHub\\comp\\company-batches\\v3-one-new-company-2026-11-11\\fetch-proveedores-software-leads.json",
+      "ok": true,
+      "elapsedMs": 1400
+    },
+    {
+      "source": "fetch-regional-software-leads",
+      "output": "C:\\Users\\aroja\\OneDrive\\Documents\\GitHub\\comp\\company-batches\\v3-one-new-company-2026-11-11\\fetch-regional-software-leads.json",
+      "ok": true,
+      "elapsedMs": 3513
+    }
+  ],
+  "inputCount": 1690,
+  "nameUniqueCount": 909,
+  "targetStrictUniqueCount": 1,
+  "strictUniqueCount": 6,
+  "slices": [
+    {
+      "offset": 0,
+      "input": 200,
+      "directoryProfileResolutionNeeded": 101,
+      "directoryProfileSitesFound": 72,
+      "profileResolveProcessMs": 3722,
+      "websiteResolutionNeeded": 71,
+      "resolvedWithWebsiteCandidate": 14,
+      "fallbackResolveProcessMs": 1493,
+      "domainResolutionCacheHits": 53,
+      "domainResolutionCacheMisses": 18,
+      "perNameDomainSearches": 17,
+      "deferredDomainSearches": 0,
+      "domainResolutionTimingsMs": {
+        "inputReadMs": 3,
+        "cacheReadAndMatchMs": 4,
+        "wikidataBatchMs": 619,
+        "liveSearchWallMs": 758,
+        "cacheWriteMs": 7,
+        "outputWriteMs": 3,
+        "totalMs": 1397
+      },
+      "remainingDomainSearchBudget": 43,
+      "siteReadyCandidates": 143,
+      "resolverProcessMs": 1493,
+      "verifierProcessMs": 22721,
+      "officialPagesChecked": 253,
+      "elapsedMs": 22425,
+      "strictPasses": 6,
+      "queryLanes": [
+        {
+          "lane": "CINDE Costa Rica digital roster: Ingeniería y diseño",
+          "checked": 2,
+          "reachable": 1,
+          "regionAndFit": 1,
+          "localOrEligibleAndFit": 1,
+          "regionAndFitRate": 0.5,
+          "localOrEligibleAndFitRate": 0.5,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — Uruguay",
+          "checked": 10,
+          "reachable": 2,
+          "regionAndFit": 2,
+          "localOrEligibleAndFit": 2,
+          "regionAndFitRate": 0.2,
+          "localOrEligibleAndFitRate": 0.2,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Aworkado remote software engineering — LATAM postings",
+          "checked": 5,
+          "reachable": 5,
+          "regionAndFit": 1,
+          "localOrEligibleAndFit": 1,
+          "regionAndFitRate": 0.2,
+          "localOrEligibleAndFitRate": 0.2,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Sortlist software development directory — Colombia",
+          "checked": 6,
+          "reachable": 4,
+          "regionAndFit": 2,
+          "localOrEligibleAndFit": 1,
+          "regionAndFitRate": 0.333,
+          "localOrEligibleAndFitRate": 0.167,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "CINDE Costa Rica digital roster: Desarrollo de Software, Mantenimiento de Software",
+          "checked": 9,
+          "reachable": 2,
+          "regionAndFit": 1,
+          "localOrEligibleAndFit": 1,
+          "regionAndFitRate": 0.111,
+          "localOrEligibleAndFitRate": 0.111,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Alpunto Costa Rica SaaS/software company directory",
+          "checked": 7,
+          "reachable": 6,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "CINDE Costa Rica digital roster: Ciberseguridad, Desarrollo de Software, Ingeniería y diseño, Mantenimiento de Software",
+          "checked": 4,
+          "reachable": 2,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "CINDE Costa Rica digital roster: Cloud, Desarrollo de Software, Mantenimiento de Software",
+          "checked": 6,
+          "reachable": 2,
+          "regionAndFit": 1,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0.167,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "CINDE Costa Rica digital roster: Desarrollo de Software, Ingeniería y diseño",
+          "checked": 2,
+          "reachable": 0,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "CINDE Costa Rica digital roster: Desarrollo de Software, Ingeniería y diseño, Mantenimiento de Software",
+          "checked": 3,
+          "reachable": 0,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "CINDE Costa Rica digital roster: Ingeniería, reparación y mantenimienti, Ingeniería y diseño",
+          "checked": 1,
+          "reachable": 0,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — Central America",
+          "checked": 3,
+          "reachable": 0,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — Colombia",
+          "checked": 8,
+          "reachable": 6,
+          "regionAndFit": 3,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0.375,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — Argentina",
+          "checked": 9,
+          "reachable": 2,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — South America",
+          "checked": 1,
+          "reachable": 1,
+          "regionAndFit": 1,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 1,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — Costa Rica",
+          "checked": 1,
+          "reachable": 0,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — Peru",
+          "checked": 6,
+          "reachable": 2,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — Chile",
+          "checked": 7,
+          "reachable": 3,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — Guatemala",
+          "checked": 2,
+          "reachable": 1,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — Panama",
+          "checked": 2,
+          "reachable": 0,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — Brazil",
+          "checked": 11,
+          "reachable": 7,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — Ecuador",
+          "checked": 4,
+          "reachable": 0,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Find Remote Jobs current software-engineering LATAM feed",
+          "checked": 5,
+          "reachable": 0,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Proveedores de Costa Rica software suppliers directory",
+          "checked": 7,
+          "reachable": 7,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Sortlist software development directory — Mexico",
+          "checked": 9,
+          "reachable": 7,
+          "regionAndFit": 2,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0.222,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Sortlist software development directory — Argentina",
+          "checked": 6,
+          "reachable": 6,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Sortlist software development directory — Chile",
+          "checked": 8,
+          "reachable": 5,
+          "regionAndFit": 1,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0.125,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Sortlist software development directory — Uruguay",
+          "checked": 7,
+          "reachable": 5,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Proveedores de Costa Rica software supplier directory",
+          "checked": 4,
+          "reachable": 2,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Aworkado remote software engineering — Costa Rica",
+          "checked": 1,
+          "reachable": 1,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "CAMTIC Costa Rica ICT member directory",
+          "checked": 4,
+          "reachable": 2,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "CINDE Costa Rica digital roster: Ciberseguridad, Desarrollo de Software, Mantenimiento de Software",
+          "checked": 1,
+          "reachable": 0,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "CINDE Costa Rica digital roster: Desarrollo de Software",
+          "checked": 8,
+          "reachable": 0,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "CamSCAT Costa Rica shared-services member directory",
+          "checked": 7,
+          "reachable": 2,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Sortlist software development directory — Brazil",
+          "checked": 9,
+          "reachable": 8,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Enterprise League software directory — Mexico",
+          "checked": 6,
+          "reachable": 2,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Nearshore Costa Rica Technology & IT Services directory",
+          "checked": 1,
+          "reachable": 0,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Sortlist software development directory — Costa Rica",
+          "checked": 4,
+          "reachable": 3,
+          "regionAndFit": 1,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0.25,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Jobicy current LATAM engineering (engineering)",
+          "checked": 1,
+          "reachable": 1,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Nearshore Hub Latin America software provider directory",
+          "checked": 2,
+          "reachable": 2,
+          "regionAndFit": 1,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0.5,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        },
+        {
+          "lane": "Globally Remote Jobs Costa Rica listings — official employer link pending",
+          "checked": 1,
+          "reachable": 0,
+          "regionAndFit": 0,
+          "localOrEligibleAndFit": 0,
+          "regionAndFitRate": 0,
+          "localOrEligibleAndFitRate": 0,
+          "recommendation": "continue, then compare against the next batch"
+        }
+      ],
+      "verificationFile": "company-batches\\v3-one-new-company-2026-11-11\\site-slice-001-verified.json",
+      "strictPoolWriteMs": 3,
+      "domainDedupeProcessMs": 175
+    }
+  ],
+  "timingsMs": {
+    "sourceFetchWallMs": 124112,
+    "sourceFetchSumMs": 31455,
+    "inputReadMergeWriteMs": 55,
+    "nameDedupeProcessMs": 1924,
+    "readNameUniqueAndSnapshotMs": 10,
+    "websiteResolutionSumMs": 5215,
+    "directoryProfileResolutionSumMs": 3722,
+    "fallbackDomainResolutionSumMs": 1493,
+    "websiteVerificationProcessSumMs": 22721,
+    "websiteVerificationInternalSumMs": 22425,
+    "finalDomainDedupeProcessSumMs": 175,
+    "strictPoolWriteSumMs": 3,
+    "shapingProcessMs": 98,
+    "prepareProcessMs": 117,
+    "importDryRunProcessMs": 111,
+    "totalElapsedBeforeReportWriteMs": 154562
+  },
+  "rawLeads": "company-batches\\v3-one-new-company-2026-11-11\\combined-raw-leads.json",
+  "nameUniqueLeads": "company-batches\\v3-one-new-company-2026-11-11\\name-unique-leads.json",
+  "mongoSnapshot": "company-batches\\v3-one-new-company-2026-11-11\\mongo-snapshot.json",
+  "dedupeLedger": "company-batches\\v3-one-new-company-2026-11-11\\name-dedupe-ledger.json",
+  "strictUniqueLeads": "company-batches\\v3-one-new-company-2026-11-11\\strict-domain-unique-leads.json",
+  "strictDedupeLedger": "company-batches\\v3-one-new-company-2026-11-11\\strict-domain-dedupe-ledger.json",
+  "timingReport": "company-batches\\v3-one-new-company-2026-11-11\\timing-report.json",
+  "artifacts": {
+    "shapedCandidates": "company-batches\\v3-one-new-company-2026-11-11\\shaped-candidates.json",
+    "preparedBatch": "company-batches\\v3-one-new-company-2026-11-11\\v3-one-new-company-2026-11-11.json",
+    "preparedCompanies": 1,
+    "preparedLedger": "company-batches\\v3-one-new-company-2026-11-11\\import-ledger.json",
+    "importDryRunOutput": "1 companies in 1 request.\n  v3-one-new-company-2026-11-11-p001: 1 companies, 590 bytes"
+  },
+  "nextStep": "Review the prepared 100-company file, then import it if desired."
+}

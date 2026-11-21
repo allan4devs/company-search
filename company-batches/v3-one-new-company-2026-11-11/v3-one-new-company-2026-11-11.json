@@ -1,0 +1,41 @@
+{
+  "batchId": "v3-one-new-company-2026-11-11",
+  "companies": [
+    {
+      "name": "Gazu Technology",
+      "website": "https://gazutechnology.com/",
+      "careersUrl": "https://gazutechnology.com/trabaja-con-nosotros/",
+      "model": "unknown",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "LATAM (official company presence: Colombia; confirm eligibility per opening)"
+      ],
+      "jobs": [],
+      "sourceEvidence": [
+        {
+          "kind": "official-site",
+          "url": "https://gazutechnology.com/",
+          "checkedOn": "2026-11-11"
+        },
+        {
+          "kind": "careers-page",
+          "url": "https://gazutechnology.com/trabaja-con-nosotros/",
+          "checkedOn": "2026-11-11"
+        }
+      ],
+      "fit": {
+        "status": "possible",
+        "reasons": [
+          "Official pages support software work and company presence in Colombia; verify eligible work country per opening."
+        ],
+        "profileVersion": "v1",
+        "evaluatedOn": "2026-11-11"
+      },
+      "tags": [
+        "new"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1861 @@
+{
+  "cohortId": "v3-one-new-company-2026-11-11",
+  "generatedOn": "2026-11-11",
+  "sourceInput": "company-batches\\v3-one-new-company-2026-11-11\\site-slice-001-profile-input.json",
+  "inputCandidateCount": 101,
+  "websiteCandidateCount": 72,
+  "candidates": [
+    {
+      "name": "GTI Factura Electrónica",
+      "profileUrl": "https://alpunto.cr/en/business/gti-factura-electronica",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/gti-factura-electronica",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.facturaelectronica.cr/",
+      "domain": "facturaelectronica.cr",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.facturaelectronica.cr/",
+          "domain": "facturaelectronica.cr",
+          "label": "www.facturaelectronica.cr/",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Savvy",
+      "profileUrl": "https://aworkado.co/companies/savvywealth",
+      "directoryProfileUrl": "https://aworkado.co/companies/savvywealth",
+      "sourceJobUrl": "https://aworkado.co/job/senior-software-engineer-remote-latam-115086",
+      "roleTitle": "Senior Software Engineer (Remote Latam)",
+      "roleLocations": [
+        "Brazil",
+        "Mexico"
+      ],
+      "queryLane": "Aworkado remote software engineering — LATAM postings",
+      "sourceUrl": "https://aworkado.co/remote/software-engineering/latin-america",
+      "locationLead": "LATAM",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-aworkado-company-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://savvywealth.com/",
+      "domain": "savvywealth.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://savvywealth.com/",
+          "domain": "savvywealth.com",
+          "label": "Visit savvywealth.com",
+          "score": 1
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "ONLY IF The How Company",
+      "profileUrl": "https://enterpriseleague.com/company/only-if-the-how-company",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/only-if-the-how-company",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://vimeo.com/showcase/asians-in-insurance",
+      "domain": "vimeo.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://vimeo.com/showcase/asians-in-insurance",
+          "domain": "vimeo.com",
+          "label": "Visit Official Website",
+          "score": 1
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Integra IT",
+      "profileUrl": "https://enterpriseleague.com/company/integra-it",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/integra-it",
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.integrait.co/",
+      "domain": "integrait.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.integrait.co/",
+          "domain": "integrait.co",
+          "label": "Visit Official Website",
+          "score": 1
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "OpenLifter.ai",
+      "profileUrl": "https://enterpriseleague.com/company/openlifterai",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/openlifterai",
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "http://openlifter.ai/",
+      "domain": "openlifter.ai",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://openlifter.ai/",
+          "domain": "openlifter.ai",
+          "label": "Visit Official Website",
+          "score": 1
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Random Sounds",
+      "profileUrl": "https://enterpriseleague.com/company/random-sounds",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/random-sounds",
+      "queryLane": "Enterprise League software directory — South America",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/sa-central",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://sounds.co/",
+      "domain": "sounds.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://sounds.co/",
+          "domain": "sounds.co",
+          "label": "Visit Official Website",
+          "score": 1
+        },
+        {
+          "url": "https://www.crunchbase.com/organization/random-sounds",
+          "domain": "crunchbase.com",
+          "label": "",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Oktara",
+      "profileUrl": "https://enterpriseleague.com/company/oktara",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/oktara",
+      "queryLane": "Enterprise League software directory — Costa Rica",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/cr",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.oktara.com/",
+      "domain": "oktara.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.oktara.com/",
+          "domain": "oktara.com",
+          "label": "Visit Official Website",
+          "score": 1
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Glajumedia",
+      "profileUrl": "https://enterpriseleague.com/company/glajumedia-1314197",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/glajumedia-1314197",
+      "queryLane": "Enterprise League software directory — Peru",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/pe",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.glajumedia.com/",
+      "domain": "glajumedia.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.glajumedia.com/",
+          "domain": "glajumedia.com",
+          "label": "Visit Official Website",
+          "score": 1
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Octobot",
+      "profileUrl": "https://enterpriseleague.com/company/octobot",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/octobot",
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.octobot.io/",
+      "domain": "octobot.io",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.octobot.io/",
+          "domain": "octobot.io",
+          "label": "Visit Official Website",
+          "score": 1
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Aureolab",
+      "profileUrl": "https://enterpriseleague.com/company/aureolab",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/aureolab",
+      "queryLane": "Enterprise League software directory — Chile",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/cl",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.aureolab.cl/",
+      "domain": "aureolab.cl",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.aureolab.cl/",
+          "domain": "aureolab.cl",
+          "label": "Visit Official Website",
+          "score": 1
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "eDesigns.com, 360º web agency world wide",
+      "profileUrl": "https://enterpriseleague.com/company/edesignscom-360-web-agency-world-wide",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/edesignscom-360-web-agency-world-wide",
+      "queryLane": "Enterprise League software directory — Guatemala",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/gt",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.edesigns.com/",
+      "domain": "edesigns.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.edesigns.com/",
+          "domain": "edesigns.com",
+          "label": "Visit Official Website",
+          "score": 1
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "NEOMEDIA - Digital Signage | In Store Radio | LED Screens",
+      "profileUrl": "https://enterpriseleague.com/company/neomedia-digital-signage-in-store-radio-led-screens",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/neomedia-digital-signage-in-store-radio-led-screens",
+      "queryLane": "Enterprise League software directory — Panama",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/pa",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.neomediadigital.com/",
+      "domain": "neomediadigital.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.neomediadigital.com/",
+          "domain": "neomediadigital.com",
+          "label": "Visit Official Website",
+          "score": 1
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Smark CRM",
+      "profileUrl": "https://enterpriseleague.com/company/smark-crm",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/smark-crm",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.smark.com.br/",
+      "domain": "smark.com.br",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.smark.com.br/",
+          "domain": "smark.com.br",
+          "label": "Visit Official Website",
+          "score": 1
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "SLONCORP CRIFA CIA LTDA",
+      "profileUrl": "https://enterpriseleague.com/company/sloncorp-crifa-cia-ltda",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/sloncorp-crifa-cia-ltda",
+      "queryLane": "Enterprise League software directory — Ecuador",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ec",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.sloncorp.com/",
+      "domain": "sloncorp.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.sloncorp.com/",
+          "domain": "sloncorp.com",
+          "label": "Visit Official Website",
+          "score": 1
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "C",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3-102-200660",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 1,
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.proveedoresdeamerica.com/sello/9b7f3aaa583b64cecc0d29be3d57c5b5",
+      "domain": "proveedoresdeamerica.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/sello/9b7f3aaa583b64cecc0d29be3d57c5b5",
+          "domain": "proveedoresdeamerica.com",
+          "label": "",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Costa Rica GPS",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3-102-200660",
+      "directoryProfileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3-102-200660",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-regional-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.proveedoresdeamerica.com/sello/9b7f3aaa583b64cecc0d29be3d57c5b5",
+      "domain": "proveedoresdeamerica.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/sello/9b7f3aaa583b64cecc0d29be3d57c5b5",
+          "domain": "proveedoresdeamerica.com",
+          "label": "",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Facel – Facturación Electrónica",
+      "profileUrl": "https://alpunto.cr/en/business/facel-facturacion-electronica",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/facel-facturacion-electronica",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://facelcr.com/",
+      "domain": "facelcr.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://facelcr.com/",
+          "domain": "facelcr.com",
+          "label": "facelcr.com/",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Sumo Logic",
+      "profileUrl": "https://aworkado.co/companies/sumo-logic",
+      "directoryProfileUrl": "https://aworkado.co/companies/sumo-logic",
+      "sourceJobUrl": "https://aworkado.co/job/staff-site-reliability-engineer-finops-144050",
+      "roleTitle": "Staff Site Reliability Engineer, Finops",
+      "roleLocations": [
+        "Costa Rica"
+      ],
+      "queryLane": "Aworkado remote software engineering — Costa Rica",
+      "sourceUrl": "https://aworkado.co/remote/software-engineering/costa-rica",
+      "locationLead": "Costa Rica",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-aworkado-company-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.sumologic.com/",
+      "domain": "sumologic.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.sumologic.com/",
+          "domain": "sumologic.com",
+          "label": "Visit sumologic.com",
+          "score": 1
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Terac",
+      "profileUrl": "https://aworkado.co/companies/terac",
+      "directoryProfileUrl": "https://aworkado.co/companies/terac",
+      "sourceJobUrl": "https://aworkado.co/job/latam-software-engineers-coding-tasks-for-ai-evaluation-110916",
+      "roleTitle": "Latam Software Engineers: Coding Tasks For Ai Evaluation",
+      "roleLocations": [
+        "Brazil",
+        "Argentina"
+      ],
+      "queryLane": "Aworkado remote software engineering — LATAM postings",
+      "sourceUrl": "https://aworkado.co/remote/software-engineering/latin-america",
+      "locationLead": "LATAM",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-aworkado-company-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://terac.com/",
+      "domain": "terac.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://terac.com/",
+          "domain": "terac.com",
+          "label": "Visit terac.com",
+          "score": 1
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "ActionCOACH Costa Rica",
+      "profileUrl": "https://www.camtic.org/project/actioncoach-costa-rica/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/actioncoach-costa-rica/",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://actioncoachiberoamerica.com/",
+      "domain": "actioncoachiberoamerica.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://actioncoachiberoamerica.com/",
+          "domain": "actioncoachiberoamerica.com",
+          "label": "actioncoachiberoamerica.com",
+          "score": 0
+        },
+        {
+          "url": "https://cookiedatabase.org/tcf/purposes/",
+          "domain": "cookiedatabase.org",
+          "label": "Leer más sobre estos propósitos",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Konf o",
+      "profileUrl": "https://enterpriseleague.com/company/konf-o",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/konf-o",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://konfio.mx/",
+      "domain": "konfio.mx",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://konfio.mx/",
+          "domain": "konfio.mx",
+          "label": "Visit Official Website",
+          "score": 1
+        },
+        {
+          "url": "https://www.crunchbase.com/organization/konfio",
+          "domain": "crunchbase.com",
+          "label": "",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Datasae",
+      "profileUrl": "https://enterpriseleague.com/company/datasae",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/datasae",
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.datasae.com/",
+      "domain": "datasae.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.datasae.com/",
+          "domain": "datasae.com",
+          "label": "Visit Official Website",
+          "score": 1
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Evolbit",
+      "profileUrl": "https://enterpriseleague.com/company/evolbit",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/evolbit",
+      "queryLane": "Enterprise League software directory — Peru",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/pe",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.evolbit.net/",
+      "domain": "evolbit.net",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.evolbit.net/",
+          "domain": "evolbit.net",
+          "label": "Visit Official Website",
+          "score": 1
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Dynamia",
+      "profileUrl": "https://enterpriseleague.com/company/dynamia",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/dynamia",
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.dynamia.us/",
+      "domain": "dynamia.us",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.dynamia.us/",
+          "domain": "dynamia.us",
+          "label": "Visit Official Website",
+          "score": 1
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Nnodes",
+      "profileUrl": "https://enterpriseleague.com/company/nnodes",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/nnodes",
+      "queryLane": "Enterprise League software directory — Chile",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/cl",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://nnodes.com/",
+      "domain": "nnodes.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://nnodes.com/",
+          "domain": "nnodes.com",
+          "label": "Visit Official Website",
+          "score": 1
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Frenzy",
+      "profileUrl": "https://enterpriseleague.com/company/frenzy",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/frenzy",
+      "queryLane": "Enterprise League software directory — Guatemala",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/gt",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.frenzybits.com/",
+      "domain": "frenzybits.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.frenzybits.com/",
+          "domain": "frenzybits.com",
+          "label": "Visit Official Website",
+          "score": 1
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Hero YC S22",
+      "profileUrl": "https://enterpriseleague.com/company/hero-yc-s22",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/hero-yc-s22",
+      "queryLane": "Enterprise League software directory — Panama",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/pa",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://try.herofacturas.com/",
+      "domain": "try.herofacturas.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://try.herofacturas.com/",
+          "domain": "try.herofacturas.com",
+          "label": "Visit Official Website",
+          "score": 1
+        },
+        {
+          "url": "https://www.crunchbase.com/organization/hero-a56f",
+          "domain": "crunchbase.com",
+          "label": "",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Vista/pub",
+      "profileUrl": "https://enterpriseleague.com/company/vistapub",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/vistapub",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.vistapub.co/",
+      "domain": "vistapub.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.vistapub.co/",
+          "domain": "vistapub.co",
+          "label": "Visit Official Website",
+          "score": 1
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Mercately (Techstars '23)",
+      "profileUrl": "https://enterpriseleague.com/company/mercately-techstars-23",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/mercately-techstars-23",
+      "queryLane": "Enterprise League software directory — Ecuador",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ec",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.mercately.com/",
+      "domain": "mercately.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.mercately.com/",
+          "domain": "mercately.com",
+          "label": "Visit Official Website",
+          "score": 1
+        },
+        {
+          "url": "https://www.crunchbase.com/organization/mercately",
+          "domain": "crunchbase.com",
+          "label": "",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Ainnova Tech",
+      "profileUrl": "https://alpunto.cr/en/business/ainnova-tech",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/ainnova-tech",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://ainnovatech.com/",
+      "domain": "ainnovatech.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://ainnovatech.com/",
+          "domain": "ainnovatech.com",
+          "label": "ainnovatech.com/",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Aliant",
+      "profileUrl": "https://www.camtic.org/project/aliant/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/aliant/",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.aliantlaw.com/",
+      "domain": "aliantlaw.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.aliantlaw.com/",
+          "domain": "aliantlaw.com",
+          "label": "www.aliantlaw.com",
+          "score": 0
+        },
+        {
+          "url": "https://cookiedatabase.org/tcf/purposes/",
+          "domain": "cookiedatabase.org",
+          "label": "Leer más sobre estos propósitos",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Jelp Delivery",
+      "profileUrl": "https://enterpriseleague.com/company/jelp-delivery",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/jelp-delivery",
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.jelp.delivery/",
+      "domain": "jelp.delivery",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.jelp.delivery/",
+          "domain": "jelp.delivery",
+          "label": "Visit Official Website",
+          "score": 1
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Caramel Point",
+      "profileUrl": "https://enterpriseleague.com/company/caramel-point",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/caramel-point",
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.caramelpoint.com/",
+      "domain": "caramelpoint.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.caramelpoint.com/",
+          "domain": "caramelpoint.com",
+          "label": "Visit Official Website",
+          "score": 1
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Qualizens S.A.C.",
+      "profileUrl": "https://enterpriseleague.com/company/qualizens-sac",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/qualizens-sac",
+      "queryLane": "Enterprise League software directory — Peru",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/pe",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.qualizens.com/",
+      "domain": "qualizens.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.qualizens.com/",
+          "domain": "qualizens.com",
+          "label": "Visit Official Website",
+          "score": 1
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "GeneXus Consulting",
+      "profileUrl": "https://enterpriseleague.com/company/genexus-consulting",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/genexus-consulting",
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.genexusconsulting.com/",
+      "domain": "genexusconsulting.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.genexusconsulting.com/",
+          "domain": "genexusconsulting.com",
+          "label": "Visit Official Website",
+          "score": 1
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "iGromi",
+      "profileUrl": "https://enterpriseleague.com/company/igromi",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/igromi",
+      "queryLane": "Enterprise League software directory — Chile",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/cl",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.igromi.com/",
+      "domain": "igromi.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.igromi.com/",
+          "domain": "igromi.com",
+          "label": "Visit Official Website",
+          "score": 1
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Base2 Tecnologia",
+      "profileUrl": "https://enterpriseleague.com/company/base2-tecnologia",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/base2-tecnologia",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.base2.com.br/",
+      "domain": "base2.com.br",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.base2.com.br/",
+          "domain": "base2.com.br",
+          "label": "Visit Official Website",
+          "score": 1
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "INTEGRAL CLOUD SOLUTIONS OPENCLOUD",
+      "profileUrl": "https://enterpriseleague.com/company/integral-cloud-solutions-opencloud",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/integral-cloud-solutions-opencloud",
+      "queryLane": "Enterprise League software directory — Ecuador",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ec",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://opencloud.one/",
+      "domain": "opencloud.one",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://opencloud.one/",
+          "domain": "opencloud.one",
+          "label": "Visit Official Website",
+          "score": 1
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Avantica (now Encora)",
+      "profileUrl": "https://nearshore.cr/business-directory/avantica-now-encora/",
+      "sourceUrl": "https://nearshore.cr/business-directory/wpbdp_category/technology-it-services/",
+      "queryLane": "Nearshore Costa Rica Technology & IT Services directory",
+      "website": "",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-nearshore-directory-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileWebsiteCandidates": [],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "I",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3-102-201021",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 1,
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.proveedoresdeamerica.com/sello/77e01dade276c6cadce8a600fd01e6e8",
+      "domain": "proveedoresdeamerica.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/sello/77e01dade276c6cadce8a600fd01e6e8",
+          "domain": "proveedoresdeamerica.com",
+          "label": "",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "'+this.dataset.ini+' '\">",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3-102-200980",
+      "directoryProfileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3-102-200980",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-regional-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.proveedoresdeamerica.com/sello/9012a083d9155df5e94fd42b6449fe17",
+      "domain": "proveedoresdeamerica.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/sello/9012a083d9155df5e94fd42b6449fe17",
+          "domain": "proveedoresdeamerica.com",
+          "label": "",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "CRFUSION (Cronus ERP)",
+      "profileUrl": "https://alpunto.cr/en/business/crfusion-cronus-erp",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/crfusion-cronus-erp",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.crfusion.com/",
+      "domain": "crfusion.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.crfusion.com/",
+          "domain": "crfusion.com",
+          "label": "www.crfusion.com",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Beyserin Consulting",
+      "profileUrl": "https://enterpriseleague.com/company/beyserin-consulting",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/beyserin-consulting",
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.beyserinconsulting.com/",
+      "domain": "beyserinconsulting.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.beyserinconsulting.com/",
+          "domain": "beyserinconsulting.com",
+          "label": "Visit Official Website",
+          "score": 1
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Claw Studios",
+      "profileUrl": "https://enterpriseleague.com/company/claw-studios",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/claw-studios",
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.clawstudios.com/",
+      "domain": "clawstudios.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.clawstudios.com/",
+          "domain": "clawstudios.com",
+          "label": "Visit Official Website",
+          "score": 1
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Digixonic Studios",
+      "profileUrl": "https://enterpriseleague.com/company/digixonic-studios",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/digixonic-studios",
+      "queryLane": "Enterprise League software directory — Peru",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/pe",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.digixonicstudios.com/",
+      "domain": "digixonicstudios.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.digixonicstudios.com/",
+          "domain": "digixonicstudios.com",
+          "label": "Visit Official Website",
+          "score": 1
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Houlak",
+      "profileUrl": "https://enterpriseleague.com/company/houlak",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/houlak",
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429"
+    },
+    {
+      "name": "Yu-Track",
+      "profileUrl": "https://enterpriseleague.com/company/yutrack",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/yutrack",
+      "queryLane": "Enterprise League software directory — Chile",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/cl",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429"
+    },
+    {
+      "name": "Prosperi Global | BR",
+      "profileUrl": "https://enterpriseleague.com/company/prosperi-global-br",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/prosperi-global-br",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429"
+    },
+    {
+      "name": "PULPO.ec",
+      "profileUrl": "https://enterpriseleague.com/company/pulpoec",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/pulpoec",
+      "queryLane": "Enterprise League software directory — Ecuador",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ec",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429"
+    },
+    {
+      "name": "Greenpay S.A.",
+      "profileUrl": "https://alpunto.cr/en/business/greenpay-s-a",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/greenpay-s-a",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://greenpay.me/",
+      "domain": "greenpay.me",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://greenpay.me/",
+          "domain": "greenpay.me",
+          "label": "greenpay.me/",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "ARI Casa de Cambio Internacional S.A.",
+      "profileUrl": "https://www.camtic.org/project/ari-casa-de-cambio-internacional-s-a/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/ari-casa-de-cambio-internacional-s-a/",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.ariari.com/",
+      "domain": "ariari.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.ariari.com/",
+          "domain": "ariari.com",
+          "label": "www.ariari.com",
+          "score": 0
+        },
+        {
+          "url": "https://cookiedatabase.org/tcf/purposes/",
+          "domain": "cookiedatabase.org",
+          "label": "Leer más sobre estos propósitos",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Jüsto",
+      "profileUrl": "https://enterpriseleague.com/company/jsto",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/jsto",
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.justo.mx/",
+      "domain": "justo.mx",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.justo.mx/",
+          "domain": "justo.mx",
+          "label": "Visit Official Website",
+          "score": 1
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "CRUCIAL SOLUTIONS - XCIAL",
+      "profileUrl": "https://enterpriseleague.com/company/crucial-solutions-xcial",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/crucial-solutions-xcial",
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.xcial.com/",
+      "domain": "xcial.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.xcial.com/",
+          "domain": "xcial.com",
+          "label": "Visit Official Website",
+          "score": 1
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "128 Studio",
+      "profileUrl": "https://enterpriseleague.com/company/128-studio",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/128-studio",
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429"
+    },
+    {
+      "name": "Wally",
+      "profileUrl": "https://enterpriseleague.com/company/wally",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/wally",
+      "queryLane": "Enterprise League software directory — Peru",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/pe",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429"
+    },
+    {
+      "name": "Simplifica Software",
+      "profileUrl": "https://enterpriseleague.com/company/simplifica-software",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/simplifica-software",
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429"
+    },
+    {
+      "name": "Ustart",
+      "profileUrl": "https://enterpriseleague.com/company/ustart",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/ustart",
+      "queryLane": "Enterprise League software directory — Chile",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/cl",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429"
+    },
+    {
+      "name": "Clickweb",
+      "profileUrl": "https://enterpriseleague.com/company/clickweb",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/clickweb",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.clickweb.com.br/",
+      "domain": "clickweb.com.br",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.clickweb.com.br/",
+          "domain": "clickweb.com.br",
+          "label": "Visit Official Website",
+          "score": 1
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "LoopStudio",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/loopstudio/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/loopstudio/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-nearshorehub-company-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://loopstudio.dev/",
+      "domain": "loopstudio.dev",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://loopstudio.dev/",
+          "domain": "loopstudio.dev",
+          "label": "Ir al sitio",
+          "score": 0
+        },
+        {
+          "url": "https://crecerank.com/",
+          "domain": "crecerank.com",
+          "label": "Medido con CreceRank",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Maximage - DQM Software",
+      "profileUrl": "https://enterpriseleague.com/company/maximage-dqm-software",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/maximage-dqm-software",
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429"
+    },
+    {
+      "name": "Pana Business",
+      "profileUrl": "https://enterpriseleague.com/company/pana-business",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/pana-business",
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://pana.com.co/",
+      "domain": "pana.com.co",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://pana.com.co/",
+          "domain": "pana.com.co",
+          "label": "Visit Official Website",
+          "score": 1
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "WayTooDigital",
+      "profileUrl": "https://enterpriseleague.com/company/waytoodigital",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/waytoodigital",
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429"
+    },
+    {
+      "name": "Dev Apps Mobile",
+      "profileUrl": "https://enterpriseleague.com/company/dev-apps-mobile",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/dev-apps-mobile",
+      "queryLane": "Enterprise League software directory — Peru",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/pe",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429"
+    },
+    {
+      "name": "Andes Blockchain",
+      "profileUrl": "https://enterpriseleague.com/company/andes-blockchain",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/andes-blockchain",
+      "queryLane": "Enterprise League software directory — Chile",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/cl",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429"
+    },
+    {
+      "name": "Skedway",
+      "profileUrl": "https://enterpriseleague.com/company/skedway",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/skedway",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429"
+    },
+    {
+      "name": "EMTEC COSTA RICA S.A",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3-102-200980",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 1,
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.proveedoresdeamerica.com/sello/9012a083d9155df5e94fd42b6449fe17",
+      "domain": "proveedoresdeamerica.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/sello/9012a083d9155df5e94fd42b6449fe17",
+          "domain": "proveedoresdeamerica.com",
+          "label": "",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Salud a un Clic S.A.",
+      "profileUrl": "https://alpunto.cr/en/business/salud-a-un-clic-s-a",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/salud-a-un-clic-s-a",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://saludaunclic.com/",
+      "domain": "saludaunclic.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://saludaunclic.com/",
+          "domain": "saludaunclic.com",
+          "label": "saludaunclic.com",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Pragmatike",
+      "profileUrl": "https://aworkado.co/companies/pragmatikee",
+      "directoryProfileUrl": "https://aworkado.co/companies/pragmatikee",
+      "sourceJobUrl": "https://aworkado.co/job/ingenieure-full-stack-or-teletravail-latam-76812",
+      "roleTitle": "Ingénieur(E) Full-Stack | Télétravail Latam",
+      "roleLocations": [
+        "Argentina",
+        "Colombia",
+        "Mid-level",
+        "Full Time",
+        "Remote"
+      ],
+      "queryLane": "Aworkado remote software engineering — LATAM postings",
+      "sourceUrl": "https://aworkado.co/remote/software-engineering/latin-america",
+      "locationLead": "LATAM",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-aworkado-company-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "http://www.pragmatike.com/",
+      "domain": "pragmatike.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://www.pragmatike.com/",
+          "domain": "pragmatike.com",
+          "label": "Visit pragmatike.com",
+          "score": 1
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "NUTHOST",
+      "profileUrl": "https://enterpriseleague.com/company/nuthost",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/nuthost",
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429"
+    },
+    {
+      "name": "InnovationDS",
+      "profileUrl": "https://enterpriseleague.com/company/innovationds",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/innovationds",
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429"
+    },
+    {
+      "name": "Reservo",
+      "profileUrl": "https://enterpriseleague.com/company/reservo",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/reservo",
+      "queryLane": "Enterprise League software directory — Chile",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/cl",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429"
+    },
+    {
+      "name": "MAPS S A",
+      "profileUrl": "https://enterpriseleague.com/company/maps-s-a",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/maps-s-a",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429"
+    },
+    {
+      "name": "NGN COSTA RICA",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3-102-200973",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 1,
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.proveedoresdeamerica.com/sello/645edb5142b4259f87091171d2bcdd21",
+      "domain": "proveedoresdeamerica.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/sello/645edb5142b4259f87091171d2bcdd21",
+          "domain": "proveedoresdeamerica.com",
+          "label": "",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Tienda Gollo (UNICOMER)",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/31010000000022",
+      "directoryProfileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/31010000000022",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-regional-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.proveedoresdeamerica.com/sello/d03b252b20fb7de9e6dc175c9b089eb6",
+      "domain": "proveedoresdeamerica.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/sello/d03b252b20fb7de9e6dc175c9b089eb6",
+          "domain": "proveedoresdeamerica.com",
+          "label": "",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "wolkvox",
+      "profileUrl": "https://enterpriseleague.com/company/wolkvox",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/wolkvox",
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.wolkvox.com/",
+      "domain": "wolkvox.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.wolkvox.com/",
+          "domain": "wolkvox.com",
+          "label": "Visit Official Website",
+          "score": 1
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Horus Studio",
+      "profileUrl": "https://enterpriseleague.com/company/horus-studio",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/horus-studio",
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429"
+    },
+    {
+      "name": "AgriConnected",
+      "profileUrl": "https://enterpriseleague.com/company/agriconnected",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/agriconnected",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429"
+    },
+    {
+      "name": "Grupo Corporativo NBF",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3-102-200861",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 1,
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.proveedoresdeamerica.com/sello/22c8fa9a8fab810c7e9da71fe4be0585",
+      "domain": "proveedoresdeamerica.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/sello/22c8fa9a8fab810c7e9da71fe4be0585",
+          "domain": "proveedoresdeamerica.com",
+          "label": "",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Moovin",
+      "profileUrl": "https://alpunto.cr/en/business/moovin",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/moovin",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=2",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://moovin.me/",
+      "domain": "moovin.me",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://moovin.me/",
+          "domain": "moovin.me",
+          "label": "moovin.me/",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Remote Talent LATAM",
+      "profileUrl": "https://aworkado.co/companies/remote-talent-latam",
+      "directoryProfileUrl": "https://aworkado.co/companies/remote-talent-latam",
+      "sourceJobUrl": "https://aworkado.co/job/senior-backend-engineer-or-remote-or-latam-only-or-89010-73315",
+      "roleTitle": "Senior Backend Engineer | Remote | Latam Only | 89010",
+      "roleLocations": [
+        "Mexico"
+      ],
+      "queryLane": "Aworkado remote software engineering — LATAM postings",
+      "sourceUrl": "https://aworkado.co/remote/software-engineering/latin-america",
+      "locationLead": "LATAM",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-aworkado-company-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://remotetalentlatam.com/",
+      "domain": "remotetalentlatam.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://remotetalentlatam.com/",
+          "domain": "remotetalentlatam.com",
+          "label": "Visit remotetalentlatam.com",
+          "score": 1
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Future Software Co.",
+      "profileUrl": "https://enterpriseleague.com/company/future-software-co",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/future-software-co",
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "http://future.com.mx/",
+      "domain": "future.com.mx",
+      "profileWebsiteCandidates": [
+        {
+          "url": "http://future.com.mx/",
+          "domain": "future.com.mx",
+          "label": "Visit Official Website",
+          "score": 1
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Simetrik",
+      "profileUrl": "https://enterpriseleague.com/company/simetrik",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/simetrik",
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://simetrik.com/",
+      "domain": "simetrik.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://simetrik.com/",
+          "domain": "simetrik.com",
+          "label": "Visit Official Website",
+          "score": 1
+        },
+        {
+          "url": "https://www.crunchbase.com/organization/simetrik",
+          "domain": "crunchbase.com",
+          "label": "",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Clousis",
+      "profileUrl": "https://enterpriseleague.com/company/clousis",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/clousis",
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429"
+    },
+    {
+      "name": "Tryolabs",
+      "profileUrl": "https://enterpriseleague.com/company/tryolabs",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/tryolabs",
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429"
+    },
+    {
+      "name": "SciCrop",
+      "profileUrl": "https://enterpriseleague.com/company/scicrop",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/scicrop",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://scicrop.com/wp-login.php",
+      "domain": "scicrop.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://scicrop.com/wp-login.php",
+          "domain": "scicrop.com",
+          "label": "Visit Official Website",
+          "score": 1
+        },
+        {
+          "url": "https://www.crunchbase.com/organization/scicrop",
+          "domain": "crunchbase.com",
+          "label": "",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "DelRam S.A.",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3-102-200771",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 1,
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.proveedoresdeamerica.com/sello/5665bbb60030321eb2047a5c41385571",
+      "domain": "proveedoresdeamerica.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/sello/5665bbb60030321eb2047a5c41385571",
+          "domain": "proveedoresdeamerica.com",
+          "label": "",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "BTODigital Latam | Soluciones Digitales",
+      "profileUrl": "https://enterpriseleague.com/company/btodigital-latam-soluciones-digitales",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/btodigital-latam-soluciones-digitales",
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://btodigital.com/",
+      "domain": "btodigital.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://btodigital.com/",
+          "domain": "btodigital.com",
+          "label": "Visit Official Website",
+          "score": 1
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "MIC Technologies",
+      "profileUrl": "https://enterpriseleague.com/company/mic-technologies",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/mic-technologies",
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429"
+    },
+    {
+      "name": "Overlap",
+      "profileUrl": "https://enterpriseleague.com/company/overlap",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/overlap",
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://weareoverlap.io/",
+      "domain": "weareoverlap.io",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://weareoverlap.io/",
+          "domain": "weareoverlap.io",
+          "label": "Visit Official Website",
+          "score": 1
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "TerraMagna",
+      "profileUrl": "https://enterpriseleague.com/company/terramagna",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/terramagna",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://terramagna.com.br/",
+      "domain": "terramagna.com.br",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://terramagna.com.br/",
+          "domain": "terramagna.com.br",
+          "label": "Visit Official Website",
+          "score": 1
+        },
+        {
+          "url": "https://www.crunchbase.com/organization/terramagna",
+          "domain": "crunchbase.com",
+          "label": "",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "T",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/31010000000022",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 1,
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.proveedoresdeamerica.com/sello/d03b252b20fb7de9e6dc175c9b089eb6",
+      "domain": "proveedoresdeamerica.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/sello/d03b252b20fb7de9e6dc175c9b089eb6",
+          "domain": "proveedoresdeamerica.com",
+          "label": "",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Carlos Eduardo Morales Segura",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/111930869",
+      "directoryProfileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/111930869",
+      "queryLane": "Proveedores de Costa Rica software supplier directory",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-regional-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.proveedoresdeamerica.com/",
+      "domain": "proveedoresdeamerica.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.proveedoresdeamerica.com/",
+          "domain": "proveedoresdeamerica.com",
+          "label": "Proveedores de América",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Moxie",
+      "profileUrl": "https://aworkado.co/companies/joinmoxie",
+      "directoryProfileUrl": "https://aworkado.co/companies/joinmoxie",
+      "sourceJobUrl": "https://aworkado.co/job/staff-product-engineer-frontend-latam-64971",
+      "roleTitle": "Staff Product Engineer, Frontend (Latam)",
+      "roleLocations": [
+        "Chile",
+        "Brazil",
+        "Senior",
+        "Full Time",
+        "Remote",
+        "$97-170K"
+      ],
+      "queryLane": "Aworkado remote software engineering — LATAM postings",
+      "sourceUrl": "https://aworkado.co/remote/software-engineering/latin-america",
+      "locationLead": "LATAM",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-aworkado-company-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.joinmoxie.com/",
+      "domain": "joinmoxie.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.joinmoxie.com/",
+          "domain": "joinmoxie.com",
+          "label": "Visit joinmoxie.com",
+          "score": 1
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "Banco Promérica",
+      "profileUrl": "https://www.camtic.org/project/banco-promerica/",
+      "queryLane": "CAMTIC Costa Rica ICT member directory",
+      "sourceUrl": "https://www.camtic.org/project/banco-promerica/",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-camtic-company-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.promerica.fi.cr/",
+      "domain": "promerica.fi.cr",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.promerica.fi.cr/",
+          "domain": "promerica.fi.cr",
+          "label": "www.promerica.fi.cr",
+          "score": 0
+        },
+        {
+          "url": "https://cookiedatabase.org/tcf/purposes/",
+          "domain": "cookiedatabase.org",
+          "label": "Leer más sobre estos propósitos",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    },
+    {
+      "name": "ABsmartly",
+      "profileUrl": "https://enterpriseleague.com/company/absmartly",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/absmartly",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429"
+    },
+    {
+      "name": "Lighthouse Technologies",
+      "profileUrl": "https://enterpriseleague.com/company/lighthouse-technologies",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/lighthouse-technologies",
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429"
+    },
+    {
+      "name": "SM Digital",
+      "profileUrl": "https://enterpriseleague.com/company/sm-digital-1940021",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/sm-digital-1940021",
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429"
+    },
+    {
+      "name": "Chimpancé Digital",
+      "profileUrl": "https://enterpriseleague.com/company/chimpance-digital",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/chimpance-digital",
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429"
+    },
+    {
+      "name": "QAlified",
+      "profileUrl": "https://enterpriseleague.com/company/qalified",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/qalified",
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429"
+    },
+    {
+      "name": "Cortex",
+      "profileUrl": "https://enterpriseleague.com/company/cortex",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/cortex",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429"
+    },
+    {
+      "name": "Qubika",
+      "profileUrl": "https://thenearshorehub.com/es/empresas/qubika/",
+      "directoryProfileUrl": "https://thenearshorehub.com/es/empresas/qubika/",
+      "queryLane": "Nearshore Hub Latin America software provider directory",
+      "sourceUrl": "https://thenearshorehub.com/es/empresas/",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-nearshorehub-company-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://qubika.com/",
+      "domain": "qubika.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://qubika.com/",
+          "domain": "qubika.com",
+          "label": "Ir al sitio",
+          "score": 0
+        },
+        {
+          "url": "https://crecerank.com/",
+          "domain": "crecerank.com",
+          "label": "Medido con CreceRank",
+          "score": 0
+        }
+      ],
+      "profileFetchStatus": 200
+    }
+  ]
+}

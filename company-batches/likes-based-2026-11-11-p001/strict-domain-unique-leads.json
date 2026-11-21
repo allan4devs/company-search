@@ -1,0 +1,647 @@
+{
+  "cohortId": "likes-based-2026-11-11-p001",
+  "generatedOn": "2026-11-11",
+  "catalog": {
+    "source": "saved MongoDB snapshot + bundled files",
+    "mongoCompanies": 1636,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 0,
+    "indexedNames": 1656,
+    "indexedDomains": 1602
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 119,
+    "topTracks": [
+      {
+        "track": "Software Engineering",
+        "count": 62
+      },
+      {
+        "track": "Engineering",
+        "count": 38
+      },
+      {
+        "track": "Full Stack",
+        "count": 8
+      },
+      {
+        "track": "Nearshore",
+        "count": 7
+      },
+      {
+        "track": "Full-stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Backend",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "Python",
+        "count": 3
+      },
+      {
+        "track": "Product Engineering",
+        "count": 3
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        64
+      ],
+      [
+        "direct",
+        32
+      ],
+      [
+        "unknown",
+        23
+      ]
+    ]
+  },
+  "dislikeBaseline": {
+    "activeDislikedWithCostaRicaOrLatamEvidence": 467,
+    "dislikedTracks": [
+      {
+        "track": "Software Engineering",
+        "count": 365
+      },
+      {
+        "track": "Engineering",
+        "count": 62
+      },
+      {
+        "track": "Nearshore",
+        "count": 17
+      },
+      {
+        "track": "Full Stack",
+        "count": 16
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 15
+      },
+      {
+        "track": "Backend",
+        "count": 15
+      },
+      {
+        "track": "Full-stack",
+        "count": 9
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 8
+      },
+      {
+        "track": "Python + React Full Stack",
+        "count": 7
+      },
+      {
+        "track": "Data Engineering",
+        "count": 7
+      },
+      {
+        "track": "Java Backend",
+        "count": 6
+      },
+      {
+        "track": "React / Frontend",
+        "count": 6
+      }
+    ],
+    "modelMix": [
+      [
+        "unknown",
+        274
+      ],
+      [
+        "outsourcing",
+        120
+      ],
+      [
+        "direct",
+        73
+      ]
+    ]
+  },
+  "preferenceContrast": {
+    "scope": "Active liked/disliked companies with explicit Costa Rica or LATAM evidence; each company counts once per feature.",
+    "likedCompanies": 119,
+    "dislikedCompanies": 467,
+    "models": [
+      {
+        "feature": "outsourcing",
+        "likedCount": 64,
+        "likedRate": 0.538,
+        "dislikedCount": 120,
+        "dislikedRate": 0.257,
+        "likedMinusDisliked": 0.281
+      },
+      {
+        "feature": "direct",
+        "likedCount": 32,
+        "likedRate": 0.269,
+        "dislikedCount": 73,
+        "dislikedRate": 0.156,
+        "likedMinusDisliked": 0.113
+      },
+      {
+        "feature": "unknown",
+        "likedCount": 23,
+        "likedRate": 0.193,
+        "dislikedCount": 274,
+        "dislikedRate": 0.587,
+        "likedMinusDisliked": -0.393
+      }
+    ],
+    "tracks": [
+      {
+        "feature": "Engineering",
+        "likedCount": 38,
+        "likedRate": 0.319,
+        "dislikedCount": 62,
+        "dislikedRate": 0.133,
+        "likedMinusDisliked": 0.187
+      },
+      {
+        "feature": "Full Stack",
+        "likedCount": 8,
+        "likedRate": 0.067,
+        "dislikedCount": 16,
+        "dislikedRate": 0.034,
+        "likedMinusDisliked": 0.033
+      },
+      {
+        "feature": "Java",
+        "likedCount": 5,
+        "likedRate": 0.042,
+        "dislikedCount": 4,
+        "dislikedRate": 0.009,
+        "likedMinusDisliked": 0.033
+      },
+      {
+        "feature": "Full-stack",
+        "likedCount": 6,
+        "likedRate": 0.05,
+        "dislikedCount": 9,
+        "dislikedRate": 0.019,
+        "likedMinusDisliked": 0.031
+      },
+      {
+        "feature": "React + Node Full Stack",
+        "likedCount": 5,
+        "likedRate": 0.042,
+        "dislikedCount": 8,
+        "dislikedRate": 0.017,
+        "likedMinusDisliked": 0.025
+      },
+      {
+        "feature": "Nearshore",
+        "likedCount": 7,
+        "likedRate": 0.059,
+        "dislikedCount": 17,
+        "dislikedRate": 0.036,
+        "likedMinusDisliked": 0.022
+      },
+      {
+        "feature": "Product Engineering",
+        "likedCount": 3,
+        "likedRate": 0.025,
+        "dislikedCount": 3,
+        "dislikedRate": 0.006,
+        "likedMinusDisliked": 0.019
+      },
+      {
+        "feature": "React",
+        "likedCount": 3,
+        "likedRate": 0.025,
+        "dislikedCount": 5,
+        "dislikedRate": 0.011,
+        "likedMinusDisliked": 0.015
+      },
+      {
+        "feature": "Python",
+        "likedCount": 3,
+        "likedRate": 0.025,
+        "dislikedCount": 5,
+        "dislikedRate": 0.011,
+        "likedMinusDisliked": 0.015
+      },
+      {
+        "feature": "Node.js",
+        "likedCount": 2,
+        "likedRate": 0.017,
+        "dislikedCount": 2,
+        "dislikedRate": 0.004,
+        "likedMinusDisliked": 0.013
+      },
+      {
+        "feature": "Java + React Full Stack",
+        "likedCount": 5,
+        "likedRate": 0.042,
+        "dislikedCount": 15,
+        "dislikedRate": 0.032,
+        "likedMinusDisliked": 0.01
+      },
+      {
+        "feature": "JavaScript",
+        "likedCount": 2,
+        "likedRate": 0.017,
+        "dislikedCount": 4,
+        "dislikedRate": 0.009,
+        "likedMinusDisliked": 0.008
+      },
+      {
+        "feature": "AI Engineering",
+        "likedCount": 2,
+        "likedRate": 0.017,
+        "dislikedCount": 4,
+        "dislikedRate": 0.009,
+        "likedMinusDisliked": 0.008
+      },
+      {
+        "feature": "TypeScript",
+        "likedCount": 1,
+        "likedRate": 0.008,
+        "dislikedCount": 2,
+        "dislikedRate": 0.004,
+        "likedMinusDisliked": 0.004
+      },
+      {
+        "feature": "Python + React Full Stack",
+        "likedCount": 2,
+        "likedRate": 0.017,
+        "dislikedCount": 7,
+        "dislikedRate": 0.015,
+        "likedMinusDisliked": 0.002
+      },
+      {
+        "feature": "Frontend",
+        "likedCount": 1,
+        "likedRate": 0.008,
+        "dislikedCount": 3,
+        "dislikedRate": 0.006,
+        "likedMinusDisliked": 0.002
+      },
+      {
+        "feature": "Cloud",
+        "likedCount": 1,
+        "likedRate": 0.008,
+        "dislikedCount": 3,
+        "dislikedRate": 0.006,
+        "likedMinusDisliked": 0.002
+      },
+      {
+        "feature": "AI",
+        "likedCount": 1,
+        "likedRate": 0.008,
+        "dislikedCount": 3,
+        "dislikedRate": 0.006,
+        "likedMinusDisliked": 0.002
+      },
+      {
+        "feature": "Backend",
+        "likedCount": 4,
+        "likedRate": 0.034,
+        "dislikedCount": 15,
+        "dislikedRate": 0.032,
+        "likedMinusDisliked": 0.001
+      },
+      {
+        "feature": "Security",
+        "likedCount": 1,
+        "likedRate": 0.008,
+        "dislikedCount": 4,
+        "dislikedRate": 0.009,
+        "likedMinusDisliked": 0
+      }
+    ],
+    "roleFamilies": [
+      {
+        "feature": "Full stack",
+        "likedCount": 26,
+        "likedRate": 0.218,
+        "dislikedCount": 44,
+        "dislikedRate": 0.094,
+        "likedMinusDisliked": 0.124
+      },
+      {
+        "feature": "Backend",
+        "likedCount": 11,
+        "likedRate": 0.092,
+        "dislikedCount": 28,
+        "dislikedRate": 0.06,
+        "likedMinusDisliked": 0.032
+      },
+      {
+        "feature": "Frontend",
+        "likedCount": 4,
+        "likedRate": 0.034,
+        "dislikedCount": 12,
+        "dislikedRate": 0.026,
+        "likedMinusDisliked": 0.008
+      },
+      {
+        "feature": "Security",
+        "likedCount": 3,
+        "likedRate": 0.025,
+        "dislikedCount": 11,
+        "dislikedRate": 0.024,
+        "likedMinusDisliked": 0.002
+      },
+      {
+        "feature": "DevOps / platform",
+        "likedCount": 4,
+        "likedRate": 0.034,
+        "dislikedCount": 17,
+        "dislikedRate": 0.036,
+        "likedMinusDisliked": -0.003
+      },
+      {
+        "feature": "Data",
+        "likedCount": 8,
+        "likedRate": 0.067,
+        "dislikedCount": 34,
+        "dislikedRate": 0.073,
+        "likedMinusDisliked": -0.006
+      },
+      {
+        "feature": "Mobile",
+        "likedCount": 0,
+        "likedRate": 0,
+        "dislikedCount": 3,
+        "dislikedRate": 0.006,
+        "likedMinusDisliked": -0.006
+      },
+      {
+        "feature": "QA / testing",
+        "likedCount": 1,
+        "likedRate": 0.008,
+        "dislikedCount": 7,
+        "dislikedRate": 0.015,
+        "likedMinusDisliked": -0.007
+      }
+    ],
+    "usage": "Use as a soft source-priority signal. Do not reject a company on preferences alone or weaken the location/evidence gate."
+  },
+  "candidates": [
+    {
+      "name": "Remote Talent LATAM",
+      "profileUrl": "https://aworkado.co/companies/remote-talent-latam",
+      "directoryProfileUrl": "https://aworkado.co/companies/remote-talent-latam",
+      "sourceJobUrl": "https://aworkado.co/job/senior-backend-engineer-or-remote-or-latam-only-or-89010-73315",
+      "roleTitle": "Senior Backend Engineer | Remote | Latam Only | 89010",
+      "roleLocations": [
+        "Mexico"
+      ],
+      "queryLane": "Aworkado remote software engineering — LATAM postings",
+      "sourceUrl": "https://aworkado.co/remote/software-engineering/latin-america",
+      "locationLead": "LATAM",
+      "sourceFile": "company-batches\\likes-based-2026-11-11-p001\\fetch-aworkado-company-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://remotetalentlatam.com/",
+      "domain": "remotetalentlatam.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://remotetalentlatam.com/",
+          "domain": "remotetalentlatam.com",
+          "label": "Visit remotetalentlatam.com",
+          "score": 1
+        }
+      ],
+      "profileFetchStatus": 200,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 1,
+      "careersUrl": "https://remotetalentlatam.com/",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://remotetalentlatam.com/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "Latin America",
+        "LATAM"
+      ],
+      "officialLocationSnippets": [
+        {
+          "url": "https://remotetalentlatam.com/",
+          "snippet": "Hire Latin American Talent | LATAM Marketing Recruiting Home About Us Roles Hire PPC Experts Hire Graphic Designers Hire SEO Specialist Hire Administrative Assistants H"
+        },
+        {
+          "url": "https://remotetalentlatam.com/",
+          "snippet": "Hire Latin American Talent | LATAM Marketing Recruiting Home About Us Roles Hire PPC Experts Hire Graphic Designers Hire SEO Specialist Hire Administrative Assistants Hire Account Mana"
+        },
+        {
+          "url": "https://remotetalentlatam.com/",
+          "snippet": "ess Stories Openings For Applicants Blog Book a Discovery Call Recruiting Partner for Marketing Agencies Hire Latin American Talent for Your Marketing Agency We find the marketing professionals your agency needs: agency-trained, fluent in English, working in your timezone."
+        },
+        {
+          "url": "https://remotetalentlatam.com/",
+          "snippet": "ey don&#8217;t know the difference between a media buyer and a PPC specialist and it shows. Why Remote Talent LATAM We're Not a Generic Recruiter. We're Marketers Who Recruit. Most recruiting agencies treat your open position like any other job. We don&#8217;t. Eve"
+        },
+        {
+          "url": "https://remotetalentlatam.com/",
+          "snippet": "uly zero-risk 90-day replacement guarantee if any hire doesn't work out Angel Salinas Founder | Remote Talent LATAM With 12+ years in digital marketing, including 5 years as a Senior PPC Specialist and 5 years as Regional Marketing Manager, I know what a great mark"
+        },
+        {
+          "url": "https://remotetalentlatam.com/",
+          "snippet": "d 5 years as Regional Marketing Manager, I know what a great marketing hire looks like. I built Remote Talent LATAM because I saw agencies overpaying for talent while better options went undiscovered. Our model is simple: we only win when you win. No retainers, no "
+        },
+        {
+          "url": "https://remotetalentlatam.com/",
+          "snippet": "ounts. The process was effortless.&#8221; L Laura Founding members of Broadleaf Digital Play Video × Why Hire LATAM Talent Same Timezone. Same Language. 60% Lower Cost. When you hire Latin American talent through Remote Talent LATAM, you get the closest experience "
+        },
+        {
+          "url": "https://remotetalentlatam.com/",
+          "snippet": "adleaf Digital Play Video × Why Hire LATAM Talent Same Timezone. Same Language. 60% Lower Cost. When you hire Latin American talent through Remote Talent LATAM, you get the closest experience to having someone in your office at a fraction of U.S. salaries. Unlike the Phili"
+        },
+        {
+          "url": "https://remotetalentlatam.com/",
+          "snippet": "alent Same Timezone. Same Language. 60% Lower Cost. When you hire Latin American talent through Remote Talent LATAM, you get the closest experience to having someone in your office at a fraction of U.S. salaries. Unlike the Philippines or Eastern Europe, LATAM prof"
+        },
+        {
+          "url": "https://remotetalentlatam.com/",
+          "snippet": "ce to having someone in your office at a fraction of U.S. salaries. Unlike the Philippines or Eastern Europe, LATAM professionals work your exact business hours. They attend your morning standups, join client calls, and respond to Slack in real time. Save up to $32"
+        },
+        {
+          "url": "https://remotetalentlatam.com/",
+          "snippet": "me. Save up to $32,000 per hire A senior PPC specialist in the U.S. costs $70K–$90K/yr. The same caliber from LATAM: $28K–$36K/yr. For a 5-person team, that&#8217;s $200K+ in annual savings. Factor U.S. Philippines LATAM Timezone Overlap ✓ Full ✗ 12hr gap ✓ Full En"
+        },
+        {
+          "url": "https://remotetalentlatam.com/",
+          "snippet": "from LATAM: $28K–$36K/yr. For a 5-person team, that&#8217;s $200K+ in annual savings. Factor U.S. Philippines LATAM Timezone Overlap ✓ Full ✗ 12hr gap ✓ Full English Fluency ✓ Native ~ Good ✓ C1 Level Cultural Alignment ✓ Full ~ Partial ✓ Strong Senior Role Cost $7"
+        },
+        {
+          "url": "https://remotetalentlatam.com/",
+          "snippet": "mezone, fluent English All deliverables included Replacement guarantee included Perfect entry point for first LATAM hire Typical LATAM salaries: Junior $18–24K/yr · Mid-level $24–32K/yr · Senior $32–45K/yr · Handled directly via Deel, Remote, or Rippling Marketing "
+        },
+        {
+          "url": "https://remotetalentlatam.com/",
+          "snippet": "ish All deliverables included Replacement guarantee included Perfect entry point for first LATAM hire Typical LATAM salaries: Junior $18–24K/yr · Mid-level $24–32K/yr · Senior $32–45K/yr · Handled directly via Deel, Remote, or Rippling Marketing Roles We Fill Every"
+        },
+        {
+          "url": "https://remotetalentlatam.com/",
+          "snippet": "rectly via Deel, Remote, or Rippling Marketing Roles We Fill Every Marketing Role Your Agency Needs, Found in LATAM From media buyers to creative directors, we specialize exclusively in marketing talent, so we know exactly what to look for. Paid Media PPC Specialis"
+        },
+        {
+          "url": "https://remotetalentlatam.com/",
+          "snippet": "mitment ✓ First candidates in 10 business days ✓ Pay only when you hire Why Marketing Agencies Choose to Hire Latin American Talent The decision to hire Latin American talent has become one of the most strategic moves a U.S. marketing agency can make. With rising domestic "
+        }
+      ],
+      "officialRegionalPresenceSnippets": [],
+      "regionalPresenceCountries": [],
+      "officialFitSnippets": [
+        {
+          "url": "https://remotetalentlatam.com/",
+          "snippet": "ng Agencies Most recruiting firms are generalists. They fill whatever role you send them, from accountants to engineers to marketers, and the quality of their marketing placements reflects it. Remote Talent LATAM is different. We are a specialist firm, focused exclusi"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": true,
+      "regionalWorkEligibilityVerified": true,
+      "regionalPresenceVerified": false
+    },
+    {
+      "name": "Workstate",
+      "profileUrl": "https://aworkado.co/companies/workstate",
+      "directoryProfileUrl": "https://aworkado.co/companies/workstate",
+      "sourceJobUrl": "https://aworkado.co/job/senior-cobol-developer-zos-latam-remote-55156",
+      "roleTitle": "Senior Cobol Developer (Z/Os) - Latam Remote",
+      "roleLocations": [
+        "Colombia",
+        "Argentina"
+      ],
+      "queryLane": "Aworkado remote software engineering — LATAM postings",
+      "sourceUrl": "https://aworkado.co/remote/software-engineering/latin-america",
+      "locationLead": "LATAM",
+      "sourceFile": "company-batches\\likes-based-2026-11-11-p001\\fetch-aworkado-company-leads.json",
+      "needsOfficialDomainResolution": true,
+      "website": "https://www.workstate.com/",
+      "domain": "workstate.com",
+      "profileWebsiteCandidates": [
+        {
+          "url": "https://www.workstate.com/",
+          "domain": "workstate.com",
+          "label": "Visit workstate.com",
+          "score": 1
+        }
+      ],
+      "profileFetchStatus": 200,
+      "officialIdentityVerified": true,
+      "officialPagesChecked": 3,
+      "careersUrl": "https://www.workstate.com/careers/",
+      "officialSiteStatus": 200,
+      "officialPages": [
+        {
+          "url": "https://www.workstate.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.workstate.com/us-and-nearshore-teams/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.workstate.com/careers/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "officialLocations": [
+        "LATAM"
+      ],
+      "officialLocationSnippets": [],
+      "officialRegionalPresenceSnippets": [
+        {
+          "url": "https://www.workstate.com/us-and-nearshore-teams/",
+          "country": "Mexico",
+          "snippet": "cilitate consensus, keep goals in sync and help ensure a smooth and successful engagement. We Manage Your Nearshore All Mexico and Colombia labor laws Office space Benefits Expenses Invoicing Day-to-day and ongoing performance Collaboration needs"
+        },
+        {
+          "url": "https://www.workstate.com/us-and-nearshore-teams/",
+          "country": "Colombia",
+          "snippet": "nsensus, keep goals in sync and help ensure a smooth and successful engagement. We Manage Your Nearshore All Mexico and Colombia labor laws Office space Benefits Expenses Invoicing Day-to-day and ongoing performance Collaboration needs served throu"
+        }
+      ],
+      "regionalPresenceCountries": [
+        "Mexico",
+        "Colombia"
+      ],
+      "officialFitSnippets": [
+        {
+          "url": "https://www.workstate.com/",
+          "snippet": "aboration with your current project and teams. Access to top tech talent We deliver hard-to-find, experienced software development talent when you don’t have the bandwidth to recruit, interview, hire and onboard. The right savings in cost and effort By choosing Workst"
+        },
+        {
+          "url": "https://www.workstate.com/",
+          "snippet": "based on our deep technical expertise, rigorous best practices and end-to-end capabilities in creating custom software solutions. Public Sector Development Teams Workstate builds long-term partnerships with Federal, State, and Local governmental agencies, as well as h"
+        },
+        {
+          "url": "https://www.workstate.com/",
+          "snippet": "ng institutions and non-profits. By providing highly effective, mature technology teams for all stages of the software development lifecycle, we meet the demanding needs of public sector projects with outcome certainty. We have multiple public contracting vehicles ava"
+        },
+        {
+          "url": "https://www.workstate.com/",
+          "snippet": "OUCH ABOUT US OUR MISSION CAREERS FOLLOW LinkedIn Copyright © 2024-2026 Workstate. All rights reserved. Civil Engineering WordPress Theme"
+        },
+        {
+          "url": "https://www.workstate.com/us-and-nearshore-teams/",
+          "snippet": " for all Your Technology Needs Workstate’s Teams as a Service (TaaS) is a revolutionary approach to providing software engineering teams. Our 25+ years of diverse, dynamic experience and hard-won knowledge allows you to transcend the limits of traditional teams with T"
+        },
+        {
+          "url": "https://www.workstate.com/us-and-nearshore-teams/",
+          "snippet": "Your Technology Needs Workstate’s Teams as a Service (TaaS) is a revolutionary approach to providing software engineering teams. Our 25+ years of diverse, dynamic experience and hard-won knowledge allows you to transcend the limits of traditional teams with TaaS. We cham"
+        },
+        {
+          "url": "https://www.workstate.com/us-and-nearshore-teams/",
+          "snippet": "OUCH ABOUT US OUR MISSION CAREERS FOLLOW LinkedIn Copyright © 2024-2026 Workstate. All rights reserved. Civil Engineering WordPress Theme"
+        },
+        {
+          "url": "https://www.workstate.com/careers/",
+          "snippet": "OUCH ABOUT US OUR MISSION CAREERS FOLLOW LinkedIn Copyright © 2024-2026 Workstate. All rights reserved. Civil Engineering WordPress Theme"
+        }
+      ],
+      "likelyFit": true,
+      "regionVerifiedOnOfficialSource": true,
+      "localPresenceVerified": false,
+      "regionalWorkEligibilityVerified": false,
+      "regionalPresenceVerified": true
+    }
+  ],
+  "uniqueCandidatesFound": 2,
+  "outputLimit": 1000,
+  "timingsMs": {
+    "inputReadMs": 3,
+    "mongoLoadOrSnapshotReadMs": 7,
+    "bundledCatalogReadMs": 15,
+    "previousBatchReadMs": 0,
+    "indexBuildMs": 21,
+    "candidateCompareMs": 0,
+    "preferenceAnalysisMs": 8,
+    "preReportWriteElapsedMs": 55
+  }
+}

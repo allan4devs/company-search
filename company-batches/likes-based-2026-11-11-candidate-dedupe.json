@@ -1,0 +1,432 @@
+{
+  "cohortId": "likes-based-2026-11-11-candidate-dedupe",
+  "generatedOn": "2026-11-11",
+  "catalog": {
+    "source": "saved MongoDB snapshot + bundled files",
+    "mongoCompanies": 1636,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 0,
+    "indexedNames": 1656,
+    "indexedDomains": 1602
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 119,
+    "topTracks": [
+      {
+        "track": "Software Engineering",
+        "count": 62
+      },
+      {
+        "track": "Engineering",
+        "count": 38
+      },
+      {
+        "track": "Full Stack",
+        "count": 8
+      },
+      {
+        "track": "Nearshore",
+        "count": 7
+      },
+      {
+        "track": "Full-stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Backend",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "Python",
+        "count": 3
+      },
+      {
+        "track": "Product Engineering",
+        "count": 3
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        64
+      ],
+      [
+        "direct",
+        32
+      ],
+      [
+        "unknown",
+        23
+      ]
+    ]
+  },
+  "dislikeBaseline": {
+    "activeDislikedWithCostaRicaOrLatamEvidence": 467,
+    "dislikedTracks": [
+      {
+        "track": "Software Engineering",
+        "count": 365
+      },
+      {
+        "track": "Engineering",
+        "count": 62
+      },
+      {
+        "track": "Nearshore",
+        "count": 17
+      },
+      {
+        "track": "Full Stack",
+        "count": 16
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 15
+      },
+      {
+        "track": "Backend",
+        "count": 15
+      },
+      {
+        "track": "Full-stack",
+        "count": 9
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 8
+      },
+      {
+        "track": "Python + React Full Stack",
+        "count": 7
+      },
+      {
+        "track": "Data Engineering",
+        "count": 7
+      },
+      {
+        "track": "Java Backend",
+        "count": 6
+      },
+      {
+        "track": "React / Frontend",
+        "count": 6
+      }
+    ],
+    "modelMix": [
+      [
+        "unknown",
+        274
+      ],
+      [
+        "outsourcing",
+        120
+      ],
+      [
+        "direct",
+        73
+      ]
+    ]
+  },
+  "preferenceContrast": {
+    "scope": "Active liked/disliked companies with explicit Costa Rica or LATAM evidence; each company counts once per feature.",
+    "likedCompanies": 119,
+    "dislikedCompanies": 467,
+    "models": [
+      {
+        "feature": "outsourcing",
+        "likedCount": 64,
+        "likedRate": 0.538,
+        "dislikedCount": 120,
+        "dislikedRate": 0.257,
+        "likedMinusDisliked": 0.281
+      },
+      {
+        "feature": "direct",
+        "likedCount": 32,
+        "likedRate": 0.269,
+        "dislikedCount": 73,
+        "dislikedRate": 0.156,
+        "likedMinusDisliked": 0.113
+      },
+      {
+        "feature": "unknown",
+        "likedCount": 23,
+        "likedRate": 0.193,
+        "dislikedCount": 274,
+        "dislikedRate": 0.587,
+        "likedMinusDisliked": -0.393
+      }
+    ],
+    "tracks": [
+      {
+        "feature": "Engineering",
+        "likedCount": 38,
+        "likedRate": 0.319,
+        "dislikedCount": 62,
+        "dislikedRate": 0.133,
+        "likedMinusDisliked": 0.187
+      },
+      {
+        "feature": "Full Stack",
+        "likedCount": 8,
+        "likedRate": 0.067,
+        "dislikedCount": 16,
+        "dislikedRate": 0.034,
+        "likedMinusDisliked": 0.033
+      },
+      {
+        "feature": "Java",
+        "likedCount": 5,
+        "likedRate": 0.042,
+        "dislikedCount": 4,
+        "dislikedRate": 0.009,
+        "likedMinusDisliked": 0.033
+      },
+      {
+        "feature": "Full-stack",
+        "likedCount": 6,
+        "likedRate": 0.05,
+        "dislikedCount": 9,
+        "dislikedRate": 0.019,
+        "likedMinusDisliked": 0.031
+      },
+      {
+        "feature": "React + Node Full Stack",
+        "likedCount": 5,
+        "likedRate": 0.042,
+        "dislikedCount": 8,
+        "dislikedRate": 0.017,
+        "likedMinusDisliked": 0.025
+      },
+      {
+        "feature": "Nearshore",
+        "likedCount": 7,
+        "likedRate": 0.059,
+        "dislikedCount": 17,
+        "dislikedRate": 0.036,
+        "likedMinusDisliked": 0.022
+      },
+      {
+        "feature": "Product Engineering",
+        "likedCount": 3,
+        "likedRate": 0.025,
+        "dislikedCount": 3,
+        "dislikedRate": 0.006,
+        "likedMinusDisliked": 0.019
+      },
+      {
+        "feature": "React",
+        "likedCount": 3,
+        "likedRate": 0.025,
+        "dislikedCount": 5,
+        "dislikedRate": 0.011,
+        "likedMinusDisliked": 0.015
+      },
+      {
+        "feature": "Python",
+        "likedCount": 3,
+        "likedRate": 0.025,
+        "dislikedCount": 5,
+        "dislikedRate": 0.011,
+        "likedMinusDisliked": 0.015
+      },
+      {
+        "feature": "Node.js",
+        "likedCount": 2,
+        "likedRate": 0.017,
+        "dislikedCount": 2,
+        "dislikedRate": 0.004,
+        "likedMinusDisliked": 0.013
+      },
+      {
+        "feature": "Java + React Full Stack",
+        "likedCount": 5,
+        "likedRate": 0.042,
+        "dislikedCount": 15,
+        "dislikedRate": 0.032,
+        "likedMinusDisliked": 0.01
+      },
+      {
+        "feature": "JavaScript",
+        "likedCount": 2,
+        "likedRate": 0.017,
+        "dislikedCount": 4,
+        "dislikedRate": 0.009,
+        "likedMinusDisliked": 0.008
+      },
+      {
+        "feature": "AI Engineering",
+        "likedCount": 2,
+        "likedRate": 0.017,
+        "dislikedCount": 4,
+        "dislikedRate": 0.009,
+        "likedMinusDisliked": 0.008
+      },
+      {
+        "feature": "TypeScript",
+        "likedCount": 1,
+        "likedRate": 0.008,
+        "dislikedCount": 2,
+        "dislikedRate": 0.004,
+        "likedMinusDisliked": 0.004
+      },
+      {
+        "feature": "Python + React Full Stack",
+        "likedCount": 2,
+        "likedRate": 0.017,
+        "dislikedCount": 7,
+        "dislikedRate": 0.015,
+        "likedMinusDisliked": 0.002
+      },
+      {
+        "feature": "Frontend",
+        "likedCount": 1,
+        "likedRate": 0.008,
+        "dislikedCount": 3,
+        "dislikedRate": 0.006,
+        "likedMinusDisliked": 0.002
+      },
+      {
+        "feature": "Cloud",
+        "likedCount": 1,
+        "likedRate": 0.008,
+        "dislikedCount": 3,
+        "dislikedRate": 0.006,
+        "likedMinusDisliked": 0.002
+      },
+      {
+        "feature": "AI",
+        "likedCount": 1,
+        "likedRate": 0.008,
+        "dislikedCount": 3,
+        "dislikedRate": 0.006,
+        "likedMinusDisliked": 0.002
+      },
+      {
+        "feature": "Backend",
+        "likedCount": 4,
+        "likedRate": 0.034,
+        "dislikedCount": 15,
+        "dislikedRate": 0.032,
+        "likedMinusDisliked": 0.001
+      },
+      {
+        "feature": "Security",
+        "likedCount": 1,
+        "likedRate": 0.008,
+        "dislikedCount": 4,
+        "dislikedRate": 0.009,
+        "likedMinusDisliked": 0
+      }
+    ],
+    "roleFamilies": [
+      {
+        "feature": "Full stack",
+        "likedCount": 26,
+        "likedRate": 0.218,
+        "dislikedCount": 44,
+        "dislikedRate": 0.094,
+        "likedMinusDisliked": 0.124
+      },
+      {
+        "feature": "Backend",
+        "likedCount": 11,
+        "likedRate": 0.092,
+        "dislikedCount": 28,
+        "dislikedRate": 0.06,
+        "likedMinusDisliked": 0.032
+      },
+      {
+        "feature": "Frontend",
+        "likedCount": 4,
+        "likedRate": 0.034,
+        "dislikedCount": 12,
+        "dislikedRate": 0.026,
+        "likedMinusDisliked": 0.008
+      },
+      {
+        "feature": "Security",
+        "likedCount": 3,
+        "likedRate": 0.025,
+        "dislikedCount": 11,
+        "dislikedRate": 0.024,
+        "likedMinusDisliked": 0.002
+      },
+      {
+        "feature": "DevOps / platform",
+        "likedCount": 4,
+        "likedRate": 0.034,
+        "dislikedCount": 17,
+        "dislikedRate": 0.036,
+        "likedMinusDisliked": -0.003
+      },
+      {
+        "feature": "Data",
+        "likedCount": 8,
+        "likedRate": 0.067,
+        "dislikedCount": 34,
+        "dislikedRate": 0.073,
+        "likedMinusDisliked": -0.006
+      },
+      {
+        "feature": "Mobile",
+        "likedCount": 0,
+        "likedRate": 0,
+        "dislikedCount": 3,
+        "dislikedRate": 0.006,
+        "likedMinusDisliked": -0.006
+      },
+      {
+        "feature": "QA / testing",
+        "likedCount": 1,
+        "likedRate": 0.008,
+        "dislikedCount": 7,
+        "dislikedRate": 0.015,
+        "likedMinusDisliked": -0.007
+      }
+    ],
+    "usage": "Use as a soft source-priority signal. Do not reject a company on preferences alone or weaken the location/evidence gate."
+  },
+  "candidates": [
+    {
+      "name": "Sumo Logic",
+      "website": "https://www.sumologic.com",
+      "careersUrl": "https://job-boards.greenhouse.io/sumologic",
+      "queryLane": "unspecified"
+    },
+    {
+      "name": "SPACE44",
+      "website": "https://space44.com",
+      "careersUrl": "https://jobs.ashbyhq.com/space44",
+      "queryLane": "unspecified"
+    }
+  ],
+  "uniqueCandidatesFound": 2,
+  "outputLimit": 1000,
+  "timingsMs": {
+    "inputReadMs": 2,
+    "mongoLoadOrSnapshotReadMs": 7,
+    "bundledCatalogReadMs": 14,
+    "previousBatchReadMs": 0,
+    "indexBuildMs": 20,
+    "candidateCompareMs": 0,
+    "preferenceAnalysisMs": 8,
+    "preReportWriteElapsedMs": 52
+  }
+}

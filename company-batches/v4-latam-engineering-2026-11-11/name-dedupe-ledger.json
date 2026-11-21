@@ -1,0 +1,4100 @@
+{
+  "cohortId": "v4-latam-engineering-2026-11-11",
+  "checkedOn": "2026-11-11",
+  "inputFiles": [
+    "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json"
+  ],
+  "inputCount": 362,
+  "uniqueCount": 194,
+  "outputCount": 194,
+  "duplicateCount": 168,
+  "missingIdentityCount": 0,
+  "catalog": {
+    "source": "MongoDB + bundled files",
+    "mongoCompanies": 1636,
+    "bundledCompanies": 1182,
+    "priorBatchCompanies": 0,
+    "indexedNames": 1851,
+    "indexedDomains": 1601
+  },
+  "likeBaseline": {
+    "activeLikedWithCostaRicaOrLatamEvidence": 119,
+    "topTracks": [
+      {
+        "track": "Software Engineering",
+        "count": 62
+      },
+      {
+        "track": "Engineering",
+        "count": 38
+      },
+      {
+        "track": "Full Stack",
+        "count": 8
+      },
+      {
+        "track": "Nearshore",
+        "count": 7
+      },
+      {
+        "track": "Full-stack",
+        "count": 6
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 5
+      },
+      {
+        "track": "Java",
+        "count": 5
+      },
+      {
+        "track": "Backend",
+        "count": 4
+      },
+      {
+        "track": "React",
+        "count": 3
+      },
+      {
+        "track": "Python",
+        "count": 3
+      },
+      {
+        "track": "Product Engineering",
+        "count": 3
+      }
+    ],
+    "modelMix": [
+      [
+        "outsourcing",
+        64
+      ],
+      [
+        "direct",
+        32
+      ],
+      [
+        "unknown",
+        23
+      ]
+    ]
+  },
+  "dislikeBaseline": {
+    "activeDislikedWithCostaRicaOrLatamEvidence": 467,
+    "dislikedTracks": [
+      {
+        "track": "Software Engineering",
+        "count": 365
+      },
+      {
+        "track": "Engineering",
+        "count": 62
+      },
+      {
+        "track": "Nearshore",
+        "count": 17
+      },
+      {
+        "track": "Full Stack",
+        "count": 16
+      },
+      {
+        "track": "Java + React Full Stack",
+        "count": 15
+      },
+      {
+        "track": "Backend",
+        "count": 15
+      },
+      {
+        "track": "Full-stack",
+        "count": 9
+      },
+      {
+        "track": "React + Node Full Stack",
+        "count": 8
+      },
+      {
+        "track": "Python + React Full Stack",
+        "count": 7
+      },
+      {
+        "track": "Data Engineering",
+        "count": 7
+      },
+      {
+        "track": "Java Backend",
+        "count": 6
+      },
+      {
+        "track": "React / Frontend",
+        "count": 6
+      }
+    ],
+    "modelMix": [
+      [
+        "unknown",
+        274
+      ],
+      [
+        "outsourcing",
+        120
+      ],
+      [
+        "direct",
+        73
+      ]
+    ]
+  },
+  "preferenceContrast": {
+    "scope": "Active liked/disliked companies with explicit Costa Rica or LATAM evidence; each company counts once per feature.",
+    "likedCompanies": 119,
+    "dislikedCompanies": 467,
+    "models": [
+      {
+        "feature": "outsourcing",
+        "likedCount": 64,
+        "likedRate": 0.538,
+        "dislikedCount": 120,
+        "dislikedRate": 0.257,
+        "likedMinusDisliked": 0.281
+      },
+      {
+        "feature": "direct",
+        "likedCount": 32,
+        "likedRate": 0.269,
+        "dislikedCount": 73,
+        "dislikedRate": 0.156,
+        "likedMinusDisliked": 0.113
+      },
+      {
+        "feature": "unknown",
+        "likedCount": 23,
+        "likedRate": 0.193,
+        "dislikedCount": 274,
+        "dislikedRate": 0.587,
+        "likedMinusDisliked": -0.393
+      }
+    ],
+    "tracks": [
+      {
+        "feature": "Engineering",
+        "likedCount": 38,
+        "likedRate": 0.319,
+        "dislikedCount": 62,
+        "dislikedRate": 0.133,
+        "likedMinusDisliked": 0.187
+      },
+      {
+        "feature": "Full Stack",
+        "likedCount": 8,
+        "likedRate": 0.067,
+        "dislikedCount": 16,
+        "dislikedRate": 0.034,
+        "likedMinusDisliked": 0.033
+      },
+      {
+        "feature": "Java",
+        "likedCount": 5,
+        "likedRate": 0.042,
+        "dislikedCount": 4,
+        "dislikedRate": 0.009,
+        "likedMinusDisliked": 0.033
+      },
+      {
+        "feature": "Full-stack",
+        "likedCount": 6,
+        "likedRate": 0.05,
+        "dislikedCount": 9,
+        "dislikedRate": 0.019,
+        "likedMinusDisliked": 0.031
+      },
+      {
+        "feature": "React + Node Full Stack",
+        "likedCount": 5,
+        "likedRate": 0.042,
+        "dislikedCount": 8,
+        "dislikedRate": 0.017,
+        "likedMinusDisliked": 0.025
+      },
+      {
+        "feature": "Nearshore",
+        "likedCount": 7,
+        "likedRate": 0.059,
+        "dislikedCount": 17,
+        "dislikedRate": 0.036,
+        "likedMinusDisliked": 0.022
+      },
+      {
+        "feature": "Product Engineering",
+        "likedCount": 3,
+        "likedRate": 0.025,
+        "dislikedCount": 3,
+        "dislikedRate": 0.006,
+        "likedMinusDisliked": 0.019
+      },
+      {
+        "feature": "React",
+        "likedCount": 3,
+        "likedRate": 0.025,
+        "dislikedCount": 5,
+        "dislikedRate": 0.011,
+        "likedMinusDisliked": 0.015
+      },
+      {
+        "feature": "Python",
+        "likedCount": 3,
+        "likedRate": 0.025,
+        "dislikedCount": 5,
+        "dislikedRate": 0.011,
+        "likedMinusDisliked": 0.015
+      },
+      {
+        "feature": "Node.js",
+        "likedCount": 2,
+        "likedRate": 0.017,
+        "dislikedCount": 2,
+        "dislikedRate": 0.004,
+        "likedMinusDisliked": 0.013
+      },
+      {
+        "feature": "Java + React Full Stack",
+        "likedCount": 5,
+        "likedRate": 0.042,
+        "dislikedCount": 15,
+        "dislikedRate": 0.032,
+        "likedMinusDisliked": 0.01
+      },
+      {
+        "feature": "JavaScript",
+        "likedCount": 2,
+        "likedRate": 0.017,
+        "dislikedCount": 4,
+        "dislikedRate": 0.009,
+        "likedMinusDisliked": 0.008
+      },
+      {
+        "feature": "AI Engineering",
+        "likedCount": 2,
+        "likedRate": 0.017,
+        "dislikedCount": 4,
+        "dislikedRate": 0.009,
+        "likedMinusDisliked": 0.008
+      },
+      {
+        "feature": "TypeScript",
+        "likedCount": 1,
+        "likedRate": 0.008,
+        "dislikedCount": 2,
+        "dislikedRate": 0.004,
+        "likedMinusDisliked": 0.004
+      },
+      {
+        "feature": "Python + React Full Stack",
+        "likedCount": 2,
+        "likedRate": 0.017,
+        "dislikedCount": 7,
+        "dislikedRate": 0.015,
+        "likedMinusDisliked": 0.002
+      },
+      {
+        "feature": "Frontend",
+        "likedCount": 1,
+        "likedRate": 0.008,
+        "dislikedCount": 3,
+        "dislikedRate": 0.006,
+        "likedMinusDisliked": 0.002
+      },
+      {
+        "feature": "Cloud",
+        "likedCount": 1,
+        "likedRate": 0.008,
+        "dislikedCount": 3,
+        "dislikedRate": 0.006,
+        "likedMinusDisliked": 0.002
+      },
+      {
+        "feature": "AI",
+        "likedCount": 1,
+        "likedRate": 0.008,
+        "dislikedCount": 3,
+        "dislikedRate": 0.006,
+        "likedMinusDisliked": 0.002
+      },
+      {
+        "feature": "Backend",
+        "likedCount": 4,
+        "likedRate": 0.034,
+        "dislikedCount": 15,
+        "dislikedRate": 0.032,
+        "likedMinusDisliked": 0.001
+      },
+      {
+        "feature": "Security",
+        "likedCount": 1,
+        "likedRate": 0.008,
+        "dislikedCount": 4,
+        "dislikedRate": 0.009,
+        "likedMinusDisliked": 0
+      }
+    ],
+    "roleFamilies": [
+      {
+        "feature": "Full stack",
+        "likedCount": 26,
+        "likedRate": 0.218,
+        "dislikedCount": 44,
+        "dislikedRate": 0.094,
+        "likedMinusDisliked": 0.124
+      },
+      {
+        "feature": "Backend",
+        "likedCount": 11,
+        "likedRate": 0.092,
+        "dislikedCount": 28,
+        "dislikedRate": 0.06,
+        "likedMinusDisliked": 0.032
+      },
+      {
+        "feature": "Frontend",
+        "likedCount": 4,
+        "likedRate": 0.034,
+        "dislikedCount": 12,
+        "dislikedRate": 0.026,
+        "likedMinusDisliked": 0.008
+      },
+      {
+        "feature": "Security",
+        "likedCount": 3,
+        "likedRate": 0.025,
+        "dislikedCount": 11,
+        "dislikedRate": 0.024,
+        "likedMinusDisliked": 0.002
+      },
+      {
+        "feature": "DevOps / platform",
+        "likedCount": 4,
+        "likedRate": 0.034,
+        "dislikedCount": 17,
+        "dislikedRate": 0.036,
+        "likedMinusDisliked": -0.003
+      },
+      {
+        "feature": "Data",
+        "likedCount": 8,
+        "likedRate": 0.067,
+        "dislikedCount": 34,
+        "dislikedRate": 0.073,
+        "likedMinusDisliked": -0.006
+      },
+      {
+        "feature": "Mobile",
+        "likedCount": 0,
+        "likedRate": 0,
+        "dislikedCount": 3,
+        "dislikedRate": 0.006,
+        "likedMinusDisliked": -0.006
+      },
+      {
+        "feature": "QA / testing",
+        "likedCount": 1,
+        "likedRate": 0.008,
+        "dislikedCount": 7,
+        "dislikedRate": 0.015,
+        "likedMinusDisliked": -0.007
+      }
+    ],
+    "usage": "Use as a soft source-priority signal. Do not reject a company on preferences alone or weaken the location/evidence gate."
+  },
+  "queryLanes": [
+    {
+      "lane": "Himalayas CR-filtered: data engineer",
+      "leads": 21,
+      "unique": 15,
+      "duplicateRate": 0.286,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Himalayas CR-filtered: backend engineer",
+      "leads": 23,
+      "unique": 15,
+      "duplicateRate": 0.348,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Find Remote Jobs current software-engineering LATAM feed",
+      "leads": 176,
+      "unique": 108,
+      "duplicateRate": 0.386,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Himalayas CR-filtered: devops engineer",
+      "leads": 28,
+      "unique": 17,
+      "duplicateRate": 0.393,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Himalayas CR-filtered: software developer",
+      "leads": 24,
+      "unique": 13,
+      "duplicateRate": 0.458,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Himalayas CR-filtered: frontend engineer",
+      "leads": 7,
+      "unique": 3,
+      "duplicateRate": 0.571,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Himalayas CR-filtered: full stack engineer",
+      "leads": 36,
+      "unique": 14,
+      "duplicateRate": 0.611,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Himalayas CR-filtered: software engineer",
+      "leads": 38,
+      "unique": 8,
+      "duplicateRate": 0.789,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Jobicy current LATAM engineering (engineering)",
+      "leads": 7,
+      "unique": 1,
+      "duplicateRate": 0.857,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Jobicy current LATAM engineering (admin)",
+      "leads": 1,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    },
+    {
+      "lane": "Jobicy current LATAM engineering (technical-support)",
+      "leads": 1,
+      "unique": 0,
+      "duplicateRate": 1,
+      "recommendation": "continue or expand this lane"
+    }
+  ],
+  "timingsMs": {
+    "inputReadMs": 8,
+    "mongoLoadOrSnapshotReadMs": 2977,
+    "snapshotWriteMs": 19,
+    "bundledCatalogReadMs": 19,
+    "previousBatchReadMs": 0,
+    "indexBuildMs": 42,
+    "candidateCompareMs": 5,
+    "preferenceAnalysisMs": 21,
+    "preReportWriteElapsedMs": 3104
+  },
+  "entries": [
+    {
+      "company": "lemon.io",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Lemon.io",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/lemon-io/jobs/senior-react-full-stack-developer?utm_source=api"
+    },
+    {
+      "company": "Infoya",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software developer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/infoya/jobs/software-development-engineer-in-test?utm_source=api"
+    },
+    {
+      "company": "Pavago",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: full stack engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Pavago",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/pavago/jobs/full-stack-ai-engineer?utm_source=api"
+    },
+    {
+      "company": "Techstars",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: backend engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/techstars/jobs/backend-engineer?utm_source=api"
+    },
+    {
+      "company": "Darwoft",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: frontend engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Darwoft",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/darwoft/jobs/1042-frontend-ux-engineer-react-typescript-ai-sr-remote-latam?utm_source=api"
+    },
+    {
+      "company": "Startale",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/startale/jobs/senior-devops-infrastructure-engineer-americas-us-time-zones?utm_source=api"
+    },
+    {
+      "company": "OneClick Data, Inc.",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: data engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/oneclick-data-inc/jobs/senior-data-analytics-engineer?utm_source=api"
+    },
+    {
+      "company": "TRM Labs",
+      "domain": "trmlabs.com",
+      "queryLane": "Jobicy current LATAM engineering (engineering)",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "TRM Labs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobicy.com/jobs-rss-feed"
+    },
+    {
+      "company": "Launchpad Technologies",
+      "domain": null,
+      "queryLane": "Jobicy current LATAM engineering (admin)",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Launchpad Technologies",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobicy.com/jobs-rss-feed"
+    },
+    {
+      "company": "Supabase",
+      "domain": "github.com",
+      "queryLane": "Jobicy current LATAM engineering (technical-support)",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Supabase",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobicy.com/jobs-rss-feed"
+    },
+    {
+      "company": "Swiftly",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-software-engineer--2e47216c2987"
+    },
+    {
+      "company": "Canonical",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Canonical",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/canonical/jobs/system-software-engineer-gcc-llvm-compiler-tooling-and-ecosystem?utm_source=api"
+    },
+    {
+      "company": "Paralucent",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software developer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/paralucent/jobs/software-developer-net-sharepoint-pl-828-909450317?utm_source=api"
+    },
+    {
+      "company": "Lyzr AI",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: full stack engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/lyzr-ai/jobs/full-stack-engineer-agentic-ai-north-america?utm_source=api"
+    },
+    {
+      "company": "blueworks AG",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: backend engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/blueworks-ag/jobs/663-backend-ai-engineers?utm_source=api"
+    },
+    {
+      "company": "AOA",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: frontend engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/aoa/jobs/senior-frontend-engineer-react-latam?utm_source=api"
+    },
+    {
+      "company": "Luxury Presence",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Luxury Presence",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/luxury-presence/jobs/senior-devops-engineer-latam?utm_source=api"
+    },
+    {
+      "company": "Nearshore Business Solutions",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: data engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Nearshore Business Solutions",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/nearshore-business-solutions/jobs/sr-data-engineer?utm_source=api"
+    },
+    {
+      "company": "Canonical",
+      "domain": "canonical.com",
+      "queryLane": "Jobicy current LATAM engineering (engineering)",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Canonical",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobicy.com/jobs-rss-feed"
+    },
+    {
+      "company": "RevenueCat",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "RevenueCat",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-data-scientist-product--550566de59b3"
+    },
+    {
+      "company": "R2",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "R2",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/r2/jobs/software-engineer-manager-latam-only?utm_source=api"
+    },
+    {
+      "company": "KIS Solutions",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software developer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/kis-solutions/jobs/application-developer-intern?utm_source=api"
+    },
+    {
+      "company": "Laylo",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: full stack engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/laylo/jobs/full-stack-engineer?utm_source=api"
+    },
+    {
+      "company": "Nebius",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: backend engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/nebius/jobs/senior-backend-software-engineer-observability?utm_source=api"
+    },
+    {
+      "company": "Nikola Digital Lab",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: frontend engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Nikola Digital Lab",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/nikola-digital-lab/jobs/senior-front-end-engineer-aem?utm_source=api"
+    },
+    {
+      "company": "AssureSoft",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "AssureSoft",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/assuresoft/jobs/devops-engineer?utm_source=api"
+    },
+    {
+      "company": "Nimble Gravity",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: data engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Nimble Gravity",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/nimble-gravity/jobs/senior-data-engineer-2043323054?utm_source=api"
+    },
+    {
+      "company": "Cloudbeds",
+      "domain": "cloudbeds.com",
+      "queryLane": "Jobicy current LATAM engineering (engineering)",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Cloudbeds",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobicy.com/jobs-rss-feed"
+    },
+    {
+      "company": "Sequoia Connect",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-mobile-react-native-developer--f131dc8c35a0"
+    },
+    {
+      "company": "GBS Group",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/gbs-group/jobs/senior-software-engineer-5716573076?utm_source=api"
+    },
+    {
+      "company": "Venon Solutions",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software developer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/venon-solutions/jobs/1016-senior-software-developer?utm_source=api"
+    },
+    {
+      "company": "Motum",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: full stack engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Motum",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/motum/jobs/senior-full-stack-engineer-7533605446?utm_source=api"
+    },
+    {
+      "company": "Agentic Dream",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: backend engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/agentic-dream/jobs/backend-specialist-remote-latam-only?utm_source=api"
+    },
+    {
+      "company": "Lateral Group",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: frontend engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Lateral Group",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/lateral-group/jobs/senior-frontend-engineer-latam?utm_source=api"
+    },
+    {
+      "company": "Time Doctor",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Time Doctor",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/time-doctor/jobs/devops-engineer?utm_source=api"
+    },
+    {
+      "company": "Massive Rocket",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: data engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/massive-rocket/jobs/lead-data-engineer?utm_source=api"
+    },
+    {
+      "company": "Customer.io",
+      "domain": "customer.io",
+      "queryLane": "Jobicy current LATAM engineering (engineering)",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "Customer.io",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobicy.com/jobs-rss-feed"
+    },
+    {
+      "company": "CommandLink",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "CommandLink",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/staff-software-engineer-monitoring-product--b4a605b6d632"
+    },
+    {
+      "company": "Amplemarket",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Amplemarket",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/amplemarket/jobs/fullstack-software-engineer?utm_source=api"
+    },
+    {
+      "company": "Cobalto Talent",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software developer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/cobalto-talent/jobs/01_full-stack-software-developer-ai-enabled?utm_source=api"
+    },
+    {
+      "company": "AdQuick",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: full stack engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/adquick/jobs/senior-software-engineer-full-stack-6952190930?utm_source=api"
+    },
+    {
+      "company": "Maxana",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: backend engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/maxana/jobs/backend-engineer?utm_source=api"
+    },
+    {
+      "company": "Consensys",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: frontend engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/consensys-io/jobs/senior-design-engineer-metamask?utm_source=api"
+    },
+    {
+      "company": "Abstra",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Abstra",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/abstra-co/jobs/azure-devops-engineer?utm_source=api"
+    },
+    {
+      "company": "Applaudo",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: data engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Applaudo Studios",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/applaudo/jobs/senior-data-engineer-azure-databricks?utm_source=api"
+    },
+    {
+      "company": "Phantom",
+      "domain": "phantom.com",
+      "queryLane": "Jobicy current LATAM engineering (engineering)",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique against catalog, previous batches, and this cohort",
+      "sourceUrl": "https://jobicy.com/jobs-rss-feed"
+    },
+    {
+      "company": "Mural",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Mural",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/software-engineer-platform-engineering--cfdbf9eee078"
+    },
+    {
+      "company": "Newsela",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Newsela",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/newsela/jobs/contractor-senior-software-engineer-remote-argentina-brazil-chile-colombia-5007625389?utm_source=api"
+    },
+    {
+      "company": "Webcreek",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software developer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "WebCreek",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/webcreek/jobs/senior-software-developer-real-time-audio-voip?utm_source=api"
+    },
+    {
+      "company": "A5 Talent Finders",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: full stack engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/a5-talent-finders/jobs/python-react-fullstack-engineer-latam?utm_source=api"
+    },
+    {
+      "company": "Jeeves",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: backend engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Jeeves",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/jeeves/jobs/principal-backend-engineer?utm_source=api"
+    },
+    {
+      "company": "Asset Bridge",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: frontend engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/asset-bridge/jobs/web3-engineer-contract-role?utm_source=api"
+    },
+    {
+      "company": "Bizmoni Corp.",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/bizmoni-corp/jobs/devops-engineer?utm_source=api"
+    },
+    {
+      "company": "Metabase",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: data engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/metabase/jobs/analytics-engineer-8843525983?utm_source=api"
+    },
+    {
+      "company": "RevenueCat",
+      "domain": "revenuecat.com",
+      "queryLane": "Jobicy current LATAM engineering (engineering)",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "official root domain",
+      "matchedCompany": "RevenueCat",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobicy.com/jobs-rss-feed"
+    },
+    {
+      "company": "Cloudnonic Corp",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/semi-senior-frontend-developer-react-next-js--c8265f841926"
+    },
+    {
+      "company": "Talent2win",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Talent2Win",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/talent2win/jobs/software-verification-engineer?utm_source=api"
+    },
+    {
+      "company": "Somnio Software",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software developer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Somnio Software",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/somnio-software/jobs/technical-leader?utm_source=api"
+    },
+    {
+      "company": "Aktos",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: full stack engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Aktos",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/aktos/jobs/full-stack-engineer-latam?utm_source=api"
+    },
+    {
+      "company": "LatamRecruit",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: backend engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/latamrecruit/jobs/senior-backend-engineer?utm_source=api"
+    },
+    {
+      "company": "Able",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: frontend engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Able",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/able-co/jobs/senior-software-data-engineer-javascript?utm_source=api"
+    },
+    {
+      "company": "phData",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/phdata/jobs/senior-devops-engineer-data-platforms-latam-based?utm_source=api"
+    },
+    {
+      "company": "SpryPoint",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: data engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/sprypoint/jobs/data-conversion-engineer-i?utm_source=api"
+    },
+    {
+      "company": "NetBox Labs",
+      "domain": null,
+      "queryLane": "Jobicy current LATAM engineering (engineering)",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "NetBox Labs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://jobicy.com/jobs-rss-feed"
+    },
+    {
+      "company": "Dev.Pro",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Dev.Pro",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-test-engineer-with-automation-skills-op02201--4ac598e78f7d"
+    },
+    {
+      "company": "TrueML",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "TrueML",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/trueml/jobs/senior-software-engineer-performance?utm_source=api"
+    },
+    {
+      "company": "My VA Support, Inc.",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software developer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/my-va-support-inc/jobs/software-developer-mobile-web?utm_source=api"
+    },
+    {
+      "company": "Enumerate",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: full stack engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Enumerate",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/enumerate/jobs/full-stack-developer?utm_source=api"
+    },
+    {
+      "company": "Remote Talent LATAM",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: backend engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/remote-talent-latam/jobs/senior-backend-engineer-remote-latam-only-89010?utm_source=api"
+    },
+    {
+      "company": "Sureify",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/sureify/jobs/senior-devops-engineer?utm_source=api"
+    },
+    {
+      "company": "Rev Star",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: data engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/rev-star/jobs/databricks-forward-deployed-engineer?utm_source=api"
+    },
+    {
+      "company": "Scalepex",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Scalepex",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/full-stack-react-developer-remote-only-mexico--8bb31ddd464d"
+    },
+    {
+      "company": "Backblaze",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Backblaze",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/backblaze/jobs/sr-software-engineer-1147098954?utm_source=api"
+    },
+    {
+      "company": "Colibricode",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software developer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "ColibriCode",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/colibricode/jobs/sr-ruby-on-rails-backend-developer?utm_source=api"
+    },
+    {
+      "company": "Vaero",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: full stack engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/vaero/jobs/full-stack-developer?utm_source=api"
+    },
+    {
+      "company": "Sporty Group",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: backend engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Sporty Group",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/sporty-group/jobs/weekend-backend-engineer?utm_source=api"
+    },
+    {
+      "company": "AgilityFeat",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "AgilityFeat",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/agilityfeat/jobs/senior-devops-engineer-latam-4014870443?utm_source=api"
+    },
+    {
+      "company": "OPTION",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: data engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/option/jobs/data-engineer?utm_source=api"
+    },
+    {
+      "company": "Monks",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/fullstack-engineer--8f3d4d5426d2"
+    },
+    {
+      "company": "Rumor Avenue",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/rumor-avenue/jobs/senior-software-engineer-839869926?utm_source=api"
+    },
+    {
+      "company": "MagmaLabs",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software developer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "MagmaLabs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/magmalabs/jobs/senior-software-engineer-reactjs?utm_source=api"
+    },
+    {
+      "company": "Customertimes",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: full stack engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Customertimes",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/customertimes/jobs/jr-186652-full-stack-developer-senior?utm_source=api"
+    },
+    {
+      "company": "Four Kitchens",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: backend engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Four Kitchens",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/four-kitchens/jobs/senior-backend-drupal-engineer-costa-rica?utm_source=api"
+    },
+    {
+      "company": "The Agile Monkeys",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/the-agile-monkeys/jobs/senior-devops-engineer?utm_source=api"
+    },
+    {
+      "company": "knowmad mood",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: data engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/knowmad-mood/jobs/data-engineer-snowflake-specialist?utm_source=api"
+    },
+    {
+      "company": "lemon.io",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Lemon.io",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-react-full-stack-developer--ceae4d0ba29d"
+    },
+    {
+      "company": "We are Tims",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "We Are TIMS",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/we-are-tims/jobs/sr-software-engineer-bilingue-full-stack-java-react?utm_source=api"
+    },
+    {
+      "company": "Cirrus Data Solutions",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software developer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/cirrus-data-solutions/jobs/software-engineer-go-5270445004?utm_source=api"
+    },
+    {
+      "company": "XKTalent Inc. - Rimutee",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: full stack engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "ReKluti",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/rekluti/jobs/desarrollador-full-stack-semi-senior?utm_source=api"
+    },
+    {
+      "company": "Binance",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: backend engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/binance/jobs/binance-accelerator-program-applied-ai-application-engineer-4805818739?utm_source=api"
+    },
+    {
+      "company": "DEUNA",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/deuna/jobs/devops-engineer?utm_source=api"
+    },
+    {
+      "company": "Sonatafy Technology",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: data engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Sonatafy Technology",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/sonatafy-technology/jobs/sr-data-engineer?utm_source=api"
+    },
+    {
+      "company": "Catch Creation",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/web-developer-e-commerce-internal-tools--c288eb686bf1"
+    },
+    {
+      "company": "Customer.io",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Customer.io",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/customer-io/jobs/staff-software-engineer-product?utm_source=api"
+    },
+    {
+      "company": "NetForemost, Inc",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software developer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/netforemost-inc/jobs/software-engineer-flutter?utm_source=api"
+    },
+    {
+      "company": "Ready",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: full stack engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/joinready/jobs/senior-full-stack-go-developer-go-next-js?utm_source=api"
+    },
+    {
+      "company": "SqlDBM",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: backend engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/sqldbm/jobs/senior-backend-engineer-ai-native?utm_source=api"
+    },
+    {
+      "company": "CodeRoad",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "CodeRoad",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/coderoad/jobs/senior-devops-engineer?utm_source=api"
+    },
+    {
+      "company": "OpsBrasil Serviços Cloud LTDA",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: data engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/opsbrasil-servicos-cloud-ltda/jobs/data-platform-engineer-102-08seng-01?utm_source=api"
+    },
+    {
+      "company": "Adaptive Teams",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/operations-manager-latam-south-africa-remote--4302994b6c25"
+    },
+    {
+      "company": "iDelsoft",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "iDelsoft",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/idelsoft/jobs/software-engineer-node-js-python-and-or-go-latam?utm_source=api"
+    },
+    {
+      "company": "Tracklings",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software developer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/tracklings/jobs/remote-full-stack-django-react-developer-non-us-non-eu-position-fully-remote-512882290?utm_source=api"
+    },
+    {
+      "company": "TalentCross",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: full stack engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/talentcross/jobs/1024sa-3594lat-fullstack-vue-golang?utm_source=api"
+    },
+    {
+      "company": "iSolved",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: backend engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/isolved-ai/jobs/senior-java-developer?utm_source=api"
+    },
+    {
+      "company": "Prometeo Talent",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Prometeo Talent",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/prometeo-talent/jobs/senior-devops-engineer-100-remote-latam?utm_source=api"
+    },
+    {
+      "company": "Combine Global Recruitment",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: data engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/combine-global-recruitment/jobs/founding-engineer?utm_source=api"
+    },
+    {
+      "company": "Intuition Machines",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-site-reliability-engineer--0c5318deeea5"
+    },
+    {
+      "company": "DaCodes",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "DaCodes",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/dacodes/jobs/sr-full-stack-software-engineer-php-laravel-latam-english-required?utm_source=api"
+    },
+    {
+      "company": "CodePath",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software developer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "CodePath",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/codepath/jobs/staff-software-engineer?utm_source=api"
+    },
+    {
+      "company": "Codea IT",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: full stack engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Codea IT",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/codea-it/jobs/developer-ssr-full-stack-react-node-next-js-nest-js?utm_source=api"
+    },
+    {
+      "company": "Virtasant",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: backend engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Virtasant",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/virtasant/jobs/senior-back-end-engineer-latam?utm_source=api"
+    },
+    {
+      "company": "Encora",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Encora",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/encora/jobs/senior-site-reliability-engineer-sre-application-observability-readiness-4719737694?utm_source=api"
+    },
+    {
+      "company": "Clera",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: data engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/clera/jobs/senior-data-engineer-latam?utm_source=api"
+    },
+    {
+      "company": "Halliburton",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/brazil-remote-back-end-scientific-developer-rio-de-janeiro-rj-br-291941--988c08537411"
+    },
+    {
+      "company": "Alpaca",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Alpaca",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/alpaca/jobs/senior-software-engineer-agent-developer-platform?utm_source=api"
+    },
+    {
+      "company": "OPENLANE",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software developer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/openlane/jobs/sr-software-engineer-c-net?utm_source=api"
+    },
+    {
+      "company": "Nortal",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: full stack engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Nortal",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/nortal/jobs/1620-semi-senior-full-stack-php-developer?utm_source=api"
+    },
+    {
+      "company": "TRS",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: backend engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/trs/jobs/developer-backend?utm_source=api"
+    },
+    {
+      "company": "Modus Create",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Modus Create",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/modus-create/jobs/ai-platform-engineer?utm_source=api"
+    },
+    {
+      "company": "Tenstorrent",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: data engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/tenstorrent/jobs/datacenter-agentic-ai-workload-performance-optimization-engineer?utm_source=api"
+    },
+    {
+      "company": "Pavago",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Pavago",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/bilingual-medical-customer-service-representative-english-spanish--5feea391502e"
+    },
+    {
+      "company": "Bluelight Consulting",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Bluelight Consulting",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/bluelight-consulting/jobs/senior-software-engineer-flask-react-remote-latin-america-4410913333?utm_source=api"
+    },
+    {
+      "company": "VT Enterprise",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software developer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/vt-enterprise/jobs/freelance-python-developer-remote-south-latin-america?utm_source=api"
+    },
+    {
+      "company": "Harris Global Business Services Inc.",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: full stack engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/harris-global-business-services-inc/jobs/senior-full-stack-developer?utm_source=api"
+    },
+    {
+      "company": "Selection Book",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: backend engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/selection-book/jobs/backend-developer-junior-semi-senior?utm_source=api"
+    },
+    {
+      "company": "MindTech",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/mindtech/jobs/devops-aws-8269630088?utm_source=api"
+    },
+    {
+      "company": "Ex Parte",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: data engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/ex-parte/jobs/lead-data-engineer-3167254993?utm_source=api"
+    },
+    {
+      "company": "Sigma Software",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Sigma Software",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-principal-frontend-engineer--45c831c13099"
+    },
+    {
+      "company": "Koombea",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Koombea",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/koombea/jobs/ai-software-engineer-typescript-node-js-aws?utm_source=api"
+    },
+    {
+      "company": "Dotdigital",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software developer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "dotdigital",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/dotdigital/jobs/full-stack-engineer-contractor?utm_source=api"
+    },
+    {
+      "company": "Coderio",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: full stack engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Coderio",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/coderio-co/jobs/senior-full-stack-developer-con-experiencia-en-node-js-y-react-js-remoto-lata?utm_source=api"
+    },
+    {
+      "company": "Spotify",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: backend engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Spotify",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/spotify/jobs/full-stack-engineer-music?utm_source=api"
+    },
+    {
+      "company": "Eftsure",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/eftsure/jobs/platform-engineer-100-remote-central-south-america?utm_source=api"
+    },
+    {
+      "company": "YO AI Labs",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: data engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/yo-ai-labs/jobs/mechatronics-engineer-remote?utm_source=api"
+    },
+    {
+      "company": "Allocator One",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/forward-deployed-fund-operator-south-america--3938f87d4935"
+    },
+    {
+      "company": "Atomic HR",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/atomic-hr/jobs/senior-software-engineer-storage-platform-remote?utm_source=api"
+    },
+    {
+      "company": "Zinier",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software developer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Zinier",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/zinier/jobs/software-development-engineer-customer-experience-l1-6995956802?utm_source=api"
+    },
+    {
+      "company": "Turno",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: full stack engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/turno/jobs/senior-full-stack-engineer?utm_source=api"
+    },
+    {
+      "company": "Blackfluo.ai",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: backend engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/blackfluo-ai/jobs/product-engineer-full-remote-2210077266?utm_source=api"
+    },
+    {
+      "company": "ITMates",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/itmates/jobs/site-reliability-engineer-oil-gas?utm_source=api"
+    },
+    {
+      "company": "Fractal River",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: data engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Fractal River",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/fractal-river/jobs/data-engineer-remote-latin-america?utm_source=api"
+    },
+    {
+      "company": "Welo Global",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/generative-ai-analyst-spanish-argentina--6d9d2944f1af"
+    },
+    {
+      "company": "Ryz Labs",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "RYZ Labs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/ryz-labs/jobs/principal-engineer?utm_source=api"
+    },
+    {
+      "company": "Bitwarden",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software developer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Bitwarden",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/bitwarden/jobs/senior-front-end-software-engineer-autofill?utm_source=api"
+    },
+    {
+      "company": "Makai Digital",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: full stack engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Makai Digital",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/makai-digital/jobs/senior-fullstack-engineer?utm_source=api"
+    },
+    {
+      "company": "Teravision Technologies",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: backend engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Teravision Technologies",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/teravision-technologies/jobs/backend-developer?utm_source=api"
+    },
+    {
+      "company": "World Business Lenders",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/world-business-lenders/jobs/cloud-engineering-analyst?utm_source=api"
+    },
+    {
+      "company": "Mixpanel",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: data engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Mixpanel",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/mixpanel/jobs/senior-customer-engineer-latam?utm_source=api"
+    },
+    {
+      "company": "XKTalent Inc. - Rimutee",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/frontend-community--d6a8e23f04e3"
+    },
+    {
+      "company": "Qventus",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Qventus",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/qventus/jobs/sr-software-engineer-pat-assist?utm_source=api"
+    },
+    {
+      "company": "Caliza",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software developer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Caliza",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/caliza/jobs/senior-software-engineer-front-end-dashboard?utm_source=api"
+    },
+    {
+      "company": "Tiny",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: full stack engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/tiny/jobs/full-stack-javascript-engineer-hfc?utm_source=api"
+    },
+    {
+      "company": "Lanshore",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: backend engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Lanshore",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/lanshore/jobs/back-end-developer-100-wfh?utm_source=api"
+    },
+    {
+      "company": "ScaleOps",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/scaleops/jobs/sales-engineer-latam?utm_source=api"
+    },
+    {
+      "company": "HireBoost",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: data engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/hireboost/jobs/sales-engineer-founding?utm_source=api"
+    },
+    {
+      "company": "ScaleJet",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-amazon-brand-manager--060665f3af43"
+    },
+    {
+      "company": "MetalBear",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/metalbear/jobs/backend-software-engineer-rust-fully-remote-3532790717?utm_source=api"
+    },
+    {
+      "company": "Latino Legends",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software developer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/latino-legends/jobs/full-stack-software-engineer-net-c-react?utm_source=api"
+    },
+    {
+      "company": "CSC Generation",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: full stack engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "CSC Generation",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/csc-generation/jobs/senior-full-stack-engineer-typescript?utm_source=api"
+    },
+    {
+      "company": "Astra Group",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: backend engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/astra-group/jobs/senior-backend-developer?utm_source=api"
+    },
+    {
+      "company": "Kinsei Talent",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/kinsei-talent/jobs/testing-architecture-specialist?utm_source=api"
+    },
+    {
+      "company": "DoiT International",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: data engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/doit-international/jobs/analytics-engineer?utm_source=api"
+    },
+    {
+      "company": "Pearster",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/ssr-devops-engineer-azure--a89dc4d9c071"
+    },
+    {
+      "company": "Pearl Talent",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Pearl Talent",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/pearl-talent/jobs/remote-senior-ai-product-engineer-for-a-climate-tech-saas-comapany?utm_source=api"
+    },
+    {
+      "company": "Lifted (an Upwork Company)",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software developer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/lifted-an-upwork-company/jobs/107-full-stack-software-engineer-node-js-react-headless-cms?utm_source=api"
+    },
+    {
+      "company": "Elevate A/B Testing",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: full stack engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/elevate-a-b-testing/jobs/senior-full-stack-engineer?utm_source=api"
+    },
+    {
+      "company": "TransPerfect",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: backend engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/transperfect/jobs/commerce-and-content-back-end-technical-consultant?utm_source=api"
+    },
+    {
+      "company": "Livefront",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Livefront",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/livefront/jobs/ai-solutions-engineer-1543996441?utm_source=api"
+    },
+    {
+      "company": "Paired",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/technical-operations-engineer-sre-for-an-real-estate-company-us-based-remote--8a3c25c499be"
+    },
+    {
+      "company": "Devlane",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Devlane",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/devlane/jobs/sr-ai-engineer?utm_source=api"
+    },
+    {
+      "company": "Aubrant Digital",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software developer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Aubrant Digital",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/aubrant-digital/jobs/fullstack-engineer?utm_source=api"
+    },
+    {
+      "company": "Playbypoint",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: full stack engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Playbypoint",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/playbypoint/jobs/senior-full-stack-software-engineer-developer-platform-remote-latam?utm_source=api"
+    },
+    {
+      "company": "Productiv Team",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: backend engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Productiv Team",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/productiv-team/jobs/backend-nestjs-developer-latam?utm_source=api"
+    },
+    {
+      "company": "Accelerant",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/accelerant/jobs/ai-platform-engineer-global?utm_source=api"
+    },
+    {
+      "company": "Binagora",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-python-engineer--22f75099cb71"
+    },
+    {
+      "company": "Zarego",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Zarego",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/zarego/jobs/machine-learning-engineer-python-remote-latam?utm_source=api"
+    },
+    {
+      "company": "Unisys",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software developer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Unisys",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/unisys/jobs/assoc-eng-software-app-eng-future-project?utm_source=api"
+    },
+    {
+      "company": "Curotec",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: full stack engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Curotec",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/curotec/jobs/full-stack-engineer-ruby-on-rails-reactjs?utm_source=api"
+    },
+    {
+      "company": "Openvale Group",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/openvale-group/jobs/data-engineer-sr-associate-latam-contract?utm_source=api"
+    },
+    {
+      "company": "Assurant",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/content-production-specialist--e6b28a22393d"
+    },
+    {
+      "company": "CoLab Software",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/colab-software/jobs/have-a-mechanical-engineering-background-let-s-connect?utm_source=api"
+    },
+    {
+      "company": "GeekyDrop",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: full stack engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/geekydrop/jobs/software-engineer-full-stack-latam-5694512552?utm_source=api"
+    },
+    {
+      "company": "Nearmap",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/nearmap/jobs/senior-quality-assurance-engineer?utm_source=api"
+    },
+    {
+      "company": "Visa",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/software-engineer-credit-cycle--af5e3d048341"
+    },
+    {
+      "company": "Software Mind",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Software Mind",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/software-mind/jobs/8pp-senior-software-engineer-user-management?utm_source=api"
+    },
+    {
+      "company": "Fueled",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: full stack engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Fueled",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/fueled/jobs/full-stack-web-engineer?utm_source=api"
+    },
+    {
+      "company": "Clario",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Clario",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/clario/jobs/lead-mobile-application-engineer-net-maui?utm_source=api"
+    },
+    {
+      "company": "Bolder Apps",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/project-manager-shopify--e30accd302db"
+    },
+    {
+      "company": "Engine",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Engine",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/engine/jobs/senior-software-engineer-backend-latam?utm_source=api"
+    },
+    {
+      "company": "OPSWAT",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: full stack engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/opswat/jobs/full-stack-engineer?utm_source=api"
+    },
+    {
+      "company": "iForce Connect",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/iforce-connect/jobs/engineering-manager-python?utm_source=api"
+    },
+    {
+      "company": "Maxana",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Maxana",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://findremote.jobs/jobs/backend-engineer-payments--60cc89f8c028"
+    },
+    {
+      "company": "Endless Access",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/endless-access/jobs/game-engineer-remote-contract-to-hire-latin-america-1184471052?utm_source=api"
+    },
+    {
+      "company": "Monarch Money",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: full stack engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/monarch-money/jobs/senior-product-engineer?utm_source=api"
+    },
+    {
+      "company": "LURECRUITER",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: devops engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/lurecruiter/jobs/senior-data-engineer-databricks-data-vault?utm_source=api"
+    },
+    {
+      "company": "Allshore Talent",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/urgent-google-analytics-developer-100-remote-latam-only--191a6322134c"
+    },
+    {
+      "company": "Jahnel Group",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Jahnel Group",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/jahnel-group/jobs/full-stack-engineer-laravel-php-vue?utm_source=api"
+    },
+    {
+      "company": "Committedstaff",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: full stack engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Committed Staff",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/committedstaff/jobs/agentic-fullstack-engineer?utm_source=api"
+    },
+    {
+      "company": "OX Security",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-backend-engineer-agentic-pentest--b8b3cc7517fa"
+    },
+    {
+      "company": "Azumo",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Azumo",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/azumo/jobs/ai-augmented-software-engineer?utm_source=api"
+    },
+    {
+      "company": "thinkbridge",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: full stack engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "thinkbridge",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/thinkbridge/jobs/senior-full-stack-engineer?utm_source=api"
+    },
+    {
+      "company": "TripleTen",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/ai-systems-engineering-expert--8ca95b38f4be"
+    },
+    {
+      "company": "Xpert Development",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/xpert-development/jobs/middle-level-software-engineer-latam?utm_source=api"
+    },
+    {
+      "company": "Jobsity",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: full stack engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Jobsity",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/jobsity/jobs/fullstack-go-engineer?utm_source=api"
+    },
+    {
+      "company": "Mutt Data",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Muttdata",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/backend-developer-senior-go--1dec9897e1b2"
+    },
+    {
+      "company": "AccelOne",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://himalayas.app/companies/accelone/jobs/staff-software-engineer?utm_source=api"
+    },
+    {
+      "company": "Gorilla Logic",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: full stack engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Gorilla Logic",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/gorilla-logic/jobs/sr-platform-engineer-fullstack-data-gp-remote-colombia-costa-rica-full?utm_source=api"
+    },
+    {
+      "company": "Indero",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/project-manager-ii-argentina--6d900e856de7"
+    },
+    {
+      "company": "Cresteo",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Cresteo",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/cresteo/jobs/software-engineer-go-java?utm_source=api"
+    },
+    {
+      "company": "GoFasti",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: full stack engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "GoFasti",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/gofasti/jobs/1129-full-stack-engineer-net-react-angular?utm_source=api"
+    },
+    {
+      "company": "Gamebreaking Studios",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Gamebreaking Studios",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/latin-america-internship-open-application--d833e9256716"
+    },
+    {
+      "company": "Sezzle",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Sezzle",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/sezzle/jobs/junior-software-engineer-with-accounting-experience-latam-4135151397?utm_source=api"
+    },
+    {
+      "company": "CookUnity",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: full stack engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "CookUnity",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/cookunity/jobs/senior-full-stack-engineer-post-order-experience?utm_source=api"
+    },
+    {
+      "company": "Remote Talent LATAM",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Remote Talent LATAM",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-backend-engineer-remote-latam-only-89010--bffac9a7ba8c"
+    },
+    {
+      "company": "Stord",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Stord",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/stord/jobs/senior-software-engineer?utm_source=api"
+    },
+    {
+      "company": "Donorbox",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: full stack engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Donorbox",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/donorbox/jobs/software-engineer-full-stack?utm_source=api"
+    },
+    {
+      "company": "AURIC",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/junior-full-stack-web-developer--719367663e84"
+    },
+    {
+      "company": "Bitso",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Bitso",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/bitso/jobs/software-engineer-latam-europe?utm_source=api"
+    },
+    {
+      "company": "Allshore Talent",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: full stack engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Allshore Talent",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://himalayas.app/companies/allshore-talent/jobs/forward-deployed-engineer-creative-ai-100-remote?utm_source=api"
+    },
+    {
+      "company": "Canonical",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Canonical",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/software-engineer-python-linux-packaging--d176d66066da"
+    },
+    {
+      "company": "SeedTrust",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "SeedTrust",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/seedtrust/jobs/senior-software-engineer-idre-remote-latam-based?utm_source=api"
+    },
+    {
+      "company": "SqlDBM",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "SqlDBM",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-backend-engineer-ai-native--85e606cad266"
+    },
+    {
+      "company": "Dev.Pro",
+      "domain": null,
+      "queryLane": "Himalayas CR-filtered: software engineer",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Dev.Pro",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://himalayas.app/companies/dev-pro/jobs/senior-software-engineer-team-lead-op02307?utm_source=api"
+    },
+    {
+      "company": "Zencore",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Zencore",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-data-engineer--a1bf4ebbb790"
+    },
+    {
+      "company": "InsideOutVAS",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/executive-assistant-strategic-operations-partner-job-id-shareg1r--c0559ee2f98c"
+    },
+    {
+      "company": "Ryz Labs",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "RYZ Labs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/webflow-developer--eb091fc464d2"
+    },
+    {
+      "company": "Fluxon",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/staff-software-engineer--d35e986343aa"
+    },
+    {
+      "company": "Tenpo",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/tech-lead--794741476091"
+    },
+    {
+      "company": "BriteCore",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "BriteCore",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-software-engineer--66dae85add8c"
+    },
+    {
+      "company": "Creative Chaos",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/mobile-architect--9e55f84e8717"
+    },
+    {
+      "company": "ShakaCode",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/passionate-rust-software-developer--68b84878f634"
+    },
+    {
+      "company": "Brafton",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/remote-full-stack-developer-frontend-focused-brazil--3c09946c57e6"
+    },
+    {
+      "company": "Huzzle",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/technical-recruiter--d87968282eaf"
+    },
+    {
+      "company": "Tried and True Media",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/paid-media-buyer-traffic-manager--2c7091b6e8e9"
+    },
+    {
+      "company": "Metal Toad",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/full-stack-developer-talents-bench--8f32496d0905"
+    },
+    {
+      "company": "MyTime",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/customer-solutions-engineer-ruby-on-rails-remote-in-brazil--198001f8dff5"
+    },
+    {
+      "company": "Abstra",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Abstra",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-devops-engineer--f2b5055077ea"
+    },
+    {
+      "company": "Wizdaa",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Wizdaa",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-react-native-react-engineer-latam--02c727a08146"
+    },
+    {
+      "company": "Flex",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-software-engineer-backend--b2933a8bfa97"
+    },
+    {
+      "company": "Zaelab",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/release-manager--b4bd6ba75ac3"
+    },
+    {
+      "company": "mercor",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/audio-quality-analyst-fully-remote-upto-20-hr--98791463748a"
+    },
+    {
+      "company": "Marco",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/operations-coordinator--d81fd290c648"
+    },
+    {
+      "company": "Inv",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/software-engineer-agentic-ai--c562a423d7aa"
+    },
+    {
+      "company": "World Business Lenders",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "World Business Lenders",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://findremote.jobs/jobs/loan-operations-internal-audit-analyst--dd4007d735b1"
+    },
+    {
+      "company": "Jeeves",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Jeeves",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-ai-engineer--e09bb22db654"
+    },
+    {
+      "company": "Intellectsoft",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-ml-engineer-with-python-ir-536--10327a7068a9"
+    },
+    {
+      "company": "Syneos Health India Private Limited",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/ctm-ii-sponsor-dedicated-argentina-home-based--0dafa1827a42"
+    },
+    {
+      "company": "Enumerate",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Enumerate",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/php-react-software-engineer--4ce10dc11979"
+    },
+    {
+      "company": "Bizmoni Corp.",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Bizmoni Corp.",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-genexus-developer--a237c0b26ec0"
+    },
+    {
+      "company": "Oyster",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-data-engineer--01f94c85e399"
+    },
+    {
+      "company": "Kevel",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/principal-engineer--411e93cc2be2"
+    },
+    {
+      "company": "ImagineArt",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-backend-engineer--e8ff08abf446"
+    },
+    {
+      "company": "NeoWork",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/operations-manager--f951672dcd84"
+    },
+    {
+      "company": "Geeks on Site",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/seo-specialist--3c0c27e8590f"
+    },
+    {
+      "company": "Foundever",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Foundever",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/conversational-designer-remote-any-location-br--2a8b1c7bc6cf"
+    },
+    {
+      "company": "Blackfluo.ai",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Blackfluo.ai",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-talent-acquisition-manager--8b2abed3062e"
+    },
+    {
+      "company": "The Global Talent Co.",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/growth-automation-engineer--55d82ccb4a76"
+    },
+    {
+      "company": "Ubiminds",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Ubiminds",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-qa-lead-12-weeks-572--99f979d10cd9"
+    },
+    {
+      "company": "Infios",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/global-support-analyst-ii--40a734c4703f"
+    },
+    {
+      "company": "Oppizi",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Oppizi",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-product-engineer--41ebf7989534"
+    },
+    {
+      "company": "Manbau",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/41-infrastructure-automation-engineer-ansible-platform-modernization--d5172ea33160"
+    },
+    {
+      "company": "Airalo",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Airalo",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/solutions-architect-latam--7bbb98d2c244"
+    },
+    {
+      "company": "Alcor",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Alcor",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/java-staff-software-engineer--65b909aa52d8"
+    },
+    {
+      "company": "Gurobi Optimization",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/technical-account-manager-brazil-remote--d6f8929a1281"
+    },
+    {
+      "company": "Alabama Solutions",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/ssr-full-stack-engineer--e92aea9b6882"
+    },
+    {
+      "company": "Teravision Technologies",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Teravision Technologies",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/data-engineer--e7b975d54ddc"
+    },
+    {
+      "company": "Purolabs",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/e-commerce-marketing-project-manager--50c8c1242000"
+    },
+    {
+      "company": "Airtm",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Airtm",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-qa-engineer--50481c497775"
+    },
+    {
+      "company": "Samsara",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/technical-account-manager--a9d6672db695"
+    },
+    {
+      "company": "CaseWare",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Caseware",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-ai-software-engineer-iii--3623c427dfeb"
+    },
+    {
+      "company": "Wisevu",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/web-development-project-manager--50c6466b23ed"
+    },
+    {
+      "company": "ElevenLabs",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "ElevenLabs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/full-stack-engineer-creative-studio--cd2e4ceeddaf"
+    },
+    {
+      "company": "Able",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Able",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/technical-program-manager--2642d8f2105e"
+    },
+    {
+      "company": "Netrix Global",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-java-developer--8728255e0b67"
+    },
+    {
+      "company": "AccelOne",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "AccelOne",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://findremote.jobs/jobs/staff-software-engineer--0ce487694948"
+    },
+    {
+      "company": "My Hero VA",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/software-engineer-perception-job-id-sepbf2026--fe6c55a6874a"
+    },
+    {
+      "company": "Flux IT",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/qa-analyst-jr--b9799bdc4df1"
+    },
+    {
+      "company": "Twilio",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Twilio",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/staff-technical-account-manager--b99c5e8df1e7"
+    },
+    {
+      "company": "Bluelight Consulting",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Bluelight Consulting",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/full-stack-and-backend-nodejs-typescript-javascript-engineer-senior-latin-america-remote--2bc22770ebad"
+    },
+    {
+      "company": "Game District",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-game-producer--720a6b85e2f0"
+    },
+    {
+      "company": "Logical Media Group",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/back-end-web-developer-solutions-support-specialist-remote-contractor--db98bf3f9209"
+    },
+    {
+      "company": "Rimini Street, Inc",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/associate-business-analyst--0d59de48a963"
+    },
+    {
+      "company": "Nearshore Business Solutions",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Nearshore Business Solutions",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-php-developer--e18241575ea7"
+    },
+    {
+      "company": "Xideral",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/informatica-idmc-administrator-remote-2867--771973588f1a"
+    },
+    {
+      "company": "Pipe",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/lead-infrastructure-engineer--ca13c0e36ee4"
+    },
+    {
+      "company": "Zarego",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Zarego",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/full-stack-developer-java-react-remote-latam--75bed885ca77"
+    },
+    {
+      "company": "Coinme",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/live-phone-support-contractor-remote-latam--1265526bbbd1"
+    },
+    {
+      "company": "Pearl Talent",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Pearl Talent",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/remote-senior-ai-product-engineer-for-a-climate-tech-saas-comapany--329ac0e1c20a"
+    },
+    {
+      "company": "Caylent",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/forward-deployed-engineer--cce2a263061f"
+    },
+    {
+      "company": "Tenchi Security",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/staff-software-engineer--b9c78d0ef858"
+    },
+    {
+      "company": "Webflow",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Webflow",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-software-engineer-build-loop--fc04a36c2291"
+    },
+    {
+      "company": "Bamboo Works",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/salesforce-pardot-consultant-marketing-cloud-account-engagement--555e964c042c"
+    },
+    {
+      "company": "QAD, Inc.",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/software-engineer-ai-agent-platform--b3eb82763b22"
+    },
+    {
+      "company": "Terac",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/full-stack-engineers-interview-on-cybersecurity-and-ci-cd-pipelines--2774fc66a501"
+    },
+    {
+      "company": "BM Digital",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/talent-manager--be9876b0449e"
+    },
+    {
+      "company": "FoodChain ID Group, Inc",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/r-business-analyst-and-product-commercialization-lead--f661aa20173e"
+    },
+    {
+      "company": "A Impact Media",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/lead-video-editor--91f8e663eb21"
+    },
+    {
+      "company": "Zapier",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Zapier",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/sr-technical-account-manager--fd638096f65d"
+    },
+    {
+      "company": "Coderio",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Coderio",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-ia-engineer--202c75e3fdad"
+    },
+    {
+      "company": "Viamericas Corporation",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/quality-assurance-analyst--8f96ca12f8ee"
+    },
+    {
+      "company": "GigaBrands",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/full-stack-automation-engineer--1a7844e5fe5f"
+    },
+    {
+      "company": "WITHIN",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/ad-build-specialist-co-remote--dbb0513b4c95"
+    },
+    {
+      "company": "Macher Serviços em Tecnologia EIRELI",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/analista-de-testes-manuais-mobile-com-js-pleno--813e8248aab6"
+    },
+    {
+      "company": "BrandBastion",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/support-implementation-specialist--5d20a50a27eb"
+    },
+    {
+      "company": "CommIT",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "CommIT",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-backend-engineer--b59f353ed5dc"
+    },
+    {
+      "company": "Storm Ideas",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/ai-social-media-coordinator--1b164ce3b3d8"
+    },
+    {
+      "company": "Hightouch",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-full-stack-engineer--36efabe5794d"
+    },
+    {
+      "company": "99x Brazil (formerly Nextly)",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/fullstack-outsystems-developer--dc458fda1248"
+    },
+    {
+      "company": "Blue Coding",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Blue Coding",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/vp-of-finance-z--f105d0e8ea86"
+    },
+    {
+      "company": "Truelogic",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Truelogic",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-front-end-developer-react-typescript-market-research--666fb8c3f0bc"
+    },
+    {
+      "company": "NTT DATA",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "NTT DATA",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/backend-developer-net-azure--af3ec43b5f11"
+    },
+    {
+      "company": "hireworks",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-site-reliability-engineer-events--fce4e9445434"
+    },
+    {
+      "company": "Luxury Presence",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Luxury Presence",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/product-engineer-internal-tools-latam-remote--866dfa8f781f"
+    },
+    {
+      "company": "Nango",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/staff-software-engineer-backend--25e19b33b4cd"
+    },
+    {
+      "company": "ClickHouse",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "ClickHouse",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-technical-customer-support-engineer--febf586de711"
+    },
+    {
+      "company": "Measured",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-technical-implementations-specialist--2ecffb980c01"
+    },
+    {
+      "company": "WATI",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/product-support-associate-l2--9ad13c6682b7"
+    },
+    {
+      "company": "CoLab Software",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "CoLab Software",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-3d-ai-systems-software-developer--567667a1d510"
+    },
+    {
+      "company": "Clera",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Clera",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://findremote.jobs/jobs/staff-fullstack-engineer--c0bd31a76146"
+    },
+    {
+      "company": "Hire Overseas",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Hire Overseas",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/full-stack-ai-engineer--1ccee3f01fc9"
+    },
+    {
+      "company": "Diffco",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/full-stack-ai-engineer--98d14f6c34ad"
+    },
+    {
+      "company": "Miratech",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Miratech",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/software-architect-r-d--25579bc25be5"
+    },
+    {
+      "company": "Software Mind",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Software Mind",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/8be-data-scientist-ai-ml--8164e92062ae"
+    },
+    {
+      "company": "Alpaca",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Alpaca",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-software-engineer-new-markets--46a7d1df30c7"
+    },
+    {
+      "company": "Freelance Latin America",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-paid-social-media-buyer--57ee3c05927a"
+    },
+    {
+      "company": "Opal Group",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/webmaster-digital-marketing--a1a533849bd4"
+    },
+    {
+      "company": "Counterpart Group GmbH",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/full-stack-engineer--870f4ed25c1d"
+    },
+    {
+      "company": "Upgrade",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-qa-automation-engineer-product-latam--e49cf64af391"
+    },
+    {
+      "company": "Jahnel Group",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Jahnel Group",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/full-stack-engineer-laravel-php-vue--ea3c858e85f8"
+    },
+    {
+      "company": "Partyhat",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/animator--2010c16cb54a"
+    },
+    {
+      "company": "Futurhealth",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/full-stack-engineer--e680dad98f39"
+    },
+    {
+      "company": "Fygaro",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/full-stack-developer--9b5f76751620"
+    },
+    {
+      "company": "DotYeti Design",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/assistant-art-director--e5ce3694fdba"
+    },
+    {
+      "company": "Purely Optimal Inc.",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-operations-manager-for-travel-agency--bfb2eb456b31"
+    },
+    {
+      "company": "Loadsmart",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/analytics-engineer-remote-brazil--571555676ead"
+    },
+    {
+      "company": "Red Hat",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Red Hat",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-software-engineer--8cc173123883"
+    },
+    {
+      "company": "Paystone",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-ror-developer--323f665cf74c"
+    },
+    {
+      "company": "TWOSENSE.AI",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/software-engineer--e78397b760cf"
+    },
+    {
+      "company": "Quorum",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-fullstack-software-engineer--8718b579a6f0"
+    },
+    {
+      "company": "LocalStack",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/technical-account-manager--2386c231376b"
+    },
+    {
+      "company": "RecargaPay",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/sr-product-design--ad4171375f05"
+    },
+    {
+      "company": "CoverGo",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/solutions-architect-insurance-fully-remote--24977285e3f2"
+    },
+    {
+      "company": "Xpert Development",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Xpert Development",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://findremote.jobs/jobs/middle-level-software-engineer-latam--64e8ed300c2f"
+    },
+    {
+      "company": "TalentCross",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "TalentCross",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://findremote.jobs/jobs/0924dp-352ast-fullstack-wordpress-developer--03196ea83469"
+    },
+    {
+      "company": "Massive Rocket",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Massive Rocket",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://findremote.jobs/jobs/talent-pool-crm-consultant-latin-america--90922face76c"
+    },
+    {
+      "company": "Ledgebrook",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/workday-solutions-architect-consultant--7da7de4adef9"
+    },
+    {
+      "company": "SQDM",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/frontend-angular-developer-remote-colombia--65eb377dea6f"
+    },
+    {
+      "company": "Jumpseller",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/full-stack-developer-ongoing--17996fa29a72"
+    },
+    {
+      "company": "Sezzle",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Sezzle",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/principal-software-engineer-identity-access-management--eec943555782"
+    },
+    {
+      "company": "ProfitCoach",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/corporate-bookkeeper-cleanup-specialist-mx--655f80e8d2ee"
+    },
+    {
+      "company": "Visa Franchise",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/bilingual-content-seo-marketing-assistant-part-time--20120fa9d95e"
+    },
+    {
+      "company": "Envato",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Envato",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-reviewer-code-web-templates--b94b06d97108"
+    },
+    {
+      "company": "Coinbase",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Coinbase",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/software-engineer-eaa--b6b9d0ef3337"
+    },
+    {
+      "company": "MagmaLabs",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "MagmaLabs",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-software-engineer-node-js--5a0bcbb0ecf9"
+    },
+    {
+      "company": "Agentic Dream",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Agentic Dream",
+      "matchedSource": "same lead cohort",
+      "sourceUrl": "https://findremote.jobs/jobs/sr-devops-engineer-remote-latam-only--bf867af6dc23"
+    },
+    {
+      "company": "Avahi",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/amazon-connect-engineer--bb2ce5e544b1"
+    },
+    {
+      "company": "Blue Altair",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-accounting-finance-manager--5010730479fc"
+    },
+    {
+      "company": "infisical",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Infisical",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-full-stack-engineer--5c9814dd5476"
+    },
+    {
+      "company": "Chainguard",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-partner-sales-engineer-brazil--85e8314b9e8d"
+    },
+    {
+      "company": "DuckDuckGo",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "DuckDuckGo",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-backend-engineer--670d72d2b163"
+    },
+    {
+      "company": "Sporty Group",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "duplicate",
+      "reason": "normalized name or alias",
+      "matchedCompany": "Sporty Group",
+      "matchedSource": "catalog or prior batch",
+      "sourceUrl": "https://findremote.jobs/jobs/frontend-engineer-latin-america--e1be470772fb"
+    },
+    {
+      "company": "Cache Ventures",
+      "domain": null,
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceFile": "company-batches\\v4-latam-engineering-2026-11-11\\combined-raw-leads.json",
+      "status": "lead",
+      "reason": "unique by normalized name; resolve the official domain and run full dedupe before import",
+      "sourceUrl": "https://findremote.jobs/jobs/vp-of-operations-emailable--8f7da171bd39"
+    }
+  ]
+}

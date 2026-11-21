@@ -1,0 +1,2933 @@
+{
+  "cohortId": "likes-based-2026-11-10-p001",
+  "generatedOn": "2026-11-10",
+  "sourceInput": "company-batches\\likes-based-2026-11-10-p001\\site-slice-001-needs-domain.json",
+  "inputCandidateCount": 125,
+  "resolvedCount": 11,
+  "cacheHitCount": 0,
+  "cacheMissCount": 125,
+  "wikidataCandidateCount": 8,
+  "perNameSearchCount": 30,
+  "deferredSearchCount": 87,
+  "searchBudget": 30,
+  "searchConcurrency": 8,
+  "searchEngine": "both",
+  "cacheFile": "C:\\Users\\aroja\\AppData\\Local\\Temp\\the-comp-domain-resolution-cache-v1.json",
+  "candidates": [
+    {
+      "name": "Bmaxim",
+      "profileUrl": "https://alpunto.cr/en/business/bmaxim",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/bmaxim",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileWebsiteCandidates": [],
+      "profileFetchStatus": 200,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 384,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 396,
+            "pageResultCount": 1,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 780
+      }
+    },
+    {
+      "name": "Helm360",
+      "profileUrl": "https://alpunto.cr/en/business/helm360",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/helm360",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileWebsiteCandidates": [],
+      "profileFetchStatus": 200,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 106,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 166,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 272
+      }
+    },
+    {
+      "name": "Innovative S.A. (NovaToken)",
+      "profileUrl": "https://alpunto.cr/en/business/innovative-s-a-novatoken",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/innovative-s-a-novatoken",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=4",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileWebsiteCandidates": [],
+      "profileFetchStatus": 200,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 105,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 197,
+            "pageResultCount": 9,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 303
+      }
+    },
+    {
+      "name": "Inversiones Next Curve S.A.",
+      "profileUrl": "https://alpunto.cr/en/business/inversiones-next-curve-s-a",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/inversiones-next-curve-s-a",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileWebsiteCandidates": [],
+      "profileFetchStatus": 200,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 182,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 186,
+            "pageResultCount": 9,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 369
+      }
+    },
+    {
+      "name": "Infoware",
+      "profileUrl": "https://alpunto.cr/en/business/infoware",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/infoware",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=5",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileWebsiteCandidates": [],
+      "profileFetchStatus": 200,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 173,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 161,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 335
+      }
+    },
+    {
+      "name": "Integrama",
+      "profileUrl": "https://alpunto.cr/en/business/integrama",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/integrama",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileWebsiteCandidates": [],
+      "profileFetchStatus": 200,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "websiteCandidate": "https://e-advantage.net/",
+      "domainResolutionStatus": "search candidate; requires first-party verification",
+      "domainSearch": {
+        "source": "Bing HTML results after DuckDuckGo had no name-matching result",
+        "checkedOn": "2026-11-10",
+        "candidates": [
+          {
+            "title": "Integrama",
+            "url": "https://e-advantage.net/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Integrama\" software engineering \"Latin America\""
+          },
+          {
+            "title": "Integrama – Sus metas son las nuestras",
+            "url": "https://integrama.net/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Integrama\" software engineering \"Latin America\""
+          },
+          {
+            "title": "Acerca de Integrama",
+            "url": "https://integrama.net/about/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Integrama\" software engineering \"Latin America\""
+          },
+          {
+            "title": "Integrama S.A. | 2452 0127 | Provincia de Alajuela",
+            "url": "https://www.todosbiz.com/CR/integrama-s-a-2452-0127",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Integrama\" software engineering \"Latin America\""
+          }
+        ],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 103,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 193,
+            "pageResultCount": 6,
+            "matchingResultCount": 6
+          }
+        ],
+        "elapsedMs": 296
+      }
+    },
+    {
+      "name": "Zunify",
+      "profileUrl": "https://alpunto.cr/en/business/zunify",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/zunify",
+      "queryLane": "Alpunto Costa Rica SaaS/software company directory",
+      "sourceUrl": "https://alpunto.cr/en/services/software-as-a-service?page=5",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileWebsiteCandidates": [],
+      "profileFetchStatus": 200,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 173,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 167,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 340
+      }
+    },
+    {
+      "name": "Villalta Tech",
+      "profileUrl": "https://alpunto.cr/en/business/villalta-tech",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/villalta-tech",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 95,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 181,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 277
+      }
+    },
+    {
+      "name": "WOW Emotions",
+      "profileUrl": "https://alpunto.cr/en/business/wow-emotions",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/wow-emotions",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=2",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 94,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 179,
+            "pageResultCount": 8,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 273
+      }
+    },
+    {
+      "name": "Opal Interactive",
+      "profileUrl": "https://alpunto.cr/en/business/opal-interactive",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/opal-interactive",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 99,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 166,
+            "pageResultCount": 6,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 265
+      }
+    },
+    {
+      "name": "Atom Soluciones",
+      "profileUrl": "https://alpunto.cr/en/business/atom-soluciones",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/atom-soluciones",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 107,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 174,
+            "pageResultCount": 9,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 281
+      }
+    },
+    {
+      "name": "Costa Rica Virtual",
+      "profileUrl": "https://alpunto.cr/en/business/costa-rica-virtual",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/costa-rica-virtual",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 108,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 195,
+            "pageResultCount": 8,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 304
+      }
+    },
+    {
+      "name": "Quality XP Development (QXD)",
+      "profileUrl": "https://alpunto.cr/en/business/quality-xp-development-qxd",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/quality-xp-development-qxd",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 102,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 178,
+            "pageResultCount": 8,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 280
+      }
+    },
+    {
+      "name": "TicoDesign",
+      "profileUrl": "https://alpunto.cr/en/business/ticodesign",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/ticodesign",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 103,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 152,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 255
+      }
+    },
+    {
+      "name": "Web Mentor",
+      "profileUrl": "https://alpunto.cr/en/business/web-mentor",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/web-mentor",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 96,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 179,
+            "pageResultCount": 6,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 275
+      }
+    },
+    {
+      "name": "Broditec",
+      "profileUrl": "https://alpunto.cr/en/business/broditec",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/broditec",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 103,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 160,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 264
+      }
+    },
+    {
+      "name": "DATAi",
+      "profileUrl": "https://alpunto.cr/en/business/datai",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/datai",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=3",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 98,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 153,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 251
+      }
+    },
+    {
+      "name": "ReinSystems",
+      "profileUrl": "https://alpunto.cr/en/business/reinsystems",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/reinsystems",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 98,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 162,
+            "pageResultCount": 10,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 260
+      }
+    },
+    {
+      "name": "10Pearls Costa Rica",
+      "profileUrl": "https://alpunto.cr/en/business/10pearls-costa-rica",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/10pearls-costa-rica",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 102,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 150,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 252
+      }
+    },
+    {
+      "name": "Cecropia Solutions",
+      "profileUrl": "https://alpunto.cr/en/business/cecropia-solutions",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/cecropia-solutions",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 104,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 179,
+            "pageResultCount": 9,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 283
+      }
+    },
+    {
+      "name": "Drago's House",
+      "profileUrl": "https://alpunto.cr/en/business/drago-s-house",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/drago-s-house",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 104,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 144,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 248
+      }
+    },
+    {
+      "name": "EX Squared LATAM",
+      "profileUrl": "https://alpunto.cr/en/business/ex-squared-latam",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/ex-squared-latam",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 95,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 189,
+            "pageResultCount": 10,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 284
+      }
+    },
+    {
+      "name": "Infosgroup",
+      "profileUrl": "https://alpunto.cr/en/business/infosgroup",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/infosgroup",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 93,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 178,
+            "pageResultCount": 6,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 271
+      }
+    },
+    {
+      "name": "Irazu Labs",
+      "profileUrl": "https://alpunto.cr/en/business/irazu-labs",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/irazu-labs",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=4",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "People Apps",
+      "profileUrl": "https://alpunto.cr/en/business/people-apps",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/people-apps",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Proximity Costa Rica",
+      "profileUrl": "https://alpunto.cr/en/business/proximity-costa-rica",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/proximity-costa-rica",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Softon Digital (Softon ITG)",
+      "profileUrl": "https://alpunto.cr/en/business/softon-digital-softon-itg",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/softon-digital-softon-itg",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "U Devs",
+      "profileUrl": "https://alpunto.cr/en/business/u-devs",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/u-devs",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "weKnow Inc.",
+      "profileUrl": "https://alpunto.cr/en/business/weknow-inc",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/weknow-inc",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Fuzyon Agency",
+      "profileUrl": "https://alpunto.cr/en/business/fuzyon-agency",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/fuzyon-agency",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "GuruX",
+      "profileUrl": "https://alpunto.cr/en/business/gurux",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/gurux",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Cipherio",
+      "profileUrl": "https://alpunto.cr/en/business/cipherio",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/cipherio",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Elva AI",
+      "profileUrl": "https://alpunto.cr/en/business/elva-ai",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/elva-ai",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=5",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Interfaz",
+      "profileUrl": "https://alpunto.cr/en/business/interfaz",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/interfaz",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "NW Consulting Services",
+      "profileUrl": "https://alpunto.cr/en/business/nw-consulting-services",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/nw-consulting-services",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "DOTCREEK",
+      "profileUrl": "https://alpunto.cr/en/business/dotcreek",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/dotcreek",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "isthmusit software",
+      "profileUrl": "https://alpunto.cr/en/business/isthmusit-software",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/isthmusit-software",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "GTS",
+      "profileUrl": "https://alpunto.cr/en/business/gts",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/gts",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "websiteCandidate": "http://avexnet.or.jp/",
+      "websiteResolutionSource": "Wikidata official-website property; candidate URL only",
+      "domainResolutionStatus": "Wikidata suggestion; requires first-party verification"
+    },
+    {
+      "name": "Aurigital",
+      "profileUrl": "https://alpunto.cr/en/business/aurigital",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/aurigital",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Babel Costa Rica",
+      "profileUrl": "https://alpunto.cr/en/business/babel-costa-rica",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/babel-costa-rica",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Dailysoft Technologies CR",
+      "profileUrl": "https://alpunto.cr/en/business/dailysoft-technologies-cr",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/dailysoft-technologies-cr",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Datasoft",
+      "profileUrl": "https://alpunto.cr/en/business/datasoft",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/datasoft",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "DNAMIC",
+      "profileUrl": "https://alpunto.cr/en/business/dnamic",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/dnamic",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=6",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Y2K Webs",
+      "profileUrl": "https://alpunto.cr/en/business/y2k-webs",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/y2k-webs",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Jowasoft",
+      "profileUrl": "https://alpunto.cr/en/business/jowasoft",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/jowasoft",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "SevenSoft",
+      "profileUrl": "https://alpunto.cr/en/business/sevensoft",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/sevensoft",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Snow Software Solutions",
+      "profileUrl": "https://alpunto.cr/en/business/snow-software-solutions",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/snow-software-solutions",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "TICMA DIGITAL",
+      "profileUrl": "https://alpunto.cr/en/business/ticma-digital",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/ticma-digital",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Yakukua",
+      "profileUrl": "https://alpunto.cr/en/business/yakukua",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/yakukua",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Xubliminal",
+      "profileUrl": "https://alpunto.cr/en/business/xubliminal",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/xubliminal",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Unidad22",
+      "profileUrl": "https://alpunto.cr/en/business/unidad22",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/unidad22",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Incompany Solutions S.A.",
+      "profileUrl": "https://alpunto.cr/en/business/incompany-solutions-s-a",
+      "directoryProfileUrl": "https://alpunto.cr/en/business/incompany-solutions-s-a",
+      "queryLane": "Alpunto Costa Rica software developer directory",
+      "sourceUrl": "https://alpunto.cr/en/services/developers-graphic-designers?page=7",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-alpunto-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Akamai Technologies Inc Centro de Excelencia Costa Rica",
+      "categories": [
+        "Ciberseguridad",
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Ciberseguridad, Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Intel EDC",
+      "categories": [
+        "Ciberseguridad",
+        "Desarrollo de Software",
+        "Ingeniería y diseño",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Ciberseguridad, Desarrollo de Software, Ingeniería y diseño, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Intel Megalab",
+      "categories": [
+        "Ciberseguridad",
+        "Desarrollo de Software",
+        "Ingeniería y diseño",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Ciberseguridad, Desarrollo de Software, Ingeniería y diseño, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Intel R&D",
+      "categories": [
+        "Ciberseguridad",
+        "Desarrollo de Software",
+        "Ingeniería y diseño",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Ciberseguridad, Desarrollo de Software, Ingeniería y diseño, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Intel SS",
+      "categories": [
+        "Ciberseguridad",
+        "Desarrollo de Software",
+        "Ingeniería y diseño",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Ciberseguridad, Desarrollo de Software, Ingeniería y diseño, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Astrix Technology Group",
+      "categories": [
+        "Cloud",
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Cloud, Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0.04,
+        "totalScore": 40.04
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 382,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 378,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 761
+      }
+    },
+    {
+      "name": "Buildingi",
+      "categories": [
+        "Cloud",
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Cloud, Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0.04,
+        "totalScore": 40.04
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 393,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 391,
+            "pageResultCount": 9,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 784
+      }
+    },
+    {
+      "name": "Citrix",
+      "categories": [
+        "Cloud",
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Cloud, Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0.04,
+        "totalScore": 40.04
+      },
+      "websiteCandidate": "https://www.citrix.com/downloads/workspace-app/",
+      "domainResolutionStatus": "search candidate; requires first-party verification",
+      "domainSearch": {
+        "source": "Bing HTML results after DuckDuckGo had no name-matching result",
+        "checkedOn": "2026-11-10",
+        "candidates": [
+          {
+            "title": "Download Citrix Workspace app - Citrix",
+            "url": "https://www.citrix.com/downloads/workspace-app/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Citrix\" software engineering \"Latin America\""
+          },
+          {
+            "title": "Download Citrix Products - Citrix",
+            "url": "https://www.citrix.com/downloads/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Citrix\" software engineering \"Latin America\""
+          },
+          {
+            "title": "Citrix .com",
+            "url": "https://secureportal.citrix.com/MyCitrix/portal/Login.aspx",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Citrix\" software engineering \"Latin America\""
+          },
+          {
+            "title": "Citrix Workspace App - Download and install on Windows | Microsoft …",
+            "url": "https://apps.microsoft.com/detail/xpfcg3278hx4x9",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Citrix\" software engineering \"Latin America\""
+          }
+        ],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 390,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 396,
+            "pageResultCount": 9,
+            "matchingResultCount": 9
+          }
+        ],
+        "elapsedMs": 786
+      }
+    },
+    {
+      "name": "Epic Software Development",
+      "categories": [
+        "Cloud",
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Cloud, Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0.04,
+        "totalScore": 40.04
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 377,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 351,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 751
+      }
+    },
+    {
+      "name": "HP Enterprise",
+      "categories": [
+        "Cloud",
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Cloud, Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0.04,
+        "totalScore": 40.04
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 385,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 401,
+            "pageResultCount": 9,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 786
+      }
+    },
+    {
+      "name": "NTT Data Inc.",
+      "categories": [
+        "Cloud",
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Cloud, Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0.04,
+        "totalScore": 40.04
+      },
+      "websiteCandidate": "https://www.nttdata.com/global/en/",
+      "domainResolutionStatus": "search candidate; requires first-party verification",
+      "domainSearch": {
+        "source": "Bing HTML results after DuckDuckGo had no name-matching result",
+        "checkedOn": "2026-11-10",
+        "candidates": [
+          {
+            "title": "Home | NTT DATA Group",
+            "url": "https://www.nttdata.com/global/en/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"NTT Data Inc.\" software engineering \"Latin America\""
+          },
+          {
+            "title": "NTT DATA Careers",
+            "url": "https://careers.nttdata.com/global/en/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"NTT Data Inc.\" software engineering \"Latin America\""
+          }
+        ],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 354,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 419,
+            "pageResultCount": 8,
+            "matchingResultCount": 2
+          }
+        ],
+        "elapsedMs": 773
+      }
+    },
+    {
+      "name": "4Thought Marketing",
+      "categories": [
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Align Technologies Global Park",
+      "categories": [
+        "Desarrollo de Software",
+        "Ingeniería y diseño"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software, Ingeniería y diseño",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Allyis",
+      "categories": [
+        "Desarrollo de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Amazon Costa Rica",
+      "categories": [
+        "Desarrollo de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Amazon Parque Empresarial del Este",
+      "categories": [
+        "Desarrollo de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Amazon Ultrapark",
+      "categories": [
+        "Desarrollo de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Amazon ZFA",
+      "categories": [
+        "Desarrollo de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "AN Global",
+      "categories": [
+        "Desarrollo de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Avantica",
+      "categories": [
+        "Desarrollo de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Avionyx",
+      "categories": [
+        "Desarrollo de Software",
+        "Ingeniería y diseño",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software, Ingeniería y diseño, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Build Corporation",
+      "categories": [
+        "Desarrollo de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Cognizant Technologies",
+      "categories": [
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Crowley",
+      "categories": [
+        "Desarrollo de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "DXC",
+      "categories": [
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Feuji",
+      "categories": [
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "FindaSense",
+      "categories": [
+        "Desarrollo de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "GFT de Costa Rica S.A.",
+      "categories": [
+        "Desarrollo de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Glaxo Smith Kline",
+      "categories": [
+        "Desarrollo de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Global Insurance Technology",
+      "categories": [
+        "Desarrollo de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Growth Acceleration Partner - GAP",
+      "categories": [
+        "Desarrollo de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "GSK Glaxo Smith Kline Costa Rica",
+      "categories": [
+        "Desarrollo de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Havas Magma",
+      "categories": [
+        "Desarrollo de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Indecomm",
+      "categories": [
+        "Desarrollo de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Informatech",
+      "categories": [
+        "Desarrollo de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Intertec",
+      "categories": [
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "IT Convergence",
+      "categories": [
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "JD Soft",
+      "categories": [
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Kareo Costa Rica",
+      "categories": [
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Lionbridge",
+      "categories": [
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "https://lionbridge.com/",
+      "websiteResolutionSource": "Wikidata official-website property; candidate URL only",
+      "domainResolutionStatus": "Wikidata suggestion; requires first-party verification"
+    },
+    {
+      "name": "Lion Resources",
+      "categories": [
+        "Desarrollo de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Lion Resources (Publicis)",
+      "categories": [
+        "Desarrollo de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "LL Bean",
+      "categories": [
+        "Desarrollo de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "L&T Infotech",
+      "categories": [
+        "Desarrollo de Software",
+        "Ingeniería y diseño",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software, Ingeniería y diseño, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Micro Focus",
+      "categories": [
+        "Desarrollo de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "MicroPort Orthopedics",
+      "categories": [
+        "Desarrollo de Software",
+        "Ingeniería y diseño"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software, Ingeniería y diseño",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Microsoft Avenida Escazú",
+      "categories": [
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Microsoft Costa Rica",
+      "categories": [
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Microsoft El Cedral",
+      "categories": [
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Microsoft Real Cariari",
+      "categories": [
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Microsoft Torre Universal",
+      "categories": [
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Molekule",
+      "categories": [
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "NC Tech",
+      "categories": [
+        "Desarrollo de Software",
+        "Ingeniería y diseño",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software, Ingeniería y diseño, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Neustar",
+      "categories": [
+        "Desarrollo de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "https://home.neustar/",
+      "websiteResolutionSource": "Wikidata official-website property; candidate URL only",
+      "domainResolutionStatus": "Wikidata suggestion; requires first-party verification"
+    },
+    {
+      "name": "NI (former National Instruments)",
+      "categories": [
+        "Desarrollo de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Obsidiam",
+      "categories": [
+        "Desarrollo de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "OTSI",
+      "categories": [
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "POP Digital",
+      "categories": [
+        "Desarrollo de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Ridge Run",
+      "categories": [
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "SecureLink, Inc.",
+      "categories": [
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Softland",
+      "categories": [
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "UBER Center of Excellence",
+      "categories": [
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "UST Global",
+      "categories": [
+        "Desarrollo de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Via Information Tools",
+      "categories": [
+        "Desarrollo de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "VMware",
+      "categories": [
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "https://vmware.com/",
+      "websiteResolutionSource": "Wikidata official-website property; candidate URL only",
+      "domainResolutionStatus": "Wikidata suggestion; requires first-party verification"
+    },
+    {
+      "name": "Western Union",
+      "categories": [
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Wipro Limited",
+      "categories": [
+        "Desarrollo de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Wunderman Thompson",
+      "categories": [
+        "Desarrollo de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "https://wundermanthompson.com/",
+      "websiteResolutionSource": "Wikidata official-website property; candidate URL only",
+      "domainResolutionStatus": "Wikidata suggestion; requires first-party verification"
+    },
+    {
+      "name": "Ingram Micro",
+      "categories": [
+        "Ingeniería, reparación y mantenimienti",
+        "Ingeniería y diseño"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Ingeniería, reparación y mantenimienti, Ingeniería y diseño",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "http://ingrammicro.com/",
+      "websiteResolutionSource": "Wikidata official-website property; candidate URL only",
+      "domainResolutionStatus": "Wikidata suggestion; requires first-party verification"
+    },
+    {
+      "name": "Construction Link",
+      "categories": [
+        "Ingeniería y diseño"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Ingeniería y diseño",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "deferred: domain search budget reached; candidate left for manual review",
+      "domainSearchDeferred": true
+    },
+    {
+      "name": "Trane",
+      "categories": [
+        "Ingeniería y diseño"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Ingeniería y diseño",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "https://trane.com/",
+      "websiteResolutionSource": "Wikidata official-website property; candidate URL only",
+      "domainResolutionStatus": "Wikidata suggestion; requires first-party verification"
+    },
+    {
+      "name": "Avantica (now Encora)",
+      "profileUrl": "https://nearshore.cr/business-directory/avantica-now-encora/",
+      "sourceUrl": "https://nearshore.cr/business-directory/wpbdp_category/technology-it-services/",
+      "queryLane": "Nearshore Costa Rica Technology & IT Services directory",
+      "website": "",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-nearshore-directory-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileWebsiteCandidates": [],
+      "profileFetchStatus": 200,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0.44,
+        "totalScore": 40.44
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 385,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 375,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 761
+      }
+    },
+    {
+      "name": "Thomson Reuters",
+      "profileUrl": "https://nearshore.cr/business-directory/thomson-reuters/",
+      "sourceUrl": "https://nearshore.cr/business-directory/wpbdp_category/technology-it-services/page/2/",
+      "queryLane": "Nearshore Costa Rica Technology & IT Services directory",
+      "website": "",
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-nearshore-directory-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileWebsiteCandidates": [],
+      "profileFetchStatus": 200,
+      "websiteCandidate": "https://thomsonreuters.com/",
+      "websiteResolutionSource": "Wikidata official-website property; candidate URL only",
+      "domainResolutionStatus": "Wikidata suggestion; requires first-party verification"
+    }
+  ],
+  "timingsMs": {
+    "inputReadMs": 3,
+    "cacheReadAndMatchMs": 1,
+    "wikidataBatchMs": 679,
+    "liveSearchWallMs": 1654,
+    "cacheWriteMs": 3,
+    "outputWriteMs": 3,
+    "totalMs": 2351
+  }
+}

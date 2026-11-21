@@ -1,0 +1,121 @@
+{
+  "cohortId": "likes-based-2026-11-11-p001",
+  "generatedOn": "2026-11-11",
+  "sourceInput": "company-batches\\likes-based-2026-11-11-p001\\site-slice-001-needs-domain.json",
+  "inputCandidateCount": 2,
+  "resolvedCount": 0,
+  "cacheHitCount": 0,
+  "cacheMissCount": 2,
+  "wikidataCandidateCount": 0,
+  "perNameSearchCount": 2,
+  "deferredSearchCount": 0,
+  "searchBudget": null,
+  "searchConcurrency": 8,
+  "searchEngine": "both",
+  "cacheFile": "C:\\Users\\aroja\\AppData\\Local\\Temp\\the-comp-domain-resolution-cache-v1.json",
+  "candidates": [
+    {
+      "name": "Veta Virtual Inc",
+      "title": "Full Stack Software Engineer",
+      "listingLocation": "data-testid=\"location-plate\" class=\"inline-flex max-w-full items-stretch overflow-hidden rounded border-2 text-sm font-bold leading-snug @max-[12rem]:flex-wrap border-foreground text-foreground\"> Remote LATAM, Europe Remote, open to people in: LATAM, Europe <ul class=\"flex flex-wrap gap-x-1.5 text-sm text-muted [&>li:not(:last-child)]:after:content-[',']\"",
+      "category": "Software & Backend",
+      "level": "Mid level",
+      "employmentType": "Full-time",
+      "directoryJobUrl": "https://www.globallyremotejobs.com/jobs/veta-virtual-inc/full-stack-software-engineer-3e2dc3",
+      "directorySourceUrl": "https://www.globallyremotejobs.com/country/cr?page=4",
+      "directoryPostedAt": "2026-10-16T00:00:00.000Z",
+      "queryLane": "Globally Remote Jobs Costa Rica listings — official employer link pending",
+      "directoryJobUrls": [
+        "https://www.globallyremotejobs.com/jobs/veta-virtual-inc/full-stack-software-engineer-3e2dc3"
+      ],
+      "sourceJobCount": 1,
+      "sourceUrl": "https://www.globallyremotejobs.com/country/cr?page=4",
+      "sourceFile": "company-batches\\likes-based-2026-11-11-p001\\fetch-globallyremote-company-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 3.12,
+        "totalScore": 43.12
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-11",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8013,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 405,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8419
+      }
+    },
+    {
+      "name": "Codelitt",
+      "title": "Senior Data Platform Engineer (Python & Databricks)",
+      "listingLocation": "data-testid=\"location-plate\" class=\"inline-flex max-w-full items-stretch overflow-hidden rounded border-2 text-sm font-bold leading-snug @max-[12rem]:flex-wrap border-foreground text-foreground\"> Remote Latam Remote, open to people in: Latam <ul class=\"flex flex-wrap gap-x-1.5 text-sm text-muted [&>li:not(:last-child)]:after:content-[',']\"",
+      "category": "Data Platform & DevOps / SRE",
+      "level": "Senior",
+      "employmentType": "Contract",
+      "directoryJobUrl": "https://www.globallyremotejobs.com/jobs/codelitt-31db/senior-data-platform-engineer-python-and-databricks-4a138a",
+      "directorySourceUrl": "https://www.globallyremotejobs.com/country/cr?page=7",
+      "directoryPostedAt": "2026-10-02T00:00:00.000Z",
+      "queryLane": "Globally Remote Jobs Costa Rica listings — official employer link pending",
+      "directoryJobUrls": [
+        "https://www.globallyremotejobs.com/jobs/codelitt-31db/senior-data-platform-engineer-python-and-databricks-4a138a"
+      ],
+      "sourceJobCount": 1,
+      "sourceUrl": "https://www.globallyremotejobs.com/country/cr?page=7",
+      "sourceFile": "company-batches\\likes-based-2026-11-11-p001\\fetch-globallyremote-company-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0.18,
+        "totalScore": 40.18
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-11",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8013,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 383,
+            "pageResultCount": 2,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8415
+      }
+    }
+  ],
+  "timingsMs": {
+    "inputReadMs": 2,
+    "cacheReadAndMatchMs": 3,
+    "wikidataBatchMs": 873,
+    "liveSearchWallMs": 8419,
+    "cacheWriteMs": 7,
+    "outputWriteMs": 2,
+    "totalMs": 9307
+  }
+}

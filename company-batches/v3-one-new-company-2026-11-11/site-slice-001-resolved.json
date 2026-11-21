@@ -1,0 +1,2722 @@
+{
+  "cohortId": "v3-one-new-company-2026-11-11",
+  "generatedOn": "2026-11-11",
+  "sourceInput": "company-batches\\v3-one-new-company-2026-11-11\\site-slice-001-needs-domain.json",
+  "inputCandidateCount": 71,
+  "resolvedCount": 14,
+  "cacheHitCount": 53,
+  "cacheMissCount": 18,
+  "wikidataCandidateCount": 4,
+  "perNameSearchCount": 17,
+  "deferredSearchCount": 0,
+  "searchBudget": 60,
+  "searchConcurrency": 8,
+  "searchEngine": "bing",
+  "cacheFile": "C:\\Users\\aroja\\AppData\\Local\\Temp\\the-comp-domain-resolution-cache-v1.json",
+  "candidates": [
+    {
+      "name": "Intel EDC",
+      "categories": [
+        "Ciberseguridad",
+        "Desarrollo de Software",
+        "Ingeniería y diseño",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Ciberseguridad, Desarrollo de Software, Ingeniería y diseño, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "cached no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 606,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "Search HTTP 403"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 169,
+            "pageResultCount": 7,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 775
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "Astrix Technology Group",
+      "categories": [
+        "Cloud",
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Cloud, Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "cached no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 382,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 378,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 761
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "4Thought Marketing",
+      "categories": [
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "cached no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 605,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "Search HTTP 403"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 152,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 758
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "Align Technologies Global Park",
+      "categories": [
+        "Desarrollo de Software",
+        "Ingeniería y diseño"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software, Ingeniería y diseño",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "cached no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 603,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "Search HTTP 403"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 177,
+            "pageResultCount": 9,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 780
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "Avionyx",
+      "categories": [
+        "Desarrollo de Software",
+        "Ingeniería y diseño",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software, Ingeniería y diseño, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "cached no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 598,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "Search HTTP 403"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 172,
+            "pageResultCount": 10,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 771
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "Ingram Micro",
+      "categories": [
+        "Ingeniería, reparación y mantenimienti",
+        "Ingeniería y diseño"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Ingeniería, reparación y mantenimienti, Ingeniería y diseño",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "http://ingrammicro.com/",
+      "websiteResolutionSource": "Wikidata official-website property; candidate URL only",
+      "domainResolutionStatus": "Wikidata suggestion; requires first-party verification",
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "Construction Link",
+      "categories": [
+        "Ingeniería y diseño"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Ingeniería y diseño",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "cached no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8007,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 309,
+            "pageResultCount": 10,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8317
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "Swiftly",
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-software-engineer--2e47216c2987",
+      "sourceFeedUrl": "https://findremote.jobs/feeds/roles/software-engineering/locations/latin-america.json",
+      "leadOnly": true,
+      "roles": [
+        {
+          "title": "Senior Software Engineer",
+          "sourceUrl": "https://findremote.jobs/jobs/senior-software-engineer--2e47216c2987",
+          "publishedOn": "2026-09-25T06:28:31.000Z"
+        }
+      ],
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-findremote-latam-engineering-leads.json",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "http://cleverweek.com/",
+      "websiteResolutionSource": "Wikidata official-website property; candidate URL only",
+      "domainResolutionStatus": "Wikidata suggestion; requires first-party verification"
+    },
+    {
+      "name": "Akamai Technologies Inc Centro de Excelencia Costa Rica",
+      "categories": [
+        "Ciberseguridad",
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Ciberseguridad, Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "cached no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 653,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "Search HTTP 403"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 168,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 822
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "Intel Megalab",
+      "categories": [
+        "Ciberseguridad",
+        "Desarrollo de Software",
+        "Ingeniería y diseño",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Ciberseguridad, Desarrollo de Software, Ingeniería y diseño, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "cached no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 595,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "Search HTTP 403"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 191,
+            "pageResultCount": 7,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 786
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "Allyis",
+      "categories": [
+        "Desarrollo de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "cached no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 602,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "Search HTTP 403"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 143,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 745
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "L&T Infotech",
+      "categories": [
+        "Desarrollo de Software",
+        "Ingeniería y diseño",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software, Ingeniería y diseño, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "cached no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8003,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 323,
+            "pageResultCount": 6,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8326
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "Intel R&D",
+      "categories": [
+        "Ciberseguridad",
+        "Desarrollo de Software",
+        "Ingeniería y diseño",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Ciberseguridad, Desarrollo de Software, Ingeniería y diseño, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "http://www.intel.com/espanol/",
+      "domainResolutionStatus": "search candidate; requires first-party verification",
+      "domainSearch": {
+        "source": "Bing HTML results after DuckDuckGo had no name-matching result",
+        "checkedOn": "2026-11-10",
+        "candidates": [
+          {
+            "title": "Intel",
+            "url": "http://www.intel.com/espanol/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Intel R&D\" software engineering \"Latin America\""
+          },
+          {
+            "title": "Download Intel Drivers and Software",
+            "url": "https://www.intel.com/content/www/us/en/download-center/home.html",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Intel R&D\" software engineering \"Latin America\""
+          },
+          {
+            "title": "Asistente del controlador y asistencia técnica Intel ®",
+            "url": "https://www.intel.la/content/www/xl/es/support/detect.html",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Intel R&D\" software engineering \"Latin America\""
+          },
+          {
+            "title": "Intel in Costa Rica",
+            "url": "https://www.intel.la/content/www/xl/es/corporate-responsibility/intel-in-costa-rica.html",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Intel R&D\" software engineering \"Latin America\""
+          }
+        ],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 603,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "Search HTTP 403"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 184,
+            "pageResultCount": 7,
+            "matchingResultCount": 7
+          }
+        ],
+        "elapsedMs": 787
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "Buildingi",
+      "categories": [
+        "Cloud",
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Cloud, Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "cached no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 393,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 391,
+            "pageResultCount": 9,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 784
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "Cognizant Technologies",
+      "categories": [
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "https://www.cognizant.com/es/es",
+      "domainResolutionStatus": "search candidate; requires first-party verification",
+      "domainSearch": {
+        "source": "Bing HTML results after DuckDuckGo had no name-matching result",
+        "checkedOn": "2026-11-10",
+        "candidates": [
+          {
+            "title": "Desarrollador de soluciones de IA tranformando la IA en ... - Cognizant",
+            "url": "https://www.cognizant.com/es/es",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Cognizant Technologies\" software engineering \"Latin America\""
+          },
+          {
+            "title": "Construye el futuro que imaginas | Carreras en Cognizant | Cognizant ...",
+            "url": "https://careers.cognizant.com/latam-es/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Cognizant Technologies\" software engineering \"Latin America\""
+          },
+          {
+            "title": "AI Builders Bridging the Gap from AI to Impact | Cognizant",
+            "url": "https://www.cognizant.com/us/en",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Cognizant Technologies\" software engineering \"Latin America\""
+          },
+          {
+            "title": "El futuro es tuyo para construir | Carreras en Cognizant | Cognizant ...",
+            "url": "https://careers.cognizant.com/emea-es/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Cognizant Technologies\" software engineering \"Latin America\""
+          }
+        ],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 338,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "fetch failed"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 177,
+            "pageResultCount": 8,
+            "matchingResultCount": 8
+          }
+        ],
+        "elapsedMs": 515
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "MicroPort Orthopedics",
+      "categories": [
+        "Desarrollo de Software",
+        "Ingeniería y diseño"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software, Ingeniería y diseño",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "cached no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8002,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 299,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8301
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "NC Tech",
+      "categories": [
+        "Desarrollo de Software",
+        "Ingeniería y diseño",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software, Ingeniería y diseño, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "cached no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8002,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 309,
+            "pageResultCount": 9,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8310
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "Trane",
+      "categories": [
+        "Ingeniería y diseño"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Ingeniería y diseño",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "https://trane.com/",
+      "websiteResolutionSource": "Wikidata official-website property; candidate URL only",
+      "domainResolutionStatus": "Wikidata suggestion; requires first-party verification",
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "Sequoia Connect",
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceUrl": "https://findremote.jobs/jobs/senior-mobile-react-native-developer--f131dc8c35a0",
+      "sourceFeedUrl": "https://findremote.jobs/feeds/roles/software-engineering/locations/latin-america.json",
+      "leadOnly": true,
+      "roles": [
+        {
+          "title": "Senior Mobile React Native Developer",
+          "sourceUrl": "https://findremote.jobs/jobs/senior-mobile-react-native-developer--f131dc8c35a0",
+          "publishedOn": "2026-09-25T03:58:44.000Z"
+        },
+        {
+          "title": "SDET- CYPRESS- Typescript",
+          "sourceUrl": "https://findremote.jobs/jobs/sdet-cypress-typescript--dbefa180f3ee",
+          "publishedOn": "2026-09-21T20:34:05.000Z"
+        },
+        {
+          "title": "Senior SAP BASIS/FICO Consultant",
+          "sourceUrl": "https://findremote.jobs/jobs/senior-sap-basis-fico-consultant--6b94212c0730",
+          "publishedOn": "2026-09-17T20:35:03.000Z"
+        },
+        {
+          "title": "Full Stack Developer-Real Time Intelligence (Python + React)",
+          "sourceUrl": "https://findremote.jobs/jobs/full-stack-developer-real-time-intelligence-python-react--a0437a870d55",
+          "publishedOn": "2026-09-17T20:30:16.000Z"
+        },
+        {
+          "title": "QA Automation Engineer (Python)",
+          "sourceUrl": "https://findremote.jobs/jobs/qa-automation-engineer-python--86fa72ac1bf9",
+          "publishedOn": "2026-08-30T01:06:36.000Z"
+        },
+        {
+          "title": "QA/ DEV",
+          "sourceUrl": "https://findremote.jobs/jobs/qa-dev--b1903da6c969",
+          "publishedOn": "2026-08-19T20:03:02.000Z"
+        },
+        {
+          "title": "Test Lead Manual (SQL)",
+          "sourceUrl": "https://findremote.jobs/jobs/test-lead-manual-sql--29c4ffda2074",
+          "publishedOn": "2026-07-29T17:46:14.000Z"
+        }
+      ],
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-findremote-latam-engineering-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 25,
+        "preferenceScore": 3.74,
+        "totalScore": 28.740000000000002
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-11",
+        "candidates": [],
+        "requestCount": 1,
+        "engineTimings": [
+          {
+            "engine": "bing",
+            "elapsedMs": 401,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 401
+      }
+    },
+    {
+      "name": "Avantica (now Encora)",
+      "profileUrl": "https://nearshore.cr/business-directory/avantica-now-encora/",
+      "sourceUrl": "https://nearshore.cr/business-directory/wpbdp_category/technology-it-services/",
+      "queryLane": "Nearshore Costa Rica Technology & IT Services directory",
+      "website": "",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-nearshore-directory-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileWebsiteCandidates": [],
+      "profileFetchStatus": 200,
+      "domainResolutionStatus": "cached no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 385,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 375,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 761
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "Intel SS",
+      "categories": [
+        "Ciberseguridad",
+        "Desarrollo de Software",
+        "Ingeniería y diseño",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Ciberseguridad, Desarrollo de Software, Ingeniería y diseño, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "http://www.intel.com/espanol/",
+      "domainResolutionStatus": "search candidate; requires first-party verification",
+      "domainSearch": {
+        "source": "Bing HTML results after DuckDuckGo had no name-matching result",
+        "checkedOn": "2026-11-10",
+        "candidates": [
+          {
+            "title": "Intel",
+            "url": "http://www.intel.com/espanol/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Intel SS\" software engineering \"Latin America\""
+          },
+          {
+            "title": "Download Intel Drivers and Software",
+            "url": "https://www.intel.com/content/www/us/en/download-center/home.html",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Intel SS\" software engineering \"Latin America\""
+          },
+          {
+            "title": "Asistente del controlador y asistencia técnica Intel ®",
+            "url": "https://www.intel.la/content/www/xl/es/support/detect.html",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Intel SS\" software engineering \"Latin America\""
+          },
+          {
+            "title": "Intel in Costa Rica",
+            "url": "https://www.intel.la/content/www/xl/es/corporate-responsibility/intel-in-costa-rica.html",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Intel SS\" software engineering \"Latin America\""
+          }
+        ],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 604,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "Search HTTP 403"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 187,
+            "pageResultCount": 7,
+            "matchingResultCount": 7
+          }
+        ],
+        "elapsedMs": 791
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "Citrix",
+      "categories": [
+        "Cloud",
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Cloud, Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "https://www.citrix.com/downloads/workspace-app/",
+      "domainResolutionStatus": "search candidate; requires first-party verification",
+      "domainSearch": {
+        "source": "Bing HTML results after DuckDuckGo had no name-matching result",
+        "checkedOn": "2026-11-10",
+        "candidates": [
+          {
+            "title": "Download Citrix Workspace app - Citrix",
+            "url": "https://www.citrix.com/downloads/workspace-app/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Citrix\" software engineering \"Latin America\""
+          },
+          {
+            "title": "Download Citrix Products - Citrix",
+            "url": "https://www.citrix.com/downloads/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Citrix\" software engineering \"Latin America\""
+          },
+          {
+            "title": "Citrix .com",
+            "url": "https://secureportal.citrix.com/MyCitrix/portal/Login.aspx",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Citrix\" software engineering \"Latin America\""
+          },
+          {
+            "title": "Citrix Workspace App - Download and install on Windows | Microsoft …",
+            "url": "https://apps.microsoft.com/detail/xpfcg3278hx4x9",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Citrix\" software engineering \"Latin America\""
+          }
+        ],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 390,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 396,
+            "pageResultCount": 9,
+            "matchingResultCount": 9
+          }
+        ],
+        "elapsedMs": 786
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "DXC",
+      "categories": [
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "cached no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 198,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "fetch failed"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 171,
+            "pageResultCount": 2,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 370
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "Amazon Costa Rica",
+      "categories": [
+        "Desarrollo de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "https://www.amazon.com/-/es/",
+      "domainResolutionStatus": "search candidate; requires first-party verification",
+      "domainSearch": {
+        "source": "Bing HTML results after DuckDuckGo had no name-matching result",
+        "checkedOn": "2026-11-10",
+        "candidates": [
+          {
+            "title": "Amazon .com en espanol. Gasta menos. Sonríe más.",
+            "url": "https://www.amazon.com/-/es/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Amazon Costa Rica\" software engineering \"Latin America\""
+          },
+          {
+            "title": "Amazon .com",
+            "url": "https://www.amazon.com/-/es/gp/css/homepage.html",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Amazon Costa Rica\" software engineering \"Latin America\""
+          },
+          {
+            "title": "Amazon .es: compra online de electrónica, libros, deporte, hogar, moda ...",
+            "url": "https://www.amazon.es/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Amazon Costa Rica\" software engineering \"Latin America\""
+          },
+          {
+            "title": "Amazon .es: : Todos los departamentos",
+            "url": "https://www.cdn.amazon.es/b",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Amazon Costa Rica\" software engineering \"Latin America\""
+          }
+        ],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 598,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "Search HTTP 403"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 183,
+            "pageResultCount": 10,
+            "matchingResultCount": 10
+          }
+        ],
+        "elapsedMs": 781
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "Houlak",
+      "profileUrl": "https://enterpriseleague.com/company/houlak",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/houlak",
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionStatus": "cached no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-11",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8008,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 369,
+            "pageResultCount": 10,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8377
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "Yu-Track",
+      "profileUrl": "https://enterpriseleague.com/company/yutrack",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/yutrack",
+      "queryLane": "Enterprise League software directory — Chile",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/cl",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-11",
+        "candidates": [],
+        "requestCount": 1,
+        "engineTimings": [
+          {
+            "engine": "bing",
+            "elapsedMs": 518,
+            "pageResultCount": 2,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 518
+      }
+    },
+    {
+      "name": "Prosperi Global | BR",
+      "profileUrl": "https://enterpriseleague.com/company/prosperi-global-br",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/prosperi-global-br",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-11",
+        "candidates": [],
+        "requestCount": 1,
+        "engineTimings": [
+          {
+            "engine": "bing",
+            "elapsedMs": 396,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 396
+      }
+    },
+    {
+      "name": "PULPO.ec",
+      "profileUrl": "https://enterpriseleague.com/company/pulpoec",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/pulpoec",
+      "queryLane": "Enterprise League software directory — Ecuador",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ec",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-11",
+        "candidates": [],
+        "requestCount": 1,
+        "engineTimings": [
+          {
+            "engine": "bing",
+            "elapsedMs": 397,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 398
+      }
+    },
+    {
+      "name": "Epic Software Development",
+      "categories": [
+        "Cloud",
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Cloud, Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "cached no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 377,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 351,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 751
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "Amazon Parque Empresarial del Este",
+      "categories": [
+        "Desarrollo de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "cached no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 597,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "Search HTTP 403"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 168,
+            "pageResultCount": 10,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 765
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "128 Studio",
+      "profileUrl": "https://enterpriseleague.com/company/128-studio",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/128-studio",
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionStatus": "cached no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-11",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8004,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 280,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8285
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "Wally",
+      "profileUrl": "https://enterpriseleague.com/company/wally",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/wally",
+      "queryLane": "Enterprise League software directory — Peru",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/pe",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionStatus": "cached no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-11",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8009,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 321,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8331
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "Simplifica Software",
+      "profileUrl": "https://enterpriseleague.com/company/simplifica-software",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/simplifica-software",
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionStatus": "cached no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-11",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8006,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 352,
+            "pageResultCount": 2,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8358
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "Ustart",
+      "profileUrl": "https://enterpriseleague.com/company/ustart",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/ustart",
+      "queryLane": "Enterprise League software directory — Chile",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/cl",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-11",
+        "candidates": [],
+        "requestCount": 1,
+        "engineTimings": [
+          {
+            "engine": "bing",
+            "elapsedMs": 405,
+            "pageResultCount": 6,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 405
+      }
+    },
+    {
+      "name": "HP Enterprise",
+      "categories": [
+        "Cloud",
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Cloud, Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "cached no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 385,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 401,
+            "pageResultCount": 9,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 786
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "Feuji",
+      "categories": [
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "cached no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 130,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "fetch failed"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 144,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 275
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "Amazon Ultrapark",
+      "categories": [
+        "Desarrollo de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "cached no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 591,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "Search HTTP 403"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 173,
+            "pageResultCount": 10,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 764
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "Maximage - DQM Software",
+      "profileUrl": "https://enterpriseleague.com/company/maximage-dqm-software",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/maximage-dqm-software",
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-11",
+        "candidates": [],
+        "requestCount": 1,
+        "engineTimings": [
+          {
+            "engine": "bing",
+            "elapsedMs": 184,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 184
+      }
+    },
+    {
+      "name": "WayTooDigital",
+      "profileUrl": "https://enterpriseleague.com/company/waytoodigital",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/waytoodigital",
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionStatus": "cached no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-11",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8011,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 306,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8318
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "Dev Apps Mobile",
+      "profileUrl": "https://enterpriseleague.com/company/dev-apps-mobile",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/dev-apps-mobile",
+      "queryLane": "Enterprise League software directory — Peru",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/pe",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionStatus": "cached no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-11",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8004,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 362,
+            "pageResultCount": 10,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8366
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "Andes Blockchain",
+      "profileUrl": "https://enterpriseleague.com/company/andes-blockchain",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/andes-blockchain",
+      "queryLane": "Enterprise League software directory — Chile",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/cl",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-11",
+        "candidates": [],
+        "requestCount": 1,
+        "engineTimings": [
+          {
+            "engine": "bing",
+            "elapsedMs": 184,
+            "pageResultCount": 10,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 185
+      }
+    },
+    {
+      "name": "Skedway",
+      "profileUrl": "https://enterpriseleague.com/company/skedway",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/skedway",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-11",
+        "candidates": [],
+        "requestCount": 1,
+        "engineTimings": [
+          {
+            "engine": "bing",
+            "elapsedMs": 179,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 179
+      }
+    },
+    {
+      "name": "Cloudnonic Corp",
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceUrl": "https://findremote.jobs/jobs/semi-senior-frontend-developer-react-next-js--c8265f841926",
+      "sourceFeedUrl": "https://findremote.jobs/feeds/roles/software-engineering/locations/latin-america.json",
+      "leadOnly": true,
+      "roles": [
+        {
+          "title": "Semi-Senior Frontend Developer (React / Next.js)",
+          "sourceUrl": "https://findremote.jobs/jobs/semi-senior-frontend-developer-react-next-js--c8265f841926",
+          "publishedOn": "2026-09-24T00:44:46.000Z"
+        }
+      ],
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-findremote-latam-engineering-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 25,
+        "preferenceScore": 3.74,
+        "totalScore": 28.740000000000002
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-11",
+        "candidates": [],
+        "requestCount": 1,
+        "engineTimings": [
+          {
+            "engine": "bing",
+            "elapsedMs": 418,
+            "pageResultCount": 9,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 418
+      }
+    },
+    {
+      "name": "NTT Data Inc.",
+      "categories": [
+        "Cloud",
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Cloud, Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "https://www.nttdata.com/global/en/",
+      "domainResolutionStatus": "search candidate; requires first-party verification",
+      "domainSearch": {
+        "source": "Bing HTML results after DuckDuckGo had no name-matching result",
+        "checkedOn": "2026-11-10",
+        "candidates": [
+          {
+            "title": "Home | NTT DATA Group",
+            "url": "https://www.nttdata.com/global/en/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"NTT Data Inc.\" software engineering \"Latin America\""
+          },
+          {
+            "title": "NTT DATA Careers",
+            "url": "https://careers.nttdata.com/global/en/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"NTT Data Inc.\" software engineering \"Latin America\""
+          }
+        ],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 354,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 419,
+            "pageResultCount": 8,
+            "matchingResultCount": 2
+          }
+        ],
+        "elapsedMs": 773
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "Intertec",
+      "categories": [
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "https://intertec.co.cr/",
+      "domainResolutionStatus": "search candidate; requires first-party verification",
+      "domainSearch": {
+        "source": "Bing HTML results after DuckDuckGo had no name-matching result",
+        "checkedOn": "2026-11-10",
+        "candidates": [
+          {
+            "title": "INTERTEC S.A | ¡Tipos de Monitores para Cadenas de Frío!",
+            "url": "https://intertec.co.cr/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Intertec\" software engineering \"Latin America\""
+          },
+          {
+            "title": "Conózcanos | INTERTEC . SA",
+            "url": "https://intertec.co.cr/conozcanos-2/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Intertec\" software engineering \"Latin America\""
+          },
+          {
+            "title": "Company - INTERTEC -Hess GmbH",
+            "url": "https://www.intertec.info/en/company/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Intertec\" software engineering \"Latin America\""
+          },
+          {
+            "title": "INTERTEC S.A. - Cámara de Comercio Exterior de Costa Rica y de ...",
+            "url": "https://crecex.com/directorio/intertec-s-a/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Intertec\" software engineering \"Latin America\""
+          }
+        ],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8010,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 381,
+            "pageResultCount": 9,
+            "matchingResultCount": 7
+          }
+        ],
+        "elapsedMs": 8391
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "Amazon ZFA",
+      "categories": [
+        "Desarrollo de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "cached no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 598,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "Search HTTP 403"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 185,
+            "pageResultCount": 10,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 783
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "NUTHOST",
+      "profileUrl": "https://enterpriseleague.com/company/nuthost",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/nuthost",
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionStatus": "cached no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-11",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8008,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 317,
+            "pageResultCount": 10,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8325
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "InnovationDS",
+      "profileUrl": "https://enterpriseleague.com/company/innovationds",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/innovationds",
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionStatus": "cached no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-11",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8001,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 348,
+            "pageResultCount": 10,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8350
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "Reservo",
+      "profileUrl": "https://enterpriseleague.com/company/reservo",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/reservo",
+      "queryLane": "Enterprise League software directory — Chile",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/cl",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-11",
+        "candidates": [],
+        "requestCount": 1,
+        "engineTimings": [
+          {
+            "engine": "bing",
+            "elapsedMs": 190,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 190
+      }
+    },
+    {
+      "name": "MAPS S A",
+      "profileUrl": "https://enterpriseleague.com/company/maps-s-a",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/maps-s-a",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "websiteCandidate": "https://maps.apple.com/",
+      "domainResolutionStatus": "search candidate; requires first-party verification",
+      "domainSearch": {
+        "source": "Bing HTML results",
+        "checkedOn": "2026-11-11",
+        "candidates": [
+          {
+            "title": "Apple Maps : Directions, Guides & Traffic",
+            "url": "https://maps.apple.com/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"MAPS S A\" software engineering \"Latin America\""
+          }
+        ],
+        "requestCount": 1,
+        "engineTimings": [
+          {
+            "engine": "bing",
+            "elapsedMs": 281,
+            "pageResultCount": 1,
+            "matchingResultCount": 1
+          }
+        ],
+        "elapsedMs": 281
+      }
+    },
+    {
+      "name": "IT Convergence",
+      "categories": [
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "cached no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8008,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 351,
+            "pageResultCount": 5,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8359
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "AN Global",
+      "categories": [
+        "Desarrollo de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "cached no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 605,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "Search HTTP 403"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 186,
+            "pageResultCount": 10,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 791
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "Horus Studio",
+      "profileUrl": "https://enterpriseleague.com/company/horus-studio",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/horus-studio",
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionStatus": "cached no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-11",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8000,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 335,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8335
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "AgriConnected",
+      "profileUrl": "https://enterpriseleague.com/company/agriconnected",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/agriconnected",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-11",
+        "candidates": [],
+        "requestCount": 1,
+        "engineTimings": [
+          {
+            "engine": "bing",
+            "elapsedMs": 194,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 194
+      }
+    },
+    {
+      "name": "JD Soft",
+      "categories": [
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "cached no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8000,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 391,
+            "pageResultCount": 10,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8391
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "Avantica",
+      "categories": [
+        "Desarrollo de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "cached no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 600,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "Search HTTP 403"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 160,
+            "pageResultCount": 10,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 761
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "Clousis",
+      "profileUrl": "https://enterpriseleague.com/company/clousis",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/clousis",
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionStatus": "cached no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-11",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8007,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 397,
+            "pageResultCount": 10,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8404
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "Tryolabs",
+      "profileUrl": "https://enterpriseleague.com/company/tryolabs",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/tryolabs",
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionStatus": "cached no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-11",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8015,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 284,
+            "pageResultCount": 1,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8299
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "Monks",
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceUrl": "https://findremote.jobs/jobs/fullstack-engineer--8f3d4d5426d2",
+      "sourceFeedUrl": "https://findremote.jobs/feeds/roles/software-engineering/locations/latin-america.json",
+      "leadOnly": true,
+      "roles": [
+        {
+          "title": "Fullstack Engineer",
+          "sourceUrl": "https://findremote.jobs/jobs/fullstack-engineer--8f3d4d5426d2",
+          "publishedOn": "2026-09-23T04:35:04.000Z"
+        },
+        {
+          "title": "SDET Testing Engineer Lead - (Talent Pool / Future Opportunities)",
+          "sourceUrl": "https://findremote.jobs/jobs/sdet-testing-engineer-lead-talent-pool-future-opportunities--87c23f94f463",
+          "publishedOn": "2026-08-09T01:14:15.000Z"
+        }
+      ],
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-findremote-latam-engineering-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 25,
+        "preferenceScore": 3.74,
+        "totalScore": 28.740000000000002
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-11",
+        "candidates": [],
+        "requestCount": 1,
+        "engineTimings": [
+          {
+            "engine": "bing",
+            "elapsedMs": 373,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 392
+      }
+    },
+    {
+      "name": "Kareo Costa Rica",
+      "categories": [
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "cached no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8013,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 297,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8310
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "MIC Technologies",
+      "profileUrl": "https://enterpriseleague.com/company/mic-technologies",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/mic-technologies",
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "websiteCandidate": "https://account.microsoft.com/account",
+      "domainResolutionStatus": "search candidate; requires first-party verification",
+      "domainSearch": {
+        "source": "Bing HTML results after DuckDuckGo had no name-matching result",
+        "checkedOn": "2026-11-11",
+        "candidates": [
+          {
+            "title": "Microsoft account | Sign In or Create Your Account Today – Microsoft",
+            "url": "https://account.microsoft.com/account",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"MIC Technologies\" software engineering \"Latin America\""
+          },
+          {
+            "title": "Mic Test",
+            "url": "https://mictests.com/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"MIC Technologies\" software engineering \"Latin America\""
+          },
+          {
+            "title": "Mic Test – Check Microphone Online",
+            "url": "https://webcammictest.com/mic/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"MIC Technologies\" software engineering \"Latin America\""
+          },
+          {
+            "title": "Micrófonos DJI Costa Rica - iStore",
+            "url": "https://www.istore.cr/collections/microfonos-dji",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"MIC Technologies\" software engineering \"Latin America\""
+          }
+        ],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8000,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 407,
+            "pageResultCount": 10,
+            "matchingResultCount": 10
+          }
+        ],
+        "elapsedMs": 8407
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "Lionbridge",
+      "categories": [
+        "Desarrollo de Software",
+        "Mantenimiento de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software, Mantenimiento de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "websiteCandidate": "https://lionbridge.com/",
+      "websiteResolutionSource": "Wikidata official-website property; candidate URL only",
+      "domainResolutionStatus": "Wikidata suggestion; requires first-party verification",
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "Build Corporation",
+      "categories": [
+        "Desarrollo de Software"
+      ],
+      "sourceUrl": "https://www.cinde.org/es/sectores/servicios-intensivos-conocimiento/digital",
+      "queryLane": "CINDE Costa Rica digital roster: Desarrollo de Software",
+      "countrySignal": "Costa Rica digital-sector listing; verify employer and role fit on first-party sources",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-cinde-digital-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "cached no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 599,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "Search HTTP 403"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 158,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 757
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "ABsmartly",
+      "profileUrl": "https://enterpriseleague.com/company/absmartly",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/absmartly",
+      "queryLane": "Enterprise League software directory — Central America",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ca-central",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-11",
+        "candidates": [],
+        "requestCount": 1,
+        "engineTimings": [
+          {
+            "engine": "bing",
+            "elapsedMs": 192,
+            "pageResultCount": 10,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 192
+      }
+    },
+    {
+      "name": "Lighthouse Technologies",
+      "profileUrl": "https://enterpriseleague.com/company/lighthouse-technologies",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/lighthouse-technologies",
+      "queryLane": "Enterprise League software directory — Mexico",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/mx",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "websiteCandidate": "https://developer.chrome.com/docs/lighthouse/",
+      "domainResolutionStatus": "search candidate; requires first-party verification",
+      "domainSearch": {
+        "source": "Bing HTML results",
+        "checkedOn": "2026-11-11",
+        "candidates": [
+          {
+            "title": "Lighthouse | Chrome for Developers",
+            "url": "https://developer.chrome.com/docs/lighthouse/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Lighthouse Technologies\" software engineering \"Latin America\""
+          },
+          {
+            "title": "Lighthouse - Advanced Hotel Revenue Management Solutions",
+            "url": "https://www.mylighthouse.com/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Lighthouse Technologies\" software engineering \"Latin America\""
+          },
+          {
+            "title": "Lighthouse International School",
+            "url": "https://www.lighthouse.ed.cr/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Lighthouse Technologies\" software engineering \"Latin America\""
+          },
+          {
+            "title": "Lighthouse | Definition, History, Equipment, & Facts | Britannica",
+            "url": "https://www.britannica.com/technology/lighthouse",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Lighthouse Technologies\" software engineering \"Latin America\""
+          }
+        ],
+        "requestCount": 1,
+        "engineTimings": [
+          {
+            "engine": "bing",
+            "elapsedMs": 198,
+            "pageResultCount": 7,
+            "matchingResultCount": 7
+          }
+        ],
+        "elapsedMs": 198
+      }
+    },
+    {
+      "name": "SM Digital",
+      "profileUrl": "https://enterpriseleague.com/company/sm-digital-1940021",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/sm-digital-1940021",
+      "queryLane": "Enterprise League software directory — Colombia",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/co",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionStatus": "cached no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-11",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8003,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 442,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8446
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "Chimpancé Digital",
+      "profileUrl": "https://enterpriseleague.com/company/chimpance-digital",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/chimpance-digital",
+      "queryLane": "Enterprise League software directory — Argentina",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/ar",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionStatus": "cached no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-11",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8005,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 361,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8366
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "QAlified",
+      "profileUrl": "https://enterpriseleague.com/company/qalified",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/qalified",
+      "queryLane": "Enterprise League software directory — Uruguay",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/uy",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionStatus": "cached no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-11",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8008,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 325,
+            "pageResultCount": 2,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8333
+      },
+      "domainResolutionCacheHit": true
+    },
+    {
+      "name": "Cortex",
+      "profileUrl": "https://enterpriseleague.com/company/cortex",
+      "directoryProfileUrl": "https://enterpriseleague.com/company/cortex",
+      "queryLane": "Enterprise League software directory — Brazil",
+      "sourceUrl": "https://enterpriseleague.com/directory/software/br",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-enterprise-league-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 0,
+        "preferenceScore": 0,
+        "totalScore": 0
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-11",
+        "candidates": [],
+        "requestCount": 1,
+        "engineTimings": [
+          {
+            "engine": "bing",
+            "elapsedMs": 178,
+            "pageResultCount": 2,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 178
+      }
+    },
+    {
+      "name": "Catch Creation",
+      "queryLane": "Find Remote Jobs current software-engineering LATAM feed",
+      "sourceUrl": "https://findremote.jobs/jobs/web-developer-e-commerce-internal-tools--c288eb686bf1",
+      "sourceFeedUrl": "https://findremote.jobs/feeds/roles/software-engineering/locations/latin-america.json",
+      "leadOnly": true,
+      "roles": [
+        {
+          "title": "Web Developer – E-Commerce & Internal Tools",
+          "sourceUrl": "https://findremote.jobs/jobs/web-developer-e-commerce-internal-tools--c288eb686bf1",
+          "publishedOn": "2026-09-22T07:40:15.000Z"
+        }
+      ],
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-findremote-latam-engineering-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionPriority": {
+        "geographyScore": 25,
+        "preferenceScore": 3.74,
+        "totalScore": 28.740000000000002
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-11",
+        "candidates": [],
+        "requestCount": 1,
+        "engineTimings": [
+          {
+            "engine": "bing",
+            "elapsedMs": 408,
+            "pageResultCount": 8,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 409
+      }
+    },
+    {
+      "name": "Veta Virtual Inc",
+      "title": "Full Stack Software Engineer",
+      "listingLocation": "data-testid=\"location-plate\" class=\"inline-flex max-w-full items-stretch overflow-hidden rounded border-2 text-sm font-bold leading-snug @max-[12rem]:flex-wrap border-foreground text-foreground\"> Remote LATAM, Europe Remote, open to people in: LATAM, Europe <ul class=\"flex flex-wrap gap-x-1.5 text-sm text-muted [&>li:not(:last-child)]:after:content-[',']\"",
+      "category": "Software & Backend",
+      "level": "Mid level",
+      "employmentType": "Full-time",
+      "directoryJobUrl": "https://www.globallyremotejobs.com/jobs/veta-virtual-inc/full-stack-software-engineer-3e2dc3",
+      "directorySourceUrl": "https://www.globallyremotejobs.com/country/cr?page=4",
+      "directoryPostedAt": "2026-10-16T00:00:00.000Z",
+      "queryLane": "Globally Remote Jobs Costa Rica listings — official employer link pending",
+      "directoryJobUrls": [
+        "https://www.globallyremotejobs.com/jobs/veta-virtual-inc/full-stack-software-engineer-3e2dc3"
+      ],
+      "sourceJobCount": 1,
+      "sourceUrl": "https://www.globallyremotejobs.com/country/cr?page=4",
+      "sourceFile": "company-batches\\v3-one-new-company-2026-11-11\\fetch-globallyremote-company-leads.json",
+      "needsOfficialDomainResolution": true,
+      "domainResolutionStatus": "cached no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-11",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8013,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 405,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8419
+      },
+      "domainResolutionCacheHit": true
+    }
+  ],
+  "timingsMs": {
+    "inputReadMs": 3,
+    "cacheReadAndMatchMs": 4,
+    "wikidataBatchMs": 619,
+    "liveSearchWallMs": 758,
+    "cacheWriteMs": 7,
+    "outputWriteMs": 3,
+    "totalMs": 1397
+  }
+}

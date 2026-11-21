@@ -1,0 +1,1189 @@
+{
+  "cohortId": "likes-based-2026-11-10-p002",
+  "generatedOn": "2026-11-10",
+  "sourceInput": "company-batches\\likes-based-2026-11-10-p002\\site-slice-003-needs-domain.json",
+  "inputCandidateCount": 29,
+  "resolvedCount": 2,
+  "cacheHitCount": 0,
+  "cacheMissCount": 29,
+  "wikidataCandidateCount": 0,
+  "perNameSearchCount": 29,
+  "deferredSearchCount": 0,
+  "searchBudget": null,
+  "searchConcurrency": 8,
+  "searchEngine": "both",
+  "cacheFile": "C:\\Users\\aroja\\AppData\\Local\\Temp\\the-comp-domain-resolution-cache-v1.json",
+  "candidates": [
+    {
+      "name": "Erial BQ S.A",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3101295184",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8010,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 417,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8428
+      }
+    },
+    {
+      "name": "Arrendadora ATI S.A.",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/30123456789254",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8010,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 426,
+            "pageResultCount": 10,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8436
+      }
+    },
+    {
+      "name": "H",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3-102-100300",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8010,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 420,
+            "pageResultCount": 6,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8430
+      }
+    },
+    {
+      "name": "Human Security",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3-102-100300",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8009,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 407,
+            "pageResultCount": 2,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8416
+      }
+    },
+    {
+      "name": "Compuchar S.A",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3-102-100180",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8008,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 421,
+            "pageResultCount": 3,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8430
+      }
+    },
+    {
+      "name": "Litografía e Imprenta Porras JV, S.A.",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/107060373",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8008,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 410,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8418
+      }
+    },
+    {
+      "name": "Asistencia Informática",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/TEMP-CR-1793393041-1144",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8007,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 371,
+            "pageResultCount": 9,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8404
+      }
+    },
+    {
+      "name": "Derkon Ldk S.A",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3101399856",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8007,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 407,
+            "pageResultCount": 10,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8414
+      }
+    },
+    {
+      "name": "Alfa GDR Tecnologias S.A.",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/98586316",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8013,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 299,
+            "pageResultCount": 7,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8313
+      }
+    },
+    {
+      "name": "PROINSA PROYECTOS INTELIGENTES",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3101647732",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8006,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 288,
+            "pageResultCount": 10,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8294
+      }
+    },
+    {
+      "name": "Paulo Sossa",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/110420876",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8004,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 330,
+            "pageResultCount": 10,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8334
+      }
+    },
+    {
+      "name": "Optilez Inc, S.A.",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3-101-392400",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8003,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 270,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8273
+      }
+    },
+    {
+      "name": "Conectia Soluciones Integrales de Centro",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3101722002",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8001,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 292,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8294
+      }
+    },
+    {
+      "name": "Cyberfuel",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3101246627",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "websiteCandidate": "https://cyberfuel.com/",
+      "domainResolutionStatus": "search candidate; requires first-party verification",
+      "domainSearch": {
+        "source": "Bing HTML results after DuckDuckGo had no name-matching result",
+        "checkedOn": "2026-11-10",
+        "candidates": [
+          {
+            "title": "¡Su sitio web en manos de verdaderos expertos! | Cyberfuel .com",
+            "url": "https://cyberfuel.com/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Cyberfuel\" software engineering \"Latin America\""
+          },
+          {
+            "title": "Contáctenos - Cyberfuel .com",
+            "url": "https://cyberfuel.com/contactenos/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Cyberfuel\" software engineering \"Latin America\""
+          },
+          {
+            "title": "Cyberfuel S.A. - GS1 Costa Rica",
+            "url": "https://gs1cr.org/directorio_de_provee/cyberfuel-sa/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Cyberfuel\" software engineering \"Latin America\""
+          },
+          {
+            "title": "Cyberfuel S.A. - Esencial Costa Rica",
+            "url": "https://www.esencialcostarica.com/micrositio/cyberfuel-s-a/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"Cyberfuel\" software engineering \"Latin America\""
+          }
+        ],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8009,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 343,
+            "pageResultCount": 7,
+            "matchingResultCount": 5
+          }
+        ],
+        "elapsedMs": 8352
+      }
+    },
+    {
+      "name": "CORPORACION CF",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3-102-201048",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8007,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 298,
+            "pageResultCount": 10,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8306
+      }
+    },
+    {
+      "name": "Gori Albisa",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/7654358",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8006,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 306,
+            "pageResultCount": 10,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8312
+      }
+    },
+    {
+      "name": "MTM Costa Rica",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/5435323433",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8014,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 271,
+            "pageResultCount": 0,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8286
+      }
+    },
+    {
+      "name": "MULTISERVICIOS ABGN CR.",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3-102-021086",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8000,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 294,
+            "pageResultCount": 2,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8294
+      }
+    },
+    {
+      "name": "SOPORTE XPERTO CR",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3-102-021084",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=9",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 9,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8007,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 304,
+            "pageResultCount": 10,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8311
+      }
+    },
+    {
+      "name": "Grupo Printer de Costa Rica",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/58758657645634",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=10",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 10,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8005,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 306,
+            "pageResultCount": 10,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8311
+      }
+    },
+    {
+      "name": "ALUCATECH S.A",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3-102-021073",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=10",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 10,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8003,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 295,
+            "pageResultCount": 10,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8298
+      }
+    },
+    {
+      "name": "HIGH TECH CR",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3-102-201047",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=10",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 10,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8010,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 291,
+            "pageResultCount": 10,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8301
+      }
+    },
+    {
+      "name": "MBT COMPUTACIÓN",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3-102-021057",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=10",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 10,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8004,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 303,
+            "pageResultCount": 9,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8307
+      }
+    },
+    {
+      "name": "Leandro Barrientos",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/TEMP-CR-1793985443-8013",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=10",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 10,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8000,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 291,
+            "pageResultCount": 2,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8291
+      }
+    },
+    {
+      "name": "Database Technologies S.A",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/3101188113",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=10",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 10,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8004,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 415,
+            "pageResultCount": 10,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8419
+      }
+    },
+    {
+      "name": "D.T. División de Tecnología LIMCE S.A.",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/5556142",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=10",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 10,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8014,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 382,
+            "pageResultCount": 5,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8396
+      }
+    },
+    {
+      "name": "TECNOLAB",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/5556075",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=10",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 10,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8005,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 337,
+            "pageResultCount": 3,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8342
+      }
+    },
+    {
+      "name": "Megahardware",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/5556495",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=10",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 10,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "domainResolutionStatus": "no name-matching official-site candidate found",
+      "domainSearch": {
+        "source": "No search engine returned a name-matching candidate",
+        "checkedOn": "2026-11-10",
+        "candidates": [],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8003,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 348,
+            "pageResultCount": 8,
+            "matchingResultCount": 0
+          }
+        ],
+        "elapsedMs": 8351
+      }
+    },
+    {
+      "name": "PBS COSTA RICA",
+      "profileUrl": "https://www.proveedoresdecostarica.com/stream/empresa/301009515",
+      "sourceUrl": "https://www.proveedoresdecostarica.com/proveedores/software?p=10",
+      "queryLane": "Proveedores de Costa Rica software suppliers directory",
+      "sourcePage": 10,
+      "sourceFile": "company-batches\\likes-based-2026-11-10-p001\\fetch-proveedores-software-leads.json",
+      "needsOfficialDomainResolution": true,
+      "profileFetchStatus": "HTTP 429",
+      "domainResolutionPriority": {
+        "geographyScore": 40,
+        "preferenceScore": 0,
+        "totalScore": 40
+      },
+      "websiteCandidate": "https://www.pbs.org/",
+      "domainResolutionStatus": "search candidate; requires first-party verification",
+      "domainSearch": {
+        "source": "Bing HTML results after DuckDuckGo had no name-matching result",
+        "checkedOn": "2026-11-10",
+        "candidates": [
+          {
+            "title": "PBS : Public Broadcasting Service",
+            "url": "https://www.pbs.org/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"PBS COSTA RICA\" software engineering \"Latin America\""
+          },
+          {
+            "title": "PBS KIDS",
+            "url": "https://pbskids.org/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"PBS COSTA RICA\" software engineering \"Latin America\""
+          },
+          {
+            "title": "PBS Group — Technology & AI Solutions for Latin America & The …",
+            "url": "https://www.pbs.group/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"PBS COSTA RICA\" software engineering \"Latin America\""
+          },
+          {
+            "title": "PBS News Hour",
+            "url": "https://www.pbs.org/show/newshour/",
+            "score": 3,
+            "engine": "bing",
+            "query": "\"PBS COSTA RICA\" software engineering \"Latin America\""
+          }
+        ],
+        "requestCount": 2,
+        "engineTimings": [
+          {
+            "engine": "ddg",
+            "elapsedMs": 8000,
+            "pageResultCount": 0,
+            "matchingResultCount": 0,
+            "error": "The operation was aborted due to timeout"
+          },
+          {
+            "engine": "bing",
+            "elapsedMs": 374,
+            "pageResultCount": 7,
+            "matchingResultCount": 7
+          }
+        ],
+        "elapsedMs": 8374
+      }
+    }
+  ],
+  "timingsMs": {
+    "inputReadMs": 2,
+    "cacheReadAndMatchMs": 3,
+    "wikidataBatchMs": 846,
+    "liveSearchWallMs": 33414,
+    "cacheWriteMs": 7,
+    "outputWriteMs": 3,
+    "totalMs": 34276
+  }
+}
